@@ -1,0 +1,70 @@
+registerTopic({
+  id: 'ieee754', order: 7, icon: '🔬', title: 'Reálná čísla: pohyblivá řádová čárka (IEEE 754)', src: 'podklady',
+  summary: 'Formát IEEE 754 single (32 bitů): znaménko, exponent s posunutou nulou, mantisa; speciální hodnoty (nula, ∞, NaN, denormalizovaná čísla) a varianty přesnosti – s vypočtenými příklady.',
+  vocab: [
+    { w: 'Pohyblivá řádová čárka', x: 'Zápis reálného čísla jako ±1,m · 2<sup>e</sup> (znaménko, mantisa, exponent).' },
+    { w: 'Mantisa (m)', x: 'Desetinná část za úvodní „1,“ (ta se neukládá – skrytá jednička).' },
+    { w: 'Exponent (e)', x: 'Mocnina dvojky; ukládá se s posunem: e′ = e + 127.' },
+    { w: 'Kód s posunutou nulou', x: 'Exponent bez znaménka: k reálnému exponentu se přičte bias 2<sup>8−1</sup> − 1 = 127.' },
+    { w: 'NaN', x: 'Not a Number – nedefinovaná hodnota (např. 0/0).' }
+  ],
+  key: [
+    '<b>x′ = ± 1,m · 2<sup>e</sup></b>; 32 bitů = <b>1 znaménko + 8 exponent + 23 mantisa</b>.',
+    'Exponent e ∈ ⟨−126; 127⟩, ukládá se jako <b>e′ = e + 127</b> (bias 127).',
+    'Znaménko: <b>0 = nezáporné, 1 = záporné</b>.',
+    '<b>Nula:</b> e′ = 0 a m = 0 · <b>∞:</b> e′ = samé 1, m = 0 · <b>NaN:</b> e′ = samé 1, m ≠ 0 · <b>denormalizovaná:</b> e′ = 0, m ≠ 0 (tvar 0,m·2<sup>e</sup>).',
+    'Reálná čísla se ukládají <b>přibližně</b> – většina desetinných čísel (0,1) nemá konečný binární rozvoj.'
+  ],
+  sections: [
+    { title: 'Formát čísla IEEE 754 (single)', blocks: [
+      { t: 'def', term: 'Kódování', x: '32bitové kódové slovo x′ reprezentuje reálné číslo ve tvaru <b>x = ± 1,m · 2<sup>e</sup></b>, kde mantisa m = Σ<sub>i=1…23</sub> a<sub>23−i</sub> · 2<sup>−i</sup>.' },
+      { t: 'grid', head: ['Bit', '31', '30 … 23', '22 … 0'], rows: [
+        ['Význam', 'znaménko (±)', 'exponent e′ (8 bitů)', 'mantisa m′ (23 bitů)'],
+        ['Hodnota', '0 = +, 1 = −', 'e′ = e + 127', 'bity za „1,“']
+      ] },
+      { t: 'flow', title: 'Zakódování čísla', steps: [
+        { h: 'Převeď do dvojkové', x: 'celá i desetinná část' },
+        { h: 'Normalizuj', x: 'posuň čárku na tvar 1,m · 2<sup>e</sup>' },
+        { h: 'Exponent', x: 'e′ = e + 127 → 8 bitů' },
+        { h: 'Složení', x: 'znaménko | e′ | m (doplň nuly vpravo do 23 bitů)' }
+      ] },
+      { t: 'ex', x: '<b>−6,5:</b> 6,5 = 110,1<sub>2</sub> = 1,101 · 2<sup>2</sup>. Znaménko 1; e′ = 2 + 127 = 129 = 10000001; m = 101 0000 0000 0000 0000 0000. Výsledek <b>1 | 10000001 | 10100000000000000000000</b> = <b>C0D00000</b><sub>16</sub>.' },
+      { t: 'ex', x: '<b>1,0</b> = 1,0 · 2<sup>0</sup> → e′ = 127 = 01111111, m = 0 → <b>0 | 01111111 | 000…0</b> = 3F800000<sub>16</sub>. <b>10,0</b> = 1,01 · 2<sup>3</sup> → e′ = 130 = 10000010 → 41200000<sub>16</sub>.' },
+      { t: 'tip', x: 'Dekódování: x = (−1)<sup>s</sup> · (1 + m) · 2<sup>e′ − 127</sup>.' }
+    ] },
+    { title: 'Speciální hodnoty', blocks: [
+      { t: 'table', head: ['Hodnota', 'Znaménko', 'Exponent e′', 'Mantisa m'], rows: [
+        ['nula (+0 / −0)', '0 / 1', 'samé nuly', '0'],
+        ['nekonečno (±∞)', '0 / 1', 'samé jedničky', '0'],
+        ['NaN (nedefinováno)', 'libovolné', 'samé jedničky', 'libovolná <b>nenulová</b>'],
+        ['velmi malá čísla (denormalizovaná)', '±', 'samé nuly', 'libovolná <b>nenulová</b> – tvar ±0,m · 2<sup>e</sup>']
+      ] },
+      { t: 'p', x: 'Denormalizovaná čísla zaplňují mezeru mezi nulou a nejmenším normalizovaným číslem.' }
+    ] },
+    { title: 'Varianty přesnosti', blocks: [
+      { t: 'grid', head: ['Formát (IEEE 754-2008)', 'binary16', 'binary32 (single)', 'binary64 (double)', 'binary128'], rows: [
+        ['Šířka slova (bit)', '16', '32', '64', '128'],
+        ['Znaménko (bit)', '1', '1', '1', '1'],
+        ['Exponent (bit)', '5', '8', '11', '15'],
+        ['Mantisa (bit)', '10', '23', '52', '112'],
+        ['Max. exponent', '15', '127', '1 023', '16 383']
+      ] },
+      { t: 'tip', x: 'Součet bitů vždy vychází na šířku slova: 1 + 8 + 23 = 32; 1 + 11 + 52 = 64. Čím víc bitů mantisy, tím větší přesnost; čím víc bitů exponentu, tím větší rozsah.' }
+    ] }
+  ],
+  mistakes: [
+    'Zapomenout posun exponentu o <b>127</b> (ukládá se e′, ne e).',
+    'Do mantisy zapsat i úvodní jedničku – ta je skrytá („1,m“).',
+    'Zaměnit nulu (e′ = 0, m = 0) a denormalizované číslo (e′ = 0, m ≠ 0) nebo ∞ a NaN (liší se mantisou).',
+    'Myslet si, že reálná čísla se ukládají přesně – 0,1 nemá konečný binární rozvoj.'
+  ],
+  qa: [
+    { q: 'Jaký má formát číslo IEEE 754 (32 bitů)?', a: 'x′ = ±1,m · 2<sup>e</sup>: 1 bit znaménko (0 = +, 1 = −), 8 bitů exponent e′ = e + 127, 23 bitů mantisa.' },
+    { q: 'Co je kód s posunutou nulou a proč se používá?', a: 'Exponent se ukládá jako e′ = e + 127, takže jde ukládat jako nezáporné číslo bez znaménka (e ∈ ⟨−126; 127⟩ → e′ ∈ ⟨1; 254⟩).' },
+    { q: 'Zakódujte číslo −6,5 do IEEE 754 single.', a: '6,5 = 1,101 · 2<sup>2</sup>; e′ = 129 = 10000001; m = 101 000…; znaménko 1 → 1 10000001 10100000000000000000000 = C0D00000<sub>16</sub>.' },
+    { q: 'Jak se kódují speciální hodnoty: nula, nekonečno, NaN?', a: 'Nula: e′ samé nuly a m = 0. Nekonečno: e′ samé jedničky a m = 0. NaN: e′ samé jedničky a m ≠ 0. Znaménko u nuly a nekonečna rozlišuje +/−.' },
+    { q: 'Co jsou denormalizovaná čísla?', a: 'Velmi malá čísla blízko nuly: e′ = samé nuly a m ≠ 0; mají tvar ±0,m · 2<sup>e</sup>.' },
+    { q: 'Kolik bitů mají exponent a mantisa ve formátu double (binary64)?', a: '11 bitů exponent, 52 bitů mantisa, 1 bit znaménko; max. exponent 1 023.' },
+    { q: 'Vyjmenujte varianty přesnosti IEEE 754-2008.', a: 'binary16 (16 b, exp. 5, mant. 10), binary32 / single (32 b, 8, 23), binary64 / double (64 b, 11, 52), binary128 (128 b, 15, 112).' }
+  ]
+});

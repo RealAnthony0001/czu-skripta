@@ -26,6 +26,7 @@ function block(b) {
     case 'nums': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="nums">${b.items.map(i => `<div class="nm"><b>${i.n}</b>${i.u ? `<em>${i.u}</em>` : ''}<span>${i.x}</span></div>`).join('')}</div></div>`;
     case 'icons': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="icons">${b.items.map(i => `<div class="ic"><div class="ico">${i.i}</div><b>${i.h}</b>${i.x ? `<span>${i.x}</span>` : ''}</div>`).join('')}</div></div>`;
     case 'versus': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="vsb" style="--n:${b.cols.length}">${b.cols.map((c, k) => `<div class="vcol c${k}"><div class="vh">${c.h}</div><ul>${c.items.map(i => `<li>${i}</li>`).join('')}</ul></div>`).join('')}${b.cols.length === 2 ? '<div class="x">×</div>' : ''}</div></div>`;
+    case 'grid': return `<div class="tbl"><table><tr>${b.head.map(h => `<th>${h}</th>`).join('')}</tr>${b.rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</table></div>`;
     case 'def': return `<div class="box def"><span class="lb">${b.term}</span>${b.x}</div>`;
     case 'law': return `<div class="box law"><span class="lb">${b.ref}</span>${b.x}</div>`;
     default: return `<div class="box ${b.t}"><span class="lb">${LBL[b.t] || b.t}</span>${b.x}</div>`;
