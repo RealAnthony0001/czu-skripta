@@ -22,6 +22,7 @@ registerTopic({
         ['Význam', 'znaménko (±)', 'exponent e′ (8 bitů)', 'mantisa m′ (23 bitů)'],
         ['Hodnota', '0 = +, 1 = −', 'e′ = e + 127', 'bity za „1,“']
       ] },
+      { t: 'svg', title: 'Rozložení 32 bitů', x: UPP.ieeeDiagram() },
       { t: 'flow', title: 'Zakódování čísla', steps: [
         { h: 'Převeď do dvojkové', x: 'celá i desetinná část' },
         { h: 'Normalizuj', x: 'posuň čárku na tvar 1,m · 2<sup>e</sup>' },

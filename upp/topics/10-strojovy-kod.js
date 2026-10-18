@@ -31,6 +31,7 @@ registerTopic({
     ] },
     { title: 'Činnost procesoru: dvě fáze', blocks: [
       { t: 'p', x: 'Po spuštění programu procesor postupně zpracovává instrukce; adresa zpracovávané instrukce je v čítači instrukcí (IP). Každá instrukce prochází dvěma fázemi:' },
+      { t: 'svg', title: 'Instrukční cyklus', x: UPP.cycleDiagram() },
       { t: 'versus', cols: [
         { h: 'Výběrová fáze', items: ['řadič přenese obsah <b>IP</b> na adresní sběrnici a vydá příkaz ke čtení z HP', 'paměť pošle obsah buňky na datovou sběrnici', 'řadič uloží instrukci do <b>RI</b>', 'obsah IP se zvýší o 1'] },
         { h: 'Prováděcí fáze', items: ['instrukce v RI se <b>dekóduje</b>', 'je-li příznak modifikace, přičte se obsah <b>IND</b> k operandu', 'řadič naadresuje HP a přečte vstupní operandy', 'ALU provede instrukci, výsledek do <b>střadače</b>', 'řadič přenese výsledek ze střadače na adresu výstupního operandu'] }
@@ -44,6 +45,7 @@ registerTopic({
         ['nepřímá', '⟨⟨X⟩⟩ → S', 'na adrese X je teprve adresa operandu', '⟨⟨100⟩⟩ = ⟨102⟩ = <b>101</b>'],
         ['s posuvem', '⟨X + ⟨R⟩⟩ → S', 'k obsahu R se přičte X, použije se obsah výsledné adresy', 'X = 100, IND = 1: ⟨101⟩ = <b>40</b>']
       ] },
+      { t: 'svg', title: 'Adresace nad stejnou pamětí', x: UPP.addrDiagram(), cap: 'Paměť: adresa 100 → 102, 101 → 40, 102 → 101. Zvýrazněné buňky se čtou, v pořadí šipek.' },
       { t: 'table', head: ['Adresace s posuvem', 'R', 'X'], rows: [
         ['relativní', 'čítač instrukcí', 'posuv (±)'],
         ['bázová (segmentová)', 'základní adresa v HP (báze, segment)', 'kladný posuv'],

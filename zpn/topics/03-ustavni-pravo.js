@@ -58,11 +58,7 @@ registerTopic({
         'Čl. 9: Ústavu lze měnit jen ústavními zákony. Čl. 11: území je nedílný celek, hranice lze měnit jen ústavním zákonem.',
         'Čl. 12: nikdo nemůže být proti své vůli zbaven státního občanství. Čl. 13: hlavní město Praha.'
       ] },
-      { t: 'tree', title: 'Tripartita – dělba státní moci', root: { h: 'Státní moc', x: 'vykonává lid (čl. 2)', kids: [
-        { h: 'Zákonodárná', kids: [{ h: 'Poslanecká sněmovna' }, { h: 'Senát' }] },
-        { h: 'Výkonná', kids: [{ h: 'Prezident' }, { h: 'Vláda' }] },
-        { h: 'Soudní', kids: [{ h: 'Ústavní soud' }, { h: 'Obecné soudy' }] }
-      ] } },
+      { t: 'svg', title: 'Tripartita – dělba státní moci', x: ZPN.powersDiagram() },
       { t: 'icons', title: 'Státní symboly (čl. 14)', items: [
         { i: '🛡️', h: 'Velký státní znak', x: 'čtyřpolný štít: 1. a 4. pole stříbrný dvouocasý lev se zlatou korunou (Čechy); 2. pole červeno-stříbrně šachovaná orlice se zlatou korunou na modrém pozadí (Morava); 3. pole černá orlice s červenou zbrojí a zlatou korunou, stříbrný půlměsíc zakončený jetelovými lístky s křížkem na zlatém pozadí (Slezsko)' },
         { i: '🦁', h: 'Malý státní znak', x: 'stříbrný dvouocasý lev ve skoku, zlatá koruna, červené pozadí' },
@@ -75,7 +71,7 @@ registerTopic({
     ] },
     { title: 'Moc zákonodárná – Parlament', blocks: [
       { t: 'p', x: 'Orgánem moci zákonodárné je <b>Parlament ČR</b> o dvou komorách – Poslanecká sněmovna (PS) a Senát (čl. 15). Nikdo nemůže být současně členem obou komor.' },
-      { t: 'versus', title: 'Poslanecká sněmovna × Senát', cols: [
+      { t: 'versus', title: 'Poslanecká sněmovna × Senát', x: 'Obě komory spolu tvoří Parlament, ale mají odlišnou roli. Poslanecká sněmovna má 200 poslanců volených na 4 roky poměrným systémem, takže zrcadlí rozložení sil politických stran; vláda odpovídá právě jí a Sněmovnu lze rozpustit. Senát má 81 senátorů volených na 6 let většinovým systémem v obvodech a každé 2 roky se obmění jen třetina z nich. Senát rozpustit nelze, a proto funguje i tehdy, když Sněmovna rozpuštěna je – v takové situaci může přijímat zákonná opatření. Vyšší věková hranice pro kandidaturu (40 let oproti 21) a postupná obměna mají přispívat ke stabilitě.', cols: [
         { h: 'Poslanecká sněmovna', items: ['<b>200</b> poslanců', '<b>4 roky</b>', 'Poměrné zastoupení (hlasy stranám)', 'Aktivní právo <b>18 let</b> (nejpozději v den voleb)', 'Pasivní právo <b>21 let</b>', 'Lze rozpustit (právo prezidenta)'] },
         { h: 'Senát', items: ['<b>81</b> senátorů', '<b>6 let</b>; každé 2 roky se volí 1/3', 'Většinový (zvolen kandidát s nadpoloviční většinou v obvodu, případně 2. kolo)', 'Aktivní právo <b>18 let</b>', 'Pasivní právo <b>40 let</b>', '<b>Nelze</b> rozpustit'] }
       ] },
@@ -190,7 +186,7 @@ registerTopic({
       ] }
     ] },
     { title: 'NKÚ, ČNB, územní samospráva', blocks: [
-      { t: 'versus', title: 'Nejvyšší kontrolní úřad × Česká národní banka', cols: [
+      { t: 'versus', title: 'Nejvyšší kontrolní úřad × Česká národní banka', x: 'Obě instituce jsou nezávislé a každá má v Ústavě vlastní hlavu, ale hlídají něco jiného. Nejvyšší kontrolní úřad kontroluje, jak stát hospodaří se svým majetkem a s penězi ze státního rozpočtu, aby se s prostředky daňových poplatníků nakládalo hospodárně. Česká národní banka je ústřední banka státu: pečuje o stabilitu měny, určuje měnovou politiku, vydává bankovky a mince a dohlíží na banky, pojišťovny a kapitálový trh. Zjednodušeně: NKÚ hlídá, jak stát utrácí, ČNB hlídá hodnotu peněz a stabilitu finančního systému.', cols: [
         { h: 'NKÚ (čl. 97)', items: ['Nezávislý orgán, nezávislost institucionální i finanční; v čele prezident NKÚ', 'Kontroluje hospodaření se státním majetkem, finanční prostředky vybírané podle zákona a plnění státního rozpočtu', 'Cíl: hospodárné nakládání s prostředky daňových poplatníků', 'Zákon č. 166/1993 Sb.; první kontrolní instituce u nás: Dvorská účetní komora (1761)'] },
         { h: 'ČNB (čl. 98)', items: ['Ústřední a emisní banka státu, sídlo Praha', 'Hlavní úkol: péče o stabilitu měny; určuje měnovou politiku, vydává bankovky a mince, řídí peněžní oběh a platební styk', 'Dohlíží na bankovní sektor, kapitálový trh, pojišťovnictví, penzijní připojištění, družstevní záložny a další', 'Zákon č. 6/1993 Sb.'] }
       ] },
@@ -270,7 +266,7 @@ registerTopic({
       { t: 'warn', x: 'Svoboda vyznání, projevu, shromažďování a sdružování nejsou neomezená – lze je omezit zákonem v případech stanovených Listinou (např. čl. 14 odst. 3 uvádí taxativní důvody pro omezení pohybu a pobytu). Povinnosti lze ukládat jen na základě zákona (čl. 4).' }
     ] },
     { title: 'Ochránce práv a subjekty ústavního práva', blocks: [
-      { t: 'versus', title: 'Veřejný ochránce práv × Evropský veřejný ochránce práv', cols: [
+      { t: 'versus', title: 'Veřejný ochránce práv × Evropský veřejný ochránce práv', x: 'Oba ochránci pomáhají lidem proti špatně fungujícím úřadům, liší se tím, na které úřady dosáhnou. Český veřejný ochránce práv prošetřuje postup českých úřadů včetně jejich nečinnosti, dohlíží na zacházení s lidmi omezenými na svobodě a pomáhá obětem diskriminace. Evropský veřejný ochránce práv vyšetřuje stížnosti na nesprávný postup institucí a orgánů Evropské unie, například Evropské komise. Ani jeden nemůže rozhodnutí úřadu zrušit ani změnit – mají jen doporučovací pravomoc a jejich síla spočívá v autoritě a v tom, že úřady musí na jejich zjištění reagovat.', cols: [
         { h: 'Veřejný ochránce práv (ombudsman)', items: [
           'V ČR od roku 2000',
           'Volí <b>Poslanecká sněmovna</b> na <b>6 let</b>, nejvýše 2 po sobě jdoucí období; věk <b>40 let</b>',

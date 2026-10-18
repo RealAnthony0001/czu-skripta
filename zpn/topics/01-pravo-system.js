@@ -34,7 +34,7 @@ registerTopic({
         { when: 'Starověký Řím', h: 'Největší rozkvět práva', x: 'základ moderních (kontinentálních) systémů' },
         { when: 'Novověk', h: 'Kodifikace', x: 'nepsané obyčeje → psané zákony vydávané státem' }
       ] },
-      { t: 'versus', title: 'Latinské dvojice z římského práva', cols: [
+      { t: 'versus', title: 'Latinské dvojice z římského práva', x: 'Už římští právníci třídili právo podle toho, čeho se týká. Prvním dělením bylo <i>ius civile</i>, tedy světské civilní právo, a <i>ius canonicum</i>, právo církevní. Pro dnešek je důležitější druhé dělení: <i>ius privatum</i> upravuje vztahy mezi soukromými osobami, <i>ius publicum</i> vztahy, ve kterých vystupuje stát a veřejná moc. Z římského práva vycházejí kontinentální právní systémy včetně českého, a proto se s dělením na soukromé a veřejné právo potkáš v celém předmětu.', cols: [
         { h: 'Členění podle', items: ['<i>ius civile</i> (civilní) × <i>ius canonicum</i> (církevní)', '<i>ius privatum</i> (soukromé) × <i>ius publicum</i> (veřejné)'] },
         { h: 'Význam', items: ['Římské právo = základ moderních kontinentálních systémů', 'Právě odtud pochází členění na soukromé a veřejné právo'] }
       ] },
@@ -50,7 +50,7 @@ registerTopic({
         { i: '🕌', h: 'Islámské', x: 'neměnné právo boží – šaría; Blízký a Střední východ, část Afriky' },
         { i: '🌍', h: 'Tradiční a náboženská', x: 'obyčeje a náboženská pravidla, zejm. Afrika' }
       ] },
-      { t: 'versus', title: 'Kontinentální × angloamerický systém', cols: [
+      { t: 'versus', title: 'Kontinentální × angloamerický systém', x: 'Oba systémy chtějí předvídatelná pravidla, liší se ale tím, kde je hledají. V kontinentální Evropě, a tedy i u nás, píše pravidla zákonodárce do zákonů a soudce je při rozhodování aplikuje – řešení případu proto začíná v předpisu. V angloamerickém světě vzniká velká část práva v soudních síních: když soud poprvé rozhodne nový typ případu, jeho rozhodnutí (precedent) zavazuje soudy v budoucích stejných případech, takže soudy právo průběžně dotvářejí. Pro Česko z toho plyne, že rozsudky vyšších soudů sice praxi silně ovlivňují, formálně ale pramenem práva nejsou.', cols: [
         { h: 'Kontinentální', items: ['Základ: recepce římského práva, psané právo', 'Pramen: <b>právní předpis</b> (zákon)', 'Soudy normy <b>aplikují</b>'] },
         { h: 'Angloamerický', items: ['Základ: nalézání práva soudy', 'Pramen: <b>soudní precedent</b>', 'Soudy právo <b>neustále dotvářejí</b>'] }
       ] },
@@ -69,23 +69,25 @@ registerTopic({
         { h: 'Soukromé × veřejné', x: 'rovnost × nadřazenost' },
         { h: 'Absolutní × relativní', x: 'vůči všem × vůči někomu' }
       ] } },
-      { t: 'versus', title: 'Objektivní × subjektivní právo', cols: [
+      { t: 'versus', title: 'Objektivní × subjektivní právo', x: 'Jde o dva pohledy na totéž slovo „právo“. Objektivní právo je celý soubor platných norem – právní řád státu, tedy to, co najdeš ve Sbírce zákonů. Subjektivní právo je konkrétní oprávnění, které z těchto norem plyne určité osobě. Občanský zákoník (objektivní právo) stanoví, že vlastník smí se svou věcí nakládat; ty jako vlastník kola proto máš subjektivní právo kolo prodat. Zjednodušeně: objektivní právo říká, co platí pro všechny, subjektivní právo říká, co můžeš ty.', cols: [
         { h: 'Objektivní právo', items: ['Souhrn nebo systém platných právních norem', 'Plnění vynutitelné státní mocí', 'Totožné s <b>právním řádem</b> státu (všechny normy platné v daném období na území státu)'] },
         { h: 'Subjektivní právo', items: ['Oprávnění jednotlivce vyplývající z objektivního práva', 'Zákonem garantovaná míra možného chování subjektu (člověk, právnická osoba)', 'To, co adresát <b>může</b> učinit, protože mu to objektivní právo dovoluje'] }
       ] },
-      { t: 'versus', title: 'Hmotné × procesní právo', cols: [
+      { t: 'versus', title: 'Hmotné × procesní právo', x: 'Hmotné právo odpovídá na otázku „co komu náleží“ – stanoví samotná práva a povinnosti, například že prodávající musí předat věc a kupující zaplatit cenu. Procesní právo odpovídá na otázku „jak se toho domoci“ – popisuje postup před soudem nebo úřadem: kdo podává žalobu, v jaké lhůtě, jak se dokazuje a jak se rozhoduje. Procesní právo tedy hmotnému slouží; bez něj by práva zůstala jen na papíře. Typickou dvojicí je občanský zákoník (hmotné právo) a občanský soudní řád (procesní právo).', cols: [
         { h: 'Hmotné – otázka „co?“', items: ['Upravuje vztahy po stránce věcné', 'Přiznává subjektivní práva a povinnosti směřující přímo k účelu úpravy', 'Např. občanský zákoník'] },
         { h: 'Procesní – otázka „jak?“', items: ['Stanoví postupy v řízeních před státními orgány', 'Zprostředkovaně slouží hmotnému právu (jak se domoci práv, realizovat povinnosti)', 'Např. občanský soudní řád, trestní řád, správní řád'] }
       ] },
-      { t: 'versus', title: 'Soukromé × veřejné právo', cols: [
+      { t: 'versus', title: 'Soukromé × veřejné právo', x: 'Rozhodující je postavení stran. V soukromém právu proti sobě stojí rovnocenné osoby a vztah vzniká jejich vlastní vůlí, typicky smlouvou; nikdo nemůže druhému nic jednostranně nařídit a dovoleno je vše, co zákon nezakazuje. Proto jsou tu normy většinou dispozitivní – strany si mohou dohodnout něco jiného. Ve veřejném právu vystupuje orgán veřejné moci (soud, úřad), který může osobě uložit povinnost i proti její vůli; sám ale smí jednat jen tehdy a tak, jak mu to dovoluje zákon. Proto tu převažují kogentní normy. Kupní smlouva mezi dvěma lidmi patří do soukromého práva, pokuta od úřadu do veřejného.', cols: [
         { h: 'Soukromé právo', items: ['Vztahy FO a PO na principu <b>rovnosti a nezávislosti</b>', 'Vznik z projevu vůle – <b>smluvní princip</b> (autonomie vůle)', '<b>„Co není zakázáno, je dovoleno“</b>; nemusím činit, co zákon neukládá', 'Převážně <b>dispozitivní</b> normy'] },
         { h: 'Veřejné právo', items: ['Státní orgán (soud, správní orgán) <b>vnucuje svou vůli</b> na základě svrchovanosti veřejné moci', 'Subordinace (nadřazenost – podřízenost)', '<b>Zásada legality</b> – státní moc jen v případech, mezích a způsoby stanovenými zákonem', 'Převážně <b>kogentní</b> normy'] }
       ] },
+      { t: 'svg', title: 'Soukromé × veřejné právo v obrázku', x: ZPN.publicPrivate() },
       { t: 'warn', x: 'Ve studijním textu (dodamgoda1) jsou definice veřejného a soukromého práva <b>zaměněné</b> (veřejné je tam popsáno jako vztahy rovných subjektů). Správně: <b>soukromé = rovnost, autonomie vůle, dispozitivní normy; veřejné = subordinace, nositel veřejné moci, kogentní normy</b>.' },
-      { t: 'versus', title: 'Absolutní × relativní právo', cols: [
+      { t: 'versus', title: 'Absolutní × relativní právo', x: 'Rozdíl je v tom, vůči komu právo působí. Absolutní právo, typicky vlastnictví, působí vůči všem: nikdo konkrétní ti nic dlužit nemusí, ale všichni ostatní musí tvé vlastnictví respektovat a nezasahovat do něj. Relativní právo vzniká jen mezi určitými osobami, nejčastěji ze smlouvy: pronajímatel může nájemné chtít jen po svém nájemci, ne po sousedovi. Absolutní právo tedy může porušit kdokoli, relativní jen ten, kdo je zavázán.', cols: [
         { h: 'Absolutní', items: ['Působí <i>erga omnes</i> – vůči všem', 'Neurčený počet subjektů má povinnost <b>nerušit</b> oprávněného (zdržet se zásahu)', 'Vlastnické právo, osobnostní práva, práva k duševnímu vlastnictví'] },
         { h: 'Relativní', items: ['Působí <i>inter partes</i> – mezi stranami', 'Konkrétní povinnost jednoho nebo více <b>individuálně určených</b> subjektů (něco dát, konat, strpět)', 'Pohledávka ze smlouvy (kupní cena, nájemné), nárok na náhradu škody'] }
-      ] }
+      ] },
+      { t: 'svg', title: 'Absolutní × relativní právo', x: ZPN.absRel() }
     ] },
     { title: 'Prameny práva', blocks: [
       { t: 'def', term: 'Pramen práva', x: 'Forma objektivního práva, která obsahuje právní normy. Liší se podle právního systému a kultury; každý stát má unikátní kombinaci pramenů.' },
@@ -121,7 +123,7 @@ registerTopic({
         { h: 'Vyhlášky ministerstev a ČNB', x: 'jen na základě výslovného zákonného zmocnění' },
         { h: 'Předpisy územní samosprávy', x: 'OZV (samostatná působnost = původní); nařízení obcí a krajů (přenesená = odvozená)' }
       ] },
-      { t: 'versus', title: 'Původní × odvozené akty', cols: [
+      { t: 'versus', title: 'Původní × odvozené akty', x: 'Původní (primární) předpisy vydávají orgány, které mají normotvornou pravomoc přímo z Ústavy a mohou věc upravit samy od sebe – Parlament zákonem nebo zastupitelstvo obce obecně závaznou vyhláškou. Odvozené (sekundární) předpisy vydávají orgány výkonné moci a státní správy proto, aby podrobněji provedly předpis vyšší síly – například nařízení vlády k provedení zákona nebo vyhláška ministerstva na základě zmocnění v zákoně. Odvozený předpis proto nesmí jít nad rámec ani proti předpisu, ze kterého vychází.', cols: [
         { h: 'Původní (primární)', items: ['Ústava a ústavní zákony, zákony, zákonná opatření Senátu, OZV obcí a krajů', 'Vydávají orgány s původní normotvornou pravomocí (Parlament, zastupitelstva)', 'Nejvyšší stupeň síly ve své oblasti'] },
         { h: 'Odvozené (sekundární)', items: ['Akty výkonných orgánů a státní správy', 'Nižší síla, nesmí odporovat aktům, z nichž jsou odvozeny', 'Podrobněji upravují to, co v zásadě upravují primární akty'] }
       ] },

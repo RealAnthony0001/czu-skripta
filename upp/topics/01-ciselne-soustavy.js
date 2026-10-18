@@ -19,6 +19,7 @@ registerTopic({
     { title: 'Soustava se základem Z', blocks: [
       { t: 'def', term: 'Rozvoj čísla', x: 'Č<sub>10</sub> = k<sub>n</sub>Z<sup>n</sup> + … + k<sub>1</sub>Z<sup>1</sup> + k<sub>0</sub>Z<sup>0</sup> + k<sub>−1</sub>Z<sup>−1</sup> + … + k<sub>−m</sub>Z<sup>−m</sup>, kde k ∈ {0, 1, …, Z−1} je cifra a Z základ soustavy.' },
       { t: 'p', x: 'Počítače pracují ve <b>dvojkové soustavě</b>, protože je mnohem snazší (a spolehlivější) rozlišit dva stavy (proud teče / neteče) než deset. Dlouhé binární zápisy se pro člověka zkracují v <b>osmičkové</b> a <b>šestnáctkové</b> soustavě; převod mezi nimi je snadný a jednoznačný (konečné číslo zůstane konečné).' },
+      { t: 'svg', title: 'Mapa převodů', x: UPP.soustavyMap(), cap: 'Mezi osmičkovou a šestnáctkovou soustavou není přímý převod – vždy přes dvojkovou.' },
       { t: 'table', head: ['Soustava', 'Základ', 'Cifry'], rows: [
         ['Dvojková (binární)', '2', '0, 1'],
         ['Osmičková (oktalová)', '8', '0–7'],
@@ -62,6 +63,7 @@ registerTopic({
         { h: 'Šestnáctková ↔ dvojková', items: ['1 hex cifra = <b>čtveřice</b> bitů', 'dvojkové → hex: dělit na čtveřice <b>zprava</b>, vlevo doplnit nuly', '(3E68)<sub>16</sub> = 0011 1110 0110 1000'] },
         { h: 'Osmičková ↔ dvojková', items: ['1 oktalová cifra = <b>trojice</b> bitů', 'dvojkové → osmičkové: dělit na trojice <b>zprava</b>, vlevo doplnit nuly', '(3764)<sub>8</sub> = 011 111 110 100'] }
       ] },
+      { t: 'svg', title: 'Skupiny bitů od pravé strany – (110010101)₂', x: UPP.groupingDiagram() },
       { t: 'ex', x: '<b>(110010101)<sub>2</sub> → hex:</b> 1 1001 0101 → 0001 1001 0101 → <b>(195)<sub>16</sub></b>. <b>→ oktalová:</b> 110 010 101 → <b>(625)<sub>8</sub></b>.' },
       { t: 'ex', x: '<b>8 ↔ 16 přes dvojkovou:</b> (1AC37F)<sub>16</sub> = 0001 1010 1100 0011 0111 1111 = 000 110 101 100 001 101 111 111 = <b>(6541577)<sub>8</sub></b>. Naopak (357231)<sub>8</sub> = 011 101 111 010 011 001 → 1 1101 1110 1001 1001 = <b>(1DE99)<sub>16</sub></b>.' },
       { t: 'warn', x: 'Skupiny se tvoří <b>od binární čárky doprava/doleva</b>, u celých čísel zprava. Dělení „zleva“ dává špatný výsledek, když počet bitů není násobkem 3 / 4.' }

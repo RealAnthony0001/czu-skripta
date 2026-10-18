@@ -35,6 +35,7 @@ registerTopic({
       { t: 'p', x: 'Stavy 1 / 0 se technicky snadno realizují: úrovně napětí, směr magnetických oblastí, odraz a pohlcení světla.' }
     ] },
     { title: 'Jednotky: bit, byte, půlbyte', blocks: [
+      { t: 'svg', title: 'Bit, půlbyte a byte', x: UPP.byteDiagram() },
       { t: 'table', head: ['Jednotka', 'Značka', 'Velikost', 'Poznámka'], rows: [
         ['bit (binary digit)', 'b', '1 bit', 'ANO/NE, 1/0; dále nedělitelný; používá se hlavně u přenosu dat (rychlost sítě v b/s)'],
         ['půlbyte', '–', '4 bity = 16 stavů', '1 šestnáctková cifra'],

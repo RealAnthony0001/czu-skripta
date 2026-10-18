@@ -30,11 +30,11 @@ registerTopic({
         { i: '👥', h: 'Obecnost', x: 'adresáti (druhově), práva, povinnosti i sankce stanoveny obecně' },
         { i: '🔨', h: 'Vynutitelnost', x: 'nesplněnou povinnost lze zpravidla vynutit státní mocí' }
       ] },
-      { t: 'versus', title: 'Mody normativnosti', cols: [
+      { t: 'versus', title: 'Mody normativnosti', x: 'Mody normativnosti popisují, jakou podobu může mít pravidlo v normě. Z pohledu normy samotné (objektivně) něco přikazuje, zakazuje, nebo dovoluje. Z pohledu člověka, kterého se týká (subjektivně), z toho plyne buď povinnost, nebo oprávnění. Příkaz a zákaz adresátovi zakládají povinnost – něco udělat, nebo se něčeho zdržet –, kdežto dovolení mu dává oprávnění, které využít může, ale nemusí.', cols: [
         { h: 'Objektivní', items: ['příkaz', 'zákaz', 'dovolení'] },
         { h: 'Subjektivní', items: ['oprávnění', 'povinnost'] }
       ] },
-      { t: 'versus', title: 'Zásada legální licence × zásada legality', cols: [
+      { t: 'versus', title: 'Zásada legální licence × zásada legality', x: 'Obě zásady říkají, jak se k zákonu stavějí různí adresáti. Pro tebe jako soukromou osobu platí legální licence: smíš dělat cokoli, co zákon nezakazuje, a nikdo tě nesmí nutit k něčemu, co zákon neukládá. Pro stát a jeho orgány platí opak, zásada legality: úřad smí jednat jen v případech, v mezích a způsobem, které zákon stanoví. Smyslem je chránit svobodu jednotlivce před libovůlí státní moci – člověk má volnost, úřad potřebuje zákonné zmocnění.', cols: [
         { h: 'Legální licence – soukromé osoby', items: ['„Co není zakázáno, je dovoleno“', 'čl. 2 odst. 4 Ústavy, čl. 2 odst. 3 Listiny'] },
         { h: 'Legality – státní orgány', items: ['„Státní moc slouží všem občanům a lze ji uplatňovat jen v případech, v mezích a způsobem, které stanoví zákon“', 'čl. 2 odst. 3 Ústavy, čl. 2 odst. 2 Listiny'] }
       ] },
@@ -47,6 +47,7 @@ registerTopic({
         { h: 'Dispozice', x: 'PAK – příkaz, zákaz, dovolení, právo' },
         { h: 'Sankce', x: 'NEBUDE-LI – následek porušení' }
       ] },
+      { t: 'svg', title: 'Hypotéza, dispozice a sankce na příkladu', x: ZPN.normDiagram(), cap: 'Sankce bývá v jiném ustanovení nebo předpisu – norma bez účinné sankce je lex imperfecta.' },
       { t: 'tree', title: 'Co obsahují jednotlivé části', root: { h: 'Právní norma', kids: [
         { h: 'Hypotéza', x: 'vymezuje okruh adresátů; typicky „kdo…“, „jestliže…“, „pokud…“', kids: [
           { h: 'personálně', x: 'povinná osoba' }, { h: 'lokálně', x: 'místo' }, { h: 'temporálně', x: 'čas' }, { h: 'modálně', x: 'způsob / okolnosti' }
@@ -79,7 +80,7 @@ registerTopic({
         { h: 'Opravňující', x: 'dovolují chovat se právně relevantně, bez povinnosti – např. právo na ochranu osobnosti' },
         { h: 'Deklaratorní', x: 'vyjadřují principy a cíle – např. úvodní ustanovení občanského zákoníku' }
       ] } },
-      { t: 'versus', title: 'Kogentní × dispozitivní (stupeň závaznosti)', cols: [
+      { t: 'versus', title: 'Kogentní × dispozitivní (stupeň závaznosti)', x: 'Rozdíl je v tom, zda se od pravidla můžeš dohodou odchýlit. Kogentní norma platí vždy a přesně tak, jak je napsaná; dohoda stran, která by jí odporovala, nemá účinek. Typicky chrání veřejný zájem nebo slabší stranu – například povinnost zaměstnavatele zajistit rovné zacházení se zaměstnanci. Dispozitivní norma je jen náhradní řešení: použije se, když si strany nic jiného nedohodly, například ustanovení o místě či době plnění. Proto je soukromé právo převážně dispozitivní, veřejné a procesní právo převážně kogentní.', cols: [
         { h: 'Kogentní (kategorické)', items: ['tak imperativní, že nedávají prostor vůli adresáta', 'musí se naplnit přesně', 'typické pro veřejné a procesní právo'] },
         { h: 'Dispozitivní', items: ['stanoví pravidlo jen podpůrně', 'strany se mohou dohodnout jinak; jinak nastoupí podpůrné ustanovení', 'typické pro soukromé právo'] }
       ] },
@@ -126,7 +127,8 @@ registerTopic({
         { when: 'Není-li uveden: 15. den po vyhlášení', h: 'ÚČINNOST (výchozí)', x: 'platnost a účinnost mohou splynout (účinnost dnem vyhlášení)' },
         { when: 'Zánik', h: 'Derogace / konec účinnosti', x: 'derogace = vyřazení z právního řádu (zrušení); účinnost končí zrušením nebo uplynutím doby' }
       ] },
-      { t: 'versus', title: 'Platnost × účinnost', cols: [
+      { t: 'svg', title: 'Platnost a účinnost na časové ose', x: ZPN.validityTimeline() },
+      { t: 'versus', title: 'Platnost × účinnost', x: 'Platnost a účinnost jsou dvě fáze „života“ předpisu. Dnem vyhlášení ve Sbírce se předpis stává platným – existuje, je součástí právního řádu a každý se s ním může seznámit, ale ještě se jím nikdo řídit nemusí. Účinným se stává dnem uvedeným v předpisu, jinak patnáctým dnem po vyhlášení, a teprve od té chvíle zakládá práva a povinnosti a dá se vymáhat. Mezidobí dává lidem i úřadům čas připravit se na změnu. Oba okamžiky mohou splynout, pokud předpis nabývá účinnosti dnem vyhlášení.', cols: [
         { h: 'Platnost', items: ['nastává dnem vyhlášení (publikace)', 'norma je v právním řádu, lze se seznámit s obsahem', 'zaniká derogací'] },
         { h: 'Účinnost', items: ['nastává dnem uvedeným v posledním ustanovení, jinak 15. dnem po vyhlášení', 'norma se uplatňuje, je závazná a vynutitelná', 'zaniká zrušením, uplynutím doby'] }
       ] },
@@ -160,7 +162,7 @@ registerTopic({
         { h: 'Rozhodnutí ve věci samé', x: 'konstitutivní nebo deklaratorní; v mezích zákona, hospodárně' }
       ] },
       { t: 'p', x: '<b>Případy výslovně neupravené</b>: zákonodárce nepředvídá vše, ale orgán (zpravidla soud) <b>nesmí odmítnout věc rozhodnout</b>.' },
-      { t: 'versus', title: 'Analogie legis × analogie iuris', cols: [
+      { t: 'versus', title: 'Analogie legis × analogie iuris', x: 'Obě analogie řeší situaci, kdy zákon konkrétní případ výslovně neupravuje, ale soud ho přesto musí rozhodnout. Analogie legis (podle zákona) hledá ustanovení, které upravuje případ obsahem a účelem nejpodobnější, a použije ho obdobně. Analogie iuris (podle práva) přichází na řadu, když podobné ustanovení neexistuje vůbec; soud pak rozhoduje podle obecných principů a zásad právního řádu s ohledem na ustálenou soudní praxi. Nejdřív se tedy hledá podobná norma, teprve potom se sahá k principům. V trestním, finančním a správním právu je analogie vyloučena.', cols: [
         { h: 'Analogie legis (podle zákona)', items: ['vztah není upraven žádnou normou', 'použije se norma upravující případ nejbližší (obdobný)', '§ 10 odst. 1 OZ: ustanovení nejbližší co do obsahu a účelu; signál „obdobně“, „přiměřeně“'] },
         { h: 'Analogie iuris (podle práva)', items: ['neexistuje ani obdobná norma', 'rozhodne se podle obecných principů právního řádu a smyslu systému', '§ 10 odst. 2 OZ: principy spravedlnosti a zásady zákona, s ohledem na ustálenou soudní praxi a doktrínu'] }
       ] },
@@ -180,7 +182,7 @@ registerTopic({
           { h: 'Historická', x: 'vznik normy, úmysl zákonodárce, důvodová zpráva' }
         ] }
       ] } },
-      { t: 'versus', title: 'Logické argumenty', cols: [
+      { t: 'versus', title: 'Logické argumenty', x: 'Logické argumenty pomáhají vyložit normu tam, kde slova zákona sama nestačí. Argument a contrario říká, že na co zákon pravidlo výslovně nevztáhl, na to nedopadá – zákaz vstupu psů se netýká koček. Argument a fortiori pracuje se silnějším důvodem: je-li zakázáno něco méně závažného, tím spíš je zakázáno něco závažnějšího, a kdo smí víc, smí i méně. Argument ad absurdum odmítá výklad, který by vedl k nesmyslnému výsledku – zákaz vozidel v parku nevykládáme tak, že zakazuje dětské kočárky nebo sanitku.', cols: [
         { h: 'A contrario (výklad opaku)', items: ['co zákon výslovně neřadí pod pravidlo, na to neplatí', 'Zákaz vstupu psů → kočky mohou.'] },
         { h: 'A fortiori (silnější důvod)', items: ['a maiori ad minus: kdo smí více, smí i méně; a minori ad maius: kdo nesmí méně, nesmí tím spíše více', 'Zákaz kouření → tím spíš zákaz zapalovat oheň v místnosti.'] },
         { h: 'Ad absurdum (sporem)', items: ['výklad vedoucí k absurdnímu výsledku se odmítá', 'Zákaz „vozidel“ v parku nelze vykládat jako zákaz kočárků pro děti, ani sanitky.'] }

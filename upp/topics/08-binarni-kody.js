@@ -20,6 +20,7 @@ registerTopic({
       { t: 'p', x: 'Binární kódová slova délky n lze chápat jako body (vrcholy jednotkové krychle) v n-rozměrném prostoru. Vzdálenost bodů = nejmenší počet hran na cestě mezi nimi.' },
       { t: 'def', term: 'Hammingova vzdálenost', x: 'd(X, Y) = Σ<sub>i=1…n</sub> |x<sub>i</sub> − y<sub>i</sub>| – <b>počet bitů, ve kterých se X a Y liší</b>.' },
       { t: 'def', term: 'Minimální kódová vzdálenost', x: 'd<sub>min</sub> = min d(X<sub>i</sub>, X<sub>j</sub>) pro všechny dvojice <b>různých</b> kódových slov kódu K (i ≠ j).' },
+      { t: 'svg', title: '3bitová slova jako vrcholy krychle', x: UPP.cubeDiagram(), cap: 'Sudá parita vybere každý druhý vrchol – žádná dvě vybraná slova nejsou sousední, proto d<sub>min</sub> = 2.' },
       { t: 'ex', x: '<b>Příklad:</b> X = 0110, Y = 1100 → liší se na 1. a 3. pozici → d(X, Y) = 2. Kód {000, 011, 101, 110} má d<sub>min</sub> = 2 (liší se vždy v ≥ 2 bitech) – je zabezpečující (sudá parita).' }
     ] },
     { title: 'Rozdělení kódů podle d<sub>min</sub>', blocks: [
@@ -51,6 +52,7 @@ registerTopic({
       { t: 'grid', head: ['Pozice', '1', '2', '3', '4', '5', '6', '7', '8'], rows: [
         ['Bit', 'p<sub>1</sub>', 'p<sub>2</sub>', 'd<sub>1</sub>', 'p<sub>3</sub>', 'd<sub>2</sub>', 'd<sub>3</sub>', 'd<sub>4</sub>', 'p<sub>4</sub>']
       ] },
+      { t: 'svg', title: 'Co který paritní bit kontroluje (m = 4, k = 3)', x: UPP.hammingGrid(), cap: 'Chybný bit pozná syndrom: jeho číslo je binárně složené z výsledků kontrol p₃ p₂ p₁.' },
       { t: 'ul', items: [
         '<b>p<sub>1</sub></b> (pozice 1): 1 bit použij, 1 vynech → p<sub>1</sub> = d<sub>1</sub> ⊕ d<sub>2</sub> ⊕ d<sub>4</sub> ⊕ d<sub>5</sub> ⊕ d<sub>7</sub> ⊕ d<sub>9</sub> ⊕ …',
         '<b>p<sub>2</sub></b> (pozice 2): 2 bity použij, 2 vynech → p<sub>2</sub> = d<sub>1</sub> ⊕ d<sub>3</sub> ⊕ d<sub>4</sub> ⊕ d<sub>6</sub> ⊕ d<sub>7</sub> ⊕ d<sub>10</sub> ⊕ …',

@@ -23,7 +23,7 @@ registerTopic({
   sections: [
     { title: 'Čas jako právní událost', blocks: [
       { t: 'p', x: 'Čas je <b>právní událost</b> nezávislá na lidské vůli. Plynutí času nebo dosažení časové hranice je právně významné, jen pokud s ním norma spojuje následky: promlčení, prekluze, vydržení, dosažení věku (zletilost, důchodový věk).' },
-      { t: 'versus', title: 'Doba × lhůta', cols: [
+      { t: 'versus', title: 'Doba × lhůta', x: 'Doba i lhůta jsou časové úseky, rozdíl je v tom, zda musíš něco udělat. Doba prostě uplyne a s jejím koncem zanikne právo nebo povinnost samo od sebe, bez dalšího jednání – nájem sjednaný na dobu určitou skončí uplynutím této doby. Lhůta je čas, během něhož musíš sám aktivně něco udělat u druhé strany, soudu nebo úřadu, například podat odvolání, žalobu nebo reklamaci. Když lhůtu nevyužiješ, nese to následky podle jejího druhu – u pořádkové lhůty malé, u promlčecí ztratíš vymahatelnost, u prekluzivní celé právo.', cols: [
         { h: 'Doba', items: ['časový úsek, jehož uplynutím zaniká právo nebo povinnost bez dalšího, bez projevu vůle', 'Nájem na dobu určitou skončí uplynutím doby.'] },
         { h: 'Lhůta', items: ['časový úsek stanovený k uplatnění práva u druhé strany, u soudu či jiného orgánu', 'Lhůta k podání žaloby, k odvolání, k reklamaci.'] }
       ] },
@@ -57,11 +57,7 @@ registerTopic({
         { n: '48', u: 'hodin', x: 'od okamžiku do okamžiku, ne 2 dny (§ 608)' }
       ] },
       { t: 'warn', x: 'Rozlišuj <b>lhůtu</b> (posun na pracovní den podle § 607) a <b>konkrétně určený den</b> plnění (termín) – tam se plnění musí stihnout právě v tento den. Pozor na zavádějící zjednodušení „lhůta končí v neděli = pondělí“: platí jen u lhůt, ne u data výslovně stanoveného ve smlouvě.' },
-      { t: 'timeline', title: 'Příklad 1 (cvičení): lhůta 8 dnů, 1. den 21. 10. 2024', items: [
-        { when: 'Po 21. 10. 2024', h: '1. den lhůty', x: 'dny 21., 22., …' },
-        { when: 'Po 28. 10. 2024', h: '8. den – státní svátek', x: 'Den vzniku Československa' },
-        { when: 'Út 29. 10. 2024', h: 'Konec lhůty', x: 'posun podle § 607 na nejbližší pracovní den' }
-      ] },
+      { t: 'svg', title: 'Příklad 1 (cvičení): lhůta 8 dnů, 1. den 21. 10. 2024', x: ZPN.calendarDiagram() },
       { t: 'ex', x: '<b>Poznámky k příkladu 1:</b> Počítá-li se 21. 10. jako rozhodná skutečnost, lhůta začne 22. 10. a skončí 29. 10. – stejný výsledek. Verze 2021: 21. 10. 2021 čtvrtek, 28. 10. svátek → pátek 29. 10. 2021.' },
       { t: 'timeline', title: 'Příklad 2 (cvičení): doba 13 měsíců od 31. 1. 2024', items: [
         { when: '31. 1. 2024', h: 'Rozhodná skutečnost' },
@@ -78,7 +74,7 @@ registerTopic({
     ] },
     { title: 'Právní domněnky a fikce', blocks: [
       { t: 'p', x: 'Zákonem stanovené domněnky a fikce zavazují soud, aby (bez)podmínečně předpokládal existenci něčeho, o čem není jisté, že je, nebo dokonce je jisté, že není. Mají úzký vztah k právním skutečnostem.' },
-      { t: 'versus', title: 'Domněnka × fikce', cols: [
+      { t: 'versus', title: 'Domněnka × fikce', x: 'Domněnky i fikce zákon používá tam, kde by bylo obtížné nebo zbytečné všechno dokazovat. Vyvratitelná domněnka („má se za to“) vychází z toho, co obvykle bývá pravda – manžel matky je otcem dítěte –, ale kdo tvrdí opak, může ho dokázat. Nevyvratitelná domněnka („platí, že“) také vychází z pravděpodobného stavu, důkaz opaku však zákon nepřipouští. Fikce („hledí se“, „považuje se“) jde ještě dál: zákon vědomě pracuje s něčím, o čem ví, že tak není, protože je to prakticky užitečné – kdo nemá bydliště, tomu se za bydliště považuje místo, kde žije.', cols: [
         { h: 'Vyvratitelná domněnka', items: ['signál: „má se za to“', 'přípustný důkaz opaku; skutečnost bývá obvykle taková', 'domněnka otcovství (manžel matky); příslušenství sdílí osud věci hlavní'] },
         { h: 'Nevyvratitelná domněnka', items: ['signál: „platí, že“', 'důkaz opaku není přípustný', 'po 3 letech od zániku určitých vztahů platí, že podíly spoluvlastníků jsou stejné'] },
         { h: 'Právní fikce', items: ['signál: „hledí se“, „považuje se“', 'skutečnost neexistuje, přesto se z praktických důvodů přihlíží, jako by existovala', '§ 80 odst. 2: nemá-li člověk bydliště, považuje se za ně místo, kde žije'] }
@@ -105,7 +101,7 @@ registerTopic({
         { i: '🛤️', h: 'Zřízení nezbytné cesty' },
         { i: '🔓', h: 'Vykoupení reálného břemene' }
       ] },
-      { t: 'versus', title: 'Stavění × neklid', cols: [
+      { t: 'versus', title: 'Stavění × neklid', x: 'Obojí ovlivňuje běh promlčecí doby, ale jinak. Stavění je pauza: dokud trvá překážka, například když strany jednají o mimosoudním vyřešení, doba neběží, a po jejím odpadnutí běží dál jen zbytek. Neklid (dříve přerušení) nastává, když věřitel své právo uplatní u soudu nebo dlužník dluh uzná: dosavadní běh se zastaví a po skončení řízení či od uznání začne běžet nová promlčecí doba. Stavění tedy dobu jen prodlouží o trvání překážky, neklid začíná počítat znovu.', cols: [
         { h: 'Stavění', items: ['po zákonem stanovenou dobu promlčecí doba neběží', 'např. právo nelze uplatnit u soudu, doba jednání o vyrovnání / mediace', 'po skončení překážky se připočte zbytek'] },
         { h: 'Neklid (dříve přerušení)', items: ['uplatnění práva u soudu, uznání dluhu apod.', 'běh doby se zastaví', 'po skončení řízení / uznání počíná nová doba'] }
       ] },
@@ -133,7 +129,8 @@ registerTopic({
       { t: 'ex', x: 'Pepa koupil 10. 3. 2024 notebook a po 26 měsících (v květnu 2026) uplatní reklamaci vady, která existovala při převzetí. Lhůta pro uplatnění práva z vadného plnění (24 měsíců) je <b>prekluzivní</b> – právo zaniklo. Prodejce nemusí reklamaci řešit (soud by k prekluzi přihlédl sám). Pokud by mu ale prodejce přesto „uznal“ a vyplatil kompenzaci, jde o plnění bez právního důvodu – bezdůvodné obohacení.' }
     ] },
     { title: 'Promlčení × prekluze', blocks: [
-      { t: 'versus', title: 'Promlčení × prekluze', cols: [
+      { t: 'svg', title: 'Co zbude po uplynutí doby', x: ZPN.promlceniDiagram() },
+      { t: 'versus', title: 'Promlčení × prekluze', x: 'Obě instituce dopadají na toho, kdo své právo dlouho neuplatňuje, ale s různou přísností. Promlčením právo nezanikne, jen se oslabí: dlužník může odmítnout plnit, pokud promlčení u soudu namítne; když nenamítne, soud věřiteli vyhoví, a když dlužník promlčený dluh dobrovolně zaplatí, nemůže peníze chtít zpět. Prekluzí právo zanikne úplně: soud k tomu přihlédne sám, i když to nikdo nenamítá, a co bylo plněno po prekluzi, je bezdůvodné obohacení, které se musí vrátit. Promlčení tedy dává dlužníkovi možnost bránit se, prekluze rychle a definitivně uzavírá právní stav.', cols: [
         { h: 'Promlčení', items: ['Právo trvá, ztrácí vymahatelnost (naturální obligace).', 'Soud přihlíží jen na námitku dlužníka.', 'Plnění po uplynutí není bezdůvodné obohacení – nelze vrátit.', 'Obecně 3 roky / 10 let objektivně; lze ujednat 1–15 let.', 'Stavění a neklid ano – běh se může obnovit.', 'Cíl: ochrana dlužníka a právní jistoty; věřitel nesmí být pasivní.'] },
         { h: 'Prekluze', items: ['Právo zaniká úplně.', 'Soud přihlíží z úřední povinnosti.', 'Plnění po uplynutí je bezdůvodné obohacení – musí se vrátit.', 'Délka stanovena zákonem (konkrétní propadné lhůty); zpravidla nelze prodlužovat dohodou.', 'Stavění a neklid u prekluzivních lhůt ne (nebo jen výjimečně).', 'Cíl: rychlé a definitivní vyjasnění právního stavu.'] }
       ] },

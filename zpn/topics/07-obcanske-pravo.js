@@ -51,6 +51,7 @@ registerTopic({
         { h: '4. Relativní majetková práva', x: '§ 1721–3014: závazky ze smluv, z deliktů (náhrada újmy), bezdůvodné obohacení' },
         { h: '5. Společná, přechodná a závěrečná', x: '§ 3015–3081: přechodná úprava, zrušovací ustanovení (§ 3080)' }
       ] } },
+      { t: 'svg', title: 'NOZ v poměru počtu paragrafů', x: ZPN.nozBar() },
       { t: 'warn', x: 'Slajdy uvádějí část 1 jako „§ 1–302“ a dědictví řadí do relativních práv – to je nepřesné. Podle zákona je obecná část § 1–654 a <b>dědické právo je součástí třetí části</b> (absolutní majetková práva), nikoli relativních práv. (Ve slajdech také „91/212“ – správně 91/2012 Sb.)' },
       { t: 'ul', items: [
         'Členění: části → hlavy → díly → oddíly. Zásada: <b>jeden paragraf nejvýše dva odstavce, odstavec nejvýše dvě věty</b> (ne vždy dodržena).',
@@ -58,7 +59,7 @@ registerTopic({
         'Terminologie: návrat k tradiční češtině (svéprávnost, právní jednání, osoba místo účastník, nabídka místo návrhu na uzavření smlouvy; „zapsaný“ místo „registrovaný“, „nakládat“ místo „disponovat“), ale ponechány zdomácnělé termíny (orgán, forma, prekluze, detence).',
         'Převzal řadu pravidel ze zrušených zákonů a doplnil ta, která dosavadní právo neřešilo nebo řešilo stroze.'
       ] },
-      { t: 'versus', title: 'Zrušeno × nově přijato', cols: [
+      { t: 'versus', title: 'Zrušeno × nově přijato', x: 'Rekodifikace z roku 2012 neznamenala jen nový občanský zákoník, ale výměnu celého základu soukromého práva. Místo mnoha samostatných předpisů – starého občanského zákoníku, obchodního zákoníku, zákona o rodině nebo zákona o vlastnictví bytů – vznikl jeden kodex, doplněný zákonem o obchodních korporacích a zákonem o mezinárodním právu soukromém, které byly přijaty současně. Rodinné právo, spolky nebo bytové jednotky proto dnes hledáš přímo v občanském zákoníku. Původní předpisy byly k 1. lednu 2014 zrušeny.', cols: [
         { h: 'Zrušeno (příklady, § 3080)', items: [
           '40/1964 Sb. občanský zákoník',
           '513/1991 Sb. obchodní zákoník',
@@ -90,11 +91,7 @@ registerTopic({
         { i: '📃', h: 'Pacta sunt servanda', x: 'smlouvy se mají dodržovat' },
         { i: '🚷', h: 'Nikdo netěží z bezpráví', x: 'kdo způsobí neplatnost, nemůže se jí dovolávat; kdo poruší povinnost, nahradí újmu' }
       ] },
-      { t: 'flow', title: 'Pořadí použití pravidel', steps: [
-        { h: 'Dohoda stran', x: 'autonomie vůle' },
-        { h: 'Dispozitivní zákon', x: 'nastoupí, není-li dohoda; lze se odchýlit' },
-        { h: 'Kogentní normy a dobré mravy', x: 'platí vždy (veřejný zájem, dobrá víra, postavení osob)' }
-      ] },
+      { t: 'svg', title: 'Pořadí použití pravidel', x: ZPN.rulesOrder() },
       { t: 'tip', x: 'Hierarchie: nejdřív dohoda stran (autonomie), pokud ji není, použije se dispozitivní zákon; kogentní normy a dobré mravy vždy platí. Odborník = vyšší standard péče (§ 5).' },
       { t: 'law', ref: '§ 4 NOZ', x: '<b>Průměrný člověk:</b> každá svéprávná osoba má rozum průměrného člověka i schopnost užívat jej s běžnou péčí a opatrností. Kdo se jeví jako průměrný člověk, může se spolehnout, že i ostatní tak jednají. Posuzování, co osoba měla a mohla vědět, je objektivizováno.' },
       { t: 'law', ref: '§ 5 NOZ', x: '<b>Odborná péče:</b> kdo se veřejně nebo ve styku s jinou osobou přihlásí k odbornému výkonu jako příslušník určitého povolání nebo stavu, dává najevo, že je schopen jednat se znalostí a pečlivostí s povoláním spojenou. Významné hlavně pro <b>náhradu škody</b> (odborná péče se vyžaduje, jakmile se někdo za odborníka vydává).' },
@@ -120,7 +117,7 @@ registerTopic({
         { i: '👵', h: 'Výměnek', x: 'práva vyhrazená vlastníkem nemovitosti při prodeji (užívání části, péče)' },
         { i: '🎲', h: 'Odvážné smlouvy', x: 'prospěch / neprospěch závisí na nejisté události (pojištění, sázka)' }
       ] },
-      { t: 'versus', title: 'Závdavek × záloha', cols: [
+      { t: 'versus', title: 'Závdavek × záloha', x: 'Obojí je peněžní částka předaná při uzavírání smlouvy, ale s jiným účelem. Záloha je jen dřívější zaplacení části ceny – platba „na účet“ budoucího plnění, která nic nezajišťuje. Závdavek navíc potvrzuje, že smlouva byla uzavřena, a slouží jako jistota jejího splnění: když strana, která závdavek dala, smlouvu nesplní, může si ho druhá strana ponechat. Záloha tedy jen platí, závdavek i motivuje ke splnění.', cols: [
         { h: 'Závdavek', items: ['Potvrzuje uzavření smlouvy', 'Je jistotou, že závazek bude splněn'] },
         { h: 'Záloha', items: ['Předčasné plnění části ceny', 'Platba na účet ceny, není zajištění'] }
       ] },
@@ -171,7 +168,7 @@ registerTopic({
         { h: 'Právo stavby', x: 'stavba na cizím pozemku; nemovitá věc; zřizuje se smlouvou, zapisuje do katastru' },
         { h: 'Zadržovací právo', x: 'věřitel zadrží cizí věc, dokud mu dlužník nezaplatí' }
       ] } },
-      { t: 'versus', title: 'Vlastnictví × držba × detence', cols: [
+      { t: 'versus', title: 'Vlastnictví × držba × detence', x: 'Tři pojmy popisují tři různé vztahy k věci. Vlastnictví je právo: věc ti patří, i když ji právě nemáš u sebe, třeba když jsi kolo půjčil. Držba je faktický stav, kdy někdo vykonává právo pro sebe, jako by mu věc patřila – i ten, kdo kolo koupil od zloděje, je držitel, přestože vlastníkem není; poctivý řádný držitel se může stát vlastníkem vydržením. Detence je držení věci pro někoho jiného: kamarád, kterému jsi kolo půjčil, je detentor – kolo má u sebe, ale ví, že je tvoje, a proto ho nikdy nevydrží.', cols: [
         { h: 'Vlastnictví', items: ['Právo k věci', 'Věc patří vlastníkovi', 'Nejširší věcné právo'] },
         { h: 'Držba', items: ['Skutečný stav – výkon práva pro sebe', 'Držitel drží jako vlastník či jiný oprávněný', 'Řádná držba vede k vydržení'] },
         { h: 'Detence', items: ['Držení věci pro někoho jiného', 'Detentor (nájemce, vypůjčitel) nedrží pro sebe', 'Bez vydržení'] }

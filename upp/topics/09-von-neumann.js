@@ -21,12 +21,7 @@ registerTopic({
         { h: 'Von Neumannovo schéma', items: ['jedna elektronická paměť pro <b>program i data</b>', 'publikováno 1945 (EDVAC)'] },
         { h: 'Harvardské schéma', items: ['<b>oddělená paměť</b> pro data a pro program'] }
       ] },
-      { t: 'flow', title: 'Von Neumannovo schéma', steps: [
-        { h: 'Vstupní zařízení', x: 'data a program do paměti' },
-        { h: 'Operační paměť', x: 'program + data' },
-        { h: 'Procesor', x: 'řadič + ALU + registry' },
-        { h: 'Výstupní zařízení', x: 'výsledky ven' }
-      ] },
+      { t: 'svg', title: 'Von Neumannovo schéma', x: UPP.vnDiagram() },
       { t: 'p', x: 'Mezi komponenty proudí <b>datový tok</b>, <b>řídicí signály</b> (z řadiče) a <b>stavová hlášení</b> (zpět do řadiče).' }
     ] },
     { title: 'Princip činnosti', blocks: [

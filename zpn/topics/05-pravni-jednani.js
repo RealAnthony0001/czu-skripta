@@ -65,7 +65,7 @@ registerTopic({
           { h: 'Smíšené', x: 'úplata nižší než obvyklá hodnota (symbolická cena)' }
         ] }
       ] } },
-      { t: 'versus', title: 'Další dělení – dvojice protikladů', cols: [
+      { t: 'versus', title: 'Další dělení – dvojice protikladů', x: 'Tyto dvojice třídí právní jednání podle různých hledisek a každá stojí samostatně, takže jedno jednání se dá popsat několika z nich najednou. Kupní smlouva na dům je adresovaná (směřuje ke konkrétní druhé straně), synallagmatická (věc za peníze – kdo sám neplní, nemůže plnění chtít), kauzální (důvod plnění je zřejmý), formální (u nemovitosti zákon vyžaduje písemnou formu) a nominátní (zákon ji pojmenovává a upravuje). Naproti tomu veřejný příslib odměny za nalezení psa je neadresovaný. A smlouvu, kterou zákon nezná, si strany mohou vytvořit jako inominátní, pokud neodporuje zákonu a dobrým mravům.', cols: [
         { h: 'Varianta A', items: [
           '<b>Adresované</b> – návrh na uzavření smlouvy',
           '<b>Synallagmatické</b> – plnění se může domáhat jen ten, kdo sám plní nebo je ochoten plnit',
@@ -125,7 +125,7 @@ registerTopic({
         'Chyby v psaní a počtech nejsou na újmu, je-li význam nepochybný.',
         'Kdo způsobil neplatnost, nemůže ji namítat ani z ní mít výhodu a nahradí škodu straně, která o ní nevěděla (nikdo nemá těžit z vlastního bezpráví – vztahuje se k relativní neplatnosti).'
       ] },
-      { t: 'versus', title: 'Absolutní × relativní neplatnost', cols: [
+      { t: 'versus', title: 'Absolutní × relativní neplatnost', x: 'Obě neplatnosti znamenají, že jednání nemá zamýšlené účinky, liší se tím, čí zájem chrání a kdo se jich může dovolat. Absolutní neplatnost chrání veřejný zájem, proto k ní soud přihlédne sám, namítnout ji může kdokoli a čas ji nezhojí – typicky jde o jednání, které se zjevně příčí dobrým mravům nebo narušuje veřejný pořádek, například úplatek. Relativní neplatnost chrání konkrétní osobu, třeba toho, kdo jednal v omylu vyvolaném druhou stranou nebo v tísni. Takové jednání platí, dokud se chráněná osoba neplatnosti v promlčecí době nedovolá; teprve pak je neplatné od počátku. Je jen na ní, zda to udělá, nebo vadu přejde a jednání nechá platit.', cols: [
         { h: 'Absolutní', items: [
           '<b>Podstata:</b> jednání nevyvolává právní následky; chrání se <b>veřejný zájem</b>',
           '<b>Důvody:</b> zjevný rozpor s dobrými mravy; zákon, který zjevně narušuje veřejný pořádek (§ 588) – korupce, prodej orgánů; podle slajdů i nemožný předmět a nedodržení formy',
@@ -145,6 +145,7 @@ registerTopic({
           '<b>Zhojení:</b> oprávněný na neplatnosti netrvá (souhlas, plnění po zjištění vady) nebo uplyne lhůta'
         ] }
       ] },
+      { t: 'svg', title: 'Zdánlivé, neplatné, nebo platné?', x: ZPN.defectsDiagram(), cap: 'Zdánlivé jednání vůbec nevzniklo; neplatné vzniklo, ale trpí vadou.' },
       { t: 'nums', title: 'Čísla k neplatnosti', items: [
         { n: '3', u: 'roky', x: 'promlčecí doba pro dovolání se relativní neplatnosti (subjektivní)' },
         { n: '10', u: 'let', x: 'nejzazší promlčecí doba (objektivní)' },
@@ -196,7 +197,7 @@ registerTopic({
         { h: 'Jednání zůstává platné', x: 'jen nepůsobí vůči věřiteli' }
       ] },
       { t: 'ex', x: 'Dlužník Karel dluží Evě 500 000 Kč. Aby unikl exekuci, daruje svůj majetek bratrovi. Darování je mezi Karlem a bratrem platné, ale Eva se může odpůrčí žalobou domoci, aby bylo vůči ní neúčinné, a uspokojit se z daného majetku.' },
-      { t: 'versus', title: 'Neplatnost × neúčinnost', cols: [
+      { t: 'versus', title: 'Neplatnost × neúčinnost', x: 'Podobně znějící instituty řeší úplně jiný problém. Relativní neplatnost se týká vady samotného jednání, například omylu nebo tísně: když se jí chráněná osoba dovolá, jednání neplatí pro nikoho, a to od počátku. Relativní neúčinnost se týká jednání, které je samo o sobě v pořádku, ale poškozuje věřitele, protože jím dlužník zmenšuje majetek, z něhož by se věřitel uspokojil. Jednání proto mezi stranami platí dál, jen vůči věřiteli, který uspěl s odpůrčí žalobou, nepůsobí – věřitel se tak může uspokojit i z majetku, který dlužník převedl.', cols: [
         { h: 'Relativní neplatnost', items: ['Jednání neplatí vůbec (od počátku)', 'Dovolá se chráněná osoba', 'Důvod: vada projevu vůle (omyl, lest, tíseň…)'] },
         { h: 'Relativní neúčinnost', items: ['Jednání platí', 'Odpůrčí žalobou se domáhá věřitel dlužníka', 'Jednání nepůsobí jen vůči věřiteli'] }
       ] }

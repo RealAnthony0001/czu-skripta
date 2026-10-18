@@ -22,6 +22,7 @@ registerTopic({
         { h: 'Vlastnosti', items: ['nezáporné číslo: první bit zleva <b>0</b>', 'záporné číslo: první bit zleva <b>1</b>', 'vhodný pro aritmetické operace (sčítá se stejně)'] },
         { h: 'Rozsah n bitů', items: ['−2<sup>n−1</sup> … 2<sup>n−1</sup> − 1', '8 b: −128 … +127', '4 b: −8 … +7'] }
       ] },
+      { t: 'svg', title: '4bitový doplňkový kód na kruhu', x: UPP.wheelDiagram(), cap: 'Přičítání 1 = krok po směru hodinových ručiček. Přechod ze 7 (0111) na −8 (1000) je přeplnění.' },
       { t: 'grid', head: ['Číslo X', 'Kód X′ (8 bitů)'], rows: [
         ['+53', '0011 0101'], ['−53', '1100 1011'], ['+5', '0000 0101'], ['−4', '1111 1100'], ['−20', '1110 1100'], ['+127', '0111 1111'], ['−128', '1000 0000']
       ] }
@@ -49,6 +50,7 @@ registerTopic({
         { h: 'Násobení S = X · 2<sup>k</sup>', items: ['binární řetězec X se <b>posune o k míst vlevo</b>', 'zprava se doplní vždy <b>0</b>', 'pozor na přeplnění'] },
         { h: 'Dělení D = X div 2<sup>k</sup>', items: ['řetězec X se <b>posune o k míst vpravo</b>', 'zleva se doplní <b>kopie znaménkového bitu x<sub>n−1</sub></b>', 'M = X mod 2<sup>k</sup> = odsunutých k bitů'] }
       ] },
+      { t: 'svg', title: 'Dělení mocninou dvojky = posun vpravo', x: UPP.shiftDiagram() },
       { t: 'ex', x: '<b>−20 div 4:</b> −20 = 1110 1100 → posun o 2 vpravo, zleva 1: 1111 1011 = <b>−5</b>, zbytek (odsunuté bity) 00 = 0.<br><b>−13 div 4:</b> −13 = 1111 0011 → 1111 1100 = <b>−4</b>, zbytek 11 = 3 (−4·4 + 3 = −13).' },
       { t: 'p', x: 'Výsledek podílu nemusí být celé číslo – v doplňkovém kódu proto počítáme jen celočíselné dělení (<b>div</b>) a zbytek (<b>mod</b>); u záporných čísel se zaokrouhluje <b>dolů</b>.' }
     ] }

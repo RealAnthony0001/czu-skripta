@@ -154,3 +154,21 @@ details.vocab summary{cursor:pointer;padding:9px 14px;font:700 13px var(--mono);
 details.vocab summary::before{content:"Aa";background:var(--accent);color:#000;padding:1px 6px;margin-right:10px}details.vocab summary::after{content:" ▾";color:var(--muted)}details.vocab:not([open]) summary::after{content:" ▸"}
 details.vocab dl{margin:0;padding:2px 14px 12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2px 24px}
 details.vocab dl>div{padding:7px 0;border-top:1px solid var(--line)}details.vocab dt{font-weight:700;color:var(--text)}details.vocab dd{margin:2px 0 0;font-size:14px;color:var(--muted)}
+
+/* diagramy (blok 'svg', helpery v dg.js) */
+.dg{overflow-x:auto;border:1px solid var(--line);background:var(--panel);padding:12px}
+.dg svg{display:block;margin:0 auto;width:100%;height:auto;font:13px system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.dg text{fill:var(--text)}.dg .c{text-anchor:middle}.dg .e{text-anchor:end}.dg .mo{font-family:var(--mono)}.dg .bd{font-weight:700}.dg .sm{font-size:11px}.dg .mu{fill:var(--muted)}
+.dg .tA{fill:var(--accent)}.dg .tD{fill:var(--def)}.dg .tW{fill:var(--warn)}.dg .tE{fill:var(--ex)}
+.dg .b{fill:var(--panel2);stroke:var(--line2);stroke-width:1.5}.dg .pd{fill:none;stroke:var(--line2);stroke-width:1.5;stroke-dasharray:4 3}
+.dg .fA{fill:var(--accent-s);stroke:var(--accent);stroke-width:1.5}.dg .fD{fill:var(--def-s);stroke:var(--def);stroke-width:1.5}
+.dg .fW{fill:var(--warn-s);stroke:var(--warn);stroke-width:1.5}.dg .fE{fill:var(--ex-s);stroke:var(--ex);stroke-width:1.5}
+.dg .ln{stroke:var(--muted);stroke-width:1.5;fill:none}.dg .lA{stroke:var(--accent);stroke-width:2;fill:none}.dg .lD{stroke:var(--def);stroke-width:2;fill:none}.dg .lW{stroke:var(--warn);stroke-width:2;fill:none}
+.dg .ds{stroke-dasharray:5 4}.dg marker path{fill:var(--muted)}
+.cap{font-size:13px;color:var(--muted);margin:6px 0 0}
+.tcard .vbadge{position:absolute;top:12px;right:12px;font:700 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--def);background:var(--def-s);border:1px solid var(--def);padding:2px 7px}
+.badge.vid{border-color:var(--def);color:var(--def);background:var(--def-s)}
+.vin{margin:4px 0 16px;background:var(--panel);border:1px solid var(--def)}
+.vin video{display:block;width:100%;aspect-ratio:16/9;background:#000}.vin figcaption{display:flex;justify-content:space-between;gap:8px;padding:8px 10px;font-size:14px;color:var(--def)}.vin figcaption span{font:12px var(--mono);color:var(--muted)}
+.toc .tv{font-style:normal;font-size:10px;color:var(--def)}
+.vx{margin-top:12px;padding:12px 16px;background:var(--panel);border:1px solid var(--line2);border-left:4px solid var(--def);font-size:15px;line-height:1.65}.vx .lb{display:block;font:700 11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--def);margin-bottom:4px}

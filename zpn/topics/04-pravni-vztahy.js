@@ -35,6 +35,7 @@ registerTopic({
           { h: 'Obsah', x: 'práva a povinnosti (vzájemně podmíněné)' }
         ] }
       ] } },
+      { t: 'svg', title: 'Právní vztah na příkladu převodu nemovitosti', x: ZPN.relationDiagram() },
       { t: 'icons', title: 'Obsah vztahu: právo (oprávnění) + povinnost', items: [
         { i: '🎁', h: 'Dát' },
         { i: '🔨', h: 'Konat' },
@@ -46,6 +47,7 @@ registerTopic({
     ] },
     { title: 'Právní skutečnosti a jejich členění', blocks: [
       { t: 'def', term: 'Právní skutečnost', x: 'Okolnost právně významná – právní norma s ní spojuje vznik, změnu nebo zánik právního vztahu (tj. subjektivních práv a právních povinností).' },
+      { t: 'svg', title: 'Právní skutečnosti: vůle × soulad s právem', x: ZPN.factsDiagram() },
       { t: 'tree', title: 'Čtyři druhy + konstitutivní rozhodnutí', root: { h: 'Právní skutečnosti', kids: [
         { h: 'Závislé na vůli (subjektivní)', kids: [
           { h: 'Právní jednání', x: 'projev vůle v souladu s právem + individuální právní akty; smlouva, výpověď, závěť, odvolání' },
@@ -67,7 +69,7 @@ registerTopic({
       { t: 'warn', x: 'Záměna: <b>protiprávní jednání</b> (projev vůle, vědomé chování) × <b>protiprávní stav</b> (nezávislý na vůli). Smrt a narození jsou <b>právní události</b>, ne právní jednání. Rozhodnutí soudu je samostatný druh (konstitutivní), ne právní jednání účastníků.' }
     ] },
     { title: 'Fyzické osoby (subjekt)', blocks: [
-      { t: 'versus', title: 'Způsobilosti fyzické osoby', cols: [
+      { t: 'versus', title: 'Způsobilosti fyzické osoby', x: 'Tři způsobilosti odpovídají na tři různé otázky. Právní osobnost: může člověk vůbec mít práva a povinnosti? Ano, každý od narození do smrti – i novorozenec může být vlastníkem nebo dědicem. Svéprávnost: může je sám vlastním jednáním získávat a zavazovat se? Plně až od 18 let; nezletilý jedná sám jen v záležitostech přiměřených svému věku, jinak za něj jednají rodiče. Deliktní způsobilost: odpovídá za škodu nebo protiprávní čin, který způsobil? U škody rozhoduje, zda byl schopen ovládnout své jednání a posoudit jeho následky. Novorozenec tak má právní osobnost, ale není svéprávný ani deliktně způsobilý.', cols: [
         { h: 'Právní osobnost (§ 15 odst. 1)', items: ['způsobilost mít práva a povinnosti', 'od narození do smrti', 'nelze omezit, odejmout ani se jí vzdát', 'počaté dítě = narozené, vyhovuje-li to jeho zájmům a narodí-li se živé (§ 23)'] },
         { h: 'Svéprávnost (§ 15 odst. 2)', items: ['způsobilost nabývat práva a zavazovat se vlastním právním jednáním', 'plná od 18 let (zletilost)', 'dříve: přiznání soudem od 16 let (§ 37: schopen se sám živit, souhlas zák. zástupce) nebo uzavření manželství', 'nezletilý svéprávný k jednáním přiměřeným rozumové a volní vyspělosti'] },
         { h: 'Deliktní způsobilost', items: ['způsobilost nést odpovědnost za protiprávní jednání (škodu, delikt)', 'u škody rozhoduje schopnost ovládat jednání a posoudit následky', 'slajdy uvádějí „15 let“ – to je věk trestní odpovědnosti, ne obecná občanskoprávní hranice'] }
@@ -151,7 +153,7 @@ registerTopic({
         { i: '👨‍👩‍👧', h: 'Zákonné', x: 'rodiče, poručník, opatrovník' },
         { i: '⚖️', h: 'Opatrovnictví', x: 'opatrovníka jmenuje soud' }
       ] },
-      { t: 'versus', title: 'Plná moc × prokura', cols: [
+      { t: 'versus', title: 'Plná moc × prokura', x: 'Obojí je smluvní zastoupení, liší se rozsahem a tím, kdo ho může udělit. Plnou moc může udělit kterákoli osoba a sama v ní vymezí, k čemu zástupce zmocňuje – třeba jen k podpisu jedné smlouvy. Prokuru smí udělit jen podnikatel zapsaný v obchodním rejstříku a jen fyzické osobě; její rozsah stanoví zákon a je velmi široký – prokurista smí činit všechna jednání při provozu závodu, jen nemovitost smí zcizit nebo zatížit, pokud je to výslovně uvedeno. Plná moc se tedy šije na míru, prokura je obecné zmocnění pro běžný chod firmy.', cols: [
         { h: 'Plná moc (smluvní)', items: ['uděluje zmocnitel; rozsah vymezí v plné moci', 'netýká-li se jen určitého jednání – písemně', 'zmocnitel se nemůže vzdát práva odvolat', 'zanikne vykonáním jednání, odvoláním, výpovědí, smrtí (zánikem) zmocnitele či zmocněnce, ledaže ujednáno jinak', 'zmocnění PO – působnost statutárního orgánu'] },
         { h: 'Prokura (§ 450 an.)', items: ['uděluje podnikatel zapsaný v obchodním rejstříku prokuristovi', 'jednání při provozu závodu či pobočky (i ta, pro něž se jinak žádá zvláštní plná moc)', 'musí být výslovně označena jako prokura; nelze ji udělit právnické osobě, přenést ani udělit další prokuru', 'zcizit či zatížit nemovitost jen výslovně', 'podpis: firma + podpis + dodatek „prokura“; zaniká převodem či pachtem závodu, smrtí podnikatele nezaniká'] }
       ] },
@@ -172,7 +174,7 @@ registerTopic({
     ] },
     { title: 'Objekt právního vztahu – věci', blocks: [
       { t: 'def', term: 'Věc v právním smyslu (§ 489)', x: 'Vše, co je rozdílné od osoby a slouží potřebě lidí.' },
-      { t: 'versus', title: 'Věc × není věc', cols: [
+      { t: 'versus', title: 'Věc × není věc', x: 'Občanský zákoník chápe věc velmi široce: věcí je vše, co je odlišné od člověka a slouží potřebě lidí – nejen hmotné předměty, ale i práva. Aby byla něco věcí, musí to být užitečné, ovladatelné a existovat samostatně ve vnějším světě. Zákon však výslovně vyjímá lidské tělo a jeho části a živé zvíře, které je smysly nadanou živou bytostí. Na zvířata se pravidla o věcech použijí jen obdobně a jen tehdy, pokud to jejich povaha připouští – psa tedy koupit lze, ale zacházet s ním jako s předmětem ne.', cols: [
         { h: 'Věc – znaky', items: ['odlišnost od osoby', 'užitečnost', 'ovladatelnost', 'autonomní existence ve vnějším světě'] },
         { h: 'Věcí není', items: ['<b>lidské tělo a jeho části</b> (ani po oddělení, § 493)', '<b>živé zvíře</b> (§ 494) – smysly nadaná živá bytost; ustanovení o věcech se užijí obdobně, připouští-li to povaha', 'objektem vztahu mohou být i práva, vynálezy, ochrana osobnosti, nehmotné statky'] }
       ] },
@@ -187,11 +189,11 @@ registerTopic({
         { h: 'Movité', x: 'všechno ostatní' }
       ] } },
       { t: 'p', x: 'Nemovité jsou dále věci, které podle jiného zákona nejsou součástí pozemku, a stavby, které se zatím součástí pozemku nestaly (přechodná ustanovení).' },
-      { t: 'versus', title: 'Součást věci × příslušenství', cols: [
+      { t: 'versus', title: 'Součást věci × příslušenství', x: 'Obojí souvisí s hlavní věcí, ale jinak pevně. Součást k věci patří natolik, že ji nelze oddělit, aniž by se věc znehodnotila – jako okno domu. Sama o sobě věcí není, nelze s ní samostatně nakládat a vždy sdílí osud celku. Příslušenství je samostatná věc, kterou vlastník určil k tomu, aby se s věcí hlavní trvale užívala – ovladač k televizi nebo technický průkaz k autu. Zákon předpokládá, že při prodeji hlavní věci jde příslušenství s ní, ale jde jen o vyvratitelnou domněnku, takže se strany mohou dohodnout jinak.', cols: [
         { h: 'Součást věci (§ 505)', items: ['vše, co k věci podle povahy náleží a nelze oddělit bez hospodářského, estetického či jiného znehodnocení', 'není samostatnou věcí', 'nelze s ní samostatně nakládat', 'příklad: okno domu'] },
         { h: 'Příslušenství (§ 510)', items: ['samostatná vedlejší věc vlastníka u věci hlavní, užívaná trvale společně s ní (funkční vazba + vůle vlastníka)', 'vyvratitelná domněnka, že sdílí právní osud věci hlavní', 'dočasné odnětí povahu neruší', 'příklad: ovladač k televizi, technický průkaz'] }
       ] },
-      { t: 'versus', title: 'Plody × užitky', cols: [
+      { t: 'versus', title: 'Plody × užitky', x: 'Plody i užitky jsou to, co věc „vynáší“, liší se původem. Plody věc dává ze své přirozené povahy – strom ovoce, zvíře mládě, pole úrodu. Užitky věc poskytuje pravidelně ze své právní povahy – úroky z peněz nebo dividendy z akcií. Plody zpravidla patří vlastníkovi věci, která je přinesla.', cols: [
         { h: 'Plody', items: ['co věc poskytuje ze své přirozené povahy', 'ovoce, mláďata, úroda'] },
         { h: 'Užitky', items: ['co věc pravidelně poskytuje ze své právní povahy', 'úroky, dividenda'] }
       ] },

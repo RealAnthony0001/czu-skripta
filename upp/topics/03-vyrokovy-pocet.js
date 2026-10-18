@@ -48,6 +48,7 @@ registerTopic({
         { h: 'Kontradikce (F, 0)', items: ['nepravdivá pro <b>všechna</b> ohodnocení', 'např. p ∧ ¬p'] },
         { h: 'Splnitelná', items: ['aspoň <b>jedno</b> ohodnocení dává 1', 'tautologie je splnitelná, kontradikce ne'] }
       ] },
+      { t: 'svg', title: 'Jak spolu souvisejí druhy formulí', x: UPP.setsDiagram() },
       { t: 'flow', title: 'Postup řešení', steps: [
         { h: 'Vypiš ohodnocení', x: '2<sup>n</sup> řádků' },
         { h: 'Vyhodnocuj zevnitř', x: 'vnitřní závorky → vnější; ¬ před binárními' },

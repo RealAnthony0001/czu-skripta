@@ -48,6 +48,7 @@ registerTopic({
     ] },
     { title: 'Logický důsledek', blocks: [
       { t: 'def', term: 'Logický důsledek', x: 'Z výroků P = {v<sub>1</sub>, …, v<sub>n</sub>} logicky vyplývá výrok d (P ⊨ d), právě když <b>pro všechna ohodnocení, při nichž jsou všechny v<sub>i</sub> pravdivé, je pravdivý i d</b>. Ekvivalentně: formule (v<sub>1</sub> ∧ … ∧ v<sub>n</sub>) → d je <b>tautologie</b>, resp. (v<sub>1</sub> ∧ … ∧ v<sub>n</sub> ∧ ¬d) je <b>kontradikce</b>.' },
+      { t: 'svg', title: 'Logický důsledek jako inkluze', x: UPP.consequenceDiagram() },
       { t: 'flow', title: 'Postup ověření úsudku', steps: [
         { h: 'Pojmenuj výroky', x: 'p: prší, q: vezmu deštník, r: zmoknu …' },
         { h: 'Přelož premisy a závěr', x: 'v<sub>1</sub>, v<sub>2</sub>, … a d' },

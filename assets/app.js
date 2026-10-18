@@ -9,6 +9,12 @@ let topics = [], spy;
 // nedodělaná témata (bez podkladů) jsou zamčená; vypnutí: SUBJECT.lockDraft = false
 const locked = t => SUBJECT.lockDraft && t.src === 'doplneno';
 const num = i => String(i).padStart(2, '0');
+// videa k tématu: window.VIDEOS z <předmět>/videos/index.js (generuje tools/video.mjs)
+const vids = t => window.VIDEOS?.[t.id] || [];
+// video patří do sekce, jejíž nadpis obsahuje v.at (jinak do první)
+const vidSec = (t, v) => Math.max(0, t.sections.findIndex(s => v.at && s.title.replace(/<[^>]+>/g, '').includes(v.at)));
+const vidsIn = (t, k) => vids(t).filter(v => vidSec(t, v) === k).map(v => `<figure class="vin"><video controls preload="none" poster="${v.poster}" src="${v.src}"></video><figcaption>▶ ${v.title}<span>${Math.floor(v.dur / 60)}:${num(v.dur % 60)}</span></figcaption></figure>`).join('');
+const vidN = n => `${n} ${n === 1 ? 'video' : n < 5 ? 'videa' : 'videí'}`;
 
 const setTheme = t => { document.documentElement.dataset.theme = t; store.set('theme', t); $('#theme').textContent = t === 'dark' ? '☀ Světlý' : '☾ Tmavý' };
 const setRecall = on => { document.body.classList.toggle('recall', on); store.set('recall', on); $('#recall').classList.toggle('on', on); };
@@ -25,8 +31,9 @@ function block(b) {
     case 'timeline': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="tl">${b.items.map(i => `<div class="ti"><div class="w">${i.when}</div><b>${i.h}</b>${i.x ? `<p>${i.x}</p>` : ''}</div>`).join('')}</div></div>`;
     case 'nums': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="nums">${b.items.map(i => `<div class="nm"><b>${i.n}</b>${i.u ? `<em>${i.u}</em>` : ''}<span>${i.x}</span></div>`).join('')}</div></div>`;
     case 'icons': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="icons">${b.items.map(i => `<div class="ic"><div class="ico">${i.i}</div><b>${i.h}</b>${i.x ? `<span>${i.x}</span>` : ''}</div>`).join('')}</div></div>`;
-    case 'versus': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="vsb" style="--n:${b.cols.length}">${b.cols.map((c, k) => `<div class="vcol c${k}"><div class="vh">${c.h}</div><ul>${c.items.map(i => `<li>${i}</li>`).join('')}</ul></div>`).join('')}${b.cols.length === 2 ? '<div class="x">×</div>' : ''}</div></div>`;
+    case 'versus': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="vsb" style="--n:${b.cols.length}">${b.cols.map((c, k) => `<div class="vcol c${k}"><div class="vh">${c.h}</div><ul>${c.items.map(i => `<li>${i}</li>`).join('')}</ul></div>`).join('')}${b.cols.length === 2 ? '<div class="x">×</div>' : ''}</div>${b.x ? `<div class="vx"><span class="lb">Srozumitelně</span>${b.x}</div>` : ''}</div>`;
     case 'grid': return `<div class="tbl"><table><tr>${b.head.map(h => `<th>${h}</th>`).join('')}</tr>${b.rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</table></div>`;
+    case 'svg': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="dg">${b.x}</div>${b.cap ? `<p class="cap">${b.cap}</p>` : ''}</div>`;
     case 'def': return `<div class="box def"><span class="lb">${b.term}</span>${b.x}</div>`;
     case 'law': return `<div class="box law"><span class="lb">${b.ref}</span>${b.x}</div>`;
     default: return `<div class="box ${b.t}"><span class="lb">${LBL[b.t] || b.t}</span>${b.x}</div>`;
@@ -48,9 +55,9 @@ function topicHTML(t, i) {
   return `<article>
   <div class="crumb"><a href="#/">${SUBJECT.name}</a> / ${num(i)}</div>
   <header class="hero"><div class="tile"><span>${t.icon || '§'}</span><i>${num(i)}</i></div><div><h2>${t.title}</h2><p>${t.summary || ''}</p>
-    <div class="meta">${src}${t.where ? `<span class="badge">${t.where}</span>` : ''}<span class="badge">${t.sections.length} sekcí</span><span class="badge">${(t.qa || []).length} otázek</span></div></div></header>
+    <div class="meta">${src}${t.where ? `<span class="badge">${t.where}</span>` : ''}<span class="badge">${t.sections.length} sekcí</span><span class="badge">${(t.qa || []).length} otázek</span>${vids(t).length ? `<span class="badge vid">▶ ${vidN(vids(t).length)}</span>` : ''}</div></div></header>
   ${t.vocab?.length ? `<details class="vocab" id="${t.id}-vocab" open><summary>Než začneš: slovníček (${t.vocab.length})</summary><dl>${t.vocab.map(v => `<div><dt>${v.w}</dt><dd>${v.x}</dd></div>`).join('')}</dl></details>` : ''}
-  ${t.sections.map((s, k) => `<section id="${sid(t, k)}"><h3><span class="sn">${num(k + 1)}</span>${s.title}</h3>${s.blocks.map(block).join('')}</section>`).join('')}
+  ${t.sections.map((s, k) => `<section id="${sid(t, k)}"><h3><span class="sn">${num(k + 1)}</span>${s.title}</h3>${vidsIn(t, k)}${s.blocks.map(block).join('')}</section>`).join('')}
   ${t.mistakes?.length ? `<div class="mist"><h3>Časté chyby</h3><ul>${t.mistakes.map(m => `<li>${m}</li>`).join('')}</ul></div>` : ''}
   <div class="qa-card" id="${t.id}-qa"><h3><span class="sn">?</span>Otázky k procvičení</h3>
     <div class="row"><button data-fc="start" class="on">▶ Zkoušení (kartičky)</button><button data-qa="open">Zobrazit odpovědi</button><button data-qa="close">Skrýt</button></div>
@@ -60,14 +67,14 @@ function topicHTML(t, i) {
   </article>
   <aside class="info">
     ${t.key?.length ? `<div class="ibox"><div class="ih">Rychlý přehled</div><ul>${t.key.map(k => `<li>${k}</li>`).join('')}</ul></div>` : ''}
-    <div class="ibox"><div class="ih">Na stránce</div><div class="toc">${t.vocab?.length ? `<a href="#" data-go="${t.id}-vocab"><span>Aa</span>Slovníček</a>` : ''}${t.sections.map((s, k) => `<a href="#" data-go="${sid(t, k)}"><span>${num(k + 1)}</span>${s.title}</a>`).join('')}<a href="#" data-go="${t.id}-qa"><span>?</span>Otázky</a></div>
+    <div class="ibox"><div class="ih">Na stránce</div><div class="toc">${t.vocab?.length ? `<a href="#" data-go="${t.id}-vocab"><span>Aa</span>Slovníček</a>` : ''}${t.sections.map((s, k) => `<a href="#" data-go="${sid(t, k)}"><span>${num(k + 1)}</span>${s.title}${vidsIn(t, k) ? ' <em class="tv" title="Video">▶</em>' : ''}</a>`).join('')}<a href="#" data-go="${t.id}-qa"><span>?</span>Otázky</a></div>
       <div class="pad"><button id="done" class="${done.has(t.id) ? 'on' : ''}">${done.has(t.id) ? '✔ Naučeno' : 'Označit jako naučené'}</button></div></div>
   </aside>`;
 }
 function home() {
   const ok = topics.filter(t => !locked(t)), wip = topics.filter(locked), nd = ok.filter(t => done.has(t.id)).length;
   const card = t => { const i = topics.indexOf(t), l = locked(t);
-    return `<${l ? 'div' : 'a href="#/' + t.id + '"'} class="tcard${l ? ' lock' : ''}${done.has(t.id) ? ' done' : ''}"><div class="n">${num(i)}</div><b>${t.title}</b>
+    return `<${l ? 'div' : 'a href="#/' + t.id + '"'} class="tcard${l ? ' lock' : ''}${done.has(t.id) ? ' done' : ''}"><div class="n">${num(i)}</div>${!l && vids(t).length ? `<span class="vbadge" title="Kapitola má videa">▶ ${vidN(vids(t).length)}</span>` : ''}<b>${t.title}</b>
     <span class="s">${t.summary || ''}</span>${l ? '<span class="wip">Nedodělané – chybí podklady</span>' : `<div class="f"><span>${t.sections.length} sekcí</span><span>${(t.qa || []).length} otázek</span>${done.has(t.id) ? '<span style="color:var(--ok)">✔ naučeno</span>' : ''}</div>`}</${l ? 'div' : 'a'}>`; };
   return `<div class="crumb">${SUBJECT.code || ''}</div><header class="hero"><div><h2>${SUBJECT.name}</h2><p>${SUBJECT.desc || ''}</p></div></header>
   <div class="stats"><div><b>${ok.length}</b><span>témat k učení</span></div><div><b>${ok.reduce((a, t) => a + (t.qa || []).length, 0)}</b><span>otázek</span></div><div><b>${nd}/${ok.length}</b><span>naučeno</span></div></div>

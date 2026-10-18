@@ -34,6 +34,7 @@ registerTopic({
         { h: 'Znak → číslo (kód)', x: 'X → X′ podle převodní tabulky (desítkově)' },
         { h: 'Číslo → binárně', x: 'X′ (dek.) → binární číslo, znaky za sebou' }
       ] },
+      { t: 'svg', title: 'Cesta textu „AHOJ“ do paměti', x: UPP.textDiagram() },
       { t: 'ex', x: '<b>Text „AHOJ“:</b> A′ = 65, H′ = 72, O′ = 79, J′ = 74 → <b>01000001 01001000 01001111 01001010</b> (4 bajty).' }
     ] },
     { title: 'ASCII (7 a 8 bitů)', blocks: [
@@ -65,6 +66,7 @@ registerTopic({
         ['UTF-16', '2 nebo 4 B', 'pouhé „Unicode“ často znamená UTF-16; Word .doc; názvy souborů ve Windows'],
         ['UTF-32', '4 B (vždy)', 'nejjednodušší, ale nejvíce paměťově náročný']
       ] },
+      { t: 'svg', title: 'Kolik bajtů zabere znak', x: UPP.utfDiagram() },
       { t: 'ex', x: 'Znak „A“ = 1 B v UTF-8, „č“ = 2 B (C4 8D), „€“ = 3 B, emoji 😀 = 4 B. V UTF-16 mají „A“, „č“ i „€“ po 2 B, emoji 4 B.' }
     ] }
   ],
