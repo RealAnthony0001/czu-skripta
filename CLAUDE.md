@@ -16,7 +16,7 @@ tools/video.mjs         generátor videí, tools/video-lib.mjs stavebnice snímk
 tools/videos-<předmět>.mjs scénáře videí, tools/shot.swift render HTML → PNG
 ```
 
-Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk).
+Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení; scénáře videí `tools/videos-tros.mjs`).
 
 ## Nový předmět
 
