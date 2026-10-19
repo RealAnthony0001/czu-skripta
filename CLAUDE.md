@@ -16,9 +16,11 @@ tools/video.mjs         generátor videí, tools/video-lib.mjs stavebnice snímk
 tools/videos-<předmět>.mjs scénáře videí, tools/shot.swift render HTML → PNG
 ```
 
-Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení; scénáře videí `tools/videos-tros.mjs`).
+Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení; scénáře videí `tools/videos-tros.mjs`), `mlg` (Matematická logika a grafy; zatím jen výroková logika, negace a Quine–McCluskey; scénáře videí `tools/videos-mlg.mjs`).
 
 ## Nový předmět
+
+**Každý nový předmět musí mít od začátku i diagramy (`<id>/diagrams.js`) a videa (`tools/videos-<id>.mjs` + `<id>/videos/`)** – nejsou volitelné. Postup: témata → diagramy do témat → scénáře videí → `node tools/video.mjs <id>` → `videos/index.js` do `index.html`. Předmět je hotový, až když projdou body „Hotovo“ na konci této sekce.
 
 1. Složka `<id>/` (krátké id, např. `mat`) s `topics/`.
 2. `<id>/index.html` – zkopíruj `upp/index.html` a uprav:
@@ -26,6 +28,11 @@ Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy práv
    - `window.SUBJECT = { id, code, name, desc, lockDraft: true }` (`id` = název složky; je i klíčem v localStorage),
    - pořadí skriptů: `../assets/app.js`, `../assets/dg.js`, `diagrams.js` (má-li diagramy), pak `topics/*.js`, nakonec `videos/index.js` (má-li videa).
 3. Kartu do kořenového `index.html` (`<a class="tcard" href="<id>/index.html">…`).
+4. `<id>/diagrams.js` (viz „Diagramy“) – aspoň jeden diagram na téma tam, kde je co zobrazit (postupy, vztahy množin, schémata, tabulky převodů); do `index.html` ho dej před `topics/*.js`.
+5. `tools/videos-<id>.mjs` a vygenerovaná videa (viz „Videa“) – aspoň jedno video na téma, každé u sekce, ke které patří; `<script src="videos/index.js">` na konec `index.html`.
+6. Přidej předmět do seznamu „Předměty“ výše.
+
+**Hotovo:** (a) `node tools/video.mjs <id>` doběhne bez chyb a vyhodí `throw` u špatných čísel; (b) všechna `at` sedí na nadpisy sekcí; (c) diagramy i snímky videí jsou prohlédnuté (nepřetékají texty); (d) téma s `src: 'doplneno'` videa ani diagram nepotřebuje (je zamčené).
 
 ## Nové téma
 
@@ -65,6 +72,7 @@ Texty jsou HTML (`<b>`, `<sub>`, `<sup>`, `<i>`). Bloky v `blocks` (`t` = typ):
 | `icons` | `title`, `items: [{i, h, x}]` | dlaždice s emoji |
 | `versus` | `title`, `cols: [{h, items}]`, `x` | srovnání sloupců (2 → se znakem ×); `x` = souvislé vysvětlení pod sloupci („Srozumitelně“) – u ZPN ho má každé porovnání |
 | `svg` | `title`, `x`, `cap` | vlastní diagram, `x: UPP.nazev()` |
+| `widget` | `name`, `title`, `x`, `cap` | interaktivní prvek; kód ve `<předmět>/*.js` (před `topics/*.js`) se registruje jako `window.WIDGETS[name] = (element, blok) => …`; styly s předponou `qw-` v `style.css`; vzor: `mlg/qm-widget.js` (Quine–McCluskey krok za krokem) |
 
 Pravidla obsahu:
 - Fakta jen z podkladů. Je-li ve slajdech chyba, napiš správnou verzi a přidej `warn` s vysvětlením („Slajd uvádí…, správně…“).
