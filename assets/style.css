@@ -221,3 +221,5 @@ details.vocab dl>div{padding:7px 0;border-top:1px solid var(--line)}details.voca
 .qw-leg{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;padding:8px 12px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
 .qw-leg .ha,.qw-leg .hb,.qw-leg .hr,.qw-leg .hp{padding:0 7px;border-left:4px solid}.qw-leg .ha{border-color:var(--def);background:var(--def-s)}.qw-leg .hb{border-color:var(--ex);background:var(--ex-s)}.qw-leg .hr{border-color:var(--accent);background:var(--accent-s)}.qw-leg .hp{border-color:var(--law);background:var(--law-s)}.qw-leg .hint{margin-left:auto;font-style:italic}
 @media(max-width:700px){.qw-p{grid-template-columns:1fr;gap:2px}}
+.qz-opts{display:grid;gap:8px;margin-bottom:12px}.qz-o{text-align:left;display:flex;gap:12px;padding:10px 14px;font-size:15px}.qz-o b{font-family:var(--mono);color:var(--accent)}
+.qz-o.ok{border-color:var(--ok);background:var(--ok-s)}.qz-o.bad{border-color:var(--bad);background:var(--bad-s)}.qz-o:disabled{cursor:default;color:var(--text)}

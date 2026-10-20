@@ -118,14 +118,47 @@ function fcAct(a) {
   else { a === 'yes' ? fc.ok++ : fc.bad.push(fc.order[fc.i]); fc.i++; fc.show = false; }
   fcRender();
 }
+// kvíz (#/kviz): window.QUIZZES = [{ id, title, desc, items }] z <předmět>/quiz.js (výběr na #/kviz, kvíz na #/kviz/<id>); otázka je „zapamatovaná“ po QZ_N správných odpovědích v řadě, špatná odpověď streak nuluje a otázku vrátí na konec kola
+const QZ_N = 2, qzKey = u => KEY + '-quiz-' + u.id, shuffle = a => a.map(x => [Math.random(), x]).sort((x, y) => x[0] - y[0]).map(x => x[1]);
+let qz;
+function qzList() {
+  $('#main').innerHTML = `<div class="crumb">${SUBJECT.name} / Kvízy</div><header class="hero"><div><h2>Kvízy</h2><p>Vyber kvíz. Otázky i odpovědi se míchají a kvíz se opakuje, dokud ho nemáš zapamatovaný.</p></div></header>
+  <div class="grid">${QUIZZES.map((u, i) => { const P = store.get(qzKey(u), {}), m = u.items.filter(x => (P[x.q] || 0) >= QZ_N).length;
+    return `<a href="#/kviz/${u.id}" class="tcard${m === u.items.length ? ' done' : ''}"><div class="n">${num(i + 1)}</div><b>${u.title}</b><span class="s">${u.desc || ''}</span><div class="f"><span>${u.items.length} otázek</span><span>${m === u.items.length ? '<span style="color:var(--ok)">✔ zapamatováno</span>' : `zapamatováno ${m}/${u.items.length}`}</span></div></a>`; }).join('')}</div>`;
+}
+function qzRender() {
+  const QUIZ = qz.qu, P = store.get(qzKey(QUIZ), {}), n = QUIZ.items.length, left = QUIZ.items.filter(x => (P[x.q] || 0) < QZ_N);
+  if (!qz.cur && left.length) {
+    if (!qz.queue.length) qz.queue = shuffle(left);
+    qz.cur = qz.queue.shift(); qz.pick = null; qz.opts = shuffle(qz.cur.a.map((t, i) => ({ t, ok: !i })));
+  }
+  const body = !left.length && qz.pick == null ?`<div class="fc"><div class="q">Všech ${n} otázek máš zapamatovaných 🎉</div><button data-qz="reset" class="on">Začít znovu od nuly</button></div>`
+    : `<div class="fc"><div class="cnt"><span>Zbývá naučit: ${left.length} z ${n}</span><span>zapamatování = ${QZ_N}× správně za sebou</span></div><div class="q">${qz.cur.q}</div>
+    <div class="qz-opts">${qz.opts.map((o, k) => `<button class="qz-o${qz.pick == null ? '' : o.ok ? ' ok' : k === qz.pick ? ' bad' : ''}" data-qz="pick" data-k="${k}"${qz.pick == null ? '' : ' disabled'}><b>${'ABCD'[k]}</b>${o.t}</button>`).join('')}</div>
+    ${qz.pick == null ? '' : `<p>${qz.opts[qz.pick].ok ? '✔ Správně' : '✘ Špatně – správná odpověď je zvýrazněná.'} (${P[qz.cur.q] || 0}/${QZ_N})</p><button data-qz="next" class="on">Další →</button>`}</div>`;
+  $('#main').innerHTML = `<div class="crumb"><a href="#/kviz">Kvízy</a> / ${SUBJECT.name}</div><header class="hero"><div><h2>${QUIZ.title}</h2><p>Otázky i odpovědi se míchají; kvíz se opakuje, dokud nemáš všechno zapamatované.</p></div></header>
+  <div class="stats"><div><b>${n - left.length}/${n}</b><span>zapamatováno</span></div></div>${body}${left.length && n > left.length ? '<p><button data-qz="reset">Resetovat pokrok</button></p>' : ''}`;
+}
+function qzAct(a, k) {
+  const P = store.get(qzKey(qz.qu), {});
+  if (a === 'pick' && qz.pick == null) {
+    qz.pick = +k; const ok = qz.opts[qz.pick].ok;
+    P[qz.cur.q] = ok ? (P[qz.cur.q] || 0) + 1 : 0; store.set(qzKey(qz.qu), P);
+    if (!ok) qz.queue.push(qz.cur);
+  } else if (a === 'next') qz.cur = qz.pick = null;
+  else if (a === 'reset') { store.set(qzKey(qz.qu), {}); qz = { qu: qz.qu, queue: [] }; }
+  qzRender();
+}
 function route() {
   const h = decodeURIComponent(location.hash.slice(2)), m = $('#main');
   document.body.classList.remove('nav'); spy?.disconnect(); fc = null;
   let i = topics.findIndex(t => t.id === h);
   if (i >= 0 && locked(topics[i])) { location.hash = '#/'; return; }
-  const q = h.startsWith('?q=');
+  const q = h.startsWith('?q='), isQz = /^kviz(\/|$)/.test(h) && window.QUIZZES, qu = isQz && QUIZZES.find(u => 'kviz/' + u.id === h);
   m.className = i >= 0 ? 'topic' : '';
+  if (isQz) { qu ? (qz = { qu, queue: [] }, qzRender()) : qzList(); } else
   m.innerHTML = q ? search(h.slice(3)) : i >= 0 ? topicHTML(topics[i], i) : home();
+  if (window.QUIZZES) $('#quizbtn').textContent = isQz ? '📖 Skripta' : '📝 Kvízy';
   $$('.wg').forEach(el => { const b = WGB[+el.dataset.wi]; window.WIDGETS?.[b.name]?.(el, b); });
   document.title = (i >= 0 ? topics[i].title + ' – ' : '') + SUBJECT.name;
   if (!q) window._q = '';
@@ -142,6 +175,7 @@ document.addEventListener('click', e => {
   if (g) { e.preventDefault(); document.getElementById(g.dataset.go)?.scrollIntoView(); }
   if (qa) $$('details.qa').forEach(d => d.open = qa === 'open');
   if (f) fcAct(f);
+  const z = e.target.closest('[data-qz]'); if (z) qzAct(z.dataset.qz, z.dataset.k);
   const h3 = e.target.closest('article section>h3'); if (h3) h3.parentElement.classList.toggle('fold');
   const bx = e.target.closest('.recall .box'); if (bx) bx.classList.toggle('shown');
   if (e.target.id === 'done') { const id = topics.find(t => '#/' + t.id === location.hash).id; done.has(id) ? done.delete(id) : done.add(id); store.set(KEY + '-done', [...done]); const y = scrollY; route(); scrollTo(0, y); }
@@ -150,6 +184,7 @@ addEventListener('DOMContentLoaded', () => {
   topics = T.sort((a, b) => a.order - b.order);
   $('#theme').onclick = () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
   $('#recall').onclick = () => setRecall(!document.body.classList.contains('recall'));
+  if (window.QUIZZES) { const b = document.createElement('button'); b.id = 'quizbtn'; b.onclick = () => location.hash = location.hash.startsWith('#/kviz') ? '#/' : '#/kviz'; $('#recall').before(b); }
   $('#burger').onclick = () => document.body.classList.toggle('nav');
   setTheme(store.get('theme', 'dark')); setRecall(store.get('recall', false)); route();
 });
