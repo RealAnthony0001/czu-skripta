@@ -101,7 +101,8 @@ registerTopic({
         { h: 'Senát', x: '30 dnů: schválí, zamítne, vrátí s pozměňovacími návrhy' },
         { h: 'Prezident', x: 'podepíše, nebo vrátí (veto; PS přehlasuje nadpoloviční většinou všech poslanců)' },
         { h: 'Sbírka zákonů', x: 'vyhlášení' }
-      ] }
+      ] },
+      { t: 'svg', title: 'Od návrhu zákona po jeho život po vyhlášení (doplněno mimo slajdy)', x: ZPN.legislativeProcess(), cap: 'Postup podle čl. 41–52 Ústavy; platnost a účinnost viz téma Právní normy.' }
     ] },
     { title: 'Moc výkonná – prezident, vláda, státní zastupitelství', blocks: [
       { t: 'nums', title: 'Prezident republiky', items: [

@@ -133,5 +133,28 @@ const ZPN = (() => {
     box(60, 100, 280, 100, 'fD', '1. Dohoda stran', 'autonomie vůle – má přednost') + box(420, 100, 280, 100, 'b', '2. Dispozitivní zákon', 'použije se, není-li dohoda') +
     line(340, 150, 420, 150, 'ln', 'end') + text(380, 140, 'chybí-li', 'c sm mu'));
 
-  return { publicPrivate, absRel, normDiagram, validityTimeline, powersDiagram, relationDiagram, factsDiagram, defectsDiagram, calendarDiagram, promlceniDiagram, nozBar, rulesOrder };
+  // 13) legislativní proces a život zákona po vyhlášení
+  const legislativeProcess = () => {
+    const rows = [
+      ['fD', 'Iniciativa', 'čl. 41 Ústavy', ['poslanec, skupina poslanců, Senát, vláda, zastupitelstvo kraje', 'návrh se podává Poslanecké sněmovně']],
+      ['fD', 'Poslanecká sněmovna', 'tři čtení', ['schváleno většinou přítomných (ústavní zákon: 3/5 všech poslanců)', 'zamítnutý návrh = konec procesu']],
+      ['fD', 'Senát', '30 dnů', ['schválí, nebo se do 30 dnů neusnese → zákon je přijat', 'zamítne / vrátí s pozměňovacími návrhy → zpět do PS, ta může setrvat 101 hlasy']],
+      ['fW', 'Prezident', '15 dnů', ['podepíše, nebo zákon vrátí (veto; neplatí pro ústavní zákony)', 'PS veto přehlasuje většinou všech poslanců (101), jinak zákon neprojde']],
+      ['fA', 'Sbírka zákonů', 'vyhlášení', ['podepíše prezident, předseda PS a předseda vlády', 'zákon se vyhlásí uveřejněním ve Sbírce zákonů a mezinárodních smluv']],
+      ['b', 'Platnost', 'dnem vyhlášení', ['zákon je součástí právního řádu, ještě se jím není nutné řídit']],
+      ['b', 'Účinnost', 'den určený v zákoně', ['jinak 15. den po vyhlášení; od té chvíle se podle zákona musí postupovat']],
+      ['b', 'Uplatňování a změny', 'trvání zákona', ['úřady a soudy zákon aplikují; novela či nový zákon ho mění nebo ruší (derogace)', 'Ústavní soud ho může na návrh zrušit pro rozpor s ústavním pořádkem (nález)']]
+    ];
+    let o = '', y = 20;
+    rows.forEach(([c, h, sub, notes], i) => {
+      if (i === 5) { o += line(20, y + 8, 740, y + 8, 'ln ds') + text(740, y + 4, 'PO VYHLÁŠENÍ', 'e sm mu'); y += 24; }
+      o += box(20, y, 210, 46, c, h, sub);
+      notes.forEach((n, k) => { o += text(250, y + (notes.length > 1 ? 19 + k * 17 : 27), n, k ? 'sm mu' : 'sm'); });
+      if (i < rows.length - 1) o += line(125, y + 46, 125, y + 60 + (i === 4 ? 24 : 0), 'ln', 'end');
+      y += 60;
+    });
+    return svg(760, y - 6, o);
+  };
+
+  return { legislativeProcess, publicPrivate, absRel, normDiagram, validityTimeline, powersDiagram, relationDiagram, factsDiagram, defectsDiagram, calendarDiagram, promlceniDiagram, nozBar, rulesOrder };
 })();

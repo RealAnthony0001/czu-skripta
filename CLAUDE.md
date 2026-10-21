@@ -11,6 +11,7 @@ assets/dg.js            SVG helpery pro diagramy (DG)
 <předmět>/index.html    stránka předmětu: window.SUBJECT + seznam <script> s tématy
 <předmět>/topics/NN-*.js   jedno téma = jeden soubor, volá registerTopic({...})
 <předmět>/diagrams.js   SVG diagramy předmětu (const UPP / ZPN …)
+<předmět>/map.js         volitelná myšlenková mapa (#/mapa, widget 'mapa'): ručně kostra, sekce a pojmy se berou z témat; vzor zpn/map.js
 <předmět>/videos/       vygenerovaná videa *.mp4, náhledy *.jpg a index.js (window.VIDEOS)
 tools/video.mjs         generátor videí, tools/video-lib.mjs stavebnice snímků,
 tools/videos-<předmět>.mjs scénáře videí, tools/shot.swift render HTML → PNG

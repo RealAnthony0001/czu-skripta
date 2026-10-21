@@ -85,6 +85,8 @@ function home() {
   <div class="gh">Hotová témata</div><div class="grid">${ok.map(card).join('')}</div>
   ${wip.length ? `<div class="gh">Nedodělané (${wip.length})</div><div class="notice">K těmto tématům nebyly dodány podklady, proto jsou zatím zamčená. Po dodání materiálů se odemknou.</div><div class="grid" style="margin-top:12px">${wip.map(card).join('')}</div>` : ''}`;
 }
+// myšlenková mapa (#/mapa): widget 'mapa' z <předmět>/map.js – kostra předmětu + sekce a pojmy z témat
+const mapHTML = () => `<div class="crumb"><a href="#/">${SUBJECT.name}</a> / Mapa</div><header class="hero"><div><h2>Myšlenková mapa</h2><p>Klikni na uzel – rozbalí se a vpravo dole uvidíš vysvětlení a odkaz do kapitoly. Najetím myší se ukáže krátký popis.</p></div></header>${block({ t: 'widget', name: 'mapa' })}`;
 function search(q) {
   const re = new RegExp(reEsc(q), 'i'), strip = x => x.replace(/<[^>]+>/g, ' ');
   const hits = topics.filter(t => !locked(t)).map(t => ({ t, parts: [...t.sections.flatMap(s => s.blocks.map(b => [s.title, strip(Object.values(b).flat(2).join(' '))])), ...(t.vocab || []).map(v => ['Slovníček', strip(v.w + ' ' + v.x)]), ...(t.qa || []).map(x => ['Otázky', strip(x.q + ' ' + x.a)])].filter(([, x]) => re.test(x)) })).filter(h => h.parts.length);
@@ -94,7 +96,7 @@ function nav() {
   const nd = topics.filter(t => !locked(t));
   $('#side').innerHTML = `<input id="q" type="search" placeholder="Hledat v celém skriptu…" value="${esc(window._q || '')}">
   <div class="prog"><i style="width:${nd.length ? nd.filter(t => done.has(t.id)).length / nd.length * 100 : 0}%"></i></div>
-  <a href="#/" class="${!location.hash.slice(2) ? 'cur' : ''}"><span class="n">⌂</span>Přehled</a><div class="grp">Témata</div>
+  <a href="#/" class="${!location.hash.slice(2) ? 'cur' : ''}"><span class="n">⌂</span>Přehled</a>${window.WIDGETS?.mapa ? `<a href="#/mapa" class="${location.hash === '#/mapa' ? 'cur' : ''}"><span class="n">🗺</span>Myšlenková mapa</a>` : ''}<div class="grp">Témata</div>
   ${topics.map((t, i) => locked(t) ? `<a class="lock" title="Nedodělané – chybí podklady"><span class="n">${num(i)}</span>${t.title}</a>` : `<a href="#/${t.id}" class="${location.hash === '#/' + t.id ? 'cur' : ''}"><span class="n">${num(i)}</span>${t.title}${lecPills(t)}${done.has(t.id) ? '<span class="ok">✔</span>' : ''}</a>`).join('')}`;
   $('#q').oninput = e => { window._q = e.target.value.trim(); location.hash = window._q.length > 1 ? '#/?q=' + encodeURIComponent(window._q) : '#/'; };
 }
@@ -158,7 +160,7 @@ function route() {
   const q = h.startsWith('?q='), isQz = /^kviz(\/|$)/.test(h) && window.QUIZZES, qu = isQz && QUIZZES.find(u => 'kviz/' + u.id === h);
   m.className = i >= 0 ? 'topic' : '';
   if (isQz) { qu ? (qz = { qu, queue: [] }, qzRender()) : qzList(); } else
-  m.innerHTML = q ? search(h.slice(3)) : i >= 0 ? topicHTML(topics[i], i) : home();
+  m.innerHTML = q ? search(h.slice(3)) : i >= 0 ? topicHTML(topics[i], i) : h === 'mapa' && window.WIDGETS?.mapa ? mapHTML() : home();
   if (window.QUIZZES) $('#quizbtn').textContent = isQz ? '📖 Skripta' : '📝 Kvízy';
   $$('.wg').forEach(el => { const b = WGB[+el.dataset.wi]; window.WIDGETS?.[b.name]?.(el, b); });
   document.title = (i >= 0 ? topics[i].title + ' – ' : '') + SUBJECT.name;
