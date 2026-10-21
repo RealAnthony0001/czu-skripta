@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'system', order: 3, icon: '⚙️', title: 'Systém, struktura a typologie systémů', src: 'podklady',
+  id: 'system', order: 3, icon: '⚙️', title: 'Systém, struktura a typologie systémů', src: 'podklady', lec: [3],
   where: 'Přednáška 3 + Cvičení 2',
   summary: 'Definice systému S = {A, R}, okolí, struktura a složitost, agregace a desagregace, integrace a diferenciace, typologie systémů a jejich chování.',
   vocab: [

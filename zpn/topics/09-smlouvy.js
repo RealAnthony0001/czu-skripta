@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'smlouvy', order: 9, icon: '🤝', title: 'Relativní majetková práva: závazky a smlouvy', src: 'doplneno', where: 'Přednáška 6 + Cvičení 3',
+  id: 'smlouvy', order: 9, icon: '🤝', title: 'Relativní majetková práva: závazky a smlouvy', src: 'doplneno', lec: [6], where: 'Přednáška 6 + Cvičení 3',
   summary: 'Závazkové právo v NOZ: absolutní × relativní práva, vznik a zánik závazku, uzavření smlouvy, zajištění, prodlení a přehled nominátních smluv (kupní, o dílo, nájem, darování, půjčka, výpůjčka, pojistná, mandátní).',
   vocab: [
     {w:'Právní jednání',x:'Projev vůle, kterým někdo zakládá, mění nebo ruší práva a povinnosti (smlouva, výpověď, odstoupení).'},

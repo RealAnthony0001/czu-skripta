@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'obcanske-pravo', order: 7, icon: '📕', title: 'Občanský zákoník: zásady a absolutní majetková práva', src: 'podklady', where: 'Přednáška 2 (úvod do NOZ) + sylabus přednášky 4 (doplněno)',
+  id: 'obcanske-pravo', order: 7, icon: '📕', title: 'Občanský zákoník: zásady a absolutní majetková práva', src: 'podklady', lec: [2,4], where: 'Přednáška 2 (úvod do NOZ) + sylabus přednášky 4 (doplněno)',
   summary: 'Cíle, struktura a zásady nového občanského zákoníku (89/2012 Sb.), nové termíny, zrušené a nově přijaté předpisy; doplňkově vlastnictví, věcná práva, držba a ochrana vlastnictví.',
   vocab: [
     {w:'Sb.',x:'Sbírka zákonů – oficiální věstník, ve kterém se zákony vyhlašují; „89/2012 Sb.“ = zákon č. 89 z roku 2012.'},

@@ -223,3 +223,8 @@ details.vocab dl>div{padding:7px 0;border-top:1px solid var(--line)}details.voca
 @media(max-width:700px){.qw-p{grid-template-columns:1fr;gap:2px}}
 .qz-opts{display:grid;gap:8px;margin-bottom:12px}.qz-o{text-align:left;display:flex;gap:12px;padding:10px 14px;font-size:15px}.qz-o b{font-family:var(--mono);color:var(--accent)}
 .qz-o.ok{border-color:var(--ok);background:var(--ok-s)}.qz-o.bad{border-color:var(--bad);background:var(--bad-s)}.qz-o:disabled{cursor:default;color:var(--text)}
+.lec{display:inline-block;font:700 11px var(--mono);color:var(--lc);background:color-mix(in srgb,var(--lc) 18%,transparent);border:1px solid var(--lc);padding:1px 6px;white-space:nowrap}
+nav.side a .lec{margin-left:auto}nav.side a .lec+.lec{margin-left:0}nav.side a .lec~.ok,nav.side a .ok{margin-left:6px}
+.tcard .lecs{display:flex;gap:4px;flex-wrap:wrap}
+.scards{grid-template-columns:1fr}.scard{min-height:0}.scard p{margin:0;font-size:13.5px;line-height:1.5}.scard p b{display:inline;font-size:12px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em}.scard p b.ok{color:var(--ok)}.scard p b.warn{color:var(--warn)}
+.scard .vbadge.st.src{color:var(--ok);background:var(--ok-s);border-color:var(--ok)}.scard .vbadge.st.sup{color:var(--warn);background:var(--warn-s);border-color:var(--warn)}.scard .f{text-transform:none}

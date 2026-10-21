@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'pravni-vztahy', order: 4, icon: '🔗', title: 'Právní vztahy, subjekty a objekty', src: 'podklady', where: 'Přednáška 2 + Cvičení 2 (zpn_sem2, Dodamgoda A2)',
+  id: 'pravni-vztahy', order: 4, icon: '🔗', title: 'Právní vztahy, subjekty a objekty', src: 'podklady', lec: [2], where: 'Přednáška 2 + Cvičení 2 (zpn_sem2, Dodamgoda A2)',
   summary: 'Pojem právního vztahu, jeho předpoklady a prvky (subjekt, objekt, obsah), členění právních skutečností, fyzické a právnické osoby, zastoupení a věci v právním smyslu.',
   vocab: [
     { w: 'Věřitel × dlužník', x: 'Věřitel má právo (pohledávku) žádat plnění; dlužník má povinnost (dluh) plnit.' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'manazerske-funkce', order: 12, icon: '📚', title: 'Manažerské funkce a historie managementu', src: 'podklady',
+  id: 'manazerske-funkce', order: 12, icon: '📚', title: 'Manažerské funkce a historie managementu', src: 'podklady', lec: [11],
   where: 'Přednáška 11 (historie managementu) + seminární téma',
   summary: 'Fayol a jeho funkce a principy, sekvenční a paralelní funkce, Urwick, POSDCORB, Drucker, Koontz a Weihrich, Mintzbergových 10 rolí a koncepce 7 S.',
   vocab: [

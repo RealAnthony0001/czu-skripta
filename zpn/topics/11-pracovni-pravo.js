@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'pracovni-pravo', order: 11, icon: '👷', title: 'Pracovní právo', src: 'doplneno', where: 'Sylabus – přednáška 8',
+  id: 'pracovni-pravo', order: 11, icon: '👷', title: 'Pracovní právo', src: 'doplneno', lec: [8], where: 'Sylabus – přednáška 8',
   summary: 'Zákoník práce 262/2006 Sb.: zásady, pracovněprávní vztahy, vznik a skončení pracovního poměru, dohody o pracích mimo pracovní poměr, pracovní doba, dovolená, mzda, odpovědnost za škodu, BOZP a zákaz diskriminace.',
   vocab: [
     {w:'Subsidiární použití',x:'Obecný předpis (zde NOZ) se použije jen tam, kde zvláštní předpis (zákoník práce) nic neurčuje.'},

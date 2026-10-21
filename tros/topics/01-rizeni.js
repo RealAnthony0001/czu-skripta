@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'rizeni', order: 1, icon: '🧭', title: 'Řízení a informační působení', src: 'podklady',
+  id: 'rizeni', order: 1, icon: '🧭', title: 'Řízení a informační působení', src: 'podklady', lec: [1,2],
   where: 'Přednáška 1–2 + Cvičení 1',
   summary: 'Co je řízení a management, věda × umění, kybernetika; tři typy informačního působení – ovládání, řízení (se zpětnou vazbou) a regulace.',
   vocab: [

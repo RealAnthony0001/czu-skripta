@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'proces-rizeni', order: 2, icon: '🔄', title: 'Řízení jako činnost a proces', src: 'podklady',
+  id: 'proces-rizeni', order: 2, icon: '🔄', title: 'Řízení jako činnost a proces', src: 'podklady', lec: [2],
   where: 'Přednáška 2 + Cvičení 1 (úkoly 4–9)',
   summary: 'Co musí řídící pracovník zabezpečit, fáze procesu řízení (časové hledisko), stádia cyklu řízení (věcné hledisko), matice polí 11–33 a faktor času.',
   vocab: [

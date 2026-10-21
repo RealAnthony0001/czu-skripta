@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'pravo-system', order: 1, icon: '⚖️', title: 'Právo, právní systémy a prameny práva', src: 'podklady', where: 'Přednáška 1',
+  id: 'pravo-system', order: 1, icon: '⚖️', title: 'Právo, právní systémy a prameny práva', src: 'podklady', lec: [1], where: 'Přednáška 1',
   summary: 'Pojem a historie práva, velké právní systémy, dualismus práva (objektivní × subjektivní, hmotné × procesní, soukromé × veřejné, absolutní × relativní), prameny práva, hierarchie předpisů v ČR a právo EU.',
   vocab: [
     { w: 'Sb. (Sbírka zákonů)', x: 'Oficiální sbírka, kde se vyhlašují zákony; „zákon č. 89/2012 Sb.“ = zákon číslo 89 z roku 2012.' },

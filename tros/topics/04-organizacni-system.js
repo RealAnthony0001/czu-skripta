@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'organizacni-system', order: 4, icon: '🏭', title: 'Organizační systém a subsystémy 1. řádu', src: 'podklady',
+  id: 'organizacni-system', order: 4, icon: '🏭', title: 'Organizační systém a subsystémy 1. řádu', src: 'podklady', lec: [4],
   where: 'Přednáška 4 + Cvičení 2–3',
   summary: 'Podnik jako organizační systém: prvky, vazby, devět subsystémů 1. řádu, hlavní diagonála, oblasti a procesy a rozklad do vyšších rozlišovacích úrovní.',
   vocab: [

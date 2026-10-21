@@ -74,10 +74,11 @@ function topicHTML(t, i) {
       <div class="pad"><button id="done" class="${done.has(t.id) ? 'on' : ''}">${done.has(t.id) ? '✔ Naučeno' : 'Označit jako naučené'}</button></div></div>
   </aside>`;
 }
+const lecPills = (t, long) => (t.lec || []).map(n => `<span class="lec" title="Přednáška ${n}" style="--lc:hsl(${n * 137.5 % 360} 65% 55%)">${long ? 'Přednáška ' : 'P'}${n}</span>`).join('');
 function home() {
   const ok = topics.filter(t => !locked(t)), wip = topics.filter(locked), nd = ok.filter(t => done.has(t.id)).length;
   const card = t => { const i = topics.indexOf(t), l = locked(t);
-    return `<${l ? 'div' : 'a href="#/' + t.id + '"'} class="tcard${l ? ' lock' : ''}${done.has(t.id) ? ' done' : ''}"><div class="n">${num(i)}</div>${!l && vids(t).length ? `<span class="vbadge" title="Kapitola má videa">▶ ${vidN(vids(t).length)}</span>` : ''}<b>${t.title}</b>
+    return `<${l ? 'div' : 'a href="#/' + t.id + '"'} class="tcard${l ? ' lock' : ''}${done.has(t.id) ? ' done' : ''}"><div class="n">${num(i)}</div>${l || !t.lec ? '' : `<div class="lecs">${lecPills(t, 1)}</div>`}${!l && vids(t).length ? `<span class="vbadge" title="Kapitola má videa">▶ ${vidN(vids(t).length)}</span>` : ''}<b>${t.title}</b>
     <span class="s">${t.summary || ''}</span>${l ? '<span class="wip">Nedodělané – chybí podklady</span>' : `<div class="f"><span>${t.sections.length} sekcí</span><span>${(t.qa || []).length} otázek</span>${done.has(t.id) ? '<span style="color:var(--ok)">✔ naučeno</span>' : ''}</div>`}</${l ? 'div' : 'a'}>`; };
   return `<div class="crumb">${SUBJECT.code || ''}</div><header class="hero"><div><h2>${SUBJECT.name}</h2><p>${SUBJECT.desc || ''}</p></div></header>
   <div class="stats"><div><b>${ok.length}</b><span>témat k učení</span></div><div><b>${ok.reduce((a, t) => a + (t.qa || []).length, 0)}</b><span>otázek</span></div><div><b>${nd}/${ok.length}</b><span>naučeno</span></div></div>
@@ -94,7 +95,7 @@ function nav() {
   $('#side').innerHTML = `<input id="q" type="search" placeholder="Hledat v celém skriptu…" value="${esc(window._q || '')}">
   <div class="prog"><i style="width:${nd.length ? nd.filter(t => done.has(t.id)).length / nd.length * 100 : 0}%"></i></div>
   <a href="#/" class="${!location.hash.slice(2) ? 'cur' : ''}"><span class="n">⌂</span>Přehled</a><div class="grp">Témata</div>
-  ${topics.map((t, i) => locked(t) ? `<a class="lock" title="Nedodělané – chybí podklady"><span class="n">${num(i)}</span>${t.title}</a>` : `<a href="#/${t.id}" class="${location.hash === '#/' + t.id ? 'cur' : ''}"><span class="n">${num(i)}</span>${t.title}${done.has(t.id) ? '<span class="ok">✔</span>' : ''}</a>`).join('')}`;
+  ${topics.map((t, i) => locked(t) ? `<a class="lock" title="Nedodělané – chybí podklady"><span class="n">${num(i)}</span>${t.title}</a>` : `<a href="#/${t.id}" class="${location.hash === '#/' + t.id ? 'cur' : ''}"><span class="n">${num(i)}</span>${t.title}${lecPills(t)}${done.has(t.id) ? '<span class="ok">✔</span>' : ''}</a>`).join('')}`;
   $('#q').oninput = e => { window._q = e.target.value.trim(); location.hash = window._q.length > 1 ? '#/?q=' + encodeURIComponent(window._q) : '#/'; };
 }
 // kartičky: náhodné pořadí, sebehodnocení Vím / Nevím, na konci opakování nezvládnutých

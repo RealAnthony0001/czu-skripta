@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'rodinne-pravo', order: 10, icon: '👨‍👩‍👧', title: 'Rodinné právo a podnikání, SJM', src: 'doplneno', where: 'Přednáška 7',
+  id: 'rodinne-pravo', order: 10, icon: '👨‍👩‍👧', title: 'Rodinné právo a podnikání, SJM', src: 'doplneno', lec: [7], where: 'Přednáška 7',
   summary: 'Manželství, registrované partnerství, rodičovská odpovědnost a vyživovací povinnost; společné jmění manželů (SJM) a jeho vliv na podnikání; formy podnikání (OSVČ, s.r.o., a.s., v.o.s., k.s.), veřejný rejstřík, rodinný podnik a evropský rámec.',
   vocab: [
     {w:'FO a PO',x:'Fyzická osoba je člověk, právnická osoba (PO) je firma či jiná organizace s vlastní právní osobností.'},

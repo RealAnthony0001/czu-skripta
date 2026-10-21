@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'time-management', order: 11, icon: '⏱️', title: 'Time management (řízení času)', src: 'podklady',
+  id: 'time-management', order: 11, icon: '⏱️', title: 'Time management (řízení času)', src: 'podklady', lec: [10],
   where: 'Přednáška 10 + Dovednosti v řízení kap. 7',
   summary: 'Proč řídit čas, čtyři generace plánování času, Paretovo pravidlo, deset zásad, pět omylů D. Wetmora a „planning fallacy“.',
   vocab: [

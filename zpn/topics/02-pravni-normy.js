@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'pravni-normy', order: 2, icon: '📜', title: 'Právní normy', src: 'podklady', where: 'Přednáška 1 + Cvičení 1',
+  id: 'pravni-normy', order: 2, icon: '📜', title: 'Právní normy', src: 'podklady', lec: [1], where: 'Přednáška 1 + Cvičení 1',
   summary: 'Pojem a struktura právní normy (hypotéza, dispozice, sankce), druhy norem, působnost, platnost a účinnost, publikace ve Sbírce zákonů, aplikace, analogie a výklad (interpretace).',
   vocab: [
     { w: '§, odst., písm.', x: 'Členění zákona: paragraf (§) → odstavec (odst.) → písmeno (písm.); „§ 10 odst. 2 písm. a)“.' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'vlastnosti-subsystemu', order: 5, icon: '📊', title: 'Vlastnosti subsystémů, chování, výkonnost a spolehlivost OS', src: 'podklady',
+  id: 'vlastnosti-subsystemu', order: 5, icon: '📊', title: 'Vlastnosti subsystémů, chování, výkonnost a spolehlivost OS', src: 'podklady', lec: [4],
   where: 'Přednáška 4 + Cvičení 4 (úkoly 10–17) + skripta TŘOS kap. 5',
   summary: 'Nezastupitelnost, podmíněnost, proporcionalita, stabilita, hierarchie ŘSS, kompetence (s výpočtem), disjunkce a konjunkce; chování OS, výkonnost (hospodárnost, efektivnost, účelnost) a spolehlivost se vzorci.',
   vocab: [

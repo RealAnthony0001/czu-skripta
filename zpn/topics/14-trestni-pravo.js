@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'trestni-pravo', order: 14, icon: '🚔', title: 'Trestní právo', src: 'doplneno', where: 'Přednáška 11 (sylabus – doplněno ze znalostí)',
+  id: 'trestni-pravo', order: 14, icon: '🚔', title: 'Trestní právo', src: 'doplneno', lec: [11], where: 'Přednáška 11 (sylabus – doplněno ze znalostí)',
   summary: 'Pojem trestného činu a zásady trestního práva, znaky skutkové podstaty, zavinění, věk a příčetnost, okolnosti vylučující protiprávnost, stádia, tresty, korupční trestné činy veřejných osob a trestní odpovědnost právnických osob.',
   vocab: [
     { w: 'Sb., §, odst., písm.', x: 'Sbírka zákonů, paragraf, odstavec, písmeno – takto se přesně cituje místo v zákoně (např. § 15 odst. 1 písm. a).' },

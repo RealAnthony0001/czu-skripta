@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'cas-promlceni', order: 6, icon: '⏳', title: 'Čas, lhůty, promlčení a prekluze', src: 'podklady', where: 'Cvičení 2 + Přednáška 2 (§ 605–608, § 609 an. OZ)',
+  id: 'cas-promlceni', order: 6, icon: '⏳', title: 'Čas, lhůty, promlčení a prekluze', src: 'podklady', lec: [2], where: 'Cvičení 2 + Přednáška 2 (§ 605–608, § 609 an. OZ)',
   summary: 'Čas jako právní událost, doba a lhůta, počítání lhůt podle § 605–608 s příklady, právní domněnky a fikce, promlčení (3 / 10 let, námitka, naturální obligace, stavění a neklid) a prekluze včetně srovnávací tabulky.',
   vocab: [
     { w: 'Věřitel × dlužník', x: 'Věřitel má právo žádat plnění (pohledávku); dlužník je povinen dluh splnit.' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'civilni-proces', order: 13, icon: '🧑‍⚖️', title: 'Procesní předpisy, občanské soudní řízení', src: 'doplneno', where: 'Přednáška 10 (sylabus – doplněno ze znalostí)',
+  id: 'civilni-proces', order: 13, icon: '🧑‍⚖️', title: 'Procesní předpisy, občanské soudní řízení', src: 'doplneno', lec: [10], where: 'Přednáška 10 (sylabus – doplněno ze znalostí)',
   summary: 'Vztah hmotného a procesního práva, soustava soudů, strany a příslušnost, žaloba, průběh sporného řízení, rozsudek a usnesení, právní moc, opravné prostředky a výkon rozhodnutí.',
   vocab: [
     { w: 'Sb. (Sbírka zákonů)', x: 'Úřední věstník, v němž se vyhlašují zákony; „č. 99/1963 Sb.“ = zákon číslo 99 z roku 1963.' },

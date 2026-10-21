@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'motivace', order: 7, icon: '🔥', title: 'Motivace pracovníků', src: 'podklady',
+  id: 'motivace', order: 7, icon: '🔥', title: 'Motivace pracovníků', src: 'podklady', lec: [6],
   where: 'Přednáška 6 + Cvičení 5 + Dovednosti v řízení kap. 5.3 + test Pracovní motivace',
   summary: 'Vnitřní a vnější motivace, Maslow, stimuly hmotné, sociální a morální, přímá a nepřímá motivace, osm motivačních pravidel, motivační teorie a test pracovní motivace.',
   vocab: [

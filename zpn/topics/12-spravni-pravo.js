@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'spravni-pravo', order: 12, icon: '🏛️', title: 'Správní právo a správní řízení', src: 'doplneno', where: 'Sylabus – přednáška 9',
+  id: 'spravni-pravo', order: 12, icon: '🏛️', title: 'Správní právo a správní řízení', src: 'doplneno', lec: [9], where: 'Sylabus – přednáška 9',
   summary: 'Pojem a členění správního práva, veřejná správa (státní správa × samospráva), správní orgány, zásady a průběh správního řízení dle správního řádu 500/2004 Sb., opravné prostředky, správní akty, soudní přezkum a správní trestání.',
   vocab: [
     {w:'FO a PO',x:'Fyzická osoba (FO) je člověk, právnická osoba (PO) firma či jiná organizace s vlastní právní osobností.'},

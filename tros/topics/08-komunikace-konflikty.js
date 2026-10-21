@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'komunikace', order: 8, icon: '💬', title: 'Komunikace a řešení konfliktů', src: 'podklady',
+  id: 'komunikace', order: 8, icon: '💬', title: 'Komunikace a řešení konfliktů', src: 'podklady', lec: [7],
   where: 'Přednáška 7 + Cvičení 5 + Dovednosti v řízení kap. 5.4–5.5',
   summary: 'Komunikační proces, bariéry a zlozvyky, verbální a neverbální komunikace, směry a formy komunikace v organizaci, porady, typy konfliktů a jejich řešení.',
   vocab: [

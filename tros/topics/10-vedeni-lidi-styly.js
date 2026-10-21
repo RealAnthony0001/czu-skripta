@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'vedeni-lidi', order: 10, icon: '🧑‍💼', title: 'Vedení lidí, stupně řízení a styly řízení', src: 'podklady',
+  id: 'vedeni-lidi', order: 10, icon: '🧑‍💼', title: 'Vedení lidí, stupně řízení a styly řízení', src: 'podklady', lec: [6,9],
   where: 'Přednáška 9 + Přednáška 6 (styly řízení) + Cvičení 6 + Dovednosti v řízení kap. 6 + TŘOS kap. 9 + Test manažerských stylů',
   summary: 'Vedení lidí a pracovní skupina, nejnižší, střední a nejvyšší stupeň řízení, osm stylů řízení, dotazník manažerských stylů a kvalifikace a kompetence řídících pracovníků.',
   vocab: [

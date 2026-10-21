@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'rozhodovani', order: 9, icon: '⚖️', title: 'Rozhodování a delegování', src: 'podklady',
+  id: 'rozhodovani', order: 9, icon: '⚖️', title: 'Rozhodování a delegování', src: 'podklady', lec: [8,9],
   where: 'Přednáška 8–9 + Cvičení 6 + Dovednosti v řízení kap. 5.1–5.2',
   summary: 'Rozhodovací proces o osmi krocích, kritéria a váhy, druhy rozhodování, rozhodování podle stupně řízení, bariéry, Eisenhowerova matice a delegování (přikazování – koučování – delegování, odpovědnost).',
   vocab: [

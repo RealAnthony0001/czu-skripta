@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'struktury', order: 6, icon: '🏢', title: 'Organizační a řídící struktury, řídící kapacita', src: 'podklady',
+  id: 'struktury', order: 6, icon: '🏢', title: 'Organizační a řídící struktury, řídící kapacita', src: 'podklady', lec: [5],
   where: 'Přednáška 5 + Cvičení 4–5 + skripta TŘOS kap. 6–8',
   summary: 'Organizační stupně, jednotky a JOP, typy organizačních struktur, řídící struktura (americký a německý model, liniová, funkcionální, divizionální, projektová, procesní) a výpočet řídící kapacity.',
   vocab: [

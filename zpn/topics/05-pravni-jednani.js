@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'pravni-jednani', order: 5, icon: '✍️', title: 'Právní jednání a jeho vady', src: 'podklady', where: 'Přednáška 2 + Cvičení 2 (§ 545 an. OZ)',
+  id: 'pravni-jednani', order: 5, icon: '✍️', title: 'Právní jednání a jeho vady', src: 'podklady', lec: [2], where: 'Přednáška 2 + Cvičení 2 (§ 545 an. OZ)',
   summary: 'Definice a náležitosti právního jednání, jeho druhy, forma a výklad, zdánlivé právní jednání, absolutní a relativní neplatnost, následky neplatnosti, konverze, konvalidace, ratihabice a relativní neúčinnost.',
   vocab: [
     { w: 'Strana smlouvy, smlouva', x: 'Smlouva je dohoda dvou či více stran (účastníků), např. kupující a prodávající.' },

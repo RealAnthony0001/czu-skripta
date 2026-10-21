@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'odpovednost', order: 8, icon: '⚖️', title: 'Odpovědnost za újmu a bezdůvodné obohacení', src: 'doplneno', where: 'Sylabus – přednáška 5 (odpovědnost za újmu)',
+  id: 'odpovednost', order: 8, icon: '⚖️', title: 'Odpovědnost za újmu a bezdůvodné obohacení', src: 'doplneno', lec: [5], where: 'Sylabus – přednáška 5 (odpovědnost za újmu)',
   summary: 'Soukromoprávní odpovědnost za újmu dle NOZ (předpoklady, škoda × nemajetková újma, liberace, odpovědnost za jiného, zvláštní případy), bezdůvodné obohacení a základy veřejnoprávní odpovědnosti (přestupky, správní delikty, odpovědnost státu).',
   vocab: [
     {w:'Škůdce × poškozený',x:'Škůdce je ten, kdo újmu způsobil, poškozený ten, kdo ji utrpěl a má nárok na náhradu.'},

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'ustavni-pravo', order: 3, icon: '🏛️', title: 'Ústavní právo, Ústava a Listina', src: 'podklady', where: 'Přednáška 3',
+  id: 'ustavni-pravo', order: 3, icon: '🏛️', title: 'Ústavní právo, Ústava a Listina', src: 'podklady', lec: [3], where: 'Přednáška 3',
   summary: 'Ústavní pořádek ČR, struktura Ústavy, tři moci (Parlament, prezident, vláda, soudy, Ústavní soud), NKÚ, ČNB, územní samospráva, Listina základních práv a svobod a veřejný ochránce práv – včetně přehledu čísel a lhůt.',
   vocab: [
     { w: 'Aktivní × pasivní volební právo', x: 'Aktivní = právo volit; pasivní = právo být zvolen (kandidovat).' },
