@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'vyrokovy-pocet', order: 3, icon: '🧮', title: 'Výrokový počet a pravdivostní tabulky', src: 'podklady',
+  id: 'vyrokovy-pocet', order: 3, icon: '🧮', title: 'Výrokový počet a pravdivostní tabulky', src: 'podklady', lec: [1],
   summary: 'Výrok, logické spojky (∧ ∨ ¬ → ↔ ⊕ ↑ ↓), pravdivostní funkce a tabulky, vyhodnocování formulí, tautologie, kontradikce a splnitelnost – s vyřešenými příklady ze cvičení.',
   vocab: [
     { w: 'Výrok', x: 'Oznamovací věta, o které lze rozhodnout, zda je pravdivá, nebo nepravdivá („Prší.“). Otázka ani přání výrokem není.' },

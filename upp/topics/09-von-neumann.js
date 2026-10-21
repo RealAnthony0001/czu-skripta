@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'von-neumann', order: 9, icon: '🏗️', title: 'Architektura počítače von Neumannova typu', src: 'podklady',
+  id: 'von-neumann', order: 9, icon: '🏗️', title: 'Architektura počítače von Neumannova typu', src: 'podklady', lec: [3],
   summary: 'Von Neumannovo a harvardské schéma, činnost počítače, procesor a jeho registry, členění programového vybavení (systémový SW, aplikační SW, firmware).',
   vocab: [
     { w: 'ALU', x: 'Aritmeticko-logická jednotka – provádí jednotlivé kroky výpočtu.' },

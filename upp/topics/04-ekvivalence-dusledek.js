@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'ekvivalence-dusledek', order: 4, icon: '🔗', title: 'Ekvivalence formulí a logický důsledek', src: 'podklady',
+  id: 'ekvivalence-dusledek', order: 4, icon: '🔗', title: 'Ekvivalence formulí a logický důsledek', src: 'podklady', lec: [1],
   summary: 'Tautologická ekvivalence a důležité zákony (De Morgan, absorpce, distribuce …), logický důsledek a ověřování úsudků pravdivostní tabulkou, Booleova algebra a fuzzy logika – s řešením všech úsudků ze cvičení 2.',
   vocab: [
     { w: 'Úsudek', x: 'Z předpokladů (premis) vyvozujeme závěr; ověřujeme, zda závěr z předpokladů logicky plyne.' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'cela-cisla', order: 6, icon: '➕', title: 'Celá čísla: doplňkový kód a aritmetika', src: 'podklady',
+  id: 'cela-cisla', order: 6, icon: '➕', title: 'Celá čísla: doplňkový kód a aritmetika', src: 'podklady', lec: [2],
   summary: 'Kódování celých čísel v doplňkovém kódu, výpočet doplňku (negace + 1), sčítání pomocí přenosů a detekce přetečení, násobení a dělení mocninou dvojky posuvem bitů.',
   vocab: [
     { w: 'Číslo s pevnou řádovou čárkou', x: 'Celé číslo (kladné i záporné) uložené v 1–4 bajtech.' },

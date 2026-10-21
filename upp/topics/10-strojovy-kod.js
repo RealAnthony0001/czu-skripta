@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'strojovy-kod', order: 10, icon: '⚙️', title: 'Strojový kód, instrukce a adresace', src: 'podklady',
+  id: 'strojovy-kod', order: 10, icon: '⚙️', title: 'Strojový kód, instrukce a adresace', src: 'podklady', lec: [3],
   summary: 'Strojový kód a assembler, formát instrukce, dvě fáze zpracování (výběrová a prováděcí), způsoby adresace operandu (bezprostřední, přímá, nepřímá, s posuvem), typy instrukcí a logické instrukce AND / OR / XOR.',
   vocab: [
     { w: 'Strojový kód', x: 'Program jako posloupnost instrukcí procesoru (bajtů, resp. bitů); přímo proveditelný, pro člověka nesrozumitelný.' },

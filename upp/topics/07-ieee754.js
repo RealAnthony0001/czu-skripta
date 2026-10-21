@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'ieee754', order: 7, icon: '🔬', title: 'Reálná čísla: pohyblivá řádová čárka (IEEE 754)', src: 'podklady',
+  id: 'ieee754', order: 7, icon: '🔬', title: 'Reálná čísla: pohyblivá řádová čárka (IEEE 754)', src: 'podklady', lec: [2],
   summary: 'Formát IEEE 754 single (32 bitů): znaménko, exponent s posunutou nulou, mantisa; speciální hodnoty (nula, ∞, NaN, denormalizovaná čísla) a varianty přesnosti – s vypočtenými příklady.',
   vocab: [
     { w: 'Pohyblivá řádová čárka', x: 'Zápis reálného čísla jako ±1,m · 2<sup>e</sup> (znaménko, mantisa, exponent).' },

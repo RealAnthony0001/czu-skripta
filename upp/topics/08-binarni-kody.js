@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'binarni-kody', order: 8, icon: '🛡️', title: 'Binární kódy, Hammingova vzdálenost a zabezpečení', src: 'podklady',
+  id: 'binarni-kody', order: 8, icon: '🛡️', title: 'Binární kódy, Hammingova vzdálenost a zabezpečení', src: 'podklady', lec: [2],
   summary: 'Hammingova vzdálenost a minimální kódová vzdálenost, rozdělení kódů (zabezpečující, samoopravný), paritní bit a Hammingův kód SEC / SEC DED – s vypočteným příkladem.',
   vocab: [
     { w: 'Hammingova vzdálenost d(X, Y)', x: 'Počet bitů, ve kterých se dvě stejně dlouhá kódová slova liší.' },

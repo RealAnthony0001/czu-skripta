@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'data-a-kodovani', order: 2, icon: '💾', title: 'Informace, data, bity a bajty', src: 'podklady',
+  id: 'data-a-kodovani', order: 2, icon: '💾', title: 'Informace, data, bity a bajty', src: 'podklady', lec: [1],
   summary: 'Rozdíl mezi daty a informací, binární soustava v počítači, jednotky bit / byte / půlbyte a jejich násobky (2<sup>10</sup>), kódování a dekódování dat a pojem kód.',
   vocab: [
     { w: 'Data', x: 'Reprezentace skutečnosti (čísla, znaky, texty, fakta) schopná přenosu, uchování a zpracování – v počítači obvykle binární řetězce.' },

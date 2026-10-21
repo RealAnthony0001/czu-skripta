@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'text-a-logicke-hodnoty', order: 5, icon: '🔤', title: 'Kódování logických hodnot a textu', src: 'podklady',
+  id: 'text-a-logicke-hodnoty', order: 5, icon: '🔤', title: 'Kódování logických hodnot a textu', src: 'podklady', lec: [2],
   summary: 'Uložení logické hodnoty, prostý text a formátování, řídicí a grafické znaky, 7bitový a 8bitový ASCII, kódové stránky (ISO 8859-2, Windows-1250) a Unicode (UTF-8 / UTF-16 / UTF-32).',
   vocab: [
     { w: 'Prostý text', x: 'Samotná posloupnost znaků bez formátování (písmo, barva, podtržení).' },
