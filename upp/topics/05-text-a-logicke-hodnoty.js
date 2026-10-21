@@ -29,11 +29,6 @@ registerTopic({
         { h: 'Řídicí znaky', items: ['speciální význam pro řízení zpracování', 'netisknutelné (např. Enter = nový řádek, konec zprávy)'] },
         { h: 'Grafické znaky', items: ['písmena, číslice, interpunkce, značky', 'vnější reprezentace pro monitor a tiskárnu'] }
       ] },
-      { t: 'flow', title: 'Uložení textu', steps: [
-        { h: 'Rozdělit na znaky', x: '„A“, „H“, „O“, „J“' },
-        { h: 'Znak → číslo (kód)', x: 'X → X′ podle převodní tabulky (desítkově)' },
-        { h: 'Číslo → binárně', x: 'X′ (dek.) → binární číslo, znaky za sebou' }
-      ] },
       { t: 'svg', title: 'Cesta textu „AHOJ“ do paměti', x: UPP.textDiagram() },
       { t: 'ex', x: '<b>Text „AHOJ“:</b> A′ = 65, H′ = 72, O′ = 79, J′ = 74 → <b>01000001 01001000 01001111 01001010</b> (4 bajty).' }
     ] },

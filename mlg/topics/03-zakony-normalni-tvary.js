@@ -47,12 +47,6 @@ registerTopic({
       { t: 'warn', x: 'Úplnost znamená, že <b>každá</b> konjunkce (disjunkce) má <b>každou</b> proměnnou právě jednou. Pro proměnné A, B, C je A∧B∧¬C úplná konjunkce, ale A∧B (chybí C) ani A∧A∧C (A dvakrát, chybí B) úplné nejsou.' }
     ] },
     { title: 'Převod do DNT a KNT', blocks: [
-      { t: 'flow', title: 'Převod do DNT', steps: [
-        { h: 'Odstraň ⇒ a ⇔', x: 'A⇒B → ¬A∨B; A⇔B → (A∧B)∨(¬A∧¬B)' },
-        { h: 'Zatáhni negace k proměnným', x: 'De Morganova pravidla, ¬¬A ≡ A, ¬(A⇒B) ≡ A∧¬B' },
-        { h: 'Roznásob', x: 'distributivita: A∧(B∨C) → (A∧B)∨(A∧C)' },
-        { h: 'Zjednoduš', x: 'A∧¬A ≡ 0 (člen zmizí), A∨A ≡ A, A∧A ≡ A, vynechej konstanty' }
-      ] },
       { t: 'svg', title: 'Čtyři kroky převodu', x: MLG.dntPostup() },
       { t: 'ex', x: '<b>Do DNT:</b> (1) A′ ∧ (B′ ∨ A) ≡ (A′∧B′) ∨ (A′∧A) ≡ (A′∧B′) ∨ 0 ≡ <b>A′ ∧ B′</b>' },
       { t: 'ex', x: '(2) (A′ ⇒ (B ∧ C′))′ ≡ A′ ∧ (B ∧ C′)′ ≡ A′ ∧ (B′ ∨ C) ≡ <b>(A′∧B′) ∨ (A′∧C)</b>' },

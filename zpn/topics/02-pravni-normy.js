@@ -42,11 +42,6 @@ registerTopic({
     ] },
     { title: 'Struktura právní normy', blocks: [
       { t: 'p', x: 'Tradičně <b>trichotomická</b> (trojčlenná) struktura = podmíněná věta (implikace): <i>jestliže p, pak q, není-li q, nastupuje r</i>. Všechny tři části bývají v jediném ustanovení jen výjimečně – jsou rozptýleny v předpisu, někdy i v různých předpisech.' },
-      { t: 'flow', title: 'Hypotéza → dispozice → sankce', steps: [
-        { h: 'Hypotéza', x: 'JESTLIŽE – adresát a podmínky' },
-        { h: 'Dispozice', x: 'PAK – příkaz, zákaz, dovolení, právo' },
-        { h: 'Sankce', x: 'NEBUDE-LI – následek porušení' }
-      ] },
       { t: 'svg', title: 'Hypotéza, dispozice a sankce na příkladu', x: ZPN.normDiagram(), cap: 'Sankce bývá v jiném ustanovení nebo předpisu – norma bez účinné sankce je lex imperfecta.' },
       { t: 'tree', title: 'Co obsahují jednotlivé části', root: { h: 'Právní norma', kids: [
         { h: 'Hypotéza', x: 'vymezuje okruh adresátů; typicky „kdo…“, „jestliže…“, „pokud…“', kids: [
@@ -121,12 +116,6 @@ registerTopic({
       { t: 'tip', x: 'Absolutní imunita = nelze stíhat vůbec (nebo za určitý okruh jednání); relativní = lze po splnění podmínky (souhlas orgánu). Absolutní = <b>indemnita</b>.' }
     ] },
     { title: 'Platnost, účinnost, publikace', blocks: [
-      { t: 'timeline', title: 'Od vyhlášení po derogaci', items: [
-        { when: 'Den vyhlášení', h: 'PLATNOST', x: 'publikace předepsaným způsobem; norma je součástí právního řádu, ještě se jí není nutné řídit' },
-        { when: 'Den z posledního ustanovení', h: 'ÚČINNOST', x: 'norma se uplatňuje, je závazná, lze ji vynucovat' },
-        { when: 'Není-li uveden: 15. den po vyhlášení', h: 'ÚČINNOST (výchozí)', x: 'platnost a účinnost mohou splynout (účinnost dnem vyhlášení)' },
-        { when: 'Zánik', h: 'Derogace / konec účinnosti', x: 'derogace = vyřazení z právního řádu (zrušení); účinnost končí zrušením nebo uplynutím doby' }
-      ] },
       { t: 'svg', title: 'Platnost a účinnost na časové ose', x: ZPN.validityTimeline() },
       { t: 'versus', title: 'Platnost × účinnost', x: 'Platnost a účinnost jsou dvě fáze „života“ předpisu. Dnem vyhlášení ve Sbírce se předpis stává platným – existuje, je součástí právního řádu a každý se s ním může seznámit, ale ještě se jím nikdo řídit nemusí. Účinným se stává dnem uvedeným v předpisu, jinak patnáctým dnem po vyhlášení, a teprve od té chvíle zakládá práva a povinnosti a dá se vymáhat. Mezidobí dává lidem i úřadům čas připravit se na změnu. Oba okamžiky mohou splynout, pokud předpis nabývá účinnosti dnem vyhlášení.', cols: [
         { h: 'Platnost', items: ['nastává dnem vyhlášení (publikace)', 'norma je v právním řádu, lze se seznámit s obsahem', 'zaniká derogací'] },
