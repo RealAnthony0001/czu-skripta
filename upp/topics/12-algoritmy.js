@@ -75,7 +75,8 @@ registerTopic({
         ['2<sup>n</sup>', 'n<sub>1</sub>', 'n<sub>2</sub> ≈ n<sub>1</sub> + 6 (log<sub>2</sub> 60 ≈ 5,9)'],
         ['n!', 'n<sub>1</sub>', 'n<sub>2</sub> ≈ n<sub>1</sub> + ln 60 / ln (n<sub>1</sub> − 1) – téměř beze změny']
       ] },
-      { t: 'tip', x: 'Exponenciální a faktoriální algoritmy se ani šedesátkrát rychlejším počítačem prakticky nezlepší – řešitelný rozsah naroste jen o pár prvků.' }
+      { t: 'tip', x: 'Exponenciální a faktoriální algoritmy se ani šedesátkrát rychlejším počítačem prakticky nezlepší – řešitelný rozsah naroste jen o pár prvků.' },
+      { t: 'svg', title: 'Jak rychle roste počet operací', x: UPP.complexityDiagram(), cap: 'Pro n = 10 je 2<sup>n</sup> už přes tisíc, n! přes tři miliony; křivky n · log n a n zůstávají dole.' }
     ] },
     { title: 'Zápis a znázornění algoritmu', blocks: [
       { t: 'ul', items: [
@@ -110,6 +111,7 @@ registerTopic({
     ] },
     { title: 'Příklady ze cvičení: MOD, mocnina, posloupnost', blocks: [
       { t: 'ex', x: '<b>MOD A, B</b> – zbytek po celočíselném dělení A číslem B (A, B celá kladná, načtená ze vstupu). Postup: od A odečítáme B tak dlouho, dokud zbytek není menší než B.' },
+      { t: 'svg', title: 'MOD A, B: vývojový diagram a plošný strukturogram', x: UPP.modFlowDiagram(), cap: 'Cyklus je ve vývojovém diagramu slučovací + rozhodovací blok se zpětnou šipkou; ve strukturogramu vnořený obdélník pod „dokud“.' },
       { t: 'grid', head: ['Pseudokód', 'C++'], rows: [
         ['začátek<br>&nbsp;&nbsp;čti(A); čti(B);<br>&nbsp;&nbsp;MOD := A;<br>&nbsp;&nbsp;dokud MOD ≥ B opakuj<br>&nbsp;&nbsp;&nbsp;&nbsp;MOD := MOD − B;<br>&nbsp;&nbsp;piš(MOD);<br>konec.', 'cin &gt;&gt; A; cin &gt;&gt; B;<br>MOD = A;<br>while (MOD &gt;= B)<br>&nbsp;&nbsp;{ MOD = MOD − B; }<br>cout &lt;&lt; MOD;']
       ] },

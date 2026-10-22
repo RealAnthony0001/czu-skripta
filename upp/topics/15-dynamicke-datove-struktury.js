@@ -78,6 +78,7 @@ registerTopic({
         ['<code>long I_Faktorial(int N) {<br>&nbsp;&nbsp;long Fakt = 1;<br>&nbsp;&nbsp;for (int I = 1; I &lt;= N; I++)<br>&nbsp;&nbsp;&nbsp;&nbsp;{ Fakt = Fakt * I; }<br>&nbsp;&nbsp;return Fakt;<br>}</code>', '<code>long R_Faktorial(int N) {<br>&nbsp;&nbsp;long Fakt;<br>&nbsp;&nbsp;if (N == 0) Fakt = 1;<br>&nbsp;&nbsp;else Fakt = N * R_Faktorial(N − 1);<br>&nbsp;&nbsp;return Fakt;<br>}</code>']
       ] },
       { t: 'ex', x: '<b>R_Faktorial(4):</b> 4 · R(3) = 4 · 3 · R(2) = 4 · 3 · 2 · R(1) = 4 · 3 · 2 · 1 · R(0), R(0) = 1 (konec) → návrat zpět: 1, 1, 2, 6, <b>24</b>. Hodnoty 0! … 5!: 1, 1, 2, 6, 24, 120.' },
+      { t: 'svg', title: 'Rekurzivní volání R_Faktorial(4)', x: UPP.recursionDiagram(), cap: 'Dolů se volá, dokud se nedojde ke konci (N = 0); násobení se vyhodnocuje až při návratu zpět.' },
       { t: 'p', x: '<b>Co vypíšou programy?</b> Funkce <code>Znak()</code> načte znak Z; pokud není „*“, provede popsané akce. Uživatel zadá postupně A, B, C, *:' },
       { t: 'grid', head: ['Pořadí v těle', 'Kód', 'Výpis'], rows: [
         ['<b>výpis před rekurzí</b>', 'if (Z != \'*\') { cout &lt;&lt; Z &lt;&lt; endl; Znak(); }', 'A, B, C – znaky ve <b>stejném pořadí</b> jako zadané (každý na novém řádku); „*“ se nevypíše'],
@@ -109,7 +110,8 @@ registerTopic({
     { title: 'Strom a binární strom', blocks: [
       { t: 'def', term: 'Strom', x: 'Strom T je konečná množina jednoho nebo více prvků (uzlů), z nichž <b>jeden je označen jako kořen r (root)</b> a zbývající uzly jsou rozděleny do k ≥ 0 disjunktních podmnožin T<sub>1</sub>, …, T<sub>k</sub>, které jsou také stromy a jejichž kořeny jsou následníky kořene r. Uzly bez synů jsou <b>listy</b>; cesta od kořene k uzlu je <b>větev</b>. Strom je graf, ve kterém existuje <b>jediná cesta z kořene do kteréhokoli uzlu</b> (neobsahuje cykly).' },
       { t: 'def', term: 'Binární strom (dynamická struktura)', x: 'Skládá se z <b>uzlů a hran</b> (hrany jsou ukazatele). Každý uzel nese kromě <code>Info</code> dva ukazatele na své syny – <code>Levy</code> a <code>Pravy</code>. Uzel, kterým se do stromu vstupuje, je <b>Kořen</b> – nemá předchůdce.' },
-      { t: 'ex', x: '<code>struct Uzel { TypInfo Info; Uzel * Levy; Uzel * Pravy; };</code> <code>Uzel * Strom;</code> – chybějící syn = <code>NULL</code> (listy mají oba ukazatele NULL).' }
+      { t: 'ex', x: '<code>struct Uzel { TypInfo Info; Uzel * Levy; Uzel * Pravy; };</code> <code>Uzel * Strom;</code> – chybějící syn = <code>NULL</code> (listy mají oba ukazatele NULL).' },
+      { t: 'svg', title: 'Binární strom', x: UPP.treeDiagram() }
     ] },
     { title: 'Graf', blocks: [
       { t: 'def', term: 'Graf', x: 'Skládá se z konečné množiny <b>uzlů (U)</b> a konečné množiny <b>hran (H)</b>; hrana je spojnicí dvou uzlů.' },
@@ -121,7 +123,8 @@ registerTopic({
         ['smyčka (cyklus)', 'spojnice (jedna nebo více hran), která spojuje tentýž uzel grafu']
       ] },
       { t: 'p', x: '<b>Graf jako dynamická struktura:</b> uzly a hrany jsou reprezentovány ukazateli. Každý uzel nese <code>Info</code> a ukazatele na jeden nebo více jiných uzlů (hrany). Graf je reprezentován <b>ukazatelem na začátek seznamu uzlů</b>; u orientovaného grafu se do seznamu hran uzlu U<sub>i</sub> zařazují jen hrany, pro které je U<sub>i</sub> počátečním uzlem; u ohodnoceného grafu nese každá hrana i ohodnocení.' },
-      { t: 'ex', x: '<code>struct TUzel { InfoTyp Info; THrana * Hrana; TUzel * DalsiU; };</code><br><code>struct THrana { HodTyp Hod; TUzel * Uzel; THrana * DalsiH; };</code> <code>TUzel * Graf;</code> – uzly tvoří seznam (<code>DalsiU</code>), každý uzel má seznam svých hran (<code>Hrana</code>, <code>DalsiH</code>), hrana ukazuje na koncový uzel (<code>Uzel</code>) a nese ohodnocení (<code>Hod</code>).' }
+      { t: 'ex', x: '<code>struct TUzel { InfoTyp Info; THrana * Hrana; TUzel * DalsiU; };</code><br><code>struct THrana { HodTyp Hod; TUzel * Uzel; THrana * DalsiH; };</code> <code>TUzel * Graf;</code> – uzly tvoří seznam (<code>DalsiU</code>), každý uzel má seznam svých hran (<code>Hrana</code>, <code>DalsiH</code>), hrana ukazuje na koncový uzel (<code>Uzel</code>) a nese ohodnocení (<code>Hod</code>).' },
+      { t: 'svg', title: 'Graf a jeho reprezentace ukazateli', x: UPP.graphDiagram() }
     ] }
   ],
   mistakes: [

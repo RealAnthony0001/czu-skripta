@@ -72,7 +72,8 @@ registerTopic({
         { h: 'Kompilátor', items: ['překlad <b>celého zdrojového textu najednou</b>, většinou ve více fázích (průchodech)', 'výsledkem je program ve spustitelném kódu počítače', 'překlad se provádí <b>jen jednou</b>, znovu pouze po změně programu'] },
         { h: 'Interpret', items: ['překlad <b>po částech</b> (příkazech, skupinách)', 'přeložená část se <b>ihned provede</b>', 'snazší kontrola sémantiky, ale <b>mnohem vyšší nároky na čas</b>'] }
       ], x: 'Kompilátor je jako překladatel knihy: přeloží celou knihu předem a pak ji čteš v češtině kolikrát chceš, překlad už se neopakuje. Interpret je jako tlumočník na schůzce: překládá větu po větě za běhu, takže hned reaguješ, ale tlumočit musí při každé schůzce znovu, a je to tedy pomalejší.' },
-      { t: 'def', term: 'Virtuální stroj', x: 'Vytváří <b>virtualizované prostředí mezi platformou počítače a operačním systémem</b>, ve kterém může koncový uživatel provozovat software na abstraktním stroji. <b>Aplikační virtuální stroj</b> (Java Virtual Machine, .NET …, používá interpret nebo kompilaci): aplikace psaná pro virtuální stroj může běžet na kterékoli platformě, není třeba oddělených verzí pro každý počítač a OS. <b>Emulátor</b> je program umožňující běh aplikací nebo OS na hardwaru, pro který nebyly napsány.' }
+      { t: 'def', term: 'Virtuální stroj', x: 'Vytváří <b>virtualizované prostředí mezi platformou počítače a operačním systémem</b>, ve kterém může koncový uživatel provozovat software na abstraktním stroji. <b>Aplikační virtuální stroj</b> (Java Virtual Machine, .NET …, používá interpret nebo kompilaci): aplikace psaná pro virtuální stroj může běžet na kterékoli platformě, není třeba oddělených verzí pro každý počítač a OS. <b>Emulátor</b> je program umožňující běh aplikací nebo OS na hardwaru, pro který nebyly napsány.' },
+      { t: 'svg', title: 'Kompilátor, interpret a virtuální stroj', x: UPP.translateDiagram() }
     ] },
     { title: 'Komponentová architektura aplikací a události', blocks: [
       { t: 'icons', title: 'Tři komponenty aplikace (uživatelského software)', items: [
@@ -82,7 +83,8 @@ registerTopic({
       ] },
       { t: 'p', x: 'Komponenty mohou být umístěny různě (na serveru, na klientovi …) a navzájem komunikují – proto je nutné <b>jednotné rozhraní</b>. Uživatelské rozhraní aplikace je <b>textové</b> (Console, příkazový řádek) nebo <b>grafické</b> (okna, formuláře).' },
       { t: 'def', term: 'Program řízený událostmi', x: 'Běh programu s grafickým rozhraním je řízen <b>událostmi</b> – program něco vykonává, jen když událost vznikne. Událostí je klepnutí (Click), poklepání (DoubleClick), přesunutí myši (MouseMove), otočení kolečka, stisk či uvolnění klávesy, <b>časovač</b> (generování impulsů) i program sám (reaguje na událost jinou událostí).' },
-      { t: 'tip', x: '<b>Obsluha události:</b> aby program na událost reagoval, připojí se k ní <b>obslužný podprogram</b> – relativně samostatný kus programu, ve kterém je zapsána činnost, která se má provést.' }
+      { t: 'tip', x: '<b>Obsluha události:</b> aby program na událost reagoval, připojí se k ní <b>obslužný podprogram</b> – relativně samostatný kus programu, ve kterém je zapsána činnost, která se má provést.' },
+      { t: 'svg', title: 'Tři komponenty aplikace a obsluha události', x: UPP.tiersDiagram(), cap: 'Komponenty spolu komunikují přes jednotné rozhraní; GUI program na událost reaguje připojeným obslužným podprogramem.' }
     ] },
     { title: 'Metodika vývoje aplikací a UML', blocks: [
       { t: 'p', x: 'Vývoj by měl být podpořen metodikou. Tvorba aplikací se obvykle člení do tří částí:' },

@@ -24,7 +24,8 @@ registerTopic({
       { t: 'versus', cols: [
         { h: 'CRT (Cathode Ray Tube)', items: ['stejný princip jako televizní obrazovky; <b>vzduchoprázdná elektronka</b>', 'po zahřátí <b>katody</b> se emituje proud elektronů o vysoké rychlosti k druhému konci; paprsek se zaostřuje a vychyluje <b>cívkami</b>', 'obrazovka je uvnitř pokryta <b>fosforem</b> – po zásahu elektrony se bod rozsvítí', 'barvy: <b>tři katody</b> pro zelenou, modrou a červenou (RGB)'] },
         { h: 'LCD (LED)', items: ['monitory jsou <b>ploché</b>; světlo ze zdroje (obvykle diody <b>LED</b>) prochází <b>dvěma polarizačními filtry</b> s tekutými krystaly', 'první filtr řídí <b>směr</b> procházejícího světla, druhý mění <b>množství</b> procházejícího světla', 'bod obrazovky = <b>tři buňky</b> (R, G, B); čím víc světla projde, tím je bod světlejší', 'barvy jako u CRT, tj. prokládáním bodů různých barev'] }
-      ], x: 'U CRT „maluje“ obraz elektronový paprsek, který běhá po vnitřku skleněné trubice a rozsvěcuje fosfor – proto je monitor tlustý. U LCD svítí vzadu stálé světlo a každý bod před ním funguje jako okénko s nastavitelnou průhledností: tekuté krystaly se otáčejí podle napětí a podle toho, zda polarizační filtr světlo propustí či zablokuje, bod svítí víc, nebo míň. Barevný bod je tvořen třemi okénky s červeným, zeleným a modrým filtrem.' }
+      ], x: 'U CRT „maluje“ obraz elektronový paprsek, který běhá po vnitřku skleněné trubice a rozsvěcuje fosfor – proto je monitor tlustý. U LCD svítí vzadu stálé světlo a každý bod před ním funguje jako okénko s nastavitelnou průhledností: tekuté krystaly se otáčejí podle napětí a podle toho, zda polarizační filtr světlo propustí či zablokuje, bod svítí víc, nebo míň. Barevný bod je tvořen třemi okénky s červeným, zeleným a modrým filtrem.' },
+      { t: 'svg', title: 'Cesta světla v LCD', x: UPP.lcdDiagram() }
     ] },
     { title: 'Grafický adaptér (grafická karta)', blocks: [
       { t: 'p', x: 'Grafická karta tvoří <b>rozhraní mezi počítačem a monitorem</b> – odesílá do monitoru signály, na jejichž základě se objeví požadovaný obraz.' },
@@ -70,13 +71,7 @@ registerTopic({
         ['<b>termografické</b>', 'tělíska v hlavě se elektrickým impulsem zahřejí; vosková vrstva barvicí pásky se rozpustí a barevný vosk se přenese na papír', '+ velmi kvalitní tisk · − nákladný provoz (drahá páska)'],
         ['<b>elektrografické (laserové)</b>', 'viz níže', '+ kvalitní tisk, značná rychlost, přijatelné provozní náklady · − vyšší pořizovací cena']
       ] },
-      { t: 'flow', title: 'Princip laserové tiskárny', steps: [
-        { h: 'Příjem kódů', x: 'tiskárna přijme kódy znaků, které se mají vytisknout' },
-        { h: 'Laser', x: 'kódy se převedou na elektrické signály, jimiž se moduluje laserový paprsek' },
-        { h: 'Válec', x: 'paprsek se optikou vychyluje na válec s elektricky nabitým povrchem; v místech dopadu se náboj vybije' },
-        { h: 'Toner', x: 'toner se nanáší na válec a ulpívá jen na osvětlených (vybitých) místech' },
-        { h: 'Papír', x: 'barva se elektrostaticky přenese na papír a fixuje vyhřívacími válečky' }
-      ] }
+      { t: 'svg', title: 'Princip laserové tiskárny', x: UPP.laserDiagram(), cap: 'Kódy znaků se převedou na elektrické signály, kterými se moduluje laserový paprsek; toner se drží jen tam, kde laser vybil náboj, a pak se přenese na papír a fixuje.' }
     ] },
     { title: 'Skenery', blocks: [
       { t: 'p', x: 'Skener snímá obrazovou grafiku a přenáší její digitalizovanou podobu do paměti PC. Typy: ruční, ploché (stolní), rotační a knižní. <b>Parametry:</b> <b>rozlišení</b> (do jaké podrobnosti lze předlohu skenovat; DPI), <b>interpolace</b> (zda zařízení dokáže znásobit dané rozlišení) a <b>barevná hloubka</b> (kolik barevných odstínů skener rozliší).' },
@@ -115,6 +110,7 @@ registerTopic({
         { h: 'Hub (opakovač)', items: ['data přijatá na vstupním portu <b>pošle na všechny ostatní</b> porty'] },
         { h: 'Switch (přepínač)', items: ['posílá data jen na port s příjemcem podle <b>tabulky MAC adres</b> (dvojice MAC adresa – číslo portu)', 'tabulku lze zadat ručně, nebo se vytvoří automaticky: switch zpočátku funguje jako opakovač a z probíhající komunikace se „naučí“, kdo je na kterém portu'] }
       ], x: 'Hub je jako hlasatel, který každou zprávu zakřičí do celé místnosti – slyší ji všichni a jen adresát ji vezme. Switch je jako vrátný, který si pamatuje, kdo bydlí v jakém bytě, a každý dopis donese rovnou ke správným dveřím. Díky tomu v síti se switchem nesdílejí všichni jednu „linku“ a komunikace je rychlejší i soukromější.' },
+      { t: 'svg', title: 'Hub a switch', x: UPP.switchDiagram(), cap: 'Hub zopakuje data na všechny porty, switch podle tabulky MAC adres jen na port příjemce.' },
       { t: 'def', term: 'Optické kabely (vlákna)', x: 'Skleněná nebo plastová vlákna, která přenášejí signál <b>světlem</b> (nebo infračerveným zářením) ve směru podélné osy na principu <b>totálního odrazu</b> na rozhraní dvou prostředí s rozdílným indexem lomu (uvnitř <b>jádro</b>, okolo <b>plášť</b> a primární ochrana). Dosahují <b>větších přenosových rychlostí</b>: běžné světlo se skládá z více barev (frekvencí) a každá barva je samostatný datový tok. Přenos <b>není rušen vnějším elektromagnetickým vlněním</b>, data lze přenášet na velké vzdálenosti (stovky až tisíce km).' }
     ] },
     { title: 'Bezdrátové sítě Wi-Fi (IEEE 802.11)', blocks: [
@@ -129,7 +125,8 @@ registerTopic({
         ['<b>přímé spojení – ad-hoc mode</b>', '2 nebo více počítačů komunikuje spolu přímo; identifikace pomocí SSID; vzdálenost obvykle několik metrů'],
         ['<b>do hvězdy – infrastructure mode</b>', 'komunikace přes centrální prvek <b>AP (Access Point)</b>; AP vysílá SSID, klienti si vyberou AP'],
         ['<b>spojení dvou sítí – WDS link</b>', 'Wireless Distribution System: spojení „drátových“ nebo „bezdrátových“ sítí pomocí dvou AP']
-      ] }
+      ] },
+      { t: 'svg', title: 'Tři způsoby spojení Wi-Fi', x: UPP.wifiDiagram() }
     ] }
   ],
   mistakes: [

@@ -35,6 +35,7 @@ registerTopic({
       { t: 'p', x: '<b>Deklarace:</b> <code>typ_polozky Fronta[MAX]; int ZF, KF, DF;</code> – ZF začátek, KF konec a DF délka fronty. Vložení vloží položku na konec; při vyjmutí se vyjme položka ze začátku a <b>všechny ostatní se přesunou o jednu pozici</b> k začátku, nebo se jen posune ukazatel.' },
       { t: 'def', term: 'Cyklická fronta', x: 'Aby nebylo nutné při každém vyjmutí všechny položky přesouvat, použije se <b>cyklická fronta</b> – pole se „zacyklí“: posun začátku při vyjmutí <b>ZF = (ZF + 1) % max</b>, posun konce při vložení <b>KF = (KF + 1) % max</b> (% = zbytek po celočíselném dělení), délka <b>DF = (KF − ZF + max + 1) % max</b>.' },
       { t: 'ex', x: '<b>max = 5</b>, ZF = 1, KF = 0 (prázdná fronta). Vložím A, B, C: KF = 1, 2, 3 → DF = (3 − 1 + 5 + 1) % 5 = <b>3</b>. Vyjmu A: ZF = 2 → DF = (3 − 2 + 6) % 5 = <b>2</b>. Vložím D, E: KF = 4 a potom KF = (4 + 1) % 5 = <b>0</b> (zalomení na začátek pole) → DF = (0 − 2 + 6) % 5 = <b>4</b> (B, C, D, E na pozicích 2, 3, 4, 0).' },
+      { t: 'svg', title: 'Cyklická fronta (max = 5)', x: UPP.circQueueDiagram(), cap: 'Konec KF se po čtvrtém vložení zalomí na začátek pole (KF = (4 + 1) % 5 = 0).' },
       { t: 'warn', x: 'Slajdy uvádějí počáteční hodnoty prázdné fronty ZF = 1, KF = 1 (v textu „ZP“), DF = 0. Vzorec DF = (KF − ZF + max + 1) % max ale dává pro ZF = KF = 1 délku 1, ne 0 – vzorec předpokládá, že KF je index <b>posledního uloženého</b> prvku, takže prázdná fronta má KF = ZF − 1 (ve výpočtu výše KF = 0). Proto se délka drží i v samostatné proměnné DF – samotným vzorcem se plná fronta (max prvků) nedá odlišit od prázdné.' },
       { t: 'p', x: '<b>Příkazy C# (cvičení):</b> <code>Queue qt = new Queue();</code> <code>qt.Enqueue(element)</code> (přidání) · <code>qt.Dequeue()</code> (odebrání) · <code>qt.Count</code> · <code>qt.Contains(element)</code>. Program z cvičení vloží 1, 2, 3, vypíše 1, 2, 3 (<code>foreach</code>), pak „The number of elements in the Queue 3“ a „Does the Queue contain True“ (<code>Contains(3)</code>).' }
     ] },
@@ -47,7 +48,8 @@ registerTopic({
         ['podle organizace', '<b>s přímým přístupem</b>: k → A<sub>k</sub> je prosté zobrazení, klíč obvykle totožný s číslem řádku (degenerované tabulky) · <b>obyčejné vyhledávací</b>: procházejí se záznamy a porovnávají klíče, obvyklé pro relační databáze · <b>s rozptýlenými položkami (hash tabulky)</b>: k → A<sub>k</sub> je rozptylovací funkce s požadavkem minimalizace kolizí']
       ] },
       { t: 'def', term: 'Hash tabulka (tabulka s rozptýlenými položkami)', x: 'Používá se, pokud <b>N (rozsah klíče) ≫ p (rozsah tabulky)</b>. Pozice záznamu s klíčem k určuje <b>rozptylovací (hash) funkce A<sub>k</sub> = h(k)</b>. Může se stát, že pro různé klíče k<sub>1</sub> ≠ k<sub>2</sub> platí h(k<sub>1</sub>) = h(k<sub>2</sub>) – vznikají <b>synonymické položky</b> a říkáme, že nastala <b>kolize</b>.' },
-      { t: 'ex', x: 'Tabulka pro nejvýše <b>p = 1000 zaměstnanců</b> identifikovaných podle příjmení o max. 10 velkých písmenech: možných klíčů je N = 26<sup>10</sup> = 141 167 095 653 376 (≈ 1,4 · 10<sup>14</sup>) ≫ 1000. Přímý přístup by vyžadoval tabulku o 10<sup>14</sup> řádcích, proto se použije hash funkce a řeší se kolize.' }
+      { t: 'ex', x: 'Tabulka pro nejvýše <b>p = 1000 zaměstnanců</b> identifikovaných podle příjmení o max. 10 velkých písmenech: možných klíčů je N = 26<sup>10</sup> = 141 167 095 653 376 (≈ 1,4 · 10<sup>14</sup>) ≫ 1000. Přímý přístup by vyžadoval tabulku o 10<sup>14</sup> řádcích, proto se použije hash funkce a řeší se kolize.' },
+      { t: 'svg', title: 'Hash tabulka a kolize', x: UPP.hashDiagram(), cap: 'Rozptylovací funkce zobrazí velký rozsah klíčů do malé tabulky; různé klíče se stejným h(k) jsou synonyma a vzniká kolize.' }
     ] },
     { title: 'Soubor', blocks: [
       { t: 'ul', items: [
@@ -61,6 +63,7 @@ registerTopic({
         { h: 'Sekvenční soubory', items: ['posloupnost <b>bloků</b> s jedním nebo více záznamy', 'předchází blok s <b>návěštím souboru (PNS)</b> a <b>značkou souboru (ZS)</b>', 'ukončen <b>blokem konce souboru (KS)</b>, případně koncovým návěštím (KNS)'] },
         { h: 'Soubory s přímým přístupem', items: ['záznamy identifikovány <b>klíčem</b>, který je jejich součástí; záznam je adresovatelný (1 blok)', '<b>adresované:</b> funkce f(k) přiřadí klíči adresu adr = f(k) z intervalu adres souboru', '<b>indexované:</b> přiřazení adres je v tabulce indexů – každému klíči je přiřazen adresní klíč, tj. adresa uložení záznamu'] }
       ] },
+      { t: 'svg', title: 'Sekvenční soubor a soubor s přímým přístupem', x: UPP.fileDiagram() },
       { t: 'table', head: ['Operace', 'Sekvenční soubor (C++)', 'Soubor s přímým přístupem'], rows: [
         ['<b>OPEN</b>', 'jako vstupní (čtení) nebo výstupní (zápis): <code>ifstream fileIn; ofstream fileOut; fileIn.open("vstupni_soubor.kon");</code>', 'jen pro čtení, jen pro zápis, nebo pro čtení i zápis'],
         ['<b>READ</b>', 'přečtení aktuálního záznamu (k dispozici do čtení dalšího): <code>fileIn &gt;&gt; promenna;</code>, <code>get(…)</code>, <code>getline(…)</code>', 'přečtení záznamu s daným klíčem'],
@@ -90,6 +93,7 @@ registerTopic({
         { h: 'Tradiční pohled', items: ['báze dat = samostatné soubory', 'aplikace k nim přistupují <b>přímo</b>'] },
         { h: 'Databázový pohled', items: ['vzájemně <b>integrované soubory</b> přístupné přes <b>SŘBD</b>', 'databáze = množina vzájemně souvisejících dat k určité problematice; SŘBD = programový aparát pro popis a manipulaci s daty'] }
       ] },
+      { t: 'svg', title: 'Soubory × databáze', x: UPP.dbmsDiagram() },
       { t: 'ul', items: [
         '<b>Vlastnosti databázových systémů:</b> oddělené struktury aplikačních programů a datových souborů; přístup k datům jen prostřednictvím programů databázového systému; dotazy nejsou pevné; souběžný přístup více uživatelů; ochrana dat – přístupová práva.',
         '<b>DDL</b> (Data Definition Language) – popis dat · <b>DML</b> (Data Manipulation Language) – popis algoritmu práce s daty · <b>DCL</b> (Data Control Language) – ochrana přístupu k datům · <b>DQL</b> (Data Query Language) – uživatelské dotazy: <b>SQL</b> (Structured Query Language), <b>QBE</b> (Query By Example).'

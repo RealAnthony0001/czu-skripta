@@ -104,6 +104,7 @@ registerTopic({
     ] },
     { title: 'Vnější paměti: pevný disk', blocks: [
       { t: 'def', term: 'Pevný disk (HDD)', x: 'Obsahuje otáčející se pevné <b>plotny</b> (většinou 2–5), každá má <b>dvě strany</b> pro data. Nad plotnami se pohybují <b>hlavy</b>, které čtou a zapisují do <b>soustředných prstenců (stop)</b> rozdělených na <b>sektory</b> (velikost 512 B). Shodně umístěné stopy na obou stranách všech ploten tvoří <b>cylindr</b>. Kapacita se pohybuje v desítkách až stovkách GB. Zápis i čtení probíhá záznamovou / čtecí hlavou nad elementárními magnety: při zápisu se mění orientace magnetického pole, při čtení se podle pole mění směr proudu.' },
+      { t: 'svg', title: 'Plotna, stopa, sektor a cylindr', x: UPP.hddDiagram(), cap: 'Cylindr tvoří shodně umístěné stopy na všech površích všech ploten; hlavy se k němu přesouvají společně na jednom rameni.' },
       { t: 'ul', items: [
         '<b>Průměrná doba vyhledávání (seek)</b> – průměrný čas přesunu hlav z jednoho cylindru na náhodně vybraný (ms).',
         '<b>Latence</b> – průměrná doba, než se hlavy po nastavení na správnou stopu dostanou nad požadovaný sektor (ms).',
@@ -121,6 +122,7 @@ registerTopic({
         'Jamky jsou vyraženy do jediné <b>spirálovité stopy dlouhé 5,77 km</b>; stopa je rozdělena na <b>sektory o velikosti 2 352 B</b>: synchronizace 12 B + adresa sektoru 4 B + data 2 048 B + ECC / EDC 288 B (= 2 352 B).',
         'Kapacita CD je <b>700 MB</b> (DVD až 17,1 GB).'
       ] },
+      { t: 'svg', title: 'Čtení optického disku', x: UPP.opticalDiagram() },
       { t: 'warn', x: 'Slajd uvádí „pevnina (pit) se odráží, jamka (land) se neodráží“ – názvy jsou prohozené: <b>jamka = pit</b> (světlo se téměř neodráží), <b>pevnina = land</b> (odráží se zpět).' },
       { t: 'versus', cols: [
         { h: 'Flash paměť (EEPROM)', items: ['energeticky nezávislá, lze ji naprogramovat a znovu vymazat <b>elektrickým polem</b>', 'data v poli tranzistorů – buněk; princip <b>tunelování náboje</b> na přechod dvou vrstev tranzistoru', 'přeprogramování lze provést přímo v počítači'] },

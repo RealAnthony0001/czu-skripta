@@ -226,7 +226,7 @@ details.vocab dl>div{padding:7px 0;border-top:1px solid var(--line)}details.voca
 .lec{display:inline-block;font:700 11px var(--mono);color:var(--lc);background:color-mix(in srgb,var(--lc) 18%,transparent);border:1px solid var(--lc);padding:1px 6px;white-space:nowrap}
 nav.side a .lec{margin-left:auto}nav.side a .lec+.lec{margin-left:0}nav.side a .lec~.ok,nav.side a .ok{margin-left:6px}
 .tcard .lecs{display:flex;gap:4px;flex-wrap:wrap}
-.scards{grid-template-columns:1fr}.scard{min-height:0}.scard p{margin:0;font-size:13.5px;line-height:1.5}.scard p b{display:inline;font-size:12px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em}.scard p b.ok{color:var(--ok)}.scard p b.warn{color:var(--warn)}
+.scards{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}@media(max-width:860px){.scards{grid-template-columns:1fr}}.scard{min-height:0}.scard p{margin:0;font-size:13.5px;line-height:1.5}.scard p b{display:inline;font-size:12px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em}.scard p b.ok{color:var(--ok)}.scard p b.warn{color:var(--warn)}
 .scard .vbadge.st.src{color:var(--ok);background:var(--ok-s);border-color:var(--ok)}.scard .vbadge.st.sup{color:var(--warn);background:var(--warn-s);border-color:var(--warn)}.scard .f{text-transform:none}
 .top .week{flex:none;font:700 12px var(--mono);text-transform:uppercase;letter-spacing:.06em;padding:3px 9px;background:var(--accent);color:var(--on);white-space:nowrap}
 /* myšlenková mapa (zpn/map.js): plátno s posunem/zoomem, uzly absolutně v .mm-w, spojnice v SVG; barva větve v --c; „ručně kreslený“ vzhled */

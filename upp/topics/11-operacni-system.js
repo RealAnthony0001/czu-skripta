@@ -87,6 +87,7 @@ registerTopic({
         { h: 'Kooperativní', items: ['procesy samy nabízejí přerušení své činnosti', 'např. MS Windows 3.x'] },
         { h: 'Preemptivní', items: ['proces je přerušen <b>operačním systémem</b>, kdykoli nastane událost, která může ovlivnit přidělení prostředků (např. uplynutí časového kvanta)', 'např. Windows 95, 98, 2000, XP, Linux'] }
       ], x: 'Programy se střídají v běhu po krátké době (milisekundy), a proto vzniká iluze, že běží současně. Při kooperativním multitaskingu je to jako schůze, na které si každý slovo předává sám – stačí jeden, kdo nepřestane mluvit, a ostatní čekají (zamrzlý program zablokuje celý systém). U preemptivního multitaskingu je tu moderátor (OS), který řečníkovi po uplynutí času slovo odebere, ať se mu to líbí, nebo ne.' },
+      { t: 'svg', title: 'Kooperativní × preemptivní multitasking', x: UPP.multitaskDiagram(), cap: 'Při kooperativním multitaskingu stačí jeden proces, který se nevzdá, a čeká celý systém; při preemptivním OS po každém časovém kvantu procesor odebere.' },
       { t: 'p', x: 'Ve <b>více-jádrových a víceprocesorových</b> systémech mohou procesy běžet <b>skutečně souběžně (paralelně)</b>; jádra mohou mít vlastní, nebo sdílenou paměť. <b>Multithreading</b> je rozdělení procesu na více samostatných <b>vláken (threads)</b>, která se zpracovávají současně. Procesy lze sledovat ve Správci úloh (Ctrl+Alt+Del) ve Windows, v Linuxu příkazem <b>ps</b>.' }
     ] },
     { title: 'Správa paměti', blocks: [
@@ -98,7 +99,8 @@ registerTopic({
         'rozpozná případy, kdy proces skončil <b>bez uvolnění paměti</b> (např. při násilném ukončení),',
         'zajišťuje <b>ochranu paměti</b> – nedovolí procesům přístup mimo vymezený prostor.'
       ] },
-      { t: 'def', term: 'Virtuální paměť', x: 'Každý proces má svou <b>virtuální paměť rozdělenou na stránky</b> (např. 4 kB); aplikace pracují s virtuální pamětí, která může být násobně větší než fyzická. <b>Fyzická paměť je rozdělena na rámy</b> stejné velikosti jako stránky. OS stránkám programů přiděluje a odebírá odpovídající rámy ve fyzické paměti, případně je <b>odkládá na pevný disk</b>.' }
+      { t: 'def', term: 'Virtuální paměť', x: 'Každý proces má svou <b>virtuální paměť rozdělenou na stránky</b> (např. 4 kB); aplikace pracují s virtuální pamětí, která může být násobně větší než fyzická. <b>Fyzická paměť je rozdělena na rámy</b> stejné velikosti jako stránky. OS stránkám programů přiděluje a odebírá odpovídající rámy ve fyzické paměti, případně je <b>odkládá na pevný disk</b>.' },
+      { t: 'svg', title: 'Stránky virtuální paměti a rámy fyzické paměti', x: UPP.virtMemDiagram(), cap: 'Stránky procesu se mapují na libovolné rámy ve fyzické paměti; stránka, která se nevejde, se odloží na pevný disk.' }
     ] },
     { title: 'Správa souborů a systém souborů', blocks: [
       { t: 'p', x: 'Správa souborů jako služba OS zahrnuje ukládání a čtení dat na / z pevného disku (paměťových médií), vytváření <b>datové abstrakce ve formě souborů</b> hierarchicky organizovaných do <b>adresářové struktury</b> a vytváření systému souborů.' },
@@ -160,6 +162,7 @@ registerTopic({
         { h: 'Zámek (binární semafor)', items: ['sdílená proměnná S se dvěma polohami: <b>1 = otevřen, 0 = uzavřen</b>', 'před vstupem proces testuje S; je-li otevřen, pokračuje a hned ho uzavře – nutná jediná instrukce <b>TST (test and set)</b>, mezi testem a uzavřením nesmí dojít k přerušení', 'je-li S = 0, proces přejde do stavu „čeká“; po opuštění oblasti S = 1'] },
         { h: 'Počítaný semafor', items: ['sdílená proměnná typu celé číslo, hodnoty 0 … N (S &gt; 0 otevřen, 0 zavřen)', '<b>wait(S)</b>: je-li S &gt; 0, sníží S o 1, jinak proces čeká', '<b>signal(S)</b>: zvýší S o 1, případně probudí čekající proces(y)'] }
       ], x: 'Binární semafor je jako klíč od jediné toalety: kdo ho má, je uvnitř, ostatní čekají, dokud ho nevrátí. Počítaný semafor je jako parkoviště s N místy: wait znamená zabrat místo (nejsou-li volná, čekáš před závorou) a signal místo uvolnit. Instrukce „test and set“ musí být nedělitelná, jinak by mezi „vidím, že je volno“ a „zavřu“ mohl vklouznout jiný proces a dovnitř by se dostali dva.' },
+      { t: 'svg', title: 'Binární semafor a kritická oblast', x: UPP.semaphoreDiagram(), cap: 'Kdo projde přes wait(S), zavře zámek S = 0; ostatní procesy čekají, dokud proces uvnitř nezavolá signal(S).' },
       { t: 'ex', x: '<b>Metoda číslování zdrojů:</b> procesy P1, P2, zdroje A(1), B(2), C(3); zdroje se smí žádat jen ve vzestupném pořadí čísel.<br><b>Bez číslování:</b> P1 získá A → P2 získá B → P1 chce B (čeká) → P2 chce A (čeká) → <b>deadlock</b>.<br><b>S číslováním:</b> P1 získá A(1) → P2 získá B(2) → P1 chce B(2) a čeká → P2 už nesmí chtít A(1), smí jen C(3) → P2 uvolní B(2) → P1 získá B(2) → P1 uvolní A(1) i B(2). Cyklické čekání nevznikne.' }
     ] },
     { title: 'Algoritmus bankéře (Dijkstra)', blocks: [
