@@ -48,7 +48,7 @@ window.MINDMAP = SKEL => {
     el.innerHTML = `<div class="mm-top"><input type="search" placeholder="Hledat pojem v mapě…"><button data-mm="fit">⌖ Vycentrovat</button><button data-mm="all">Rozbalit vše</button><button data-mm="none">Sbalit</button><button data-mm="fs">⛶ Celá obrazovka</button><span class="mm-cnt">${N.length} uzlů</span></div>
       <div class="mm-cv"><div class="mm-w"><svg class="mm-e">${N.map((n, i) => i ? `<path style="--c:${n.c}"/><path class="s" style="--c:${n.c}"/>` : '').join('')}</svg>
       ${N.map((n, i) => `<div class="mm-n d${Math.min(n.d, 4)}${n.lock ? ' lock' : ''}" data-i="${i}" style="--c:${n.c};--r:${((i * 7919) % 5 - 2) * .6}deg" title="${strip(n.cx).replace(/"/g, '&quot;')}">${n.lock ? '🔒 ' : ''}${n.h}${n.n ? `<i>${n.n}</i>` : ''}</div>`).join('')}</div>
-      <div class="mm-hint">táhni pozadí = posun · kolečko = zoom · uzel jde přetáhnout · klik = rozbalit</div></div><div class="mm-d" hidden></div>`;
+      <div class="mm-hint">táhni pozadí = posun · kolečko / dva prsty = zoom · uzel jde přetáhnout · klik = rozbalit</div></div><div class="mm-d" hidden></div>`;
     const cv = el.querySelector('.mm-cv'), W = el.querySelector('.mm-w'), D = el.querySelector('.mm-d'), C = el.querySelector('.mm-cnt');
     const E = [...el.querySelectorAll('.mm-e path')], B = [...el.querySelectorAll('.mm-n')];
     let view = { x: 0, y: 0, k: 1 }, anchor = null, raf = 0, q = '';
@@ -111,12 +111,20 @@ window.MINDMAP = SKEL => {
         ${tid && !n.lock ? `<a class="btn" href="#/${tid}" data-go2="${n.go || ''}">Otevřít v kapitole →</a>` : ''}`;
     }
     // ukazatel: uzel = přetažení nebo klik (pohyb < 4 px), pozadí = posun plátna
-    let drag = null;
+    let drag = null, pinch = null; const ptr = new Map(); // ptr = aktivní doteky; dva prsty = zoom + posun
+    const zoomAt = (mx, my, k) => { k = Math.min(2.5, Math.max(.05, k)); view.x = mx - (mx - view.x) * k / view.k; view.y = my - (my - view.y) * k / view.k; view.k = k; setView(); };
+    const two = () => { const r = cv.getBoundingClientRect(), [a, b] = [...ptr.values()]; return { d: Math.hypot(a.x - b.x, a.y - b.y) || 1, x: (a.x + b.x) / 2 - r.left, y: (a.y + b.y) / 2 - r.top }; };
     cv.onpointerdown = e => {
-      const b = e.target.closest('.mm-n'); cv.setPointerCapture(e.pointerId);
-      drag = { i: b ? +b.dataset.i : -1, x: e.clientX, y: e.clientY, moved: false }; anchor = null;
+      cv.setPointerCapture(e.pointerId); ptr.set(e.pointerId, { x: e.clientX, y: e.clientY }); anchor = null;
+      if (ptr.size === 2) { drag = null; pinch = two(); return; }
+      const b = e.target.closest('.mm-n');
+      drag = { i: b ? +b.dataset.i : -1, x: e.clientX, y: e.clientY, moved: false };
     };
     cv.onpointermove = e => {
+      if (ptr.has(e.pointerId)) ptr.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pinch && ptr.size === 2) {
+        const c = two(); zoomAt(c.x, c.y, view.k * c.d / pinch.d); view.x += c.x - pinch.x; view.y += c.y - pinch.y; setView(); pinch = c; return;
+      }
       if (!drag) return;
       const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
       if (!drag.moved && Math.abs(dx) + Math.abs(dy) < 4) return;
@@ -126,17 +134,18 @@ window.MINDMAP = SKEL => {
       N.forEach((m, j) => { for (let a = j; a >= 0; a = N[a].p) if (a === drag.i) { m.gx += dx / view.k; m.gy += dy / view.k; m.cx = m.gx; m.cy = m.gy; break; } });
       kick();
     };
-    cv.onpointerup = e => {
+    cv.onpointerup = cv.onpointercancel = e => {
+      ptr.delete(e.pointerId);
+      if (pinch) { if (ptr.size < 2) pinch = null; drag = null; cv.classList.remove('grab'); return; } // po zoomu žádný klik ani skok
       const d = drag; drag = null; cv.classList.remove('grab');
-      if (!d || d.moved || d.i < 0) return;
+      if (!d || d.moved || d.i < 0 || e.type === 'pointercancel') return;
       const n = N[d.i];
       show(d.i);
       if (n.k.length && !n.lock) { n.open = !n.open; anchor = { i: d.i, sx: view.x + n.cx * view.k, sy: view.y + n.cy * view.k }; layout(); }
     };
     cv.onwheel = e => {
       e.preventDefault(); anchor = null;
-      const r = cv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top, k = Math.min(2.5, Math.max(.05, view.k * Math.exp(-e.deltaY * .0015)));
-      view.x = mx - (mx - view.x) * k / view.k; view.y = my - (my - view.y) * k / view.k; view.k = k; setView();
+      const r = cv.getBoundingClientRect(); zoomAt(e.clientX - r.left, e.clientY - r.top, view.k * Math.exp(-e.deltaY * .0015));
     };
     el.onclick = e => {
       const a = e.target.closest('[data-mm]')?.dataset.mm, g = e.target.closest('[data-go2]');
