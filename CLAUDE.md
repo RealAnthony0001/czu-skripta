@@ -18,7 +18,7 @@ tools/video.mjs         generátor videí, tools/video-lib.mjs stavebnice snímk
 tools/videos-<předmět>.mjs scénáře videí, tools/shot.swift render HTML → PNG
 ```
 
-Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení; scénáře videí `tools/videos-tros.mjs`), `mlg` (Matematická logika a grafy; zatím jen výroková logika, negace a Quine–McCluskey; scénáře videí `tools/videos-mlg.mjs`).
+Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení; scénáře videí `tools/videos-tros.mjs`), `mlg` (Matematická logika a grafy; zatím jen výroková logika, negace a Quine–McCluskey; scénáře videí `tools/videos-mlg.mjs`), `ang` (Angličtina – gramatika podle učebnice Lifestyle Intermediate, lekce 1–12 a Grammar reference; zatím bez videí – scénáře a `ang/videos/` chybí; Word Focus, Communication strategies a Interaction nejsou zpracované).
 
 ## Nový předmět
 
