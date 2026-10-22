@@ -11,7 +11,8 @@ assets/dg.js            SVG helpery pro diagramy (DG)
 <předmět>/index.html    stránka předmětu: window.SUBJECT + seznam <script> s tématy
 <předmět>/topics/NN-*.js   jedno téma = jeden soubor, volá registerTopic({...})
 <předmět>/diagrams.js   SVG diagramy předmětu (const UPP / ZPN …)
-<předmět>/map.js         volitelná myšlenková mapa (#/mapa, widget 'mapa'): ručně kostra, sekce a pojmy se berou z témat; vzor zpn/map.js
+assets/map.js           společný engine myšlenkové mapy (#/mapa, widget 'mapa'): MINDMAP(kostra)
+<předmět>/map.js         kostra mapy: MINDMAP({ h, c, x, kids: [{ h, c, x, kids: ['id-tématu', …] }] }); sekce a pojmy se berou z témat; vzor upp/map.js
 <předmět>/videos/       vygenerovaná videa *.mp4, náhledy *.jpg a index.js (window.VIDEOS)
 tools/video.mjs         generátor videí, tools/video-lib.mjs stavebnice snímků,
 tools/videos-<předmět>.mjs scénáře videí, tools/shot.swift render HTML → PNG
@@ -27,11 +28,12 @@ Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy práv
 2. `<id>/index.html` – zkopíruj `upp/index.html` a uprav:
    - `<title>`, nadpis v `<header>` a kód v `<span class="code">`,
    - `window.SUBJECT = { id, code, name, desc, lockDraft: true }` (`id` = název složky; je i klíčem v localStorage),
-   - pořadí skriptů: `../assets/app.js`, `../assets/dg.js`, `diagrams.js` (má-li diagramy), pak `topics/*.js`, nakonec `videos/index.js` (má-li videa).
+   - pořadí skriptů: `../assets/app.js`, `../assets/dg.js`, `diagrams.js` (má-li diagramy), `../assets/map.js` + `map.js` (myšlenková mapa), pak `topics/*.js`, nakonec `videos/index.js` (má-li videa).
 3. Kartu do kořenového `index.html` (`<a class="tcard" href="<id>/index.html">…`).
 4. `<id>/diagrams.js` (viz „Diagramy“) – aspoň jeden diagram na téma tam, kde je co zobrazit (postupy, vztahy množin, schémata, tabulky převodů); do `index.html` ho dej před `topics/*.js`.
 5. `tools/videos-<id>.mjs` a vygenerovaná videa (viz „Videa“) – aspoň jedno video na téma, každé u sekce, ke které patří; `<script src="videos/index.js">` na konec `index.html`.
-6. Přidej předmět do seznamu „Předměty“ výše.
+6. `<id>/map.js` – myšlenková mapa: větve podle logiky předmětu, v nich id témat (téma mimo kostru spadne do větve „Ostatní“). Pojmy v uzlech se generují z témat.
+7. Přidej předmět do seznamu „Předměty“ výše.
 
 **Hotovo:** (a) `node tools/video.mjs <id>` doběhne bez chyb a vyhodí `throw` u špatných čísel; (b) všechna `at` sedí na nadpisy sekcí; (c) diagramy i snímky videí jsou prohlédnuté (nepřetékají texty); (d) téma s `src: 'doplneno'` videa ani diagram nepotřebuje (je zamčené).
 

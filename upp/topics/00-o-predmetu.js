@@ -25,17 +25,20 @@ registerTopic({
         { when: '3–4', h: 'Logika', x: 'Výrokový počet, pravdivostní tabulky, ekvivalence a logický důsledek. Potřebuješ ji pro XOR u parity i pro logické instrukce.' },
         { when: '5–7', h: 'Kódování dat', x: 'Text a logické hodnoty, celá čísla (doplňkový kód), reálná čísla (IEEE 754).' },
         { when: '8', h: 'Zabezpečení dat', x: 'Hammingova vzdálenost, parita, Hammingův kód – staví na dvojkové soustavě a XOR.' },
-        { when: '9–10', h: 'Počítač', x: 'Architektura von Neumannova typu, pak strojový kód, adresace a logické instrukce – zde se všechno předchozí spojí.' }
+        { when: '9–10', h: 'Počítač', x: 'Architektura von Neumannova typu, pak strojový kód, adresace a logické instrukce – zde se všechno předchozí spojí.' },
+        { when: '11–13', h: 'Programové vybavení', x: 'Operační systém a procesy, algoritmy a strukturovaný návrh (na zkoušce 1× algoritmus), programovací jazyky a vývoj software.' },
+        { when: '14–16', h: 'Datové struktury', x: 'Statické (pole, záznam, matice), dynamické (ukazatele, rekurze, seznam, strom) a speciální (zásobník, fronta, tabulka, soubor, databáze).' },
+        { when: '17–18', h: 'Technické vybavení', x: 'Základní deska, procesor, paměti, disky; monitory, tiskárny a počítačové sítě.' }
       ] },
       { t: 'tip', x: 'U každého tématu nejdřív přečti slovníček a rychlý přehled, pak sekce, nakonec si projdi otázky v režimu kartiček. Příklady počítej na papíře dřív, než se podíváš na výsledek.' }
     ] },
     { title: 'Zápočet', blocks: [
       { t: 'ul', items: [
         'Přiměřená aktivní účast na cvičeních (podle podmínek cvičícího).',
-        'Absolvování <b>všech 3 autotestů</b> v systému Moodle ČZU – praktické příklady z probírané látky.',
+        'Absolvování <b>všech 3 autotestů</b> v systému Moodle ČZU – praktické příklady z probírané látky: <b>Autotest 1</b> – Matematická logika a logické instrukce, <b>Autotest 2</b> – Algoritmizace a programování, <b>Autotest 3</b> – Uložení dat a datové struktury.',
         'Autotesty lze opakovat bez omezení, ale je třeba získat <b>plný počet bodů (100 %)</b>.'
       ] },
-      { t: 'tip', x: 'Autotesty jsou prakticky stejné typy příkladů jako ve cvičení (převody soustav, pravdivostní tabulky, logický důsledek) – procvič si je v tomto skriptu.' }
+      { t: 'tip', x: 'Autotesty jsou prakticky stejné typy příkladů jako ve cvičení (převody soustav, pravdivostní tabulky, logický důsledek, logické instrukce a masky, strukturogramy a algoritmy, datové struktury) – procvič si je v tomto skriptu.' }
     ] },
     { title: 'Zkouška a hodnocení', blocks: [
       { t: 'flow', title: 'Průběh zkoušky', steps: [
