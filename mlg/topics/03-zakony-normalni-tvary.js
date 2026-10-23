@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'zakony-normalni-tvary', order: 3, icon: '🔧', title: 'Logické zákony a normální tvary (DNT, KNT, ÚDNT)', src: 'podklady', where: 'Přednáška Logické zákony, normální tvary + Ekvivalence (tabulka zákonů) + Cvičení 2',
+  id: 'zakony-normalni-tvary', order: 3, icon: '🔧', title: 'Logické zákony a normální tvary (DNT, KNT, ÚDNT)', src: 'podklady', lec: [2], where: 'Přednáška Logické zákony, normální tvary + Ekvivalence (tabulka zákonů) + Cvičení 2',
   summary: 'Tabulka ekvivalentních formulí a jak z ní převádět formule do disjunktivního (DNT), konjunktivního (KNT) a úplného disjunktivního tvaru (ÚDNT), včetně sestavení formule z pravdivostní tabulky.',
   vocab: [
     { w: 'literál', x: 'výroková proměnná nebo její negace (A, ¬A)' },

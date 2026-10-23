@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'negace-kvantifikatory', order: 5, icon: '🔄', title: 'Negace vět a výroků s kvantifikátory', src: 'podklady', where: 'Doplněk ke cvičení z logiky 2',
+  id: 'negace-kvantifikatory', order: 5, icon: '🔄', title: 'Negace vět a výroků s kvantifikátory', src: 'podklady', lec: [2], where: 'Doplněk ke cvičení z logiky 2',
   summary: 'Jak správně znegovat větu v češtině i matematický výrok s kvantifikátory ∀ a ∃: prohodit ∧↔∨, ∀↔∃ a znegovat to, co zbývá.',
   vocab: [
     { w: 'kvantifikátor ∀ (obecný)', x: '„pro všechna“, „každý“, „vždy“' },

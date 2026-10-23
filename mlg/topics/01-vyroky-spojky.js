@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'vyroky-spojky', order: 1, icon: '🧩', title: 'Výroky, spojky a výrokové formule', src: 'podklady', where: 'Přednáška Výroková logika (Čermák, Hora) + Cvičení 1',
+  id: 'vyroky-spojky', order: 1, icon: '🧩', title: 'Výroky, spojky a výrokové formule', src: 'podklady', lec: [1], where: 'Přednáška Výroková logika (Čermák, Hora) + Cvičení 1',
   summary: 'Co je výrok, pět logických spojek (¬, ∧, ∨, ⇒, ⇔), jejich pravdivostní hodnoty a rekurzivní definice výrokové formule.',
   vocab: [
     { w: 'elementární výrok', x: 'oznamovací věta, o níž má smysl rozhodovat, zda je pravdivá, a kterou chápeme jako nedělitelný celek' },
@@ -63,6 +63,7 @@ registerTopic({
         ['A ∨ B ∧ C', 'ne', 'bez závorek není jasné, co se čím spojuje'],
         ['(A ⇒ B)′', 'ano', 'negace celé implikace']
       ] },
+      { t: 'svg', title: 'Stavba formule jako strom', x: MLG.formuleStrom(), cap: 'Hlavní spojka je v kořeni; hodnotu formule dostaneš tak, že spočítáš spojky od listů nahoru.' },
       { t: 'tip', x: 'Konjunkce i disjunkce jsou asociativní, proto <b>A∧B∧C</b> a <b>A∨B∨C</b> zapisujeme bez závorek. Smíšený zápis A∨B∧C ale bez závorek nepíšeme.' }
     ] }
   ],

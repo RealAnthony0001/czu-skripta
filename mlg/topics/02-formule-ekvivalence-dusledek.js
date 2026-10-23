@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'formule-ekvivalence-dusledek', order: 2, icon: '📋', title: 'Pravdivostní tabulky, tautologie, ekvivalence a logický důsledek', src: 'podklady', where: 'Přednáška Výroková logika + Cvičení 1',
+  id: 'formule-ekvivalence-dusledek', order: 2, icon: '📋', title: 'Pravdivostní tabulky, tautologie, ekvivalence a logický důsledek', src: 'podklady', lec: [1], where: 'Přednáška Výroková logika + Cvičení 1',
   summary: 'Jak sestavit pravdivostní tabulku, poznat tautologii, kontradikci a splnitelnou formuli, rozhodnout ekvivalenci a logický důsledek a převést slovní úlohu na formule.',
   vocab: [
     { w: 'ohodnocení', x: 'přiřazení hodnoty 1 nebo 0 každé proměnné ve formuli a dopočtení pravdivosti všech podformulí' },

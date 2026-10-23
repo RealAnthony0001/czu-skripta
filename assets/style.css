@@ -167,10 +167,6 @@ details.vocab dl>div{padding:7px 0;border-top:1px solid var(--line)}details.voca
 .dg .ds{stroke-dasharray:5 4}.dg marker path{fill:var(--muted)}
 .cap{font-size:13px;color:var(--muted);margin:6px 0 0}
 .tcard .vbadge{position:absolute;top:12px;right:12px;font:700 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--def);background:var(--def-s);border:1px solid var(--def);padding:2px 7px}
-.badge.vid{border-color:var(--def);color:var(--def);background:var(--def-s)}
-.vin{margin:4px 0 16px;background:var(--panel);border:1px solid var(--def)}
-.vin video{display:block;width:100%;aspect-ratio:16/9;background:#000}.vin figcaption{display:flex;justify-content:space-between;gap:8px;padding:8px 10px;font-size:14px;color:var(--def)}.vin figcaption span{font:12px var(--mono);color:var(--muted)}
-.toc .tv{font-style:normal;font-size:10px;color:var(--def)}
 .vx{margin-top:12px;padding:12px 16px;background:var(--panel);border:1px solid var(--line2);border-left:4px solid var(--def);font-size:15px;line-height:1.65}.vx .lb{display:block;font:700 11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--def);margin-bottom:4px}
 
 /* interaktivní průvodce (blok 'widget', mlg/qm-widget.js) */
@@ -245,3 +241,4 @@ nav.side a .lec{margin-left:auto}nav.side a .lec+.lec{margin-left:0}nav.side a .
 .wg:fullscreen{background:var(--bg);display:flex;flex-direction:column}.wg:fullscreen .mm-cv{height:auto;flex:1}
 .mm-d{position:fixed;right:18px;bottom:18px;z-index:20;width:min(400px,calc(100vw - 36px));max-height:55vh;overflow:auto;padding:14px 16px;background:var(--panel);border:1px solid var(--line2);border-top:4px solid var(--c);box-shadow:0 10px 40px #0008}
 .mm-d h4{margin:2px 0 8px;font-size:16px}.mm-d .btn{display:inline-block;margin-top:10px}.mm-p{font-size:11px;color:var(--muted)}.mm-x{float:right;padding:2px 8px}
+

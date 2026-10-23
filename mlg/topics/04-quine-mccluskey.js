@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'quine-mccluskey', order: 4, icon: '✂️', title: 'Minimalizace formulí – Quine–McCluskeyho algoritmus', src: 'podklady', where: 'Handout Minimalizace + Příklady na Quine–McCluskeyho algoritmus (Hora)',
+  id: 'quine-mccluskey', order: 4, icon: '✂️', title: 'Minimalizace formulí – Quine–McCluskeyho algoritmus', src: 'podklady', lec: [3], where: 'Handout Minimalizace + Příklady na Quine–McCluskeyho algoritmus (Hora)',
   summary: 'Jak najít nejkratší disjunktivní tvar formule: zakódovat konjunkce, slučovat dvojice lišící se v jedné proměnné a z tabulky pokrytí vybrat nejmenší možnou sadu.',
   vocab: [
     { w: 'minimální DNT', x: 'formule v disjunktivním tvaru s <b>nejmenším počtem literálů</b> mezi všemi ekvivalentními DNT' },

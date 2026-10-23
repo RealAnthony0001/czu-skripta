@@ -67,9 +67,23 @@ registerTopic({
         'Přednášky a cvičení, Moodle (<i>moodle.czu.cz</i>).',
         'Skripta <i>Diskrétní matematika pro informatiky</i> (sekretariát Katedry matematiky a fyziky nebo e-shop ČZU).',
         'Internet (Wikipedie). Kontakt: horaj@tf.czu.cz.',
-        'Tyto stránky vycházejí z přednášek J. Hory a J. Čermáka (výroková logika, normální tvary, Quine–McCluskey) a z cvičení Logika 1, 2 a doplňku.'
+        'Tyto stránky vycházejí z přednášek J. Hory a J. Čermáka a z cvičení 1–6 s doplňky (logika, množiny, neorientované a orientované grafy, konečné automaty).'
       ] },
-      { t: 'warn', x: 'Podklady zatím neobsahují látku o <b>teorii množin, grafech a konečných automatech</b> – tato témata tu proto nejsou (jsou jen v přehledu zkoušky výše). Přibudou, jakmile dodáš materiály.' }
+      { t: 'grid', head: ['Přednáška', 'Látka', 'Cvičení'], rows: [
+        ['P1', 'Výroková logika – výroky, spojky, tabulky, ekvivalence a důsledek', '1'],
+        ['P2', 'Logické zákony, normální tvary, negace', '2'],
+        ['P3', 'Minimalizace – Quine–McCluskey', '2'],
+        ['P4', 'Množiny, Vennovy diagramy, číselné obory', '3'],
+        ['P5', 'Relace a zobrazení, mohutnost', '3'],
+        ['P6', 'Neorientované grafy, stromy a kostry', '4'],
+        ['P7', 'Ohodnocené grafy – minimální kostra, Dijkstra', '4'],
+        ['P8', 'Orientované grafy, kořenové stromy, notace výrazů', '5'],
+        ['P9', 'Rovinné grafy a barvení', '4 (doplněk)'],
+        ['P10', 'Sítě, toky a projekty', '5'],
+        ['P11', 'Konečné automaty a regulární jazyky', '6'],
+        ['P12', 'Minimalizace automatů', '6']
+      ] },
+      { t: 'warn', x: 'Podklady přednášky nečíslují. Čísla P1–P12 jsou <b>odvozená z pořadí látky</b> (návaznost handoutů a slajdů, číslování cvičení 1–6 a termíny testů: logika + množiny v listopadu, grafy v prosinci, automaty až v dodatečném testu). Pokud se rozvrh liší, oprav pole <code>lec</code> v tématech.' }
     ] }
   ],
   mistakes: [
