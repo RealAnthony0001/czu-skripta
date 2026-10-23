@@ -1,4 +1,5 @@
 // Vyrenderuje HTML soubory do PNG 1280×720 přes WebKit: swift shot.swift <root> a.html a.png [b.html b.png …]
+// SHOT_DELAY=<s> prodlouží čekání před snímkem (animované stránky, např. myšlenková mapa)
 import AppKit
 import WebKit
 
@@ -14,7 +15,7 @@ class Shooter: NSObject, WKNavigationDelegate {
     web.loadFileURL(URL(fileURLWithPath: jobs[0].0), allowingReadAccessTo: root)
   }
   func webView(_ w: WKWebView, didFinish _: WKNavigation!) {
-    DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) { // nechat doběhnout layout a fonty
+    DispatchQueue.main.asyncAfter(deadline: .now() + (Double(ProcessInfo.processInfo.environment["SHOT_DELAY"] ?? "") ?? 0.15)) { // nechat doběhnout layout a fonty
       let cfg = WKSnapshotConfiguration(); cfg.snapshotWidth = 1280
       w.takeSnapshot(with: cfg) { img, err in
         guard let img, let tiff = img.tiffRepresentation, let png = NSBitmapImageRep(data: tiff)?.representation(using: .png, properties: [:])
