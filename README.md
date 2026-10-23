@@ -51,7 +51,7 @@ Open `index.html` and start studying. There is nothing to install.
 | ⚖️ | **Základy právních nauk** | EJE17E | 8 of 17 topics · 98 questions · 12 diagrams · quiz |
 | 🧭 | **Teorie řízení organizačních systémů** | TŘOS | 13 of 13 topics · 100 questions · 18 diagrams · ✅ done |
 | ∧ | **Matematická logika a grafy** | MLG | 18 topics · 100 questions · 26 diagrams · interactive Quine–McCluskey |
-| 🇬🇧 | **Angličtina – gramatika** | Lifestyle Intermediate | 25 topics · 146 questions · 31 diagrams · mind map |
+| 🇬🇧 | **Angličtina** | Lifestyle Intermediate | 41 topics · 230 questions · 57 diagrams · mind map · ✅ done |
 
 > Topics written without source material are marked `src: 'doplneno'` and stay **locked** in the UI.
 > Only content backed by the supplied materials is shown.

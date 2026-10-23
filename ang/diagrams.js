@@ -49,6 +49,17 @@ const ANG = (() => {
   const axis = (x1, x2, y, now, top, bot) =>
     line(x1, y, x2, y, 'ln', 'end') + line(now, top, now, bot, 'ln ds') + text(now, top - 4, 'teď', 'c sm bd mu');
 
+
+  // sloupce s nadpisem a řádky textu: cols = [{ h, c, t: [řádky] }]; šířku řádků hlídá render (≈ 6,4 px na znak)
+  const groups = (cols, note = '') => {
+    const n = cols.length, g = 12, w = Math.floor((720 - 16 - g * (n - 1)) / n), rows = Math.max(...cols.map(c => c.t.length));
+    const h = 38 + rows * 18 + 8;
+    return svg(720, h + (note ? 26 : 8), cols.map((c, i) => {
+      const x = 8 + i * (w + g);
+      return rect(x, 6, w, h, c.c || 'b') + text(x + w / 2, 28, c.h, 'c bd') + ml(x + w / 2, 52, c.t, 'c sm', 18);
+    }).join('') + (note ? text(360, h + 22, note, 'c sm mu') : ''));
+  };
+
   // 1) přehled osmi časových forem na ose času
   const tenseMap = () => {
     const cols = [
@@ -351,5 +362,177 @@ const ANG = (() => {
     { n: 'Nepřímá (ano/ne)', p: [['Do you know', 'b'], ['if', 'fE', 'bez tázacího slova'], ["they're", 'fD'], ['planning to get married?', 'fW']], sep: '', ex: 'u otázek bez tázacího slova se použije if' }
   ]);
 
-  return { tenseMap, presentForms, questionForms, futureScale, presContFutureForm, patternsToIng, quantVenn, abilityTime, compBars, ppTime, ppForms, usedToContrast, usedToForm, obligationMatrix, pastObligation, makeLetAllow, pastContTime, pastForms, pastTime, cond01, cond2, passiveTransform, activePassive, third, shouldHave, relPron, ppcForm, ppcContrast, reportedTenses, reportedTime, embedded };
+  // --- Lekce 1: Quality time
+  const l1Interests = () => groups([
+    { h: 'Mám rád / zajímám se', c: 'fD', t: ['I’m into skiing.', 'I’m keen on photography.', 'I enjoy / like cycling.'] },
+    { h: 'Trávím tím čas', c: 'fW', t: ['I spend a lot of time', 'doing puzzles.', 'One of my interests is yoga.'] },
+    { h: 'Tvar -ing: tři role', c: 'fE', t: ['are reading → sloveso', 'surprising → příd. jméno', 'Watching TV… → podst. jm.'] }
+  ]);
+  const suggestForms = () => formRows([
+    { n: 'What about|How about', p: [['What / How about', 'fA'], ['verb + -ing', 'fW']], ex: 'What about delaying the launch date by a month?' },
+    { n: "Let's", p: [["Let's", 'fA'], ['base form', 'fW']], ex: "Let's add adverts to the site." },
+    { n: 'We could', p: [['We could', 'fA'], ['base form', 'fW']], ex: 'We could get a contractor to do the work.' },
+    { n: "Why don't we", p: [["Why don't we", 'fA'], ['base form', 'fW']], ex: "Why don't we look at some more options?" }
+  ]);
+
+  // --- Lekce 2: Globetrotters
+  const l2Compound = () => groups([
+    { h: 'Dohromady', c: 'fD', t: ['honeymoon', 'seafood', 'airport', 'bathrobe'] },
+    { h: 'S pomlčkou', c: 'fW', t: ['check-in', 'three-star hotel', 'ten-minute walk', '24-hour room service'] },
+    { h: 'Zvlášť', c: 'fE', t: ['hotel guest', 'room service', 'power shower', 'flat screen TV'] }
+  ]);
+  const l2Disagree = () => formRows([
+    { n: '1 Zaváhání', p: [["Well, erm, I'm not sure.", 'fD']], sep: '' },
+    { n: '2 Otázka', p: [['Yes, but what if it takes ten hours instead of three?', 'fW']], sep: '' },
+    { n: '3 Částečný souhlas', p: [["That's true, but productivity is important, too.", 'fE']], sep: '' },
+    { n: '4 Alternativa', p: [['How about setting a limit?', 'fD']], sep: '' },
+    { n: '5 Přímo', p: [["I'm sorry, but I think this rule could cost us more money.", 'fA']], sep: '' }
+  ]);
+
+  // --- Lekce 3: Be my guest
+  const l3Food = () => groups([
+    { h: 'Jak se vaří', c: 'fD', t: ['boiled, fried, baked', 'grilled, roast', 'steamed, smoked', 'stewed'] },
+    { h: 'Chuť a konzistence', c: 'fW', t: ['salty, sweet, spicy', 'delicious, tasty', 'rich, oily', 'chewy, tender, tough'] },
+    { h: 'Na stole', c: 'fE', t: ['knife and fork', 'salt and pepper', 'oil and vinegar', 'chopsticks, serviette', 'plate, spoon, glass'] }
+  ]);
+  const l3Refusal = () => formRows([
+    { n: '3 Zaváhání', p: [['Oh…', 'fD']], sep: '' },
+    { n: '5 Pozitivně', p: [['It sounds great.', 'fW']], sep: '' },
+    { n: '2 + 1 Omluva a důvod', p: [["I'm so sorry, but I have to study.", 'fA']], sep: '' },
+    { n: '6 Poděkování', p: [['Thanks for thinking of me.', 'fE']], sep: '' },
+    { n: '4 Alternativa', p: [['Perhaps we can meet up another time?', 'fD']], sep: '' }
+  ]);
+
+  // --- Lekce 4: Learning curve
+  const l4Skills = () => groups([
+    { h: 'be a …', c: 'fD', t: ['team worker / player', 'logical thinker'] },
+    { h: 'have …', c: 'fW', t: ['common sense', 'a sense of humour', 'an outgoing personality', 'good attention to detail'] },
+    { h: 'have good … skills', c: 'fE', t: ['problem-solving', 'writing', 'customer care', 'decision-making'] },
+    { h: 'be able to …', c: 'b', t: ['work on own initiative', 'think on your feet', 'meet deadlines', 'work well under pressure'] }
+  ]);
+  const l4Build = () => formRows([
+    { n: 'Návrh', p: [['What if we', 'fD'], ['Could we', 'fD'], ["Let's", 'fD'], ["Why don't we", 'fD']], sep: '', ex: '+ nápad (…learn to ride a motorbike?)' },
+    { n: 'Navázání', p: [["Yes, I'll go along with that, and…", 'fW']], sep: '' },
+    { n: 'Navázání', p: [['Great idea! And we could…', 'fW']], sep: '' },
+    { n: 'Navázání', p: [['Sounds good to me. And…', 'fW']], sep: '' },
+    { n: 'Navázání', p: [['Fantastic! And what we could do is…', 'fW']], sep: '' }
+  ]);
+
+  // --- Lekce 5: Getting on
+  const l5Compliments = () => groups([
+    { h: 'Přijmout nebo oplatit', c: 'fD', t: ['Thanks a lot.', 'I like yours, too.'] },
+    { h: 'Zlehčit, sdílet, vysvětlit', c: 'fW', t: ['Nothing special.', 'Ivan helped me a lot.', 'It was a birthday present.'] },
+    { h: 'Zpochybnit nebo žertovat', c: 'fE', t: ['Do you mean that?', "I'm fabulous, aren't I?"] }
+  ]);
+
+  // --- Lekce 6: Rule of thumb
+  const l6Advice = () => groups([
+    { h: 'Jemně', c: 'fD', t: ['Maybe you could…', 'You might want to…', 'What you could do is…'] },
+    { h: 'Středně', c: 'fW', t: ["It'd be better to…"] },
+    { h: 'Důrazněji', c: 'fA', t: ['You should…', "No, don't do that…"] }
+  ], '→ čím víc doprava, tím důrazněji');
+
+  // --- Lekce 7: Tell us a story
+  const l7Story = () => groups([
+    { h: 'Vypravěč', c: 'fD', t: ['Did I tell you about', 'the time when…?', "I'll never forget the time…"] },
+    { h: 'Posluchač', c: 'fW', t: ['No. What happened?', 'Really? / You’re kidding!', 'So, what happened next?'] },
+    { h: 'Navázání', c: 'fE', t: ['That reminds me', 'of the time when…', 'A similar thing happened…'] }
+  ]);
+  const l7Linkers = () => groups([
+    { h: 'Čas', c: 'fD', t: ['At the time', 'When I woke up', 'In the end'] },
+    { h: 'Příčina a důsledek', c: 'fW', t: ['because', 'so'] },
+    { h: 'Kontrast, postoj', c: 'fE', t: ['but', 'although', 'Luckily / Unfortunately'] }
+  ]);
+
+  // --- Lekce 8: Green chic
+  const l8Collocations = () => groups([
+    { h: 'energy-efficient', c: 'fD', t: ['appliance', 'dishwasher', 'air conditioning unit'] },
+    { h: 'eco-friendly', c: 'fW', t: ['cleaning products', 'detergent', 'washing-up liquid'] },
+    { h: 'reusable', c: 'fE', t: ['shopping bag', 'container', 'glass bottle'] },
+    { h: 'refillable', c: 'b', t: ['ink cartridge', 'water bottle', 'marker pens'] }
+  ]);
+  const l8Steps = () => formRows([
+    { n: '1 Identify', p: [["We've got a little problem with…", 'fD']], sep: '' },
+    { n: '2 Brainstorm', p: [['So, what if we do a little experiment?', 'fW']], sep: '' },
+    { n: '3 Decide', p: [['I like that idea. It’s a start.', 'fE']], sep: '' }
+  ]);
+
+  // --- Lekce 9: IT generation
+  const l9Phone = () => groups([
+    { h: 'Začátek', c: 'fD', t: ['pick up', 'phone someone up', 'ring up'] },
+    { h: 'Uprostřed', c: 'fW', t: ['hold on', 'put through', 'put on hold', 'get back to'] },
+    { h: 'Konec', c: 'fE', t: ['phone back', 'hang up'] }
+  ]);
+  const l9Requests = () => formRows([
+    { n: 'Blízcí a cizí|krátká žádost', p: [['A caffè latte, please.', 'fD'], ['Can I use yours?', 'fD']], sep: '' },
+    { n: 'Střední vzdálenost|delší žádost', p: [['Would it be OK to use the Canon projector…?', 'fW']], sep: '' },
+    { n: 'Střední vzdálenost|delší žádost', p: [['Do you think you could send me those pdf files?', 'fW']], sep: '' }
+  ]);
+
+  // --- Lekce 10: Right and wrong
+  const l10MakeDo = () => groups([
+    { h: 'make', c: 'fD', t: ['a mistake', 'a noise', 'a complaint', 'an excuse', 'a mess', 'a suggestion', 'a decision', 'a lot of money'] },
+    { h: 'do', c: 'fW', t: ['something wrong', 'a good job', 'some work', 'the best you can', 'the shopping', 'business with someone', 'some housework', 'your duty'] }
+  ]);
+  const l10Sorry = () => formRows([
+    { n: '1 Lítost', p: [["I'm sorry.", 'fD']], sep: '' },
+    { n: '2 Odpuštění', p: [['Please accept our apologies.', 'fD']], sep: '' },
+    { n: '3 Vysvětlení', p: [['The traffic was terrible.', 'fW']], sep: '' },
+    { n: '4 Převzetí viny', p: [["It's my mistake.", 'fA']], sep: '' },
+    { n: '5 Odmítnutí viny', p: [["It isn't my fault.", 'fA']], sep: '' },
+    { n: '6 Starost o druhého', p: [["I hope I didn't upset you.", 'fE']], sep: '' },
+    { n: '7 Náprava', p: [["I'll pay for the damage.", 'fE']], sep: '' }
+  ]);
+
+  // --- Lekce 11: Working together
+  const l11Email = () => formRows([
+    { n: 'Oslovení', p: [['Dear Ms McDonald,', 'fD']], sep: '' },
+    { n: 'Důvod', p: [['I am writing to confirm…', 'fW']], sep: '' },
+    { n: 'Žádost', p: [['Could you please… · We would really appreciate it if…', 'fA']], sep: '' },
+    { n: 'Nabídka pomoci', p: [['Please do not hesitate to contact me should you…', 'fE']], sep: '' },
+    { n: 'Závěr', p: [['We look forward to hearing from you. Best regards,', 'fD']], sep: '' }
+  ]);
+  const l11Network = () => groups([
+    { h: 'Seznámit se', c: 'fD', t: ["I don't think we've met.", 'Tell me about yourself.'] },
+    { h: 'Vyměnit novinky', c: 'fW', t: ['I hear she’s expecting.', 'Congratulations!'] },
+    { h: 'Nabídnout pomoc', c: 'fE', t: ['Perhaps you could help me…', 'Let me introduce you to…'] }
+  ]);
+
+  // --- Lekce 12: Trial and error
+  const l12Trades = () => groups([
+    { h: 'Instalace a opravy', c: 'fD', t: ['electrician: lights', 'plumber: leaking taps', 'gas engineer: gas heating'] },
+    { h: 'Stavba a dřevo', c: 'fW', t: ['builder: knock down a wall', 'carpenter: replace doors', 'decorator: repaint a home'] },
+    { h: 'Ostatní', c: 'fE', t: ['gardener: prune trees', 'mechanic: motorbike won’t start'] }
+  ]);
+  const l12Steps = () => formRows([
+    { n: '1 Zeptat se', p: [['What seems to be the problem?', 'fD']], sep: '' },
+    { n: '2 Empatie', p: [["Oh dear, I'm sorry to hear that.", 'fW']], sep: '' },
+    { n: '3 Omluva', p: [['We’re really very sorry about this.', 'fE']], sep: '' },
+    { n: '4 Vysvětlit', p: [["If you look at our website, I think you'll find…", 'fD']], sep: '' },
+    { n: '5 Napravit', p: [["I'll see what I can do. I'll pass on your complaint.", 'fA']], sep: '' }
+  ]);
+
+  // --- Review 1–12: souhrny lekcí
+  const rev13 = () => groups([
+    { h: 'Lekce 1', c: 'fD', t: ['What about + -ing', 'Let’s + base form', 'Time stealers'] },
+    { h: 'Lekce 2', c: 'fW', t: ['compound nouns', 'Absolutely. / That’s true.', 'Yes, but is it cheaper?'] },
+    { h: 'Lekce 3', c: 'fE', t: ['grilled, tender, spicy', 'I insist. / It’s on me.', 'I’ll have to pass on that.'] }
+  ]);
+  const rev46 = () => groups([
+    { h: 'Lekce 4', c: 'fD', t: ['soft skills', 'Yes…, and…', 'be able to'] },
+    { h: 'Lekce 5', c: 'fW', t: ['small talk', 'Nice to meet you.', 'compliments'] },
+    { h: 'Lekce 6', c: 'fE', t: ['Dear Ms… / Yours sincerely', 'You might want to…', 'It’d be better to…'] }
+  ]);
+  const rev79 = () => groups([
+    { h: 'Lekce 7', c: 'fD', t: ['fun × funny', 'Did I tell you about…?', 'linkers'] },
+    { h: 'Lekce 8', c: 'fW', t: ['reusable, disposable', 'We’ve got a little problem', 'work out / deal with'] },
+    { h: 'Lekce 9', c: 'fE', t: ['put through, hang up', 'Do you mind if…?', 'I’m afraid not.'] }
+  ]);
+  const rev1012 = () => groups([
+    { h: 'Lekce 10', c: 'fD', t: ['make × do', 'be to blame', 'Not to worry.'] },
+    { h: 'Lekce 11', c: 'fW', t: ['formal e-mail', 'networking', 'team-building'] },
+    { h: 'Lekce 12', c: 'fE', t: ['ripped off, refund', 'What seems to be the problem?', 'I’ll pass on your complaint.'] }
+  ]);
+
+  return { rev13, rev46, rev79, rev1012, l12Trades, l12Steps, l11Email, l11Network, l10MakeDo, l10Sorry, l9Phone, l9Requests, l8Collocations, l8Steps, l7Story, l7Linkers, l6Advice, l5Compliments, l4Skills, l4Build, l3Food, l3Refusal, l2Compound, l2Disagree, l1Interests, suggestForms, groups, tenseMap, presentForms, questionForms, futureScale, presContFutureForm, patternsToIng, quantVenn, abilityTime, compBars, ppTime, ppForms, usedToContrast, usedToForm, obligationMatrix, pastObligation, makeLetAllow, pastContTime, pastForms, pastTime, cond01, cond2, passiveTransform, activePassive, third, shouldHave, relPron, ppcForm, ppcContrast, reportedTenses, reportedTime, embedded };
 })();

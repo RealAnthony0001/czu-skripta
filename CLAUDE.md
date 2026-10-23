@@ -16,7 +16,7 @@ assets/map.js           společný engine myšlenkové mapy (#/mapa, widget 'map
 tools/shot.swift        render HTML → PNG (WebKit) pro kontrolu diagramů
 ```
 
-Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení), `mlg` (Matematická logika a grafy – logika, množiny a relace, grafy, konečné automaty; přednášky P1–P12 odvozené z pořadí podkladů), `ang` (Angličtina – gramatika podle učebnice Lifestyle Intermediate, lekce 1–12 a Grammar reference; Word Focus, Communication strategies a Interaction nejsou zpracované).
+Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení), `mlg` (Matematická logika a grafy – logika, množiny a relace, grafy, konečné automaty; přednášky P1–P12 odvozené z pořadí podkladů), `ang` (Angličtina podle učebnice Lifestyle Intermediate: gramatika z lekcí 1–12 a Grammar reference (témata 1–25), ke každé lekci téma s Word Focus, Communication strategies a Interaction (26–37) a Review 1–3, 4–6, 7–9, 10–12 (38–41); učebnice je jen sken, text se získal OCR – ověř při pochybnostech ve zdrojovém PDF).
 
 ## Nový předmět
 

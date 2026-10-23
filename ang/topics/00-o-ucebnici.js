@@ -11,7 +11,7 @@ registerTopic({
   key: [
     'Učebnice má <b>12 lekcí</b>, každá má Grammar (dvě části), Word Focus, Communication strategies a Interaction; po třech lekcích je <b>Review</b>.',
     'Každé gramatické téma má v těchto skriptech stejnou stavbu: <b>Použití → Tvoření → Schéma → Časté chyby → Otázky</b>.',
-    'Čísla témat 1–24 odpovídají pořadí gramatiky v učebnici; téma <b>25</b> je seznam nepravidelných sloves.',
+    'Čísla témat 1–24 odpovídají pořadí gramatiky v učebnici; téma <b>25</b> je seznam nepravidelných sloves. Témata <b>26–37</b> zpracovávají Word Focus, Communication strategies a Interaction každé lekce; témata <b>38–41</b> jsou Review 1–3, 4–6, 7–9 a 10–12.',
     'Strany v hlavičce témat jsou <b>tištěné</b> strany učebnice (ne čísla stránek PDF).'
   ],
   sections: [
@@ -43,7 +43,7 @@ registerTopic({
         '<b>Nouns and adjectives</b> (s. 171–172): složená podstatná jména, kvantifikátory, <i>-ing</i> tvary, stupňování.',
         '<b>Verbs + to / -ing</b>, vztažná zájmena, nepřímá řeč, nepřímé otázky (s. 173–175) a seznam <b>nepravidelných sloves</b> (s. 176).'
       ] },
-      { t: 'warn', x: 'Skripta zatím zpracovávají jen <b>gramatiku</b>. Slovní zásoba (Word Focus), komunikační strategie a Interaction z jednotlivých lekcí zde nejsou; složená podstatná jména (<i>compound nouns</i>) patří v učebnici do Word Focus lekce 2.' }
+      { t: 'tip', x: 'Gramatika je v tématech 1–24. <b>Slovní zásobu</b> (Word Focus), <b>komunikační strategie</b> a <b>Interaction</b> každé lekce najdeš v tématech <b>Lekce 1–12</b> (26–37); složená podstatná jména (<i>compound nouns</i>) jsou ve Word Focus lekce 2. Poslechová cvičení, psaní a deskové hry zde jsou jen stručně; fráze a slovíčka jsou doplněny podle Audio scripts na s. 143–159.' }
     ] }
   ],
   mistakes: [
