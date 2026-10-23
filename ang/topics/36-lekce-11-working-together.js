@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-11-working-together', order: 36, icon: '🧗', title: 'Lekce 11 – Working together: e-maily, networking, Interaction', src: 'podklady', where: 'Lekce 11 (s. 112–113, 116–119) + Audio scripts (s. 157–158)',
+  id: 'lekce-11-working-together', group: 'slov', order: 36, icon: '🧗', title: 'Lekce 11 – Working together: e-maily, networking, Interaction', src: 'podklady', where: 'Lekce 11 (s. 112–113, 116–119) + Audio scripts (s. 157–158)',
   summary: 'Writing emails 2 (Word Focus), Networking (Communication strategies) a Team-building (Interaction): formální a méně formální e-mail s žádostmi, small talk a drby při navazování kontaktů a plánování týmové akce.',
   vocab: [
     { w: 'subject line', x: 'předmět e-mailu – má být výstižný, aby adresát hned věděl, o co jde' },

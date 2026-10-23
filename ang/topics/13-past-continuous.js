@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'past-continuous', order: 13, icon: '🌧️', title: 'Past continuous', src: 'podklady', where: 'Lekce 7 (s. 68–69) + Grammar reference (s. 165)',
+  id: 'past-continuous', group: 'gram', order: 13, icon: '🌧️', title: 'Past continuous', src: 'podklady', where: 'Lekce 7 (s. 68–69) + Grammar reference (s. 165)',
   summary: 'Minulý průběhový čas (<i>was / were + -ing</i>): pozadí příběhu, děj probíhající v určitou dobu v minulosti a dva děje současně.',
   vocab: [
     { w: 'past continuous', x: 'minulý průběhový čas: <i>was / were + -ing</i>' },

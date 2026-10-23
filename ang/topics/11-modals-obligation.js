@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'modals-obligation', order: 11, icon: '🚦', title: 'can, have to, must, need to and should', src: 'podklady', where: 'Lekce 6 (s. 56–57) + Grammar reference (s. 167–168)',
+  id: 'modals-obligation', group: 'gram', order: 11, icon: '🚦', title: 'can, have to, must, need to and should', src: 'podklady', where: 'Lekce 6 (s. 56–57) + Grammar reference (s. 167–168)',
   summary: 'Modální slovesa povolení, povinnosti a rady: <i>can / can’t</i>, <i>must</i>, <i>have to</i>, <i>need to</i>, <i>should</i> a důležitý rozdíl mezi <i>mustn’t</i> (zákaz) a <i>don’t have to</i> (není nutné).',
   vocab: [
     { w: 'obligation', x: 'povinnost – něco je nutné udělat' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'review-10-12', order: 41, icon: '🔁', title: 'Review 10–12: opakování lekcí 10–12', src: 'podklady', where: 'Review 10–12 (s. 130–131)',
+  id: 'review-10-12', group: 'rev', order: 41, icon: '🔁', title: 'Review 10–12: opakování lekcí 10–12', src: 'podklady', where: 'Review 10–12 (s. 130–131)',
   summary: 'Souhrnné opakování lekcí 10–12: třetí kondicionál, <i>should have</i>, vztažná zájmena, present perfect, omluvy a stížnosti. Řešení cvičení jsou doplněna.',
   vocab: [
     { w: 'third conditional', x: 'představa jiné minulosti: <i>If she had been wiser, she wouldn’t have put so much cash in her bag.</i>' },

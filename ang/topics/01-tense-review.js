@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'tense-review', order: 1, icon: '🕐', title: 'Tense review – present simple a continuous', src: 'podklady', where: 'Lekce 1 (s. 4–5) + Grammar reference (s. 160)',
+  id: 'tense-review', group: 'gram', order: 1, icon: '🕐', title: 'Tense review – present simple a continuous', src: 'podklady', where: 'Lekce 1 (s. 4–5) + Grammar reference (s. 160)',
   summary: 'Přehled osmi časových forem z lekce 1 a podrobně dva přítomné časy: present simple (zvyky, trvalé stavy), present continuous (to, co se děje teď) a příslovce četnosti.',
   vocab: [
     { w: 'present simple', x: 'přítomný čas prostý: pravidelné činnosti, dlouhodobé situace a věci, které platí vždy' },

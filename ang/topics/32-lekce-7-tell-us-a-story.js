@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-7-tell-us-a-story', order: 32, icon: '📖', title: 'Lekce 7 – Tell us a story: humor, vyprávění, Interaction', src: 'podklady', where: 'Lekce 7 (s. 72–77) + Audio scripts (s. 150–152)',
+  id: 'lekce-7-tell-us-a-story', group: 'slov', order: 32, icon: '📖', title: 'Lekce 7 – Tell us a story: humor, vyprávění, Interaction', src: 'podklady', where: 'Lekce 7 (s. 72–77) + Audio scripts (s. 150–152)',
   summary: 'Humour (Word Focus), Storytelling (Communication strategies) a Presentations (Interaction): slovní zásoba o vtipech, jak vyprávět příběh a reagovat na něj, spojky v příběhu a techniky úspěšné prezentace.',
   vocab: [
     { w: 'fun × funny', x: '<i>fun</i> = zábava, činnost, která nás baví (<i>The picnic was great fun.</i>); <i>funny</i> = to, co nás rozesměje (<i>The joke was really funny.</i>)' },

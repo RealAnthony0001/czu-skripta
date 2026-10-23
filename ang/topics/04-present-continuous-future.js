@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'present-continuous-future', order: 4, icon: '📅', title: 'Present continuous for future plans', src: 'podklady', where: 'Lekce 2 (s. 16–17) + Grammar reference (s. 160, 166)',
+  id: 'present-continuous-future', group: 'gram', order: 4, icon: '📅', title: 'Present continuous for future plans', src: 'podklady', where: 'Lekce 2 (s. 16–17) + Grammar reference (s. 160, 166)',
   summary: 'Present continuous pro domluvené plány v budoucnu (věci „v diáři“) a jeho rozdíl proti <i>going to</i> a <i>will</i>.',
   vocab: [
     { w: 'arrangement', x: 'domluva, pevně naplánovaná událost (čas, místo, lidé jsou dohodnuti)' },

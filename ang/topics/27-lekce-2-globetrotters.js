@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-2-globetrotters', order: 27, icon: '🧳', title: 'Lekce 2 – Globetrotters: složená podst. jména, (ne)souhlas, Interaction', src: 'podklady', where: 'Lekce 2 (s. 18–23) + Grammar reference (s. 171) + Audio scripts (s. 144–145)',
+  id: 'lekce-2-globetrotters', group: 'slov', order: 27, icon: '🧳', title: 'Lekce 2 – Globetrotters: složená podst. jména, (ne)souhlas, Interaction', src: 'podklady', where: 'Lekce 2 (s. 18–23) + Grammar reference (s. 171) + Audio scripts (s. 144–145)',
   summary: 'Compound nouns (Word Focus), Agreeing and disagreeing (Communication strategies) a Five days in Dubai (Interaction): jak tvoříme složená podstatná jména, jak v řeči souhlasíme a nesouhlasíme a jak plánujeme cestu.',
   vocab: [
     { w: 'compound noun', x: 'složené podstatné jméno ze dvou i více slov (<i>airport, hotel guest, check-in</i>)' },

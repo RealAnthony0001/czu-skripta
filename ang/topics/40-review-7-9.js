@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'review-7-9', order: 40, icon: '🔁', title: 'Review 7–9: opakování lekcí 7–9', src: 'podklady', where: 'Review 7–9 (s. 98–99)',
+  id: 'review-7-9', group: 'rev', order: 40, icon: '🔁', title: 'Review 7–9: opakování lekcí 7–9', src: 'podklady', where: 'Review 7–9 (s. 98–99)',
   summary: 'Souhrnné opakování lekcí 7–9: minulé časy, zero a second conditional, trpný rod, slovní zásoba ekologie a techniky, vyprávění a žádosti. Řešení cvičení jsou doplněna.',
   vocab: [
     { w: 'zero conditional', x: 'obecné pravdy: <i>If at first you don’t succeed, try, try again.</i>' },

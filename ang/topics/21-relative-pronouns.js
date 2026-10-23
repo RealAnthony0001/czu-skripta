@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'relative-pronouns', order: 21, icon: '🔗', title: 'Relative pronouns', src: 'podklady', where: 'Lekce 11 (s. 110–111) + Grammar reference (s. 173)',
+  id: 'relative-pronouns', group: 'gram', order: 21, icon: '🔗', title: 'Relative pronouns', src: 'podklady', where: 'Lekce 11 (s. 110–111) + Grammar reference (s. 173)',
   summary: 'Vztažná zájmena <i>who, which, that, where, when, whose</i>: vymezující (defining) a doplňující (non-defining) vztažné věty, čárky, vynechání zájmena a rozdíl <i>whose</i> × <i>who’s</i>.',
   vocab: [
     { w: 'relative pronoun', x: 'vztažné zájmeno: <i>who, which, that, where, when, whose</i>' },

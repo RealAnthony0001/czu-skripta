@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-5-getting-on', order: 30, icon: '🤝', title: 'Lekce 5 – Getting on: small talk, seznamování, Interaction', src: 'podklady', where: 'Lekce 5 (s. 50–57) + Audio scripts (s. 147–149)',
+  id: 'lekce-5-getting-on', group: 'slov', order: 30, icon: '🤝', title: 'Lekce 5 – Getting on: small talk, seznamování, Interaction', src: 'podklady', where: 'Lekce 5 (s. 50–57) + Audio scripts (s. 147–149)',
   summary: 'Conversation topics (Word Focus), Socializing (Communication strategies) a Choosing a candidate (Interaction): o čem si povídat, jak se zdravit, představovat a reagovat na komplimenty a jak vybrat vítěze ocenění pro sociální podnikání.',
   vocab: [
     { w: 'small talk', x: 'lehká neformální konverzace (počasí, rodina, sport…)' },

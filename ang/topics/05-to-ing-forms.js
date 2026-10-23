@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'to-ing-forms', order: 5, icon: '🔀', title: 'Base form with to or -ing form', src: 'podklady', where: 'Lekce 3 (s. 24–25) + Grammar reference (s. 172–173)',
+  id: 'to-ing-forms', group: 'gram', order: 5, icon: '🔀', title: 'Base form with to or -ing form', src: 'podklady', where: 'Lekce 3 (s. 24–25) + Grammar reference (s. 172–173)',
   summary: 'Kdy po slovesu následuje <i>to</i> + základní tvar a kdy tvar na <i>-ing</i>; slovesa s oběma tvary, slovesa se změnou významu (<i>stop, try, remember</i>) a použití <i>-ing</i> tvarů.',
   vocab: [
     { w: 'base form', x: 'základní tvar slovesa (infinitiv bez <i>to</i>): <i>go, have, eat</i>' },

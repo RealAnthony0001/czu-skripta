@@ -104,7 +104,7 @@ write|wrote|written`.split('\n').map(r => r.split('|'));
 })();
 
 registerTopic({
-  id: 'irregular-verbs', order: 25, icon: '📋', title: 'Irregular verb list (nepravidelná slovesa)', src: 'podklady', where: 'Grammar reference – Irregular verb list (s. 176)',
+  id: 'irregular-verbs', group: 'gram', order: 25, icon: '📋', title: 'Irregular verb list (nepravidelná slovesa)', src: 'podklady', where: 'Grammar reference – Irregular verb list (s. 176)',
   summary: `Úplný seznam ${IRR.L.length} nepravidelných sloves z učebnice (základní tvar – past simple – past participle) a jejich rozdělení podle vzorce, který usnadní učení.`,
   vocab: [
     { w: 'irregular verb', x: 'nepravidelné sloveso – past simple a příčestí se netvoří koncovkou <i>-ed</i>' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-4-learning-curve', order: 29, icon: '🎓', title: 'Lekce 4 – Learning curve: vlastnosti, rozvíjení nápadů, Interaction', src: 'podklady', where: 'Lekce 4 (s. 38–45) + Audio scripts (s. 147–148)',
+  id: 'lekce-4-learning-curve', group: 'slov', order: 29, icon: '🎓', title: 'Lekce 4 – Learning curve: vlastnosti, rozvíjení nápadů, Interaction', src: 'podklady', where: 'Lekce 4 (s. 38–45) + Audio scripts (s. 147–148)',
   summary: 'Personal characteristics (Word Focus), Building on ideas (Communication strategies) a Training solutions (Interaction): jak popsat své schopnosti, jak na cizí nápad navázat technikou „Yes…, and…“ a jak vyjednat školení.',
   vocab: [
     { w: 'soft skills', x: 'měkké dovednosti – komunikace, spolupráce, organizace (hledají je zaměstnavatelé u všech zaměstnanců)' },

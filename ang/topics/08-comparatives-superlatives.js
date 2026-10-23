@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'comparatives-superlatives', order: 8, icon: '📊', title: 'Comparatives and superlatives', src: 'podklady', where: 'Lekce 4 (s. 40–41) + Grammar reference (s. 172)',
+  id: 'comparatives-superlatives', group: 'gram', order: 8, icon: '📊', title: 'Comparatives and superlatives', src: 'podklady', where: 'Lekce 4 (s. 40–41) + Grammar reference (s. 172)',
   summary: 'Srovnávání přídavných jmen a příslovcí: komparativ (<i>cheaper, more expensive</i>), superlativ (<i>the cheapest</i>), nepravidelné tvary, <i>less / the least</i>, <i>as … as</i> a rozlišení velkého a malého rozdílu.',
   vocab: [
     { w: 'comparative', x: 'druhý stupeň – srovnáváme <b>dvě</b> věci (<i>larger than</i>)' },

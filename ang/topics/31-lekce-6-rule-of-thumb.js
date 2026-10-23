@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-6-rule-of-thumb', order: 31, icon: '✉️', title: 'Lekce 6 – Rule of thumb: e-maily, rady, Interaction', src: 'podklady', where: 'Lekce 6 (s. 60–65) + Audio scripts (s. 149–150)',
+  id: 'lekce-6-rule-of-thumb', group: 'slov', order: 31, icon: '✉️', title: 'Lekce 6 – Rule of thumb: e-maily, rady, Interaction', src: 'podklady', where: 'Lekce 6 (s. 60–65) + Audio scripts (s. 149–150)',
   summary: 'Writing emails 1 (Word Focus), Giving advice (Communication strategies) a Helping new people (Interaction): formální a neformální styl e-mailu, rady důraznější i jemnější a zkušenost prvního dne v nové práci.',
   vocab: [
     { w: 'punctuation', x: 'interpunkce: <i>comma ,</i> · <i>full stop .</i> · <i>semicolon ;</i> · <i>colon :</i> · <i>exclamation mark !</i> · <i>question mark ?</i>' },

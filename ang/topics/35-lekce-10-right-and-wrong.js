@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-10-right-and-wrong', order: 35, icon: '⚖️', title: 'Lekce 10 – Right and wrong: kolokace, omluvy, Interaction', src: 'podklady', where: 'Lekce 10 (s. 104–109) + Audio scripts (s. 156–157)',
+  id: 'lekce-10-right-and-wrong', group: 'slov', order: 35, icon: '⚖️', title: 'Lekce 10 – Right and wrong: kolokace, omluvy, Interaction', src: 'podklady', where: 'Lekce 10 (s. 104–109) + Audio scripts (s. 156–157)',
   summary: 'Collocations with blame, fault, make, do (Word Focus), Saying sorry (Communication strategies) a Doing the right thing (Interaction): kdo je vinen, co se „dělá“ a co „vyrábí“, jak se omluvit a jak popsat morální dilemata.',
   vocab: [
     { w: 'blame (n)', x: 'odpovědnost za chybu nebo něco špatného' },

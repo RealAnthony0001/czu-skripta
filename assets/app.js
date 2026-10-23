@@ -9,6 +9,13 @@ let topics = [], spy;
 // nedodělaná témata (bez podkladů) jsou zamčená; vypnutí: SUBJECT.lockDraft = false
 const locked = t => SUBJECT.lockDraft && t.src === 'doplneno';
 const num = i => String(i).padStart(2, '0');
+// záložky (volitelné): SUBJECT.groups = [{ id, name, icon }], téma má t.group; téma bez group je vidět ve všech záložkách
+const GROUPS = SUBJECT.groups, grpKey = KEY + '-grp';
+let curG = GROUPS ? store.get(grpKey, GROUPS[0].id) : null;
+if (GROUPS && !GROUPS.some(g => g.id === curG)) curG = GROUPS[0].id;
+const inG = t => !GROUPS || !t.group || t.group === curG;
+const setG = g => { curG = g; store.set(grpKey, g); };
+const gTabs = big => GROUPS ? `<div class="gtabs${big ? ' big' : ''}">${GROUPS.map(g => `<button data-grp="${g.id}" class="${g.id === curG ? 'on' : ''}">${big ? (g.icon || '') + ' ' + g.name : g.short || g.name}${big ? ` <small>${topics.filter(t => !locked(t) && t.group === g.id).length}</small>` : ''}</button>`).join('')}</div>` : '';
 
 const setTheme = t => { document.documentElement.dataset.theme = t; store.set('theme', t); $('#theme').textContent = t === 'dark' ? '☀ Světlý' : '☾ Tmavý' };
 const setRecall = on => { document.body.classList.toggle('recall', on); store.set('recall', on); $('#recall').classList.toggle('on', on); };
@@ -48,7 +55,7 @@ function table({ head: h, rows: r }) {
 const sid = (t, i) => `${t.id}-s${i}`;
 function topicHTML(t, i) {
   const src = t.src === 'doplneno' ? '<span class="badge sup" title="K tématu nebyly podklady – ověř v zákoně">Doplněno mimo podklady</span>' : '<span class="badge src">Z podkladů</span>';
-  const prev = topics.slice(0, i).reverse().find(x => !locked(x)), next = topics.slice(i + 1).find(x => !locked(x));
+  const sameG = x => !GROUPS || !x.group || !t.group || x.group === t.group, prev = topics.slice(0, i).reverse().find(x => !locked(x) && sameG(x)), next = topics.slice(i + 1).find(x => !locked(x) && sameG(x));
   return `<article>
   <div class="crumb"><a href="#/">${SUBJECT.name}</a> / ${num(i)}</div>
   <header class="hero"><div class="tile"><span>${t.icon || '§'}</span><i>${num(i)}</i></div><div><h2>${t.title}</h2><p>${t.summary || ''}</p>
@@ -70,12 +77,13 @@ function topicHTML(t, i) {
 }
 const lecPills = (t, long) => (t.lec || []).map(n => `<span class="lec" title="Přednáška ${n}" style="--lc:hsl(${n * 137.5 % 360} 65% 55%)">${long ? 'Přednáška ' : 'P'}${n}</span>`).join('');
 function home() {
-  const ok = topics.filter(t => !locked(t)), wip = topics.filter(locked), nd = ok.filter(t => done.has(t.id)).length;
+  const ok = topics.filter(t => !locked(t) && inG(t)), wip = topics.filter(t => locked(t) && inG(t)), cnt = ok.filter(t => !GROUPS || t.group), nd = cnt.filter(t => done.has(t.id)).length;
   const card = t => { const i = topics.indexOf(t), l = locked(t);
     return `<${l ? 'div' : 'a href="#/' + t.id + '"'} class="tcard${l ? ' lock' : ''}${done.has(t.id) ? ' done' : ''}"><div class="n">${num(i)}</div>${l || !t.lec ? '' : `<div class="lecs">${lecPills(t, 1)}</div>`}<b>${t.title}</b>
     <span class="s">${t.summary || ''}</span>${l ? '<span class="wip">Nedodělané – chybí podklady</span>' : `<div class="f"><span>${t.sections.length} sekcí</span><span>${(t.qa || []).length} otázek</span>${done.has(t.id) ? '<span style="color:var(--ok)">✔ naučeno</span>' : ''}</div>`}</${l ? 'div' : 'a'}>`; };
   return `<div class="crumb">${SUBJECT.code || ''}</div><header class="hero"><div><h2>${SUBJECT.name}</h2><p>${SUBJECT.desc || ''}</p></div></header>
-  <div class="stats"><div><b>${ok.length}</b><span>témat k učení</span></div><div><b>${ok.reduce((a, t) => a + (t.qa || []).length, 0)}</b><span>otázek</span></div><div><b>${nd}/${ok.length}</b><span>naučeno</span></div></div>
+  ${gTabs(1)}
+  <div class="stats"><div><b>${cnt.length}</b><span>témat k učení</span></div><div><b>${cnt.reduce((a, t) => a + (t.qa || []).length, 0)}</b><span>otázek</span></div><div><b>${nd}/${cnt.length}</b><span>naučeno</span></div></div>
   <div class="gh">Hotová témata</div><div class="grid">${ok.map(card).join('')}</div>
   ${wip.length ? `<div class="gh">Nedodělané (${wip.length})</div><div class="notice">K těmto tématům nebyly dodány podklady, proto jsou zatím zamčená. Po dodání materiálů se odemknou.</div><div class="grid" style="margin-top:12px">${wip.map(card).join('')}</div>` : ''}`;
 }
@@ -87,11 +95,11 @@ function search(q) {
   return `<h2 style="margin-top:0">Hledání: „${esc(q)}“</h2>` + (hits.map(({ t, parts }) => `<div class="card"><a href="#/${t.id}"><b>${t.title}</b></a>${parts.slice(0, 3).map(([s, x]) => { const m = x.search(re); return `<div class="hit"><b>${s}</b>: …${esc(x.slice(Math.max(0, m - 50), m + 90)).replace(new RegExp(reEsc(esc(q)), 'ig'), '<mark>$&</mark>')}…</div>`; }).join('')}</div>`).join('') || '<p>Nic nenalezeno.</p>');
 }
 function nav() {
-  const nd = topics.filter(t => !locked(t));
+  const nd = topics.filter(t => !locked(t) && inG(t));
   $('#side').innerHTML = `<input id="q" type="search" placeholder="Hledat v celém skriptu…" value="${esc(window._q || '')}">
-  <div class="prog"><i style="width:${nd.length ? nd.filter(t => done.has(t.id)).length / nd.length * 100 : 0}%"></i></div>
+  ${gTabs()}<div class="prog"><i style="width:${nd.length ? nd.filter(t => done.has(t.id)).length / nd.length * 100 : 0}%"></i></div>
   <a href="#/" class="${!location.hash.slice(2) ? 'cur' : ''}"><span class="n">⌂</span>Přehled</a>${window.WIDGETS?.mapa ? `<a href="#/mapa" class="${location.hash === '#/mapa' ? 'cur' : ''}"><span class="n">🗺</span>Myšlenková mapa</a>` : ''}<div class="grp">Témata</div>
-  ${topics.map((t, i) => locked(t) ? `<a class="lock" title="Nedodělané – chybí podklady"><span class="n">${num(i)}</span>${t.title}</a>` : `<a href="#/${t.id}" class="${location.hash === '#/' + t.id ? 'cur' : ''}"><span class="n">${num(i)}</span>${t.title}${lecPills(t)}${done.has(t.id) ? '<span class="ok">✔</span>' : ''}</a>`).join('')}`;
+  ${topics.map((t, i) => !inG(t) ? '' : locked(t) ? `<a class="lock" title="Nedodělané – chybí podklady"><span class="n">${num(i)}</span>${t.title}</a>` : `<a href="#/${t.id}" class="${location.hash === '#/' + t.id ? 'cur' : ''}"><span class="n">${num(i)}</span>${t.title}${lecPills(t)}${done.has(t.id) ? '<span class="ok">✔</span>' : ''}</a>`).join('')}`;
   $('#q').oninput = e => { window._q = e.target.value.trim(); location.hash = window._q.length > 1 ? '#/?q=' + encodeURIComponent(window._q) : '#/'; };
 }
 // kartičky: náhodné pořadí, sebehodnocení Vím / Nevím, na konci opakování nezvládnutých
@@ -152,6 +160,7 @@ function route() {
   let i = topics.findIndex(t => t.id === h);
   if (i >= 0 && locked(topics[i])) { location.hash = '#/'; return; }
   const q = h.startsWith('?q='), isQz = /^kviz(\/|$)/.test(h) && window.QUIZZES, qu = isQz && QUIZZES.find(u => 'kviz/' + u.id === h);
+  if (GROUPS && i >= 0 && topics[i].group && topics[i].group !== curG) setG(topics[i].group);
   m.className = i >= 0 ? 'topic' : '';
   if (isQz) { qu ? (qz = { qu, queue: [] }, qzRender()) : qzList(); } else
   m.innerHTML = q ? search(h.slice(3)) : i >= 0 ? topicHTML(topics[i], i) : h === 'mapa' && window.WIDGETS?.mapa ? mapHTML() : home();
@@ -168,6 +177,7 @@ function route() {
   }
 }
 document.addEventListener('click', e => {
+  const gt = e.target.closest('[data-grp]'); if (gt) { setG(gt.dataset.grp); const t = topics.find(x => '#/' + x.id === location.hash); if (t?.group && t.group !== curG) location.hash = '#/'; route(); return; }
   const g = e.target.closest('[data-go]'), qa = e.target.dataset.qa, f = e.target.dataset.fc;
   if (g) { e.preventDefault(); document.getElementById(g.dataset.go)?.scrollIntoView(); }
   if (qa) $$('details.qa').forEach(d => d.open = qa === 'open');

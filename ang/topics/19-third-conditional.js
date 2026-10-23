@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'third-conditional', order: 19, icon: '⏪', title: 'The third conditional', src: 'podklady', where: 'Lekce 10 (s. 100–101) + Grammar reference (s. 170)',
+  id: 'third-conditional', group: 'gram', order: 19, icon: '⏪', title: 'The third conditional', src: 'podklady', where: 'Lekce 10 (s. 100–101) + Grammar reference (s. 170)',
   summary: 'Podmínkové věty o nereálné minulosti – co by se bylo stalo, kdyby bylo všechno jinak: <i>if</i> + past perfect, <i>would have</i> + past participle.',
   vocab: [
     { w: 'third conditional', x: 'třetí kondicionál: představa jiné minulosti, než jaká byla' },

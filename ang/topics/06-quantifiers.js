@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'quantifiers', order: 6, icon: '🥗', title: 'Quantifiers (výrazy množství)', src: 'podklady', where: 'Lekce 3 (s. 28–29) + Grammar reference (s. 171)',
+  id: 'quantifiers', group: 'gram', order: 6, icon: '🥗', title: 'Quantifiers (výrazy množství)', src: 'podklady', where: 'Lekce 3 (s. 28–29) + Grammar reference (s. 171)',
   summary: 'Počitatelná a nepočitatelná podstatná jména a výrazy množství: <i>much, many, a lot of, a little, a few, (very) little / few, too, too much / many, (not) enough, any / no / none</i>.',
   vocab: [
     { w: 'countable noun', x: 'počitatelné podstatné jméno – má jednotné i množné číslo (<i>pizza → pizzas</i>)' },

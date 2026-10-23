@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'present-question-forms', order: 2, icon: '❓', title: 'Present tense question forms', src: 'podklady', where: 'Lekce 1 (s. 6–7) + Grammar reference (s. 161)',
+  id: 'present-question-forms', group: 'gram', order: 2, icon: '❓', title: 'Present tense question forms', src: 'podklady', where: 'Lekce 1 (s. 6–7) + Grammar reference (s. 161)',
   summary: 'Jak se ptát v present simple a present continuous: otázky s tázacím slovem, otázky ano/ne, otázky na podmět a krátké odpovědi.',
   vocab: [
     { w: 'open question', x: 'otevřená otázka s tázacím slovem (What, Where, How often…); chceme víc informací a udržet rozhovor' },

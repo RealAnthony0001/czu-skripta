@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'obligation-past', order: 12, icon: '📜', title: 'Obligation in the past', src: 'podklady', where: 'Lekce 6 (s. 58–59) + Grammar reference (s. 168)',
+  id: 'obligation-past', group: 'gram', order: 12, icon: '📜', title: 'Obligation in the past', src: 'podklady', where: 'Lekce 6 (s. 58–59) + Grammar reference (s. 168)',
   summary: 'Jak vyjádřit povinnost a povolení v minulosti: <i>had to, needed to, didn’t have to, didn’t need to, wasn’t / weren’t allowed to</i> a slovesa <i>make, let, allow</i>.',
   vocab: [
     { w: 'had to', x: 'musel jsem (minulý tvar od <i>have to</i>)' },

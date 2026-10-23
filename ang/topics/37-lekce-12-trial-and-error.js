@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-12-trial-and-error', order: 37, icon: '🛒', title: 'Lekce 12 – Trial and error: spotřebitel, stížnosti, Interaction', src: 'podklady', where: 'Lekce 12 (s. 124–129) + Audio scripts (s. 158–159)',
+  id: 'lekce-12-trial-and-error', group: 'slov', order: 37, icon: '🛒', title: 'Lekce 12 – Trial and error: spotřebitel, stížnosti, Interaction', src: 'podklady', where: 'Lekce 12 (s. 124–129) + Audio scripts (s. 158–159)',
   summary: 'Consumer vocabulary (Word Focus), Dealing with complaints (Communication strategies) a Online entrepreneurs (Interaction): jak popsat podvod nebo špatnou službu, jak vyřizovat stížnosti a jak se ptát podnikatele nepřímými otázkami.',
   vocab: [
     { w: 'rip off / overcharge', x: 'natáhnout, naúčtovat příliš mnoho peněz' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-3-be-my-guest', order: 28, icon: '🍽️', title: 'Lekce 3 – Be my guest: jídlo, odmítání, Interaction', src: 'podklady', where: 'Lekce 3 (s. 26–33) + Audio scripts (s. 145–147)',
+  id: 'lekce-3-be-my-guest', group: 'slov', order: 28, icon: '🍽️', title: 'Lekce 3 – Be my guest: jídlo, odmítání, Interaction', src: 'podklady', where: 'Lekce 3 (s. 26–33) + Audio scripts (s. 145–147)',
   summary: 'Food and entertaining (Word Focus), Saying ‘no’ (Communication strategies) a The visit (Interaction): slovní zásoba kolem jídla a stolu, zdvořilé odmítnutí pozvání a dárků a role hostitele a hosta.',
   vocab: [
     { w: 'balut', x: 'oplodněné kachní nebo kuřecí vejce uvařené a snědené ve skořápce (Filipíny, Kambodža, Vietnam)' },

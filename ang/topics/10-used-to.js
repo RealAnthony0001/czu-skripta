@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'used-to', order: 10, icon: '📼', title: 'used to', src: 'podklady', where: 'Lekce 5 (s. 48–49) + Grammar reference (s. 164)',
+  id: 'used-to', group: 'gram', order: 10, icon: '📼', title: 'used to', src: 'podklady', where: 'Lekce 5 (s. 48–49) + Grammar reference (s. 164)',
   summary: 'Jak mluvit o minulých zvycích a stavech, které už neplatí (<i>used to</i>), jak ho tvořit v zápor a otázce a čím se nahrazuje u současných zvyků.',
   vocab: [
     { w: 'used to', x: 'dříve jsem (býval) – minulý zvyk nebo stav, který už neplatí' },

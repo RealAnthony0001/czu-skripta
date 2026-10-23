@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'past-tenses', order: 14, icon: '🕰️', title: 'Past tenses – past simple, past continuous, past perfect', src: 'podklady', where: 'Lekce 7 (s. 70–71) + Grammar reference (s. 163, 165)',
+  id: 'past-tenses', group: 'gram', order: 14, icon: '🕰️', title: 'Past tenses – past simple, past continuous, past perfect', src: 'podklady', where: 'Lekce 7 (s. 70–71) + Grammar reference (s. 163, 165)',
   summary: 'Tři minulé časy pro vyprávění příběhu: past simple (hlavní události), past continuous (pozadí) a past perfect (děj dřívější než jiný děj v minulosti); výslovnost koncovky -ed.',
   vocab: [
     { w: 'past simple', x: 'minulý čas prostý: ukončené děje a situace v minulosti; <i>worked, went</i>' },

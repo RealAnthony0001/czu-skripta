@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'second-conditional', order: 16, icon: '💭', title: 'The second conditional', src: 'podklady', where: 'Lekce 8 (s. 82–83) + Grammar reference (s. 170)',
+  id: 'second-conditional', group: 'gram', order: 16, icon: '💭', title: 'The second conditional', src: 'podklady', where: 'Lekce 8 (s. 82–83) + Grammar reference (s. 170)',
   summary: 'Podmínkové věty o imaginárních a nereálných situacích v přítomnosti a budoucnosti: <i>if</i> + past simple, <i>would</i> + základní tvar; srovnání s first conditional.',
   vocab: [
     { w: 'second conditional', x: 'druhý kondicionál: imaginární nebo nereálná situace' },

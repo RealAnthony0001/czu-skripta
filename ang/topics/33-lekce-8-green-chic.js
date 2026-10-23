@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-8-green-chic', order: 33, icon: '🌱', title: 'Lekce 8 – Green chic: ekologie, řešení problémů, Interaction', src: 'podklady', where: 'Lekce 8 (s. 80–87) + Audio scripts (s. 152–154)',
+  id: 'lekce-8-green-chic', group: 'slov', order: 33, icon: '🌱', title: 'Lekce 8 – Green chic: ekologie, řešení problémů, Interaction', src: 'podklady', where: 'Lekce 8 (s. 80–87) + Audio scripts (s. 152–154)',
   summary: 'Products (Word Focus), Problem solving (Communication strategies) a Planning a green office (Interaction): slovní zásoba o udržitelnosti, tři kroky řešení problému a plánování zelené kanceláře.',
   vocab: [
     { w: 'carbon footprint', x: 'uhlíková stopa – množství CO<sub>2</sub>, které produkujeme svou činností' },

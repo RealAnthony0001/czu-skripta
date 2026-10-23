@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-1-quality-time', order: 26, icon: '⏱️', title: 'Lekce 1 – Quality time: slovní zásoba, návrhy, Interaction', src: 'podklady', where: 'Lekce 1 (s. 8–13) + Audio scripts (s. 143–144)',
+  id: 'lekce-1-quality-time', group: 'slov', order: 26, icon: '⏱️', title: 'Lekce 1 – Quality time: slovní zásoba, návrhy, Interaction', src: 'podklady', where: 'Lekce 1 (s. 8–13) + Audio scripts (s. 143–144)',
   summary: 'Free-time activities (Word Focus), Making suggestions (Communication strategies) a Life coaching (Interaction): jak mluvit o koníčcích, jak navrhovat a zdvořile odmítat návrhy.',
   vocab: [
     { w: 'free-time activities', x: 'činnosti ve volném čase (<i>cycling, yoga, gardening, birdwatching…</i>)' },

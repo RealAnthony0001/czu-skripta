@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'can-could-able-to', order: 7, icon: '💪', title: 'can, could and be able to', src: 'podklady', where: 'Lekce 4 (s. 36–37) + Grammar reference (s. 167)',
+  id: 'can-could-able-to', group: 'gram', order: 7, icon: '💪', title: 'can, could and be able to', src: 'podklady', where: 'Lekce 4 (s. 36–37) + Grammar reference (s. 167)',
   summary: 'Jak vyjádřit schopnost v přítomnosti, minulosti a budoucnosti: <i>can</i>, <i>could</i>, <i>be able to</i> a <i>will be able to</i>; kdy <i>could</i> nestačí.',
   vocab: [
     { w: 'ability', x: 'schopnost – něco umím nebo mohu udělat' },

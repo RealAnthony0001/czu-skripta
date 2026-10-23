@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'should-have', order: 20, icon: '🤦', title: 'should have / shouldn’t have', src: 'podklady', where: 'Lekce 10 (s. 102–103) + Grammar reference (s. 170)',
+  id: 'should-have', group: 'gram', order: 20, icon: '🤦', title: 'should have / shouldn’t have', src: 'podklady', where: 'Lekce 10 (s. 102–103) + Grammar reference (s. 170)',
   summary: 'Kritika a lítost nad minulými činy: <i>should have</i> + past participle (měl jsem / měl bys udělat) a <i>shouldn’t have</i> + past participle (neměl jsem udělat).',
   vocab: [
     { w: 'criticism', x: 'kritika – říkáme, že někdo jednal špatně' },

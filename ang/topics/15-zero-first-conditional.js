@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'zero-first-conditional', order: 15, icon: '🔀', title: 'Zero and first conditionals', src: 'podklady', where: 'Lekce 8 (s. 78–79) + Grammar reference (s. 169)',
+  id: 'zero-first-conditional', group: 'gram', order: 15, icon: '🔀', title: 'Zero and first conditionals', src: 'podklady', where: 'Lekce 8 (s. 78–79) + Grammar reference (s. 169)',
   summary: 'Podmínkové věty o skutečných situacích: zero conditional (obecné pravdy: <i>if</i> + present simple, present simple) a first conditional (možnost v budoucnosti: <i>if</i> + present simple, <i>will</i>).',
   vocab: [
     { w: 'conditional sentence', x: 'podmínková věta – má dvě nebo více vět spojených slovem <i>if</i>' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'present-perfect-past-simple', order: 9, icon: '⏳', title: 'Present perfect and past simple', src: 'podklady', where: 'Lekce 5 (s. 46–47) + Grammar reference (s. 161, 163–164)',
+  id: 'present-perfect-past-simple', group: 'gram', order: 9, icon: '⏳', title: 'Present perfect and past simple', src: 'podklady', where: 'Lekce 5 (s. 46–47) + Grammar reference (s. 161, 163–164)',
   summary: 'Present perfect simple (výsledek, neukončený děj, zkušenost; <i>for, since, already, yet, ever, never, just</i>) a jeho rozdíl proti past simple (ukončený děj v určité době).',
   vocab: [
     { w: 'present perfect', x: 'předpřítomný čas: <i>have / has + past participle</i>; spojuje minulost a přítomnost' },

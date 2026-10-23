@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'reported-speech', order: 23, icon: '💬', title: 'Reported speech', src: 'podklady', where: 'Lekce 12 (s. 120–121) + Grammar reference (s. 174)',
+  id: 'reported-speech', group: 'gram', order: 23, icon: '💬', title: 'Reported speech', src: 'podklady', where: 'Lekce 12 (s. 120–121) + Grammar reference (s. 174)',
   summary: 'Nepřímá řeč: o krok zpět v časech, změny modálních sloves, časových výrazů, zájmen a slov <i>this / here</i>; rozdíl <i>say</i> × <i>tell</i> a oznamování požadavků.',
   vocab: [
     { w: 'direct speech', x: 'přímá řeč – doslovné znění v uvozovkách' },

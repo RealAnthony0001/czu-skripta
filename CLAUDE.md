@@ -54,6 +54,8 @@ registerTopic({
 });
 ```
 
+Záložky (volitelné): `window.SUBJECT.groups = [{ id, name, short, icon }]` a v tématu `group: 'id'` rozdělí menu i přehled na záložky; téma bez `group` je vidět ve všech (vzor: `ang`).
+
 Texty jsou HTML (`<b>`, `<sub>`, `<sup>`, `<i>`). Bloky v `blocks` (`t` = typ):
 
 | typ | pole | vzhled |

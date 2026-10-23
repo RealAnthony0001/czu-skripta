@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'passive-forms', order: 17, icon: '🔁', title: 'Passive forms', src: 'podklady', where: 'Lekce 9 (s. 88–89) + Grammar reference (s. 170)',
+  id: 'passive-forms', group: 'gram', order: 17, icon: '🔁', title: 'Passive forms', src: 'podklady', where: 'Lekce 9 (s. 88–89) + Grammar reference (s. 170)',
   summary: 'Trpný rod (<i>be</i> + past participle): kdy ho použít, jak ho tvořit v různých časech, s modálními slovesy a jak uvést původce děje (<i>by</i>).',
   vocab: [
     { w: 'passive', x: 'trpný rod – zajímá nás děj nebo ten, kdo je jeho předmětem, ne původce' },

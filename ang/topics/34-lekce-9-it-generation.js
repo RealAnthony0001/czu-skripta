@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'lekce-9-it-generation', order: 34, icon: '📞', title: 'Lekce 9 – IT generation: telefonování, žádosti, Interaction', src: 'podklady', where: 'Lekce 9 (s. 92–97) + Audio scripts (s. 154–156)',
+  id: 'lekce-9-it-generation', group: 'slov', order: 34, icon: '📞', title: 'Lekce 9 – IT generation: telefonování, žádosti, Interaction', src: 'podklady', where: 'Lekce 9 (s. 92–97) + Audio scripts (s. 154–156)',
   summary: 'Telephoning (Word Focus), Making requests (Communication strategies) a Remote manager (Interaction): frázová slovesa pro telefon, přímé a nepřímé žádosti a řízení lidí na dálku.',
   vocab: [
     { w: 'pick up / hang up', x: 'zvednout telefon / típnout hovor' },

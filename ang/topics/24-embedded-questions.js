@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'embedded-questions', order: 24, icon: '🪆', title: 'Embedded questions', src: 'podklady', where: 'Lekce 12 (s. 122–123) + Grammar reference (s. 175)',
+  id: 'embedded-questions', group: 'gram', order: 24, icon: '🪆', title: 'Embedded questions', src: 'podklady', where: 'Lekce 12 (s. 122–123) + Grammar reference (s. 175)',
   summary: 'Nepřímé (vnořené) otázky: <i>Could you tell me…?, Do you know…?</i> – běžný slovosled místo otázkového, <i>if</i> u otázek ano/ne a otázky typu <i>Did you say…?</i>',
   vocab: [
     { w: 'embedded question', x: 'vnořená (nepřímá) otázka – otázka zasazená do úvodní fráze (Could you tell me…?)' },

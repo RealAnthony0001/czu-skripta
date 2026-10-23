@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'present-perfect-continuous', order: 22, icon: '🏃', title: 'Present perfect continuous', src: 'podklady', where: 'Lekce 11 (s. 114–115) + Grammar reference (s. 162)',
+  id: 'present-perfect-continuous', group: 'gram', order: 22, icon: '🏃', title: 'Present perfect continuous', src: 'podklady', where: 'Lekce 11 (s. 114–115) + Grammar reference (s. 162)',
   summary: 'Předpřítomný průběhový čas (<i>have / has been + -ing</i>): neukončené činnosti s <i>for / since</i>, vysvětlení současných důsledků činnosti, příslovce a srovnání s present perfect simple.',
   vocab: [
     { w: 'present perfect continuous', x: 'předpřítomný čas průběhový: <i>have / has been + -ing</i>' },

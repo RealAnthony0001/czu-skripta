@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'active-or-passive', order: 18, icon: '⚖️', title: 'Active or passive', src: 'podklady', where: 'Lekce 9 (s. 90–91) + Grammar reference (s. 170)',
+  id: 'active-or-passive', group: 'gram', order: 18, icon: '⚖️', title: 'Active or passive', src: 'podklady', where: 'Lekce 9 (s. 90–91) + Grammar reference (s. 170)',
   summary: 'Jak vybrat mezi činným a trpným rodem: psaný × mluvený jazyk, neznámý původce, formální × neformální styl.',
   vocab: [
     { w: 'formal', x: 'formální – styl e-mailů, zpráv, výzkumných prací, novinových článků a návodů' },

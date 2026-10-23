@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'will-going-to', order: 3, icon: '🔮', title: 'will and going to (budoucnost)', src: 'podklady', where: 'Lekce 2 (s. 14–15) + Grammar reference (s. 166–167)',
+  id: 'will-going-to', group: 'gram', order: 3, icon: '🔮', title: 'will and going to (budoucnost)', src: 'podklady', where: 'Lekce 2 (s. 14–15) + Grammar reference (s. 166–167)',
   summary: 'Jak vyjádřit budoucnost: <i>will</i> pro předpovědi, spontánní rozhodnutí a nabídky, <i>going to</i> pro záměry a jisté předpovědi a <i>may / might / could</i> pro možnosti.',
   vocab: [
     { w: 'will', x: 'modální sloveso budoucnosti; zkráceně <i>’ll</i>, záporně <i>won’t</i>' },

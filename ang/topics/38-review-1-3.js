@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'review-1-3', order: 38, icon: '🔁', title: 'Review 1–3: opakování lekcí 1–3', src: 'podklady', where: 'Review 1–3 (s. 34–35)',
+  id: 'review-1-3', group: 'rev', order: 38, icon: '🔁', title: 'Review 1–3: opakování lekcí 1–3', src: 'podklady', where: 'Review 1–3 (s. 34–35)',
   summary: 'Souhrnné opakování lekcí 1–3: časy, otázky, budoucí formy, tvary po slovesech, quantifiers, slovní zásoba jídla, složená podstatná jména. Řešení cvičení jsou doplněna.',
   vocab: [
     { w: 'review', x: 'souhrnné opakování po třech lekcích' },

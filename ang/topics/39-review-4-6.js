@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'review-4-6', order: 39, icon: '🔁', title: 'Review 4–6: opakování lekcí 4–6', src: 'podklady', where: 'Review 4–6 (s. 66–67)',
+  id: 'review-4-6', group: 'rev', order: 39, icon: '🔁', title: 'Review 4–6: opakování lekcí 4–6', src: 'podklady', where: 'Review 4–6 (s. 66–67)',
   summary: 'Souhrnné opakování lekcí 4–6: <i>can / be able to</i>, stupňování, <i>used to</i>, past simple × present perfect, povinnost, rady a slovní zásoba vzdělávání. Řešení cvičení jsou doplněna.',
   vocab: [
     { w: 'can × be able to', x: '<i>be able to</i> se používá tam, kde <i>can</i> chybí tvar (po <i>to</i>, <i>will</i>, <i>have</i>)' },
