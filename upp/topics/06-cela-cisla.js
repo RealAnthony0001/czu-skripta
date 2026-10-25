@@ -17,7 +17,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Doplňkový kód', blocks: [
-      { t: 'def', term: 'Doplňkový kód', x: 'Pro celé číslo X a délku kódového slova n platí: je-li X ≥ 0, pak <b>X′ = X</b>; je-li X < 0, pak <b>X′ = X + 2<sup>n</sup></b>. Kódové slovo X′ (desítkové číslo) se převede do dvojkové soustavy.' },
+      { t: 'def', term: 'Doplňkový kód', x: 'Pro celé číslo X a délku kódového slova n platí:', items: ['je-li X ≥ 0, pak <b>X′ = X</b>', 'je-li X < 0, pak <b>X′ = X + 2<sup>n</sup></b>', 'kódové slovo X′ (desítkové číslo) se převede do dvojkové soustavy'] },
       { t: 'versus', cols: [
         { h: 'Vlastnosti', items: ['nezáporné číslo: první bit zleva <b>0</b>', 'záporné číslo: první bit zleva <b>1</b>', 'vhodný pro aritmetické operace (sčítá se stejně)'] },
         { h: 'Rozsah n bitů', items: ['−2<sup>n−1</sup> … 2<sup>n−1</sup> − 1', '8 b: −128 … +127', '4 b: −8 … +7'] }
@@ -28,7 +28,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Doplněk čísla (změna znaménka)', blocks: [
-      { t: 'def', term: 'Doplněk d(x)', x: 'x + d(x) = 0, tedy d(x) = −x. V binárním zápisu x <b>zaměníme všechny 0 za 1 a 1 za 0</b> a pak <b>binárně přičteme 1</b>.' },
+      { t: 'def', term: 'Doplněk d(x)', x: 'x + d(x) = 0, tedy d(x) = −x.', items: ['v binárním zápisu x <b>zaměníme všechny 0 za 1 a 1 za 0</b>', 'pak <b>binárně přičteme 1</b>'] },
       { t: 'ex', x: '<b>d(53):</b> 53 = 0011 0101 → negace 1100 1010 → +1 = <b>1100 1011</b> = −53.<br><b>d(−53):</b> 1100 1011 → negace 0011 0100 → +1 = <b>0011 0101</b> = 53. Dvojí doplněk dává původní číslo.' },
       { t: 'tip', x: 'Rychlé čtení záporného čísla: zneguj bity, přičti 1 a výsledek označ minus. 1111 1100 → 0000 0011 + 1 = 0000 0100 = 4 → hodnota <b>−4</b>.' }
     ] },
@@ -39,7 +39,8 @@ registerTopic({
         { h: 'Součet S', x: 's<sub>i</sub> = a<sub>i</sub> ⊕ b<sub>i</sub> ⊕ c<sub>i</sub>' },
         { h: 'Validace', x: 'v = c<sub>n</sub> ⊕ c<sub>n−1</sub>' }
       ] },
-      { t: 'def', term: 'Validační kritérium', x: 'Je-li <b>v = 1</b>, došlo k <b>přeplnění</b> – S není součtem A + B a nelze ho v n bitech vyjádřit. Je-li <b>v = 0</b>, S vyjadřuje A + B (přenos z nejvyššího řádu se zahazuje).' },
+      { t: 'widget', name: 'dopln', how: ['Vyber počet bitů a zadej čísla x a y; operaci + nebo −.', 'Kroky ukazují zakódování operandů, sčítání po bitech s přenosy, příznak přetečení v = c<sub>n</sub> ⊕ c<sub>n−1</sub> a výsledek.', 'Odčítání x − y se počítá jako x + (−y).'], sol: '<b>100 + 50 v 8 bitech:</b> 01100100 + 00110010 = 10010110, c<sub>8</sub> = 0, c<sub>7</sub> = 1 → v = 1 = <b>přetečení</b> (150 se do rozsahu −128 … 127 nevejde). <b>5 − 3 ve 4 bitech:</b> 0101 + 1101 = (1)0010 = 2; přenos z nejvyššího řádu se zahodí, v = 0 → výsledek je správný.', title: 'Sčítání a odčítání v doplňkovém kódu s příznakem přetečení' },
+      { t: 'def', term: 'Validační kritérium', x: 'Podle příznaku <b>v</b> se pozná, zda je součet použitelný:', items: ['<b>v = 1</b> → došlo k <b>přeplnění</b>: S není součtem A + B a nelze ho v n bitech vyjádřit', '<b>v = 0</b> → S vyjadřuje A + B (přenos z nejvyššího řádu se zahazuje)'] },
       { t: 'ex', x: '<b>4 bity: (+5) + (−4):</b> A = 0101, B = 1100. Přenosy: c<sub>0</sub>=0, c<sub>1</sub>=0, c<sub>2</sub>=0, c<sub>3</sub>=1, c<sub>4</sub>=1. S = 0001. v = c<sub>4</sub> ⊕ c<sub>3</sub> = 1 ⊕ 1 = 0 → výsledek platí: <b>+1</b>.' },
       { t: 'ex', x: '<b>4 bity: (+5) + (+4):</b> A = 0101, B = 0100 → S = 1001, přenosy c<sub>3</sub> = 1, c<sub>4</sub> = 0 → v = 1 → <b>přeplnění</b> (správně 9 se do −8…7 nevejde; 1001 by se četlo jako −7).' },
       { t: 'ex', x: '<b>8 bitů: 100 + 50 = 150</b> přeteče (rozsah ≤ 127): 0110 0100 + 0011 0010 = 1001 0110 (−106).' },
@@ -50,7 +51,7 @@ registerTopic({
         { h: 'Násobení S = X · 2<sup>k</sup>', items: ['binární řetězec X se <b>posune o k míst vlevo</b>', 'zprava se doplní vždy <b>0</b>', 'pozor na přeplnění'] },
         { h: 'Dělení D = X div 2<sup>k</sup>', items: ['řetězec X se <b>posune o k míst vpravo</b>', 'zleva se doplní <b>kopie znaménkového bitu x<sub>n−1</sub></b>', 'M = X mod 2<sup>k</sup> = odsunutých k bitů'] }
       ] },
-      { t: 'svg', title: 'Dělení mocninou dvojky = posun vpravo', x: UPP.shiftDiagram() },
+      { t: 'svg', title: 'Dělení mocninou dvojky = posun vpravo', x: UPP.shiftDiagram(), cap: 'X = −20 v doplňkovém kódu posunutý o 2 místa vpravo dá X div 4 = −5: zleva se doplní kopie znaménkového bitu a dva odsunuté bity vpravo jsou zbytek (mod).' },
       { t: 'ex', x: '<b>−20 div 4:</b> −20 = 1110 1100 → posun o 2 vpravo, zleva 1: 1111 1011 = <b>−5</b>, zbytek (odsunuté bity) 00 = 0.<br><b>−13 div 4:</b> −13 = 1111 0011 → 1111 1100 = <b>−4</b>, zbytek 11 = 3 (−4·4 + 3 = −13).' },
       { t: 'p', x: 'Výsledek podílu nemusí být celé číslo – v doplňkovém kódu proto počítáme jen celočíselné dělení (<b>div</b>) a zbytek (<b>mod</b>); u záporných čísel se zaokrouhluje <b>dolů</b>.' }
     ] },

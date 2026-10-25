@@ -20,7 +20,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Orientovaný graf a stupně', blocks: [
-      { t: 'def', term: 'Orientovaný graf', x: 'trojice G = (V, E, p), kde V je neprázdná konečná množina vrcholů, E konečná množina hran a p: E → {(a, b) | a, b ∈ V} přiřazuje hraně uspořádanou dvojici. Bez vícenásobných hran je orientovaný graf totéž co <b>relace E na V</b>; bez smyček navíc antireflexivní relace.' },
+      { t: 'def', term: 'Orientovaný graf', x: 'Trojice G = (V, E, p), kde:', items: ['V je neprázdná konečná množina vrcholů, E konečná množina hran', 'p: E → {(a, b) | a, b ∈ V} přiřazuje hraně uspořádanou dvojici', 'bez vícenásobných hran je orientovaný graf totéž co <b>relace E na V</b>', 'bez smyček navíc antireflexivní relace'] },
       { t: 'ex', x: '<b>Přednáška:</b> V = {a, b, c, d, e}, p(e₁) = (a, b), p(e₂) = (c, c) – smyčka, p(e₃) = (e, d), p(e₄) = (b, c), p(e₅) = (b, d), p(e₆) = (d, e). Vrchol b má stupeň (deg⁺, deg⁻) = (2, 1).' },
       { t: 'p', x: 'Izomorfismus funguje stejně jako u neorientovaných grafů, jen musí zachovat i směr: (a, b) je hrana G₁ ⇔ (I(a), I(b)) je hrana G₂. Sled, tah, cesta a kružnice se definují stejně, ale hranami se smí jít jen <b>po směru</b>.' }
     ] },
@@ -36,7 +36,7 @@ registerTopic({
       { t: 'p', x: 'Eulerovský orientovaný graf bez vrcholů stupně (0, 0) musí být slabě souvislý (Cvičení 5, úloha 2: grafy a) a c) jedním tahem nakreslit jdou, b) ne).' }
     ] },
     { title: 'Kořenové a binární stromy', blocks: [
-      { t: 'def', term: 'Kořenový strom', x: 'orientovaný graf s vrcholem v (kořenem), ze kterého vede orientovaná cesta do všech ostatních, do v nekončí žádná hrana a do každého vrcholu a ≠ v vede z v <b>právě jedna</b> orientovaná cesta.' },
+      { t: 'def', term: 'Kořenový strom', x: 'Orientovaný graf s vrcholem v (kořenem), pro který platí:', items: ['z v vede orientovaná cesta do všech ostatních vrcholů', 'do v nekončí žádná hrana', 'do každého vrcholu a ≠ v vede z v <b>právě jedna</b> orientovaná cesta'] },
       { t: 'ul', items: [
         'Kořenový strom má <b>právě jeden kořen</b>; bez šipek je to obyčejný strom.',
         'Do každého vrcholu kromě kořene končí <b>právě jedna</b> hrana.',
@@ -51,7 +51,7 @@ registerTopic({
         ['preorder', 'x L(x) R(x)', 'prefixová (polská) – operátor před operandy'],
         ['postorder', 'L(x) R(x) x', 'postfixová – operátor za operandy']
       ] },
-      { t: 'svg', title: 'Strom výrazu x · (x + 2) + (x − 3) : 5 (Cvičení 5, úloha 4a)', x: MLG.vyrazStrom(), cap: 'Kořen je operace, která se provádí poslední; listy jsou čísla a proměnné.' },
+      { t: 'widget', fig: MLG.vyrazStrom(), figcap: 'Kořen je operace, která se provádí poslední; listy jsou čísla a proměnné.', name: 'pruchod', how: ['Vyber pořadí průchodu: preorder (uzel, levý, pravý), inorder (levý, uzel, pravý), postorder (levý, pravý, uzel).', 'Strom výrazu: kořen je operace provedená naposled, listy jsou čísla a proměnné.', 'Šipkami ◀ ▶ (nebo klávesami ← →) procházíš kroky; pod obrázkem je vždy <b>co se děje, proč a co se změnilo</b>.', 'Vpravo se postupně píše výstup – prefixový, infixový nebo postfixový zápis.'], sol: 'Výraz x · (x + 2) + (x − 3) : 5: <b>prefix</b> (preorder) + · x + x 2 : − x 3 5, <b>postfix</b> (postorder) x x 2 + · x 3 − 5 : +; <b>infix</b> (inorder) potřebuje závorky.', title: 'Průchod stromem výrazu x · (x + 2) + (x − 3) : 5 (Cvičení 5, úloha 4a)' },
       { t: 'ex', x: '<b>Úloha 5(a): (3x + 2) · (5 − x).</b> Kořen ·, vlevo + (s podstromem 3·x a 2), vpravo − (5 a x).<br>Prefix: <b>· + · 3 x 2 − 5 x</b> · Postfix: <b>3 x · 2 + 5 x − ·</b>' },
       { t: 'ex', x: '<b>Vyhodnocení prefixu (úloha 6a): · + 6 : 8 4 − · 2 5 + 3 6</b> (jednociferná čísla).<br>Operátor bere dva následující celé výrazy: · ( + 6 (8 : 4) ) ( − (2 · 5) (3 + 6) ) = (6 + 2) · (10 − 9) = <b>8</b>.' },
       { t: 'grid', head: ['Úloha 6', 'Výsledek'], rows: [

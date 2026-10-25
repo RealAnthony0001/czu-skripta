@@ -107,7 +107,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Zdánlivé právní jednání', blocks: [
-      { t: 'def', term: 'Zdánlivé (nicotné) právní jednání (§ 551–554)', x: 'O právní jednání vůbec nejde – chybí náležitost nutná pro jeho vznik. Hledí se na ně, jako by <b>jednáno nebylo</b>; nepřihlíží se k němu (§ 554). Odpovídá dřívější „nicotnosti“.' },
+      { t: 'def', term: 'Zdánlivé (nicotné) právní jednání (§ 551–554)', x: 'O právní jednání vůbec nejde – chybí náležitost nutná pro jeho vznik.', items: ['hledí se na ně, jako by <b>jednáno nebylo</b>; nepřihlíží se k němu (§ 554)', 'odpovídá dřívější „nicotnosti“'] },
       { t: 'icons', title: 'Kdy je jednání jen zdánlivé', items: [
         { i: '🚫', h: '§ 551', x: 'chybí <b>vůle jednající osoby</b>' },
         { i: '🃏', h: '§ 552', x: 'nebyla <b>zjevně projevena vážná vůle</b>' },

@@ -22,7 +22,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Základní pojmy a dědické tituly', blocks: [
-      { t: 'def', term: 'Dědění', x: 'Přechod majetku (jmění) zemřelého – <b>zůstavitele</b> – na jeho nástupce – <b>dědice</b>. Smrtí člověka přechází jeho jmění (dědictví, pozůstalost) na dědice (§ 1475). Nepřecházejí práva a povinnosti, které jsou vázány na osobu zůstavitele.' },
+      { t: 'def', term: 'Dědění', x: 'Přechod majetku (jmění) zemřelého – <b>zůstavitele</b> – na jeho nástupce – <b>dědice</b>.', items: ['smrtí člověka přechází jeho jmění (dědictví, pozůstalost) na dědice (§ 1475)', 'nepřecházejí práva a povinnosti, které jsou vázány na osobu zůstavitele'] },
       { t: 'table', head: ['Pojem', 'Význam'], rows: [
         ['<b>Zůstavitel</b>', 'Zemřelý, po němž se dědí.'],
         ['<b>Dědic</b>', 'Univerzální nástupce – nabývá dědictví jako celek (nebo jeho poměrnou část).'],
@@ -54,7 +54,7 @@ registerTopic({
       { t: 'p', x: '<b>Rozvedený manžel nedědí; manžel, který je v řízení o rozvod nebo odloučený, dědí dál</b> (dokud manželství trvá). Dědí i <b>počaté dítě</b> (nasciturus), narodí-li se živé.' }
     ] },
     { title: 'Závěť a odkaz', blocks: [
-      { t: 'def', term: 'Závěť', x: 'Jednostranné pořízení pro případ smrti (§ 1494 an.), kterým zůstavitel určí dědice a jejich podíly, případně odkazy, podmínky či dodatečná ustanovení. <b>Kdykoli odvolatelná</b>; pozdější závěť ruší dřívější (v rozporu).' },
+      { t: 'def', term: 'Závěť', x: 'Jednostranné pořízení pro případ smrti (§ 1494 an.), kterým zůstavitel určí:', items: ['dědice a jejich podíly', 'případně odkazy, podmínky či dodatečná ustanovení', '<b>kdykoli odvolatelná</b>; pozdější závěť ruší dřívější (v rozporu)'] },
       { t: 'table', head: ['Forma', 'Podstata'], rows: [
         ['<b>Vlastnoruční (holografní)</b>', 'Celá <b>vlastnoručně napsaná a podepsaná</b> zůstavitelem; není třeba svědků. Datum a místo se doporučují.'],
         ['<b>Listina psaná jinak (alografní)</b>', 'Psaná strojem / počítačem / cizí rukou, <b>zůstavitel ji podepíše</b> a před <b>dvěma svědky</b> současně přítomnými prohlásí, že je to jeho závěť; svědci se podepíší (svědek nesmí být dědicem ani odkazovníkem).'],
@@ -68,7 +68,7 @@ registerTopic({
         'Zůstavitel může závěť odvolat zničením, novou závětí, nebo prohlášením.',
         'Jednání za zůstavitele zastoupením není přípustné – závěť je <b>osobní úkon</b>.'
       ] },
-      { t: 'def', term: 'Odkaz (legát)', x: 'Pořízení, kterým zůstavitel zakládá odkazovníkovi nárok na určitou věc, peněžitou částku nebo jiné plnění. Odkazovník <b>není dědicem</b>, odpovídá za odkaz dědic (vůči němu má pohledávku). Dluhy zůstavitele hradí dědic z celého dědictví; odkazovník nehradí nic. Platí, že dědic nemusí vyplatit odkaz nad hodnotu čistého dědictví.' },
+      { t: 'def', term: 'Odkaz (legát)', x: 'Pořízení, kterým zůstavitel zakládá odkazovníkovi nárok na určitou věc, peněžitou částku nebo jiné plnění.', items: ['odkazovník <b>není dědicem</b>; za odkaz odpovídá dědic (vůči němu má pohledávku)', 'dluhy zůstavitele hradí dědic z celého dědictví; odkazovník nehradí nic', 'dědic nemusí vyplatit odkaz nad hodnotu čistého dědictví'] },
       { t: 'law', ref: 'Dědická smlouva (§ 1582 an.)', x: 'Dvoustranné pořízení pro případ smrti: zůstavitel (svéprávný) s druhou stranou ujedná, že mu zanechá dědictví; druhá strana smlouvu přijme. <b>Forma: veřejná listina (notářský zápis)</b>. Zůstavitel může smlouvou pořídit nejvýše o <b>¾ čisté hodnoty pozůstalosti</b>; zbytek zůstane volný (závěť, zákon). Smlouvu lze zrušit jen dohodou nebo odstoupením z důvodů v zákoně.' }
     ] },
     { title: 'Nepominutelný dědic, vydědění, nezpůsobilost', blocks: [

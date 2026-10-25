@@ -31,7 +31,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Present simple', blocks: [
-      { t: 'def', term: 'Použití', x: 'Present simple používáme o <b>pravidelných činnostech</b>, <b>dlouhodobých situacích</b> a <b>věcech, které platí vždy</b>.' },
+      { t: 'def', term: 'Použití', x: 'Present simple používáme o:', items: ['<b>pravidelných činnostech</b>', '<b>dlouhodobých situacích</b>', '<b>věcech, které platí vždy</b>'] },
       { t: 'ex', x: 'I often <b>listen</b> to my mp3 player on my way to work. <i>(Často poslouchám mp3 přehrávač cestou do práce.)</i><br>She <b>works</b> as a life coach. <i>(Pracuje jako životní koučka.)</i>' },
       { t: 'grid', head: ['Typ věty', 'Pravidlo', 'Příklad'], rows: [
         ['Kladná', 'základní tvar slovesa; ve 3. osobě (he / she / it) přidáme <b>-s</b>', 'I/You/We/They <b>work</b> long hours. · He/She/It <b>watches</b> a lot of TV.'],

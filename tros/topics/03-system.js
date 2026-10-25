@@ -20,7 +20,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Pojem systém', blocks: [
-      { t: 'def', term: 'Systém', x: '„Systém je určitou abstrakcí reálného objektu, kterou je možné definovat při respektování vytčeného cíle určitými prvky (vlastnostmi) a vazbami mezi nimi.“ (Hron, 2014) Symbolicky <b>S = { A, R }</b>, kde A je množina prvků a R množina vazeb.' },
+      { t: 'def', term: 'Systém', x: '„Systém je určitou abstrakcí reálného objektu, kterou je možné definovat při respektování vytčeného cíle určitými prvky (vlastnostmi) a vazbami mezi nimi.“ (Hron, 2014)', items: ['symbolicky <b>S = { A, R }</b>', 'A je množina prvků', 'R je množina vazeb'] },
       { t: 'ul', items: [
         'konečná množina prvků navzájem propojená konečnou množinou vazeb, spojení je podřízeno určité <b>účelové funkci</b>;',
         '<b>abstrakce</b> reálného objektu – prvky a vazby volíme podle sledovaného cíle;',
@@ -39,20 +39,14 @@ registerTopic({
     ] },
     { title: 'Struktura a složitost systému', blocks: [
       { t: 'p', x: 'Strukturu systému určuje <b>počet prvků</b>, <b>počet vazeb</b>, jejich vzájemný vztah a <b>typ</b> prvků a vazeb.' },
-      { t: 'def', term: 'Složitost', x: 'Závisí na vztahu mezi počtem prvků a vazeb. Pro <b>n</b> prvků je počet vazeb v intervalu <b>[n − 1, n²]</b>: minimálně n − 1 (jinak by prvky nebyly propojeny), maximálně n² (každý s každým včetně zpětných vazeb na sebe).' },
-      { t: 'table', head: ['Vazba', 'Charakter', 'Poznámka'], rows: [
-        ['Přímá (S<sub>ij</sub>)', 'otevřená, sériová', 'prvek A<sub>i</sub> → A<sub>j</sub>'],
-        ['Nepřímá (S<sub>ik</sub>)', 'otevřená, sériová', 'přes zprostředkující prvek A<sub>j</sub>'],
-        ['Rozvodná (P<sub>ijk</sub>)', 'otevřená, paralelní', 'jeden prvek vysílá do dvou'],
-        ['Svodná (P<sub>ijk</sub>)', 'otevřená, paralelní', 'dva prvky vstupují do jednoho'],
-        ['Vlastní zpětná (Z<sub>jj</sub>)', 'uzavřená', 'prvek zpětně působí sám na sebe'],
-        ['Přímá zpětná (Z<sub>ji</sub>)', 'uzavřená', 'výstup A<sub>j</sub> se vrací na vstup A<sub>i</sub>']
-      ] },
+      { t: 'def', term: 'Složitost', x: 'Závisí na vztahu mezi počtem prvků a vazeb. Pro <b>n</b> prvků je počet vazeb v intervalu <b>[n − 1, n²]</b>:', items: ['minimálně n − 1 (jinak by prvky nebyly propojeny)', 'maximálně n² (každý s každým včetně zpětných vazeb na sebe)'] },
+      { t: 'svg', title: 'Druhy vazeb mezi prvky systému', x: TROS.vazby(), cap: 'Modře jsou zpětné vazby; ostatní jsou vazby dopředné.' },
+      { t: 'p', x: '<b>Přímá</b> (S<sub>ij</sub>) a <b>nepřímá</b> (S<sub>ik</sub>, přes zprostředkující prvek A<sub>j</sub>) vazba jsou otevřené a sériové. <b>Rozvodná</b> (jeden prvek vysílá do dvou) a <b>svodná</b> (dva prvky vstupují do jednoho) vazba P<sub>ijk</sub> jsou otevřené a paralelní. <b>Uzavřené</b> (zpětné) vazby jsou <b>vlastní zpětná</b> Z<sub>jj</sub> (prvek zpětně působí sám na sebe) a <b>přímá zpětná</b> Z<sub>ji</sub> (výstup A<sub>j</sub> se vrací na vstup A<sub>i</sub>).' },
       { t: 'tip', x: 'Strukturu zapisujeme <b>blokovým schématem</b> (prvky a šipky) nebo <b>maticí vazeb</b> (řádky a sloupce = prvky, jednička = existující vazba).' }
     ] },
     { title: 'Rozlišovací úroveň, agregace a integrace', blocks: [
-      { t: 'def', term: 'Rozlišovací úroveň', x: 'Úroveň podrobnosti zobrazení systému. O počtu rozlišených prvků (subsystémů) rozhoduje <b>účel, který pozorovatel sleduje</b>. Mění se procesem agregace/desagregace.' },
-      { t: 'svg', title: 'Agregace × desagregace', x: TROS.agregace() },
+      { t: 'def', term: 'Rozlišovací úroveň', x: 'Úroveň podrobnosti zobrazení systému.', items: ['o počtu rozlišených prvků (subsystémů) rozhoduje <b>účel, který pozorovatel sleduje</b>', 'mění se procesem agregace / desagregace'] },
+      { t: 'svg', title: 'Agregace × desagregace', x: TROS.agregace(), cap: 'Agregace slučuje prvky (A1 + A2 → jeden prvek) a snižuje rozlišovací úroveň; desagregace prvky dělí a úroveň zvyšuje.' },
       { t: 'versus', title: 'Dvě skupiny operací', cols: [
         { h: 'Uvnitř systému', items: ['<b>agregace</b> – slučování prvků, snižování rozlišovací úrovně', '<b>desagregace</b> – dělení prvků, zvyšování rozlišovací úrovně', 'nejvyšší stupeň agregace = systém jako <b>černá skříňka</b>'] },
         { h: 'Mezi systémy', items: ['<b>integrace</b> – spojování více systémů (fúze, koupě firem)', '<b>diferenciace (desintegrace)</b> – dělení systému (např. firmy podle produkce)'] }
@@ -60,16 +54,8 @@ registerTopic({
       { t: 'tip', x: 'Zvýšením rozlišovací úrovně se z podniku (1. úroveň) dostaneme k subsystémům 1. řádu (2. úroveň), 2. řádu (3. úroveň) atd. – viz téma Organizační systém.' }
     ] },
     { title: 'Typologie systémů', blocks: [
-      { t: 'table', head: ['Hledisko', 'Typy', 'Podnik'], rows: [
-        ['Vztah k objektům', 'abstraktní (matematické a ekonomické modely) × <b>reálné</b>', 'reálný'],
-        ['Vztah k okolí', 'uzavřené (laboratorní experimenty) × otevřené (plně napojené na okolí) × <b>relativně izolované</b>', 'relativně izolovaný'],
-        ['Podrobnost zkoumání', 'absolutní (hypotetické, zachycují všechny vlastnosti – nepoužitelné) × <b>redukované</b> (jen podstatné prvky a vazby)', 'redukovaný'],
-        ['Faktor času', '<b>prospektivní</b> (simulační, prognostické modely) × <b>retrospektivní</b> (účetnictví)', 'obojí'],
-        ['Složitost', 'jednoduché (termostat) × složité (počítač, mobil) × <b>velmi složité</b> (trh, národní hospodářství)', 'velmi složitý'],
-        ['Typ chování', 'deterministické (technologická linka v omezeném čase) × <b>stochastické</b>', 'stochastický'],
-        ['Vztah ke změnám', 'neadaptivní (ohrožena existence) × <b>adaptivní</b>', 'adaptivní'],
-        ['Vztah k tvorbě cílů', 'bez cílového chování × <b>s cílovým chováním</b>', 's cílovým chováním']
-      ] },
+      { t: 'svg', title: 'Typologie systémů – kde leží podnik', x: TROS.typologie(), cap: 'U každého hlediska je zvýrazněno, jaký je podnik.' },
+      { t: 'p', x: '<b>Příklady:</b> abstraktní systémy jsou matematické a ekonomické modely; uzavřené jsou laboratorní experimenty, otevřené plně napojené na okolí; absolutní zkoumání zachycuje všechny vlastnosti (hypotetické, nepoužitelné), redukované jen podstatné prvky a vazby; prospektivní jsou simulační a prognostické modely, retrospektivní účetnictví; jednoduché je termostat, složitý počítač nebo mobil, velmi složitý trh nebo národní hospodářství; deterministická je technologická linka v omezeném čase; neadaptivním systémům je ohrožena existence.' },
       { t: 'warn', x: 'Lektorka na slajdech uvádí podnik jako „relativně izolovaný systém“, skripta (Hron) „relativně uzavřený“ – jde o totéž: nejčastější kombinace otevřeného a uzavřeného systému. Čistě uzavřené i čistě otevřené systémy jsou jen výjimkou.' },
       { t: 'versus', title: 'Deterministický × stochastický systém', cols: [
         { h: 'Deterministický', items: ['<b>y = f(x)</b> – reakce jednoznačně určená podnětem', 'např. termostat, technologická linka (v omezeném čase)'] },
@@ -77,7 +63,7 @@ registerTopic({
       ], x: 'Když stisknete vypínač, rozsvítí se světlo prakticky vždy – deterministický systém. Když ale zvýšíte cenu výrobku, reakce trhu není jednoznačná: s určitou pravděpodobností odběratelé zůstanou, s jinou odejdou. Podnik je proto stochastický a řídící pracovník musí počítat s nejistotou.' }
     ] },
     { title: 'Chování systému', blocks: [
-      { t: 'def', term: 'Chování systému', x: 'Transformace vektoru podnětů <b>x</b> do vektoru reakcí <b>y</b> působením operátoru transformace <b>T</b>: <b>y = T(x)</b>. Posloupnost změn bývá označována jako <b>trajektorie</b>.' },
+      { t: 'def', term: 'Chování systému', x: 'Transformace vektoru podnětů <b>x</b> do vektoru reakcí <b>y</b> působením operátoru transformace <b>T</b>: <b>y = T(x)</b>.', items: ['posloupnost změn bývá označována jako <b>trajektorie</b>'] },
       { t: 'ul', items: [
         'Reakce v čase t je většinou reakcí na podnět z dřívějšího času t − n; čím větší a složitější systém, tím větší prodleva n.',
         '<b>Adaptivní systémy</b> reagují na změny stavu systému i okolí způsobem vhodným pro svou existenci (podnik); <b>neadaptivní</b> se nepřizpůsobí a jejich existence je ohrožena.',

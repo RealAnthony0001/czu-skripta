@@ -19,7 +19,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Kartézský součin a relace', blocks: [
-      { t: 'def', term: 'Binární relace', x: 'jakákoli podmnožina R kartézského součinu A × B. Je-li A = B, mluvíme o relaci <b>na množině A</b>. Místo (a, b) ∈ R píšeme aRb.' },
+      { t: 'def', term: 'Binární relace', x: 'Jakákoli podmnožina R kartézského součinu A × B.', items: ['je-li A = B, mluvíme o relaci <b>na množině A</b>', 'místo (a, b) ∈ R píšeme aRb'] },
       { t: 'p', x: 'Množiny říkají, co kam patří; relace popisují <b>vztahy mezi prvky</b> – uspořádání dat („menší než“), rozdělení do skupin (ekvivalence), funkce (zvláštní relace) nebo hrany orientovaného grafu.' },
       { t: 'ex', x: '<b>Disponent:</b> K = klienti banky, U = běžné účty, k D u ⇔ k je disponentem účtu u. Relace D je podmnožinou K × U.' },
       { t: 'ul', items: [
@@ -39,6 +39,7 @@ registerTopic({
         ['antireflexivní', '(∀x ∈ A) ¬xRx', 'žádná smyčka (používá se u grafů)']
       ] },
       { t: 'svg', title: 'Čtyři vlastnosti v obrázku', x: MLG.relaceVlastnosti(), cap: 'U tranzitivní relace červená šipka 1→3 doplňuje cestu 1→2→3.' },
+      { t: 'widget', name: 'rel', how: ['Vyber předvolbu nebo klikáním sestav vlastní relaci.', 'Pod tabulkou se přepočítají reflexivita, symetrie, antisymetrie a tranzitivita; u každé ✗ je protipříklad.', 'Ekvivalence = reflexivní + symetrická + tranzitivní, uspořádání = reflexivní + antisymetrická + tranzitivní.'], sol: '<b>x ≤ y</b> na {1, 2, 3, 4}: reflexivní ✓, symetrická ✗ (je (1, 2), ale chybí (2, 1)), antisymetrická ✓, tranzitivní ✓ → je to <b>uspořádání</b>, ne ekvivalence.', k: 'le', title: 'Zkus si: vlastnosti relace s protipříkladem', cap: 'Klikni do tabulky (řádek x, sloupec y = „x R y“) a sleduj, které vlastnosti se rozbijí a proč.' },
       { t: 'warn', x: 'Slajd Čermákovy přednášky píše u tranzitivity kvantifikátor „∀x, y ∈ A“, ale v definici vystupuje i z. Správně <b>(∀x, y, z ∈ A)</b>: (x, y) ∈ R ∧ (y, z) ∈ R ⇒ (x, z) ∈ R.' },
       { t: 'grid', head: ['Relace', 'Vlastnosti (ze cvičení a přednášky)'], rows: [
         ['{(♀,♂), (♂,♀)} na {♀, ♂}', 'symetrická; zobrazení'],
@@ -57,14 +58,14 @@ registerTopic({
       { t: 'ex', x: '<b>Dělitelnost na ℤ (přednáška):</b> a | b je reflexivní a tranzitivní, ale <b>není antisymetrická</b> – 2 | −2 i −2 | 2, a přitom 2 ≠ −2. Na ℤ to tedy uspořádání není (na ℕ by bylo). Relace (a | b ∧ b | a) platí, právě když a = ±b, a je to <b>ekvivalence</b>.' }
     ] },
     { title: 'Ekvivalence a třídy ekvivalence', blocks: [
-      { t: 'def', term: 'Ekvivalence', x: 'relace, která je <b>reflexivní, symetrická a tranzitivní</b>. Rozdělí nosnou množinu na disjunktní části – <b>třídy ekvivalence</b>; prvky jedné třídy jsou spolu v relaci všechny navzájem.' },
+      { t: 'def', term: 'Ekvivalence', x: 'Relace, která je <b>reflexivní, symetrická a tranzitivní</b>.', items: ['rozdělí nosnou množinu na disjunktní části – <b>třídy ekvivalence</b>', 'prvky jedné třídy jsou spolu v relaci všechny navzájem'] },
       { t: 'flow', title: 'Doplnění relace na ekvivalenci nejmenším počtem dvojic', steps: [
         { h: 'Reflexivita', x: 'přidej (x, x) pro každý prvek, který ji ještě nemá' },
         { h: 'Symetrie', x: 'ke každé (x, y) přidej (y, x)' },
         { h: 'Tranzitivita', x: 'když (x, y) a (y, z), přidej (x, z); prakticky: spoj prvky do skupin a uvnitř skupiny dej „všichni se všemi“' },
         { h: 'Opakuj, dokud se nic nemění', x: 'třídy = vzniklé skupiny' }
       ] },
-      { t: 'svg', title: 'Třídy ekvivalence z příkladu v přednášce', x: MLG.tridyEkvivalence() },
+      { t: 'widget', fig: MLG.tridyEkvivalence(), figcap: 'Graf relace na šesti lidech: čára je dvojice v obou směrech (smyčky se nekreslí). Vznikly tři třídy {Dana, Hana}, {Karel, Petra, Radim}, {Vladimír}, které se nepřekrývají a pokrývají celou množinu.', name: 'rel', how: ['Klikáním do tabulky přidáváš a ubíráš dvojice (řádek x, sloupec y = „x R y“) – jen na prvním kroku.', 'Pod tabulkou jsou čtyři vlastnosti; <b>✗ vždy doplňuje protipříklad</b>.', 'Další kroky doplňují relaci na ekvivalenci: reflexivita → symetrie → tranzitivita; modře jsou přidané dvojice.', 'Poslední krok vypíše třídy ekvivalence a počet přidaných dvojic.'], sol: 'Relace R = {(K, R), (D, H), (H, H), (K, P)} na množině {D, K, P, H, R, V}: třídy <b>{K, P, R}</b>, <b>{D, H}</b>, <b>{V}</b>. Přidat je potřeba <b>10 dvojic</b>: (D, D), (K, K), (P, P), (R, R), (V, V), (H, D), (R, K), (P, K), (P, R), (R, P).', k: 'lec', title: 'Doplnění relace na ekvivalenci krok za krokem (příklad z přednášky)' },
       { t: 'ex', x: '<b>Přednáška:</b> A = {Dana, Karel, Petra, Hana, Radim, Vladimír}, R = {(K, R), (D, H), (H, H), (K, P)}.<br>Karel je s Radimem i s Petrou, tedy přes Karla i Petra s Radimem → třída <b>{K, P, R}</b>; dále <b>{D, H}</b> a <b>{V}</b> sám. Přidat je potřeba <b>10 dvojic</b>: (D, D), (K, K), (P, P), (R, R), (V, V), (H, D), (R, K), (P, K), (P, R), (R, P).' },
       { t: 'grid', head: ['Cvičení 3, úloha 9', 'Přidaných dvojic', 'Třídy ekvivalence'], rows: [
         ['R = {(a,b), (e,e), (a,c), (c,c), (f,e), (d,c), (c,a)}', '13', '{a, b, c, d}, {e, f}'],
@@ -73,8 +74,8 @@ registerTopic({
       ] }
     ] },
     { title: 'Uspořádání a Hasseho diagram', blocks: [
-      { t: 'def', term: 'Uspořádání', x: 'relace <b>reflexivní, antisymetrická a tranzitivní</b> (také „částečné uspořádání“ – některé dvojice prvků nemusí být srovnatelné).' },
-      { t: 'def', term: 'Hasseho diagram', x: '„menší“ prvky kreslíme níže než „větší“ a čáru mezi a a b dáme právě tehdy, když a ≼ b a mezi nimi neleží žádné jiné c (a ≼ c ≼ b). Vynecháváme smyčky (reflexivita je zřejmá) i vztahy, které plynou z tranzitivity.' },
+      { t: 'def', term: 'Uspořádání', x: 'Relace <b>reflexivní, antisymetrická a tranzitivní</b>.', items: ['také „částečné uspořádání“ – některé dvojice prvků nemusí být srovnatelné'] },
+      { t: 'def', term: 'Hasseho diagram', x: 'Pravidla kreslení uspořádání:', items: ['„menší“ prvky kreslíme níže než „větší“', 'čáru mezi a a b dáme právě tehdy, když a ≼ b a mezi nimi neleží žádné jiné c (a ≼ c ≼ b)', 'vynecháváme smyčky (reflexivita je zřejmá)', 'vynecháváme vztahy, které plynou z tranzitivity'] },
       { t: 'svg', title: 'Hasseho diagram – jídla z přednášky', x: MLG.hasseJidla(), cap: 'Čti zdola nahoru: Hrachová kaše ≼ Šišky s mákem ≼ Rajská ≼ Řízek; Segedín ≼ Rajská.' },
       { t: 'ex', x: '<b>Přednáška:</b> S = {(HK, SM), (HK, S), (R, R), (R, RBS), (SM, JK), (S, R), (HK, R), (SM, R)} na šesti jídlech. Doplnění na uspořádání: reflexivní dvojice (HK, HK), (JK, JK), (SM, SM), (S, S), (RBS, RBS) a tranzitivní důsledky <b>(HK, JK), (HK, RBS), (SM, RBS), (S, RBS)</b> – celkem 9 dvojic. Antisymetrie zůstane zachována, takže jde o uspořádání.' },
       { t: 'grid', head: ['Cvičení 3, úloha 10', 'Přidané dvojice'], rows: [

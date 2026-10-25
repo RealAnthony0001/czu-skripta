@@ -24,11 +24,8 @@ registerTopic({
       { t: 'ex', x: '<b>Příklad:</b> X = 0110, Y = 1100 → liší se na 1. a 3. pozici → d(X, Y) = 2. Kód {000, 011, 101, 110} má d<sub>min</sub> = 2 (liší se vždy v ≥ 2 bitech) – je zabezpečující (sudá parita).' }
     ] },
     { title: 'Rozdělení kódů podle d<sub>min</sub>', blocks: [
-      { t: 'table', head: ['Druh kódu', 'd<sub>min</sub>', 'Schopnost'], rows: [
-        ['kód (splňuje definici)', '≥ 1', 'žádné zabezpečení'],
-        ['zabezpečující kód', '≥ 2', 'detekuje obecně <b>d<sub>min</sub> − 1</b> chyb'],
-        ['samoopravný kód', '≥ 3', 'opraví obecně <b>(d<sub>min</sub> − 1) div 2</b> chyb']
-      ] },
+      { t: 'svg', title: 'Minimální Hammingova vzdálenost a schopnost kódu', x: UPP.dminDiagram(), cap: 'Čím dál jsou kódová slova od sebe, tím víc chyb se pozná nebo opraví.' },
+      { t: 'p', x: 'Každý kód, který splňuje definici, má d<sub>min</sub> ≥ 1 a žádné zabezpečení. <b>Zabezpečující kód</b> má d<sub>min</sub> ≥ 2 a detekuje obecně <b>d<sub>min</sub> − 1</b> chyb. <b>Samoopravný kód</b> má d<sub>min</sub> ≥ 3 a opraví obecně <b>(d<sub>min</sub> − 1) div 2</b> chyb.' },
       { t: 'tip', x: 'Paritní bit: d<sub>min</sub> = 2 → detekce 1 chyby, ale <b>nelze opravit</b> (nevíme kde). Hammingův kód: d<sub>min</sub> = 3 → detekce 2, oprava 1 chyby.' }
     ] },
     { title: 'Paritní bit (zabezpečující kód)', blocks: [
@@ -58,7 +55,8 @@ registerTopic({
         '<b>p<sub>2</sub></b> (pozice 2): 2 bity použij, 2 vynech → p<sub>2</sub> = d<sub>1</sub> ⊕ d<sub>3</sub> ⊕ d<sub>4</sub> ⊕ d<sub>6</sub> ⊕ d<sub>7</sub> ⊕ d<sub>10</sub> ⊕ …',
         '<b>p<sub>3</sub></b> (pozice 4): 4 použij, 4 vynech → p<sub>3</sub> = d<sub>2</sub> ⊕ d<sub>3</sub> ⊕ d<sub>4</sub> ⊕ d<sub>8</sub> ⊕ … (pozice 5–7, 12–15)'
       ] },
-      { t: 'ex', x: '<b>Data 1011</b> (d<sub>1</sub>=1, d<sub>2</sub>=0, d<sub>3</sub>=1, d<sub>4</sub>=1): p<sub>1</sub> = 1⊕0⊕1 = <b>0</b>, p<sub>2</sub> = 1⊕1⊕1 = <b>1</b>, p<sub>3</sub> = 0⊕1⊕1 = <b>0</b>. Kódové slovo (pozice 1–7): <b>0110011</b>.<br><b>Oprava:</b> přijato 0110<b>1</b>11 (chyba na pozici 5). Kontrola: s<sub>1</sub> = poz. 1,3,5,7 = 0⊕1⊕1⊕1 = 1; s<sub>2</sub> = poz. 2,3,6,7 = 1⊕1⊕1⊕1 = 0; s<sub>3</sub> = poz. 4,5,6,7 = 0⊕1⊕1⊕1 = 1. Syndrom (s<sub>3</sub>s<sub>2</sub>s<sub>1</sub>) = 101 = <b>5</b> → bit na pozici 5 negujeme.' }
+      { t: 'ex', x: '<b>Data 1011</b> (d<sub>1</sub>=1, d<sub>2</sub>=0, d<sub>3</sub>=1, d<sub>4</sub>=1): p<sub>1</sub> = 1⊕0⊕1 = <b>0</b>, p<sub>2</sub> = 1⊕1⊕1 = <b>1</b>, p<sub>3</sub> = 0⊕1⊕1 = <b>0</b>. Kódové slovo (pozice 1–7): <b>0110011</b>.<br><b>Oprava:</b> přijato 0110<b>1</b>11 (chyba na pozici 5). Kontrola: s<sub>1</sub> = poz. 1,3,5,7 = 0⊕1⊕1⊕1 = 1; s<sub>2</sub> = poz. 2,3,6,7 = 1⊕1⊕1⊕1 = 0; s<sub>3</sub> = poz. 4,5,6,7 = 0⊕1⊕1⊕1 = 1. Syndrom (s<sub>3</sub>s<sub>2</sub>s<sub>1</sub>) = 101 = <b>5</b> → bit na pozici 5 negujeme.' },
+      { t: 'widget', name: 'hamming', how: ['Vyber počet datových bitů m (4 nebo 8), zadej data a případně pozici chyby.', 'Kroky: rozmístění paritních bitů na pozice 1, 2, 4, 8 → výpočet parit → kódové slovo → přenos s chybou → syndrom → oprava.', 'Syndrom s<sub>k</sub>…s<sub>1</sub> je binárně číslo chybné pozice.'], title: 'Hammingův kód SEC krok za krokem (zkus vlastní data a chybu)', cap: 'Vyber m = 4 nebo 8, zadej datové bity a pozici chyby; widget spočte parity, syndrom a opraví chybný bit.' },
     ] },
     { title: 'Princip zabezpečení pamětí – SEC a SEC DED', blocks: [
       { t: 'flow', title: 'Cesta dat přes zabezpečenou paměť', steps: [

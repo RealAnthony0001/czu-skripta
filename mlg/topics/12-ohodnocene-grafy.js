@@ -19,7 +19,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Ohodnocený graf a minimální kostra', blocks: [
-      { t: 'def', term: 'Minimální kostra', x: 'taková kostra souvislého ohodnoceného grafu, že součet ohodnocení všech jejích hran je minimální mezi všemi kostrami. Minimálních koster může být více, všechny stejně dobré (např. trojúhelník se třemi hranami váhy 1 má tři minimální kostry se součtem 2).' },
+      { t: 'def', term: 'Minimální kostra', x: 'Kostra souvislého ohodnoceného grafu, jejíž součet ohodnocení všech hran je minimální mezi všemi kostrami.', items: ['minimálních koster může být více, všechny stejně dobré', 'např. trojúhelník se třemi hranami váhy 1 má tři minimální kostry se součtem 2'] },
       { t: 'p', x: 'Typická úloha: kolik kabelu, potrubí nebo silnic minimálně potřebujeme, aby bylo propojeno všechno se vším (ne nutně napřímo).' }
     ] },
     { title: 'Kruskalův a Jarníkův algoritmus', blocks: [
@@ -34,12 +34,12 @@ registerTopic({
         { h: 'Přidej nejlehčí hranu ze stromu ven', x: 'jen hrany do vrcholu, který ve stromu ještě není (jinak by vznikla kružnice)' },
         { h: 'Opakuj, dokud strom nemá všechny vrcholy', x: 'výsledkem je minimální kostra' }
       ] },
-      { t: 'svg', title: 'Minimální kostra Kruskalem (graf ze slajdu Dijkstrova algoritmu)', x: MLG.kostraKruskal(), cap: 'Prvních 8 hran podle váhy nevytvoří žádnou kružnici, takže kostra je hotová dřív, než přijde na řadu hrana s–d (5).' },
+      { t: 'widget', fig: MLG.kostraKruskal(), figcap: 'Prvních 8 hran podle váhy nevytvoří žádnou kružnici, takže kostra je hotová dřív, než přijde na řadu hrana s–d (5).', name: 'galg', how: ['Nahoře přepneš algoritmus (Kruskal, Jarník, Dijkstra) a počáteční vrchol.', 'Vlevo je graf: <b>červeně</b> přijaté hrany, <b>oranžově</b> právě zkoumané, čárkovaně zahozené; vpravo tabulka hran (Kruskal) nebo vrcholů (Dijkstra).', 'Šipkami ◀ ▶ (nebo klávesami ← →) procházíš kroky; pod obrázkem je vždy <b>co se děje, proč a co se změnilo</b>.', 'Zkus si před každým krokem tipnout, kterou hranu algoritmus vybere.'], sol: 'Kruskal vybere hrany f–c (1), c–d (2), d–a (2), s–a (2), f–g (3), d–e (3), e–b (3), g–h (4) – celkem <b>8 = n − 1 hran</b> se součtem <b>20</b>. Hrana s–d (5) a všechny další by uzavřely kružnici.', alg: 'kruskal', title: 'Kruskal, Jarník a Dijkstra krok za krokem (graf ze slajdu)' },
       { t: 'ex', x: '<b>Vesnice Bingo (Cvičení 4, úloha 10):</b> Kruskal bere Fungo–Wongo 2, Mango–Kango 3, Gingo–Tango 4, Kango–Dingo 4, Gingo–Fungo 4, Dingo–Fungo 4, Bingo–Dingo 5, Mango–Pongo 7, Lungo–Gingo 15 (ostatní hrany by uzavřely kružnici). Celkem <b>48 km</b> kabelu.' },
       { t: 'tip', x: 'Oba algoritmy jsou <b>hladové</b> – v každém kroku berou to nejlevnější, co jde, a nikdy se nevracejí. U minimální kostry to (výjimečně) vede k optimu. Jarník je pohodlnější na obrázku (roste jeden strom), Kruskal se seznamem hran.' }
     ] },
     { title: 'Nejkratší cesty a Dijkstrův algoritmus', blocks: [
-      { t: 'def', term: 'Strom nejkratších cest z v', x: 'kostra grafu G, ve které je vzdálenost vrcholu v od všech ostatních vrcholů stejná jako v G. Je to grafické vyjádření nejkratších cest z v do všech vrcholů.' },
+      { t: 'def', term: 'Strom nejkratších cest z v', x: 'Kostra grafu G, ve které je vzdálenost vrcholu v od všech ostatních vrcholů stejná jako v G.', items: ['je to grafické vyjádření nejkratších cest z v do všech vrcholů'] },
       { t: 'flow', title: 'Dijkstrův algoritmus (tabulka)', steps: [
         { h: 'Inicializace', x: 'start 0, ostatní ∞, předchůdci neznámí' },
         { h: 'Uzavři vrchol s nejmenší hodnotou', x: 'z dosud neuzavřených; jeho vzdálenost je už konečná' },
@@ -47,7 +47,7 @@ registerTopic({
         { h: 'Opakuj', x: 'v každém kroku se uzavře právě jeden vrchol' },
         { h: 'Přečti výsledek', x: 'cesta = zpětně po předchůdcích; strom = hrany „vrchol – předchůdce“' }
       ] },
-      { t: 'svg', title: 'Dijkstra ze s (příklad ze slajdu)', x: MLG.dijkstraStrom(), cap: 'Červená čísla u vrcholů jsou vzdálenosti od s, červené hrany tvoří strom nejkratších cest.' },
+      { t: 'widget', fig: MLG.dijkstraStrom(), figcap: 'Červená čísla u vrcholů jsou vzdálenosti od s, červené hrany tvoří strom nejkratších cest.', name: 'galg', how: ['Vyber Dijkstrův algoritmus a počáteční vrchol; tabulka vpravo ukazuje hodnotu d, předchůdce a stav každého vrcholu.', 'Číslo u vrcholu je dosud nejlepší odhad vzdálenosti; <b>uzavřený</b> vrchol má konečnou hodnotu.', 'Šipkami ◀ ▶ (nebo klávesami ← →) procházíš kroky; pod obrázkem je vždy <b>co se děje, proč a co se změnilo</b>.'], sol: 'Z vrcholu s se uzavírají vrcholy v pořadí s 0, a 2, d 4, c 6, f 7, e 7, g 10, b 10, h 14. Strom nejkratších cest tvoří hrany „vrchol – předchůdce“; cestu čteš zpětně po předchůdcích.', alg: 'dijkstra', title: 'Dijkstra ze s (příklad ze slajdu)' },
       { t: 'warn', x: 'Minimální kostra a strom nejkratších cest obecně <b>nevycházejí stejně</b>. V grafu výše náhodou vyjdou stejně, ale příklad z přednášky ukazuje rozdíl: trojúhelník v, a, b s hranami v–a 2, a–b 2, v–b 3. Minimální kostra je {v–a, a–b} se součtem 4, jenže v ní je b od v vzdálené 4. Strom nejkratších cest z v obsahuje {v–a, v–b}, vzdálenosti jsou 2 a 3. Kostra hlídá celkovou cenu sítě, Dijkstra cesty z jednoho konkrétního místa.' },
       { t: 'ex', x: '<b>Praha → Ostrava po železnici (Cvičení 4, úloha 12):</b> uzavírání: Praha 0, Pardubice 104, Hradec Králové 116, Olomouc 250 (přes Pardubice), Brno 255, Přerov 272, Krnov 320, Ostrava 356. Nejkratší cesta <b>Praha – Pardubice – Olomouc – Přerov – Ostrava, 356 km</b>.' },
       { t: 'ex', x: '<b>Velké Meziříčí → Moravská Třebová (úloha 13):</b> nejrychlejší spojení <b>Velké Meziříčí – Nové Město – Svitavy – Moravská Třebová, 37 + 45 + 15 = 97 minut</b>.' },

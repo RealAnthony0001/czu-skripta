@@ -21,7 +21,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Word Focus: Humour (s. 72–73)', blocks: [
-      { t: 'def', term: 'fun × funny', x: '<b>Fun</b> popisuje situace či činnosti, které nás baví: <i>The picnic was (good / great) fun.</i> ✗ funny. <b>Funny</b> popisuje někoho nebo něco, co nás rozesměje: <i>The joke was really funny.</i> ✗ fun.' },
+      { t: 'def', term: 'fun × funny', x: 'Dvě podobná přídavná jména:', items: ['<b>fun</b> popisuje situace či činnosti, které nás baví: <i>The picnic was (good / great) fun.</i> ✗ funny', '<b>funny</b> popisuje někoho nebo něco, co nás rozesměje: <i>The joke was really funny.</i> ✗ fun'] },
       { t: 'grid', head: ['Čtyři slova', 'Odlišné'], rows: [
         ['comedian · joke · story · anecdote', '<b>comedian</b> (osoba)'], ['fun · funny · humorous · amusing', '<b>fun</b> (jiné použití)'],
         ['story · joke · history · anecdote', '<b>history</b>'], ['irony · clown · comedy · satire', '<b>clown</b> (osoba)'],
@@ -61,7 +61,7 @@ registerTopic({
       { t: 'svg', title: 'Linkers v příběhu', x: ANG.l7Linkers(), cap: 'Funkce spojek a příklady z příběhu.' }
     ] },
     { title: 'Interaction: Presentations (s. 76–77)', blocks: [
-      { t: 'def', term: 'Reminder (Grammar reference s. 163–165)', x: '<b>Past continuous</b> = děj probíhající v minulosti (<i>We were doing well when suddenly we lost all our customers.</i>). <b>Past perfect</b> = děj před jiným dějem v minulosti (<i>It was my first job. I had never worked in an office before.</i>). Spojky propojují části příběhu (<i>It was a weird experience, although I learnt a lot.</i>). Začátek a reakce: <i>I’d like to tell you about my proudest moment. That reminds me of the time I was working in advertising.</i>' },
+      { t: 'def', term: 'Reminder (Grammar reference s. 163–165)', x: 'Vyprávění:', items: ['<b>past continuous</b> = děj probíhající v minulosti (<i>We were doing well when suddenly we lost all our customers.</i>)', '<b>past perfect</b> = děj před jiným dějem v minulosti (<i>It was my first job. I had never worked in an office before.</i>)', 'spojky propojují části příběhu (<i>It was a weird experience, although I learnt a lot.</i>)', 'začátek a reakce: <i>I’d like to tell you about my proudest moment. That reminds me of the time I was working in advertising.</i>'] },
       { t: 'p', x: 'Sam Harris, „serial e-commerce entrepreneur“, představuje investorům firmu <b>Instant Desks</b>: web, který propojuje firmy s volnými stoly a lidi (freelancery, „deskers“), kteří si chtějí pronajmout místo v kanceláři. Hledající stůl používá web zdarma; inzerent platí malý poplatek podle počtu vyplněných formulářů nebo telefonátů od zájemců. Firma je podle Sama už zisková („we haven’t lost any money… yet“). V roce 1998 založil jeden z prvních britských srovnávačů cen a pak spoluzaložil online obchod s oblečením.' },
       { t: 'grid', head: ['Slabší', 'Lepší dopad'], rows: [
         ['Here are a few facts about me.', '<b>Let me tell you a bit about myself.</b>'],

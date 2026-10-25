@@ -21,7 +21,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Operační systém a třívrstvá architektura', blocks: [
-      { t: 'def', term: 'Operační systém', x: 'Souhrn všech systémových programů. Tvoří <b>základní programové vybavení počítače</b>, obsluhuje veškeré technické prostředky a poskytuje systémové služby aplikačním programům. Spouští se obvykle automaticky a kromě uživatelského prostředí je pro uživatele neviditelný.' },
+      { t: 'def', term: 'Operační systém', x: 'Souhrn všech systémových programů.', items: ['tvoří <b>základní programové vybavení počítače</b>', 'obsluhuje veškeré technické prostředky', 'poskytuje systémové služby aplikačním programům', 'spouští se obvykle automaticky; kromě uživatelského prostředí je pro uživatele neviditelný'] },
       { t: 'p', x: 'Po zapnutí počítače se nejprve spustí operační systém; až je vše připraveno, lze spouštět aplikační programy. Nejčastější jsou OS řady <b>MS Windows</b> a <b>Linux</b>.' },
       { t: 'svg', title: 'Vrstvy mezi uživatelem a hardwarem', x: UPP.osLayersDiagram(), cap: 'Každá vrstva komunikuje jen se sousední – podle typu komunikace vznikají čtyři rozhraní.' },
       { t: 'ul', items: [
@@ -62,7 +62,7 @@ registerTopic({
         { h: 'Firmware', items: ['ovládací program je v <b>paměti ROM zařízení</b>', 'spouští se přímo ze zařízení'] }
       ] },
       { t: 'p', x: 'Základní vlastností ovladače je <b>stejné nebo podobné rozhraní pro podobná zařízení</b> – s diskem, disketou a CD/DVD mechanikou lze pracovat stejně.' },
-      { t: 'def', term: 'Aplikační rozhraní (API)', x: 'Abstrahuje ovládání hardwaru a dalších funkcí do snadno použitelných funkcí – <b>sbírka procedur a funkcí</b>, které programátor využívá při tvorbě aplikací. Umožňuje programům pracovat i se zařízeními, která v době vzniku programu neexistovala (z hlediska programátora není rozdíl mezi otevřením souboru na pevném disku, CD, DVD, flash disku, síťovém disku nebo Blu-ray).' },
+      { t: 'def', term: 'Aplikační rozhraní (API)', x: 'Abstrahuje ovládání hardwaru a dalších funkcí do snadno použitelných funkcí – <b>sbírka procedur a funkcí</b>, které programátor využívá při tvorbě aplikací.', items: ['umožňuje programům pracovat i se zařízeními, která v době vzniku programu neexistovala', 'z hlediska programátora není rozdíl mezi otevřením souboru na pevném disku, CD, DVD, flash disku, síťovém disku nebo Blu-ray'] },
       { t: 'versus', title: 'Knihovny funkcí API', cols: [
         { h: 'Statická knihovna (SLL)', items: ['při překladu se volané funkce <b>připojí přímo do spustitelného souboru</b>', 'soubor obsahuje vše potřebné pro svůj běh', 'přípona <b>.lib</b> nebo <b>.a</b>'] },
         { h: 'Dynamická knihovna (DLL)', items: ['k programu se <b>nepřidává</b>; v tabulce symbolů jsou jen odkazy na funkce', 'pro běh musí být dostupná příslušná knihovna', 'přípona <b>.dll</b> (Windows), <b>.so</b> (Linux)'] }
@@ -99,13 +99,13 @@ registerTopic({
         'rozpozná případy, kdy proces skončil <b>bez uvolnění paměti</b> (např. při násilném ukončení),',
         'zajišťuje <b>ochranu paměti</b> – nedovolí procesům přístup mimo vymezený prostor.'
       ] },
-      { t: 'def', term: 'Virtuální paměť', x: 'Každý proces má svou <b>virtuální paměť rozdělenou na stránky</b> (např. 4 kB); aplikace pracují s virtuální pamětí, která může být násobně větší než fyzická. <b>Fyzická paměť je rozdělena na rámy</b> stejné velikosti jako stránky. OS stránkám programů přiděluje a odebírá odpovídající rámy ve fyzické paměti, případně je <b>odkládá na pevný disk</b>.' },
+      { t: 'def', term: 'Virtuální paměť', x: 'Aplikace pracují s virtuální pamětí, která může být násobně větší než fyzická.', items: ['každý proces má svou <b>virtuální paměť rozdělenou na stránky</b> (např. 4 kB)', '<b>fyzická paměť je rozdělena na rámy</b> stejné velikosti jako stránky', 'OS stránkám programů přiděluje a odebírá odpovídající rámy ve fyzické paměti, případně je <b>odkládá na pevný disk</b>'] },
       { t: 'svg', title: 'Stránky virtuální paměti a rámy fyzické paměti', x: UPP.virtMemDiagram(), cap: 'Stránky procesu se mapují na libovolné rámy ve fyzické paměti; stránka, která se nevejde, se odloží na pevný disk.' }
     ] },
     { title: 'Správa souborů a systém souborů', blocks: [
       { t: 'p', x: 'Správa souborů jako služba OS zahrnuje ukládání a čtení dat na / z pevného disku (paměťových médií), vytváření <b>datové abstrakce ve formě souborů</b> hierarchicky organizovaných do <b>adresářové struktury</b> a vytváření systému souborů.' },
       { t: 'p', x: 'Aplikace řekne: „Ulož data pod názvem koala.jpg“ – OS data <b>rozdělí do „přihrádek“ (bloků)</b> a zapamatuje si, z kolika částí se soubor skládá a kde leží. Při čtení z přihrádek data zase poskládá. Konkrétní podoba závisí na typu systému souborů.' },
-      { t: 'def', term: 'Systém souborů (file system)', x: 'Určuje, <b>jak jsou soubory uloženy</b> na záznamovém zařízení. Často má podobu normy, která popisuje, jak zjistit volné místo, jak uložit data souboru (kde začínají a končí; ne vždy platí, že 0 se skutečně uloží jako 0), jak uložit <b>metadata</b> (jméno, časové údaje, atributy, přístupová práva …) a jak uložit adresářovou strukturu.' },
+      { t: 'def', term: 'Systém souborů (file system)', x: 'Určuje, <b>jak jsou soubory uloženy</b> na záznamovém zařízení; často má podobu normy, která popisuje:', items: ['jak zjistit volné místo', 'jak uložit data souboru (kde začínají a končí; ne vždy platí, že 0 se skutečně uloží jako 0)', 'jak uložit <b>metadata</b> (jméno, časové údaje, atributy, přístupová práva …)', 'jak uložit adresářovou strukturu'] },
       { t: 'p', x: '<b>Systémy souborů se liší:</b>' },
       { t: 'ul', items: [
         '<b>výkonem</b> – rychlostí výpisu adresáře, ukládání malých / velkých souborů …',
@@ -114,13 +114,13 @@ registerTopic({
       ] }
     ] },
     { title: 'Proces a jeho stavy', blocks: [
-      { t: 'def', term: 'Proces', x: 'Operačním systémem spuštěný a zpracovávaný program. OS mu přidělí paměť pro instrukce, pro data, vlastní registry a zásobník.' },
+      { t: 'def', term: 'Proces', x: 'Operačním systémem spuštěný a zpracovávaný program.', items: ['OS mu přidělí paměť pro instrukce a pro data', 'dále vlastní registry a zásobník'] },
       { t: 'versus', title: 'Druhy procesů', cols: [
         { h: 'Nezávislé', items: ['nesmí se vzájemně ovlivňovat', 'je nutné je <b>oddělit</b> (data odděluje OS)'] },
         { h: 'Spolupracující', items: ['sdílejí společná data', 'přístup ke společným datům nutno řídit – <b>synchronizace</b>'] }
       ] },
-      { t: 'def', term: 'Determinismus', x: 'Požadavek <b>stejného výsledku při spuštění se stejnými daty</b> bez ohledu na konstelaci současně probíhajících procesů. U nezávislých procesů ho zajistí OS oddělením dat.' },
-      { t: 'svg', title: 'Stavy procesu', x: UPP.procStatesDiagram(), cap: 'Spuštěné uživatelské procesy: probíhající ↔ připraven, z probíhajícího do čekajícího (na zdroj) nebo zablokovaného, návrat vždy přes „připraven“.' },
+      { t: 'def', term: 'Determinismus', x: 'Požadavek <b>stejného výsledku při spuštění se stejnými daty</b> bez ohledu na konstelaci současně probíhajících procesů.', items: ['u nezávislých procesů ho zajistí OS oddělením dat'] },
+      { t: 'widget', fig: UPP.procStatesDiagram(), figcap: 'Spuštěné uživatelské procesy: probíhající ↔ připraven, z probíhajícího do čekajícího (na zdroj) nebo zablokovaného, návrat vždy přes „připraven“.', name: 'procesy', how: ['Aktuální stav je zbarvený červeně; tlačítka nahoře nabízejí jen přechody, které z něj vedou.', 'Červené šipky v obrázku jsou přechody dostupné z aktuálního stavu.', 'Pod obrázkem se zapisuje cesta, kterou proces prošel.'], sol: 'Typická cesta: nový → připraven → probíhající → čekající (čeká na zdroj) → připraven → probíhající → ukončen. <b>Návrat z čekání i ze zablokování vede vždy přes stav „připraven“.</b>', title: 'Stavy procesu – proklikej si životní cyklus' },
       { t: 'table', head: ['Stav', 'Význam'], rows: [
         ['probíhající (running)', 'proces má přidělen procesor a je vykonáván'],
         ['připraven (ready)', 'je připraven ke zpracování, ale nemá přidělen procesor'],
@@ -132,11 +132,8 @@ registerTopic({
     ] },
     { title: 'Zdroje a kritická oblast', blocks: [
       { t: 'p', x: 'Proces potřebuje ke své činnosti <b>zdroje</b>: hardware (I/O zařízení, paměť) i software (data, programy).' },
-      { t: 'table', head: ['Druh zdroje', 'Kdy lze přidělit jinému procesu', 'Příklady'], rows: [
-        ['<b>násobně použitelný</b> (sdílitelný, reentrantní)', 'ještě před tím, než je dokončen proces, kterému byl přidělen', 'základní jednotka, disk jako celek, myš, data pro čtení'],
-        ['<b>opakovaně použitelný</b> (reusabilní) – tvoří <b>kritickou oblast</b>', 'až poté, co proces, kterému byl přidělen, skončil', 'tiskárna, pracovní oblast v paměti a na disku, většina programů s pracovními položkami'],
-        ['<b>na jedno použití</b> (nereusabilní)', 'nelze přidělit znovu', 'papír do tiskárny, špatně vytvořený program (opomenuté nulování střadače)']
-      ] },
+      { t: 'svg', title: 'Kdy lze zdroj přidělit jinému procesu', x: UPP.zdrojeLanes(), cap: 'Osa času zleva doprava; svislá čárkovaná čára je okamžik, kdy první proces zdroj dostal.' },
+      { t: 'p', x: '<b>Násobně použitelný (sdílitelný, reentrantní)</b> zdroj lze přidělit jinému procesu ještě před dokončením prvního (základní jednotka, disk jako celek, myš, data pro čtení). <b>Opakovaně použitelný (reusabilní)</b> zdroj tvoří <b>kritickou oblast</b> a přidělí se až poté, co ho předchozí proces skončil (tiskárna, pracovní oblast v paměti a na disku, většina programů s pracovními položkami). <b>Zdroj na jedno použití (nereusabilní)</b> nelze přidělit znovu (papír do tiskárny, špatně vytvořený program – opomenuté nulování střadače).' },
       { t: 'def', term: 'Kritická oblast (sekce)', x: 'Každý opakovaně použitelný zdroj tvoří kritickou oblast – přístup do ní je v multitaskingovém OS třeba <b>řídit (synchronizovat)</b>.' },
       { t: 'p', x: '<b>Pravidla pro řízení přístupu:</b>' },
       { t: 'ol', items: [
@@ -147,14 +144,10 @@ registerTopic({
       ] }
     ] },
     { title: 'Uváznutí (deadlock)', blocks: [
-      { t: 'def', term: 'Uváznutí', x: 'Také zamrznutí, zaseknutí, smrtelné objetí, smrtelný zámek, dead lock. Stav, kdy <b>všechny spuštěné procesy čekají na zdroj</b>, tj. na událost (uvolnění zdroje), která ale nenastane.' },
+      { t: 'def', term: 'Uváznutí', x: 'Stav, kdy <b>všechny spuštěné procesy čekají na zdroj</b>, tj. na událost (uvolnění zdroje), která ale nenastane.', items: ['jiné názvy: zamrznutí, zaseknutí, smrtelné objetí, smrtelný zámek, dead lock'] },
       { t: 'svg', title: 'Uváznutí dvou procesů na dvou zdrojích', x: UPP.deadlockDiagram(), cap: 'P1 drží A a čeká na B, P2 drží B a čeká na A – cyklická čekání, žádný proces neskončí.' },
-      { t: 'table', head: ['Přístup', 'Podstata'], rows: [
-        ['ignorovat hrozbu', '„Pštrosí algoritmus“ – strč hlavu do písku a předstírej, že se nic neděje. Používá mnoho OS včetně mnoha implementací UNIXů.'],
-        ['prevence', 'přijmout opatření, aby uváznutí bylo vysoce nepravděpodobné; např. <b>číslování zdrojů</b> (hierarchické pořadí) – v praxi nejčastěji používané řešení'],
-        ['vyhýbání se', 'zajistit, že k uváznutí nikdy nedojde: zdroj se nepřidělí, není-li bezpečná cesta k dokončení procesů – <b>algoritmus bankéře</b>'],
-        ['detekce a obnova', 'uváznutí se připustí, detekuje se a obnoví se stav před ním; vesměs drahé a nutnost restartovat aplikace']
-      ] },
+      { t: 'svg', title: 'Přístupy k uváznutí na ose času', x: UPP.deadlockApproach(), cap: 'Prevence a vyhýbání se zasahují před uváznutím, detekce až po něm, ignorování nikdy.' },
+      { t: 'p', x: '<b>Ignorovat hrozbu</b> je „pštrosí algoritmus“ – strčit hlavu do písku a předstírat, že se nic neděje; používá ho mnoho OS včetně mnoha implementací UNIXů. <b>Prevence</b> přijme opatření, aby bylo uváznutí vysoce nepravděpodobné, např. <b>číslováním zdrojů</b> (hierarchické pořadí) – v praxi nejčastěji používané řešení. <b>Vyhýbání se</b> zajistí, že k uváznutí nikdy nedojde: zdroj se nepřidělí, není-li bezpečná cesta k dokončení procesů (<b>algoritmus bankéře</b>). <b>Detekce a obnova</b> uváznutí připustí, detekuje a obnoví stav před ním; je to vesměs drahé a nutí restartovat aplikace.' },
       { t: 'tip', x: 'Problém uváznutí je v obecném případě <b>efektivně neřešitelný</b> – vždy jde o kompromis mezi cenou řešení a pravděpodobností uváznutí.' }
     ] },
     { title: 'Řízení přístupu: semafory a číslování zdrojů', blocks: [
@@ -167,7 +160,7 @@ registerTopic({
     ] },
     { title: 'Algoritmus bankéře (Dijkstra)', blocks: [
       { t: 'p', x: 'Analogie s bankéřem, který přiděluje peníze klientům a nechce se dostat do situace, kdy nebude mít prostředky pro potenciálně „bezpečné“ klienty. OS se <b>před přidělením zdroje ujistí, že po přidělení bude systém v bezpečném stavu</b>.' },
-      { t: 'def', term: 'Bezpečný stav', x: 'Existuje alespoň jedna <b>posloupnost dokončení procesů</b>, při které každý proces může obdržet zbývající zdroje a dokončit práci. Pokud ano, OS zdroj přidělí; pokud ne, zdroj nepřidělí a proces čeká.' },
+      { t: 'def', term: 'Bezpečný stav', x: 'Existuje alespoň jedna <b>posloupnost dokončení procesů</b>, při které každý proces může obdržet zbývající zdroje a dokončit práci.', items: ['pokud ano, OS zdroj přidělí', 'pokud ne, zdroj nepřidělí a proces čeká'] },
       { t: 'p', x: '<b>Příklad:</b> tři procesy a tři typy zdrojů A, B, C. MAX = nejvíc, co proces může požadovat; ALOK = už přiděleno; POTŘ = MAX − ALOK. OS má volné zdroje [A B C] = [3 3 2].' },
       { t: 'grid', head: ['Proces', 'MAX [A B C]', 'ALOK [A B C]', 'POTŘ [A B C]'], rows: [
         ['P1', '7 5 3', '0 1 0', '7 4 3'],
@@ -179,7 +172,8 @@ registerTopic({
         ['2', '[5 3 2]', 'P3: [5 0 0] ≤ [5 3 2]', '[3 1 2]', '<b>[8 4 4]</b>'],
         ['3', '[8 4 4]', 'P1: [7 4 3] ≤ [8 4 4]', '[0 1 0]', '<b>[8 5 4]</b>']
       ] },
-      { t: 'tip', x: 'Bezpečné pořadí je <b>P2 → P3 → P1</b>. Na konci musí být volné zdroje rovny součtu všeho (ALOK + volné na začátku = [5 2 2] + [3 3 2] = [8 5 4]) – dobrá kontrola výpočtu.' }
+      { t: 'tip', x: 'Bezpečné pořadí je <b>P2 → P3 → P1</b>. Na konci musí být volné zdroje rovny součtu všeho (ALOK + volné na začátku = [5 2 2] + [3 3 2] = [8 5 4]) – dobrá kontrola výpočtu.' },
+      { t: 'widget', name: 'banker', how: ['Vyber výchozí volné zdroje: z přednášky (bezpečný stav) nebo dva nebezpečné.', 'Tabulka: MAX = nejvíc, co proces může chtít, ALOK = už přiděleno, POTŘ = MAX − ALOK.', 'Každý krok najde proces, jehož <b>POTŘ ≤ volné</b>; ten dokončí a vrátí své ALOK.', 'Když žádný takový proces není, stav je <b>nebezpečný</b>.'], title: 'Algoritmus bankéře krok za krokem (i nebezpečný stav)', cap: 'Přepni výchozí volné zdroje a sleduj, zda existuje bezpečné pořadí dokončení.' },
     ] }
   ],
   mistakes: [

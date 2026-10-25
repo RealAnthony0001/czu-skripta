@@ -48,11 +48,8 @@ registerTopic({
       ] }
     ] },
     { title: 'Tvoření (Form)', blocks: [
-      { t: 'grid', head: ['Typ věty', 'Modální: can, must, should', 'Polomodální: have to, need to'], rows: [
-        ['Kladná', '<b>can / must / should</b> + základní tvar; žádný zvláštní tvar pro 3. osobu<br><i>You can park here for as long as you want. · I must remember to switch off the lights. · She should agree to that.</i>', 'přidáme <b>-s</b> v 3. osobě<br><i>He has to tell his customers about it right away. · She needs to ask her boss if it’s OK.</i>'],
-        ['Záporná', 'přidáme <b>not</b><br><i>We cannot agree to that. · I mustn’t forget. · We shouldn’t worry about it.</i>', '<b>don’t / doesn’t</b><br><i>You don’t have to report it. · He doesn’t need to report it.</i>'],
-        ['Otázka', 'změníme pořadí slov<br><i>Can I wear jeans? · Must I report this? · Should I wear a suit and tie?</i>', '<b>do / does</b><br><i>Do I have to attend the meeting?</i>']
-      ] }
+      { t: 'svg', title: 'Stavba vět s modálními a polomodálními slovesy', x: ANG.modalsForm(), cap: 'Polomodální have to a need to se chovají jako běžná slovesa (do / does).' },
+      { t: 'ex', x: '<b>Příklady z učebnice:</b><br><b>Kladná</b>: You can park here for as long as you want. · I must remember to switch off the lights. · She should agree to that. · He has to tell his customers about it right away. · She needs to ask her boss if it’s OK.<br><b>Záporná</b>: We cannot agree to that. · I mustn’t forget. · We shouldn’t worry about it. · You don’t have to report it. · He doesn’t need to report it.<br><b>Otázka</b>: Can I wear jeans? · Must I report this? · Should I wear a suit and tie? · Do I have to attend the meeting?' }
     ] }
   ],
   mistakes: [

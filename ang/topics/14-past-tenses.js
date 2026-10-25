@@ -17,14 +17,10 @@ registerTopic({
   ],
   sections: [
     { title: 'Past simple', blocks: [
-      { t: 'def', term: 'Použití', x: 'Past simple používáme o <b>ukončených dějích a situacích v minulosti</b>. Mohly se stát nedávno i dávno. Častým použitím je <b>vyprávění příběhů</b>.' },
+      { t: 'def', term: 'Použití', x: 'Past simple používáme o <b>ukončených dějích a situacích v minulosti</b>.', items: ['mohly se stát nedávno i dávno', 'častým použitím je <b>vyprávění příběhů</b>'] },
       { t: 'ex', x: 'I <b>saw</b> the film a few days ago.<br>The first modern Olympic Games <b>were</b> in April 1896.<br>I <b>went</b> to a conference last month and <b>met</b> an old colleague.<br>A funny thing <b>happened</b> to me on my commute to work yesterday.' },
-      { t: 'grid', head: ['Typ věty', 'Pravidlo', 'Příklad'], rows: [
-        ['Kladná', 'přidej <b>-ed</b> k základnímu tvaru; není zvláštní tvar pro 3. osobu; nepravidelná slovesa mají zvláštní tvar (téma 25); <i>be</i> = <b>was / were</b>', 'I/You/He/She/It/We/They <b>worked</b> in a jazz club. · He <b>became</b> a professional player in 2001. · She <b>began</b> her career 30 years ago. · He/She/It <b>was</b> in Hong Kong last year. · We/You/They <b>were</b> in Australia in March.'],
-        ['Záporná', '<b>didn’t</b> (did not) + základní tvar; u <i>be</i> <b>wasn’t / weren’t</b>; u modálních sloves přidej <i>not</i>', 'We <b>didn’t understand</b> the question. · He <b>wasn’t</b> good at sports at school. · They <b>weren’t</b> happy about their team’s result. · I <b>could</b> understand French but I <b>couldn’t</b> speak it.'],
-        ['Otázka', '<b>did</b> + základní tvar; u <i>be</i> změň pořadí slov', '<b>Did</b> you get my email? · When <b>did</b> he win a gold medal? · <b>Was</b> he good at sports at school?'],
-        ['Krátká odpověď', '<b>did / didn’t</b>; u <i>be</i> <b>was / were / wasn’t / weren’t</b>', 'Did you get my email? Yes, I did. / No, I didn’t. · Was he an author? Yes, he was. / No, he wasn’t. · Were they late? Yes, they were. / No, they weren’t.']
-      ] },
+      { t: 'svg', title: 'Stavba vět v past simple', x: ANG.pastSimpleForm(), cap: 'Sloveso be má vlastní tvary was / were bez pomocného did.' },
+      { t: 'ex', x: '<b>Příklady z učebnice:</b><br><b>Kladná</b>: I/You/He/She/It/We/They <b>worked</b> in a jazz club. · He <b>became</b> a professional player in 2001. · She <b>began</b> her career 30 years ago. · He/She/It <b>was</b> in Hong Kong last year. · We/You/They <b>were</b> in Australia in March.<br><b>Záporná</b>: We <b>didn’t understand</b> the question. · He <b>wasn’t</b> good at sports at school. · They <b>weren’t</b> happy about their team’s result. · I <b>could</b> understand French but I <b>couldn’t</b> speak it.<br><b>Otázka</b>: <b>Did</b> you get my email? · When <b>did</b> he win a gold medal? · <b>Was</b> he good at sports at school?<br><b>Krátká odpověď</b>: Did you get my email? Yes, I did. / No, I didn’t. · Was he an author? Yes, he was. / No, he wasn’t. · Were they late? Yes, they were. / No, they weren’t.' },
       { t: 'tip', x: 'Po <b>did</b> a <b>didn’t</b> už je sloveso vždy v základním tvaru: <i>Did you <b>get</b>…?</i> · <i>We didn’t <b>understand</b>…</i> – minulý čas nese pomocné sloveso, ne významové.' }
     ] },
     { title: 'Výslovnost pravidelných sloves (-ed)', blocks: [
@@ -46,14 +42,10 @@ registerTopic({
         '<b>Vyprávění o událostech v minulosti</b> s časovými výrazy <i>by (the age of), by the time</i>: <i>She <b>had set up</b> her own company by the age of 19.</i>'
       ] },
       { t: 'svg', title: 'Který děj byl dřív? Past perfect × past simple × past continuous', x: ANG.pastTime(), cap: 'Past perfect označuje to, co se stalo dřív; past simple a past continuous popisují hlavní příběh.' },
-      { t: 'grid', head: ['Typ věty', 'Pravidlo', 'Příklad'], rows: [
-        ['Kladná', '<b>had</b> + past participle', 'In ten years it <b>had grown</b> into a $2 billion company.'],
-        ['Záporná', '<b>hadn’t</b> (had not) + past participle', 'She <b>hadn’t worked</b> as a waitress before. · Ben <b>hadn’t seen</b> the tree because it was dark.'],
-        ['Otázka', 'změň pořadí slov', '<b>Had</b> you ever been to Paris before? · <b>Had</b> the film already started?'],
-        ['Krátká odpověď', '<b>had / hadn’t</b>', 'Had she recognized him from TV? Yes, she had. / No, she hadn’t.']
-      ] },
+      { t: 'svg', title: 'Stavba vět v past perfect', x: ANG.pastPerfectForm(), cap: 'Past perfect = had + past participle, pro všechny osoby stejně.' },
+      { t: 'ex', x: '<b>Příklady z učebnice:</b><br><b>Kladná</b>: In ten years it <b>had grown</b> into a $2 billion company.<br><b>Záporná</b>: She <b>hadn’t worked</b> as a waitress before. · Ben <b>hadn’t seen</b> the tree because it was dark.<br><b>Otázka</b>: <b>Had</b> you ever been to Paris before? · <b>Had</b> the film already started?<br><b>Krátká odpověď</b>: Had she recognized him from TV? Yes, she had. / No, she hadn’t.' },
       { t: 'tip', x: 'Ve mluvené angličtině se <i>had</i> často stahuje na <b>’d</b>: <i>It was the first time she’<b>d</b> visited the US.</i>' },
-      { t: 'svg', title: 'Stavba minulých časů', x: ANG.pastForms(), cap: '' },
+      { t: 'svg', title: 'Stavba minulých časů', x: ANG.pastForms(), cap: 'Past simple (verb + -ed nebo nepravidelné; záporně didn’t + základní tvar), past continuous (was / were + -ing) a past perfect (had + past participle) vedle sebe, každý s příkladem.' },
       { t: 'p', x: 'V učebnici si pak všechny tři časy procvičuješ na článku „A Fun-and-Games Strategy“. Při psaní vlastního příběhu je dobré používat spojovací výrazy <i>when, while, by the age of …, then, after (that), as a result</i>.' }
     ] }
   ],

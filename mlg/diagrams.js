@@ -78,21 +78,6 @@ const MLG = (() => {
     return path(`M${s1},${s2} C${c1},${c2} ${d1},${d2} ${e1},${e2}`, cls, 'end') + (w ? text(t1.toFixed(1), (t2 + 4).toFixed(1), w, 'c sm bd') : '');
   };
 
-  // 8) množinové operace – čtyři Vennovy diagramy
-  const mnozinoveOperace = () => {
-    const C = (cx, r = 42) => `M${cx - r},80 a${r},${r} 0 1,0 ${2 * r},0 a${r},${r} 0 1,0 ${-2 * r},0`;
-    const panel = (i, name, fill) => {
-      const x0 = 10 + i * 180, a = x0 + 65, b = x0 + 115, id = 'mo' + i;
-      return `<clipPath id="${id}a"><path d="${C(a)}"/></clipPath><clipPath id="${id}b"><path d="${C(b)}"/></clipPath>` + rect(x0, 20, 170, 120, 'pd') +
-        fill(a, b, id, x0) + path(C(a), 'ln') + path(C(b), 'ln') + text(a - 18, 52, 'A', 'c bd') + text(b + 18, 52, 'B', 'c bd') + text(x0 + 160, 36, 'U', 'e sm mu') + text(x0 + 85, 165, name, 'c bd');
-    };
-    return svg(730, 180,
-      panel(0, 'A ∩ B  průnik', (a, b, id) => `<path d="${C(b)}" class="fA" clip-path="url(#${id}a)"/>`) +
-      panel(1, 'A ∪ B  sjednocení', (a, b) => `<path d="${C(a)} ${C(b)}" class="fA" fill-rule="nonzero"/>`) +
-      panel(2, 'A ∖ B  rozdíl', (a, b, id) => `<path d="${C(a)} ${C(b)}" class="fA" fill-rule="evenodd" clip-path="url(#${id}a)"/>`) +
-      panel(3, 'A′  doplněk v U', (a, b, id, x0) => `<path d="M${x0},20 h170 v120 h-170z ${C(a)}" class="fA" fill-rule="evenodd"/>`));
-  };
-
   // 9) tři množiny s počty v oblastech (restaurace: polévka, hlavní jídlo, zákusek)
   const venn3 = (names = ['polévka', 'hlavní jídlo', 'zákusek'], n = { A: 3, B: 5, C: 1, AB: 4, AC: 0, BC: 3, ABC: 10, O: 2 }) => {
     const P = { A: [290, 105], B: [400, 105], C: [345, 190] }, R = 82, at = (x, y, v, c = '') => text(x, y, v, 'c bd ' + c);
@@ -131,13 +116,6 @@ const MLG = (() => {
       p(3, 'tranzitivní', [['1', '2'], ['2', '3'], ['1', '3', '', { cls: 'lA' }]]) + text(635, 20, 'a→b, b→c  ⇒  a→c', 'c sm mu'));
   };
 
-  // 13) třídy ekvivalence (Dana, Karel, Petra, Hana, Radim, Vladimír)
-  const tridyEkvivalence = () => svg(720, 190,
-    rect(30, 30, 200, 120, 'pd') + rect(260, 30, 280, 120, 'pd') + rect(570, 30, 120, 120, 'pd') +
-    graf({ D: [80, 110, 'fD'], H: [180, 110, 'fD'], K: [300, 120, 'fA'], P: [400, 70, 'fA'], R: [500, 120, 'fA'], V: [630, 95, 'fW'] }, [['D', 'H'], ['K', 'P'], ['P', 'R'], ['K', 'R']], { r: 17 }) +
-    text(130, 52, '{Dana, Hana}', 'c sm bd') + text(400, 140, '{Karel, Petra, Radim}', 'c sm bd') + text(630, 52, '{Vladimír}', 'c sm bd') +
-    text(360, 180, 'čára = dvojice v obou směrech; smyčky (reflexivitu) nekreslíme · třídy se nepřekrývají a pokryjí celou množinu', 'c sm mu'));
-
   // 14) Hasseho diagram (jídla) – menší dole, nakreslené jen bezprostřední následnosti
   const hasseJidla = () => {
     const N = { HK: [360, 250, 'Hrachová kaše'], SM: [220, 180, 'Šišky s mákem'], S: [500, 180, 'Segedín'], JK: [110, 105, 'Jahodové knedlíky'], R: [360, 105, 'Rajská'], RBS: [360, 30, 'Řízek s br. salátem'] };
@@ -174,19 +152,6 @@ const MLG = (() => {
     return svg(730, 235, p(0, 'sled', ['e1', 'e4', 'e2'], 'a b e b c', 'opakuje hranu e4 i vrchol b') + p(1, 'tah', ['e1', 'e2', 'e5', 'e7', 'e4'], 'a b c f e b', 'hrany různé, vrchol b 2×') + p(2, 'cesta', ['e3', 'e6', 'e4', 'e2', 'e5'], 'a d e b c f', 'ani vrcholy se neopakují'));
   };
 
-  // 17) Havlova–Hakimiho redukce skóre (5,4,3,3,3,2)
-  const skoreRedukce = (d0 = [5, 4, 3, 3, 3, 2]) => {
-    let d = [...d0], o = '', y = 14;
-    for (let s = 0; ; s++) {
-      d.sort((a, b) => b - a);
-      const k = d[0], cls = d.map((_, i) => (i === 0 && k > 0 ? 'fA' : i <= k && k > 0 ? 'fD' : 'b'));
-      o += text(20, y + 22, s ? `${s}.` : 'skóre', 'sm mu') + cells(80, y, d.join(''), cls, 36, 30) + (k > 0 ? text(80 + d.length * 36 + 16, y + 20, `odeber ${k}, dalším ${k} odečti 1`, 'sm mu') : text(80 + d.length * 36 + 16, y + 20, d.every(x => x === 0) ? '✓ samé nuly → graf existuje' : '✗ graf neexistuje', 'sm bd tA'));
-      if (k === 0 || d.some(x => x < 0)) break;
-      d = d.slice(1).map((x, i) => (i < k ? x - 1 : x)); y += 40;
-    }
-    return svg(720, y + 46, o);
-  };
-
   // 18) domeček s křížem – otevřený Eulerovský tah (čísla = pořadí hran)
   const eulerDomecek = () => {
     const V = { A: [240, 230, 'fA'], B: [400, 230, 'fA'], C: [400, 110, 'b'], D: [240, 110, 'b'], E: [320, 30, 'b'] };
@@ -208,12 +173,93 @@ const MLG = (() => {
   // ohodnocený graf ze slajdu Dijkstrova algoritmu (mřížka 3 × 3)
   const GV = { f: [70, 40], g: [210, 40], h: [350, 40], c: [70, 150], d: [210, 150], e: [350, 150], s: [70, 260], a: [210, 260], b: [350, 260] };
   const GE = [['f', 'g', 3], ['g', 'h', 4], ['f', 'c', 1], ['c', 'g', 7], ['g', 'd', 8], ['d', 'h', 11], ['h', 'e', 10], ['c', 'd', 2], ['d', 'e', 3], ['c', 's', 8], ['s', 'd', 5], ['d', 'a', 2], ['a', 'e', 6], ['e', 'b', 3], ['s', 'a', 2], ['a', 'b', 9]];
+
+  const lo = ([a, b]) => (['cg', 'dh', 'sd', 'ae'].includes(a + b) ? -12 : ['fc', 'cs', 'ge', 'he', 'gd', 'da', 'eb', 'hd'].includes(a + b) ? -11 : 11);
+
+  // 22) strom výrazu a tři notace
+  const EXPR = ['+', ['·', ['x'], ['+', ['x'], ['2']]], [':', ['−', ['x'], ['3']], ['5']]]; // x · (x + 2) + (x − 3) : 5
+
+  // 23) rovinné a nerovinné grafy
+  const rovinne = () => {
+    const pent = (cx, i) => [cx + 70 * Math.sin(i * 2 * Math.PI / 5), 115 - 70 * Math.cos(i * 2 * Math.PI / 5)];
+    const K5 = Object.fromEntries([0, 1, 2, 3, 4].map(i => [i, [...pent(370, i).map(v => +v.toFixed(1)), 'fW', '']]));
+    const K33 = { a: [540, 50, 'fD', ''], b: [610, 50, 'fD', ''], c: [680, 50, 'fD', ''], x: [540, 180, 'fE', ''], y: [610, 180, 'fE', ''], z: [680, 180, 'fE', ''] };
+    return svg(730, 240,
+      graf({ 1: [120, 40, 'b', ''], 2: [40, 180, 'b', ''], 3: [200, 180, 'b', ''], 4: [120, 130, 'b', ''] }, [['1', '2'], ['2', '3'], ['3', '1'], ['4', '1'], ['4', '2'], ['4', '3']], { r: 9 }) + text(120, 225, 'K₄ – rovinný (bez křížení)', 'c bd') +
+      graf(K5, [0, 1, 2, 3, 4].flatMap(i => [0, 1, 2, 3, 4].filter(j => j > i).map(j => [i, j])), { r: 9 }) + text(370, 225, 'K₅ – nerovinný', 'c bd tW') +
+      graf(K33, ['a', 'b', 'c'].flatMap(u => ['x', 'y', 'z'].map(v => [u, v])), { r: 9 }) + text(610, 225, 'K₃,₃ – nerovinný', 'c bd tD'));
+  };
+
+  // 24) maximální tok (tok/kapacita) a minimální řez
+  const TOK = { V: { S: [60, 150, 'fA'], B: [230, 60], A: [230, 240], D: [480, 60], C: [480, 240], T: [650, 150, 'fA'] },
+    E: [['S', 'B', 4, { lo: -12 }], ['S', 'A', 7], ['B', 'D', 2], ['B', 'C', 4, { at: 0.25 }], ['A', 'D', 2, { at: 0.7 }], ['A', 'C', 3, { lo: -12 }], ['D', 'T', 2], ['C', 'T', 8, { lo: -12 }]],
+    paths: ['SBDT', 'SBCT', 'SACT', 'SADBCT'] }; // cesty zvětšování z řešeného příkladu
+
+  // 25) kritická cesta projektu (ze slajdu Sítě a projekty)
+  const KC = { V: { S: [40, 160], B: [170, 95], C: [170, 225], D: [320, 30], E: [320, 160], F: [320, 290], G: [470, 95], H: [470, 225], T: [610, 160] },
+    E: [['S', 'D', 10, -26, -12], ['S', 'B', 4], ['S', 'C', 4, 0, -12], ['S', 'F', 19, 26], ['B', 'D', 7], ['B', 'C', 6, 0, -10], ['B', 'E', 12], ['D', 'E', 3, 0, -10], ['D', 'G', 9], ['D', 'T', 21, -26, -12], ['C', 'E', 5, 0, -12],
+      ['C', 'F', 5], ['E', 'G', 5, 0, -12], ['E', 'H', 13], ['E', 'F', 3, 0, -10], ['G', 'H', 7, 0, -10], ['G', 'T', 11], ['F', 'H', 12, 0, -12], ['F', 'T', 21, 26], ['H', 'T', 18, 0, -12]] };
+
+  // 27) minimální automat po faktorizaci (příklad ze slajdu)
+  const automatMin = () => svg(720, 300,
+    graf({ I: [130, 150, 'b', '1,2'], II: [330, 55, 'fA', '3'], III: [330, 225, 'b', '4,5'], IV: [560, 150, 'fA', '6'] },
+      [['I', 'II', 'b'], ['II', 'IV', 'a'], ['II', 'III', 'b', { at: 0.3, lo: -10 }], ['III', 'I', 'a'], ['IV', 'I', 'b', { at: 0.25, lo: -12 }]], { dir: true, r: 22 }) +
+    circ(330, 55, 27, 'pd') + circ(560, 150, 27, 'pd') + line(50, 150, 106, 150, 'ln', 'end') + loop(130, 150, 'a', 0, 22) + loop(330, 225, 'b', 180, 22) + loop(560, 150, 'a', 0, 22) +
+    text(650, 260, 'stavy 1 ∼ 2 a 4 ∼ 5', 'c sm mu') + text(650, 280, 'se sloučily → 4 stavy', 'c sm mu'));
+
+  // 20) podgraf, faktor a kostra téhož grafu
+  const podgrafy = () => {
+    const P = [[85, 50], [150, 105], [120, 180], [50, 180], [20, 105]], E = [[0, 1], [1, 2], [2, 3], [3, 4], [4, 0], [1, 3]];
+    const panel = (i, title, sub, vs, es) => {
+      const ox = 8 + i * 182, V = Object.fromEntries(P.map(([x, y], k) => [k, [ox + x, y + 20, vs.includes(k) ? 'b' : 'pd', 'abcde'[k]]]));
+      return graf(V, E.map(([a, b], j) => [a, b, '', { cls: !es ? 'ln' : es.includes(j) ? 'lA' : 'ds ln' }]), { r: 13 }) + text(ox + 85, 16, title, 'c bd') + sub.map((t, k) => text(ox + 85, 232 + k * 16, t, 'c sm mu')).join('');
+    };
+    const all = [0, 1, 2, 3, 4];
+    return svg(740, 275, panel(0, 'graf G', ['5 vrcholů, 6 hran'], all, null) + panel(1, 'podgraf', ['vynecháme vrchol e', 'i jeho hrany'], [0, 1, 2, 3], [0, 1, 2, 5]) +
+      panel(2, 'faktor', ['všechny vrcholy, jen hrany', 'ab, cd, de (nesouvislý)'], all, [0, 2, 3]) + panel(3, 'kostra', ['všechny vrcholy, strom:', '4 = n − 1 hran'], all, [0, 1, 2, 3]), 740);
+  };
+
+  // 8) množinové operace – čtyři Vennovy diagramy
+  const mnozinoveOperace = () => {
+    const C = (cx, r = 42) => `M${cx - r},80 a${r},${r} 0 1,0 ${2 * r},0 a${r},${r} 0 1,0 ${-2 * r},0`;
+    const panel = (i, name, fill) => {
+      const x0 = 10 + i * 180, a = x0 + 65, b = x0 + 115, id = 'mo' + i;
+      return `<clipPath id="${id}a"><path d="${C(a)}"/></clipPath><clipPath id="${id}b"><path d="${C(b)}"/></clipPath>` + rect(x0, 20, 170, 120, 'pd') +
+        fill(a, b, id, x0) + path(C(a), 'ln') + path(C(b), 'ln') + text(a - 18, 52, 'A', 'c bd') + text(b + 18, 52, 'B', 'c bd') + text(x0 + 160, 36, 'U', 'e sm mu') + text(x0 + 85, 165, name, 'c bd');
+    };
+    return svg(730, 180,
+      panel(0, 'A ∩ B  průnik', (a, b, id) => `<path d="${C(b)}" class="fA" clip-path="url(#${id}a)"/>`) +
+      panel(1, 'A ∪ B  sjednocení', (a, b) => `<path d="${C(a)} ${C(b)}" class="fA" fill-rule="nonzero"/>`) +
+      panel(2, 'A ∖ B  rozdíl', (a, b, id) => `<path d="${C(a)} ${C(b)}" class="fA" fill-rule="evenodd" clip-path="url(#${id}a)"/>`) +
+      panel(3, 'A′  doplněk v U', (a, b, id, x0) => `<path d="M${x0},20 h170 v120 h-170z ${C(a)}" class="fA" fill-rule="evenodd"/>`));
+  };
+
+  // 13) třídy ekvivalence (Dana, Karel, Petra, Hana, Radim, Vladimír)
+  const tridyEkvivalence = () => svg(720, 190,
+    rect(30, 30, 200, 120, 'pd') + rect(260, 30, 280, 120, 'pd') + rect(570, 30, 120, 120, 'pd') +
+    graf({ D: [80, 110, 'fD'], H: [180, 110, 'fD'], K: [300, 120, 'fA'], P: [400, 70, 'fA'], R: [500, 120, 'fA'], V: [630, 95, 'fW'] }, [['D', 'H'], ['K', 'P'], ['P', 'R'], ['K', 'R']], { r: 17 }) +
+    text(130, 52, '{Dana, Hana}', 'c sm bd') + text(400, 140, '{Karel, Petra, Radim}', 'c sm bd') + text(630, 52, '{Vladimír}', 'c sm bd') +
+    text(360, 180, 'čára = dvojice v obou směrech; smyčky (reflexivitu) nekreslíme · třídy se nepřekrývají a pokryjí celou množinu', 'c sm mu'));
+
+  // 17) Havlova–Hakimiho redukce skóre (5,4,3,3,3,2)
+  const skoreRedukce = (d0 = [5, 4, 3, 3, 3, 2]) => {
+    let d = [...d0], o = '', y = 14;
+    for (let s = 0; ; s++) {
+      d.sort((a, b) => b - a);
+      const k = d[0], cls = d.map((_, i) => (i === 0 && k > 0 ? 'fA' : i <= k && k > 0 ? 'fD' : 'b'));
+      o += text(20, y + 22, s ? `${s}.` : 'skóre', 'sm mu') + cells(80, y, d.join(''), cls, 36, 30) + (k > 0 ? text(80 + d.length * 36 + 16, y + 20, `odeber ${k}, dalším ${k} odečti 1`, 'sm mu') : text(80 + d.length * 36 + 16, y + 20, d.every(x => x === 0) ? '✓ samé nuly → graf existuje' : '✗ graf neexistuje', 'sm bd tA'));
+      if (k === 0 || d.some(x => x < 0)) break;
+      d = d.slice(1).map((x, i) => (i < k ? x - 1 : x)); y += 40;
+    }
+    return svg(720, y + 46, o);
+  };
+
   const kruskal = E => { const p = {}, f = x => (p[x] ?? x) === x ? x : (p[x] = f(p[x])), T = []; [...E].sort((a, b) => a[2] - b[2]).forEach(e => { const a = f(e[0]), b = f(e[1]); if (a !== b) { p[a] = b; T.push(e); } }); return T; };
+
   const dijkstra = (E, s) => { const V = [...new Set(E.flatMap(e => [e[0], e[1]]))], d = Object.fromEntries(V.map(v => [v, Infinity])), pr = {}, done = []; d[s] = 0;
     while (done.length < V.length) { const u = V.filter(v => !done.includes(v)).reduce((m, v) => (d[v] < d[m] ? v : m)); done.push(u);
       E.forEach(([a, b, w]) => { const v = a === u ? b : b === u ? a : null; if (v && !done.includes(v) && d[u] + w < d[v]) { d[v] = d[u] + w; pr[v] = u; } }); }
     return { d, pr, done }; };
-  const lo = ([a, b]) => (['cg', 'dh', 'sd', 'ae'].includes(a + b) ? -12 : ['fc', 'cs', 'ge', 'he', 'gd', 'da', 'eb', 'hd'].includes(a + b) ? -11 : 11);
 
   // 20) minimální kostra (Kruskal)
   const kostraKruskal = () => {
@@ -242,17 +288,6 @@ const MLG = (() => {
     draw(T, 190, 30, 100);
     return svg(720, 260, o + text(420, 40, 'infix (inorder)', 'sm mu') + text(420, 60, 'x · (x + 2) + (x − 3) : 5', 'mo') + text(420, 95, 'prefix (preorder): uzel, levý, pravý', 'sm mu') + text(420, 115, pre(T), 'mo tA') +
       text(420, 150, 'postfix (postorder): levý, pravý, uzel', 'sm mu') + text(420, 170, post(T), 'mo tD') + text(420, 210, 'infix potřebuje závorky, prefix a postfix ne', 'sm mu'));
-  };
-
-  // 23) rovinné a nerovinné grafy
-  const rovinne = () => {
-    const pent = (cx, i) => [cx + 70 * Math.sin(i * 2 * Math.PI / 5), 115 - 70 * Math.cos(i * 2 * Math.PI / 5)];
-    const K5 = Object.fromEntries([0, 1, 2, 3, 4].map(i => [i, [...pent(370, i).map(v => +v.toFixed(1)), 'fW', '']]));
-    const K33 = { a: [540, 50, 'fD', ''], b: [610, 50, 'fD', ''], c: [680, 50, 'fD', ''], x: [540, 180, 'fE', ''], y: [610, 180, 'fE', ''], z: [680, 180, 'fE', ''] };
-    return svg(730, 240,
-      graf({ 1: [120, 40, 'b', ''], 2: [40, 180, 'b', ''], 3: [200, 180, 'b', ''], 4: [120, 130, 'b', ''] }, [['1', '2'], ['2', '3'], ['3', '1'], ['4', '1'], ['4', '2'], ['4', '3']], { r: 9 }) + text(120, 225, 'K₄ – rovinný (bez křížení)', 'c bd') +
-      graf(K5, [0, 1, 2, 3, 4].flatMap(i => [0, 1, 2, 3, 4].filter(j => j > i).map(j => [i, j])), { r: 9 }) + text(370, 225, 'K₅ – nerovinný', 'c bd tW') +
-      graf(K33, ['a', 'b', 'c'].flatMap(u => ['x', 'y', 'z'].map(v => [u, v])), { r: 9 }) + text(610, 225, 'K₃,₃ – nerovinný', 'c bd tD'));
   };
 
   // 24) maximální tok (tok/kapacita) a minimální řez
@@ -284,14 +319,17 @@ const MLG = (() => {
     circ(430, 110, 25, 'pd') + line(100, 110, 148, 110, 'ln', 'end') + text(96, 104, 'start', 'e sm mu') + loop(300, 230, 'a, b', 180, 20) +
     text(560, 100, 'stav 2 = přijímající', 'c sm tA') + text(560, 120, '(dvojitý kruh)', 'c sm mu') + text(560, 230, 'stav 3 = „past“', 'c sm mu'));
 
-  // 27) minimální automat po faktorizaci (příklad ze slajdu)
-  const automatMin = () => svg(720, 300,
-    graf({ I: [130, 150, 'b', '1,2'], II: [330, 55, 'fA', '3'], III: [330, 225, 'b', '4,5'], IV: [560, 150, 'fA', '6'] },
-      [['I', 'II', 'b'], ['II', 'IV', 'a'], ['II', 'III', 'b', { at: 0.3, lo: -10 }], ['III', 'I', 'a'], ['IV', 'I', 'b', { at: 0.25, lo: -12 }]], { dir: true, r: 22 }) +
-    circ(330, 55, 27, 'pd') + circ(560, 150, 27, 'pd') + line(50, 150, 106, 150, 'ln', 'end') + loop(130, 150, 'a', 0, 22) + loop(330, 225, 'b', 180, 22) + loop(560, 150, 'a', 0, 22) +
-    text(650, 260, 'stavy 1 ∼ 2 a 4 ∼ 5', 'c sm mu') + text(650, 280, 'se sloučily → 4 stavy', 'c sm mu'));
+  // 28) obarvení grafu: příklady s nejmenším počtem barev
+  const barveniPriklady = () => {
+    const ring = (n, r, cx, cy) => Array.from({ length: n }, (_, i) => [cx + r * Math.sin(2 * Math.PI * i / n), cy - r * Math.cos(2 * Math.PI * i / n)]);
+    const panel = (cx, title, sub, pts, edges, cols) => graf(Object.fromEntries(pts.map(([x, y], i) => [i, [x, y, cols[i], String(i + 1)]])), edges.map(e => [e[0], e[1], '', { cls: 'ln' }]), { r: 14 }) + text(cx, 24, title, 'c bd') + text(cx, 232, sub, 'c sm mu');
+    const c5 = ring(5, 62, 130, 120), k4 = ring(4, 62, 380, 120), k33 = [[560, 70], [560, 120], [560, 170], [680, 70], [680, 120], [680, 170]];
+    return svg(740, 250, panel(130, 'C₅: χ = 3', 'lichá kružnice – dvě barvy nestačí', c5, [[0, 1], [1, 2], [2, 3], [3, 4], [4, 0]], ['fA', 'fD', 'fA', 'fD', 'fW']) +
+      panel(380, 'K₄: χ = 4', 'každý vrchol sousedí se všemi', k4, [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]], ['fA', 'fD', 'fW', 'fE']) +
+      panel(620, 'K₃,₃: χ = 2', 'dvě skupiny – barva podle skupiny', k33, [0, 1, 2].flatMap(a => [3, 4, 5].map(c => [a, c])), ['fA', 'fA', 'fA', 'fD', 'fD', 'fD']), 740);
+  };
 
   return { formuleStrom, vennFormule, dusledek, dntPostup, tabulkaUdnt, negace,
-    mnozinoveOperace, venn3, ciselneObory, komplexniRovina, relaceVlastnosti, tridyEkvivalence, hasseJidla, zobrazeniTypy,
-    sledTahCesta, skoreRedukce, eulerDomecek, kostryK4, kostraKruskal, dijkstraStrom, vyrazStrom, rovinne, tokSit, kritickaCesta, automatLiche, automatMin };
+    graf, circ, loop, GV, GE, lo, TOK, KC, EXPR, venn3, ciselneObory, komplexniRovina, relaceVlastnosti, hasseJidla, zobrazeniTypy, podgrafy,
+    sledTahCesta, eulerDomecek, kostryK4, rovinne, automatMin, mnozinoveOperace, tridyEkvivalence, skoreRedukce, kostraKruskal, dijkstraStrom, vyrazStrom, tokSit, kritickaCesta, automatLiche, barveniPriklady };
 })();

@@ -43,7 +43,7 @@ registerTopic({
       { t: 'tip', x: 'Problém proporcionality bývá typický pro rychle rostoucí mladé podniky. Rozvoj znamená stálé odchylky od rovnováhy, na které musí ŘSS rychle a správně reagovat; pomalá nebo špatná reakce bývá důvodem konce podnikání.' }
     ] },
     { title: 'Stabilita a hierarchie', blocks: [
-      { t: 'svg', title: 'Stabilita subsystémů 1. řádu', x: TROS.stabilita() },
+      { t: 'svg', title: 'Stabilita subsystémů 1. řádu', x: TROS.stabilita(), cap: 'Čím výš je subsystém v hierarchii, tím je méně stabilní: rychle reaguje na změny a vyžaduje minimum investic. Čím níž, tím je stabilnější, ale reaguje pomalu a stojí víc investic.' },
       { t: 'ul', items: [
         'Stabilita je <b>pozitivní vlastnost</b>: chování lze předvídat. Vysoká stabilita ale znamená pomalou, nepružnou reakci na změny.',
         'Stabilita <b>klesá s podílem lidského prvku</b>: hmotné prvky (PS1, TS1, TS2) a PS2, EES jsou nejstabilnější, smíšené a obchodní (OSS, MOS, EIS) střední, čistě lidský ŘSS nejméně.',
@@ -63,9 +63,9 @@ registerTopic({
       { t: 'p', x: 'Rozhodnutí se někdy realizují přímo, jindy přes organizační, ekonomický nebo produkční subsystém, ale <b>vždy jde o rozhodnutí ŘSS</b> (řídících pracovníků).' }
     ] },
     { title: 'Kompetence subsystémů – výpočet', blocks: [
-      { t: 'def', term: 'Kompetence subsystému', x: 'Schopnost nebo předpoklad zvládnout určitou funkci, úkol, očekávané chování. Měří se číslem <b>0–1</b>. Kompetence subsystémů zajišťují kompetenci celého systému; <b>součet = 1</b>, je-li OS správně nastaven.' },
+      { t: 'def', term: 'Kompetence subsystému', x: 'Schopnost nebo předpoklad zvládnout určitou funkci, úkol, očekávané chování.', items: ['měří se číslem <b>0–1</b>', 'kompetence subsystémů zajišťují kompetenci celého systému', '<b>součet = 1</b>, je-li OS správně nastaven'] },
       { t: 'law', ref: 'K<sub>i,j</sub> = PR<sub>i</sub> × SP<sub>j</sub>', x: 'PR<sub>i</sub> = 1 / (počet hierarchických úrovní) – pravomoc pro i-tý stupeň; SP<sub>j</sub> = 1 / (počet subsystémů na dané úrovni) – sféra působnosti. Hierarchické postavení klesá se vzdáleností od ŘSS.' },
-      { t: 'svg', title: 'Kompetence subsystémů 1. řádu (5 hierarchických úrovní)', x: TROS.kompetenceGrid() },
+      { t: 'svg', title: 'Kompetence subsystémů 1. řádu (5 hierarchických úrovní)', x: TROS.kompetenceGrid(), cap: 'U každého ze subsystémů je jeho kompetence K podle úrovně v hierarchii (ŘSS a OSS po 0,200, MOS, EIS, EES a TS1 po 0,100, PS2, PS1 a TS2 po 0,067); barva rozlišuje lidské, smíšené a hmotné prvky.' },
       { t: 'table', head: ['Úroveň', 'Subsystémy', 'PR', 'SP', 'K'], rows: [
         ['1 (hlavní)', 'ŘSS', '0,2', '1/1 = 1,000', '0,200'],
         ['2 (mezi)', 'MOS, EIS', '0,2', '1/2 = 0,500', '0,100 každý'],
@@ -74,6 +74,7 @@ registerTopic({
         ['5 (vzdálené)', 'PS2, PS1, TS2', '0,2', '1/3 = 0,333', '0,067 každý']
       ] },
       { t: 'ex', x: 'Kontrola součtu: 0,200 + 2·0,100 + 0,200 + 2·0,100 + 3·0,0667 = <b>1,000</b> = K<sub>cs</sub>. Platí tedy K<sub>cs</sub> = 1; kdyby vyšlo K<sub>cs</sub> &lt; 1, existují „hluchá místa“ bez kompetencí, při K<sub>cs</sub> &gt; 1 se kompetence překrývají.' },
+      { t: 'widget', name: 'kompetence', how: ['Pět výběrů nastavuje, kolik subsystémů leží na jednotlivých úrovních.', 'Tabulka počítá PR = 1 / počet úrovní, SP = 1 / počet subsystémů na úrovni a K = PR × SP.', 'Kontrola: součet kompetencí K<sub>cs</sub> musí být 1.'], sol: 'Úrovně 1 až 5 mají 1, 2, 1, 2, 3 subsystémů, PR = 1/5 = 0,2: ŘSS K = 0,200; MOS a EIS po 0,100; OSS 0,200; EES a TS1 po 0,100; PS2, PS1 a TS2 po 0,067. Součet <b>K<sub>cs</sub> = 1,000</b>.', title: 'Kompetence K = PR × SP: změň rozložení subsystémů po úrovních', cap: 'Pravomoc PR i sféra působnosti SP vycházejí z počtu úrovní a subsystémů na úrovni.' },
       { t: 'ul', items: [
         'Nejvyšší kompetenci mají <b>ŘSS a OSS</b> (0,2). OSS je na úrovni ŘSS, protože řídící pracovníci jsou v OSS zastoupeni jako smíšené prvky (mají stejnou rozhodovací pravomoc) a OSS leží v <b>centru systému</b> na hlavní diagonále.',
         'Nejnižší kompetenci mají vzdálené subsystémy bez řídícího lidského prvku (PS2, PS1, TS2) – jejich pravomoci jsou jen zprostředkované.',
@@ -116,14 +117,15 @@ registerTopic({
       ] }
     ] },
     { title: 'Spolehlivost organizačního systému', blocks: [
-      { t: 'def', term: 'Spolehlivost', x: 'Pravděpodobnost <b>p</b>, že systém reaguje na známý podnět očekávanou reakcí (např. bezporuchovost linky p = 0,98). <b>Nespolehlivost h = 1 − p</b> (zde 0,02). OS je stochastický, nikdy nemá p = 100 %.' },
+      { t: 'def', term: 'Spolehlivost', x: 'Pravděpodobnost <b>p</b>, že systém reaguje na známý podnět očekávanou reakcí (např. bezporuchovost linky p = 0,98).', items: ['<b>nespolehlivost h = 1 − p</b> (zde 0,02)', 'OS je stochastický, nikdy nemá p = 100 %'] },
       { t: 'versus', cols: [
         { h: 'Sériové spojení', items: ['vstup → transformace → chování', 'výsledek = <b>součin</b> spolehlivostí: p = p₁ · p₂ · … · pₙ', 'každý další prvek spolehlivost snižuje'] },
         { h: 'Paralelní spojení', items: ['prvky se zálohují', 'nespolehlivosti se násobí: h = ∏(1 − pᵢ)', 'p = 1 − ∏(1 − pᵢ)', 'každý další prvek spolehlivost zvyšuje'] }
       ], x: 'Při sériovém řetězci stačí, aby selhal jediný článek, a selže celek, proto se pravděpodobnosti násobí a celek je horší než nejslabší článek. Při paralelním zapojení selže celek jen tehdy, když selžou všechny záložní prvky najednou – a to je málo pravděpodobné. Proto firmy mají druhého dodavatele, zástupce vedoucího nebo záložní agregát.' },
-      { t: 'svg', title: 'Příklad ze skript: A – (B1 ‖ B2) – (C1 ‖ C2 ‖ C3 ‖ C4)', x: TROS.spolehlivost() },
+      { t: 'svg', title: 'Příklad ze skript: A – (B1 ‖ B2) – (C1 ‖ C2 ‖ C3 ‖ C4)', x: TROS.spolehlivost(), cap: 'Sériově za sebou A, dvojice paralelních B1, B2 a čtveřice paralelních C1 až C4; vpravo je výpočet: p₂ = 0,9896, p₃ = 0,9992, celek ≈ 0,939.' },
       { t: 'ex', x: '<b>Cvičení (úkol 15):</b> tři technologie za sebou, p = 0,95; 0,90; 0,85 → p = 0,95 · 0,90 · 0,85 = <b>0,72675 ≈ 0,727</b>. Celek je nespolehlivější než kterákoli z technologií. <b>Organizační stupně:</b> při spolehlivosti jednoho stupně 0,90 klesá celková na 0,90 (1 stupeň), 0,81 (2), 0,73 (3) a 0,66 (4) – proto má mít podnik co nejméně stupňů.' },
       { t: 'warn', x: 'Ve skriptech je u třetího stupně (C₁–C₄) uvedeno p<sub>C</sub> = 0,989, správně je 1 − 0,14·0,15·0,20·0,19 = <b>0,9992</b>; ve výpočtu celku se již používá 0,999, výsledek ≈ 0,939 (94 %) tedy sedí.' },
+      { t: 'widget', name: 'spolehlivost', how: ['Každý stupeň (A, B, C) obsahuje paralelní prvky; stupně jsou řazeny za sebou (sériově).', 'Odškrtnutím prvku ho vypneš (odebereš zálohu); číselné pole mění jeho spolehlivost.', 'Tabulka ukazuje výpočet spolehlivosti každého stupně a pod ní součin.'], sol: 'Stupeň B: p = 1 − (1 − 0,92)(1 − 0,87) = 0,9896; stupeň C: p = 1 − 0,14 · 0,15 · 0,20 · 0,19 = 0,9992; celek <b>p = 0,95 · 0,9896 · 0,9992 ≈ 0,939</b>.', title: 'Spolehlivost série a paralely: zapni a vypni záložní prvky', cap: 'Hodnoty jsou z příkladu A – (B1 ‖ B2) – (C1 ‖ C2 ‖ C3 ‖ C4); měň je a sleduj celkovou spolehlivost.' },
       { t: 'table', head: ['Typ zálohy', 'Co to je', 'Příklad'], rows: [
         ['Nezatížená záloha', 'prvek určený jen pro zálohu', 'vlastní elektrický agregát, záložní baterie, střídání hráčů v hokeji, zásoby, náhradní díly'],
         ['Zatížená záloha', 'plní jinou činnost, ale může plně nahradit jiný prvek', 'zástupce ŘP; stěžejní vývojář zálohovaný kolegou (nikdo nesmí být nenahraditelný)'],

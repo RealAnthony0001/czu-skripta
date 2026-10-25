@@ -35,7 +35,7 @@ registerTopic({
         { h: 'Severní můstek (North Bridge)', items: ['komunikace s <b>procesorem</b> – prostředník při komunikaci se zbytkem počítače', 'přístup k <b>pamětem</b> (paměťový řadič) a ke <b>grafické kartě</b> (řadič AGP)'] },
         { h: 'Jižní můstek (South Bridge)', items: ['zařízení na sběrnici <b>PCI</b>', 'data na <b>pevných discích</b>, optických a disketových mechanikách', 'externí zařízení: řadiče <b>USB, FireWire</b>, sériových, paralelních a PS/2 portů, zvukové a síťové karty, modem'] }
       ] },
-      { t: 'def', term: 'BIOS (Basic Input Output System)', x: 'Základní software (někdy nazývaný <b>firmware</b>) počítače, uložený v ROM. Obsahuje <b>kód nutný pro zavedení operačního systému</b>, software pro nastavování vestavěných periferií (HDD, FDD, sériové a paralelní porty), často podporu power-managementu (snížení příkonu při nízké zátěži) a rutiny pro obsluhu základních periferií.' },
+      { t: 'def', term: 'BIOS (Basic Input Output System)', x: 'Základní software (někdy nazývaný <b>firmware</b>) počítače, uložený v ROM.', items: ['obsahuje <b>kód nutný pro zavedení operačního systému</b>', 'software pro nastavování vestavěných periferií (HDD, FDD, sériové a paralelní porty)', 'často podporu power-managementu (snížení příkonu při nízké zátěži)', 'rutiny pro obsluhu základních periferií'] },
       { t: 'svg', title: 'Sběrnicová architektura osobního počítače', x: UPP.busDiagram(), cap: 'Procesor je nejrychlejší, jižní můstek obsluhuje pomalejší periferie. Bližší k procesoru = rychlejší sběrnice.' },
       { t: 'table', head: ['Sběrnice', 'K čemu slouží'], rows: [
         ['<b>procesorová</b>', 'nejrychlejší sběrnice systému: načítání a ukládání do cache paměti a komunikace s čipovou sadou'],
@@ -50,11 +50,11 @@ registerTopic({
     { title: 'Výkon počítače a procesoru', blocks: [
       { t: 'p', x: 'Veškerá činnost počítače není spontánní, ale je <b>synchronizována taktovacími (hodinovými) pulsy</b> (CP – Clock Pulse) z generátoru taktovacích pulsů. Rychlost hodin se udává jako <b>frekvence</b> – počet cyklů (taktů) za sekundu v Hz (1 Hz = 1 cyklus za sekundu).' },
       { t: 'p', x: '<b>Nejmenší časovou jednotkou</b> z hlediska procesoru je <b>jeden cyklus</b>: každá akce vyžaduje aspoň jeden cyklus, většina běžných operací více cyklů. Výhodnějším vyjádřením výkonu je <b>počet instrukcí za sekundu</b>:' },
-      { t: 'def', term: 'Výkon v MIPS', x: '<b>MIPS = 1 / (n · T · 10<sup>6</sup>) = f / (n · 10<sup>6</sup>)</b>, kde <b>f</b> je frekvence v Hz, <b>T</b> perioda v sekundách (T = 1 / f) a <b>n</b> průměrný počet cyklů nutný k vykonání jedné instrukce.' },
+      { t: 'def', term: 'Výkon v MIPS', x: '<b>MIPS = 1 / (n · T · 10<sup>6</sup>) = f / (n · 10<sup>6</sup>)</b>, kde:', items: ['<b>f</b> je frekvence v Hz', '<b>T</b> perioda v sekundách (T = 1 / f)', '<b>n</b> průměrný počet cyklů nutný k vykonání jedné instrukce'] },
       { t: 'ex', x: '<b>Procesor 2 GHz, průměrně 4 cykly na instrukci:</b> MIPS = 2 · 10<sup>9</sup> / (4 · 10<sup>6</sup>) = <b>500 MIPS</b>. <b>Procesor 3 GHz, n = 3:</b> 3 · 10<sup>9</sup> / (3 · 10<sup>6</sup>) = <b>1000 MIPS</b>. Perioda při 2 GHz: T = 1 / (2 · 10<sup>9</sup>) = 0,5 ns.' }
     ] },
     { title: 'Centrální výkonná jednotka (CPU), CISC a RISC', blocks: [
-      { t: 'def', term: 'CPU (Central Processing Unit)', x: 'Základní součást počítače, která <b>vykonává strojové instrukce</b> zapsané v programu. Zahrnuje procesor (jedno nebo více jader), interní vyrovnávací paměti (L1 cache), systémovou sběrnici (propojení procesoru s hlavní pamětí) a někdy i hlavní paměť.' },
+      { t: 'def', term: 'CPU (Central Processing Unit)', x: 'Základní součást počítače, která <b>vykonává strojové instrukce</b> zapsané v programu.', items: ['zahrnuje procesor (jedno nebo více jader)', 'interní vyrovnávací paměti (L1 cache)', 'systémovou sběrnici (propojení procesoru s hlavní pamětí)', 'někdy i hlavní paměť'] },
       { t: 'versus', cols: [
         { h: 'CISC (Complex Instruction Set Computer)', items: ['<b>mikroprogramový řadič</b> – úplná sada instrukcí včetně složitých operací', 'potřebuje <b>více času</b> na zpracování instrukce; interpretace rozsáhlého kódu mikroprogramem snížila výkonnost', 'současné procesory nedostatky obcházejí tím, že <b>vnitřně používají architekturu RISC</b>'] },
         { h: 'RISC (Reduced Instruction Set Computer)', items: ['<b>hardwarově realizovaný řadič</b> – jen rychlé a jednoduché instrukce (omezená sada)', '<b>větší spotřeba paměti pro program</b> (složitá instrukce se rozloží na jednodušší)', 'úspěšné v mobilních telefonech a superpočítačích; jednodušší architektura = <b>nižší spotřeba energie</b>'] }
@@ -68,7 +68,7 @@ registerTopic({
         { h: 'Provedení (execute)', x: 'ALU provede operaci; operandy z cache nebo registrů, je-li operand v hlavní paměti, vkládají se prázdné cykly' },
         { h: 'Uložení výsledku (write back)', x: 'zápis výsledku do registru nebo paměti' }
       ] },
-      { t: 'svg', title: 'Klasické, proudové a superskalární zpracování 6 instrukcí', x: UPP.pipelineDiagram(), cap: 'Každá instrukce potřebuje 5 cyklů. Klasicky: 6 · 5 = 30 cyklů; v pipeline: 6 + 4 = 10 cyklů; superskalárně (2 instrukce najednou): 3 + 4 = 7 cyklů.' },
+      { t: 'widget', fig: UPP.pipelineDiagram(), figcap: 'Každá instrukce má pět fází; v proudovém zpracování se fáze různých instrukcí překrývají.', name: 'pipeline', how: ['Vyber způsob zpracování a posuvníkem projdi cykly; svislá červená čára je aktuální cyklus.', 'Barvy odpovídají pěti fázím instrukce (výběr, dekódování 1 a 2, provedení, uložení).', 'Porovnej, kolik cyklů zabere 6 instrukcí.'], sol: '6 instrukcí po 5 fázích: <b>klasicky</b> 6 · 5 = 30 cyklů; <b>proudově</b> 6 + 4 = 10 cyklů; <b>superskalárně</b> (dvě najednou) 3 + 4 = 7 cyklů.', title: 'Klasické, proudové a superskalární zpracování 6 instrukcí' },
       { t: 'versus', cols: [
         { h: 'Klasické (naivní)', items: ['každá fáze trvá 1 cyklus', 'další instrukce začne až po skončení předchozí', '<b>n instrukcí = 5n cyklů</b>'] },
         { h: 'Proudové (pipelining)', items: ['<b>skalární architektura</b> – procesor z více samostatně pracujících funkčních bloků', 'zpracovává se více instrukcí najednou (pipeline = datovod)', 'jedna instrukce dokončena <b>každý cyklus</b> (po naplnění): n instrukcí = n + 4 cyklů'] }
@@ -94,7 +94,7 @@ registerTopic({
         { h: 'Vnitřní (interní) paměti', x: 'polovodičové, většinou uvnitř základní jednotky; zavádějí se do nich právě spouštěné programy a jejich data – cache (SRAM) a operační paměť (DRAM)' },
         { h: 'Vnější (externí) paměti', x: 'výměnná média – disky, magnetické pásky; magnetický nebo optický záznam; dlouhodobé uchování a zálohování' }
       ] },
-      { t: 'def', term: 'Organizace vnitřní paměti', x: 'Paměť se skládá z jednobitových míst – <b>binárních buněk</b>; určitý počet binárních buněk tvoří <b>paměťovou buňku</b>, nejmenší samostatně adresovatelnou jednotku. Paměťové buňky jsou lineárně uspořádány, jejich pořadové číslo je <b>adresa</b>. Je-li buňka m bitů a paměť má n adres, tvoří binární buňky matici <b>n × m</b>.' },
+      { t: 'def', term: 'Organizace vnitřní paměti', x: 'Paměť se skládá z jednobitových míst – <b>binárních buněk</b>.', items: ['určitý počet binárních buněk tvoří <b>paměťovou buňku</b>, nejmenší samostatně adresovatelnou jednotku', 'paměťové buňky jsou lineárně uspořádány, jejich pořadové číslo je <b>adresa</b>', 'je-li buňka m bitů a paměť má n adres, tvoří binární buňky matici <b>n × m</b>'] },
       { t: 'ex', x: '<b>(Vlastní příklad.)</b> Adresní sběrnice s 10 vodiči rozliší 2<sup>10</sup> = 1 024 adres; při buňce o m = 8 bitech je paměť matice 1 024 × 8 = 8 192 bitů = 1 KiB. S 16 vodiči je to 2<sup>16</sup> = 65 536 adres.' },
       { t: 'versus', title: 'RAM (přesněji RWM): čtení i zápis', cols: [
         { h: 'SRAM – statická', items: ['binární buňka tvořena <b>klopným obvodem</b> (S-R nebo D)', 'nízká přístupová doba → <b>rychlá</b>', 'vyšší složitost → menší kapacita, vyšší cena'] },
@@ -103,7 +103,7 @@ registerTopic({
       { t: 'tip', x: '<b>Hlavní (operační) paměť</b> je tvořena čipy <b>DRAM</b>. <b>Mezipaměť (cache)</b> je velmi rychlý paměťový zásobník typu <b>SRAM</b> pro dočasné ukládání dat, která procesor potřebuje nebo bude potřebovat (L1, L2, L3 cache).' }
     ] },
     { title: 'Vnější paměti: pevný disk', blocks: [
-      { t: 'def', term: 'Pevný disk (HDD)', x: 'Obsahuje otáčející se pevné <b>plotny</b> (většinou 2–5), každá má <b>dvě strany</b> pro data. Nad plotnami se pohybují <b>hlavy</b>, které čtou a zapisují do <b>soustředných prstenců (stop)</b> rozdělených na <b>sektory</b> (velikost 512 B). Shodně umístěné stopy na obou stranách všech ploten tvoří <b>cylindr</b>. Kapacita se pohybuje v desítkách až stovkách GB. Zápis i čtení probíhá záznamovou / čtecí hlavou nad elementárními magnety: při zápisu se mění orientace magnetického pole, při čtení se podle pole mění směr proudu.' },
+      { t: 'def', term: 'Pevný disk (HDD)', x: 'Obsahuje otáčející se pevné <b>plotny</b> (většinou 2–5), každá má <b>dvě strany</b> pro data.', items: ['nad plotnami se pohybují <b>hlavy</b>, které čtou a zapisují do <b>soustředných prstenců (stop)</b> rozdělených na <b>sektory</b> (velikost 512 B)', 'shodně umístěné stopy na obou stranách všech ploten tvoří <b>cylindr</b>', 'kapacita se pohybuje v desítkách až stovkách GB', 'zápis i čtení probíhá záznamovou / čtecí hlavou nad elementárními magnety: při zápisu se mění orientace magnetického pole, při čtení se podle pole mění směr proudu'] },
       { t: 'svg', title: 'Plotna, stopa, sektor a cylindr', x: UPP.hddDiagram(), cap: 'Cylindr tvoří shodně umístěné stopy na všech površích všech ploten; hlavy se k němu přesouvají společně na jednom rameni.' },
       { t: 'ul', items: [
         '<b>Průměrná doba vyhledávání (seek)</b> – průměrný čas přesunu hlav z jednoho cylindru na náhodně vybraný (ms).',
@@ -122,7 +122,7 @@ registerTopic({
         'Jamky jsou vyraženy do jediné <b>spirálovité stopy dlouhé 5,77 km</b>; stopa je rozdělena na <b>sektory o velikosti 2 352 B</b>: synchronizace 12 B + adresa sektoru 4 B + data 2 048 B + ECC / EDC 288 B (= 2 352 B).',
         'Kapacita CD je <b>700 MB</b> (DVD až 17,1 GB).'
       ] },
-      { t: 'svg', title: 'Čtení optického disku', x: UPP.opticalDiagram() },
+      { t: 'svg', title: 'Čtení optického disku', x: UPP.opticalDiagram(), cap: 'Laser se senzorem sleduje stopu s jamkami a pevninami: změna odraženého světla (pevnina ↔ jamka) = 1, beze změny = 0. Jamky tvoří jedinou spirálovou stopu dlouhou 5,77 km.' },
       { t: 'warn', x: 'Slajd uvádí „pevnina (pit) se odráží, jamka (land) se neodráží“ – názvy jsou prohozené: <b>jamka = pit</b> (světlo se téměř neodráží), <b>pevnina = land</b> (odráží se zpět).' },
       { t: 'versus', cols: [
         { h: 'Flash paměť (EEPROM)', items: ['energeticky nezávislá, lze ji naprogramovat a znovu vymazat <b>elektrickým polem</b>', 'data v poli tranzistorů – buněk; princip <b>tunelování náboje</b> na přechod dvou vrstev tranzistoru', 'přeprogramování lze provést přímo v počítači'] },

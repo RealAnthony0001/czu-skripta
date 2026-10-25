@@ -33,6 +33,7 @@ registerTopic({
         ['0', '0', '1', '0', '1']
       ] },
       { t: 'p', x: 'Poslední sloupec jsou samé jedničky → formule je <b>tautologie</b>. (Důvod: je-li A = 1, je závěr ¬B⇒A pravdivý, a tedy i celá implikace; je-li A = 0, platí implikace „zadarmo“ – předpoklad je nepravdivý.)' },
+      { t: 'widget', name: 'tt', how: ['Do pole ϕ napiš formuli (proměnné A–E, spojky ¬ ∧ ∨ ⇒ ⇔ ⊕ ↑ ↓ – dají se vkládat tlačítky pod polem).', 'Tabulka má sloupec pro každou podformuli; <b>poslední (červeně) je výsledek celé formule</b>.', 'Pod tabulkou je určení formule (tautologie / kontradikce / splnitelná) a její ÚDNT a ÚKNT.', 'Do pole ψ napiš druhou formuli – widget rozhodne o ekvivalenci a logickém důsledku a při neplatnosti ukáže protipříklad.'], sol: '<b>A ⇒ (¬B ⇒ A)</b> má v posledním sloupci samé jedničky (viz tabulka výše) → <b>tautologie</b>. Druhá ukázka: ϕ = A ∧ B, ψ = A ∨ B → ψ je logickým důsledkem ϕ (kdykoli platí A ∧ B, platí A ∨ B), ale ne naopak.', f: 'A ⇒ (¬B ⇒ A)', title: 'Pravdivostní tabulka libovolné formule (a ověření ekvivalence a důsledku)', cap: 'Do druhého pole ψ napiš další formuli a widget rozhodne, zda jsou ϕ a ψ ekvivalentní a zda ψ plyne z ϕ (i s protipříkladem).' },
       { t: 'ex', x: '<b>(¬A ⇔ B) ∧ ¬(¬B ∨ C)</b> – tři proměnné, osm řádků.' },
       { t: 'grid', head: ['A', 'B', 'C', '¬A⇔B', '¬(¬B∨C)', 'celá formule'], rows: [
         ['1', '1', '1', '0', '0', '0'],
@@ -48,8 +49,8 @@ registerTopic({
       { t: 'tip', x: 'Hodnotu „1“ ve sloupci ¬(¬B∨C) dostaneš jen tehdy, když je ¬B∨C nepravdivé, tj. ¬B = 0 a C = 0 (B = 1, C = 0). Takovou zkratkou si ušetříš čas při počítání.' }
     ] },
     { title: 'Tautologie, kontradikce a splnitelnost', blocks: [
-      { t: 'def', term: 'Tautologie · kontradikce · splnitelná formule', x: '<b>Tautologie</b> je pravdivá při každém ohodnocení, <b>kontradikce</b> je nepravdivá při každém ohodnocení, <b>splnitelná</b> je pravdivá aspoň při jednom ohodnocení. Tautologie/kontradikci někdy značíme jen symbolem 1/0.' },
-      { t: 'svg', title: 'Jak spolu souvisejí druhy formulí', x: MLG.vennFormule() },
+      { t: 'def', term: 'Tautologie · kontradikce · splnitelná formule', x: 'Formule se dělí podle pravdivosti při různých ohodnoceních:', items: ['<b>tautologie</b> je pravdivá při každém ohodnocení', '<b>kontradikce</b> je nepravdivá při každém ohodnocení', '<b>splnitelná</b> je pravdivá aspoň při jednom ohodnocení', 'tautologii / kontradikci někdy značíme jen symbolem 1 / 0'] },
+      { t: 'svg', title: 'Jak spolu souvisejí druhy formulí', x: MLG.vennFormule(), cap: 'Splnitelné formule mají aspoň jednu 1; tautologie (samé 1) je jejich zvláštní případ, kontradikce (samé 0) splnitelná není. Příklady: A ∧ B, A ∨ ¬A, A ∧ ¬A.' },
       { t: 'ex', x: '<b>(A ∨ ¬B ∨ ¬C) ⇒ (A ∧ B)</b> – jak se tabulka čte.' },
       { t: 'grid', head: ['A', 'B', 'C', 'A∨¬B∨¬C', 'A∧B', 'výsledek'], rows: [
         ['1', '1', '1', '1', '1', '1'],
@@ -80,8 +81,7 @@ registerTopic({
       { t: 'tip', x: 'U <b>splnitelnosti</b> nemusíš sestavovat celou tabulku – stačí najít <b>jedno</b> ohodnocení, které formuli učiní pravdivou (u (b) např. E = 1: pak je celá implikace pravdivá). Naopak <b>nesplnitelnost</b> (kontradikci) je nutné ukázat pro všechna ohodnocení nebo úvahou jako u (d).' }
     ] },
     { title: 'Logická ekvivalence', blocks: [
-      { t: 'def', term: 'Logická ekvivalence ϕ ≡ ψ', x: 'Formule ϕ a ψ jsou logicky ekvivalentní právě tehdy, když nabývají stejných pravdivostních hodnot při každém ohodnocení (mají stejnou tabulku).' },
-      { t: 'law', ref: 'Věta', x: 'Formule ϕ a ψ jsou ekvivalentní právě tehdy, když je formule <b>ϕ ⇔ ψ</b> tautologií.' },
+      { t: 'def', term: 'Logická ekvivalence ϕ ≡ ψ', x: 'Formule ϕ a ψ jsou logicky ekvivalentní právě tehdy, když nabývají stejných pravdivostních hodnot při každém ohodnocení.', items: ['mají stejnou pravdivostní tabulku', '<b>věta:</b> ϕ a ψ jsou ekvivalentní právě tehdy, když je formule <b>ϕ ⇔ ψ</b> tautologií'] },
       { t: 'warn', x: 'Nezaměňuj <b>⇔</b> (spojka uvnitř formule, vytváří novou formuli) a <b>≡</b> (tvrzení o dvou formulích „mají stejnou tabulku“). Vztah: ϕ ≡ ψ platí, právě když ϕ ⇔ ψ je tautologie.' },
       { t: 'grid', head: ['Dvojice (přednáška)', 'Ekvivalentní?', 'Poznámka'], rows: [
         ['¬(¬A) a A', 'ano', 'zákon dvojité negace'],
@@ -101,11 +101,11 @@ registerTopic({
       { t: 'tip', x: 'U (b): A⇒C je jen <i>důsledek</i> formule (A⇒B)∧(B⇒C) (tranzitivita implikace), ne její ekvivalent. Protipříklad: A = 1, B = 0, C = 1 → A⇒C = 1, ale (A⇒B)∧(B⇒C) = 0∧1 = 0.' }
     ] },
     { title: 'Logický důsledek', blocks: [
-      { t: 'def', term: 'Logický důsledek ϕ ⊨ ψ', x: 'Formule ψ je logickým důsledkem formule ϕ, pokud je ψ pravdivá při každém ohodnocení, při kterém je pravdivá ϕ.' },
+      { t: 'def', term: 'Logický důsledek ϕ ⊨ ψ', x: 'Formule ψ je logickým důsledkem formule ϕ, pokud je ψ pravdivá při každém ohodnocení, při kterém je pravdivá ϕ.', items: [] },
       { t: 'def', term: 'Důsledek množiny formulí Γ ⊨ ψ', x: 'ψ je pravdivá při každém ohodnocení, při kterém jsou pravdivé <b>všechny</b> formule z množiny Γ.' },
       { t: 'law', ref: 'Věty', x: 'ϕ ⊨ ψ ⇔ formule <b>ϕ ⇒ ψ</b> je tautologie. ϕ ≡ ψ ⇔ (ϕ ⊨ ψ a zároveň ψ ⊨ ϕ).' },
       { t: 'tip', x: '<b>Pozorování:</b> jakákoli formule je důsledkem <b>kontradikce</b> (kontradikce nikdy není pravdivá, takže není co ověřovat); <b>tautologie</b> je důsledkem jakékoli formule (je pravdivá všude).' },
-      { t: 'svg', title: 'Logický důsledek jako inkluze', x: MLG.dusledek() },
+      { t: 'svg', title: 'Logický důsledek jako inkluze', x: MLG.dusledek(), cap: 'Ohodnocení, kde platí ϕ, leží celá uvnitř ohodnocení, kde platí ψ: ϕ ⊨ ψ. Neexistuje řádek tabulky, kde by ϕ = 1 a ψ = 0.' },
       { t: 'flow', title: 'Jak rozhodnout, že ϕ ⊨ ψ', steps: [
         { h: 'Sestav tabulku', x: 'sloupce pro ϕ i ψ nad stejnými řádky' },
         { h: 'Najdi řádky, kde je ϕ = 1', x: 'jen ty se testují' },

@@ -19,7 +19,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Definice organizačního systému', blocks: [
-      { t: 'def', term: 'Organizační systém', x: 'Definovaná množina <b>hmotných prvků a lidí</b> (prvky OS) propojených <b>hmotně-energetickými, informačními a smíšenými vazbami</b> za účelem zkoumání výsledného chování. Podnik je jeho systémovým pojetím. Zápis: <b>OS = [HP, SP, L], [HE, SV, I]</b>.' },
+      { t: 'def', term: 'Organizační systém', x: 'Definovaná množina <b>hmotných prvků a lidí</b> (prvky OS) propojených <b>hmotně-energetickými, informačními a smíšenými vazbami</b> za účelem zkoumání výsledného chování.', items: ['podnik je jeho systémovým pojetím', 'zápis: <b>OS = [HP, SP, L], [HE, SV, I]</b>'] },
       { t: 'table', head: ['Prvky', 'Vazby'], rows: [
         ['<b>L</b> – lidé (rozhodující činitel)', '<b>HE</b> – hmotně-energetické (materiál, energie pro výrobu)'],
         ['<b>HP</b> – hmotné prvky (stroje, budovy, PC a komunikační nástroje)', '<b>I</b> – informační (informace nutné pro fungování a řízení)'],
@@ -48,11 +48,8 @@ registerTopic({
       { t: 'tip', x: 'PS2 a TS2 jsou „vzdálené“ podpůrné subsystémy (leží v rozích matice nejdál od hlavní diagonály).' }
     ] },
     { title: 'Subsystémy a fáze procesu řízení', blocks: [
-      { t: 'table', head: ['Fáze', 'Podílející se subsystémy', 'Role'], rows: [
-        ['<b>Plánování</b> (informační záležitost)', 'ŘSS (subjekt, cíle OS), EIS (ekonomické, tržní a organizační informace), TS2 (technické informace)', 'stanovení cílového chování; podklady pro varianty plánu'],
-        ['<b>Organizování</b>', 'ŘSS (koordinátor, schvaluje OJ, vedoucí, zdroje, termíny, technologie), OSS (navrhne přidělení zdrojů a OJ), PS1 (produkce v OJ)', 'vytvoření faktických podmínek pro splnění cílů'],
-        ['<b>Operativní řízení</b> (vedení lidí)', 'ŘSS (přímé řízení), MOS (každodenní obchodní činnost), PS2 (fyzická práce a spolupráce)', 'porovnávání skutečnosti s požadavkem a odstraňování odchylek – dříve = snadněji']
-      ] }
+      { t: 'svg', title: 'Fáze procesu řízení a podílející se subsystémy', x: TROS.fazeSub(), cap: 'Vybarvená pole ukazují, který subsystém se kterou fází účastní a čím.' },
+      { t: 'p', x: '<b>Plánování</b> (informační záležitost) stanoví cílové chování a dává podklady pro varianty plánu. <b>Organizování</b> vytváří faktické podmínky pro splnění cílů: ŘSS jako koordinátor schvaluje organizační jednotky, vedoucí, zdroje, termíny a technologie. <b>Operativní řízení</b> (vedení lidí) porovnává skutečnost s požadavkem a odstraňuje odchylky – dříve = snadněji.' }
     ] },
     { title: 'Hlavní a podpůrné subsystémy', blocks: [
       { t: 'versus', cols: [
@@ -62,7 +59,7 @@ registerTopic({
       { t: 'warn', x: 'Poloha „nad / pod diagonálou“ platí pro matici, v níž jsou dole hmotné prvky (PS1 vlevo dole) a nahoře lidské prvky (ŘSS vpravo nahoře) – jak je kreslena na přednášce. V jiném pořadí řádků by se „nad“ a „pod“ prohodilo. Důležité je zapamatovat si skupiny: <b>L: EES, MOS, PS2</b> a <b>HP: TS1, EIS, TS2</b>.' }
     ] },
     { title: 'Oblasti a procesy OS', blocks: [
-      { t: 'svg', title: 'Oblasti (řádky) a procesy (sloupce)', x: TROS.oblasti() },
+      { t: 'svg', title: 'Oblasti (řádky) a procesy (sloupce)', x: TROS.oblasti(), cap: 'Devět subsystémů 1. řádu v mřížce: řádky tvoří oblasti (obchodně-řídící, organizačně-ekonomická, produkčně-technická), sloupce procesy (realizační, organizační, informační a rozhodovací).' },
       { t: 'table', head: ['Oblast (stejné prvky)', 'Subsystémy', 'Proces řízení v oblasti'], rows: [
         ['<b>Produkčně-technická (PTO)</b> – hmotné prvky', 'PS1, TS1, TS2', '<b>proces produkčního řízení</b> – řízení produkce a technologických procesů; vysoce stabilní, téměř deterministický (automatizované systémy řízení)'],
         ['<b>Organizačně-ekonomická (OEO)</b> – smíšené prvky (skripta též „organizačně-informační“)', 'EES, OSS, EIS', '<b>proces nepřímého řízení</b> – realizuje plánování a organizování: vytvoření OJ a stupňů, přiřazení zdrojů, ekonomický systém (samofinancování, cash flow), motivační systém, systém komunikace'],
@@ -76,13 +73,7 @@ registerTopic({
       { t: 'tip', x: 'Oblasti mají <b>stejné prvky, jiné vazby</b> (řádky matice); procesy mají <b>stejné vazby, jiné prvky</b> (sloupce). Proto jsou subsystémy nezastupitelné.' }
     ] },
     { title: 'Rozlišovací úrovně a organizační stupně', blocks: [
-      { t: 'table', head: ['Úroveň', 'Co představuje', 'Příklad'], rows: [
-        ['1. rozlišovací úroveň', 'podnik jako celek (nejvyšší stupeň agregace)', 'OS'],
-        ['2. rozlišovací úroveň', 'subsystémy 1. řádu', 'PS1, OSS, ŘSS…'],
-        ['3. rozlišovací úroveň', 'subsystémy 2. řádu', 'subsystém produktu P<sub>1</sub>, organizační stupeň OS<sub>2</sub>'],
-        ['4. rozlišovací úroveň', 'subsystémy 3. řádu (prvky OS)', 'hmotný prvek HP, organizační jednotka OJ, ŘP'],
-        ['5. rozlišovací úroveň', 'např. soubor JOP', 'JOP<sub>n,m</sub>, fyzická spolupráce na pracovišti']
-      ] },
+      { t: 'svg', title: 'Rozlišovací úrovně jako vnořené celky', x: TROS.uroveni(), cap: 'Čím hlubší úroveň, tím podrobnější pohled na tentýž systém.' },
       { t: 'p', x: 'Zvyšování rozlišovací úrovně (desagregace) umožňuje <b>přesnější analýzu problému a odstranění skutečných příčin odchylek</b> – nehledáme následek, ale příčinu.' },
       { t: 'tip', x: 'Organizační stupně: <b>OS1 podnik → OS2 divize → OS3 závod → OS4 provoz</b>; pod provozem leží JOP. Podrobně v tématu Struktury.' }
     ] },

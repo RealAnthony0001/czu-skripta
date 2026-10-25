@@ -27,10 +27,8 @@ registerTopic({
       { t: 'warn', x: 'Když mluvíme o <b>jedné konkrétní situaci</b> v minulosti, která byla výzvou nebo obtížná, <i>could</i> nepoužíváme. Místo toho řekneme: <i>It was a hard test but she <b>managed to</b> pass it.</i> (zvládla to).' }
     ] },
     { title: 'Tvoření (Form)', blocks: [
-      { t: 'grid', head: ['Tvar', 'Pravidlo', 'Příklad'], rows: [
-        ['<b>can, can’t, could, couldn’t</b>', 'nemají zvláštní tvar pro 3. osobu; za nimi stojí základní tvar', 'They can sing very well. · I can’t speak French. · Could you do the homework?'],
-        ['<b>be able to</b>', 'použijeme ho, když je potřeba základní tvar nebo tvar <i>-ing</i>: <i>to</i> + <i>be able to</i>', 'I’d like to be able to swim better. · Being able to type is a useful skill. · Will you be able to do this work yourself?']
-      ] },
+      { t: 'svg', title: 'Stavba can / could a be able to', x: ANG.canForm(), cap: 'Za can a could stojí vždy základní tvar; be able to nahradí chybějící tvary.' },
+      { t: 'ex', x: '<b>Příklady z učebnice:</b><br><b><b>can, can’t, could, couldn’t</b></b>: They can sing very well. · I can’t speak French. · Could you do the homework?<br><b><b>be able to</b></b>: I’d like to be able to swim better. · Being able to type is a useful skill. · Will you be able to do this work yourself?' },
       { t: 'versus', title: 'can × be able to', cols: [
         { h: 'can / could', items: ['přítomnost: <i>I can remember the name of my first teacher.</i>', 'minulost: <i>I could learn faster when I was younger.</i>', 'bez zvláštního tvaru pro 3. osobu'] },
         { h: 'be able to', items: ['budoucnost: <i>will be able to</i>', 'po <i>to</i>: <i>I’d like to be able to swim</i>', 'jako podmět: <i>Being able to type is a useful skill</i>'] }

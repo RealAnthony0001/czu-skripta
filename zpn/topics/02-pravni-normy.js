@@ -23,7 +23,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Pojem, mody normativnosti, znaky', blocks: [
-      { t: 'def', term: 'Právní norma', x: 'Obecně závazné pravidlo lidského chování stanovené nebo uznané státem (resp. mezinárodním společenstvím států), jehož porušení stát sankcionuje (resp. sankcionují instituce vytvořené státy). Je základní jednotkou normativního právního aktu; každá norma má <b>preskriptivní</b> (předpisující) charakter.' },
+      { t: 'def', term: 'Právní norma', x: 'Obecně závazné pravidlo lidského chování stanovené nebo uznané státem (resp. mezinárodním společenstvím států).', items: ['jeho porušení stát sankcionuje (resp. sankcionují instituce vytvořené státy)', 'je základní jednotkou normativního právního aktu', 'každá norma má <b>preskriptivní</b> (předpisující) charakter'] },
       { t: 'icons', title: '4 znaky právní normy', items: [
         { i: '⚖️', h: 'Závaznost', x: 'stanovuje oprávnění a povinnosti' },
         { i: '📄', h: 'Formální určitost', x: 'uznána státem v určité právní formě a v ní vyjádřena' },
@@ -112,11 +112,11 @@ registerTopic({
           { h: 'Soudci Ústavního soudu', x: 'obdobný rozsah imunity a režim odpovědnosti jako členové zákonodárného sboru' }
         ] }
       ] } },
-      { t: 'def', term: 'Exempce', x: 'Vynětí z působnosti příslušných orgánů – o protiprávním jednání rozhoduje jiný orgán než v obecném režimu (např. u přestupků soudců, státních zástupců, politiků).' },
+      { t: 'def', term: 'Exempce', x: 'Vynětí z působnosti příslušných orgánů.', items: ['o protiprávním jednání rozhoduje jiný orgán než v obecném režimu', 'např. u přestupků soudců, státních zástupců, politiků'] },
       { t: 'tip', x: 'Absolutní imunita = nelze stíhat vůbec (nebo za určitý okruh jednání); relativní = lze po splnění podmínky (souhlas orgánu). Absolutní = <b>indemnita</b>.' }
     ] },
     { title: 'Platnost, účinnost, publikace', blocks: [
-      { t: 'svg', title: 'Platnost a účinnost na časové ose', x: ZPN.validityTimeline() },
+      { t: 'svg', title: 'Platnost a účinnost na časové ose', x: ZPN.validityTimeline(), cap: 'Norma platí od vyhlášení ve Sbírce, účinná je až od dne určeného v předpisu (jinak 15. den po vyhlášení). Mezi tím už platí, ale ještě se jí není nutné řídit.' },
       { t: 'versus', title: 'Platnost × účinnost', x: 'Platnost a účinnost jsou dvě fáze „života“ předpisu. Dnem vyhlášení ve Sbírce se předpis stává platným – existuje, je součástí právního řádu a každý se s ním může seznámit, ale ještě se jím nikdo řídit nemusí. Účinným se stává dnem uvedeným v předpisu, jinak patnáctým dnem po vyhlášení, a teprve od té chvíle zakládá práva a povinnosti a dá se vymáhat. Mezidobí dává lidem i úřadům čas připravit se na změnu. Oba okamžiky mohou splynout, pokud předpis nabývá účinnosti dnem vyhlášení.', cols: [
         { h: 'Platnost', items: ['nastává dnem vyhlášení (publikace)', 'norma je v právním řádu, lze se seznámit s obsahem', 'zaniká derogací'] },
         { h: 'Účinnost', items: ['nastává dnem uvedeným v posledním ustanovení, jinak 15. dnem po vyhlášení', 'norma se uplatňuje, je závazná a vynutitelná', 'zaniká zrušením, uplynutím doby'] }
@@ -125,11 +125,6 @@ registerTopic({
         { i: '📚', h: 'Sbírka zákonů a mezinárodních smluv', x: 'e-sbirka.gov.cz; zák. č. 222/2016 Sb., účinnost 1. 1. 2024 (dříve Sb. a Sb. m. s. zvlášť)' },
         { i: '🏘️', h: 'Sbírka právních předpisů ÚSC a některých správních úřadů', x: 'sbirkapp.gov.cz; zák. č. 35/2021 Sb., od 1. 1. 2022; obecně závazné vyhlášky a nařízení obcí a krajů' },
         { i: '🇪🇺', h: 'Úřední věstník EU', x: 'eur-lex.europa.eu; nařízení, směrnice, rozhodnutí a další akty EU' }
-      ] },
-      { t: 'nums', title: 'Čísla k zapamatování', items: [
-        { n: '15', u: 'dnů', x: 'výchozí účinnost po vyhlášení' },
-        { n: '222/2016', u: 'Sb.', x: 'zákon o Sbírce zákonů a mezinárodních smluv (jedna Sbírka od 1. 1. 2024)' },
-        { n: '35/2021', u: 'Sb.', x: 'zákon o Sbírce právních předpisů ÚSC (od 1. 1. 2022)' }
       ] },
       { t: 'ul', items: [
         '<b>Ve Sbírce zákonů a mezinárodních smluv:</b> ústavní zákony, zákony, zákonná opatření Senátu, nařízení vlády, vyhlášky ministerstev, ústředních správních úřadů a ČNB; mezinárodní smlouvy (vč. oznámení o ukončení platnosti a oprav překladu); nálezy ÚS (stanoví-li zákon), sdělení ÚS, usnesení PS o setrvání na vráceném zákonu / o zákonném opatření Senátu, rozhodnutí o vyhlášení volby prezidenta, rozhodnutí předsedy vlády o vyhlášení nouzového stavu, sdělení ministerstev a ČNB, sdělení MV o opravě chyby.',
@@ -144,7 +139,7 @@ registerTopic({
       { t: 'ex', x: 'Zákon č. 166/2026 Sb. „kterým se mění zákon č. 375/2022 Sb.“ = <b>novela</b>; Čl. I obsahuje změny, účinnost je uvedena v závěrečném článku. Totéž u nařízení vlády a vyhlášky.' }
     ] },
     { title: 'Aplikace, analogie a interpretace', blocks: [
-      { t: 'def', term: 'Aplikace práva', x: 'Kvalifikovaná forma realizace práva orgány veřejné moci (soudy, správní úřady), při níž se konkrétní skutkový stav podřadí pod právní normu; výsledkem je akt aplikace práva (rozhodnutí o právech a povinnostech FO a PO). Šíře: používání norem státními orgány i chování osob podle práva.' },
+      { t: 'def', term: 'Aplikace práva', x: 'Kvalifikovaná forma realizace práva orgány veřejné moci (soudy, správní úřady).', items: ['konkrétní skutkový stav se podřadí pod právní normu', 'výsledkem je akt aplikace práva (rozhodnutí o právech a povinnostech FO a PO)', 'šíře: používání norem státními orgány i chování osob podle práva'] },
       { t: 'flow', title: 'Postup při aplikaci práva', steps: [
         { h: 'Skutkový stav', x: 'zjištění přímo nebo dokazováním' },
         { h: 'Právní normy a výklad', x: 'časová, územní, osobní působnost, soulad s ústavou' },

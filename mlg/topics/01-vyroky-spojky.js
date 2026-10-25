@@ -17,7 +17,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Výrok a jeho pravdivost', blocks: [
-      { t: 'def', term: 'Elementární výrok', x: 'oznamovací věta, o které má smysl rozhodovat, jestli je pravdivá, a kterou chápeme jako nedělitelný celek.' },
+      { t: 'def', term: 'Elementární výrok', x: 'Oznamovací věta, o které má smysl rozhodovat, jestli je pravdivá.', items: ['chápeme ji jako nedělitelný celek'] },
       { t: 'versus', title: 'Elementární výrok × ne-výrok', cols: [
         { h: 'Je elementární výrok', items: ['Mám dnes narozeniny.', '3³ = 9.', 'Ve třídě je přesně 30 studentů.', 'Na Marsu kdysi existoval život.'] },
         { h: 'Není elementární výrok', items: ['Jdi pryč! (rozkaz)', 'x² − 2 ≥ 3x + 2 (závisí na x, nelze rozhodnout)', 'Půjdeme do kina? (otázka)', '„Jestli budou mít švestky, uvařím knedlíky“ (složený výrok, ne elementární)'] }
@@ -49,7 +49,7 @@ registerTopic({
       { t: 'tip', x: 'Tabulku si zapamatuj po sloupcích: <b>∧</b> má jedinou jedničku (1,1), <b>∨</b> jedinou nulu (0,0), <b>⇒</b> jedinou nulu (1,0), <b>⇔</b> jedničky tam, kde jsou hodnoty stejné.' }
     ] },
     { title: 'Výrokové formule', blocks: [
-      { t: 'def', term: 'Výroková formule (rekurzivně)', x: 'každá výroková proměnná i každá výroková konstanta je formule; jsou-li E a F formule, jsou formulemi také (¬E), (E∧F), (E∨F), (E⇒F), (E⇔F); jiné formule nejsou.' },
+      { t: 'def', term: 'Výroková formule (rekurzivně)', x: 'Formule se tvoří takto:', items: ['každá výroková proměnná i každá výroková konstanta je formule', 'jsou-li E a F formule, jsou formulemi také (¬E), (E∧F), (E∨F), (E⇒F), (E⇔F)', 'jiné formule nejsou'] },
       { t: 'p', x: 'Místo „výroková formule“ říkáme jen <b>formule</b>. „Jiné formule nejsou“ znamená, že zápis, který nejde takto poskládat (chybí operand, špatný symbol), formule není.' },
       { t: 'grid', head: ['Zápis', 'Formule?', 'Proč'], rows: [
         ['A, A′, A′′', 'ano', 'proměnná a její (i dvojitá) negace'],

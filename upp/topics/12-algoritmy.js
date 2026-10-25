@@ -20,7 +20,7 @@ registerTopic({
   sections: [
     { title: 'Algoritmus a jeho vlastnosti', blocks: [
       { t: 'p', x: 'Předpoklady <b>automatického výpočtu</b>: předem stanovit (rozmyslet) přesný postup a během opakovaného provádění už nepřemýšlet a postupovat mechanicky.' },
-      { t: 'def', term: 'Algoritmus', x: 'Konečná posloupnost elementárních kroků (příkazů), organizovaná tak, že po provedení každého kroku je jednoznačně určeno, jaký krok bude následovat nebo zda výpočet končí. Jeho provedení umožní pro každá přípustná data <b>mechanicky a po konečném počtu kroků</b> získat výstupní data.' },
+      { t: 'def', term: 'Algoritmus', x: 'Konečná posloupnost elementárních kroků (příkazů), organizovaná tak, že po provedení každého kroku je jednoznačně určeno, jaký krok bude následovat nebo zda výpočet končí.', items: ['jeho provedení umožní pro každá přípustná data <b>mechanicky a po konečném počtu kroků</b> získat výstupní data'] },
       { t: 'table', head: ['Vlastnost', 'Co znamená'], rows: [
         ['<b>mechanický</b>', 'při provádění se není nutné vracet k porozumění úloze – to je potřeba jen při návrhu; provedení lze svěřit i stroji'],
         ['<b>deterministický</b>', 'po každém kroku je jasné, co následuje, nebo že výpočet končí'],
@@ -76,7 +76,7 @@ registerTopic({
         ['n!', 'n<sub>1</sub>', 'n<sub>2</sub> ≈ n<sub>1</sub> + ln 60 / ln (n<sub>1</sub> − 1) – téměř beze změny']
       ] },
       { t: 'tip', x: 'Exponenciální a faktoriální algoritmy se ani šedesátkrát rychlejším počítačem prakticky nezlepší – řešitelný rozsah naroste jen o pár prvků.' },
-      { t: 'svg', title: 'Jak rychle roste počet operací', x: UPP.complexityDiagram(), cap: 'Pro n = 10 je 2<sup>n</sup> už přes tisíc, n! přes tři miliony; křivky n · log n a n zůstávají dole.' }
+      { t: 'widget', fig: UPP.complexityDiagram(), figcap: 'Pro n = 10 je 2<sup>n</sup> už přes tisíc, n! přes tři miliony; křivky n · log n a n zůstávají dole.', name: 'slozitost', how: ['Posuvníkem měníš n; tabulka ukazuje hodnotu každé funkce a sloupec vpravo její řád (logaritmická délka).', 'Sleduj, jak se log n a n liší od 2<sup>n</sup> a n!.'], sol: 'Pro <b>n = 10</b>: log₂ n ≈ 3,3; n = 10; n · log₂ n ≈ 33; n² = 100; n³ = 1 000; 2<sup>n</sup> = 1 024; <b>n! = 3 628 800</b>.', title: 'Jak rychle rostou funkce složitosti (posuvník n)', cap: 'Zvyšuj n a sleduj, jak se 2<sup>n</sup> a n! vymknou kontrole.' },
     ] },
     { title: 'Zápis a znázornění algoritmu', blocks: [
       { t: 'ul', items: [
@@ -84,14 +84,9 @@ registerTopic({
         '<b>graficky</b> – vývojové diagramy (diagramy aktivit v UML2), stromečkový strukturogram, plošný strukturogram,',
         '<b>formálně</b> – pseudokód (přirozený jazyk + klíčová slova) nebo program ve zvoleném programovacím jazyce (instrukce operačního kódu, příkazy jazyka, hotové úseky kódu či podprogramy).'
       ] },
-      { t: 'def', term: 'Vývojový diagram', x: 'Také blokové schéma, graf řízení. Univerzální, ale ne bezproblémový prostředek (dnes jako <b>Diagram aktivit v UML2</b>). Znázorňuje <b>časový postup</b> provádění kroků algoritmu <b>orientovaným grafem</b> s jediným počátečním a jediným koncovým uzlem; uzly (bloky) jsou spojeny šipkami.' },
-      { t: 'grid', head: ['Typ uzlu', 'Počet v grafu', 'Vstupy', 'Výstupy', 'Význam'], rows: [
-        ['Počátek', '1', '0', '1', 'začátek postupu'],
-        ['Konec', '1', '1', '0', 'konec postupu'],
-        ['Výkonný', 'n', '1', '1', 'po kroku následuje vždy jednoznačně určený krok'],
-        ['Rozhodovací (predikátový)', 'm', '1', '2', 'podle splnění / nesplnění podmínky dva různé následující bloky'],
-        ['Slučovací', 'm', '2', '1', 'sloučení dvou bloků do jednoho']
-      ] }
+      { t: 'def', term: 'Vývojový diagram', x: 'Znázorňuje <b>časový postup</b> provádění kroků algoritmu <b>orientovaným grafem</b>.', items: ['jediný počáteční a jediný koncový uzel; uzly (bloky) jsou spojeny šipkami', 'jiné názvy: blokové schéma, graf řízení; dnes <b>Diagram aktivit v UML2</b>', 'univerzální, ale ne bezproblémový prostředek'] },
+      { t: 'svg', title: 'Typy uzlů v grafu algoritmu', x: UPP.flowNodes(), cap: 'Šipky ukazují, kolik vstupů a výstupů má který druh uzlu.' },
+      { t: 'p', x: 'V grafu algoritmu je jeden <b>počátek</b> (začátek postupu) a jeden <b>konec</b>. <b>Výkonný</b> uzel (n v grafu) má jeden vstup a jeden výstup: po kroku následuje vždy jednoznačně určený krok. <b>Rozhodovací (predikátový)</b> uzel (m v grafu) podle splnění nebo nesplnění podmínky vede na dva různé následující bloky. <b>Slučovací</b> uzel (m v grafu) sloučí dva bloky do jednoho.' }
     ] },
     { title: 'Základní konstrukce a strukturovaný návrh', blocks: [
       { t: 'svg', title: 'Sekvence, selekce, iterace', x: UPP.controlDiagram(), cap: 'Iterace s podmínkou na začátku: nejdřív slučovací blok, pak rozhodovací; jedna šipka se vrací ke slučování, druhá pokračuje.' },
@@ -100,7 +95,7 @@ registerTopic({
         ['<b>Selekce</b> (výběr alternativ)', 'rozhodovací blok a dvě výkonné větve ukončené slučovacím bodem'],
         ['<b>Iterace</b> (cyklus)', 'slučovací blok, rozhodovací blok; z něj se jedna šipka vrací ke slučovacímu bloku, druhá pokračuje']
       ] },
-      { t: 'def', term: 'Strukturovaný návrh algoritmu', x: '<b>Hierarchický rozklad</b> složité úlohy na jednodušší (postup <b>shora dolů – top-down</b>, případně v mnoha úrovních). Na všech úrovních rozkladu lze použít pouze základní struktury – <b>sekvenci, selekci a iteraci</b>. Jiné způsoby rozkladu nejsou přípustné!' },
+      { t: 'def', term: 'Strukturovaný návrh algoritmu', x: '<b>Hierarchický rozklad</b> složité úlohy na jednodušší (postup <b>shora dolů – top-down</b>, případně v mnoha úrovních).', items: ['na všech úrovních rozkladu lze použít pouze základní struktury – <b>sekvenci, selekci a iteraci</b>', 'jiné způsoby rozkladu nejsou přípustné'] },
       { t: 'p', x: 'Příklad strukturovaného návrhu: <b>selekce vnořená do iterace</b> – v těle cyklu je rozhodovací blok se dvěma větvemi. Nestrukturovaný algoritmus (např. s libovolnými skoky) lze upravit na strukturovaný; <b>tolerovanou výjimkou</b> je předčasný výskok z cyklu.' }
     ] },
     { title: 'Strukturogramy: stromečkové a plošné', blocks: [
@@ -133,6 +128,7 @@ registerTopic({
         { h: 'Posun', x: 'načti / vyber další prvek' }
       ] },
       { t: 'ex', x: 'Z klávesnice 4, 9, −2, 7, 0: MAX = MIN = 4; 9 → MAX = 9; −2 → MIN = −2; 7 beze změny; 0 ukončí cyklus a <b>nezapočítá se</b>. Výstup: <b>MAX = 9, MIN = −2</b>.' },
+      { t: 'widget', name: 'minmax', how: ['Zadej čísla; u „klávesnice“ nula ukončí zadávání a nezapočítá se, u „pole“ se projdou všechny prvky.', 'Každý krok ukazuje dvě selekce: je prvek větší než MAX? je menší než MIN?', 'Počáteční MAX a MIN je vždy první prvek dat.'], title: 'Hledání MAX a MIN krok za krokem' },
       { t: 'tip', x: 'Počáteční MAX a MIN musí být <b>skutečný prvek</b> dat (první), ne pevná konstanta – jinak by nefungovaly pro libovolná čísla (např. všechna záporná). Datová struktura určuje strukturu programu: pole → cyklus s pevným počtem opakování, soubor → cyklus do EOF.' }
     ] },
     { title: 'Příklady ze cvičení: matice a diagonály', blocks: [

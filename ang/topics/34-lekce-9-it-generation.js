@@ -57,7 +57,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Interaction: Remote manager (s. 96–97)', blocks: [
-      { t: 'def', term: 'Reminder (Grammar reference s. 170)', x: '<b>Trpný rod</b> používáme, když nás zajímá děj, ne kdo ho dělá (<i>The photos can be uploaded.</i>), nebo když původce neznáme (<i>All the containers will be shipped back.</i>). Malé žádosti jsou krátké (<i>A cup of coffee, please. Is it OK if I call you this evening?</i>); větší bývají delší a vysvětlují se (<i>I know you’re busy, but this is urgent. Do you think you could phone them?</i>).' },
+      { t: 'def', term: 'Reminder (Grammar reference s. 170)', x: 'Trpný rod a žádosti:', items: ['<b>trpný rod</b> používáme, když nás zajímá děj, ne kdo ho dělá (<i>The photos can be uploaded.</i>)', 'nebo když původce neznáme (<i>All the containers will be shipped back.</i>)', 'malé žádosti jsou krátké (<i>A cup of coffee, please. Is it OK if I call you this evening?</i>)', 'větší bývají delší a vysvětlují se (<i>I know you’re busy, but this is urgent. Do you think you could phone them?</i>)'] },
       { t: 'grid', head: ['Absolvent', 'Práce na dálku'], rows: [
         ['<b>Tanya Wang</b> (MA Art)', 'umělkyně koordinující projekt v Hongkongu: 50 kontejnerů pomalovaných 50 umělci a odeslaných po světě; komunikuje e-mailem, Skype, videokonferencemi'],
         ['<b>Lauren West</b> (BA Multimedia Studies)', 'upravuje fotky pro Google Street View (rozmazává tváře a poznávací značky); žije v malém městě v Kanadě, šéf v Torontu; komunikuje přes intranet'],

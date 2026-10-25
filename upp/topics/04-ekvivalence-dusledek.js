@@ -17,7 +17,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Tautologická ekvivalence', blocks: [
-      { t: 'def', term: 'Tautologická ekvivalence', x: 'Formule A a B jsou tautologicky ekvivalentní (A ≡ B), jestliže generují <b>stejnou pravdivostní funkci</b>, tj. mají stejný výsledný sloupec. Totéž: formule A ↔ B je tautologie.' },
+      { t: 'def', term: 'Tautologická ekvivalence', x: 'Formule A a B jsou tautologicky ekvivalentní (A ≡ B), jestliže generují <b>stejnou pravdivostní funkci</b>.', items: ['mají stejný výsledný sloupec v pravdivostní tabulce', 'totéž: formule A ↔ B je tautologie'] },
       { t: 'ex', x: '<b>x → y ≡ ¬x ∨ y:</b> pro (x,y) = 00, 01, 10, 11 dává obě formule 1, 1, 0, 1 → shodná funkce, tedy ekvivalence.' },
       { t: 'grid', head: ['Zákon', 'Zápis'], rows: [
         ['Dvojí negace', '¬¬a ≡ a'],
@@ -33,6 +33,7 @@ registerTopic({
         ['Asociativita', '(a ∧ b) ∧ c ≡ a ∧ (b ∧ c) · (a ∨ b) ∨ c ≡ a ∨ (b ∨ c) · (a ↔ b) ↔ c ≡ a ↔ (b ↔ c) · (ale (a → b) → c ≢ a → (b → c))'],
         ['Další', 'a → b ≡ ¬a ∨ b · (a ∨ b) → c ≡ (a → c) ∧ (b → c) · a ↔ b ≡ (a → b) ∧ (b → a) · a ⊕ b ≡ ¬(a ↔ b)']
       ] },
+      { t: 'widget', name: 'tt', how: ['Do pole ϕ napiš formuli (proměnné a–e, spojky ¬ ∧ ∨ → ↔ ⊕ ↑ ↓ – dají se vkládat tlačítky pod polem).', 'Tabulka má sloupec pro každou podformuli; <b>poslední (červeně) je výsledek celé formule</b>.', 'Pod tabulkou je určení formule (tautologie / kontradikce / splnitelná) a její ÚDNT a ÚKNT.', 'Do pole ψ napiš druhou formuli – widget rozhodne o ekvivalenci a logickém důsledku.'], sol: 'Formule <b>a → b</b> a <b>¬a ∨ b</b> mají stejný výsledný sloupec (1, 1, 0, 1) → jsou <b>tautologicky ekvivalentní</b>; implikaci lze nahradit disjunkcí s negovaným předpokladem.', sym: 'upp', f: 'a → b', g: '¬a ∨ b', title: 'Ověř zákon: dvě formule vedle sebe', cap: 'Ekvivalence i logický důsledek se ověřují pravdivostní tabulkou; widget při neplatnosti ukáže protipříklad.' },
       { t: 'tip', x: 'Při převodech si nejčastěji vystačíš s trojicí: <b>a → b ≡ ¬a ∨ b</b>, <b>De Morgan</b> a <b>dvojí negace</b>.' }
     ] },
     { title: 'Řešené příklady – ekvivalence (cvičení 2, př. 3)', blocks: [
@@ -47,8 +48,8 @@ registerTopic({
       { t: 'ex', x: '<b>c) kontrolní řádek (p,q,r) = 001:</b> p ↓ (q ↓ r) = 0 ↓ (0 ↓ 1) = 0 ↓ 0 = 1, ale (p ↓ q) ↓ r = (0 ↓ 0) ↓ 1 = 1 ↓ 1 = 0 → různé.' }
     ] },
     { title: 'Logický důsledek', blocks: [
-      { t: 'def', term: 'Logický důsledek', x: 'Z výroků P = {v<sub>1</sub>, …, v<sub>n</sub>} logicky vyplývá výrok d (P ⊨ d), právě když <b>pro všechna ohodnocení, při nichž jsou všechny v<sub>i</sub> pravdivé, je pravdivý i d</b>. Ekvivalentně: formule (v<sub>1</sub> ∧ … ∧ v<sub>n</sub>) → d je <b>tautologie</b>, resp. (v<sub>1</sub> ∧ … ∧ v<sub>n</sub> ∧ ¬d) je <b>kontradikce</b>.' },
-      { t: 'svg', title: 'Logický důsledek jako inkluze', x: UPP.consequenceDiagram() },
+      { t: 'def', term: 'Logický důsledek', x: 'Z výroků P = {v<sub>1</sub>, …, v<sub>n</sub>} logicky vyplývá výrok d (P ⊨ d), právě když <b>pro všechna ohodnocení, při nichž jsou všechny v<sub>i</sub> pravdivé, je pravdivý i d</b>.', items: ['ekvivalentně: formule (v<sub>1</sub> ∧ … ∧ v<sub>n</sub>) → d je <b>tautologie</b>', 'nebo: formule (v<sub>1</sub> ∧ … ∧ v<sub>n</sub> ∧ ¬d) je <b>kontradikce</b>'] },
+      { t: 'svg', title: 'Logický důsledek jako inkluze', x: UPP.consequenceDiagram(), cap: 'Množina ohodnocení, kde platí všechny premisy, leží celá uvnitř množiny ohodnocení, kde platí závěr d – to je P ⊨ d. Bod mimo by byl protipříklad (premisy platí, d ne).' },
       { t: 'flow', title: 'Postup ověření úsudku', steps: [
         { h: 'Pojmenuj výroky', x: 'p: prší, q: vezmu deštník, r: zmoknu …' },
         { h: 'Přelož premisy a závěr', x: 'v<sub>1</sub>, v<sub>2</sub>, … a d' },
@@ -72,7 +73,7 @@ registerTopic({
     ] },
     { title: 'Booleova algebra a fuzzy logika', blocks: [
       { t: 'p', x: 'Booleova algebra pracuje s proměnnými z {0,1} a třemi operacemi: <b>logický součet (+)</b>, <b>součin (·)</b> a <b>doplněk (¬)</b>. Priorita od nejvyšší: doplněk, součin, součet – proto lze místo ((x·y) + z) psát x·y + z. Výrokový počet tvoří Booleovu algebru: 1 = pravdivý výrok, 0 = nepravdivý, + = ∨, · = ∧.' },
-      { t: 'def', term: 'Fuzzy logika (Zadeh, 1965)', x: 'Ohodnocení proměnné je <b>míra pravdivosti</b> z intervalu ⟨0, 1⟩ (např. 0 = nepravda, ½ = neznámo, 1 = pravda). Operace součtu, součinu a doplňku se definují podobně jako v Booleově algebře, výsledek je opět z ⟨0, 1⟩.' },
+      { t: 'def', term: 'Fuzzy logika (Zadeh, 1965)', x: 'Ohodnocení proměnné je <b>míra pravdivosti</b> z intervalu ⟨0, 1⟩.', items: ['příklad: 0 = nepravda, ½ = neznámo, 1 = pravda', 'operace součtu, součinu a doplňku se definují podobně jako v Booleově algebře', 'výsledek je opět z ⟨0, 1⟩'] },
       { t: 'versus', cols: [
         { h: 'Booleova algebra', items: ['hodnoty {0, 1}', 'výrok je buď pravda, nebo nepravda'] },
         { h: 'Fuzzy logika', items: ['hodnoty z intervalu ⟨0, 1⟩', 'postihuje neurčitost, neznámo, „částečnou“ pravdu'] }

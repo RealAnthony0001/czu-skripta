@@ -24,7 +24,7 @@ registerTopic({
         ['(∃x) φ(x)', '(∀x) ¬φ(x)'],
         ['x > y,  x < y,  x = y', 'x ≤ y,  x ≥ y,  x ≠ y']
       ] },
-      { t: 'svg', title: 'Přehled pravidel negace', x: MLG.negace() },
+      { t: 'svg', title: 'Přehled pravidel negace', x: MLG.negace(), cap: 'Zleva doprava ekvivalence: ¬(A ∧ B) ≡ ¬A ∨ ¬B, ¬(A ∨ B) ≡ ¬A ∧ ¬B, ¬(A ⇒ B) ≡ A ∧ ¬B, ¬(∀x)φ ≡ (∃x)¬φ, ¬(∃x)φ ≡ (∀x)¬φ.' },
       { t: 'flow', title: 'Postup negace kvantifikovaného výroku', steps: [
         { h: 'Obrať všechny kvantifikátory', x: 'každé ∀ → ∃ a každé ∃ → ∀ (počet i pořadí zůstane)' },
         { h: 'Znegovat samotné tvrzení na konci', x: 'implikace → konjunkce předpokladu a negovaného závěru; ∧ ↔ ∨; relace obrať' },

@@ -17,7 +17,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Výrok a logické spojky', blocks: [
-      { t: 'def', term: 'Výrokový počet', x: 'Studuje, jak pravdivostní hodnota složeného výroku závisí na způsobu spojení a na pravdivostních hodnotách jednotlivých výroků. Matematická logika neřeší, zda jsou předpoklady pravdivé, ale jen zda <b>závěr z předpokladů vyplývá</b>.' },
+      { t: 'def', term: 'Výrokový počet', x: 'Studuje, jak pravdivostní hodnota složeného výroku závisí na způsobu spojení a na pravdivostních hodnotách jednotlivých výroků.', items: ['matematická logika <b>neřeší, zda jsou předpoklady pravdivé</b>', 'zajímá ji jen, zda <b>závěr z předpokladů vyplývá</b>'] },
       { t: 'table', head: ['Spojka', 'Význam', 'Značka', 'Příklad'], rows: [
         ['negace', '„není pravda, že“', '¬', 'Neprší.'],
         ['konjunkce', '„a (zároveň)“', '∧', 'Prší a svítí slunce.'],
@@ -31,13 +31,14 @@ registerTopic({
       { t: 'p', x: 'V Booleově algebře odpovídají: logický součet (+) = ∨ (OR), logický součin (·) = ∧ (AND), doplněk (¬) = negace (NON).' }
     ] },
     { title: 'Pravdivostní funkce', blocks: [
-      { t: 'def', term: 'Pravdivostní funkce', x: 'f(p<sub>1</sub>, …, p<sub>n</sub>) je zobrazení {0,1}<sup>n</sup> → {0,1}: pro každou kombinaci n dvouhodnotových proměnných dává výstup 0 nebo 1. Každá formule generuje pravdivostní funkci; zapisuje se <b>pravdivostní tabulkou</b>.' },
+      { t: 'def', term: 'Pravdivostní funkce', x: 'f(p<sub>1</sub>, …, p<sub>n</sub>) je zobrazení {0,1}<sup>n</sup> → {0,1}.', items: ['pro každou kombinaci n dvouhodnotových proměnných dává výstup 0 nebo 1', 'každá formule generuje pravdivostní funkci', 'zapisuje se <b>pravdivostní tabulkou</b>'] },
       { t: 'grid', head: ['a', 'b', 'a ∧ b', 'a ∨ b', 'a → b', 'a ↔ b', 'a ⊕ b', 'a ↑ b', 'a ↓ b'], rows: [
         ['0', '0', '0', '0', '1', '1', '0', '1', '1'],
         ['0', '1', '0', '1', '1', '0', '1', '1', '0'],
         ['1', '0', '0', '1', '0', '0', '1', '1', '0'],
         ['1', '1', '1', '1', '1', '1', '0', '0', '0']
       ] },
+      { t: 'widget', name: 'tt', how: ['Do pole ϕ napiš formuli (proměnné a–e, spojky ¬ ∧ ∨ → ↔ ⊕ ↑ ↓ – dají se vkládat tlačítky pod polem).', 'Tabulka má sloupec pro každou podformuli; <b>poslední (červeně) je výsledek celé formule</b>.', 'Pod tabulkou je určení formule (tautologie / kontradikce / splnitelná) a její ÚDNT a ÚKNT.', 'Do pole ψ napiš druhou formuli – widget rozhodne o ekvivalenci a logickém důsledku.'], sol: 'Formule <b>a → (b ∨ ¬a)</b> má ve sloupci výsledku (pro (a, b) = 00, 01, 10, 11) hodnoty 1, 1, 0, 1 → je <b>splnitelná, ale není tautologie</b>: nepravdivá je pro a = 1, b = 0.', sym: 'upp', f: 'a → (b ∨ ¬a)', title: 'Pravdivostní tabulka libovolné formule (a ekvivalence, důsledek)', cap: 'Spojky: ¬ ∧ ∨ → ↔ ⊕ ↑ ↓ (tlačítka nebo klávesnice: ! & | -> <->). Do ψ napiš druhou formuli a zjistíš, zda jsou ekvivalentní a zda plyne jedna z druhé.' },
       { t: 'p', x: 'Negace: ¬0 = 1, ¬1 = 0.' },
       { t: 'tip', x: '<b>Jak si pamatovat:</b> ∧ je 1 jen při 1,1 · ∨ je 0 jen při 0,0 · → je 0 jen při 1,0 · ↔ je 1, když jsou hodnoty stejné · ⊕ je 1, když se liší · ↑ je opak ∧ · ↓ je opak ∨.' },
       { t: 'warn', x: 'Implikace <b>není symetrická</b>: a → b ≠ b → a. Z nepravdy (a = 0) plyne cokoli, implikace je pak pravdivá.' }
@@ -48,7 +49,7 @@ registerTopic({
         { h: 'Kontradikce (F, 0)', items: ['nepravdivá pro <b>všechna</b> ohodnocení', 'např. p ∧ ¬p'] },
         { h: 'Splnitelná', items: ['aspoň <b>jedno</b> ohodnocení dává 1', 'tautologie je splnitelná, kontradikce ne'] }
       ] },
-      { t: 'svg', title: 'Jak spolu souvisejí druhy formulí', x: UPP.setsDiagram() },
+      { t: 'svg', title: 'Jak spolu souvisejí druhy formulí', x: UPP.setsDiagram(), cap: 'Formule se dělí na splnitelné (aspoň jedna 1) a kontradikce (samé 0); tautologie (samé 1) je zvláštní případ splnitelné formule. Příklady: p ∧ q je splnitelná, p ∨ ¬p tautologie, p ∧ ¬p kontradikce.' },
       { t: 'flow', title: 'Postup řešení', steps: [
         { h: 'Vypiš ohodnocení', x: '2<sup>n</sup> řádků' },
         { h: 'Vyhodnocuj zevnitř', x: 'vnitřní závorky → vnější; ¬ před binárními' },

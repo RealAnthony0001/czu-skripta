@@ -53,7 +53,7 @@ registerTopic({
       { t: 'warn', x: 'Řízení se nemůže konat před soudem, který není věcně, místně nebo funkčně příslušný – soud postoupí věc příslušnému soudu, případně řízení zastaví. Příslušnost soud zkoumá z úřední povinnosti.' }
     ] },
     { title: 'Žaloba a průběh řízení', blocks: [
-      { t: 'def', term: 'Žaloba (návrh na zahájení řízení)', x: 'Procesní úkon, kterým se žalobce obrací na soud a domáhá se ochrany svého práva. Řízení je zahájeno dnem, kdy žaloba došla příslušnému soudu.' },
+      { t: 'def', term: 'Žaloba (návrh na zahájení řízení)', x: 'Procesní úkon, kterým se žalobce obrací na soud a domáhá se ochrany svého práva.', items: ['řízení je zahájeno dnem, kdy žaloba došla příslušnému soudu'] },
       { t: 'ul', items: [
         '<b>Obecné náležitosti podání</b>: kdo je činí, které věci se týká a co sleduje; podpis a datum.',
         '<b>Náležitosti žaloby</b> (§ 79 OSŘ): označení soudu, účastníků (jméno, bydliště, rodné číslo nebo datum narození, u PO název, sídlo, IČO), <b>vylíčení rozhodujících skutečností</b> (skutkové tvrzení), <b>označení důkazů</b>, <b>žalobní návrh – petit</b> (čeho se domáhá).',

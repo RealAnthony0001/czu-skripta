@@ -19,7 +19,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Vedení lidí', blocks: [
-      { t: 'def', term: 'Vedení lidí', x: 'Využívání a způsob uplatňování pravomocí ŘP ve vztahu k podřízeným. <b>Není samostatnou fází procesu řízení</b>, prostupuje všemi fázemi, nejvíc se uplatní v operativním řízení. Špatně řídit a vést lidi umí skoro každý, dobře málokdo – je to jedna z nejdůležitějších dovedností ŘP.' },
+      { t: 'def', term: 'Vedení lidí', x: 'Využívání a způsob uplatňování pravomocí ŘP ve vztahu k podřízeným.', items: ['<b>není samostatnou fází procesu řízení</b>, prostupuje všemi fázemi, nejvíc se uplatní v operativním řízení', 'špatně řídit a vést lidi umí skoro každý, dobře málokdo – je to jedna z nejdůležitějších dovedností ŘP'] },
       { t: 'ul', items: [
         'Závisí na <b>osobnosti ŘP</b> (způsob myšlení, schopnosti, dovednosti, charakter, temperament), na <b>kolektivu</b> (tvůrčí × manuální pracovníci) a jeho <b>vztazích</b>, na udělených <b>pravomocích</b>, na <b>úkolech</b> (složité × jednoduché), na <b>stupni řízení</b> a na <b>ekonomické situaci</b> podniku.',
         'Bez pravomocí ŘP nemůže <b>rozhodovat, motivovat, delegovat, řešit konflikty</b> ani smysluplně komunikovat – nebyl by opravdovým vedoucím.',
@@ -54,12 +54,12 @@ registerTopic({
       ] }
     ] },
     { title: 'Styl řízení', blocks: [
-      { t: 'def', term: 'Styl řízení', x: 'Obvyklé chování a jednání ŘP při vedení lidí, rozhodování a komunikaci s podřízenými a při řešení řídících problémů. Ovlivňuje pracovní atmosféru, motivaci, efektivitu týmu i výkon organizace. Je výsledkem osobnostních vlastností (charakter, charisma, schopnosti, dovednosti, zkušenosti, zaměření, temperament), vlivu okolí a cílů a úkolů (stupeň řízení, ekonomická situace, vedený kolektiv, vlivy okolí).' },
+      { t: 'def', term: 'Styl řízení', x: 'Obvyklé chování a jednání ŘP při vedení lidí, rozhodování a komunikaci s podřízenými a při řešení řídících problémů.', items: ['ovlivňuje pracovní atmosféru, motivaci, efektivitu týmu i výkon organizace', 'je výsledkem osobnostních vlastností (charakter, charisma, schopnosti, dovednosti, zkušenosti, zaměření, temperament)', 'dále vlivu okolí a cílů a úkolů (stupeň řízení, ekonomická situace, vedený kolektiv, vlivy okolí)'] },
       { t: 'versus', title: 'Vnitřní a vnější stránka stylu, přirozený × vynucený', cols: [
         { h: 'Přirozený (vnitřní stránka)', items: ['dán osobností ŘP, jeho přirozenou převahou zaměření na úkol nebo lidi', 'autorita a sebevědomí vyplývající z dovedností a zkušeností'] },
         { h: 'Vynucený (vnější stránka)', items: ['okolnosti: úkoly nadřízeného stupně × požadavky kolektivu', 'stupeň řízení, ekonomická situace, vedený kolektiv'] }
       ], x: 'ŘP se přizpůsobuje tlaku z obou stran: nadřízený chce splnění úkolů (orientace na úkol), podřízení chtějí zdroje, peníze a lidi (orientace na lidi). Proto se styl vždy trochu odchyluje od osobní povahy. Vyšší stupně řízení se obecně přiklánějí k orientaci na úkol, nižší k orientaci na lidi.' },
-      { t: 'svg', title: 'Styly řízení v souřadnicích úkol × lidé', x: TROS.stylyGrid() },
+      { t: 'svg', title: 'Styly řízení v souřadnicích úkol × lidé', x: TROS.stylyGrid(), cap: 'Vodorovně je orientace na úkol, svisle na lidi: vznikají styly A sousedský / liberální, B lhostejný / byrokratický, C autokratický, D demokratický / týmový a uprostřed kompromisní.' },
       { t: 'table', head: ['Styl (L = lidé, V = výkon/úkol, E = efektivnost)', 'Charakteristika', 'Uplatnění'], rows: [
         ['<b>Lhostejný</b> (L−, V−, E−)', 'nezájem o lidi i úkol, jen předstírá; nežádoucí', 'jen v neefektivním (státním) podniku'],
         ['<b>Byrokratický</b> (L−, V−, E+)', 'jen předává příkazy nadřízených a kontroluje plnění; sám nemá iniciativu ani ji nevyžaduje', 'úřad (úředník)'],

@@ -27,7 +27,7 @@ registerTopic({
         ['𝕀 iracionální', 'ℝ ∖ ℚ', '√2, π, e'],
         ['ℂ komplexní', '{a + b·i | a, b ∈ ℝ, i² = −1}', 'i, 2 − 3i']
       ] },
-      { t: 'svg', title: 'Číselné obory jsou do sebe vnořené', x: MLG.ciselneObory() },
+      { t: 'svg', title: 'Číselné obory jsou do sebe vnořené', x: MLG.ciselneObory(), cap: 'ℕ ⊊ ℤ ⊊ ℚ ⊊ ℝ ⊊ ℂ – každý obor je podmnožinou dalšího; u každého jsou příklady čísel (0 patří do ℕ, iracionální čísla 𝕀 = ℝ ∖ ℚ).' },
       { t: 'warn', x: 'Nula patří v tomto předmětu do ℕ (ℕ = {0, 1, 2, …}). V jiných předmětech se ℕ někdy začíná jedničkou – vždy se drž definice z přednášky.' }
     ] },
     { title: 'Intervaly a operace s nimi', blocks: [
@@ -43,7 +43,7 @@ registerTopic({
       { t: 'tip', x: 'Nakresli si obě množiny nad sebe na číselnou osu a krajní body vyznač plným (patří) nebo prázdným (nepatří) kolečkem. Výsledek pak jen opíšeš.' }
     ] },
     { title: 'Komplexní čísla', blocks: [
-      { t: 'def', term: 'Komplexní číslo', x: 'z = a + b·i, kde a, b ∈ ℝ a <b>i² = −1</b>. a je reálná část, b imaginární část; komplexní číslo odpovídá bodu (a, b) v Gaussově rovině.' },
+      { t: 'def', term: 'Komplexní číslo', x: 'z = a + b·i, kde a, b ∈ ℝ a <b>i² = −1</b>.', items: ['a je reálná část, b imaginární část', 'komplexní číslo odpovídá bodu (a, b) v Gaussově rovině'] },
       { t: 'grid', head: ['Operace', 'Pravidlo', '18 − i a 3 + 2i (přednáška)'], rows: [
         ['součet', 'sečti reálné a imaginární části zvlášť', '21 + i'],
         ['rozdíl', 'odečti části zvlášť', '15 − 3i'],

@@ -58,7 +58,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Interaction: Training solutions (s. 44–45)', blocks: [
-      { t: 'def', term: 'Reminder (Grammar reference s. 167 a 172)', x: 'U dovedností používáme <i>can / could</i>, ale <b>be able to</b> v základním tvaru: <i>I’d like to be able to give good presentations. I won’t be able to do a course on Saturdays.</i> Porovnáváme komparativem a superlativem: <i>This course will be more interesting than that one. It’s the best course for me.</i>' },
+      { t: 'def', term: 'Reminder (Grammar reference s. 167 a 172)', x: 'Dovednosti a srovnávání:', items: ['u dovedností používáme <i>can / could</i>, ale <b>be able to</b> v základním tvaru: <i>I’d like to be able to give good presentations. I won’t be able to do a course on Saturdays.</i>', 'porovnáváme komparativem a superlativem: <i>This course will be more interesting than that one. It’s the best course for me.</i>'] },
       { t: 'p', x: 'Firma a&k (Stockholm) vyrábí elektronické karty a bezpečnostní systémy. Školitel Oskar mluví se třemi zaměstnanci:' },
       { t: 'grid', head: ['Zaměstnanec', 'Potřeba školení'], rows: [
         ['<b>Karen Barnes</b> (26, výzkumná asistentka)', 'je stydlivá a chybí jí sebevědomí; potřebuje zlepšit komunikaci, na poradách je nervózní; šéfka jí doporučuje <i>Assertiveness</i>'],

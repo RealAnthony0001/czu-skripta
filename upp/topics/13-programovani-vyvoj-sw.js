@@ -20,8 +20,8 @@ registerTopic({
   ],
   sections: [
     { title: 'Program a programovací jazyk', blocks: [
-      { t: 'def', term: 'Program', x: 'Formální zápis algoritmu ve zvoleném programovacím jazyce jako posloupnost příkazů programovacího jazyka, instrukcí strojového kódu nebo označení již hotových úseků programu či podprogramů.' },
-      { t: 'def', term: 'Programovací jazyk', x: 'Speciální jazyk, ve kterém programátor formuluje postup řešení problému (algoritmus) a zároveň je zápis <b>interpretovatelný počítačem</b> (obvykle po překladu do strojového kódu).' },
+      { t: 'def', term: 'Program', x: 'Formální zápis algoritmu ve zvoleném programovacím jazyce.', items: ['posloupnost příkazů programovacího jazyka', 'nebo instrukcí strojového kódu', 'nebo označení již hotových úseků programu či podprogramů'] },
+      { t: 'def', term: 'Programovací jazyk', x: 'Speciální jazyk, ve kterém programátor formuluje postup řešení problému (algoritmus).', items: ['zápis je zároveň <b>interpretovatelný počítačem</b> (obvykle po překladu do strojového kódu)'] },
       { t: 'versus', cols: [
         { h: 'Syntaxe', items: ['popisuje použití a <b>vzhled</b> jednotlivých prvků programu (znaků, slov)', 'určuje, kde se může nebo musí objevit speciální znak nebo klíčové slovo'] },
         { h: 'Sémantika', items: ['popisuje <b>význam</b> (obsah) slov a konstrukcí', 'vztahy konstrukcí zapsaných v souladu s pravidly syntaxe'] }
@@ -72,8 +72,8 @@ registerTopic({
         { h: 'Kompilátor', items: ['překlad <b>celého zdrojového textu najednou</b>, většinou ve více fázích (průchodech)', 'výsledkem je program ve spustitelném kódu počítače', 'překlad se provádí <b>jen jednou</b>, znovu pouze po změně programu'] },
         { h: 'Interpret', items: ['překlad <b>po částech</b> (příkazech, skupinách)', 'přeložená část se <b>ihned provede</b>', 'snazší kontrola sémantiky, ale <b>mnohem vyšší nároky na čas</b>'] }
       ], x: 'Kompilátor je jako překladatel knihy: přeloží celou knihu předem a pak ji čteš v češtině kolikrát chceš, překlad už se neopakuje. Interpret je jako tlumočník na schůzce: překládá větu po větě za běhu, takže hned reaguješ, ale tlumočit musí při každé schůzce znovu, a je to tedy pomalejší.' },
-      { t: 'def', term: 'Virtuální stroj', x: 'Vytváří <b>virtualizované prostředí mezi platformou počítače a operačním systémem</b>, ve kterém může koncový uživatel provozovat software na abstraktním stroji. <b>Aplikační virtuální stroj</b> (Java Virtual Machine, .NET …, používá interpret nebo kompilaci): aplikace psaná pro virtuální stroj může běžet na kterékoli platformě, není třeba oddělených verzí pro každý počítač a OS. <b>Emulátor</b> je program umožňující běh aplikací nebo OS na hardwaru, pro který nebyly napsány.' },
-      { t: 'svg', title: 'Kompilátor, interpret a virtuální stroj', x: UPP.translateDiagram() }
+      { t: 'def', term: 'Virtuální stroj', x: 'Vytváří <b>virtualizované prostředí mezi platformou počítače a operačním systémem</b>, ve kterém může koncový uživatel provozovat software na abstraktním stroji.', items: ['<b>aplikační virtuální stroj</b> (Java Virtual Machine, .NET …; používá interpret nebo kompilaci): aplikace psaná pro virtuální stroj může běžet na kterékoli platformě, není třeba oddělených verzí pro každý počítač a OS', '<b>emulátor</b> je program umožňující běh aplikací nebo OS na hardwaru, pro který nebyly napsány'] },
+      { t: 'svg', title: 'Kompilátor, interpret a virtuální stroj', x: UPP.translateDiagram(), cap: 'Kompilátor přeloží celý program jednou do spustitelného kódu; interpret překládá a provádí příkaz po příkazu a při každém spuštění znovu; virtuální stroj (JVM) spouští mezikód (Byte Code), který běží na každé platformě.' }
     ] },
     { title: 'Komponentová architektura aplikací a události', blocks: [
       { t: 'icons', title: 'Tři komponenty aplikace (uživatelského software)', items: [
@@ -82,7 +82,7 @@ registerTopic({
         { i: '🗄️', h: 'Logika přístupu k datům', x: 'datové služby, správa dat' }
       ] },
       { t: 'p', x: 'Komponenty mohou být umístěny různě (na serveru, na klientovi …) a navzájem komunikují – proto je nutné <b>jednotné rozhraní</b>. Uživatelské rozhraní aplikace je <b>textové</b> (Console, příkazový řádek) nebo <b>grafické</b> (okna, formuláře).' },
-      { t: 'def', term: 'Program řízený událostmi', x: 'Běh programu s grafickým rozhraním je řízen <b>událostmi</b> – program něco vykonává, jen když událost vznikne. Událostí je klepnutí (Click), poklepání (DoubleClick), přesunutí myši (MouseMove), otočení kolečka, stisk či uvolnění klávesy, <b>časovač</b> (generování impulsů) i program sám (reaguje na událost jinou událostí).' },
+      { t: 'def', term: 'Program řízený událostmi', x: 'Běh programu s grafickým rozhraním je řízen <b>událostmi</b> – program něco vykonává, jen když událost vznikne.', items: ['klepnutí (Click), poklepání (DoubleClick), přesunutí myši (MouseMove), otočení kolečka', 'stisk či uvolnění klávesy', '<b>časovač</b> (generování impulsů)', 'program sám (reaguje na událost jinou událostí)'] },
       { t: 'tip', x: '<b>Obsluha události:</b> aby program na událost reagoval, připojí se k ní <b>obslužný podprogram</b> – relativně samostatný kus programu, ve kterém je zapsána činnost, která se má provést.' },
       { t: 'svg', title: 'Tři komponenty aplikace a obsluha události', x: UPP.tiersDiagram(), cap: 'Komponenty spolu komunikují přes jednotné rozhraní; GUI program na událost reaguje připojeným obslužným podprogramem.' }
     ] },
@@ -93,7 +93,7 @@ registerTopic({
         { h: 'Projekce', x: 'detailní popis, všechny modely (diagram užití, datový model, stavový diagram …), návrh architektury, popřípadě prototyp' },
         { h: 'Implementace', x: 'aplikace vyrobená přesně podle zadání z projekční fáze' }
       ] },
-      { t: 'def', term: 'UML (Unified Modeling Language)', x: 'Sjednocený modelovací jazyk pro grafický zápis různých etap vývoje programových systémů (především objektově orientovaných). Vymysleli ho <b>Grady Booch, James Rumbaugh a Ivar Jacobson</b>. Skládá se z grafických prvků, které se kombinují do diagramů.' },
+      { t: 'def', term: 'UML (Unified Modeling Language)', x: 'Sjednocený modelovací jazyk pro grafický zápis různých etap vývoje programových systémů (především objektově orientovaných).', items: ['vymysleli ho <b>Grady Booch, James Rumbaugh a Ivar Jacobson</b>', 'skládá se z grafických prvků, které se kombinují do diagramů'] },
       { t: 'table', head: ['Skupina diagramů UML', 'Vybrané diagramy'], rows: [
         ['<b>Diagramy chování</b> (Behavior)', 'případů užití (Use case) · stavový (State chart) · činností (Activity)'],
         ['<b>Strukturální</b> (Structure)', 'tříd (Class) · objektů · komponent · kombinovaný strukturální · balíčků · nasazení'],

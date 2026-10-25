@@ -19,16 +19,13 @@ registerTopic({
   ],
   sections: [
     { title: 'Les, strom a listy', blocks: [
-      { t: 'def', term: 'Les a strom', x: 'graf je <b>les</b>, neobsahuje-li žádnou kružnici; <b>strom</b>, je-li navíc souvislý. Vrcholy stupně 1 jsou <b>listy</b>.' },
+      { t: 'def', term: 'Les a strom', x: 'Graf je <b>les</b>, neobsahuje-li žádnou kružnici.', items: ['<b>strom</b> je les, který je navíc souvislý', 'vrcholy stupně 1 jsou <b>listy</b>'] },
       { t: 'law', ref: 'Věty o stromech', x: 'Buď G graf s n vrcholy. Má-li méně než n − 1 hran, není souvislý; má-li více než n − 1 hran, obsahuje kružnici. Důsledek: <b>strom s n vrcholy má n − 1 hran</b>. Má-li G právě n − 1 hran, jsou ekvivalentní: G je souvislý ⇔ G je acyklický ⇔ G je strom. Strom s aspoň dvěma vrcholy má aspoň dva listy.' },
       { t: 'tip', x: 'Proč n − 1? Strom postavíš tak, že začneš jedním vrcholem a každý další připojíš jednou hranou. Hrana navíc by spojila dva už propojené vrcholy a vznikla by kružnice; hrana méně by nějaký vrchol odpojila.' }
     ] },
     { title: 'Podgraf, faktor a kostra', blocks: [
-      { t: 'grid', head: ['Pojem', 'Definice', 'Příklad'], rows: [
-        ['podgraf', 'V′ ⊆ V, E′ ⊆ E a hrany z E′ spojují jen vrcholy z V′', 'vynecháme vrchol e i jeho hrany'],
-        ['faktor', 'podgraf se <b>všemi</b> vrcholy', 'všechny vrcholy, jen některé hrany (může mít kružnici nebo být nesouvislý)'],
-        ['kostra', 'faktor, který je <b>stromem</b>', 'všechny vrcholy, n − 1 hran, souvislý, bez kružnice']
-      ] },
+      { t: 'svg', title: 'Podgraf, faktor a kostra téhož grafu', x: MLG.podgrafy(), cap: 'Plné červené čáry zůstávají, čárkované hrany a vrcholy se vynechaly.' },
+      { t: 'p', x: '<b>Podgraf</b> vznikne vynecháním některých vrcholů a hran (V′ ⊆ V, E′ ⊆ E) – hrany z E′ ale musí spojovat jen vrcholy, které zůstaly, proto s vynechaným vrcholem e mizí i jeho hrany. <b>Faktor</b> je podgraf, který si ponechá <b>všechny vrcholy</b> a vynechává jen hrany; může mít kružnici nebo být nesouvislý (zde ab, cd, de). <b>Kostra</b> je faktor, který je navíc <b>strom</b>: souvislý, bez kružnice, s n − 1 hranami (zde 4).' },
       { t: 'p', x: 'Kostra existuje jen u souvislého grafu. Z jednoho grafu jich obvykle vybereme mnoho – liší se tím, které hrany vynecháme.' }
     ] },
     { title: 'Kostry K₄ a další příklady', blocks: [

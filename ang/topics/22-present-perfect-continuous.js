@@ -26,7 +26,7 @@ registerTopic({
       { t: 'svg', title: 'Činnost a její důsledek', x: ANG.ppcContrast(), cap: 'Continuous ukazuje na <b>činnost</b>, která měla vliv na přítomnost.' }
     ] },
     { title: 'Tvoření (Form)', blocks: [
-      { t: 'svg', title: 'Stavba present perfect continuous', x: ANG.ppcForm(), cap: '' },
+      { t: 'svg', title: 'Stavba present perfect continuous', x: ANG.ppcForm(), cap: 'Kladná věta: podmět + have / has + been + sloveso s -ing; záporná haven’t / hasn’t been + -ing; otázka přehodí have / has a podmět.' },
       { t: 'grid', head: ['Typ věty', 'Pravidlo', 'Příklad'], rows: [
         ['Kladná', '<b>have / has + been + verb-ing</b>', 'I/You/We/They <b>have been living</b> here for three years. · He/She/It <b>has been living</b> here since 2008.'],
         ['Záporná', '<b>have / has + not + been + verb-ing</b>', 'I/You/We/They <b>haven’t been feeling</b> well lately. · He/She/It <b>hasn’t been feeling</b> well lately.'],

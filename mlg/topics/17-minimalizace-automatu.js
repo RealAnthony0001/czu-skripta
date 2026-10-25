@@ -19,20 +19,21 @@ registerTopic({
   ],
   sections: [
     { title: 'Dosažitelné stavy', blocks: [
-      { t: 'def', term: 'Dosažitelnost', x: 'stav q je <b>dosažitelný</b>, existuje-li slovo w, nad kterým výpočet skončí v q. Automat je dosažitelný, jsou-li dosažitelné všechny jeho stavy. Nedosažitelné stavy („hospody, do kterých nevede cesta“) jazyk neovlivní a lze je vyškrtnout.' },
+      { t: 'def', term: 'Dosažitelnost', x: 'Stav q je <b>dosažitelný</b>, existuje-li slovo w, nad kterým výpočet skončí v q.', items: ['automat je dosažitelný, jsou-li dosažitelné všechny jeho stavy', 'nedosažitelné stavy („hospody, do kterých nevede cesta“) jazyk neovlivní a lze je vyškrtnout'] },
       { t: 'flow', title: 'Hledání dosažitelné části', steps: [
         { h: 'Začni počátečním stavem', x: 'označ ho' },
         { h: 'Přidávej stavy, kam vedou přechody z označených', x: 'projdi řádky tabulky označených stavů' },
         { h: 'Skonči, když nic nového nepřibude', x: 'neoznačené stavy škrtni' }
       ] },
       { t: 'ex', x: '<b>Přednáška:</b> →1: 5, 5 · ←2: 2, 7 · 3: 4, 6 · 4: 6, 1 · 5: 1, 3 · 6: 5, 4 · 7: 8, 1 · ←8: 2, 5 (sloupce a, b). Z 1 se dostaneme do 5, z 5 do 3, ze 3 do 4 a 6. Dosažitelné jsou <b>1, 3, 4, 5, 6</b> – žádný z nich není přijímající, automat tedy přijímá <b>prázdný jazyk ∅</b>.' },
+      { t: 'widget', name: 'dos', how: ['Tabulka je ze zadání (sloupce a, b = cílový stav přechodu; →1 počáteční, ←2 a ←8 přijímající).', 'Každý krok vezme označený stav a označí stavy, kam z něj vede přechod (modře).', 'Neoznačené stavy na konci jsou nedosažitelné a vyškrtnou se.'], title: 'Hledání dosažitelných stavů krok za krokem (příklad z přednášky)', cap: 'Tabulka je stejná jako v příkladu výše (sloupce a, b); označují se stavy, kam se dá z počátečního stavu dojít.' },
       { t: 'grid', head: ['Cvičení 6, úloha 8', 'Dosažitelné stavy', 'Jazyk'], rows: [
         ['(a)', '1, 3, 6, 7', 'slova končící na 111'],
         ['(b)', '1, 2, 3, 6, 9', 'slova se sudým počtem nul, který je aspoň čtyři']
       ] }
     ] },
     { title: 'Ekvivalentní stavy a minimální automat', blocks: [
-      { t: 'def', term: 'Maximální faktorizace', x: 'stavy q₁, q₂ jsou ekvivalentní (q₁ ∼ q₂), přijímají-li automaty (Q, Σ, δ, q₁, F) a (Q, Σ, δ, q₂, F) stejný jazyk. Automat A/∼ = (Q/∼, Σ, δ/∼, [q₀]∼, F/∼) je <b>maximální faktorizace</b> A.' },
+      { t: 'def', term: 'Maximální faktorizace', x: 'Stavy q₁, q₂ jsou ekvivalentní (q₁ ∼ q₂), přijímají-li automaty (Q, Σ, δ, q₁, F) a (Q, Σ, δ, q₂, F) stejný jazyk.', items: ['automat A/∼ = (Q/∼, Σ, δ/∼, [q₀]∼, F/∼) je <b>maximální faktorizace</b> A'] },
       { t: 'law', ref: 'Věty', x: 'Maximální faktorizace přijímá stejný jazyk jako A; je-li A dosažitelný, je to <b>minimální automat</b> pro L(A). Dva redukované automaty přijímající stejný jazyk jsou stejné až na přejmenování stavů. Dva automaty jsou ekvivalentní, právě když jsou maximální faktorizace jejich dosažitelných částí shodné až na přejmenování.' },
       { t: 'flow', title: 'Algoritmus (postupné zjemňování)', steps: [
         { h: 'Rozděl stavy na přijímající a nepřijímající', x: 'stavy z různých skupin ekvivalentní být nemohou (ε je odliší)' },
@@ -41,7 +42,7 @@ registerTopic({
         { h: 'Opakuj, dokud se rozdělení mění', x: 'výsledné skupiny jsou nové stavy; přechody převezmi z libovolného zástupce' }
       ] },
       { t: 'ex', x: '<b>Přednáška:</b> →1: 1, 3 · 2: 1, 3 · ←3: 6, 5 · 4: 1, 5 · 5: 2, 4 · ←6: 6, 2 (sloupce a, b), všechny stavy jsou dosažitelné.<br>Krok 0: {1, 2, 4, 5} | {3, 6}.<br>Krok 1: 1 a 2 jdou (N, F), 4 a 5 jdou (N, N) ⇒ {1, 2} | {4, 5} | {3, 6}.<br>Krok 2: 3 jde b → 5 ∈ {4, 5}, ale 6 jde b → 2 ∈ {1, 2} ⇒ rozdělit: {1, 2} | {4, 5} | {3} | {6}.<br>Krok 3: nic se nemění. Minimální automat má <b>4 stavy</b>.' },
-      { t: 'svg', title: 'Minimální automat po faktorizaci', x: MLG.automatMin(), cap: 'Stavy 1 a 2 se chovají stejně, stejně tak 4 a 5; přijímající jsou 3 a 6.' },
+      { t: 'widget', fig: MLG.automatMin(), figcap: 'Stavy 1 a 2 se chovají stejně, stejně tak 4 a 5; přijímající jsou 3 a 6.', name: 'automin', how: ['Tabulka ukazuje pro každý stav jeho skupinu a skupiny, do kterých vedou přechody pro a a b.', 'Stavy se stejným „podpisem“ zůstanou ve skupině, ostatní se rozdělí; modře jsou skupiny, které se právě rozdělily.', 'Končíme, když se rozdělení v kole už nezmění; poslední krok ukáže minimální automat.'], sol: 'Skupiny: {1, 2, 4, 5} | {3, 6} → {1, 2} | {4, 5} | {3, 6} → {1, 2} | {4, 5} | {3} | {6} → beze změny. Minimální automat má <b>4 stavy</b> (1 ∼ 2 a 4 ∼ 5).', title: 'Minimalizace automatu krok za krokem (příklad z přednášky)' },
       { t: 'grid', head: ['Cvičení 6, úloha 9', 'Stavů po minimalizaci', 'Jazyk'], rows: [
         ['(a)', '3', 'slova s počtem znaků dělitelným třemi'],
         ['(b)', '4', 'dvouznaková slova'],
@@ -52,7 +53,7 @@ registerTopic({
       { t: 'tip', x: 'Před faktorizací vždy nejdřív odstraň nedosažitelné stavy – úloha 9(a) má 8 stavů, ale dosažitelných je jen 5 (1, 3, 4, 6, 8) a po sloučení zbudou 3.' }
     ] },
     { title: 'Myhillova–Nerodova ekvivalence', blocks: [
-      { t: 'def', term: 'Pravý kontext a M–N ekvivalence', x: 'pro jazyk L a slovo u je <b>pravý kontext</b> u\\L = {v ∈ Σ* | uv ∈ L}. Myhillova–Nerodova ekvivalence ∼<sub>L</sub> slučuje slova se stejným pravým kontextem: u ∼<sub>L</sub> v ⇔ u\\L = v\\L.' },
+      { t: 'def', term: 'Pravý kontext a M–N ekvivalence', x: 'Pro jazyk L a slovo u je <b>pravý kontext</b> u\\L = {v ∈ Σ* | uv ∈ L}.', items: ['Myhillova–Nerodova ekvivalence ∼<sub>L</sub> slučuje slova se stejným pravým kontextem: u ∼<sub>L</sub> v ⇔ u\\L = v\\L'] },
       { t: 'p', x: 'Třídy této ekvivalence odpovídají stavům minimálního automatu: dvě slova jsou „ve stejném stavu“, když je musíme doplnit úplně stejnými konci, aby patřila do L.' },
       { t: 'ex', x: '<b>L = {111, 1011} (otázka z přednášky):</b> třídy podle pravého kontextu:<br>ε → {111, 1011} · 1 → {11, 011} · 10 → {11} · 11 a 101 → {1} · 111 a 1011 → {ε} · všechna ostatní slova (0, 00, 110, 1111, …) → ∅.<br>Vychází <b>6 tříd</b>, minimální automat pro L má tedy 6 stavů (včetně pasti pro ∅).' }
     ] }

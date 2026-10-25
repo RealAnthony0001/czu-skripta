@@ -22,7 +22,7 @@ registerTopic({
   sections: [
     { title: 'Word Focus: Compound nouns (s. 18–19)', blocks: [
       { t: 'p', x: 'Slovní zásoba je z textu <i>Unusual hotels</i>: Jumbo Hostel ve Stockholmu (hotel v přestavěném Boeingu 747 u letiště; pokoj od 350 švédských korun), Propeller Island City Lodge v Berlíně (bývalá věznice) a Molja Fyr v Norsku (150 let starý maják s jediným pokojem; €315 za noc).' },
-      { t: 'def', term: 'Compound noun', x: 'Složené podstatné jméno vzniká z dvou nebo více slov: <b>noun + noun</b> (<i>businessman, airport, hairdryer</i>) nebo <b>adjective + noun</b> (<i>Swedish krona, double bed</i>).' },
+      { t: 'def', term: 'Compound noun', x: 'Složené podstatné jméno vzniká z dvou nebo více slov:', items: ['<b>noun + noun</b> (<i>businessman, airport, hairdryer</i>)', '<b>adjective + noun</b> (<i>Swedish krona, double bed</i>)'] },
       { t: 'svg', title: 'Tři způsoby zápisu', x: ANG.l2Compound(), cap: 'Pravidlo, kdy dohromady, s pomlčkou nebo zvlášť, není jednotné – ověř ve slovníku.' },
       { t: 'grid', head: ['A + B', 'Složené slovo'], rows: [
         ['bath + robe', 'bathrobe (župan)'], ['tooth + brush', 'toothbrush'], ['honey + moon', 'honeymoon'], ['news + paper', 'newspaper'],
@@ -74,7 +74,7 @@ registerTopic({
         { h: 'Neochotně (s blízkými)', items: ['<i>Well, all right then.</i>', '<i>I suppose so.</i>', '<i>Well, you can schedule it in but let’s see how it goes.</i>'] },
         { h: 'Plně souhlasně', items: ['<i>Yes, that’s true.</i>', '<i>Absolutely!</i>', '<i>Fine.</i>'] }
       ], x: 'Martin říká „Well, all right then“ a „I suppose so“ – souhlasí, ale není nadšený. Učebnice se ptá, kdy takové fráze používáme – s lidmi, které známe velmi dobře, nebo s lidmi, které neznáme. Jsou to neformální a spíš váhavé odpovědi, vhodné pro blízkého člověka (manžel – manželka).' },
-      { t: 'def', term: 'Reminder z učebnice', x: '<b>Going to</b> = plán nebo záměr, který už je rozhodnutý. <b>Will</b> (často s <i>probably</i>) = rozhodnutí bez zvláštního plánu: <i>I think I’ll probably go sightseeing on Friday.</i> <b>Present continuous</b> = domluvený a zorganizovaný plán: <i>We’re leaving on 16 January.</i> Souhlas vyjadřujeme krátce (<i>Yes, that’s true. Absolutely!</i>). Při nesouhlasu váháme a vysvětlujeme: <i>Erm, I’m not sure because it might cost a lot.</i>' },
+      { t: 'def', term: 'Reminder z učebnice', x: 'Budoucí formy a (ne)souhlas:', items: ['<b>Going to</b> = plán nebo záměr, který už je rozhodnutý', '<b>Will</b> (často s <i>probably</i>) = rozhodnutí bez zvláštního plánu: <i>I think I’ll probably go sightseeing on Friday.</i>', '<b>Present continuous</b> = domluvený a zorganizovaný plán: <i>We’re leaving on 16 January.</i>', 'souhlas vyjadřujeme krátce (<i>Yes, that’s true. Absolutely!</i>)', 'při nesouhlasu váháme a vysvětlujeme: <i>Erm, I’m not sure because it might cost a lot.</i>'] },
       { t: 'grid', head: ['Nabídka (What’s On guide)', 'Cena'], rows: [
         ['Desert safaris (celodenní, večeře v táboře, velbloud, sandboarding, břišní tance)', 'US$ 90 za osobu'],
         ['Hot air ballooning (nad dunami, velbloudy, oázami)', 'US$ 245 za osobu'],

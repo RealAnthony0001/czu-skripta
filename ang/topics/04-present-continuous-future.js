@@ -14,7 +14,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Použití (Use)', blocks: [
-      { t: 'def', term: 'Použití', x: 'Present continuous používáme o <b>budoucích plánech a domluvách</b>. Ať jde o něco, co už je zapsané, naplánované nebo domluvené.' },
+      { t: 'def', term: 'Použití', x: 'Present continuous používáme o <b>budoucích plánech a domluvách</b>.', items: ['ať jde o něco, co už je zapsané, naplánované nebo domluvené'] },
       { t: 'ex', x: 'We’re <b>meeting</b> at 3.30 on Thursday. <i>(Máme to v diáři.)</i><br>I’m not <b>seeing</b> him on Friday. <i>(Není to naplánované.)</i><br>What time are you <b>arriving</b>? <i>(Jaký je rozpis?)</i>' },
       { t: 'svg', title: 'Tvoření a použití', x: ANG.presContFutureForm(), cap: 'Tvoření je stejné jako u present continuous – liší se jen to, že mluvíme o budoucím čase (proto je v těchto větách časový údaj).' },
       { t: 'tip', x: 'Pro plán s <b>domluveným časem</b> a <b>lidmi</b> (schůzka, let, návštěva) je present continuous přirozená volba. Pro <b>osobní záměr</b>, kde nic domluveného nemusí být, se používá <i>going to</i>.' }
@@ -25,6 +25,14 @@ registerTopic({
         { h: 'present continuous', items: ['I’m coming to the meeting on Friday.', '= <b>It’s a planned arrangement.</b> (je to domluvené)'] },
         { h: 'will', items: ['Er… OK, I’ll come to the meeting.', '= <b>I’m deciding now.</b> (rozhoduji se teď)'] }
       ], x: 'Všechny tři věty říkají, že přijdeš, ale liší se tím, <b>odkud ten plán pochází</b>. <i>Will</i> je spontánní rozhodnutí: kolega se zeptá a ty právě teď řekneš ano. <i>Going to</i> vyjadřuje vlastní úmysl, na kterém jsi se rozhodl dřív. Present continuous znamená, že už se o schůzce domluvili i ostatní – je zapsaná v kalendáři.' },
+      { t: 'widget', name: 'kviz', how: ['Vyber odpověď – hned se ukáže, zda je správná, a proč.', 'Šipkami ◀ ▶ přecházíš mezi otázkami; poslední stránka ukazuje skóre.', 'Otázky vycházejí z příkladů v tomto tématu.'], sol: '1. <i>We are meeting at 3.30</i> – domluva v diáři (present continuous). 2. <i>I’m not seeing him</i> – není to naplánované (present continuous). 3. <i>What time are you arriving?</i> – rozpis. 4. <i>I’m going to come</i> – osobní záměr. 5. <i>I’m coming</i> – domluvený plán. 6. <i>I’ll come</i> – rozhodnutí právě teď (will).', title: 'Zkus si: present continuous, going to, will', items: [
+        { q: 'We ____ at 3.30 on Thursday.', hint: 'máme to v diáři', o: ['are meeting', 'will meet', 'might meet'], a: 0, why: 'Domluvená schůzka s časem = present continuous.' },
+        { q: 'I ____ him on Friday.', hint: 'není to naplánované', o: ['’m not seeing', '’m not going to', 'won’t'], a: 0, why: 'Přijatá domluva – nebo její absence – se vyjadřuje present continuous.' },
+        { q: 'What time ____ you ____?', hint: 'jaký je rozpis?', o: ['are / arriving', 'will / arrive', 'might / arrive'], a: 0, why: 'Pro rozpis a domluvený čas je present continuous přirozená volba.' },
+        { q: 'I ____ come to the meeting on Friday.', hint: '= I intend to be there. (mám v úmyslu)', o: ['’m going to', '’m coming', '’ll'], a: 0, why: 'Osobní záměr = going to.' },
+        { q: 'I ____ come to the meeting on Friday.', hint: '= It’s a planned arrangement. (je to domluvené)', o: ['’m going to', '’m coming', '’ll'], a: 1, why: 'Domluvený plán = present continuous.' },
+        { q: 'Er… OK, I ____ come to the meeting.', hint: '= I’m deciding now. (rozhoduji se teď)', o: ['’m going to', '’m coming', '’ll'], a: 2, why: 'Rozhodnutí v okamžiku mluvení = will.' }
+      ] },
       { t: 'p', x: 'V učebnici (lekce 2) se tyto formy trénují v rozhovoru na letišti v Hongkongu: cestující vyprávějí o svých plánech (<i>Definite plans</i> × <i>Possibilities</i>), takže vedle <i>going to</i> a present continuous se objevuje i <i>might</i> pro nejisté plány.' }
     ] },
     { title: 'Tvoření (Form)', blocks: [

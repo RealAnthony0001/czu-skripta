@@ -237,5 +237,110 @@ const TROS = (() => {
     return svg(720, 284, o);
   };
 
-  return { sekvParal, mintzberg, sedmS, ovladani, rizeni, regulace, cyklus, matice, subsystemy, oblasti, kompetenceGrid, stabilita, systemOkoli, agregace, orgStupne, eisenhower, stylyGrid, komunikace, smery, spolehlivost, motivace };
+  // ===== diagramy nahrazující tabulky =====
+  const lines = (x, y, w, h, cls, ls) => rect(x, y, w, h, cls) + ls.map((t, i) => text(x + w / 2, y + 16 + i * 14, t, i ? 'c sm' : 'c sm bd')).join('');
+  const sb = (t, s) => `${t}<tspan dy="3" font-size="10">${s}</tspan>`;   // dolní index v SVG textu (jen na konci řetězce)
+  const arr = (x1, y1, x2, y2, c = 'ln') => line(x1, y1, x2, y2, c, 'end');
+
+  // 1) druhy vazeb mezi prvky systému
+  const vazby = () => {
+    const nd = (x, y, t) => `<circle cx="${x}" cy="${y}" r="16" class="b"/>` + text(x, y + 5, t, 'c bd');
+    const P = [
+      ['přímá', 'S', 'ij', 'otevřená, sériová', o => nd(o + 50, 50, 'Ai') + nd(o + 170, 50, 'Aj') + arr(o + 67, 50, o + 152, 50, 'lA')],
+      ['nepřímá', 'S', 'ik', 'otevřená, sériová (přes Aj)', o => nd(o + 30, 50, 'Ai') + nd(o + 120, 50, 'Aj') + nd(o + 210, 50, 'Ak') + arr(o + 47, 50, o + 102, 50, 'lA') + arr(o + 137, 50, o + 192, 50, 'lA')],
+      ['rozvodná', 'P', 'ijk', 'otevřená, paralelní: jeden prvek vysílá do dvou', o => nd(o + 40, 50, 'Ai') + nd(o + 190, 20, 'Aj') + nd(o + 190, 80, 'Ak') + arr(o + 56, 44, o + 174, 24, 'lA') + arr(o + 56, 56, o + 174, 76, 'lA')],
+      ['svodná', 'P', 'ijk', 'otevřená, paralelní: dva prvky vstupují do jednoho', o => nd(o + 40, 20, 'Ai') + nd(o + 40, 80, 'Aj') + nd(o + 190, 50, 'Ak') + arr(o + 56, 24, o + 174, 44, 'lA') + arr(o + 56, 76, o + 174, 56, 'lA')],
+      ['vlastní zpětná', 'Z', 'jj', 'uzavřená: prvek působí sám na sebe', o => nd(o + 120, 62, 'Aj') + path(`M${o + 106},${48} C${o + 70},${0} ${o + 170},${0} ${o + 134},${48}`, 'lD', 'end')],
+      ['přímá zpětná', 'Z', 'ji', 'uzavřená: výstup Aj se vrací na vstup Ai', o => nd(o + 50, 55, 'Ai') + nd(o + 190, 55, 'Aj') + arr(o + 67, 55, o + 172, 55, 'lA') + path(`M${o + 190},${72} C${o + 190},${112} ${o + 50},${112} ${o + 50},${73}`, 'lD', 'end')]
+    ];
+    return svg(760, 330, P.map(([n, l, i, d, g], k) => { const o = 10 + (k % 3) * 250, y = Math.floor(k / 3) * 165; return `<g transform="translate(0,${y})">${g(o)}<text x="${o + 120}" y="125" class="c bd">${n} (${l}<tspan dy="3" font-size="10">${i}</tspan><tspan dy="-3">)</tspan></text>${text(o + 120, 143, d, 'c sm mu')}</g>`; }).join(''), 760);
+  };
+
+  // 2) typologie systémů – kde leží podnik
+  const typologie = () => {
+    const R = [['vztah k objektům', [['abstraktní', 0], ['reálné', 1]]], ['vztah k okolí', [['uzavřené', 0], ['otevřené', 0], ['relativně izolované', 1]]], ['podrobnost zkoumání', [['absolutní', 0], ['redukované', 1]]], ['faktor času', [['prospektivní', 1], ['retrospektivní', 1]]],
+      ['složitost', [['jednoduché', 0], ['složité', 0], ['velmi složité', 1]]], ['typ chování', [['deterministické', 0], ['stochastické', 1]]], ['vztah ke změnám', [['neadaptivní', 0], ['adaptivní', 1]]], ['vztah k tvorbě cílů', [['bez cílového chování', 0], ['s cílovým chováním', 1]]]];
+    return svg(760, 330, R.map(([n, o], i) => { const y = 8 + i * 38; return text(10, y + 20, n, 'sm bd') + o.map(([t, s], k) => rect(180 + k * 190, y, 184, 30, s ? 'fA' : 'b') + text(180 + k * 190 + 92, y + 19, t, s ? 'c sm bd' : 'c sm')).join(''); }).join('') + text(750, 322, 'červeně = jak je to u podniku', 'e sm tA'), 760);
+  };
+
+  // 3) fáze procesu řízení × podílející se subsystémy
+  const fazeSub = () => {
+    const C = ['ŘSS', 'EIS', 'TS2', 'OSS', 'PS1', 'MOS', 'PS2'], cw = 86, x0 = 130;
+    const R = [['Plánování', 'fA', { ŘSS: ['subjekt,', 'cíle OS'], EIS: ['ekonomické,', 'tržní a org.', 'informace'], TS2: ['technické', 'informace'] }], ['Organizování', 'fD', { ŘSS: ['koordinátor,', 'schvaluje'], OSS: ['navrhne zdroje', 'a OJ'], PS1: ['produkce', 'v OJ'] }], ['Operativní řízení', 'fW', { ŘSS: ['přímé', 'řízení'], MOS: ['každodenní', 'obchodní', 'činnost'], PS2: ['fyzická práce', 'a spolupráce'] }]];
+    return svg(760, 250, C.map((c, i) => text(x0 + i * cw + cw / 2, 20, c, 'c bd')).join('') + R.map(([n, cls, m], r) => { const y = 34 + r * 70; return text(10, y + 38, n, 'bd') + C.map((c, i) => (m[c] ? rect(x0 + i * cw + 3, y, cw - 6, 62, cls) + m[c].map((t, k) => text(x0 + i * cw + cw / 2, y + 18 + k * 14, t, 'c sm')).join('') : rect(x0 + i * cw + 3, y, cw - 6, 62, 'pd'))).join(''); }).join(''), 760);
+  };
+
+  // 4) rozlišovací úrovně jako vnořené celky
+  const uroveni = () => {
+    const L = [['1. úroveň: podnik jako celek (OS)', ''], ['2. úroveň: subsystémy 1. řádu', 'PS1, OSS, ŘSS …'], ['3. úroveň: subsystémy 2. řádu', 'subsystém produktu P1, organizační stupeň OS2'], ['4. úroveň: subsystémy 3. řádu (prvky OS)', 'hmotný prvek HP, organizační jednotka OJ, ŘP'], ['5. úroveň', 'soubor JOP – JOPn,m, fyzická spolupráce na pracovišti']];
+    return svg(760, 330, L.map(([t, s], i) => rect(8 + i * 26, 6 + i * 44, 744 - i * 52, 318 - i * 58, i % 2 ? 'b' : 'pd') + text(20 + i * 26, 24 + i * 44, t, 'sm bd') + (s ? text(20 + i * 26, 40 + i * 44, s, 'sm mu') : '')).join(''), 760);
+  };
+
+  // 5) typy organizačních struktur – schémata
+  const orgTypy = () => {
+    const nd = (x, y, w, t, cls = 'b') => lines(x - w / 2, y, w, 26, cls, [t]).replace(/y="(\d+)" class="c sm bd"/, (m, v) => `y="${+v - 0}" class="c sm bd"`);
+    const top = (x, t) => nd(x, 28, 100, t, 'fA');
+    return svg(760, 235,
+      text(125, 16, 'podnikových funkcí', 'c bd') + top(125, 'podnik') + ['výroba', 'obchod', 'služby', 'účtárna', 'štáb'].map((t, i) => nd(28 + i * 46, 118, 44, t, 'fD').replace(/class="c sm bd"/, 'class="c bd" style="font-size:9px"') + line(125, 54, 28 + i * 46, 118, 'ln')).join('') +
+      text(385, 16, 'výrobků (produktová)', 'c bd') + top(385, 'podnik') + ['produkt A', 'produkt B', 'produkt C', 'servis'].map((t, i) => nd(310 + i * 52, 118, 50, t, 'fW').replace(/class="c sm bd"/, 'class="c bd" style="font-size:9px"') + line(385, 54, 310 + i * 52, 118, 'ln')).join('') +
+      text(640, 16, 'území (územní)', 'c bd') + top(640, 'podnik') + nd(640, 90, 100, 'region', 'fD') + line(640, 54, 640, 90, 'ln') + nd(590, 150, 80, 'oblast 1', 'fW') + nd(690, 150, 80, 'oblast 2', 'fW') + line(640, 116, 590, 150, 'ln') + line(640, 116, 690, 150, 'ln') + nd(590, 200, 80, 'farma', 'b') + nd(690, 200, 80, 'farma', 'b') + line(590, 176, 590, 200, 'ln') + line(690, 176, 690, 200, 'ln'), 760);
+  };
+
+  // 6) typy řídících struktur – schémata
+  const ridiciStruktury = () => {
+    const nd = (x, y, w, t, cls = 'b') => rect(x - w / 2, y, w, 24, cls) + text(x, y + 16, t, 'c sm bd'), ln = (x1, y1, x2, y2, c = 'ln') => line(x1, y1, x2, y2, c);
+    const n2 = (x, y, w, a, b, cls = 'b') => rect(x - w / 2, y, w, 34, cls) + text(x, y + 14, a, 'c sm bd') + text(x, y + 27, b, 'c sm bd');
+    const T = (x, t, y = 14) => text(x, y, t, 'c bd');
+    return svg(760, 420,
+      // liniová × štábní
+      T(125, 'liniové × štábní') + nd(105, 28, 100, 'GŘ', 'fA') + nd(105, 78, 100, 'ředitel závodu', 'fD') + nd(105, 128, 100, 'vedoucí provozu', 'fD') + nd(105, 178, 100, 'výkonní pracovníci', 'b') + ln(105, 52, 105, 78) + ln(105, 102, 105, 128) + ln(105, 152, 105, 178) +
+      n2(205, 62, 70, 'štáb', 'radí', 'fW') + ln(155, 40, 175, 62, 'ds') +
+      // funkcionální
+      T(400, 'funkcionální') + nd(400, 28, 120, 'vedení podniku', 'fA') + ['výroby', 'ekonomiky', 'obchodu'].map((t, i) => n2(320 + i * 80, 86, 76, 'ředitel', t, 'fD') + ln(400, 52, 320 + i * 80, 86) + n2(320 + i * 80, 146, 76, 'vedoucí', 'oddělení', 'b') + ln(320 + i * 80, 120, 320 + i * 80, 146)).join('') +
+      // divizionální
+      T(650, 'divizionální') + nd(650, 28, 120, 'vedení podniku', 'fA') + [0, 1].map(i => n2(600 + i * 100, 86, 92, 'ředitel', 'divize ' + (i + 1), 'fD') + ln(650, 52, 600 + i * 100, 86) + n2(600 + i * 100, 140, 92, 'výroba, prodej,', 'finance', 'b') + ln(600 + i * 100, 120, 600 + i * 100, 140)).join('') +
+      // projektová
+      T(190, 'projektová (pružná)', 222) + nd(190, 238, 190, 'vedení, představenstvo, štáb', 'fA') + ['vývoj', 'výroba', 'servis', 'obchod'].map((t, i) => nd(70 + i * 80, 288, 74, t, 'fD') + ln(190, 262, 70 + i * 80, 288)).join('') + ['P1', 'P2', 'Pn'].map((t, i) => rect(30, 322 + i * 26, 320, 20, 'pd') + text(40, 336 + i * 26, 'projekt ' + t, 'sm bd tW')).join('') + text(190, 410, 'vedoucí projektů berou pracovníky z útvarů', 'c sm mu') +
+      // procesní
+      T(560, 'procesní', 222) + nd(560, 238, 170, 'sponzor procesu (vedení)', 'fA') + nd(560, 288, 150, 'koordinátor procesu', 'fD') + ln(560, 262, 560, 288) + [0, 1, 2].map(i => nd(465 + i * 95, 338, 88, 'vlastník ' + (i + 1), 'fW') + ln(560, 312, 465 + i * 95, 338)).join('') + text(560, 386, 'vlastníci podprocesů', 'c sm mu'), 760);
+  };
+
+  // 7) charakter informací podle úrovně řízení
+  const infoUrovne = () => {
+    const R = [['zdroj', 'externí', 'interní'], ['rozsah', 'velmi široký, nespecifikovaný', 'úzce specifikovaný'], ['podrobnost', 'integrované veličiny', 'podrobné údaje'], ['časovost', 'budoucnost', 'současnost, minulost'], ['včasnost', 'nejsou urgentní', 'urgentní'], ['četnost', 'málo četné (rok)', 'četné (denně)'], ['přesnost', 'nízká, aproximace, kvalitativní', 'přesné, kvantitativní']];
+    return svg(760, 300, text(10, 20, 'strategická úroveň (TOP)', 'bd tA') + text(750, 20, 'operativní (nižší) úroveň', 'e bd tD') + text(380, 20, 'taktická = mezi tím', 'c sm mu') + R.map(([n, a, b], i) => { const y = 38 + i * 36; return rect(8, y, 220, 28, 'fA') + text(118, y + 19, a, 'c sm bd') + rect(532, y, 220, 28, 'fD') + text(642, y + 19, b, 'c sm bd') + arr(232, y + 14, 528, y + 14, 'ln') + text(380, y + 10, n, 'c sm mu'); }).join(''), 760);
+  };
+
+  // 8) přikazování – koučování – delegování
+  const delegovani = () => {
+    const C = [['Přikazování', 'fA', 'přesně určí co, jak, kdy a s kým', ['úkol', 'vše rozhodnuto', '„nediskutuj a splň“', 'kontrola'], 'vypjatá situace, časová tíseň'],
+      ['Koučování', 'fW', 'otázkami vede k vlastnímu programu', ['úkol', 'otázka', 'odpověď', 'odsouhlasené řešení', 'realizace', 'kontrola'], 'zaučování, vyšší způsob vedení'],
+      ['Delegování', 'fD', 'předá úkol, pravomoc a zdroje', ['úkol', 'zadání', 'pravomoc a zdroje', 'vlastní program', 'realizace', 'kontrola'], 'standardní situace s kvalitním podřízeným']];
+    return svg(760, 335, arr(10, 14, 750, 14, 'lA') + text(380, 10, 'samostatnost podřízeného roste', 'c sm mu') + C.map(([t, c, d, st, k], i) => { const x = 10 + i * 250; return rect(x, 26, 240, 52, c) + text(x + 120, 46, t, 'c bd') + text(x + 120, 64, 'ŘP ' + d, 'c sm') + st.map((s2, k2) => rect(x + 40, 88 + k2 * 30, 160, 20, 'b') + text(x + 120, 102 + k2 * 30, s2, 'c sm') + (k2 ? arr(x + 120, 88 + k2 * 30 - 10, x + 120, 88 + k2 * 30 - 1, 'ln') : '')).join('') + text(x + 120, 290, 'kdy:', 'c sm bd') + text(x + 120, 306, k.length > 34 ? k.slice(0, k.lastIndexOf(' ', 34)) : k, 'c sm mu') + (k.length > 34 ? text(x + 120, 320, k.slice(k.lastIndexOf(' ', 34) + 1), 'c sm mu') : ''); }).join(''), 760);
+  };
+
+  // 9) komunikace podle počtu účastníků
+  const komunikaceUcastnici = () => {
+    const n = (x, y) => `<circle cx="${x}" cy="${y}" r="12" class="fD"/>`;
+    return svg(760, 190,
+      n(70, 60) + path('M60,50 C20,10 120,10 80,50', 'lA', 'end') + text(70, 110, 'intrapersonální', 'c bd') + text(70, 128, 'vnitřní komunikace', 'c sm mu') + text(70, 143, 'jednoho člověka', 'c sm mu') +
+      n(230, 60) + n(330, 60) + arr(244, 56, 316, 56, 'lA') + arr(316, 66, 244, 66, 'lA') + text(280, 110, 'interpersonální', 'c bd') + text(280, 128, 'mezi dvěma', 'c sm mu') + text(280, 143, 'a více lidmi', 'c sm mu') +
+      [[470, 30], [540, 30], [470, 90], [540, 90]].map(([x, y]) => n(x, y)).join('') + arr(484, 30, 526, 30, 'lA') + arr(470, 44, 470, 76, 'lA') + arr(540, 44, 540, 76, 'lA') + arr(526, 90, 484, 90, 'lA') + arr(482, 38, 530, 82, 'lA') + text(505, 125, 'skupinová', 'c bd') + text(505, 143, 'porady, týmové řešení', 'c sm mu') + text(505, 158, '(i přes internet)', 'c sm mu') +
+      n(640, 60) + [[705, 20], [715, 60], [705, 100]].map(([x, y]) => n(x, y) + arr(654, 60, x - 14, y, 'lW')).join('') + text(680, 125, 'masová', 'c bd') + text(680, 143, 'jednosměrná k velkému', 'c sm mu') + text(680, 158, 'počtu osob (TV, tisk)', 'c sm mu'), 760);
+  };
+
+  // 10) čtyři generace plánování času
+  const generace = () => {
+    const G = [['I.', 'poznámky a upomínky', 'zaznamenání úkolů'], ['II.', 'kalendáře a diáře', 'systematické plánování'], ['III.', 'prioritizace úkolů', 'důležitost a naléhavost (Eisenhower)'], ['IV.', 'osobní řízení a rovnováha', 'rovnováha práce a osobního života']];
+    return svg(760, 240, G.map(([n, t, s], i) => rect(10 + i * 185, 160 - i * 40, 175, 75 + i * 40, ['b', 'fD', 'fW', 'fA'][i]) + text(22 + i * 185, 180 - i * 40, n + ' generace', 'sm bd') + text(22 + i * 185, 197 - i * 40, t, 'sm') + text(22 + i * 185, 213 - i * 40, s.length > 26 ? s.slice(0, s.lastIndexOf(' ', 26)) : s, 'sm mu') + (s.length > 26 ? text(22 + i * 185, 228 - i * 40, s.slice(s.lastIndexOf(' ', 26) + 1), 'sm mu') : '')).join('') + arr(10, 20, 740, 20, 'lA') + text(375, 14, 'od zapisování úkolů k osobnímu řízení', 'c sm mu'), 760);
+  };
+
+  // 11) Fayolovy skupiny činností → dnešní subsystémy OS
+  const fayolMapa = () => {
+    const L = [['Technické', 'výroba, těžba', [0, 1, 2]], ['Obchodní', 'nákup, prodej, směna', [3]], ['Finanční', 'opatřování a využití kapitálu', [4]], ['Účetní', 'výkazy, kalkulace, inventarizace', [4]], ['Ochranné', 'ochrana vlastnictví a osobnosti', [5]], ['Správní = řízení', 'předvídání, organizování, přikazování, koordinace, kontrola', [6, 7]]];
+    const Rr = ['PS1', 'TS1', 'TS2', 'MOS', 'EIS', 'ŘSS – MJS', 'ŘSS', 'OSS'];
+    return svg(760, 330, L.map(([n, s, t], i) => { const y = 8 + i * 52; return rect(10, y, 330, 44, 'b') + text(20, y + 18, n, 'sm bd') + text(20, y + 34, s, 'sm mu') + t.map(k => line(340, y + 22, 520, 14 + k * 38 + 14, 'lA')).join(''); }).join('') + Rr.map((t, k) => rect(520, 14 + k * 38, 110, 28, 'fD') + text(575, 14 + k * 38 + 19, t, 'c sm bd')).join('') + text(645, 150, '← dnešní pojetí', 'sm mu') + text(10, 326, 'Fayolova skupina činností podniku', 'sm mu') + text(575, 326, 'subsystém OS', 'c sm mu'), 760);
+  };
+
+  return { sekvParal, mintzberg, sedmS, ovladani, rizeni, regulace, cyklus, matice, subsystemy, oblasti, kompetenceGrid, stabilita, systemOkoli, agregace, orgStupne, eisenhower, stylyGrid, komunikace, smery, spolehlivost, motivace, vazby, typologie, fazeSub, uroveni, orgTypy, ridiciStruktury, infoUrovne, delegovani, komunikaceUcastnici, generace, fayolMapa };
 })();

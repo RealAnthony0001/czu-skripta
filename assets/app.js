@@ -21,6 +21,8 @@ const setTheme = t => { document.documentElement.dataset.theme = t; store.set('t
 const setRecall = on => { document.body.classList.toggle('recall', on); store.set('recall', on); $('#recall').classList.toggle('on', on); };
 
 // interaktivní bloky: { t: 'widget', name, title, x } – kód widgetu je v <předmět>/*.js a registruje se do window.WIDGETS[name] = (element, blok) => …
+// tělo rámečku: x = úvodní věta, volitelně items = odrážky (definice, příklady, upozornění)
+const boxBody = b => (b.items?.length ? `${b.x ? `<p class="lead">${b.x}</p>` : ''}<ul>${b.items.map(i => `<li>${i}</li>`).join('')}</ul>` : b.x);
 const WGB = [];
 const LBL = { tip: 'Zapamatuj si', warn: 'Pozor', ex: 'Příklad' };
 function block(b) {
@@ -37,10 +39,10 @@ function block(b) {
     case 'versus': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="vsb" style="--n:${b.cols.length}">${b.cols.map((c, k) => `<div class="vcol c${k}"><div class="vh">${c.h}</div><ul>${c.items.map(i => `<li>${i}</li>`).join('')}</ul></div>`).join('')}${b.cols.length === 2 ? '<div class="x">×</div>' : ''}</div>${b.x ? `<div class="vx"><span class="lb">Srozumitelně</span>${b.x}</div>` : ''}</div>`;
     case 'grid': return `<div class="tbl"><table><tr>${b.head.map(h => `<th>${h}</th>`).join('')}</tr>${b.rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</table></div>`;
     case 'svg': return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="dg">${b.x}</div>${b.cap ? `<p class="cap">${b.cap}</p>` : ''}</div>`;
-    case 'widget': WGB.push(b); return `<div class="vz">${b.title ? `<div class="vt">${b.title}</div>` : ''}<div class="wg" data-wi="${WGB.length - 1}"></div>${b.cap ? `<p class="cap">${b.cap}</p>` : ''}</div>`;
-    case 'def': return `<div class="box def"><span class="lb">${b.term}</span>${b.x}</div>`;
-    case 'law': return `<div class="box law"><span class="lb">${b.ref}</span>${b.x}</div>`;
-    default: return `<div class="box ${b.t}"><span class="lb">${LBL[b.t] || b.t}</span>${b.x}</div>`;
+    case 'widget': WGB.push(b); return `<div class="vz wgv">${b.title ? `<div class="vt">${b.title}</div>` : ''}${b.fig ? `<div class="dg">${b.fig}</div>${b.figcap ? `<p class="cap">${b.figcap}</p>` : ''}` : ''}${b.how ? `<div class="how"><span class="lb">Jak to číst a ovládat</span><ul>${b.how.map(i => `<li>${i}</li>`).join('')}</ul></div>` : ''}${b.sol ? `<div class="box ex sol"><span class="lb">Správné řešení – vzorový příklad</span>${b.sol}</div>` : ''}<div class="wg" data-wi="${WGB.length - 1}"></div>${b.cap ? `<p class="cap">${b.cap}</p>` : ''}</div>`;
+    case 'def': return `<div class="box def"><span class="lb">${b.term}</span>${boxBody(b)}</div>`;
+    case 'law': return `<div class="box law"><span class="lb">${b.ref}</span>${boxBody(b)}</div>`;
+    default: return `<div class="box ${b.t}"><span class="lb">${LBL[b.t] || b.t}</span>${boxBody(b)}</div>`;
   }
 }
 // tabulky se podle tvaru vykreslí jako: srovnání vedle sebe / glosář / karty / řádky s popisky

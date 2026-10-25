@@ -27,7 +27,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Datový typ ukazatel', blocks: [
-      { t: 'def', term: 'Ukazatel (pointer)', x: 'Vždy ukazuje na jiný datový typ (<b>bázový typ</b>) a <b>obsahuje adresu</b>, na které je uložena hodnota bázového typu. Může obsahovat i speciální hodnotu <b>NULL</b> = nikam neukazuje. Používá se u <b>dynamicky alokovaných proměnných</b>: je třeba vytvořit prostor v paměti pro hodnotu (<b>new</b>) a také ho uvolnit (<b>delete</b>).' },
+      { t: 'def', term: 'Ukazatel (pointer)', x: 'Vždy ukazuje na jiný datový typ (<b>bázový typ</b>) a <b>obsahuje adresu</b>, na které je uložena hodnota bázového typu.', items: ['může obsahovat i speciální hodnotu <b>NULL</b> = nikam neukazuje', 'používá se u <b>dynamicky alokovaných proměnných</b>', 'je třeba vytvořit prostor v paměti pro hodnotu (<b>new</b>) a také ho uvolnit (<b>delete</b>)'] },
       { t: 'svg', title: 'Ukazatel U na hodnotu typu int', x: UPP.pointerDiagram(), cap: 'U → 102 → −33, tedy U je adresa (102) a *U je hodnota na této adrese (−33).' },
       { t: 'grid', head: ['C++', 'Význam'], rows: [
         ['<code>int * ukazatel</code>', 'deklarace: ukazatel na hodnotu typu celé číslo'],
@@ -50,10 +50,10 @@ registerTopic({
     { title: 'Dynamická struktura: ukazatel na záznam', blocks: [
       { t: 'p', x: 'Proměnná <code>US</code> je ukazatel na záznam typu <code>Typ_S</code>:' },
       { t: 'ex', x: '<code>struct Typ_S { int Info; char Znak; };</code><br><code>Typ_S *US; US = new Typ_S;</code><br>Přístup k položkám: <code>(*US).Info</code> je ekvivalentní <code>US-&gt;Info</code>, <code>(*US).Znak</code> ≡ <code>US-&gt;Znak</code>.' },
-      { t: 'def', term: 'Rozšíření o ukazatel Dalsi – rekurzivní definice typu', x: 'Přidáním položky <code>Typ_S *Dalsi;</code> do definice <code>Typ_S</code> vznikne <b>rekurzivní definice typu</b> – položka datového typu odkazuje na definici téhož typu, obvykle formou ukazatele. Pak lze řetězit: <code>US = new Typ_S; US-&gt;Dalsi = new Typ_S;</code> – a vzniká seznam.' }
+      { t: 'def', term: 'Rozšíření o ukazatel Dalsi – rekurzivní definice typu', x: 'Přidáním položky <code>Typ_S *Dalsi;</code> do definice <code>Typ_S</code> vznikne <b>rekurzivní definice typu</b>.', items: ['položka datového typu odkazuje na definici téhož typu, obvykle formou ukazatele', 'pak lze řetězit: <code>US = new Typ_S; US-&gt;Dalsi = new Typ_S;</code> – a vzniká seznam'] }
     ] },
     { title: 'Rekurze', blocks: [
-      { t: 'def', term: 'Rekurze', x: 'Definice objektu, datového typu nebo procesu <b>pomocí jeho samého</b>. V informatice opakované vnořené volání téhož programu nebo podprogramu – v jednom okamžiku je <b>rozpracován více než jeden exemplář</b> téhož podprogramu.' },
+      { t: 'def', term: 'Rekurze', x: 'Definice objektu, datového typu nebo procesu <b>pomocí jeho samého</b>.', items: ['v informatice opakované vnořené volání téhož programu nebo podprogramu', 'v jednom okamžiku je <b>rozpracován více než jeden exemplář</b> téhož podprogramu'] },
       { t: 'versus', title: 'Podle způsobu volání', cols: [
         { h: 'Přímá rekurze', items: ['podprogram A volá <b>sám sebe</b>', 'jazyk musí umožnit volat tentýž podprogram ještě před jeho dokončením'] },
         { h: 'Nepřímá (vzájemná) rekurze', items: ['účastní se aspoň dva podprogramy', 'A volá B a B zpětně volá A (před dokončením prvního volání A)'] }
@@ -78,7 +78,7 @@ registerTopic({
         ['<code>long I_Faktorial(int N) {<br>&nbsp;&nbsp;long Fakt = 1;<br>&nbsp;&nbsp;for (int I = 1; I &lt;= N; I++)<br>&nbsp;&nbsp;&nbsp;&nbsp;{ Fakt = Fakt * I; }<br>&nbsp;&nbsp;return Fakt;<br>}</code>', '<code>long R_Faktorial(int N) {<br>&nbsp;&nbsp;long Fakt;<br>&nbsp;&nbsp;if (N == 0) Fakt = 1;<br>&nbsp;&nbsp;else Fakt = N * R_Faktorial(N − 1);<br>&nbsp;&nbsp;return Fakt;<br>}</code>']
       ] },
       { t: 'ex', x: '<b>R_Faktorial(4):</b> 4 · R(3) = 4 · 3 · R(2) = 4 · 3 · 2 · R(1) = 4 · 3 · 2 · 1 · R(0), R(0) = 1 (konec) → návrat zpět: 1, 1, 2, 6, <b>24</b>. Hodnoty 0! … 5!: 1, 1, 2, 6, 24, 120.' },
-      { t: 'svg', title: 'Rekurzivní volání R_Faktorial(4)', x: UPP.recursionDiagram(), cap: 'Dolů se volá, dokud se nedojde ke konci (N = 0); násobení se vyhodnocuje až při návratu zpět.' },
+      { t: 'widget', fig: UPP.recursionDiagram(), figcap: 'Dolů se volá, dokud se nedojde ke konci (N = 0); násobení se vyhodnocuje až při návratu zpět.', name: 'rekurze', how: ['Vyber N; kroky nejdřív ukazují volání dolů (zásobník volání roste), pak návraty nahoru.', 'Oranžový rámeček je volání, které se právě provádí; modrý je volání, které už vrací hodnotu.', 'Násobí se až při návratu, ne při volání.'], sol: '<b>4! = 4 · 3 · 2 · 1 · 1 = 24</b>: dolů se volá R(4) → R(3) → R(2) → R(1) → R(0); R(0) vrací 1; při návratu se vrací 1, 1, 2, 6 a nakonec <b>24</b>.', title: 'Rekurzivní volání R_Faktorial(N) – zásobník volání krok za krokem' },
       { t: 'p', x: '<b>Co vypíšou programy?</b> Funkce <code>Znak()</code> načte znak Z; pokud není „*“, provede popsané akce. Uživatel zadá postupně A, B, C, *:' },
       { t: 'grid', head: ['Pořadí v těle', 'Kód', 'Výpis'], rows: [
         ['<b>výpis před rekurzí</b>', 'if (Z != \'*\') { cout &lt;&lt; Z &lt;&lt; endl; Znak(); }', 'A, B, C – znaky ve <b>stejném pořadí</b> jako zadané (každý na novém řádku); „*“ se nevypíše'],
@@ -105,13 +105,14 @@ registerTopic({
         ['<b>zrušení seznamu</b> (iterativně)', 'dokud <code>Seznam != NULL</code>: <code>Pom = Seznam;</code> <code>Seznam = Seznam-&gt;Dalsi;</code> uvolni Pom'],
         ['<b>zrušení seznamu</b> (rekurzivně)', '<code>Zrus(Param)</code>: je-li <code>Param-&gt;Dalsi != NULL</code> → <code>Zrus(Param-&gt;Dalsi)</code>; pak uvolni Param. Volání <code>Zrus(Seznam)</code>.']
       ] },
-      { t: 'tip', x: 'Vložení / vyřazení <b>před</b> aktuální prvek a vyřazení aktuálního vyžaduje najít předchůdce – jednosměrný seznam nemá odkaz zpět, proto se prochází od začátku (<code>Seznam</code>). Je-li Aktual první prvek, použije se místo toho vložení / vyřazení na začátku.' }
+      { t: 'tip', x: 'Vložení / vyřazení <b>před</b> aktuální prvek a vyřazení aktuálního vyžaduje najít předchůdce – jednosměrný seznam nemá odkaz zpět, proto se prochází od začátku (<code>Seznam</code>). Je-li Aktual první prvek, použije se místo toho vložení / vyřazení na začátku.' },
+      { t: 'widget', name: 'seznam', how: ['Tlačítky vkládáš a vyřazuješ prvky; oranžový ukazatel Seznam míří na první prvek, červený Aktual na aktuální.', 'Pod obrázkem je vysvětlení a odpovídající kód (jednotlivé kroky jsou číslované).', 'Aktual → další posune aktuální prvek.'], sol: 'Vložení za aktuální: nejdřív <code>Novy-&gt;Dalsi = Aktual-&gt;Dalsi;</code> (nový prvek převezme následníka), teprve potom <code>Aktual-&gt;Dalsi = Novy;</code>. V opačném pořadí by se zbytek seznamu ztratil.', title: 'Zkus si operace se seznamem', cap: 'Vkládej a vyřazuj prvky a sleduj přepojování ukazatelů; pod obrázkem je odpovídající kód z tabulky.' },
     ] },
     { title: 'Strom a binární strom', blocks: [
-      { t: 'def', term: 'Strom', x: 'Strom T je konečná množina jednoho nebo více prvků (uzlů), z nichž <b>jeden je označen jako kořen r (root)</b> a zbývající uzly jsou rozděleny do k ≥ 0 disjunktních podmnožin T<sub>1</sub>, …, T<sub>k</sub>, které jsou také stromy a jejichž kořeny jsou následníky kořene r. Uzly bez synů jsou <b>listy</b>; cesta od kořene k uzlu je <b>větev</b>. Strom je graf, ve kterém existuje <b>jediná cesta z kořene do kteréhokoli uzlu</b> (neobsahuje cykly).' },
-      { t: 'def', term: 'Binární strom (dynamická struktura)', x: 'Skládá se z <b>uzlů a hran</b> (hrany jsou ukazatele). Každý uzel nese kromě <code>Info</code> dva ukazatele na své syny – <code>Levy</code> a <code>Pravy</code>. Uzel, kterým se do stromu vstupuje, je <b>Kořen</b> – nemá předchůdce.' },
+      { t: 'def', term: 'Strom', x: 'Strom T je konečná množina jednoho nebo více prvků (uzlů).', items: ['<b>jeden uzel je označen jako kořen r (root)</b>', 'zbývající uzly jsou rozděleny do k ≥ 0 disjunktních podmnožin T<sub>1</sub>, …, T<sub>k</sub>, které jsou také stromy a jejichž kořeny jsou následníky kořene r', 'uzly bez synů jsou <b>listy</b>; cesta od kořene k uzlu je <b>větev</b>', 'strom je graf, ve kterém existuje <b>jediná cesta z kořene do kteréhokoli uzlu</b> (neobsahuje cykly)'] },
+      { t: 'def', term: 'Binární strom (dynamická struktura)', x: 'Skládá se z <b>uzlů a hran</b> (hrany jsou ukazatele).', items: ['každý uzel nese kromě <code>Info</code> dva ukazatele na své syny – <code>Levy</code> a <code>Pravy</code>', 'uzel, kterým se do stromu vstupuje, je <b>Kořen</b> – nemá předchůdce'] },
       { t: 'ex', x: '<code>struct Uzel { TypInfo Info; Uzel * Levy; Uzel * Pravy; };</code> <code>Uzel * Strom;</code> – chybějící syn = <code>NULL</code> (listy mají oba ukazatele NULL).' },
-      { t: 'svg', title: 'Binární strom', x: UPP.treeDiagram() }
+      { t: 'svg', title: 'Binární strom', x: UPP.treeDiagram(), cap: 'Kořen je uzel 8; z něj vede do každého uzlu jediná cesta.' }
     ] },
     { title: 'Graf', blocks: [
       { t: 'def', term: 'Graf', x: 'Skládá se z konečné množiny <b>uzlů (U)</b> a konečné množiny <b>hran (H)</b>; hrana je spojnicí dvou uzlů.' },
@@ -124,7 +125,7 @@ registerTopic({
       ] },
       { t: 'p', x: '<b>Graf jako dynamická struktura:</b> uzly a hrany jsou reprezentovány ukazateli. Každý uzel nese <code>Info</code> a ukazatele na jeden nebo více jiných uzlů (hrany). Graf je reprezentován <b>ukazatelem na začátek seznamu uzlů</b>; u orientovaného grafu se do seznamu hran uzlu U<sub>i</sub> zařazují jen hrany, pro které je U<sub>i</sub> počátečním uzlem; u ohodnoceného grafu nese každá hrana i ohodnocení.' },
       { t: 'ex', x: '<code>struct TUzel { InfoTyp Info; THrana * Hrana; TUzel * DalsiU; };</code><br><code>struct THrana { HodTyp Hod; TUzel * Uzel; THrana * DalsiH; };</code> <code>TUzel * Graf;</code> – uzly tvoří seznam (<code>DalsiU</code>), každý uzel má seznam svých hran (<code>Hrana</code>, <code>DalsiH</code>), hrana ukazuje na koncový uzel (<code>Uzel</code>) a nese ohodnocení (<code>Hod</code>).' },
-      { t: 'svg', title: 'Graf a jeho reprezentace ukazateli', x: UPP.graphDiagram() }
+      { t: 'svg', title: 'Graf a jeho reprezentace ukazateli', x: UPP.graphDiagram(), cap: 'Vlevo orientovaný ohodnocený graf se čtyřmi uzly, vpravo jeho reprezentace v paměti: seznam uzlů a z každého seznam hran s cílem a váhou, zakončený NULL.' }
     ] }
   ],
   mistakes: [

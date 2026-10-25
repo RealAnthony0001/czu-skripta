@@ -22,14 +22,8 @@ registerTopic({
         '<b>Komparativ</b> používáme pro srovnání <b>dvou</b> věcí: <i>Beijing is larger than Moscow.</i> · <i>Beijing is more expensive than Mexico City but it is less expensive than Moscow.</i>',
         '<b>Superlativ</b> používáme pro srovnání <b>tří nebo více</b> věcí: <i>Mexico City is the largest city in the world.</i> · <i>Mexico City is the least expensive of the three cities and Moscow is the most expensive.</i>'
       ] },
-      { t: 'grid', head: ['Typ přídavného jména', 'Komparativ / superlativ', 'Příklad'], rows: [
-        ['Krátká', 'přidej <b>-er / -est</b>', 'Beijing is <b>cheaper than</b> Moscow, but Mexico City is <b>the cheapest</b>.'],
-        ['Dlouhá', '<b>more / the most</b> nebo <b>less / the least</b>', 'Beijing is <b>more expensive than</b> Mexico City but Moscow’s <b>the most expensive</b>. · Beijing is <b>less expensive than</b> Moscow, but Mexico City is <b>the least expensive</b>.'],
-        ['Nepravidelná: <i>good</i>', 'better – best', 'The weather in Beijing is <b>better than</b> the weather in Moscow, but Mexico City has <b>the best</b> weather.'],
-        ['Nepravidelná: <i>bad</i>', 'worse – worst', 'The traffic in Beijing is <b>worse than</b> in Moscow, but Mexico City probably has <b>the worst</b> traffic in the world.'],
-        ['Nepravidelná: <i>far</i>', 'further – furthest', 'Mexico City is <b>further than</b> Moscow. Beijing is <b>the furthest</b>.'],
-        ['Nepravidelná: <i>much / many</i>', 'more – most', 'Moscow has many traffic jams but Beijing has <b>more</b>. Mexico City has <b>the most</b> traffic jams.']
-      ] },
+      { t: 'svg', title: 'Tvoření komparativu a superlativu', x: ANG.compForm(), cap: 'Krátká přídavná jména berou koncovku, dlouhá more / most; nepravidelná se učí zvlášť.' },
+      { t: 'ex', x: '<b>Příklady z učebnice:</b><br><b>Krátká</b>: Beijing is <b>cheaper than</b> Moscow, but Mexico City is <b>the cheapest</b>.<br><b>Dlouhá</b>: Beijing is <b>more expensive than</b> Mexico City but Moscow’s <b>the most expensive</b>. · Beijing is <b>less expensive than</b> Moscow, but Mexico City is <b>the least expensive</b>.<br><b>Nepravidelná: <i>good</i></b>: The weather in Beijing is <b>better than</b> the weather in Moscow, but Mexico City has <b>the best</b> weather.<br><b>Nepravidelná: <i>bad</i></b>: The traffic in Beijing is <b>worse than</b> in Moscow, but Mexico City probably has <b>the worst</b> traffic in the world.<br><b>Nepravidelná: <i>far</i></b>: Mexico City is <b>further than</b> Moscow. Beijing is <b>the furthest</b>.<br><b>Nepravidelná: <i>much / many</i></b>: Moscow has many traffic jams but Beijing has <b>more</b>. Mexico City has <b>the most</b> traffic jams.' },
       { t: 'p', x: '<b>Dvouslabičná přídavná jména</b> (zvláštní případy): u mnoha se používá <i>more / most</i>: <i>more / most modern, recent, famous, correct, normal, frequent</i>. U některých jde obojí: <i>more clever / cleverer, more simple / simpler, more quiet / quieter</i> atd.' },
       { t: 'tip', x: 'Před superlativem stojí <b>the</b> (<i>the cheapest, the most expensive</i>); za komparativem následuje <b>than</b> (<i>cheaper than</i>).' }
     ] },

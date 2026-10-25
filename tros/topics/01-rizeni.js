@@ -20,7 +20,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Co je řízení', blocks: [
-      { t: 'def', term: 'Řízení', x: '„Řízení je dosahování cílů prostřednictvím jiných lidí.“ Je to <b>subjektivní, cílevědomá činnost lidí</b>, která je <b>objektivně nutná</b>, poznává a využívá objektivní zákonitosti přírody a společnosti a na jejich základě stanovuje <b>cíle, prostředky, průběh a kontrolu</b> stanovené činnosti.' },
+      { t: 'def', term: 'Řízení', x: '„Řízení je dosahování cílů prostřednictvím jiných lidí.“', items: ['<b>subjektivní, cílevědomá činnost lidí</b>, která je <b>objektivně nutná</b>', 'poznává a využívá objektivní zákonitosti přírody a společnosti', 'na jejich základě stanovuje <b>cíle, prostředky, průběh a kontrolu</b> stanovené činnosti'] },
       { t: 'tip', x: 'Úspěšně řídit znamená <b>znát, mít pravomoc, chtít a stačit</b>. „Řízení je nejstarší umění a nejmladší povolání.“' },
       { t: 'p', x: 'Jakmile je lidská činnost založena na <b>dělbě práce</b>, musí někdo součinnost jednotlivců <b>organizovat a koordinovat</b>, <b>určovat cíle</b> a <b>kontrolovat jejich dosažení</b>. Takové činnosti se souhrnně nazývají <b>řízení – management</b>.' },
       { t: 'flow', title: 'Tři podmínky, aby mohlo řízení lidí proběhnout', steps: [
@@ -39,7 +39,7 @@ registerTopic({
         '<b>Kybernetické pojetí řízení</b> – obecné zákonitosti řízení strojů i živých organismů.',
         '<b>Řízení podniků = management</b> – tomu se věnuje tento předmět.'
       ] },
-      { t: 'def', term: 'Kybernetika', x: 'Věda o obecných zákonitostech řízení; jako věda existuje zhruba 60 let. Slovo použil už <b>Platón</b> (řecky <i>kybernétés</i> = kormidelník, ve smyslu „vládnout“). Studuje principy přenosu informací mezi systémem a okolím a zákony řízení <b>pro stroje i živé organismy</b>, takže lze zkušenosti z jednoho oboru použít v jiném. „Kybernetika je věda o řízení a sdělování v živých organizmech a strojích.“ (<b>Norbert Wiener</b>)' }
+      { t: 'def', term: 'Kybernetika', x: 'Věda o obecných zákonitostech řízení; jako věda existuje zhruba 60 let.', items: ['slovo použil už <b>Platón</b> (řecky <i>kybernétés</i> = kormidelník, ve smyslu „vládnout“)', 'studuje principy přenosu informací mezi systémem a okolím a zákony řízení <b>pro stroje i živé organismy</b>, takže lze zkušenosti z jednoho oboru použít v jiném', '„Kybernetika je věda o řízení a sdělování v živých organizmech a strojích.“ (<b>Norbert Wiener</b>)'] }
     ] },
     { title: 'Řízení jako informační působení', blocks: [
       { t: 'p', x: 'Řízení lze chápat třemi způsoby: jako <b>činnost řídících pracovníků</b>, jako <b>proces</b> (fáze a stádia – viz další téma) a jako <b>informační působení</b>. Podle složitosti informací se informační působení dělí na <b>ovládání, řízení a regulaci</b>.' },
@@ -69,7 +69,7 @@ registerTopic({
       { t: 'ex', x: '<b>Podnik – produkční problém:</b> vedoucí zpracuje dostupné informace, vytvoří plán řešení (rozhodovací proces), rozhodnutí předá jako úkol zodpovědné osobě s termíny. Podřízený má vlastní program (určit zodpovědné, zabezpečit prostředky, termíny). Kontrola produkce ověří, zda je problém vyřešen. Řetěz: vedoucí → podřízený ŘP → výkonný pracovník (úkolování).' }
     ] },
     { title: 'Regulace', blocks: [
-      { t: 'svg', title: 'Regulace – vložení regulačního systému', x: TROS.regulace() },
+      { t: 'svg', title: 'Regulace – vložení regulačního systému', x: TROS.regulace(), cap: 'Mezi subjekt řízení a řízený systém se vloží regulační systém (regulátor), který sleduje odchylky přes zpětnou vazbu a vrací systém k cílovému stavu; typicky termostat nebo ventilace.' },
       { t: 'ex', x: '<b>Líheň kuřat:</b> SŘ = vedoucí líhně, vstupní informace = požadovaný počet kuřat. Objekty řízení: tepelný agregát, zdroj světla, pás s krmivem, ventilátory. Program: interval požadované teploty, intervaly světlo/tma, čas krmení. Regulační systémy: <b>termostat</b>, zapínání a vypínání světla, režim krmení, ventilace. Vedoucí dělá jen namátkovou kontrolu výsledného chování a kontroluje nastavení (teplota, světlo, vzduch, krmení) = <b>kalibrace</b>.' },
       { t: 'ul', items: [
         'Regulace je spjatá hlavně s <b>technickou stránkou produkce</b>: technologické linky, automatizované postupy, zastavení linky při poruše, brzdění rychlovýtahů.',

@@ -28,7 +28,7 @@ registerTopic({
       ], x: '<i>Used to</i> existuje <b>jen pro minulost</b>. Když mluvíš o tom, co děláš pravidelně dnes, použij present simple s příslovcem četnosti (<i>usually, normally, often</i>).' }
     ] },
     { title: 'Tvoření (Form)', blocks: [
-      { t: 'svg', title: 'Stavba used to', x: ANG.usedToForm(), cap: '' },
+      { t: 'svg', title: 'Stavba used to', x: ANG.usedToForm(), cap: 'Kladná věta: podmět + used to + základní tvar; v záporu a otázce se místo used to používá <b>did + use to</b> (ne didn’t used to).' },
       { t: 'grid', head: ['Typ věty', 'Pravidlo', 'Příklad'], rows: [
         ['Kladná', '<b>used to</b> + základní tvar slovesa', 'I used to buy the newspaper every day. · He used to be a football player.'],
         ['Záporná', '<b>didn’t + use to</b> + základní tvar', 'We didn’t use to read free newspapers. · She didn’t use to have much money.'],

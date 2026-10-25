@@ -23,7 +23,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Ústavní právo a Ústava ČR', blocks: [
-      { t: 'def', term: 'Ústavní právo', x: 'Soubor právních norem regulujících nejdůležitější právní vztahy ve státě: uspořádání státu, rozdělení a výkon státní moci, základní práva a svobody občanů.' },
+      { t: 'def', term: 'Ústavní právo', x: 'Soubor právních norem regulujících nejdůležitější právní vztahy ve státě:', items: ['uspořádání státu', 'rozdělení a výkon státní moci', 'základní práva a svobody občanů'] },
       { t: 'nums', title: 'Ústava ČR v číslech', items: [
         { n: '1/1993', u: 'Sb.', x: 'Ústava ČR' },
         { n: '8', u: 'hlav', x: '+ preambule' },
@@ -58,7 +58,7 @@ registerTopic({
         'Čl. 9: Ústavu lze měnit jen ústavními zákony. Čl. 11: území je nedílný celek, hranice lze měnit jen ústavním zákonem.',
         'Čl. 12: nikdo nemůže být proti své vůli zbaven státního občanství. Čl. 13: hlavní město Praha.'
       ] },
-      { t: 'svg', title: 'Tripartita – dělba státní moci', x: ZPN.powersDiagram() },
+      { t: 'svg', title: 'Tripartita – dělba státní moci', x: ZPN.powersDiagram(), cap: 'Lid vykonává moc prostřednictvím tří složek – zákonodárné, výkonné a soudní; šipky dole ukazují brzdy a protiváhy mezi nimi.' },
       { t: 'icons', title: 'Státní symboly (čl. 14)', items: [
         { i: '🛡️', h: 'Velký státní znak', x: 'čtyřpolný štít: 1. a 4. pole stříbrný dvouocasý lev se zlatou korunou (Čechy); 2. pole červeno-stříbrně šachovaná orlice se zlatou korunou na modrém pozadí (Morava); 3. pole černá orlice s červenou zbrojí a zlatou korunou, stříbrný půlměsíc zakončený jetelovými lístky s křížkem na zlatém pozadí (Slezsko)' },
         { i: '🦁', h: 'Malý státní znak', x: 'stříbrný dvouocasý lev ve skoku, zlatá koruna, červené pozadí' },
@@ -190,7 +190,7 @@ registerTopic({
         { n: '2×', u: 'nejvýše', x: 'jmenuje je prezident' }
       ] },
       { t: 'warn', x: 'Slajd uvádí u NKÚ zákon „č. 66/1993 Sb.“ – správně je to <b>zákon č. 166/1993 Sb.</b>, o Nejvyšším kontrolním úřadu. Informace o obsazení funkce prezidenta NKÚ a jména funkcionářů (NKÚ, ČNB, ombudsman) ve slajdech jsou zastaralé – ověřte aktuální stav.' },
-      { t: 'def', term: 'Územní samospráva', x: 'Prostorově vymezený funkční celek nadaný právem sám rozhodovat o svých záležitostech. Územní samosprávné celky jsou územní společenství občanů s právem na samosprávu, spravovaná zastupitelstvem – volený orgán chráněný proti zásahům státní moci, který může v mezích působnosti vydávat obecně závazné vyhlášky.' },
+      { t: 'def', term: 'Územní samospráva', x: 'Prostorově vymezený funkční celek nadaný právem sám rozhodovat o svých záležitostech.', items: ['územní samosprávné celky jsou územní společenství občanů s právem na samosprávu', 'spravuje je zastupitelstvo – volený orgán chráněný proti zásahům státní moci', 'může v mezích působnosti vydávat obecně závazné vyhlášky'] },
       { t: 'nums', title: 'Územní samospráva v číslech', items: [
         { n: '6 254', u: 'obcí', x: 'základní ÚSC (čl. 99; údaj slajdů); zákon č. 128/2000 Sb.' },
         { n: '14', u: 'krajů', x: 'vyšší ÚSC vč. Prahy; zákony č. 129/2000 a 131/2000 Sb. (hl. m. Praha)' },

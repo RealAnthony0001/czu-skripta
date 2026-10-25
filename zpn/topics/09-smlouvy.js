@@ -31,7 +31,7 @@ registerTopic({
         ['Ochrana', 'proti komukoli (vlastnická žaloba)', 'jen proti dlužníkovi (žaloba o plnění)'],
         ['Vznik', 'zákonem, právní skutečností', 'smlouva, delikt, BO, jiná skutečnost']
       ] },
-      { t: 'def', term: 'Závazek (obligace)', x: 'Právní vztah, v němž má <b>věřitel</b> právo na plnění (pohledávka) a <b>dlužník</b> povinnost plnit (dluh). Předmětem je <b>plnění</b> – dát, konat, zdržet se, trpět. NOZ část čtvrtá (§ 1721 an.).' },
+      { t: 'def', term: 'Závazek (obligace)', x: 'Právní vztah, v němž má <b>věřitel</b> právo na plnění (pohledávka) a <b>dlužník</b> povinnost plnit (dluh).', items: ['předmětem je <b>plnění</b> – dát, konat, zdržet se, trpět', 'úprava: NOZ část čtvrtá (§ 1721 an.)'] },
       { t: 'table', head: ['Vznik závazku', 'Příklad'], rows: [
         ['<b>Smlouva</b>', 'kupní, nájemní, o dílo'],
         ['<b>Protiprávní čin</b> (delikt)', 'způsobení škody → povinnost k náhradě'],
@@ -78,7 +78,7 @@ registerTopic({
         ['proti ručiteli se věřitel domáhá po výzvě dlužníkovi a splatnosti', 'prodej zástavy mimo soud či soudem; přednostní uspokojení'],
         ['zánik s hlavním dluhem (akcesorita)', 'zánik se zajišťovanou pohledávkou']
       ] },
-      { t: 'def', term: 'Prodlení dlužníka', x: 'Dlužník <b>neplní včas</b> (po splatnosti), a to není-li jeho vina vyloučena. Věřitel má nárok na <b>úrok z prodlení</b> (nařízení vlády 351/2013 Sb.: repo sazba ČNB platná na začátku pololetí + 8 procentních bodů), případně náklady spojené s uplatněním pohledávky (paušál 1 200 Kč pro podnikatele u opožděné platby). Prodlení <b>věřitele</b> = odmítne přijmout řádné plnění.' },
+      { t: 'def', term: 'Prodlení dlužníka', x: 'Dlužník <b>neplní včas</b> (po splatnosti), a to není-li jeho vina vyloučena.', items: ['věřitel má nárok na <b>úrok z prodlení</b> (nařízení vlády 351/2013 Sb.: repo sazba ČNB platná na začátku pololetí + 8 procentních bodů)', 'případně náklady spojené s uplatněním pohledávky (paušál 1 200 Kč pro podnikatele u opožděné platby)', 'prodlení <b>věřitele</b> = odmítne přijmout řádné plnění'] },
       { t: 'table', head: ['Způsob zániku', 'Obsah', 'Příklad'], rows: [
         ['<b>Splnění</b>', 'řádné splnění ve smluveném čase, místě a způsobu', 'zaplacení kupní ceny'],
         ['<b>Dohoda</b>', 'smlouva stran o zrušení nebo změně', 'dohoda o zrušení nájmu'],
@@ -94,7 +94,7 @@ registerTopic({
       { t: 'warn', x: '<b>Promlčení</b>: obecně 3 roky od doby, kdy právo mohlo být uplatněno (objektivní 10 let). Promlčené právo nezaniká – dlužník se může odvolat na promlčení; plní-li, nemůže požadovat zpět. Soud promlčení nezohlední sám.' }
     ] },
     { title: 'Kupní smlouva a smlouva o dílo', blocks: [
-      { t: 'def', term: 'Kupní smlouva (§ 2079 an.)', x: 'Prodávající se zavazuje <b>odevzdat kupujícímu věc</b> a umožnit mu nabýt vlastnictví, kupující se zavazuje věc <b>převzít</b> a <b>zaplatit kupní cenu</b>. Podstatná náležitost: <b>určení věci</b>; cena nemusí být přímo ujednána – kupní cena se pak určí (<b>obvyklá cena</b> – § 2085).' },
+      { t: 'def', term: 'Kupní smlouva (§ 2079 an.)', x: 'Prodávající se zavazuje <b>odevzdat kupujícímu věc</b> a umožnit mu nabýt vlastnictví, kupující se zavazuje věc <b>převzít</b> a <b>zaplatit kupní cenu</b>.', items: ['podstatná náležitost: <b>určení věci</b>', 'cena nemusí být přímo ujednána – kupní cena se pak určí (<b>obvyklá cena</b> – § 2085)'] },
       { t: 'table', head: ['Téma', 'Pravidlo'], rows: [
         ['Forma', 'volná; nemovitosti – písemná + <b>vklad do katastru nemovitostí</b> (vlastnictví vzniká vkladem, s účinky ke dni podání návrhu); movité – převzetím'],
         ['Předmět', 'věc určená individuálně nebo druhově; budoucí věc; věc cizí (nutno prodávajícím zajistit)'],
@@ -112,7 +112,7 @@ registerTopic({
       ] },
       { t: 'p', x: '<b>Záruka</b>: u spotřebitelského prodeje zákonná odpovědnost za vady (<b>24 měsíců</b> od převzetí, u použité věci lze zkrátit na 12 měsíců); vada, která se projeví do 1 roku, se považuje za existující při převzetí. Prodávající musí reklamaci vyřídit bez zbytečného odkladu, nejpozději do <b>30 dnů</b>. Spotřebitelská práva dále upravuje zák. 634/1992 Sb. o ochraně spotřebitele. <b>Smluvní záruka</b> (např. 5 let) je nad rámec zákona a zavazuje prodávajícího.' },
       { t: 'ex', x: 'Pepa koupil v e-shopu notebook za 20 000 Kč; po 8 měsících se rozbila základní deska. Reklamuje v rámci zákonné odpovědnosti za vady (24 měsíců): má nárok na opravu či výměnu, při opakování vady na slevu nebo odstoupení. Jako spotřebitel může od smlouvy uzavřené distančně i odstoupit do 14 dnů od převzetí bez udání důvodu.' },
-      { t: 'def', term: 'Smlouva o dílo (§ 2586 an.)', x: 'Zhotovitel se zavazuje <b>provést na svůj náklad a nebezpečí</b> pro objednatele dílo a objednatel se zavazuje dílo převzít a zaplatit cenu. Dílem se rozumí zhotovení věci, údržba, oprava, úprava věci, nebo jiný výsledek činnosti.' },
+      { t: 'def', term: 'Smlouva o dílo (§ 2586 an.)', x: 'Zhotovitel se zavazuje <b>provést na svůj náklad a nebezpečí</b> pro objednatele dílo a objednatel se zavazuje dílo převzít a zaplatit cenu.', items: ['dílem se rozumí zhotovení věci, údržba, oprava, úprava věci, nebo jiný výsledek činnosti'] },
       { t: 'table', head: ['Téma', 'Pravidlo'], rows: [
         ['Strany', '<b>zhotovitel</b> (provádí dílo) × <b>objednatel</b> (platí cenu, spolupůsobí)'],
         ['Podstatná náležitost', 'určení díla (a ceny – nebo způsob určení: nebude-li dohodnuta, platí obvyklá)'],
@@ -132,7 +132,7 @@ registerTopic({
       { t: 'tip', x: 'Odlišení: kupuje-li kupující <b>hotovou</b> věc → kupní smlouva. Nechává-li si věc <b>zhotovit podle svých požadavků</b> → smlouva o dílo. Opravuji auto = smlouva o dílo; koupím auto = kupní smlouva.' }
     ] },
     { title: 'Nájem a další nominátní smlouvy', blocks: [
-      { t: 'def', term: 'Nájemní smlouva (§ 2201 an.)', x: '<b>Pronajímatel</b> přenechá <b>nájemci</b> věc k dočasnému užívání nebo k užívání a požívání; nájemce se zavazuje platit <b>nájemné</b>. Forma je zásadně volná, u nemovitostí a bytů je písemná smlouva vždy vhodná (důkaz, katastr u dlouhodobých nájmů).' },
+      { t: 'def', term: 'Nájemní smlouva (§ 2201 an.)', x: '<b>Pronajímatel</b> přenechá <b>nájemci</b> věc k dočasnému užívání nebo k užívání a požívání; nájemce se zavazuje platit <b>nájemné</b>.', items: ['forma je zásadně volná', 'u nemovitostí a bytů je písemná smlouva vždy vhodná (důkaz, katastr u dlouhodobých nájmů)'] },
       { t: 'table', head: ['Nájem bytu (§ 2235 an.)', 'Pravidlo'], rows: [
         ['Strany', 'pronajímatel (vlastník) × nájemce; spolunájemci (manželé)'],
         ['Forma', 'písemná (vhodná – důkazní)'],

@@ -29,14 +29,10 @@ registerTopic({
       { t: 'tip', x: 'Time management se začal rozvíjet v 70. letech 20. století jako reakce na rostoucí nároky moderního života; s technologiemi se dál vyvíjí.' }
     ] },
     { title: 'Čtyři generace plánování času', blocks: [
-      { t: 'table', head: ['Generace', 'Zaměření', 'Hodnocení'], rows: [
-        ['<b>I.</b> Poznámky a upomínky', 'zaznamenání úkolů, které je třeba udělat', 'praktický a jednoduchý, chybí strategický rozměr'],
-        ['<b>II.</b> Kalendáře a diáře', 'systematické plánování pomocí kalendářů', 'spíše organizace než prioritizace'],
-        ['<b>III.</b> Prioritizace úkolů', 'stanovení priorit podle důležitosti a naléhavosti', 'dosažení efektivity (Eisenhowerova matice)'],
-        ['<b>IV.</b> Osobní řízení a rovnováha', 'rovnováha mezi prací a osobním životem', 'umění říkat „NE“']
-      ] },
+      { t: 'svg', title: 'Čtyři generace plánování času', x: TROS.generace(), cap: 'Každá generace přidává k předchozí nový rozměr.' },
+      { t: 'p', x: '<b>I. generace</b> je praktická a jednoduchá, chybí jí strategický rozměr. <b>II. generace</b> je spíš organizace než prioritizace. <b>III. generace</b> přináší efektivitu (Eisenhowerova matice). <b>IV. generace</b> je o rovnováze práce a osobního života a o umění říkat „NE“.' },
       { t: 'p', x: 'Každá generace odráží, jak lidé postupně chápou a organizují svůj čas: od zápisu, přes kalendář a priority až k rovnováze celého života.' },
-      { t: 'def', term: 'Paretovo pravidlo 80/20', x: 'Zhruba 20 % činností přináší 80 % výsledků – a naopak velká část času se ztrácí řešením nepodstatných problémů (chyba už ve škole: učit se nepodstatné). Proto je nutné stanovit si priority a řídit se jimi.' }
+      { t: 'def', term: 'Paretovo pravidlo 80/20', x: 'Zhruba 20 % činností přináší 80 % výsledků.', items: ['naopak velká část času se ztrácí řešením nepodstatných problémů (chyba už ve škole: učit se nepodstatné)', 'proto je nutné stanovit si priority a řídit se jimi'] }
     ] },
     { title: 'Deset hlavních zásad', blocks: [
       { t: 'table', head: ['Zásada', 'Co to znamená'], rows: [

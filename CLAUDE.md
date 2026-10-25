@@ -11,7 +11,10 @@ assets/dg.js            SVG helpery pro diagramy (DG)
 <předmět>/index.html    stránka předmětu: window.SUBJECT + seznam <script> s tématy
 <předmět>/topics/NN-*.js   jedno téma = jeden soubor, volá registerTopic({...})
 <předmět>/diagrams.js   SVG diagramy předmětu (const UPP / ZPN …)
+assets/wg.js            kostra interaktivních widgetů: WG.app (krokování, ovládací prvky, události) a drobné pomocníky
+assets/tt-widget.js     widget 'tt' (pravdivostní tabulka, ekvivalence, důsledek, ÚDNT/ÚKNT) sdílený UPP a MLG
 assets/map.js           společný engine myšlenkové mapy (#/mapa, widget 'mapa'): MINDMAP(kostra)
+<předmět>/wg*.js         widgety předmětu (window.WIDGETS[name]), načtené před topics/*.js
 <předmět>/map.js         kostra mapy: MINDMAP({ h, c, x, kids: [{ h, c, x, kids: ['id-tématu', …] }] }); sekce a pojmy se berou z témat; vzor upp/map.js
 tools/shot.swift        render HTML → PNG (WebKit) pro kontrolu diagramů
 ```
@@ -77,9 +80,9 @@ Texty jsou HTML (`<b>`, `<sub>`, `<sup>`, `<i>`). Bloky v `blocks` (`t` = typ):
 |---|---|---|
 | `p` | `x` | odstavec |
 | `ul` / `ol` | `items: []` | seznam |
-| `def` | `term`, `x` | definice (modrý box) |
+| `def` | `term`, `x`, `items` | definice (modrý box): `x` = jedna úvodní věta (rod), `items` = odrážky (znaky, podmínky, příklady); delší než ~150 znaků nikdy jako souvislý blok |
 | `law` | `ref`, `x` | citace zákona / paragrafu |
-| `tip` / `warn` / `ex` | `x` | Zapamatuj si / Pozor / Příklad |
+| `tip` / `warn` / `ex` | `x`, volitelně `items` | Zapamatuj si / Pozor / Příklad |
 | `table` | `head`, `rows` | podle tvaru: 2 sloupce → glosář; 1. hlavička „hledisko/kritérium/znak/prázdná“ → srovnání; jinak karty / řádky |
 | `grid` | `head`, `rows` | obyčejná tabulka (hodnoty, výsledky příkladů) |
 | `flow` | `title`, `steps: [{h, x}]` | očíslovaný postup |
@@ -90,13 +93,26 @@ Texty jsou HTML (`<b>`, `<sub>`, `<sup>`, `<i>`). Bloky v `blocks` (`t` = typ):
 | `icons` | `title`, `items: [{i, h, x}]` | dlaždice s emoji |
 | `versus` | `title`, `cols: [{h, items}]`, `x` | srovnání sloupců (2 → se znakem ×); `x` = souvislé vysvětlení pod sloupci („Srozumitelně“) – u ZPN ho má každé porovnání |
 | `svg` | `title`, `x`, `cap` | vlastní diagram, `x: UPP.nazev()` |
-| `widget` | `name`, `title`, `x`, `cap` | interaktivní prvek; kód ve `<předmět>/*.js` (před `topics/*.js`) se registruje jako `window.WIDGETS[name] = (element, blok) => …`; styly s předponou `qw-` v `style.css`; vzor: `mlg/qm-widget.js` (Quine–McCluskey krok za krokem) |
+| `widget` | `name`, `title`, `fig`, `figcap`, `how`, `sol`, `cap` + libovolné parametry (`alg`, `k`, `m`, `items`, `pairs` …) | interaktivní prvek; kód ve `<předmět>/*.js` (před `topics/*.js`, po `../assets/wg.js`) se registruje `WG.reg(name, (element, blok) => WG.app(element, {…}))`; styly s předponou `qw-` v `style.css`; vzory: `mlg/qm-widget.js` (Quine–McCluskey, vlastní UI), `mlg/wg-graf.js` (krokování nad grafy), `upp/wg-data.js` (převodníky), `ang/wg.js` (kvíz s daty přímo v bloku) |
 
 Pravidla obsahu:
 - Fakta jen z podkladů. Je-li ve slajdech chyba, napiš správnou verzi a přidej `warn` s vysvětlením („Slajd uvádí…, správně…“).
 - Obsah mimo podklady označ v nadpisu sekce „(doplněno)“; celé téma bez podkladů má `src: 'doplneno'` (zůstane zamčené, nevidí se).
 - Příklady počítej a ověř (u čísel nejlépe skriptem), ne odhadem.
 - Porovnání A × B (`versus`) doplň polem `x`: 3–6 vět souvislého textu (ne body), které vysvětlí podstatu rozdílu a ukážou ho na běžném příkladu.
+
+## Widgety (interaktivní bloky)
+
+`WG.app(root, { state, top(ui), steps(ui) | view(ui), act(ui, akce, data), input(ui, klíč) })` (`assets/wg.js`):
+- `top` = ovládací prvky (`WG.btn`, `WG.sel`, `WG.txt`, `WG.num`, `WG.rng`); tlačítko s `data-act` volá `act`, prvek s `data-in` ukládá hodnotu do `ui` a volá `input`.
+- `steps` vrací pole kroků `{ title, view, what, why, change }` – vykreslí se navigace ◀ ▶ a panel „Co se děje / Proč / Co se změnilo“; bez `steps` se použije jen `view`.
+- Stav je jen v `ui`, HTML se při každé změně sestaví znovu (psaní do pole v `top` proto nepřeruší výstup). Číselné/textové pole patří do `top` (překreslí se jen výstup), tlačítka a `select` smí být kdekoli.
+- Výpočet drž v čisté funkci (vrací kroky/data), vykreslení zvlášť; příklady z textu tématu jsou předvolby, fakta v panelech jen z podkladů; co je mimo podklady (např. státní svátky v kalkulačce lhůt), označ „doplněno“.
+- **Widget je zlepšení vysvětlení, ne vysvětlení samo.** Před widgetem musí být statické vysvětlení: `how` (2–4 odrážky „co uvidíš a jak to číst / ovládat“), `sol` (správné řešení vzorového příkladu, spočítané a ověřené) a statický diagram téhož příkladu v poli `fig` (`fig: MLG.tokSit(), figcap: '…'`; nikdy ho neodstraňuj). Diagram, řešení ani popisek se nesmějí opakovat: když sousední blok (`ex`, tabulka) už řešení uvádí, `sol` vynech; `cap` widgetu jen tehdy, když přidává něco, co není v `how`. Widget pak slouží k vlastním pokusům.
+- Každý `svg` blok má `cap` – popis, co obrázek ukazuje a jak ho číst.
+- Ověření: `node --check`, témata ve `vm`, a hlavně otevřít stránku (WebKit `/tmp/shot` s hash `#/id-tématu`) – chyba v `WG.sel` apod. se jinak projeví jen prázdným boxem.
+
+Tabulku, která popisuje strukturu nebo postup, nahraď diagramem (`svg`) a krátkým textem (`p` / `ul`) s tím, co se do obrázku nevešlo; tabulky s hodnotami, výsledky příkladů nebo porovnáním více vlastností po řádcích nech tabulkou.
 
 ## Diagramy (SVG)
 

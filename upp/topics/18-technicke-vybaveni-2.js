@@ -25,21 +25,15 @@ registerTopic({
         { h: 'CRT (Cathode Ray Tube)', items: ['stejný princip jako televizní obrazovky; <b>vzduchoprázdná elektronka</b>', 'po zahřátí <b>katody</b> se emituje proud elektronů o vysoké rychlosti k druhému konci; paprsek se zaostřuje a vychyluje <b>cívkami</b>', 'obrazovka je uvnitř pokryta <b>fosforem</b> – po zásahu elektrony se bod rozsvítí', 'barvy: <b>tři katody</b> pro zelenou, modrou a červenou (RGB)'] },
         { h: 'LCD (LED)', items: ['monitory jsou <b>ploché</b>; světlo ze zdroje (obvykle diody <b>LED</b>) prochází <b>dvěma polarizačními filtry</b> s tekutými krystaly', 'první filtr řídí <b>směr</b> procházejícího světla, druhý mění <b>množství</b> procházejícího světla', 'bod obrazovky = <b>tři buňky</b> (R, G, B); čím víc světla projde, tím je bod světlejší', 'barvy jako u CRT, tj. prokládáním bodů různých barev'] }
       ], x: 'U CRT „maluje“ obraz elektronový paprsek, který běhá po vnitřku skleněné trubice a rozsvěcuje fosfor – proto je monitor tlustý. U LCD svítí vzadu stálé světlo a každý bod před ním funguje jako okénko s nastavitelnou průhledností: tekuté krystaly se otáčejí podle napětí a podle toho, zda polarizační filtr světlo propustí či zablokuje, bod svítí víc, nebo míň. Barevný bod je tvořen třemi okénky s červeným, zeleným a modrým filtrem.' },
-      { t: 'svg', title: 'Cesta světla v LCD', x: UPP.lcdDiagram() }
+      { t: 'svg', title: 'Cesta světla v LCD', x: UPP.lcdDiagram(), cap: 'Světlo z podsvícení prochází zleva doprava polarizačním filtrem, vrstvou tekutých krystalů, která natáčí světlo, a druhým filtrem; čím víc světla druhý filtr propustí, tím je bod světlejší. Barvu dávají tři buňky R, G, B.' }
     ] },
     { title: 'Grafický adaptér (grafická karta)', blocks: [
       { t: 'p', x: 'Grafická karta tvoří <b>rozhraní mezi počítačem a monitorem</b> – odesílá do monitoru signály, na jejichž základě se objeví požadovaný obraz.' },
-      { t: 'table', head: ['Součást', 'Funkce'], rows: [
-        ['<b>Video BIOS</b>', 'podobný BIOSu systému; základní instrukce tvořící rozhraní mezi hardwarem adaptéru a softwarem v systému'],
-        ['<b>Grafický procesor</b>', 'základ adaptéru (čipová sada); určuje podporované funkce a výkon'],
-        ['<b>Paměť adaptéru</b>', 'ukládají se do ní obrazy v době zpracování; <b>její velikost určuje maximální rozlišení a počet barev</b>'],
-        ['<b>Konvertor digitálního signálu na analogový</b>', 'převádí digitální obraz na analogové signály zobrazitelné na monitoru'],
-        ['<b>Konektor pro sběrnici</b>', 'starší typy PCI, novější AGP, PCI Express'],
-        ['<b>Ovladač</b>', 'komunikace mezi softwarem a nainstalovaným adaptérem']
-      ] }
+      { t: 'svg', title: 'Součásti grafického adaptéru', x: UPP.gpuBlocks(), cap: 'Od sběrnice přes grafický procesor a paměť adaptéru k převodu na analogový signál pro monitor.' },
+      { t: 'ul', items: ['<b>Video BIOS</b>: podobný BIOSu systému; základní instrukce tvořící rozhraní mezi hardwarem adaptéru a softwarem v systému.', '<b>Grafický procesor</b>: základ adaptéru (čipová sada); určuje podporované funkce a výkon.', '<b>Paměť adaptéru</b>: ukládají se do ní obrazy v době zpracování; <b>její velikost určuje maximální rozlišení a počet barev</b>.', '<b>Konvertor digitálního signálu na analogový</b>: převádí digitální obraz na analogové signály zobrazitelné na monitoru.', '<b>Konektor pro sběrnici</b>: starší typy PCI, novější AGP, PCI Express.', '<b>Ovladač</b>: komunikace mezi softwarem a nainstalovaným adaptérem.'] }
     ] },
     { title: 'Barevný model RGB a barevná hloubka', blocks: [
-      { t: 'def', term: 'RGB (Red Green Blue)', x: '<b>Aditivní</b> míchání vyzařovaného světla, používaný ve všech monitorech a projektorech; nepotřebuje vnější světlo (monitor zobrazuje i v naprosté tmě). Smíchá se červené, zelené a modré světlo různými cestami k reprodukci obsáhlého pole barev.' },
+      { t: 'def', term: 'RGB (Red Green Blue)', x: '<b>Aditivní</b> míchání vyzařovaného světla, používané ve všech monitorech a projektorech.', items: ['nepotřebuje vnější světlo (monitor zobrazuje i v naprosté tmě)', 'smíchá se červené, zelené a modré světlo různými cestami k reprodukci obsáhlého pole barev'] },
       { t: 'svg', title: 'Aditivní míchání RGB a subtraktivní CMY', x: UPP.colorDiagram(), cap: 'RGB: R + G = žlutá, G + B = azurová, R + B = purpurová, vše dohromady = bílá. CMY: C + M = modrá, M + Y = červená, C + Y = zelená, vše dohromady = (tmavě) černá.' },
       { t: 'ul', items: [
         'Všechny tři základní barvy na <b>nejnižší intenzitě = černá</b>, na <b>nejvyšší = bílá</b>, na <b>stejné intenzitě = šedá</b>.',
@@ -54,7 +48,8 @@ registerTopic({
         ['<code>808080</code>', '128', '128', '128', 'šedá (stejná intenzita všech složek)'],
         ['80 %, 80 %, 20 %', '≈ 204 (CC)', '≈ 204 (CC)', '≈ 51 (33)', 'tmavší žlutá (<code>CCCC33</code>)']
       ] },
-      { t: 'def', term: 'Barevná hloubka (BH)', x: 'Každý bod (pixel) obrazu je popsán <b>n-bitovým číslem</b> udávajícím barvu – lze zobrazit nejvýše <b>2<sup>n</sup> různých barev</b>. BH je ukazatelem do <b>barevné mapy (palety)</b>, která obsahuje pro každou barvu hodnoty odstínů základních barev RGB. Je-li každá barva popsána <b>m-bitovou</b> hodnotou, připadá 1/3 m bitů na R, 1/3 m na G a 1/3 m na B; takto lze popsat nejvýše <b>2<sup>m</sup> odstínů</b>, tj. <b>2<sup>m/3</sup> odstínů každé základní barvy</b>.' },
+      { t: 'widget', name: 'rgb', how: ['Tři posuvníky nastavují složky R, G, B (0–255), vedle je hexadecimální hodnota.', 'Vpravo je výsledná barva; tlačítka nahoře jsou předvolby z tabulky výše.'], title: 'Míchání barev RGB', cap: 'Tři posuvníky R, G, B (0–255) dávají 256³ barev; stejné hodnoty složek dávají odstíny šedé.' },
+      { t: 'def', term: 'Barevná hloubka (BH)', x: 'Každý bod (pixel) obrazu je popsán <b>n-bitovým číslem</b> udávajícím barvu – lze zobrazit nejvýše <b>2<sup>n</sup> různých barev</b>.', items: ['BH je ukazatelem do <b>barevné mapy (palety)</b>, která obsahuje pro každou barvu hodnoty odstínů základních barev RGB', 'je-li každá barva popsána <b>m-bitovou</b> hodnotou, připadá 1/3 m bitů na R, 1/3 m na G a 1/3 m na B', 'takto lze popsat nejvýše <b>2<sup>m</sup> odstínů</b>, tj. <b>2<sup>m/3</sup> odstínů každé základní barvy</b>'] },
       { t: 'ex', x: '<b>Barevná hloubka 8 bitů</b> = 2<sup>8</sup> = 256 barev (z palety). <b>Paleta s m = 24 bity</b>: 8 bitů na složku → 2<sup>8</sup> = 256 odstínů každé základní barvy a 2<sup>24</sup> = <b>16 777 216</b> barev celkem.<br>(Vlastní příklad: obraz Full HD 1 920 × 1 080 pixelů při 24 bitech na pixel potřebuje 1 920 · 1 080 · 3 B = 6 220 800 B ≈ 5,9 MiB paměti grafické karty – proto velikost paměti omezuje rozlišení a počet barev.)' },
       { t: 'p', x: '<b>Barva</b> je směs záření různých vlnových délek – část spektra viditelného záření odraženého předmětem. Závisí na spektrálním složení a směru dopadajícího světla, směru pohledu pozorovatele, vlastnostech povrchu a vlastnostech pozorovatele (kvalita zraku, přizpůsobení okolnímu světlu).' }
     ] },
@@ -65,6 +60,7 @@ registerTopic({
       ], x: 'Monitor je zdroj světla: tmavou obrazovku „rozsvěcíme“ přidáváním barevných světel, až z červeného, zeleného a modrého vznikne bílá. Papír je naopak bílý a světlo jen odráží: každá nanesená barva část světla pohltí (odečte), takže čím víc barev, tím tmavší výsledek. Proto se RGB používá pro obrazovky a CMYK pro tisk – a proto barvy na monitoru a na výtisku nejsou úplně stejné.' },
       { t: 'p', x: 'CMYK má čtyři základní barvy: <b>azurovou (Cyan)</b>, <b>purpurovou (Magenta)</b>, <b>žlutou (Yellow)</b> a <b>černou (blacK, Key)</b>. V ideálním případě by složením C + M + Y vznikla černá, ve skutečnosti vznikne <b>tmavě šedivá</b>; navíc je černá výrazně <b>levnější</b>, proto většina tiskových technik používá čtvrtou černou barvu.' },
       { t: 'p', x: 'Výsledný obraz tiskárny je složen z <b>bodů (dots)</b>; jejich hustotu určuje rozlišení v <b>DPI</b> (Dots Per Inch, počet bodů na palec ≈ 2,54 cm). Podle toho, co umí tisknout, jsou tiskárny <b>znakové</b> (omezená množina znaků, staré typy) a <b>grafické</b> (libovolné geometrické objekty a tedy i znaky).' },
+      { t: 'svg', title: 'Princip mechanických, tryskových a termografických tiskáren', x: UPP.printerTypes(), cap: 'Laserová (elektrografická) tiskárna je vysvětlena níže.' },
       { t: 'table', head: ['Druh tiskárny', 'Princip', 'Výhody / nevýhody'], rows: [
         ['<b>mechanické</b> (dnes jen jehličkové)', 'body vytvářeny <b>jehličkami</b>, které tisknou úderem přes barvicí pásku', 'vhodné na tisk na diskrétní (mzdové) obálky'],
         ['<b>tryskové (inkoustové)</b>', 'sada trysek vystřeluje kapičky inkoustu, vychylované elektrostatickým polem na místo bodu (DOD thermal: kapku vystřelí topný rezistor)', '+ kvalitní tisk, nízká pořizovací cena · − vyšší provozní náklady, zasychání trysek'],
@@ -83,7 +79,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Počítačová síť: předpoklady a síťová karta', blocks: [
-      { t: 'def', term: 'Počítačová síť', x: 'Souhrnné označení pro technické prostředky, které realizují <b>spojení a výměnu informací mezi dvěma a více komunikujícími uzly</b>, propojenými komunikačními kanály. Umožňují komunikaci podle určitých pravidel (<b>protokolů</b>) za účelem sdílení společných zdrojů nebo výměny zpráv. Způsob propojení uzlů udává <b>topologie</b> sítě. Uzly jsou počítače a servery, tiskárny, datová úložiště, měřicí a zabezpečovací zařízení.' },
+      { t: 'def', term: 'Počítačová síť', x: 'Souhrnné označení pro technické prostředky, které realizují <b>spojení a výměnu informací mezi dvěma a více komunikujícími uzly</b>, propojenými komunikačními kanály.', items: ['komunikace probíhá podle určitých pravidel (<b>protokolů</b>) za účelem sdílení společných zdrojů nebo výměny zpráv', 'způsob propojení uzlů udává <b>topologie</b> sítě', 'uzly jsou počítače a servery, tiskárny, datová úložiště, měřicí a zabezpečovací zařízení'] },
       { t: 'icons', title: 'Předpoklady síťového spojení', items: [
         { i: '🔗', h: 'Přenosové médium', x: 'kabely, vzduch …; konektory, anténa' },
         { i: '🔌', h: 'Síťové rozhraní', x: 'síťová karta (přijímá a vysílá data) · modem pro spojení telefonní sítí' },
@@ -91,7 +87,7 @@ registerTopic({
         { i: '🖥️', h: 'Operační systém', x: 'podporující síťovou komunikaci' }
       ] },
       { t: 'p', x: '<b>Síťová karta (Network Interface Controller)</b> ve stolních počítačích zasunutá do slotu (ISA, PCI, PCI-e) nebo integrovaná na základní desce; u notebooků převládá integrace a pro externí připojení se používá rozhraní PCMCIA.' },
-      { t: 'def', term: 'Fyzická adresa MAC (media access control)', x: 'Každá síťová karta má v paměti <b>jedinečný 48bitový identifikátor</b> daný z výroby – celosvětově jednoznačná <b>šestibajtová adresa</b> ve tvaru XX-XX-XX-XX-XX-XX (6 dvojic hex cifer). Ve Windows ji zjistíme příkazem <code>ipconfig /all</code> v příkazovém řádku. Na základě fyzické adresy příjemce (odesílatele) se v síti posílají data.' }
+      { t: 'def', term: 'Fyzická adresa MAC (media access control)', x: 'Každá síťová karta má v paměti <b>jedinečný 48bitový identifikátor</b> daný z výroby.', items: ['celosvětově jednoznačná <b>šestibajtová adresa</b> ve tvaru XX-XX-XX-XX-XX-XX (6 dvojic hex cifer)', 've Windows ji zjistíme příkazem <code>ipconfig /all</code> v příkazovém řádku', 'na základě fyzické adresy příjemce (odesílatele) se v síti posílají data'] }
     ] },
     { title: 'Přenosová média a drátové sítě (IEEE 802.3)', blocks: [
       { t: 'ul', items: [
@@ -111,7 +107,7 @@ registerTopic({
         { h: 'Switch (přepínač)', items: ['posílá data jen na port s příjemcem podle <b>tabulky MAC adres</b> (dvojice MAC adresa – číslo portu)', 'tabulku lze zadat ručně, nebo se vytvoří automaticky: switch zpočátku funguje jako opakovač a z probíhající komunikace se „naučí“, kdo je na kterém portu'] }
       ], x: 'Hub je jako hlasatel, který každou zprávu zakřičí do celé místnosti – slyší ji všichni a jen adresát ji vezme. Switch je jako vrátný, který si pamatuje, kdo bydlí v jakém bytě, a každý dopis donese rovnou ke správným dveřím. Díky tomu v síti se switchem nesdílejí všichni jednu „linku“ a komunikace je rychlejší i soukromější.' },
       { t: 'svg', title: 'Hub a switch', x: UPP.switchDiagram(), cap: 'Hub zopakuje data na všechny porty, switch podle tabulky MAC adres jen na port příjemce.' },
-      { t: 'def', term: 'Optické kabely (vlákna)', x: 'Skleněná nebo plastová vlákna, která přenášejí signál <b>světlem</b> (nebo infračerveným zářením) ve směru podélné osy na principu <b>totálního odrazu</b> na rozhraní dvou prostředí s rozdílným indexem lomu (uvnitř <b>jádro</b>, okolo <b>plášť</b> a primární ochrana). Dosahují <b>větších přenosových rychlostí</b>: běžné světlo se skládá z více barev (frekvencí) a každá barva je samostatný datový tok. Přenos <b>není rušen vnějším elektromagnetickým vlněním</b>, data lze přenášet na velké vzdálenosti (stovky až tisíce km).' }
+      { t: 'def', term: 'Optické kabely (vlákna)', x: 'Skleněná nebo plastová vlákna, která přenášejí signál <b>světlem</b> (nebo infračerveným zářením) ve směru podélné osy na principu <b>totálního odrazu</b>.', items: ['totální odraz vzniká na rozhraní dvou prostředí s rozdílným indexem lomu (uvnitř <b>jádro</b>, okolo <b>plášť</b> a primární ochrana)', 'dosahují <b>větších přenosových rychlostí</b>: běžné světlo se skládá z více barev (frekvencí) a každá barva je samostatný datový tok', 'přenos <b>není rušen vnějším elektromagnetickým vlněním</b>', 'data lze přenášet na velké vzdálenosti (stovky až tisíce km)'] }
     ] },
     { title: 'Bezdrátové sítě Wi-Fi (IEEE 802.11)', blocks: [
       { t: 'p', x: 'Bezdrátové spoje přenášejí <b>rádiové vlny</b> různých frekvencí vzduchem (patří sem i vzdušné optické spoje laserem, Bluetooth, infračervené záření). Podskupinou je <b>Wi-Fi (Wireless Fidelity)</b>, standard <b>IEEE 802.11</b>: rádiové vlny o frekvenci <b>2,4 GHz</b> nebo <b>5 GHz</b> (pásmo 2,4 GHz používá řada jiných zařízení → možné rušení). Klíčovou roli hraje <b>SSID</b> (Service Set Identifier) – řetězec až <b>32 ASCII znaků</b>, kterým se sítě rozlišují.' },
@@ -126,7 +122,7 @@ registerTopic({
         ['<b>do hvězdy – infrastructure mode</b>', 'komunikace přes centrální prvek <b>AP (Access Point)</b>; AP vysílá SSID, klienti si vyberou AP'],
         ['<b>spojení dvou sítí – WDS link</b>', 'Wireless Distribution System: spojení „drátových“ nebo „bezdrátových“ sítí pomocí dvou AP']
       ] },
-      { t: 'svg', title: 'Tři způsoby spojení Wi-Fi', x: UPP.wifiDiagram() }
+      { t: 'svg', title: 'Tři způsoby spojení Wi-Fi', x: UPP.wifiDiagram(), cap: 'Ad-hoc: počítače komunikují přímo; infrastructure: klienti se připojují přes přístupový bod (AP); WDS link: dva AP propojí dvě sítě.' }
     ] }
   ],
   mistakes: [

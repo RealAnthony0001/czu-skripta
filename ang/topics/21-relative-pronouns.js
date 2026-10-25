@@ -17,7 +17,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Použití (Use)', blocks: [
-      { t: 'svg', title: 'Přehled vztažných zájmen', x: ANG.relPron(), cap: '' },
+      { t: 'svg', title: 'Přehled vztažných zájmen', x: ANG.relPron(), cap: 'who / that pro osoby, which / that pro věci, where pro místa, when pro čas a whose pro přivlastnění; dole rozdíl defining (bez čárek) × non-defining (s čárkami).' },
       { t: 'ol', items: [
         'Vztažná zájmena (<i>who/that, which/that, where, when, whose</i>) používáme k <b>vymezení</b> lidí, míst a věcí: <i>That’s the woman <b>who/that</b> took the photographs at my wedding.</i> · <i>This is the café <b>where</b> we first met.</i> · <i>It’s a kind of team-building activity <b>which/that</b> you do with ropes.</i> · <i>Trust is <b>when</b> you believe in the goodness of other people.</i>',
         'Vztažná zájmena používáme také k <b>doplnění informace</b> o lidech, místech nebo věcech: <i>David, <b>who</b> I’ve known since I was a kid, is a close friend of mine.</i> · <i>The hotel, <b>which</b> has fantastic views of the beach, is ideal for a weekend break.</i>',

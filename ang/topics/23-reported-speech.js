@@ -38,6 +38,15 @@ registerTopic({
         ['', 'We need the order for next week.', 'They said they needed the order for <b>the following week</b>.'],
         ['Zájmena', 'I’m going to complain to your manager.', 'He said <b>he</b> was going to complain to <b>my</b> manager.']
       ] },
+      { t: 'widget', name: 'prepinac', how: ['Žlutě zvýrazněná slova jsou v přímé řeči a v nepřímé se změní nebo zmizí; modře slova, která přibyla.', 'Zapni „zkusit si nejdřív sám“, větu si přeformuluj a teprve potom odkryj druhou.', 'Šipkami ◀ ▶ přepínáš dvojice.'], sol: 'Při převodu do nepřímé řeči se <b>čas posouvá o krok zpět</b> (will → would, can → could, must → had to), mění se <b>časové výrazy</b> (tomorrow → the following day, yesterday → the day before) a <b>zájmena</b> (I → he, your → my).', title: 'Přímá → nepřímá řeč: co se změnilo', labels: ['Přímá řeč', 'Nepřímá řeč'], pairs: [
+        ['We’ll do it.', 'They said they would do it.', 'will → would'],
+        ['I can’t start until Monday.', 'He said he couldn’t start until Monday.', 'can’t → couldn’t'],
+        ['I must call them.', 'She said she had to call them.', 'must → had to'],
+        ['I’ll fix it tomorrow.', 'She told me she would fix it the following day.', 'tomorrow → the following day'],
+        ['I called yesterday.', 'He said he had called twice the day before.', 'yesterday → the day before'],
+        ['We need the order for next week.', 'They said they needed the order for the following week.', 'next week → the following week'],
+        ['I’m going to complain to your manager.', 'He said he was going to complain to my manager.', 'zájmena: I → he, your → my']
+      ] },
       { t: 'svg', title: 'Časové a místní výrazy', x: ANG.reportedTime(), cap: 'Doplněno z příkladů učebnice: <i>last week</i> → <i>the previous week</i> (The technician was meant to come last week → the previous week).' },
       { t: 'warn', x: '<b>Negativní požadavky:</b> sdělujeme je pomocí <b>not to + sloveso</b>: <i>The customer asked me <b>not to call</b> again.</i><br><b>say × tell:</b> po <i>tell</i> uvádíme osobu nebo zájmeno, po <i>say</i> ne: <i>She <b>said</b> she didn’t agree.</i> · <i>She <b>told</b> the teacher / him she didn’t agree.</i>' },
       { t: 'versus', title: 'say × tell', cols: [

@@ -19,7 +19,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Podstata rozhodování', blocks: [
-      { t: 'def', term: 'Rozhodování', x: 'Jedna z paralelních (průběžných) manažerských funkcí; kvalita rozhodovacích procesů zásadně ovlivňuje fungování organizace. <b>Rozhodnutí = řešení problému = podstata podnikového řízení</b>: výběr ze dvou či více alternativ na všech řídících stupních a ve všech oblastech.' },
+      { t: 'def', term: 'Rozhodování', x: 'Jedna z paralelních (průběžných) manažerských funkcí; kvalita rozhodovacích procesů zásadně ovlivňuje fungování organizace.', items: ['<b>rozhodnutí = řešení problému = podstata podnikového řízení</b>', 'výběr ze dvou či více alternativ na všech řídících stupních a ve všech oblastech'] },
       { t: 'p', x: 'Rozhodovací proces řeší rozhodovací problémy (s více variantami řešení): posuzování variant a výběr optimální. <b>Problém</b> je odchylka mezi žádoucím a skutečným stavem – může být <b>reálný</b> (různý stupeň naléhavosti) nebo <b>potenciální</b> (reakce na hrozby a příležitosti, prevence).' },
       { t: 'versus', title: 'Tři varianty rozhodnutí', cols: [
         { h: 'R1: obě varianty příznivé', items: ['musíte vybrat jednu (dvě nabídky práce, výrobní program)', 'těžší'] },
@@ -55,7 +55,8 @@ registerTopic({
         ['V3', '4,11 roku → 5 b', '96 % → 1 b', '5/12 → 2 b', '8', '2,50']
       ] },
       { t: 'p', x: 'Bodová stupnice se získá vzorcem: rozsah pro 1 bod <b>RZB = (H<sub>max</sub> − H<sub>min</sub>) / n</b>; k-tý bod má rozsah <b>R<sub>k</sub> = H<sub>min</sub> + k · RZB</b>. Pro návratnost 4,1–5,0 a n = 5 je RZB = 0,18 (u nákladového kritéria dostává nejnižší hodnota 5 bodů). Obě metody (bodovací i pořadí) dávají stejné pořadí: <b>V2</b>. Váhy metodou pořadí: nejdůležitější spolehlivost (3/6), pak návratnost (2/6), pak servis (1/6).' },
-      { t: 'tip', x: 'Pořadí závisí víc na správném zadání (kritéria, váhy) než na zvolené metodě. Úkolem ŘP je zadání a konečné rozhodnutí; metodu může aplikovat štábní pracovník. Slabinou metod je, že pracují s minulostí a přítomností (budoucnost zkoumají simulační modely). Znak racionálního rozhodování: obhajitelné postupy; vyhnout se tautologii, kontradikci a porušení tranzitivity (A &gt; B, B &gt; C, ale C &gt; A).' }
+      { t: 'tip', x: 'Pořadí závisí víc na správném zadání (kritéria, váhy) než na zvolené metodě. Úkolem ŘP je zadání a konečné rozhodnutí; metodu může aplikovat štábní pracovník. Slabinou metod je, že pracují s minulostí a přítomností (budoucnost zkoumají simulační modely). Znak racionálního rozhodování: obhajitelné postupy; vyhnout se tautologii, kontradikci a porušení tranzitivity (A &gt; B, B &gt; C, ale C &gt; A).' },
+      { t: 'widget', name: 'vahy', how: ['Pole vah (v šestinách) a výběry bodů 1–5 můžeš měnit; vážený součet se hned přepočítá.', 'Vítězná varianta je zvýrazněná.', 'Zkus stejné váhy a sleduj, jak se pořadí změní.'], sol: 'Váhy 2/6, 3/6, 1/6: V1 (3, 3, 3) = <b>3,00</b>; V2 (1, 5, 5) = (2 · 1 + 3 · 5 + 1 · 5) / 6 = <b>3,67</b>; V3 (5, 1, 2) = (2 · 5 + 3 · 1 + 1 · 2) / 6 = <b>2,50</b> → vítězí <b>V2</b>.', title: 'Vícekriteriální hodnocení: změň váhy a body', cap: 'Součet bodů nezohledňuje důležitost kritérií; vážený součet ano.' },
     ] },
     { title: 'Druhy rozhodování', blocks: [
       { t: 'table', head: ['Členění', 'Typy'], rows: [
@@ -66,15 +67,8 @@ registerTopic({
         ['Podle programu', '<b>programové</b> (známý postup, opakující se rutina; nižší stupně) × <b>neprogramové</b> (nové problémy, tvořivost; vyšší stupeň, strategie)']
       ] },
       { t: 'tip', x: 'Rozhodování za nejistoty využívá rozhodovací matice a kritéria: <b>Laplaceovo</b> (maximalizace středního zisku – průměr; pro toho, kdo si riziko může dovolit), <b>Mini-Max</b> (minimalizace dopadu nejhorší situace – vybrat nejlepší z nejhorších; averze k riziku), <b>Hurwitzovo</b> a <b>Savageovo</b> (matice ztrát). Pro stochastické jevy dále teorie her, kombinatorika.' },
-      { t: 'table', head: ['Charakteristika informací', 'Strategická úroveň (TOP)', 'Taktická (střední)', 'Operativní (nižší)'], rows: [
-        ['Zdroj', 'externí', 'externí i interní', 'interní'],
-        ['Rozsah', 'velmi široký, nespecifikovaný', 'průměrný', 'úzce specifikovaný'],
-        ['Podrobnost', 'integrované veličiny', 'částečně integrované', 'podrobné údaje'],
-        ['Časovost', 'budoucnost', 'budoucnost, minulost, současnost', 'současnost, minulost'],
-        ['Včasnost', 'nejsou urgentní', 'neurgentní i urgentní', 'urgentní'],
-        ['Četnost', 'málo četné (rok)', 'pravidelné (měsíc)', 'četné (denně)'],
-        ['Přesnost', 'nízká, aproximace, kvalitativní', 'přesnější, kvalitativní i kvantitativní', 'přesné, kvantitativní']
-      ] },
+      { t: 'svg', title: 'Charakter informací podle úrovně řízení', x: TROS.infoUrovne(), cap: 'Od strategické úrovně (vlevo) k operativní (vpravo); taktická úroveň leží mezi nimi.' },
+      { t: 'p', x: '<b>Taktická (střední) úroveň:</b> zdroj externí i interní, rozsah průměrný, informace částečně integrované, časovost budoucnost, minulost i současnost, neurgentní i urgentní, pravidelné (měsíc), přesnější – kvalitativní i kvantitativní.' },
       { t: 'versus', title: 'Bariéry rozhodování', cols: [
         { h: 'Subjektivní', items: ['omezená schopnost zpracovávat informace a omezený rozsah poznání', 'omezená schopnost formulovat a řešit složité problémy', 'omezená internalizace systému hodnot', 'opakování neefektivních řešení (záchrana ztrátové firmy)'] },
         { h: 'Objektivní', items: ['nedostatečná kvalita informační základny (hlavně pro vrchol)', 'nepružnost organizační struktury (obtížné dočasné týmy)', 'velký počet stupňů řízení', 'nepřesné vymezení rozhodovacích pravomocí'] }
@@ -82,7 +76,7 @@ registerTopic({
     ] },
     { title: 'Eisenhowerova matice a rozhodnutí „kdo to udělá“', blocks: [
       { t: 'p', x: 'Technika určování priorit z oblasti <b>sebeřízení</b>. Každý úkol posoudíme podle dvou kritérií: <b>důležitosti</b> (následky, cíle, souvislosti) a <b>naléhavosti</b> (jak rychle musí být vyřešen).' },
-      { t: 'svg', title: 'Eisenhowerův princip', x: TROS.eisenhower() },
+      { t: 'svg', title: 'Eisenhowerův princip', x: TROS.eisenhower(), cap: 'Úkoly se řadí podle důležitosti a naléhavosti: I. důležité a naléhavé – řeš hned; II. důležité, ale nenaléhavé – plánuj a soustřeď se na ně; III. naléhavé, ale nedůležité – deleguj; IV. ani jedno – eliminuj.' },
       { t: 'table', head: ['Kvadrant', 'Příklady', 'Postup'], rows: [
         ['I. Důležité a naléhavé', 'seminárka do 5 hodin, zapomenutý test, rozbitý počítač', 'řeš sám a hned; krize'],
         ['II. Důležité, nenaléhavé', 'příprava na přednášky, výběr vedoucího BP, stáž, životopis', 'řeš sám později – naplánuj; prevence krizí; realizace vize'],
@@ -92,14 +86,9 @@ registerTopic({
       { t: 'warn', x: 'Platí zásada: v „I.“ trávit co nejméně času (krize), soustředit se na „II.“. Mnoho lidí dělá úkoly „III.“ v domnění, že jde o „I.“ – a tím zanedbává „II.“.' }
     ] },
     { title: 'Delegování', blocks: [
-      { t: 'def', term: 'Delegování', x: 'Sdílení či přenos <b>povinností a souvisejících pravomocí a odpovědností</b> z nadřízeného, který má právo delegovat, na podřízeného. Není to jednorázová akce, ale proces mezi delegujícím a delegovaným za účelem splnění cíle. Delegovaný dočasně přechází z objektu na subjekt řízení.' },
-      { t: 'table', head: ['', 'Přikazování', 'Koučování', 'Delegování'], rows: [
-        ['Podstata', 'ŘP přesně určí, co, jak, kdy a s kým', 'úkol bez podrobného zadání; ŘP kladením otázek vede podřízeného k vlastnímu programu', 'ŘP předá úkol, pravomoc a zdroje; podřízený má vlastní program'],
-        ['Posloupnost', 'úkol → vše rozhodnuto → „nediskutuj a splň“ → kontrola', 'úkol → otázka → odpověď → odsouhlasené řešení → realizace → kontrola', 'úkol → zadání → pravomoc a zdroje → vlastní program → realizace → kontrola'],
-        ['Výhody', 'jednoduchost, rychlost, jednoduchá kontrola', 'spoluúčast zvyšuje motivaci; poznání schopností; učení nového pracovníka', 'více času na strategii; výchova podřízeného; samostatnost; učí nést odpovědnost'],
-        ['Nevýhody', 'snižuje iniciativu a motivaci, neučí odpovědnosti', 'časová náročnost; bez následného delegování ztráta motivace', 'riziko výběru špatného delegovaného, zneužití pravomoci'],
-        ['Kdy', 'vypjatá situace, časová tíseň', 'zaučování, vyšší způsob vedení', 'standardní situace s kvalitním podřízeným']
-      ] },
+      { t: 'def', term: 'Delegování', x: 'Sdílení či přenos <b>povinností a souvisejících pravomocí a odpovědností</b> z nadřízeného, který má právo delegovat, na podřízeného.', items: ['není to jednorázová akce, ale proces mezi delegujícím a delegovaným za účelem splnění cíle', 'delegovaný dočasně přechází z objektu na subjekt řízení'] },
+      { t: 'svg', title: 'Přikazování, koučování a delegování', x: TROS.delegovani(), cap: 'Zleva doprava roste samostatnost podřízeného i riziko pro řídícího.' },
+      { t: 'ul', items: ['<b>Přikazování</b> – výhody: jednoduchost, rychlost, jednoduchá kontrola · nevýhody: snižuje iniciativu a motivaci, neučí odpovědnosti.', '<b>Koučování</b> – výhody: spoluúčast zvyšuje motivaci, poznání schopností, učení nového pracovníka · nevýhody: časová náročnost; bez následného delegování ztráta motivace.', '<b>Delegování</b> – výhody: více času na strategii, výchova podřízeného, samostatnost, učí nést odpovědnost · nevýhody: riziko výběru špatného delegovaného, zneužití pravomoci.'] },
       { t: 'ex', x: '<b>Příklad z přednášky – ubytování zahraniční návštěvy.</b> <i>Příkaz:</i> „Přistání v 17:00, čekejte v 16:45 s cedulí; ubytujte je v Hotelu Praha, zamluvte 2 pokoje do 4 000 Kč, informujte mě; večer večeře do 4 000 Kč; 29. 12. v 10:30 je přivezte do firmy.“ <i>Delegování:</i> „Zodpovídáte za program návštěvy partnerů. Přiletí 28. 12. v 17:00, očekávám je u nás 29. 12. v 10:30. K dispozici máte 10 000 Kč. Kontakt: telefon, e-mail.“ – určen cíl, termín a limit zdrojů, způsob si volí delegovaný.' },
       { t: 'versus', title: 'Tři varianty provedení delegování', cols: [
         { h: '1. Špatné', items: ['podřízený je postaven do nefér podmínek', 'vytvořeny podmínky pro neúspěch (někdy záměr)'] },

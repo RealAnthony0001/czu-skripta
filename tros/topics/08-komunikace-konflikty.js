@@ -20,20 +20,16 @@ registerTopic({
   ],
   sections: [
     { title: 'Komunikační proces', blocks: [
-      { t: 'def', term: 'Komunikace', x: 'Sdílení informací. Ať chceme nebo nechceme, komunikujeme prakticky neustále, verbálně i neverbálně. V řízení jde o <b>předávání zpráv mezi lidmi</b>; řídící působení se realizuje právě komunikací: proces řízení určuje <b>obsah</b> (co má objekt udělat), komunikace hledá <b>formu</b> (jak to zadat, aby to bylo jasné). Špatné nařízení správně sdělené zůstane špatné; dobré nařízení špatně sdělené se pro nepochopení stane nevhodným.' },
-      { t: 'svg', title: 'Komunikační proces', x: TROS.komunikace() },
+      { t: 'def', term: 'Komunikace', x: 'Sdílení informací. V řízení jde o <b>předávání zpráv mezi lidmi</b>.', items: ['ať chceme nebo nechceme, komunikujeme prakticky neustále, verbálně i neverbálně', 'řídící působení se realizuje právě komunikací', 'proces řízení určuje <b>obsah</b> (co má objekt udělat), komunikace hledá <b>formu</b> (jak to zadat, aby to bylo jasné)', 'špatné nařízení správně sdělené zůstane špatné; dobré nařízení špatně sdělené se pro nepochopení stane nevhodným'] },
+      { t: 'svg', title: 'Komunikační proces', x: TROS.komunikace(), cap: 'Komunikátor zakóduje sdělení a pošle ho médiem komunikantovi, který ho dekóduje; cestou působí rušení a bariéry a zpětná vazba ověřuje, jak bylo sdělení pochopeno.' },
       { t: 'ul', items: [
         '<b>Struktura:</b> kdo (komunikátor) říká co (komuniké) komu (komunikant) čím (druh komunikace, např. slova) prostřednictvím jakého média (např. mluvené řeči) s jakým úmyslem (motivace) s jakým účinkem.',
         '<b>Základní znaky:</b> komunikace má cíl; je kontextuální (záleží na situaci); je oboustranná; je symbolická (slova, gesta jsou symboly).',
         '<b>Věcná stránka</b> = obsah, informace, kterou sdělujeme; <b>vztahová stránka</b> = vztah mezi účastníky a význam, který sdělení přisuzují.',
         '<b>Funkce:</b> informativní, instruktážní, persuazivní (přesvědčovat), zábavní; funkce se mísí (instruktáž či přesvědčování se často tváří jako informování).'
       ] },
-      { t: 'table', head: ['Podle počtu účastníků', 'Charakteristika'], rows: [
-        ['Intrapersonální', 'vnitřní komunikace jednoho člověka v myšlenkách; typická pro rozhodování'],
-        ['Interpersonální', 'mezi dvěma a více lidmi; vedení lidí, obchodní jednání'],
-        ['Skupinová', 'specifický případ interpersonální v sociální skupině: porady, týmové řešení; kanálem je i internet'],
-        ['Masová', 'jednosměrná k velkému počtu osob (TV, rozhlas, tisk, internet)']
-      ] },
+      { t: 'svg', title: 'Komunikace podle počtu účastníků', x: TROS.komunikaceUcastnici(), cap: 'Od jedince přes dvojici a skupinu k masové komunikaci.' },
+      { t: 'p', x: '<b>Intrapersonální</b> komunikace je vnitřní komunikace jednoho člověka v myšlenkách, typická pro rozhodování. <b>Interpersonální</b> probíhá mezi dvěma a více lidmi (vedení lidí, obchodní jednání). <b>Skupinová</b> je specifický případ interpersonální v sociální skupině (porady, týmové řešení; kanálem je i internet). <b>Masová</b> je jednosměrná k velkému počtu osob (TV, rozhlas, tisk, internet).' },
       { t: 'tip', x: 'Informace je nehmotná, neenergetická veličina, která <b>snižuje neurčitost (entropii)</b> chování systému; jednotkou je <b>1 bit</b>. Při předávání mezi stupni řízení se informace vždy částečně ztrácí.' }
     ] },
     { title: 'Proč si lidé neporozumí', blocks: [
@@ -73,7 +69,7 @@ registerTopic({
     ] },
     { title: 'Komunikace v organizaci', blocks: [
       { t: 'p', x: 'Podnik komunikuje se svým okolím: konkurenty, substituenty, dodavateli i potenciálními dodavateli, odběrateli i potenciálními odběrateli, úřady a finančními institucemi. <b>Na konci je vždy nějaký člověk</b> – komunikace mezi dvěma nebo více lidmi.' },
-      { t: 'svg', title: 'Směry komunikace v organizaci', x: TROS.smery() },
+      { t: 'svg', title: 'Směry komunikace v organizaci', x: TROS.smery(), cap: 'Mezi vedením, středním managementem a výkonnými pracovníky: sestupná (příkazy, instrukce, delegování), vzestupná (nápady, informace, stížnosti), horizontální (koordinace jednotek) a diagonální (neformální).' },
       { t: 'table', head: ['Směr / status', 'Obsah a nástroje'], rows: [
         ['<b>Sestupná</b> (shora)', 'řídící příkazy, instrukce, delegování; dává zaměstnancům informace o podniku a zpětnou vazbu; podnikové publikace, brožury, bulletiny, vnitropodniková pošta, setkání'],
         ['<b>Vzestupná</b> (zdola)', 'nápady, návrhy, doplňující informace z místa realizace, výsledky kontroly; systém stížností, diskusní kroužky, systémy návrhů, průzkumy názorů'],
@@ -105,7 +101,7 @@ registerTopic({
       { t: 'tip', x: 'Cíl porady určuje její charakter: <b>informační</b> (informovanost), <b>řídící</b> (příkazy, odpovědné osoby, termíny, kontrola), <b>konstruktivní</b> (řešení problému a rozhodnutí), <b>tvůrčí</b> (nápady).' }
     ] },
     { title: 'Konflikty a jejich řešení', blocks: [
-      { t: 'def', term: 'Konflikt', x: 'Srážka dvou nebo více do určité míry se vylučujících snah, sil, potřeb, zájmů, citů, hodnot nebo aktérů, kteří činí rozhodnutí v rámci stejného systému nebo se musí dělit o společné zdroje. <b>Neexistuje dobrý nebo špatný konflikt, ale jen dobré nebo špatné řešení konfliktu.</b>' },
+      { t: 'def', term: 'Konflikt', x: 'Srážka dvou nebo více do určité míry se vylučujících snah, sil, potřeb, zájmů, citů, hodnot nebo aktérů.', items: ['aktéři činí rozhodnutí v rámci stejného systému nebo se musí dělit o společné zdroje', '<b>neexistuje dobrý nebo špatný konflikt, ale jen dobré nebo špatné řešení konfliktu</b>'] },
       { t: 'table', head: ['Typ konfliktu', 'Charakteristika a příklad'], rows: [
         ['<b>Vnitřní (intrapersonální)</b>', 'konflikt pocitů, názorů, motivů; častý u vyšších ŘP: cíl × morálka (zakázka za úplatek). Motivační typy: <b>apetence × apetence</b> (dvě pozitivní varianty), <b>apetence × averze</b>, <b>averze × averze</b> (obě negativní – nejtěžší)'],
         ['<b>Mezilidský (interpersonální)</b>', 'předmět: <b>vztahy</b>, <b>střet zájmů</b>, <b>postojů a hodnot</b>, <b>cílů</b> (rozvoj × dividenda), <b>prostředků</b> k cíli, <b>informací</b> (jiné údaje nebo interpretace), <b>strukturální</b> (nevyvážené pravomoci, kdo za co odpovídá)'],

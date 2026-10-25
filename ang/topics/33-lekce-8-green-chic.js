@@ -37,7 +37,7 @@ registerTopic({
     ] },
     { title: 'Communication strategies: Problem solving (s. 84–85)', blocks: [
       { t: 'p', x: 'Článek <i>Problem-solving techniques</i> popisuje tři kroky: 1) <b>Identifying the problem</b> – ujasnit si, co je špatně; shromáždit informace; více problémů seřadit podle naléhavosti. 2) <b>Brainstorming solutions</b> – vymyslet co nejvíc řešení, ptát se ostatních; nevhodné možnosti lze odmítnout později. 3) <b>Making decisions</b> – zvážit důsledky každé možnosti; žádné řešení není dokonalé, plán lze upravit, nebojte se riskovat.' },
-      { t: 'def', term: 'Tři slovesa', x: '<b>deal with</b> = udělat něco, aby problém přestal existovat · <b>work out</b> = najít řešení nebo se rozhodnout po pečlivém přemýšlení · <b>come up with</b> = vymyslet nápad nebo odpověď.' },
+      { t: 'def', term: 'Tři slovesa', x: 'Tři frázová slovesa:', items: ['<b>deal with</b> = udělat něco, aby problém přestal existovat', '<b>work out</b> = najít řešení nebo se rozhodnout po pečlivém přemýšlení', '<b>come up with</b> = vymyslet nápad nebo odpověď'] },
       { t: 'grid', head: ['Krok', 'Fráze z rozhovoru (Andy × Beth)'], rows: [
         ['1 Identifikace problému', '<i>Can I have a word? – Sure, what’s up? · We’ve got a little problem with the photocopiers. · It’s a bit of a pain.</i>'],
         ['2 Návrh řešení', '<i>So, what if we do a little experiment? · Then we’ll know if it’s a problem with the copiers or the recycled stuff.</i>'],
@@ -48,7 +48,7 @@ registerTopic({
       { t: 'tip', x: 'Scénáře k procvičení: <i>Office temperature</i> (spory o teplotu), <i>Old IT equipment</i> (stará technika s daty na discích) a <i>Recycling</i> (sběrné místo v suterénu šestipodlažní budovy, dvanáct kategorií odpadu). Máte vytvořit PowerPoint s problémem, možnostmi a rozhodnutím.' }
     ] },
     { title: 'Interaction: Planning a green office (s. 86–87)', blocks: [
-      { t: 'def', term: 'Reminder (Grammar reference s. 169 a 170)', x: 'Podmínkové věty popisují skutečné, pravděpodobné i nepravděpodobné důsledky: <i>If we improve the ventilation, staff will feel better and be happier at work.</i> (reálná) · <i>If the roads were safer, I would cycle to work.</i> (nereálná). Při řešení problémů: <i>We’ve got a little problem… So what / how about if we do a little experiment?</i>' },
+      { t: 'def', term: 'Reminder (Grammar reference s. 169 a 170)', x: 'Podmínkové věty popisují skutečné, pravděpodobné i nepravděpodobné důsledky:', items: ['reálná: <i>If we improve the ventilation, staff will feel better and be happier at work.</i>', 'nereálná: <i>If the roads were safer, I would cycle to work.</i>', 'při řešení problémů: <i>We’ve got a little problem… So what / how about if we do a little experiment?</i>'] },
       { t: 'grid', head: ['Slovo', 'Význam'], rows: [
         ['<b>refurbish / renovate</b>', 'opravit a vyzdobit, aby byl prostor zase v dobrém stavu'], ['<b>soundproof</b>', 'zvukotěsný – hluk neprochází dovnitř ani ven'],
         ['<b>perimeter</b>', 'okraj uzavřeného prostoru'], ['<b>partition</b>', 'tenká stěna oddělující část místnosti; pohyblivá je <i>screen</i>'],

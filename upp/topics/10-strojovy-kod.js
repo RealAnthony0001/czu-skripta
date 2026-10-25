@@ -21,17 +21,13 @@ registerTopic({
       { t: 'tip', x: 'Čitelná symbolická podoba strojového kódu se nazývá <b>assembler</b> (jazyk symbolických instrukcí).' }
     ] },
     { title: 'Formát strojové instrukce', blocks: [
-      { t: 'table', head: ['Část instrukce', 'Význam'], rows: [
-        ['operační kód', 'určuje, jaká instrukce se bude vykonávat'],
-        ['adresa vstupního operandu(ů)', 'identifikuje operand(y), se kterým(i) instrukce pracuje'],
-        ['adresa výstupního operandu(ů)', 'kam se po provedení uloží výsledek'],
-        ['adresa následující instrukce', 'jakou instrukci provést jako další; není-li uvedena, provede se bezprostředně následující']
-      ] },
+      { t: 'svg', title: 'Části strojové instrukce', x: UPP.instrFormat(), cap: 'Operační kód říká, co dělat; adresy říkají, s čím, kam a co dál.' },
+      { t: 'p', x: '<b>Operační kód</b> určuje, jaká instrukce se bude vykonávat. <b>Adresa vstupního operandu(ů)</b> identifikuje operand(y), se kterým(i) instrukce pracuje, <b>adresa výstupního operandu(ů)</b> říká, kam se po provedení uloží výsledek. <b>Adresa následující instrukce</b> určuje, jakou instrukci provést jako další; není-li uvedena, provede se bezprostředně následující.' },
       { t: 'p', x: 'Operand (vstupní i výstupní) může být umístěn v <b>hlavní paměti</b> (určen adresou) nebo v <b>registru procesoru</b>.' }
     ] },
     { title: 'Činnost procesoru: dvě fáze', blocks: [
       { t: 'p', x: 'Po spuštění programu procesor postupně zpracovává instrukce; adresa zpracovávané instrukce je v čítači instrukcí (IP). Každá instrukce prochází dvěma fázemi:' },
-      { t: 'svg', title: 'Instrukční cyklus', x: UPP.cycleDiagram() },
+      { t: 'svg', title: 'Instrukční cyklus', x: UPP.cycleDiagram(), cap: 'Dvě fáze: výběrová (adresa z IP → paměť → instrukce do RI, IP = IP + 1) a prováděcí (dekódování, případně přičtení IND, čtení operandů, výpočet v ALU, uložení výsledku); pak se vezme další instrukce na adrese v IP.' },
       { t: 'versus', cols: [
         { h: 'Výběrová fáze', items: ['řadič přenese obsah <b>IP</b> na adresní sběrnici a vydá příkaz ke čtení z HP', 'paměť pošle obsah buňky na datovou sběrnici', 'řadič uloží instrukci do <b>RI</b>', 'obsah IP se zvýší o 1'] },
         { h: 'Prováděcí fáze', items: ['instrukce v RI se <b>dekóduje</b>', 'je-li příznak modifikace, přičte se obsah <b>IND</b> k operandu', 'řadič naadresuje HP a přečte vstupní operandy', 'ALU provede instrukci, výsledek do <b>střadače</b>', 'řadič přenese výsledek ze střadače na adresu výstupního operandu'] }
@@ -45,7 +41,7 @@ registerTopic({
         ['nepřímá', '⟨⟨X⟩⟩ → S', 'na adrese X je teprve adresa operandu', '⟨⟨100⟩⟩ = ⟨102⟩ = <b>101</b>'],
         ['s posuvem', '⟨X + ⟨R⟩⟩ → S', 'k obsahu R se přičte X, použije se obsah výsledné adresy', 'X = 100, IND = 1: ⟨101⟩ = <b>40</b>']
       ] },
-      { t: 'svg', title: 'Adresace nad stejnou pamětí', x: UPP.addrDiagram(), cap: 'Paměť: adresa 100 → 102, 101 → 40, 102 → 101. Zvýrazněné buňky se čtou, v pořadí šipek.' },
+      { t: 'widget', fig: UPP.addrDiagram(), figcap: 'Paměť: adresa 100 → 102, 101 → 40, 102 → 101. Zvýrazněné buňky se čtou, v pořadí šipek.', name: 'adresace', how: ['Vyber způsob adresace; paměť je stejná jako ve zdrojové tabulce (100 → 102, 101 → 40, 102 → 101).', 'Oranžově je buňka, ze které se právě čte; počet kroků odpovídá počtu čtení z paměti.', 'U adresace s posuvem můžeš měnit hodnotu indexregistru IND.'], title: 'Adresace krok po kroku (stejná paměť)' },
       { t: 'table', head: ['Adresace s posuvem', 'R', 'X'], rows: [
         ['relativní', 'čítač instrukcí', 'posuv (±)'],
         ['bázová (segmentová)', 'základní adresa v HP (báze, segment)', 'kladný posuv'],
@@ -73,7 +69,7 @@ registerTopic({
         ['XOR', 'nestejnost (výlučné nebo)', '⊕'],
         ['NON', 'negace', '¬, ‾']
       ] },
-      { t: 'def', term: 'Vykonání logické instrukce OP A, B', x: 'Operace OP se provede na <b>souhlasných bitech</b> obsahů operandů A a B (b<sub>i</sub> = a<sub>i</sub> OP b<sub>i</sub>) a výsledek se uloží do <b>druhého operandu B</b>: B = ⟨A⟩ OP ⟨B⟩. Vždy se berou původní hodnoty A i B.' },
+      { t: 'def', term: 'Vykonání logické instrukce OP A, B', x: 'Operace OP se provede na <b>souhlasných bitech</b> obsahů operandů A a B (b<sub>i</sub> = a<sub>i</sub> OP b<sub>i</sub>).', items: ['výsledek se uloží do <b>druhého operandu B</b>: B = ⟨A⟩ OP ⟨B⟩', 'vždy se berou původní hodnoty A i B'] },
       { t: 'grid', head: ['', 'bity'], rows: [
         ['A', '1 0 0 1 0 0 1 0'],
         ['B', '0 1 1 1 0 1 1 0'],
@@ -91,6 +87,7 @@ registerTopic({
         ['<b>negovat</b> vybrané bity', 'XOR', '1 na vybraných pozicích, jinde 0', 'x ⊕ 1 = ¬x, x ⊕ 0 = x']
       ] },
       { t: 'svg', title: 'Tři masky po sobě na osmibitovém registru A', x: UPP.maskDiagram(), cap: 'Cíl: bity 0 a 1 na 1, bity 2 a 3 na 0, bity 4–7 znegovat. Nastavení 1, nastavení 0 a negace vyžadují tři různé operace, tedy tři různé masky; každý krok navazuje na výsledek předchozího.' },
+      { t: 'widget', name: 'masky', how: ['Klikáním přepínáš bity registru R a masky M; vyber operaci AND / OR / XOR.', 'Třetí řádek je výsledek instrukce <b>OP M, R → R</b>; změněné bity jsou zvýrazněné.', 'Tlačítko „výsledek jako nové R“ umožní řetězit několik instrukcí za sebou. Předvolby jsou příklady z textu.'], title: 'Zkus si masky: OP M, R' },
       { t: 'ex', x: '<b>Vynulovat bity 0, 2 a 5:</b> A = 1011 0111, M = 0101 1011 → AND M,A = <b>0001 0011</b>.<br><b>Nastavit bity 1 a 4 na 1:</b> A = 0001 0011, M = 0100 1000 → OR M,A = <b>0101 1011</b>.<br><b>Kombinace</b> na A = 0101 0101: OR M, A s M = 1100 0000 → 1101 0101; AND N, A s N = 1100 1111 → 1100 0101; XOR O, A s O = 0000 1111 → <b>1100 1010</b>.' },
       { t: 'ex', x: '<b>Záměna obsahu A a B bez pomocného registru</b> – třikrát XOR, vždy s předchozím výsledkem: A = 0101 1010, B = 1100 1100.<br>XOR A,B → B = 1001 0110 · XOR B,A → A = 1100 1100 · XOR A,B → B = <b>0101 1010</b>. Registry si vyměnily hodnoty (a ⊕ b ⊕ a = b).' },
       { t: 'ex', x: '<b>Nahradit první bajt (bity 0–7) registru A prvním bajtem B</b> (původní hodnoty není třeba zachovat): masky M = 00FF a N = FF00 → AND M,A (A = A ∧ 00FF) · AND N,B (B = B ∧ FF00) · OR B,A (A = B ∨ A). Např. A = 6F3A, B = C149 → A = 003A, B = C100 → A = <b>C13A</b>.' },

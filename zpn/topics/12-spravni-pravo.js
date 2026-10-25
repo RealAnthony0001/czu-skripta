@@ -23,7 +23,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Pojem, členění a prameny správního práva', blocks: [
-      { t: 'def', term: 'Správní právo', x: 'Soubor právních norem veřejného práva upravujících <b>organizaci</b> a <b>činnost veřejné správy</b> a <b>vztahy mezi orgány veřejné správy a adresáty</b> (občany, firmami). Pro vztah je typická <b>nadřízenost a podřízenost</b>, zásada <b>legality</b> (orgán smí jen to, co mu zákon dovoluje) a ochrana veřejného zájmu.' },
+      { t: 'def', term: 'Správní právo', x: 'Soubor právních norem veřejného práva upravujících:', items: ['<b>organizaci</b> a <b>činnost veřejné správy</b>', '<b>vztahy mezi orgány veřejné správy a adresáty</b> (občany, firmami)', 'pro vztah je typická <b>nadřízenost a podřízenost</b>, zásada <b>legality</b> (orgán smí jen to, co mu zákon dovoluje) a ochrana veřejného zájmu'] },
       { t: 'table', head: ['Část', 'Obsah', 'Příklad předpisů'], rows: [
         ['<b>Obecná</b>', 'společné instituty: organizace, správní řízení, správní akty, trestání, soudní přezkum', 'správní řád 500/2004 Sb., soudní řád správní 150/2002 Sb., přestupkový zákon 250/2016 Sb., zákon o obcích, o krajích'],
         ['<b>Zvláštní</b>', 'úprava jednotlivých oblastí veřejné správy', 'stavební zákon, silniční (dopravní) zákon, zákon o ochraně přírody, živnostenský zákon 455/1991 Sb., zákon o sociálním zabezpečení, školské zákony, daňový řád 280/2009 Sb. (daňové řízení)'],
@@ -38,7 +38,7 @@ registerTopic({
       { t: 'p', x: '<b>Prameny</b>: Ústava, LZPS, zákony, <b>nařízení vlády</b>, <b>vyhlášky ministerstev</b>, obecně závazné vyhlášky obcí a nařízení krajů, mezinárodní smlouvy, právo EU (nařízení přímo účinná). <b>Judikatura</b> (Nejvyšší správní soud) není formálním pramenem práva, ale sjednocuje výklad.' }
     ] },
     { title: 'Veřejná správa a správní orgány', blocks: [
-      { t: 'def', term: 'Veřejná správa', x: 'Činnost vykonávaná <b>veřejnými subjekty</b> (stát, obce, kraje, zájmové korporace) v zájmu společnosti na základě zákona; <b>organizačně</b> i <b>funkčně</b> odlišná od moci zákonodárné a soudní.' },
+      { t: 'def', term: 'Veřejná správa', x: 'Činnost vykonávaná <b>veřejnými subjekty</b> (stát, obce, kraje, zájmové korporace) v zájmu společnosti na základě zákona.', items: ['<b>organizačně</b> i <b>funkčně</b> odlišná od moci zákonodárné a soudní'] },
       { t: 'table', head: ['', 'Státní správa', 'Samospráva'], rows: [
         ['Podstata', 'výkon státní moci orgány státu (nebo přenesený výkon)', 'správa vlastních záležitostí samosprávnými celky, nikoli státem'],
         ['Orgány', '<b>ministerstva</b>, jiné ústřední správní úřady (ČSÚ, ČÚZK), územní orgány (finanční, celní, živnostenské úřady)', '<b>územní</b>: obec, město (zastupitelstvo, rada, starosta), kraj; <b>zájmová</b>: profesní komory (ČLK, ČAK, ČKA), veřejné vysoké školy'],
@@ -100,7 +100,7 @@ registerTopic({
         ['<b>Nové rozhodnutí</b> (§ 101)', 'orgán z moci úřední', 'zrušuje původní rozhodnutí, které záviselo na zrušeném rozhodnutí soudu'],
         ['<b>Opatření proti nečinnosti</b> (§ 80)', 'účastník, když orgán nerozhoduje ve lhůtě', 'nadřízený orgán určí nápravu; následně i žaloba na ochranu před nečinností']
       ] },
-      { t: 'def', term: 'Správní akt (rozhodnutí)', x: 'Úkon správního orgánu, kterým <b>jednostranně zakládá, mění nebo ruší práva a povinnosti</b> konkrétního adresáta (rozhodnutí) nebo o nich závazně rozhoduje. Vadné rozhodnutí může být <b>nezákonné</b> (lze zrušit odvoláním, přezkumem nebo soudem) nebo zcela <b>nicotné</b> (od počátku neexistuje – např. vydal ho orgán zcela bez pravomoci).' },
+      { t: 'def', term: 'Správní akt (rozhodnutí)', x: 'Úkon správního orgánu, kterým <b>jednostranně zakládá, mění nebo ruší práva a povinnosti</b> konkrétního adresáta (rozhodnutí) nebo o nich závazně rozhoduje.', items: ['vadné rozhodnutí může být <b>nezákonné</b> (lze zrušit odvoláním, přezkumem nebo soudem)', 'nebo zcela <b>nicotné</b> (od počátku neexistuje – např. vydal ho orgán zcela bez pravomoci)'] },
       { t: 'table', head: ['Správní akt', 'Povaha', 'Příklad'], rows: [
         ['<b>Správní rozhodnutí</b>', 'individuální, konkrétní; vydává se ve správním řízení', 'stavební povolení, pokuta, přiznání dávky'],
         ['<b>Opatření obecné povahy</b> (§ 171)', 'konkrétní předmět, obecně vymezený okruh adresátů', 'územní plán, stanovení dopravního značení'],

@@ -21,7 +21,7 @@ registerTopic({
         { h: 'Von Neumannovo schéma', items: ['jedna elektronická paměť pro <b>program i data</b>', 'publikováno 1945 (EDVAC)'] },
         { h: 'Harvardské schéma', items: ['<b>oddělená paměť</b> pro data a pro program'] }
       ] },
-      { t: 'svg', title: 'Von Neumannovo schéma', x: UPP.vnDiagram() },
+      { t: 'svg', title: 'Von Neumannovo schéma', x: UPP.vnDiagram(), cap: 'Procesor (řadič a ALU s registry) je spojen s operační pamětí, kde je program i data, a se vstupními a výstupními zařízeními. Šipky rozlišují datový tok a řídicí signály; řadič dekóduje instrukce a řídí, ALU s registry počítá.' },
       { t: 'p', x: 'Mezi komponenty proudí <b>datový tok</b>, <b>řídicí signály</b> (z řadiče) a <b>stavová hlášení</b> (zpět do řadiče).' }
     ] },
     { title: 'Princip činnosti', blocks: [
@@ -33,13 +33,8 @@ registerTopic({
       ] }
     ] },
     { title: 'Procesor a jeho registry', blocks: [
-      { t: 'table', head: ['Registr', 'Zkratka', 'Obsah / účel'], rows: [
-        ['Čítač instrukcí', 'IP (Instruction Pointer)', 'adresa prováděné instrukce v paměti'],
-        ['Registr instrukcí', 'RI', 'instrukce načtená z paměti'],
-        ['Stavové slovo procesoru', 'Flag Register', 'příznaky nastavené podle výsledku operace (jednotlivé bity)'],
-        ['Střadač', 'S', 'výsledek provedené instrukce'],
-        ['Indexregistr', 'IND', 'modifikace adresy (přičtení k adrese)']
-      ] },
+      { t: 'svg', title: 'Registry procesoru', x: UPP.cpuRegisters(), cap: 'Šipky ukazují jen hlavní vazby: čítač instrukcí volí adresu v paměti, instrukce se načte do registru instrukcí, výsledek jde do střadače a příznaky do stavového slova.' },
+      { t: 'ul', items: ['<b>Čítač instrukcí</b> (IP, Instruction Pointer): adresa prováděné instrukce v paměti.', '<b>Registr instrukcí</b> (RI): instrukce načtená z paměti.', '<b>Stavové slovo procesoru</b> (Flag Register): příznaky nastavené podle výsledku operace, každý příznak je jeden bit.', '<b>Střadač</b> (S): výsledek provedené instrukce.', '<b>Indexregistr</b> (IND): modifikace adresy – přičítá se k adrese.'] },
       { t: 'tip', x: 'Zapamatuj si: <b>IP ukazuje kam, RI drží co, S drží výsledek, Flag říká jak dopadl, IND posouvá adresu</b>.' }
     ] },
     { title: 'Programové vybavení počítače', blocks: [

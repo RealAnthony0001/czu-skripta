@@ -28,6 +28,10 @@ registerTopic({
         ['Změň pořadí slov v přímé otázce:<br><i>Why did he quit the show?</i>', 'Použij výraz + tázací slovo(a) + <b>běžný slovosled</b>:<br><i>Could you tell me why he quit the show?</i>'],
         ['<i>Are they planning to get married?</i>', 'Použij <b>if</b>, když tu není tázací slovo:<br><i>Do you know if they’re planning to get married?</i>']
       ] },
+      { t: 'widget', name: 'prepinac', how: ['Žlutě zvýrazněná slova jsou v přímé otázce a v nepřímé se změní nebo zmizí; modře slova, která přibyla.', 'Zapni „zkusit si nejdřív sám“ a otázku přeformuluj dřív, než odkryješ druhou.', 'Šipkami ◀ ▶ přepínáš dvojice.'], title: 'Přímá → nepřímá otázka: co se změnilo', labels: ['Přímá otázka', 'Nepřímá otázka'], pairs: [
+        ['Why did he quit the show?', 'Could you tell me why he quit the show?', 'Tázací slovo + běžný slovosled, bez did.'],
+        ['Are they planning to get married?', 'Do you know if they’re planning to get married?', 'Bez tázacího slova se použije if.']
+      ] },
       { t: 'warn', x: 'Pozor na slovosled v otázkách, které začínají <i>Could you tell me…?, Do you know…?</i> apod.: <i>Could you tell me where <b>they live</b>?</i> (ne: ✗ where do they live) · <i>Do you know if <b>the concert has been cancelled</b>?</i> (ne: ✗ if has the concert been cancelled).' },
       { t: 'versus', title: 'Přímá × nepřímá otázka', cols: [
         { h: 'přímá otázka', items: ['<b>Where do they live?</b>', 'pomocné sloveso <i>do</i> před podmětem'] },

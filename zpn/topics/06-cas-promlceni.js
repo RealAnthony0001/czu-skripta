@@ -57,7 +57,7 @@ registerTopic({
         { n: '48', u: 'hodin', x: 'od okamžiku do okamžiku, ne 2 dny (§ 608)' }
       ] },
       { t: 'warn', x: 'Rozlišuj <b>lhůtu</b> (posun na pracovní den podle § 607) a <b>konkrétně určený den</b> plnění (termín) – tam se plnění musí stihnout právě v tento den. Pozor na zavádějící zjednodušení „lhůta končí v neděli = pondělí“: platí jen u lhůt, ne u data výslovně stanoveného ve smlouvě.' },
-      { t: 'svg', title: 'Příklad 1 (cvičení): lhůta 8 dnů, 1. den 21. 10. 2024', x: ZPN.calendarDiagram() },
+      { t: 'svg', title: 'Příklad 1 (cvičení): lhůta 8 dnů, 1. den 21. 10. 2024', x: ZPN.calendarDiagram(), cap: 'Kalendář října 2024: lhůta má osm dnů (21. až 28. 10.), ale 28. 10. je státní svátek, takže lhůta končí až v úterý 29. 10. 2024.' },
       { t: 'ex', x: '<b>Poznámky k příkladu 1:</b> Počítá-li se 21. 10. jako rozhodná skutečnost, lhůta začne 22. 10. a skončí 29. 10. – stejný výsledek. Verze 2021: 21. 10. 2021 čtvrtek, 28. 10. svátek → pátek 29. 10. 2021.' },
       { t: 'timeline', title: 'Příklad 2 (cvičení): doba 13 měsíců od 31. 1. 2024', items: [
         { when: '31. 1. 2024', h: 'Rozhodná skutečnost' },
@@ -66,6 +66,7 @@ registerTopic({
       ] },
       { t: 'ex', x: '<b>Poznámka k příkladu 2:</b> Verze 2021: konec 28. 2. 2022 (pondělí).' },
       { t: 'ex', x: '<b>Další příklady:</b> a) Lhůta 1 měsíc od 31. 3. → konec 30. 4. (v dubnu není 31.). b) Lhůta 1 a půl měsíce od 10. 1. → 1 měsíc končí 10. 2., poté 15 dnů (část měsíce naposled) → konec 25. 2. c) Lhůta 2 týdny od úterý 5. 3. → úterý 19. 3. d) Doba 48 hodin začala 5. 3. ve 14:30 → skončí 7. 3. ve 14:30 (§ 608).' },
+      { t: 'widget', name: 'lhuty', how: ['Zadej rozhodnou skutečnost (datum), délku lhůty a jednotku; nebo klikni na příklad ze skript.', 'Kroky: rozhodná skutečnost → začátek (den následující) → konec podle jednotky → posun při volném dnu → výsledek.', 'U měsíců lze přidat „polovinu měsíce“ (15 dnů, počítá se naposled); u hodin zadáš i čas.'], title: 'Kalkulačka lhůt (§ 605–608) krok za krokem', cap: 'Zadej rozhodnou skutečnost a délku lhůty; příklady ze skript jsou předvolby. Svátky jsou doplněny mimo podklady.' },
       { t: 'ul', items: [
         '<b>Procesní lhůty (správní právo procesní):</b> rozlišují se lhůty stanovené zákonem a lhůty stanovené orgánem; do běhu lhůty se nezapočítává den události.',
         'Lhůty podle týdnů/měsíců/let končí uplynutím dne shodného označení; padne-li konec na So/Ne/svátek, je posledním dnem nejbližší příští pracovní den.',
@@ -81,7 +82,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Promlčení (§ 609 an.)', blocks: [
-      { t: 'def', term: 'Promlčení', x: 'Doba, po kterou lze právo úspěšně uplatnit u soudu. Uplynutím promlčecí doby <b>právo nezaniká</b>, jen se oslabuje jeho vymahatelnost – dlužník může odepřít plnění. Zbývá tzv. <b>naturální obligace</b> (dluh existuje, ale nelze jej vynutit).' },
+      { t: 'def', term: 'Promlčení', x: 'Doba, po kterou lze právo úspěšně uplatnit u soudu.', items: ['uplynutím promlčecí doby <b>právo nezaniká</b>, jen se oslabuje jeho vymahatelnost', 'dlužník může odepřít plnění', 'zbývá tzv. <b>naturální obligace</b> (dluh existuje, ale nelze jej vynutit)'] },
       { t: 'ol', items: [
         '<b>Námitka dlužníka:</b> soud k promlčení přihlédne <b>jen na námitku</b> osoby, které se týká (zpravidla žalovaný). Nenamítne-li, soud právo žalobci přizná (a právo přiznané rozhodnutím se pak promlčuje 10 let).',
         '<b>Plnění z promlčeného dluhu</b> není bezdůvodným obohacením – kdo dobrovolně plnil, nemůže plnění požadovat zpět.',
@@ -115,7 +116,7 @@ registerTopic({
       { t: 'warn', x: 'Slajd uvádí, že po nenamítnutí promlčení je nárok „vymahatelný dalších 10 let“ – přesněji: právo přiznané pravomocným rozhodnutím soudu se promlčuje v 10leté době. Dále: slajd mluví o „promlčení do 3 let od seznámení se s důvodem neplatnosti“ u relativní neplatnosti – jde o promlčecí dobu uplatnění tohoto práva (viz téma Právní jednání).' }
     ] },
     { title: 'Prekluze', blocks: [
-      { t: 'def', term: 'Prekluze (propadná lhůta)', x: 'V soukromém právu znamená nejen zánik nároku, ale <b>úplný zánik samotného práva</b> uplynutím lhůty. Označuje se jako propadná lhůta.' },
+      { t: 'def', term: 'Prekluze (propadná lhůta)', x: 'V soukromém právu znamená nejen zánik nároku, ale <b>úplný zánik samotného práva</b> uplynutím lhůty.', items: ['označuje se jako propadná lhůta'] },
       { t: 'ul', items: [
         'K prekluzi soud přihlíží <b>z úřední povinnosti</b> (bez námitky).',
         'Plnění z prekludovaného nároku je <b>bezdůvodným obohacením</b> a musí se vrátit.',
@@ -129,7 +130,7 @@ registerTopic({
       { t: 'ex', x: 'Pepa koupil 10. 3. 2024 notebook a po 26 měsících (v květnu 2026) uplatní reklamaci vady, která existovala při převzetí. Lhůta pro uplatnění práva z vadného plnění (24 měsíců) je <b>prekluzivní</b> – právo zaniklo. Prodejce nemusí reklamaci řešit (soud by k prekluzi přihlédl sám). Pokud by mu ale prodejce přesto „uznal“ a vyplatil kompenzaci, jde o plnění bez právního důvodu – bezdůvodné obohacení.' }
     ] },
     { title: 'Promlčení × prekluze', blocks: [
-      { t: 'svg', title: 'Co zbude po uplynutí doby', x: ZPN.promlceniDiagram() },
+      { t: 'svg', title: 'Co zbude po uplynutí doby', x: ZPN.promlceniDiagram(), cap: 'Po promlčení právo trvá a dlužník může namítnout promlčení (soud jen na námitku); po prekluzi právo zaniklo a soud k tomu přihlédne sám. Plnění po promlčení nelze žádat zpět, po prekluzi se vrací jako bezdůvodné obohacení.' },
       { t: 'versus', title: 'Promlčení × prekluze', x: 'Obě instituce dopadají na toho, kdo své právo dlouho neuplatňuje, ale s různou přísností. Promlčením právo nezanikne, jen se oslabí: dlužník může odmítnout plnit, pokud promlčení u soudu namítne; když nenamítne, soud věřiteli vyhoví, a když dlužník promlčený dluh dobrovolně zaplatí, nemůže peníze chtít zpět. Prekluzí právo zanikne úplně: soud k tomu přihlédne sám, i když to nikdo nenamítá, a co bylo plněno po prekluzi, je bezdůvodné obohacení, které se musí vrátit. Promlčení tedy dává dlužníkovi možnost bránit se, prekluze rychle a definitivně uzavírá právní stav.', cols: [
         { h: 'Promlčení', items: ['Právo trvá, ztrácí vymahatelnost (naturální obligace).', 'Soud přihlíží jen na námitku dlužníka.', 'Plnění po uplynutí není bezdůvodné obohacení – nelze vrátit.', 'Obecně 3 roky / 10 let objektivně; lze ujednat 1–15 let.', 'Stavění a neklid ano – běh se může obnovit.', 'Cíl: ochrana dlužníka a právní jistoty; věřitel nesmí být pasivní.'] },
         { h: 'Prekluze', items: ['Právo zaniká úplně.', 'Soud přihlíží z úřední povinnosti.', 'Plnění po uplynutí je bezdůvodné obohacení – musí se vrátit.', 'Délka stanovena zákonem (konkrétní propadné lhůty); zpravidla nelze prodlužovat dohodou.', 'Stavění a neklid u prekluzivních lhůt ne (nebo jen výjimečně).', 'Cíl: rychlé a definitivní vyjasnění právního stavu.'] }

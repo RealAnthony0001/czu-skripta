@@ -20,7 +20,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Nejdřív v kostce: o čem téma je', blocks: [
-      { t: 'def', term: 'Manažerské funkce', x: '<b>Typické činnosti</b>, které manažer ve své práci vykonává, a zároveň <b>podstatné činnosti</b>, které musí zvládnout. Za zakladatele této koncepce se považuje Francouz <b>Henri Fayol</b>, který je v roce <b>1916</b> definoval jako pět „funkcí správy“.' },
+      { t: 'def', term: 'Manažerské funkce', x: '<b>Typické činnosti</b>, které manažer ve své práci vykonává, a zároveň <b>podstatné činnosti</b>, které musí zvládnout.', items: ['za zakladatele této koncepce se považuje Francouz <b>Henri Fayol</b>', 'v roce <b>1916</b> je definoval jako pět „funkcí správy“'] },
       { t: 'p', x: 'Téma odpovídá na jednoduchou otázku: <b>co vlastně manažer celý den dělá?</b> Různí autoři na ni během 20. století odpovídali různými seznamy funkcí. Seznamy se liší počtem a názvy, ale jádro mají společné: <b>naplánovat → zajistit zdroje a lidi → vést je → zkontrolovat výsledek</b>. Kdo pochopí tohle jádro, snadno si zapamatuje i jednotlivé autory.' },
       { t: 'ex', x: '<b>Firma chce zvýšit měsíční výrobu.</b> Manažer nejdřív <b>naplánuje</b>, o kolik a do kdy; pak <b>zorganizuje</b> stroje, materiál a peníze; <b>vybere a rozmístí</b> lidi (např. přidá směnu); <b>vede</b> je – dává úkoly a motivuje; nakonec <b>kontroluje</b>, jestli se plán plní, a případně ho upraví. Přitom celou dobu <b>analyzuje</b> problémy, <b>rozhoduje</b> a <b>koordinuje</b>.' },
       { t: 'table', head: ['Typický manažer', 'Co typicky dělá'], rows: [
@@ -35,14 +35,7 @@ registerTopic({
     ] },
     { title: 'Henri Fayol – kde to celé začalo (1916)', blocks: [
       { t: 'p', x: '<b>Henri Fayol</b> (1841–1925) patří do první vývojové etapy managementu – <b>technokratického přístupu (klasických škol řízení)</b>, konkrétně do <b>správního řízení</b> (správní teorie). Ta se zaměřila na vědecké zkoumání principů organizace a <b>správních (řídících) činností</b>. Fayol přinesl tři věci: rozdělení činností podniku, pět manažerských funkcí a 14 principů managementu.' },
-      { t: 'table', head: ['Fayolova skupina činností podniku', 'Obsah', 'Subsystém OS (dnešní pojetí)'], rows: [
-        ['Technické (technologické)', 'výroba, těžba', 'PS1, TS1, TS2'],
-        ['Obchodní', 'nákup, prodej, směna', 'MOS'],
-        ['Finanční', 'opatřování a efektivní využití kapitálu', 'EIS'],
-        ['Ochranné', 'ochrana vlastnictví a osobnosti', 'ŘSS – MJS'],
-        ['Účetní', 'výkazy, kalkulace, inventarizace', 'EIS'],
-        ['<b>Správní</b> = řízení', 'předvídání, organizování, přikazování, koordinace a kontrola', 'ŘSS, OSS']
-      ] },
+      { t: 'svg', title: 'Fayolovy skupiny činností a dnešní subsystémy OS', x: TROS.fayolMapa(), cap: 'Správní činnost (= řízení) odpovídá dnešním subsystémům ŘSS a OSS.' },
       { t: 'p', x: 'Z poslední, <b>správní</b> skupiny vzniklo pět manažerských funkcí:' },
       { t: 'flow', title: 'Fayolových 5 funkcí (funkce správy)', steps: [
         { h: 'Plánování (planning)', x: 'stanovení budoucích cílů a postupu, jak jich dosáhnout' },

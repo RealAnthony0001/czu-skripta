@@ -19,14 +19,14 @@ registerTopic({
   ],
   sections: [
     { title: 'Rovinné a nerovinné grafy', blocks: [
-      { t: 'def', term: 'Rovinný graf', x: 'graf, pro který existuje diagram v rovině, ve kterém se hrany neprotínají (kromě společných vrcholů). Rovinnost je vlastnost grafu, ne konkrétního obrázku – K₄ nakreslený jako čtverec s úhlopříčkami se kříží, ale jde překreslit bez křížení.' },
-      { t: 'svg', title: 'K₄ je rovinný, K₅ a K₃,₃ ne', x: MLG.rovinne() },
+      { t: 'def', term: 'Rovinný graf', x: 'Graf, pro který existuje diagram v rovině, ve kterém se hrany neprotínají (kromě společných vrcholů).', items: ['rovinnost je vlastnost grafu, ne konkrétního obrázku', 'K₄ nakreslený jako čtverec s úhlopříčkami se kříží, ale jde překreslit bez křížení'] },
+      { t: 'svg', title: 'K₄ je rovinný, K₅ a K₃,₃ ne', x: MLG.rovinne(), cap: 'K₄ lze nakreslit bez křížení hran (rovinný), K₅ a K₃,₃ ne – to jsou základní nerovinné grafy.' },
       { t: 'law', ref: 'Kuratowského věta', x: 'Graf je rovinný, právě když neobsahuje žádný podgraf homeomorfní s K₅ ani s K₃,₃. (Homeomorfní = převoditelné zcelováním a dělením hran, tedy „stejné až na vrcholy stupně 2 vložené do hran“.)' },
       { t: 'tip', x: 'K₃,₃ je známá hádanka „tři domy a tři zdroje (voda, plyn, elektřina)“ – nejde je propojit bez křížení. Dva zakázané grafy stačí: každý nerovinný graf v sobě některý z nich „ukrývá“.' }
     ] },
     { title: 'Eulerova formule a mapy', blocks: [
       { t: 'law', ref: 'Eulerova formule', x: 'Pro rovinný diagram grafu platí <b>v + s = e + k + 1</b>, kde v je počet vrcholů, s počet států (včetně vnějšího), e počet hran a k počet komponent. Pro souvislý graf (k = 1) tedy v + s = e + 2.' },
-      { t: 'def', term: 'Mapa', x: 'diagram souvislého rovinného grafu, kde (1) žádný vrchol nemá stupeň menší než 3, (2) každý stát má hranici aspoň ze tří hran, (3) každá hrana odděluje dva státy, (4) dva státy mají nejvýš jednu společnou hranu. Mapa je <b>pravidelná</b>, mají-li všechny vrcholy stejný stupeň k a všechny státy hranici ze stejného počtu n hran.' },
+      { t: 'def', term: 'Mapa', x: 'Diagram souvislého rovinného grafu, kde:', items: ['(1) žádný vrchol nemá stupeň menší než 3', '(2) každý stát má hranici aspoň ze tří hran', '(3) každá hrana odděluje dva státy', '(4) dva státy mají nejvýš jednu společnou hranu', 'mapa je <b>pravidelná</b>, mají-li všechny vrcholy stejný stupeň k a všechny státy hranici ze stejného počtu n hran'] },
       { t: 'grid', head: ['Pravidelná mapa', 'k (stupeň)', 'n (hran státu)', 'v', 'e', 's'], rows: [
         ['čtyřstěn', '3', '3', '4', '6', '4'],
         ['krychle', '3', '4', '8', '12', '6'],
@@ -38,7 +38,7 @@ registerTopic({
       { t: 'tip', x: 'Ověř si tabulku Eulerovou formulí: u krychle 8 + 6 = 12 + 2, u dvacetistěnu 12 + 20 = 30 + 2. Navíc k·v = 2e (součet stupňů) a n·s = 2e (každá hrana patří dvěma státům).' }
     ] },
     { title: 'Barvení grafu', blocks: [
-      { t: 'def', term: 'k-obarvení a chromatické číslo', x: 'k-obarvení grafu G = (V, E, p) je zobrazení c: V → {1, …, k}, které vrcholům spojeným hranou přiřadí různé hodnoty. <b>χ(G)</b> je nejmenší k, pro které k-obarvení existuje.' },
+      { t: 'def', term: 'k-obarvení a chromatické číslo', x: 'k-obarvení grafu G = (V, E, p) je zobrazení c: V → {1, …, k}, které vrcholům spojeným hranou přiřadí různé hodnoty.', items: ['<b>χ(G)</b> je nejmenší k, pro které k-obarvení existuje'] },
       { t: 'grid', head: ['Graf', 'χ', 'Proč'], rows: [
         ['Dₙ (bez hran)', '1', 'nic se nedotýká'],
         ['Kₙ', 'n', 'každý se s každým'],
@@ -48,6 +48,7 @@ registerTopic({
         ['rovinný graf', '≤ 4', 'věta o čtyřech barvách']
       ] },
       { t: 'p', x: 'Barvení řeší úlohy „kdo nesmí být spolu“: rozdělení lidí do pokojů, rozvrh (předměty se společnými studenty nesmí být ve stejný čas), fáze semaforů na křižovatce. Vrcholy jsou objekty, hrany konflikty a barvy skupiny.' },
+      { t: 'widget', fig: MLG.barveniPriklady(), figcap: 'Sousední vrcholy nikdy nemají stejnou barvu; počet použitých barev je u těchto grafů nejmenší možný.', name: 'barveni', how: ['Vyber graf a klikáním na vrcholy je obarvuj (barva se přepíná v cyklu).', 'Hrana se stejnou barvou na obou koncích se zbarví červeně a objeví se hlášení o konfliktu.', 'Vpravo je počet použitých barev a známé chromatické číslo χ; cíl je obarvit <b>nejmenším možným počtem barev</b>.'], sol: '<b>C₅</b> (lichá kružnice) χ = 3, <b>C₆</b> (sudá kružnice) χ = 2, <b>K₄</b> χ = 4, <b>K₃,₃</b> χ = 2. <b>Kolo</b> (C₅ + střed) χ = 4: pět vrcholů kružnice potřebuje 3 barvy a střed, který sousedí se všemi, čtvrtou.', title: 'Zkus si obarvit graf', cap: 'Kliknutím na vrchol měníš barvu. Správné obarvení nesmí mít stejnou barvu na koncích žádné hrany; hledej nejmenší možný počet barev.' },
       { t: 'ex', x: '<b>Jedenáct chlapečků (přednáška):</b> vrcholy = chlapci, hrana = „nechtějí spolu bydlet“. Adam, Bořík a Fanoušek se navzájem nesnášejí (trojúhelník), proto χ ≥ 3. Tři pokoje stačí: <b>{Adam, Cyril, Karlík, Viktor}</b>, <b>{Bořík, Lukášek, Martínek, Zdeněk}</b>, <b>{Davídek, Fanoušek, Pavlík}</b>. Instruktoři potřebují <b>3 pokoje</b>.' },
       { t: 'tip', x: 'Dolní odhad χ dává největší úplný podgraf (trojúhelník ⇒ aspoň 3) nebo lichá kružnice; horní odhad dá libovolné konkrétní obarvení. Když se rovnají, máš výsledek.' }
     ] }

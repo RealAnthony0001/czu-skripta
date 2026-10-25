@@ -29,7 +29,7 @@ registerTopic({
         { h: 'Řídicí znaky', items: ['speciální význam pro řízení zpracování', 'netisknutelné (např. Enter = nový řádek, konec zprávy)'] },
         { h: 'Grafické znaky', items: ['písmena, číslice, interpunkce, značky', 'vnější reprezentace pro monitor a tiskárnu'] }
       ] },
-      { t: 'svg', title: 'Cesta textu „AHOJ“ do paměti', x: UPP.textDiagram() },
+      { t: 'svg', title: 'Cesta textu „AHOJ“ do paměti', x: UPP.textDiagram(), cap: 'Každý znak se podle kódovací tabulky nahradí číslem (A = 65, H = 72, O = 79, J = 74) a to se převede do dvojkové soustavy; v paměti je pak jeden bajt na znak.' },
       { t: 'ex', x: '<b>Text „AHOJ“:</b> A′ = 65, H′ = 72, O′ = 79, J′ = 74 → <b>01000001 01001000 01001111 01001010</b> (4 bajty).' }
     ] },
     { title: 'ASCII (7 a 8 bitů)', blocks: [
@@ -40,6 +40,7 @@ registerTopic({
       { t: 'grid', head: ['Znak', 'Kód (dek.)', 'Binárně'], rows: [
         ['mezera', '32', '0010 0000'], ['0', '48', '0011 0000'], ['A', '65', '0100 0001'], ['a', '97', '0110 0001']
       ] },
+      { t: 'widget', name: 'text', how: ['Napiš libovolný text a vyber kódování: ASCII (7 bitů) nebo UTF-8.', 'Tabulka ukazuje u každého znaku desítkový kód, binární zápis a (u UTF-8) bajty a jejich počet.', 'Červený řádek = znak, který se v ASCII nedá zapsat (např. písmena s diakritikou).'], sol: 'Text <b>AHOJ</b> v ASCII: A = 65 = 1000001, H = 72 = 1001000, O = 79 = 1001111, J = 74 = 1001010. Znak <b>Č</b> v ASCII není, v UTF-8 zabere <b>dva bajty</b>: 11000100 10001100 (C4 8C).', title: 'Kódy znaků ve tvém textu (ASCII × UTF-8)' },
       { t: 'tip', x: 'Velké a malé písmeno se liší o 32 (bit 5): A = 65, a = 97. Číslice „0“ je 48, nikoli 0.' }
     ] },
     { title: 'Kódové stránky', blocks: [
@@ -61,7 +62,7 @@ registerTopic({
         ['UTF-16', '2 nebo 4 B', 'pouhé „Unicode“ často znamená UTF-16; Word .doc; názvy souborů ve Windows'],
         ['UTF-32', '4 B (vždy)', 'nejjednodušší, ale nejvíce paměťově náročný']
       ] },
-      { t: 'svg', title: 'Kolik bajtů zabere znak', x: UPP.utfDiagram() },
+      { t: 'svg', title: 'Kolik bajtů zabere znak', x: UPP.utfDiagram(), cap: 'Každý čtvereček je jeden bajt. Řádky srovnávají, kolik bajtů zabere stejný znak (A, č, €, emoji) v UTF-8, UTF-16 a UTF-32.' },
       { t: 'ex', x: 'Znak „A“ = 1 B v UTF-8, „č“ = 2 B (C4 8D), „€“ = 3 B, emoji 😀 = 4 B. V UTF-16 mají „A“, „č“ i „€“ po 2 B, emoji 4 B.' }
     ] }
   ],

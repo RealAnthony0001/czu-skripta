@@ -28,7 +28,7 @@ registerTopic({
         ['<b>fashion shoot</b>', 'rozhovor se stylistou, líčení, účes a módní focení', '€157'],
         ['<b>flying lessons</b>', 'létání: lekce s řízením, vyhlídkový let balonem nebo <i>flight simulator</i>', '€123–€337']
       ] },
-      { t: 'def', term: 'Slovní zásoba z inzerátů', x: '<b>gadgets</b> = malé užitečné stroje nebo nástroje · <b>devices</b> = stroje či nástroje se zvláštním úkolem · <b>thrill</b> = vzrušení · <b>flight simulator</b> = stroj, který napodobuje létání (k výcviku pilotů).' },
+      { t: 'def', term: 'Slovní zásoba z inzerátů', x: 'Slova z inzerátů:', items: ['<b>gadgets</b> = malé užitečné stroje nebo nástroje', '<b>devices</b> = stroje či nástroje se zvláštním úkolem', '<b>thrill</b> = vzrušení', '<b>flight simulator</b> = stroj, který napodobuje létání (k výcviku pilotů)'] },
       { t: 'p', x: 'Statistika z textu <i>Young Europeans are still reading books</i> (mladí Evropané 15–30 let):' },
       { t: 'grid', head: ['Volnočasová činnost', 'Podíl'], rows: [
         ['taking exercise (procházka, kolo, sport)', '45 %'], ['meeting friends (jídlo, tanec, posezení)', '40 %'],
@@ -84,7 +84,7 @@ registerTopic({
         '<b>Vikram</b> (catering): chce rozšířit firmu a víc času s rodinou, dlouho dojíždí. Najal asistentku, ale ta nemá jeho osobní přístup k lidem.',
         '<b>Ruth</b> (administrativní asistentka v reklamní agentuře): chce kreativnější práci. Promluvila s šéfem a dostala ještě víc administrativy.'
       ] },
-      { t: 'def', term: 'Time stealers (12 položek)', x: 'Přerušování (telefon, e-mail, návštěvy) · schůzky · úkoly, které je třeba delegovat · odkládání a nerozhodnost · práce s členy týmu · krizový management · nedostatek informací či odborných znalostí · nejasná komunikace, cíle a priority · špatné plánování · stres a únava · neschopnost říct „No“ · nepořádek na stole a osobní neorganizovanost.' },
+      { t: 'def', term: 'Time stealers (12 položek)', x: 'Dvanáct věcí, které kradou čas:', items: ['přerušování (telefon, e-mail, návštěvy)', 'schůzky', 'úkoly, které je třeba delegovat', 'odkládání a nerozhodnost', 'práce s členy týmu', 'krizový management', 'nedostatek informací či odborných znalostí', 'nejasná komunikace, cíle a priority', 'špatné plánování', 'stres a únava', 'neschopnost říct „No“', 'nepořádek na stole a osobní neorganizovanost'] },
       { t: 'tip', x: 'Cíl úlohy: ve dvojici hrajete telefonát kouče s klientem (Vikram, Ruth). Ptáte se přítomným a průběhovým časem (<i>Does it take long to commute? Are you doing anything to change the way you work?</i>) a navrhujete změny frázemi ze strategie výše.' }
     ] }
   ],

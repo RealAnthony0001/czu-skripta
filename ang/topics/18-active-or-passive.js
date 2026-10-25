@@ -15,7 +15,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Kdy činný, kdy trpný', blocks: [
-      { t: 'svg', title: 'Volba mezi činným a trpným rodem', x: ANG.activePassive(), cap: '' },
+      { t: 'svg', title: 'Volba mezi činným a trpným rodem', x: ANG.activePassive(), cap: 'Trpný rod volíme, když nás zajímá děj, ne původce, nebo ho neznáme (formální a psaný styl); činný rod je přirozenější a osobnější (neformální styl). Často jde použít obojí.' },
       { t: 'ol', items: [
         'Trpný rod používáme častěji <b>při psaní než při mluvení</b>. Někdy jsou ale možné oba tvary: <i>This new technology <b>is being adopted</b> by many companies.</i> (passive) × <i>Many companies <b>are adopting</b> this new technology.</i> (active)',
         'Obvykle používáme <b>trpný rod</b>, když <b>nevíme nebo nechceme říct, kdo je za děj zodpovědný</b>: <i>Use of social networking technologies at work <b>needs to be controlled</b>.</i>',
@@ -37,7 +37,15 @@ registerTopic({
         ['A hacker infected the official website of the singer with a virus.', 'The official website of the singer was infected with a virus.'],
         ['Someone has trained our employees to use the latest new technologies.', 'Our employees have been trained to use the latest new technologies.'],
         ['Then repeat step 2 of the process.', 'Step 2 of the process is then repeated.']
-      ] }
+      ] },
+      { t: 'widget', name: 'prepinac', how: ['Žlutě zvýrazněná slova jsou v činné větě a v trpné se změní nebo zmizí; modře slova, která přibyla.', 'Zapni „zkusit si nejdřív sám“, větu si přeformuluj a teprve potom odkryj druhou.', 'Šipkami ◀ ▶ přepínáš dvojice.'], sol: 'Činný → trpný rod: <b>předmět</b> činné věty se stane <b>podmětem</b> trpné, sloveso má tvar <b>be + past participle</b> a původce děje se vynechá nebo přesune za <i>by</i> (…rescued <i>by</i> a rescue team).', title: 'Činný → trpný rod: co se změnilo', labels: ['Činný rod', 'Trpný rod'], pairs: [
+        ['Researchers in Tokyo have developed Saya, the robotic receptionist.', 'Saya, the robotic receptionist, has been developed by researchers in Tokyo.'],
+        ['A rescue team rescued two backpackers in the Italian Alps yesterday.', 'Two backpackers were rescued in the Italian Alps yesterday.', 'Původce děje (rescue team) se vynechal.'],
+        ['I’m afraid one of our employees has accidentally deleted the file.', 'I’m afraid the file has been accidentally deleted.'],
+        ['A hacker infected the official website of the singer with a virus.', 'The official website of the singer was infected with a virus.'],
+        ['Someone has trained our employees to use the latest new technologies.', 'Our employees have been trained to use the latest new technologies.'],
+        ['Then repeat step 2 of the process.', 'Step 2 of the process is then repeated.']
+      ] },
     ] }
   ],
   mistakes: [

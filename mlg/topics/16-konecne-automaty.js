@@ -19,12 +19,12 @@ registerTopic({
   ],
   sections: [
     { title: 'Abeceda, slovo a jazyk', blocks: [
-      { t: 'def', term: 'Abeceda, slovo, jazyk', x: 'Abeceda Σ je konečná množina znaků. Slovo nad Σ je konečná posloupnost znaků, |w| jeho délka a <b>ε</b> prázdné slovo. Σ* je množina všech slov nad Σ a <b>jazyk</b> je jakákoli podmnožina Σ*.' },
+      { t: 'def', term: 'Abeceda, slovo, jazyk', x: 'Základní pojmy formálních jazyků:', items: ['<b>abeceda Σ</b> je konečná množina znaků', '<b>slovo</b> nad Σ je konečná posloupnost znaků, |w| jeho délka a <b>ε</b> prázdné slovo', 'Σ* je množina všech slov nad Σ', '<b>jazyk</b> je jakákoli podmnožina Σ*'] },
       { t: 'ex', x: 'Nad Σ = {0, 1} jsou slovy ε, 0, 1, 00, 01, 10, 11, 000, … Jazykem je např. {slova s počtem jedniček dělitelným třemi} nebo konečný jazyk {100}.' }
     ] },
     { title: 'Konečný automat', blocks: [
-      { t: 'def', term: 'Konečný automat', x: 'uspořádaná pětice (Q, Σ, δ, q₀, F): Q konečná množina stavů, Σ vstupní abeceda, δ: Q × Σ → Q přechodová funkce, q₀ ∈ Q počáteční (iniciální) stav, F ⊆ Q přijímající stavy. <b>Výpočet</b> nad slovem x₁…xₙ je posloupnost stavů r₀ = q₀, …, rₙ s δ(rᵢ₋₁, xᵢ) = rᵢ; slovo je <b>přijato</b>, když rₙ ∈ F. Jazyk automatu L(A) = množina přijímaných slov.' },
-      { t: 'svg', title: 'Automat z přednášky: lichý počet a, žádné b', x: MLG.automatLiche(), cap: 'Tabulka: →1: a→2, b→3 · ←2: a→1, b→3 · 3: a→3, b→3.' },
+      { t: 'def', term: 'Konečný automat', x: 'Uspořádaná pětice (Q, Σ, δ, q₀, F):', items: ['Q je konečná množina stavů, Σ vstupní abeceda', 'δ: Q × Σ → Q je přechodová funkce', 'q₀ ∈ Q je počáteční (iniciální) stav, F ⊆ Q jsou přijímající stavy', '<b>výpočet</b> nad slovem x₁…xₙ je posloupnost stavů r₀ = q₀, …, rₙ s δ(rᵢ₋₁, xᵢ) = rᵢ', 'slovo je <b>přijato</b>, když rₙ ∈ F; jazyk automatu L(A) = množina přijímaných slov'] },
+      { t: 'widget', fig: MLG.automatLiche(), figcap: 'Tabulka: →1: a→2, b→3 · ←2: a→1, b→3 · 3: a→3, b→3.', name: 'aut', how: ['Vyber automat a zadej slovo (nebo klikni na příklad).', 'Červený stav je ten, ve kterém se automat právě nachází; oranžová hrana je použitý přechod; čtverečky nahoře ukazují přečtené znaky.', 'Na konci se podle toho, zda je stav <b>přijímající</b> (dvojitý kruh), slovo přijme nebo ne.'], sol: 'Automat b): <b>aaa</b>: 1 →a 2 →a 1 →a 2, končí v přijímajícím stavu 2 → <b>přijato</b>; <b>aa</b> končí ve stavu 1 → nepřijato; <b>ab</b> spadne do pasti 3 → nepřijato. Automat a) přijímá jen slovo <b>100</b> (A → B → C → D).', a: 'p2', title: 'Simulátor automatu: zadej slovo a sleduj výpočet' },
       { t: 'grid', head: ['Automat (přednáška)', '0 / a', '1 / b', 'Jazyk'], rows: [
         ['a) →A', 'E', 'B', 'přijímá jen slovo <b>100</b>'],
         ['B', 'C', 'E', 'A –1→ B –0→ C –0→ D'],

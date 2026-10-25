@@ -23,10 +23,10 @@ registerTopic({
         '<b>Normální situace</b>, kde používáme normální slovesné tvary: <i>If we charge for parking, more employees will cycle to work.</i> · <i>Life is more interesting if you have a lot of friends.</i> · <i>If it’s not the right size, bring it back.</i> · <i>If you’re going to buy a new car, you should get a fuel-efficient one.</i>',
         '<b>Imaginární nebo nereálné situace</b>, kde normální slovesné tvary <b>nepoužíváme</b>: <i>If I had a problem, my boss would help me.</i> · <i>If I were you, I’d tell the truth.</i> (viz second conditional, téma 16)'
       ] },
-      { t: 'def', term: 'Čárka', x: 'If-clause může stát na začátku nebo na konci věty. Stojí-li <b>na začátku, píšeme mezi obě věty čárku</b>: <i>If you do some exercise, you’ll feel better.</i> × <i>You’ll feel better if you do some exercise.</i>' }
+      { t: 'def', term: 'Čárka', x: 'If-clause může stát na začátku nebo na konci věty.', items: ['stojí-li <b>na začátku, píšeme mezi obě věty čárku</b>: <i>If you do some exercise, you’ll feel better.</i>', 'stojí-li na konci, čárka není: <i>You’ll feel better if you do some exercise.</i>'] }
     ] },
     { title: 'The zero conditional', blocks: [
-      { t: 'def', term: 'Použití', x: 'Zero conditional používáme o <b>situacích a událostech, které obecně platí</b>. If-clause říká příčinu, druhá část následek. Místo <i>if</i> můžeme v hlavní větě použít <i>when</i> nebo <i>whenever</i>.' },
+      { t: 'def', term: 'Použití', x: 'Zero conditional používáme o <b>situacích a událostech, které obecně platí</b>.', items: ['if-clause říká příčinu, druhá část následek', 'místo <i>if</i> můžeme v hlavní větě použít <i>when</i> nebo <i>whenever</i>'] },
       { t: 'ex', x: 'Employees tend to be happier <b>if / when</b> they are able to contribute their ideas to plans.' },
       { t: 'svg', title: 'Stavba zero a first conditional', x: ANG.cond01(), cap: 'Obě věty používají present simple; v hlavní větě first conditional stojí <i>will</i>.' },
       { t: 'grid', head: ['Zero conditional', 'Příklad'], rows: [

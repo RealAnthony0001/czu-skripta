@@ -534,5 +534,53 @@ const ANG = (() => {
     { h: 'Lekce 12', c: 'fE', t: ['ripped off, refund', 'What seems to be the problem?', 'I’ll pass on your complaint.'] }
   ]);
 
-  return { rev13, rev46, rev79, rev1012, l12Trades, l12Steps, l11Email, l11Network, l10MakeDo, l10Sorry, l9Phone, l9Requests, l8Collocations, l8Steps, l7Story, l7Linkers, l6Advice, l5Compliments, l4Skills, l4Build, l3Food, l3Refusal, l2Compound, l2Disagree, l1Interests, suggestForms, groups, tenseMap, presentForms, questionForms, futureScale, presContFutureForm, patternsToIng, quantVenn, abilityTime, compBars, ppTime, ppForms, usedToContrast, usedToForm, obligationMatrix, pastObligation, makeLetAllow, pastContTime, pastForms, pastTime, cond01, cond2, passiveTransform, activePassive, third, shouldHave, relPron, ppcForm, ppcContrast, reportedTenses, reportedTime, embedded };
+  // ===== stavba vět nahrazující tabulky Typ věty | Pravidlo =====
+  const willForm = () => formRows([
+    { n: 'Kladná', p: [['will / ’ll', 'fD'], ['základní tvar', 'fW']], ex: 'I’ll see you on Friday.' },
+    { n: 'Záporná', p: [['won’t (will not)', 'fD'], ['základní tvar', 'fW']], ex: 'He won’t be here for at least half an hour.' },
+    { n: 'Otázka', p: [['(tázací slovo)', 'b'], ['will', 'fD'], ['podmět', 'b'], ['základní tvar', 'fW']], sep: '', ex: 'What time will he get here?' },
+    { n: 'Krátká odpověď', p: [['Yes, … will', 'fD'], ['No, … won’t', 'fE']], sep: ',', ex: 'Will it work? Yes, it will. / No, it won’t.' }
+  ], 'žádná zvláštní forma pro 3. osobu');
+  const goingToForm = () => formRows([
+    { n: 'Kladná', p: [['be (am / is / are)', 'fD'], ['going to', 'fW'], ['základní tvar', 'fA']], ex: 'They’re going to reorganize the office.' },
+    { n: 'Záporná', p: [['be + not', 'fD'], ['going to', 'fW'], ['základní tvar', 'fA']], ex: 'We’re not going to clean up.' },
+    { n: 'Otázka', p: [['(tázací slovo)', 'b'], ['be', 'fD'], ['podmět', 'b'], ['going to + základní tvar', 'fW']], sep: '', ex: 'Are you going to employ an assistant?' },
+    { n: 'Krátká odpověď', p: [['Yes, … be', 'fD'], ['No, … be + not', 'fE']], sep: ',', ex: 'Is he going to come? Yes, he is. / No, he isn’t.' }
+  ]);
+  const canForm = () => formRows([
+    { n: 'can / could', p: [['can, can’t, could, couldn’t', 'fD'], ['základní tvar', 'fW']], ex: 'They can sing very well. · I can’t speak French.' },
+    { n: 'po to', p: [['to', 'b'], ['be able to', 'fA'], ['základní tvar', 'fW']], sep: '', ex: 'I’d like to be able to swim better.' },
+    { n: 'tvar -ing', p: [['Being able to', 'fA'], ['základní tvar', 'fW']], sep: '', ex: 'Being able to type is a useful skill.' },
+    { n: 'budoucnost', p: [['will', 'fD'], ['be able to', 'fA'], ['základní tvar', 'fW']], ex: 'Will you be able to do this work yourself?' }
+  ], 'be able to se použije tam, kde je potřeba základní tvar nebo -ing');
+  const compForm = () => formRows([
+    { n: 'Krátká', p: [['adjektivum + -er', 'fD', 'komparativ'], ['the + adjektivum + -est', 'fA', 'superlativ']], sep: '', ex: 'cheaper than · the cheapest' },
+    { n: 'Dlouhá', p: [['more / less + adjektivum', 'fD', 'komparativ'], ['the most / the least + adjektivum', 'fA', 'superlativ']], sep: '', ex: 'more expensive than · the most expensive' },
+    { n: 'good', p: [['good', 'b'], ['better', 'fD'], ['best', 'fA']], sep: '→' }, { n: 'bad', p: [['bad', 'b'], ['worse', 'fD'], ['worst', 'fA']], sep: '→' },
+    { n: 'far', p: [['far', 'b'], ['further', 'fD'], ['furthest', 'fA']], sep: '→' }, { n: 'much / many', p: [['much / many', 'b'], ['more', 'fD'], ['most', 'fA']], sep: '→' }
+  ]);
+  const modalsForm = () => formRows([
+    { n: 'Kladná|modální', p: [['can / must / should', 'fD'], ['základní tvar', 'fW']], ex: 'She should agree to that.' },
+    { n: 'Kladná|polomodální', p: [['have to / need to (+ s)', 'fE'], ['základní tvar', 'fW']], ex: 'He has to tell his customers about it right away.' },
+    { n: 'Záporná|modální', p: [['can / must / should + not', 'fD'], ['základní tvar', 'fW']], ex: 'We cannot agree to that. · I mustn’t forget.' },
+    { n: 'Záporná|polomodální', p: [['don’t / doesn’t', 'fE'], ['have to / need to', 'fE']], ex: 'You don’t have to report it.' },
+    { n: 'Otázka|modální', p: [['can / must / should', 'fD'], ['podmět', 'b'], ['základní tvar', 'fW']], sep: '', ex: 'Can I wear jeans?' },
+    { n: 'Otázka|polomodální', p: [['do / does', 'fE'], ['podmět', 'b'], ['have to / need to', 'fE']], sep: '', ex: 'Do I have to attend the meeting?' }
+  ]);
+  const pastSimpleForm = () => formRows([
+    { n: 'Kladná', p: [['základní tvar + -ed', 'fD'], ['nepravidelná: 2. tvar', 'fW'], ['be: was / were', 'fA']], sep: '/', ex: 'He became a professional player in 2001.' },
+    { n: 'Záporná', p: [['didn’t', 'fD'], ['základní tvar', 'fW']], ex: 'We didn’t understand the question.' },
+    { n: 'Záporná (be)', p: [['wasn’t / weren’t', 'fA']], ex: 'He wasn’t good at sports at school.' },
+    { n: 'Otázka', p: [['Did', 'fD'], ['podmět', 'b'], ['základní tvar', 'fW']], sep: '', ex: 'When did he win a gold medal?' },
+    { n: 'Otázka (be)', p: [['Was / Were', 'fA'], ['podmět', 'b']], sep: '', ex: 'Was he good at sports at school?' },
+    { n: 'Krátká odpověď', p: [['Yes, … did / was / were', 'fD'], ['No, … didn’t / wasn’t / weren’t', 'fE']], sep: ',', ex: 'Did you get my email? Yes, I did. / No, I didn’t.' }
+  ]);
+  const pastPerfectForm = () => formRows([
+    { n: 'Kladná', p: [['had', 'fD'], ['past participle', 'fW']], ex: 'In ten years it had grown into a $2 billion company.' },
+    { n: 'Záporná', p: [['hadn’t (had not)', 'fD'], ['past participle', 'fW']], ex: 'She hadn’t worked as a waitress before.' },
+    { n: 'Otázka', p: [['Had', 'fD'], ['podmět', 'b'], ['past participle', 'fW']], sep: '', ex: 'Had the film already started?' },
+    { n: 'Krátká odpověď', p: [['Yes, … had', 'fD'], ['No, … hadn’t', 'fE']], sep: ',', ex: 'Had she recognized him from TV? Yes, she had. / No, she hadn’t.' }
+  ]);
+
+  return { rev13, rev46, rev79, rev1012, l12Trades, l12Steps, l11Email, l11Network, l10MakeDo, l10Sorry, l9Phone, l9Requests, l8Collocations, l8Steps, l7Story, l7Linkers, l6Advice, l5Compliments, l4Skills, l4Build, l3Food, l3Refusal, l2Compound, l2Disagree, l1Interests, suggestForms, groups, tenseMap, presentForms, questionForms, futureScale, presContFutureForm, patternsToIng, quantVenn, abilityTime, compBars, ppTime, ppForms, usedToContrast, usedToForm, obligationMatrix, pastObligation, makeLetAllow, pastContTime, pastForms, pastTime, cond01, cond2, passiveTransform, activePassive, third, shouldHave, relPron, ppcForm, ppcContrast, reportedTenses, reportedTime, embedded, willForm, goingToForm, canForm, compForm, modalsForm, pastSimpleForm, pastPerfectForm };
 })();

@@ -51,7 +51,7 @@ registerTopic({
         { h: '4. Relativní majetková práva', x: '§ 1721–3014: závazky ze smluv, z deliktů (náhrada újmy), bezdůvodné obohacení' },
         { h: '5. Společná, přechodná a závěrečná', x: '§ 3015–3081: přechodná úprava, zrušovací ustanovení (§ 3080)' }
       ] } },
-      { t: 'svg', title: 'NOZ v poměru počtu paragrafů', x: ZPN.nozBar() },
+      { t: 'svg', title: 'NOZ v poměru počtu paragrafů', x: ZPN.nozBar(), cap: 'Pruhy ukazují rozsah částí NOZ: obecná část § 1–654, rodinné právo § 655–975, absolutní majetková práva § 976–1720, relativní § 1721–3014, společná a závěrečná ustanovení § 3015–3081; celkem 3 081 paragrafů.' },
       { t: 'warn', x: 'Slajdy uvádějí část 1 jako „§ 1–302“ a dědictví řadí do relativních práv – to je nepřesné. Podle zákona je obecná část § 1–654 a <b>dědické právo je součástí třetí části</b> (absolutní majetková práva), nikoli relativních práv. (Ve slajdech také „91/212“ – správně 91/2012 Sb.)' },
       { t: 'ul', items: [
         'Členění: části → hlavy → díly → oddíly. Zásada: <b>jeden paragraf nejvýše dva odstavce, odstavec nejvýše dvě věty</b> (ne vždy dodržena).',
@@ -91,7 +91,7 @@ registerTopic({
         { i: '📃', h: 'Pacta sunt servanda', x: 'smlouvy se mají dodržovat' },
         { i: '🚷', h: 'Nikdo netěží z bezpráví', x: 'kdo způsobí neplatnost, nemůže se jí dovolávat; kdo poruší povinnost, nahradí újmu' }
       ] },
-      { t: 'svg', title: 'Pořadí použití pravidel', x: ZPN.rulesOrder() },
+      { t: 'svg', title: 'Pořadí použití pravidel', x: ZPN.rulesOrder(), cap: 'Schody shora dolů: nejdřív to, co platí vždy, pak dohoda, nakonec dispozitivní zákon.' },
       { t: 'tip', x: 'Hierarchie: nejdřív dohoda stran (autonomie), pokud ji není, použije se dispozitivní zákon; kogentní normy a dobré mravy vždy platí. Odborník = vyšší standard péče (§ 5).' },
       { t: 'law', ref: '§ 4 NOZ', x: '<b>Průměrný člověk:</b> každá svéprávná osoba má rozum průměrného člověka i schopnost užívat jej s běžnou péčí a opatrností. Kdo se jeví jako průměrný člověk, může se spolehnout, že i ostatní tak jednají. Posuzování, co osoba měla a mohla vědět, je objektivizováno.' },
       { t: 'law', ref: '§ 5 NOZ', x: '<b>Odborná péče:</b> kdo se veřejně nebo ve styku s jinou osobou přihlásí k odbornému výkonu jako příslušník určitého povolání nebo stavu, dává najevo, že je schopen jednat se znalostí a pečlivostí s povoláním spojenou. Významné hlavně pro <b>náhradu škody</b> (odborná péče se vyžaduje, jakmile se někdo za odborníka vydává).' },
@@ -121,11 +121,10 @@ registerTopic({
         { h: 'Závdavek', items: ['Potvrzuje uzavření smlouvy', 'Je jistotou, že závazek bude splněn'] },
         { h: 'Záloha', items: ['Předčasné plnění části ceny', 'Platba na účet ceny, není zajištění'] }
       ] },
-      { t: 'tip', x: 'Závdavek ≠ záloha. Závdavek je jistota, záloha je platba na účet ceny.' }
     ] },
     { title: 'Vlastnictví a jeho nabytí (doplněno)', blocks: [
       { t: 'p', x: '<b>(doplněno)</b> Třetí část NOZ (věcná práva, § 976 an.) upravuje <b>absolutní majetková práva</b>: působí <b>vůči všem</b> (erga omnes). Relativní práva (závazky) působí jen mezi stranami.' },
-      { t: 'def', term: 'Vlastnické právo (doplněno)', x: 'Nejširší věcné právo k věci. Vlastník je oprávněn věc držet, užívat, požívat plody a užitky, nakládat s ní a vyloučit kohokoli jiného – vše v mezích zákona. Právo trvalé a nepromlčitelné; předmětem je věc (i nehmotná); lze spoluvlastnictví (podílové, SJM) a vlastnictví bytových jednotek.' },
+      { t: 'def', term: 'Vlastnické právo (doplněno)', x: 'Nejširší věcné právo k věci.', items: ['vlastník je oprávněn věc držet, užívat, požívat plody a užitky, nakládat s ní a vyloučit kohokoli jiného – vše v mezích zákona', 'právo trvalé a nepromlčitelné', 'předmětem je věc (i nehmotná)', 'lze spoluvlastnictví (podílové, SJM) a vlastnictví bytových jednotek'] },
       { t: 'icons', title: 'Co smí vlastník', items: [
         { i: '✋', h: 'Držet', x: 'mít věc ve své moci' },
         { i: '🔧', h: 'Užívat', x: 'využívat věc' },

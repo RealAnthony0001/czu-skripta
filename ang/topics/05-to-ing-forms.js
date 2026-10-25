@@ -29,7 +29,18 @@ registerTopic({
         ['enjoy, mind, suggest, insist on…', '<b>-ing</b>', 'Do you mind <b>picking</b> me up from the airport? · Our host insisted on <b>paying</b> for everything.'],
         ['účel, vysvětlení proč', '<b>to</b> + základní tvar', 'We’re eating out tonight <b>to celebrate</b> my birthday. · They wanted to book an expensive restaurant <b>to entertain</b> their Mexican guests.']
       ] },
-      { t: 'tip', x: 'Zapamatuj si: <b>po předložce vždy -ing</b> (<i>by serving, after finishing, insist <u>on</u> paying</i>). Slovo <i>to</i> v <i>to celebrate</i> je jiné <i>to</i> – vyjadřuje účel, ne předložku.' }
+      { t: 'tip', x: 'Zapamatuj si: <b>po předložce vždy -ing</b> (<i>by serving, after finishing, insist <u>on</u> paying</i>). Slovo <i>to</i> v <i>to celebrate</i> je jiné <i>to</i> – vyjadřuje účel, ne předložku.' },
+      { t: 'widget', name: 'kviz', how: ['Vyber odpověď – hned se ukáže, zda je správná, a proč.', 'Šipkami ◀ ▶ přecházíš mezi otázkami; poslední stránka ukazuje skóre.', 'Věty jsou z příkladů v tomto tématu.'], sol: '1. <i>should <b>try</b></i> (po modálním slovese bez to). 2. <i>would like <b>to have</b></i>. 3. <i>mind <b>picking</b></i>. 4. <i>by <b>serving</b></i> (po předložce -ing). 5. <i>polite <b>to compliment</b></i> (It + adjektivum). 6. <i>tonight <b>to celebrate</b></i> (účel). 7. <i><b>Asking</b> for more food…</i> (sloveso jako podmět). 8. <i>stopped <b>to have</b> lunch</i> (přerušili jsme činnost). 9. <i>Try <b>eating</b></i> (vyzkoušej).', title: 'Zkus si: to + základní tvar, nebo -ing?', items: [
+        { q: 'You should ____ some of this. It’s delicious.', o: ['try', 'to try', 'trying'], a: 0, why: 'Po modálním slovese následuje základní tvar bez to.' },
+        { q: 'Would you like ____ a coffee break now?', o: ['to have', 'have', 'having'], a: 0, why: 'would like + to + základní tvar.' },
+        { q: 'Do you mind ____ me up from the airport?', o: ['picking', 'to pick', 'pick'], a: 0, why: 'enjoy, mind, suggest, insist on + -ing.' },
+        { q: 'We honour our guests by ____ them local specialities.', o: ['serving', 'to serve', 'serve'], a: 0, why: 'Po předložce vždy -ing.' },
+        { q: 'It’s polite ____ the cooking and your host.', o: ['to compliment', 'complimenting', 'compliment'], a: 0, why: 'It + adjektivum + to + základní tvar.' },
+        { q: 'We’re eating out tonight ____ my birthday.', o: ['to celebrate', 'celebrating', 'celebrate'], a: 0, why: 'Účel (proč) = to + základní tvar.' },
+        { q: '____ for more food is a compliment.', o: ['Asking', 'Ask', 'To asking'], a: 0, why: 'Je-li sloveso podmětem věty, použije se -ing.' },
+        { q: 'We ____ lunch.', hint: 'přerušili jsme činnost, abychom si dali oběd', o: ['stopped to have', 'stopped having'], a: 0, why: 'stop + to + základní tvar = zastavit se, abych něco jiného udělal.' },
+        { q: '____ with your hand. It’s much easier.', hint: 'vyzkoušej', o: ['Try eating', 'Try to eat'], a: 0, why: 'try + -ing = vyzkoušet; try + to = snažit se.' }
+      ] },
     ] },
     { title: 'Slovesa se změnou významu: stop, try, remember', blocks: [
       { t: 'p', x: 'Některá slovesa mohou následovat <i>to</i> + základní tvar i <i>-ing</i>, ale <b>význam se změní</b>.' },

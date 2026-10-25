@@ -50,6 +50,7 @@ registerTopic({
         { h: 'Odečti k<sub>i</sub>·Z<sup>i</sup>', x: 'zbytek pokračuje dál' },
         { h: 'Opakuj', x: 'až do nulového zbytku; nepoužité mocniny = 0' }
       ] },
+      { t: 'widget', name: 'soustavy', how: ['Do pole napiš číslo, vyber základ zdrojové a cílové soustavy (nebo klikni na příklad).', 'Kroky ukazují: <b>rozvoj</b> do desítkové soustavy, převod z desítkové <b>odečítáním mocnin</b> a u 2 ↔ 8 / 16 <b>zkratku přes skupiny bitů</b>.', 'Poslední krok je výsledek; ⇄ prohodí zdrojovou a cílovou soustavu.'], sol: '<b>FF₁₆</b> = 15 · 16 + 15 = 255₁₀ = 11111111₂ (každá hexadecimální cifra = 4 bity, F = 1111). <b>110010101₂ → 195₁₆</b>: od pravé strany po čtyřech bitech 0001 | 1001 | 0101 → 1 | 9 | 5.', title: 'Převodník soustav s postupem – zkus si vlastní čísla' },
       { t: 'ex', x: '<b>(213)<sub>10</sub> → osmičková:</b> 213 = 3·64 + 21 → 21 = 2·8 + 5 → <b>(325)<sub>8</sub></b>. <b>Šestnáctková:</b> 213 = 13·16 + 5 → <b>(D5)<sub>16</sub></b>. <b>Dvojková:</b> D5 → 1101 0101 → <b>(11010101)<sub>2</sub></b>.' },
       { t: 'ex', x: '<b>(38)<sub>10</sub> → dvojková:</b> 38 = 32 + 4 + 2 → <b>(100110)<sub>2</sub></b>. <b>(715)<sub>10</sub></b> = 512 + 128 + 64 + 8 + 2 + 1 = <b>(1011001011)<sub>2</sub></b>.' },
       { t: 'tip', x: 'Alternativa: <b>dělení základem se zbytkem</b> – zbytky čtené odzdola nahoru dávají cifry zprava doleva (213 : 2 …). Výsledek je stejný.' }
@@ -63,7 +64,7 @@ registerTopic({
         { h: 'Šestnáctková ↔ dvojková', items: ['1 hex cifra = <b>čtveřice</b> bitů', 'dvojkové → hex: dělit na čtveřice <b>zprava</b>, vlevo doplnit nuly', '(3E68)<sub>16</sub> = 0011 1110 0110 1000'] },
         { h: 'Osmičková ↔ dvojková', items: ['1 oktalová cifra = <b>trojice</b> bitů', 'dvojkové → osmičkové: dělit na trojice <b>zprava</b>, vlevo doplnit nuly', '(3764)<sub>8</sub> = 011 111 110 100'] }
       ] },
-      { t: 'svg', title: 'Skupiny bitů od pravé strany – (110010101)₂', x: UPP.groupingDiagram() },
+      { t: 'svg', title: 'Skupiny bitů od pravé strany – (110010101)₂', x: UPP.groupingDiagram(), cap: 'Čárkovaně jsou nuly doplněné zleva; každá skupina je jedna cifra výsledku.' },
       { t: 'ex', x: '<b>(110010101)<sub>2</sub> → hex:</b> 1 1001 0101 → 0001 1001 0101 → <b>(195)<sub>16</sub></b>. <b>→ oktalová:</b> 110 010 101 → <b>(625)<sub>8</sub></b>.' },
       { t: 'ex', x: '<b>8 ↔ 16 přes dvojkovou:</b> (1AC37F)<sub>16</sub> = 0001 1010 1100 0011 0111 1111 = 000 110 101 100 001 101 111 111 = <b>(6541577)<sub>8</sub></b>. Naopak (357231)<sub>8</sub> = 011 101 111 010 011 001 → 1 1101 1110 1001 1001 = <b>(1DE99)<sub>16</sub></b>.' },
       { t: 'warn', x: 'Skupiny se tvoří <b>od binární čárky doprava/doleva</b>, u celých čísel zprava. Dělení „zleva“ dává špatný výsledek, když počet bitů není násobkem 3 / 4.' }

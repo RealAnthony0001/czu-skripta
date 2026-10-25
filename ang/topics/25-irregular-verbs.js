@@ -122,6 +122,7 @@ registerTopic({
   sections: [
     { title: 'Podle vzorce', blocks: [
       { t: 'p', x: 'Seznam má smysl se učit po skupinách. Skupiny jsou odvozené z tabulky z učebnice a jejich členy najdeš v úplném seznamu níže.' },
+      { t: 'widget', name: 'sloveso', how: ['Vyber skupinu podle vzorce (např. A–B–B) nebo všechna slovesa; kartičky jsou zamíchané.', 'Řekni si past simple a past participle nahlas, pak je odkryj a označ, zda jsi je znal.', 'Na konci se vypíše, která slovesa si zopakovat.'], sol: 'Skupiny podle vzorce: <b>A–A–A</b> (put – put – put), <b>A–B–B</b> (bring – brought – brought), <b>A–B–A</b> (come – came – come), <b>A–A–B</b> (beat – beat – beaten), <b>A–B–C</b> (go – went – gone).', title: 'Kartičky: nepravidelná slovesa' },
       { t: 'grid', head: ['Vzorec', 'Počet', 'Slovesa'], rows: [
         ['<b>všechny tři tvary stejné</b> (A – A – A)', String(IRR.same.length), IRR.same.map(r => r[0]).join(', ')],
         ['<b>past simple = past participle</b> (A – B – B)', String(IRR.pp.length), IRR.pp.map(r => r[0]).join(', ')],

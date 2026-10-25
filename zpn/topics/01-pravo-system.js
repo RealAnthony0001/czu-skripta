@@ -38,7 +38,7 @@ registerTopic({
         { h: 'Členění podle', items: ['<i>ius civile</i> (civilní) × <i>ius canonicum</i> (církevní)', '<i>ius privatum</i> (soukromé) × <i>ius publicum</i> (veřejné)'] },
         { h: 'Význam', items: ['Římské právo = základ moderních kontinentálních systémů', 'Právě odtud pochází členění na soukromé a veřejné právo'] }
       ] },
-      { t: 'def', term: 'Přirozené právo', x: 'Soubor principů vycházejících z přirozených práv člověka (nezávislých na vůli státu) – filozofická rovina.' },
+      { t: 'def', term: 'Přirozené právo', x: 'Soubor principů vycházejících z přirozených práv člověka.', items: ['práv nezávislých na vůli státu', 'jde o filozofickou rovinu'] },
       { t: 'def', term: 'Pozitivní (platné) právo', x: 'Soubor norem vydaných nebo uznaných státem, jejichž dodržování stát vynucuje – praktická rovina.' },
       { t: 'tip', x: 'Vývoj: morální a zvykové normy → státem vynutitelná pravidla. Právní normy se od morálky liší tím, že je <b>vynucuje stát</b> (sankce).' }
     ] },
@@ -81,16 +81,16 @@ registerTopic({
         { h: 'Soukromé právo', items: ['Vztahy FO a PO na principu <b>rovnosti a nezávislosti</b>', 'Vznik z projevu vůle – <b>smluvní princip</b> (autonomie vůle)', '<b>„Co není zakázáno, je dovoleno“</b>; nemusím činit, co zákon neukládá', 'Převážně <b>dispozitivní</b> normy'] },
         { h: 'Veřejné právo', items: ['Státní orgán (soud, správní orgán) <b>vnucuje svou vůli</b> na základě svrchovanosti veřejné moci', 'Subordinace (nadřazenost – podřízenost)', '<b>Zásada legality</b> – státní moc jen v případech, mezích a způsoby stanovenými zákonem', 'Převážně <b>kogentní</b> normy'] }
       ] },
-      { t: 'svg', title: 'Soukromé × veřejné právo v obrázku', x: ZPN.publicPrivate() },
+      { t: 'svg', title: 'Soukromé × veřejné právo v obrázku', x: ZPN.publicPrivate(), cap: 'Vlevo dvě rovné osoby (soukromé právo), vpravo orgán nad osobou (veřejné právo).' },
       { t: 'warn', x: 'Ve studijním textu (dodamgoda1) jsou definice veřejného a soukromého práva <b>zaměněné</b> (veřejné je tam popsáno jako vztahy rovných subjektů). Správně: <b>soukromé = rovnost, autonomie vůle, dispozitivní normy; veřejné = subordinace, nositel veřejné moci, kogentní normy</b>.' },
       { t: 'versus', title: 'Absolutní × relativní právo', x: 'Rozdíl je v tom, vůči komu právo působí. Absolutní právo, typicky vlastnictví, působí vůči všem: nikdo konkrétní ti nic dlužit nemusí, ale všichni ostatní musí tvé vlastnictví respektovat a nezasahovat do něj. Relativní právo vzniká jen mezi určitými osobami, nejčastěji ze smlouvy: pronajímatel může nájemné chtít jen po svém nájemci, ne po sousedovi. Absolutní právo tedy může porušit kdokoli, relativní jen ten, kdo je zavázán.', cols: [
         { h: 'Absolutní', items: ['Působí <i>erga omnes</i> – vůči všem', 'Neurčený počet subjektů má povinnost <b>nerušit</b> oprávněného (zdržet se zásahu)', 'Vlastnické právo, osobnostní práva, práva k duševnímu vlastnictví'] },
         { h: 'Relativní', items: ['Působí <i>inter partes</i> – mezi stranami', 'Konkrétní povinnost jednoho nebo více <b>individuálně určených</b> subjektů (něco dát, konat, strpět)', 'Pohledávka ze smlouvy (kupní cena, nájemné), nárok na náhradu škody'] }
       ] },
-      { t: 'svg', title: 'Absolutní × relativní právo', x: ZPN.absRel() }
+      { t: 'svg', title: 'Absolutní × relativní právo', x: ZPN.absRel(), cap: 'Vlevo působí právo vůči všem, vpravo jen mezi věřitelem a dlužníkem.' }
     ] },
     { title: 'Prameny práva', blocks: [
-      { t: 'def', term: 'Pramen práva', x: 'Forma objektivního práva, která obsahuje právní normy. Liší se podle právního systému a kultury; každý stát má unikátní kombinaci pramenů.' },
+      { t: 'def', term: 'Pramen práva', x: 'Forma objektivního práva, která obsahuje právní normy.', items: ['liší se podle právního systému a kultury', 'každý stát má unikátní kombinaci pramenů'] },
       { t: 'tree', title: 'Čtyři základní prameny', root: { h: 'Prameny práva', kids: [
         { h: 'Normativní právní akty', x: 'soubory norem vydané orgánem veřejné moci v náležité formě; výsledek legislativního procesu' },
         { h: 'Soudní precedent', x: 'rozhodnutí, které je prvním řešením dosud neupravené situace a zavazuje pro budoucí stejné případy' },
@@ -103,7 +103,7 @@ registerTopic({
         { i: '🤝', h: 'Smlouva', x: 'pramenem jen kolektivní smlouvy (zaměstnavatelé × odbory) a mezinárodní smlouvy převzaté do vnitrostátního práva' },
         { i: '📜', h: 'Obyčej', x: 'pramen jen když je státem uznán, aplikován orgány a porušení následuje sankce; v ČR výjimečně (obchodní zvyklosti)' }
       ] },
-      { t: 'def', term: 'Nález Ústavního soudu', x: 'Rozhodnutí nejvyššího orgánu ochrany ústavnosti; dotváří formální soustavu pramenů (např. zruší zákon nebo jeho ustanovení v rozporu s ústavním pořádkem ke dni určenému v nálezu).' },
+      { t: 'def', term: 'Nález Ústavního soudu', x: 'Rozhodnutí nejvyššího orgánu ochrany ústavnosti.', items: ['dotváří formální soustavu pramenů', 'např. zruší zákon nebo jeho ustanovení v rozporu s ústavním pořádkem ke dni určenému v nálezu'] },
       { t: 'icons', title: 'Znaky normativního právního aktu', items: [
         { i: '🖋️', h: 'Forma', x: 'záměrná činnost orgánu s legislativní pravomocí, legislativní procedura zakončená publikací; jen takový akt je platný a účinný' },
         { i: '📏', h: 'Normativita', x: 'obsahuje pravidla chování' },
@@ -113,7 +113,7 @@ registerTopic({
       { t: 'tip', x: 'Normativní právní akty, normativní smlouvy (vč. mezinárodních) a nálezy Ústavního soudu patří mezi <b>absolutně závazné prameny práva</b> v ČR.' }
     ] },
     { title: 'Právní řád ČR a hierarchie předpisů', blocks: [
-      { t: 'def', term: 'Právní řád ČR', x: 'Souhrn všech platných a účinných pramenů práva na území státu; tvoří ho všechny právní předpisy ČR a v nich obsažené právní normy. Právní předpis = soubor norem vydaný státem uznanou formou.' },
+      { t: 'def', term: 'Právní řád ČR', x: 'Souhrn všech platných a účinných pramenů práva na území státu.', items: ['tvoří ho všechny právní předpisy ČR a v nich obsažené právní normy', 'právní předpis = soubor norem vydaný státem uznanou formou'] },
       { t: 'p', x: 'Předpisy se liší podle <b>stupně právní síly</b>, <b>orgánu, který je vydal</b>, a <b>formy</b>.' },
       { t: 'pyramid', title: 'Hierarchie předpisů (nahoře nejvyšší síla)', levels: [
         { h: 'Ústavní pořádek', x: 'Ústava, Listina, ústavní zákony – Parlament, kvalifikovaná většina' },

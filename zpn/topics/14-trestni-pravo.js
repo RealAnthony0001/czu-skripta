@@ -23,7 +23,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Pojem trestného činu, prameny a zásady', blocks: [
-      { t: 'def', term: 'Trestný čin', x: 'Protiprávní čin, který trestní zákon označuje za trestný a který vykazuje znaky uvedené v takovém zákoně (§ 13 odst. 1 trestního zákoníku). Pojmové znaky: protiprávnost, určitá míra společenské škodlivosti, vymezení v trestním zákoně (formální a materiální stránka – srov. čl. 39 Listiny a „dva znaky trestného činu“).' },
+      { t: 'def', term: 'Trestný čin', x: 'Protiprávní čin, který trestní zákon označuje za trestný a který vykazuje znaky uvedené v takovém zákoně (§ 13 odst. 1 trestního zákoníku).', items: ['pojmové znaky: protiprávnost, určitá míra společenské škodlivosti, vymezení v trestním zákoně', 'formální a materiální stránka – srov. čl. 39 Listiny a „dva znaky trestného činu“'] },
       { t: 'table', head: ['Předpis', 'Obsah'], rows: [
         ['<b>Zákon č. 40/2009 Sb.</b>', 'trestní zákoník (TZ) – obecná část (zásady, odpovědnost, tresty) a zvláštní část (jednotlivé trestné činy)'],
         ['<b>Zákon č. 141/1961 Sb.</b>', 'trestní řád (TŘ) – postup orgánů činných v trestním řízení'],
@@ -80,7 +80,7 @@ registerTopic({
       { t: 'p', x: '<b>Trestní řízení</b> (TŘ): <b>přípravné řízení</b> (policejní orgán a státní zástupce – zahájení trestního stíhání sdělením obvinění, vyšetřování, podání obžaloby) → <b>řízení před soudem</b> (hlavní líčení, rozsudek; poškozený, obhájce) → opravné prostředky (odvolání, dovolání, stížnost pro porušení zákona) → <b>vykonávací řízení</b>. Dozor nad přípravným řízením má státní zástupce; trest vynáší soud.' }
     ] },
     { title: 'Trestné činy související s činností veřejných osob', blocks: [
-      { t: 'def', term: 'Úřední osoba', x: 'Osoba, která se podílí na výkonu pravomoci orgánu veřejné moci a je k tomu oprávněna (§ 127 TZ) – zejména soudce, státní zástupce, policista, člen zastupitelstva a rady obce či kraje, starosta, úředník s rozhodovací pravomocí. Zneužití pravomoci a maření úkolu mohou spáchat jen úřední osoby (zvláštní subjekt).' },
+      { t: 'def', term: 'Úřední osoba', x: 'Osoba, která se podílí na výkonu pravomoci orgánu veřejné moci a je k tomu oprávněna (§ 127 TZ).', items: ['zejména soudce, státní zástupce, policista, člen zastupitelstva a rady obce či kraje, starosta, úředník s rozhodovací pravomocí', 'zneužití pravomoci a maření úkolu mohou spáchat jen úřední osoby (zvláštní subjekt)'] },
       { t: 'table', head: ['Trestný čin', 'Podstata', 'Poznámky'], rows: [
         ['<b>Zneužití pravomoci úřední osoby</b> (§ 329)', 'Úřední osoba v úmyslu způsobit jinému škodu nebo jinou závažnou újmu nebo opatřit sobě či jinému neoprávněný prospěch vykoná svou pravomoc způsobem odporujícím jinému právnímu předpisu, překročí pravomoc, nebo nesplní povinnost vyplývající z pravomoci.', 'úmyslný čin zvláštního subjektu; kvalifikované skutkové podstaty (větší prospěch / škoda, závažný následek)'],
         ['<b>Maření úkolu úřední osoby</b> (§ 330; z nedbalosti)', 'Úřední osoba z nedbalosti poruší důležitou povinnost vyplývající z její pravomoci a způsobí tím závažnou újmu / zmaří důležitý úkol.', 'nedbalostní čin zvláštního subjektu'],

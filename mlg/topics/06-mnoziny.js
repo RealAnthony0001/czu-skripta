@@ -19,7 +19,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Co je množina', blocks: [
-      { t: 'def', term: 'Množina (pseudodefinice)', x: 'souhrn přesně specifikovaných a navzájem rozlišitelných objektů, kterým říkáme <b>prvky</b>. Zápis x ∈ M znamená, že x leží v M; x ∉ M, že neleží.' },
+      { t: 'def', term: 'Množina (pseudodefinice)', x: 'Souhrn přesně specifikovaných a navzájem rozlišitelných objektů, kterým říkáme <b>prvky</b>.', items: ['x ∈ M znamená, že x leží v M', 'x ∉ M znamená, že x v M neleží'] },
       { t: 'p', x: 'Teorie množin je samostatná matematická disciplína; v předmětu zůstáváme u tzv. <b>naivní teorie množin</b>, která stačí pro praktickou práci. Množiny se hodí všude, kde pracujeme se soubory objektů: dotaz do databáze vybírá množinu záznamů, datový typ je množina hodnot proměnné, jev v pravděpodobnosti je množina výsledků.' },
       { t: 'ul', items: [
         '<b>Výčtem prvků:</b> A = {1, 2, 3, 4, 5}.',
@@ -37,7 +37,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Množinové vztahy a operace', blocks: [
-      { t: 'def', term: 'Podmnožina, rovnost, vlastní podmnožina', x: '<b>A ⊆ B</b> ⇔ (∀x ∈ U)(x ∈ A ⇒ x ∈ B); <b>A = B</b> ⇔ (∀x ∈ U)(x ∈ A ⇔ x ∈ B); <b>A ⊊ B</b> ⇔ (A ⊆ B) ∧ (A ≠ B). Vztah ⊆ se nazývá množinová inkluze.' },
+      { t: 'def', term: 'Podmnožina, rovnost, vlastní podmnožina', x: 'Tři základní vztahy mezi množinami:', items: ['<b>A ⊆ B</b> ⇔ (∀x ∈ U)(x ∈ A ⇒ x ∈ B)', '<b>A = B</b> ⇔ (∀x ∈ U)(x ∈ A ⇔ x ∈ B)', '<b>A ⊊ B</b> ⇔ (A ⊆ B) ∧ (A ≠ B)', 'vztah ⊆ se nazývá množinová inkluze'] },
       { t: 'grid', head: ['Operace', 'Definice', 'Slovy'], rows: [
         ['průnik A ∩ B', '{x ∈ U | x ∈ A ∧ x ∈ B}', 'prvky, které jsou v obou'],
         ['sjednocení A ∪ B', '{x ∈ U | x ∈ A ∨ x ∈ B}', 'prvky aspoň v jedné z nich'],
@@ -47,7 +47,7 @@ registerTopic({
         ['kartézský součin A × B', '{(a, b) | a ∈ A ∧ b ∈ B}', 'všechny uspořádané dvojice'],
         ['potenční množina P(A)', '{X | X ⊆ A}', 'všechny podmnožiny A']
       ] },
-      { t: 'svg', title: 'Čtyři základní operace ve Vennově diagramu', x: MLG.mnozinoveOperace(), cap: 'Vybarvená oblast je výsledek operace; obdélník je universum U.' },
+      { t: 'widget', fig: MLG.mnozinoveOperace(), figcap: 'Vybarvená oblast je výsledek operace; obdélník je universum U.', name: 'venn', how: ['Vyber operaci tlačítkem; vybarvená oblast je její výsledek.', 'Obdélník je universum U, kruhy jsou množiny A a B.', 'Porovnej s tabulkou výše: průnik = prvky v obou, sjednocení = aspoň v jedné, rozdíl A ∖ B = jen v A, doplněk A′ = mimo A.'], sol: '<b>A ∩ B</b> = lupínek uprostřed, <b>A ∪ B</b> = oba kruhy dohromady, <b>A ∖ B</b> = levý kruh bez lupínku, <b>A′</b> = všechno mimo kruh A, <b>symetrický rozdíl</b> = oba kruhy bez lupínku.', title: 'Množinové operace ve Vennově diagramu – vyber operaci' },
       { t: 'ex', x: '<b>Příklad z přednášky:</b> A = {k, o, s, t, e, l}, B = {s, t, á, n, e, k}.<br>A ∩ B = <b>{k, s, t, e}</b>, A ∪ B = <b>{k, o, s, t, e, l, á, n}</b>, A ∖ B = <b>{o, l}</b>, B ∖ A = <b>{á, n}</b>.' },
       { t: 'ex', x: '<b>Doplněk a potenční množina:</b> C = {k, a, l}, D = {v, l, a, k, v, e, d, o, u, c, í} (písmeno v je v D jen jednou – prvky se neopakují).<br>C′<sub>D</sub> = D ∖ C = <b>{v, e, d, o, u, c, í}</b>;<br>P(C) = <b>{∅, {k}, {a}, {l}, {k, a}, {k, l}, {a, l}, {k, a, l}}</b> – 2³ = 8 podmnožin.' },
       { t: 'tip', x: 'Potenční množinu většího A sestavíš z menší: P({1, 2, 3, 4}) = všechny prvky P({1, 2, 3}) a k tomu tytéž množiny s přidanou 4. Proto se počet podmnožin s každým novým prvkem <b>zdvojnásobí</b> (2ⁿ).' },
@@ -63,7 +63,8 @@ registerTopic({
         ['A ⇒ B', 'A ⊆ B', 'podmnožina'],
         ['A ⇔ B', 'A = B', 'rovnost']
       ] },
-      { t: 'tip', x: 'Například De Morganův zákon ¬(A ∨ B) ≡ ¬A ∧ ¬B má množinovou podobu <b>(A ∪ B)′ = A′ ∩ B′</b> – co není v žádné z množin, leží v doplňku obou.' }
+      { t: 'tip', x: 'Například De Morganův zákon ¬(A ∨ B) ≡ ¬A ∧ ¬B má množinovou podobu <b>(A ∪ B)′ = A′ ∩ B′</b> – co není v žádné z množin, leží v doplňku obou.' },
+      { t: 'widget', name: 'venn', how: ['Vyber zákon; vlevo je levá strana, vpravo pravá.', 'Stejně vybarvené oblasti = rovnost množin = logická ekvivalence (∧ ↔ ∩, ∨ ↔ ∪, ¬ ↔ doplněk).', 'Poslední příklad ukazuje častou chybu.'], m: 'law', title: 'Logické zákony jako množinové rovnosti – obě strany vedle sebe' },
     ] },
     { title: 'Vennovy diagramy a slovní úlohy', blocks: [
       { t: 'p', x: 'Ve Vennově diagramu odpovídá každá oblast jedné kombinaci „patří / nepatří“ do jednotlivých množin. Oblasti se nepřekrývají (jsou disjunktní), proto se počty prvků v nich dají <b>sčítat</b>. Pro tři množiny stačí tři kružnice (8 oblastí včetně vnějšku), pro čtyři už kružnice nestačí, ale všech 16 oblastí sestrojit jde.' },

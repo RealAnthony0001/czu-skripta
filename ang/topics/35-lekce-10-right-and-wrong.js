@@ -53,7 +53,7 @@ registerTopic({
       { t: 'ex', x: '<b>Čtyři situace:</b> 1) zpoždění zprávy (<i>I’m afraid I haven’t had time to finish it. I’ll get on to it first thing tomorrow.</i>), 2) srážka na ulici (<i>I’m sorry. I didn’t see you there. Are you all right?</i>), 3) smazaný zápas (<i>I feel really bad about it. … I’ll make us something special for dinner.</i> – <i>Oh, go on then.</i>), 4) předbíhání ve frontě (<i>Oh, so sorry. I didn’t mean to push in.</i> – <i>That’s OK.</i>).' }
     ] },
     { title: 'Interaction: Doing the right thing (s. 108–109)', blocks: [
-      { t: 'def', term: 'Reminder (Grammar reference s. 170)', x: '<b>Třetí kondicionál</b> představuje jinou minulost: <i>If he’d told us, it would have been different. What would you have done?</i> <b>Should / shouldn’t have</b> vyjadřuje kritiku a lítost: <i>He shouldn’t have listened to her. He should have asked me for advice instead.</i>' },
+      { t: 'def', term: 'Reminder (Grammar reference s. 170)', x: 'Jiná minulost a kritika:', items: ['<b>třetí kondicionál</b> představuje jinou minulost: <i>If he’d told us, it would have been different. What would you have done?</i>', '<b>should / shouldn’t have</b> vyjadřuje kritiku a lítost: <i>He shouldn’t have listened to her. He should have asked me for advice instead.</i>'] },
       { t: 'grid', head: ['Vlastnost', 'Význam'], rows: [
         ['<b>honest</b>', 'vždy říká pravdu, nepodvádí a nekrade'], ['<b>consistent</b>', 'chová se vždy stejně a drží stejné postoje a měřítka'],
         ['<b>open-minded</b>', 'je ochoten zvážit a přijmout cizí názory'], ['<b>thoughtful and kind</b>', 'přemýšlí, čím by udělal radost druhým'],

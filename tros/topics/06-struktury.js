@@ -19,9 +19,9 @@ registerTopic({
   ],
   sections: [
     { title: 'Organizační struktura', blocks: [
-      { t: 'svg', title: 'Organizační stupně velkého podniku', x: TROS.orgStupne() },
-      { t: 'def', term: 'Organizační stupeň', x: 'OJ stejného typu, přibližně stejné velikosti a stejného významu na stejné rozlišovací úrovni; relativně materiálně, energeticky, organizačně a ekonomicky samostatný druh OJ: <b>podnik, divize, závod, provoz</b>.' },
-      { t: 'def', term: 'Organizační jednotka a JOP', x: 'OJ je dána určitým počtem výkonných (manuálních) pracovníků s určitým množstvím výrobních prostředků, realizuje výrobní proces nebo jeho část a vede ji jediný přímý vedoucí. <b>JOP</b> = dále nedělitelná OJ (jednotka organizace práce, např. směna).' },
+      { t: 'svg', title: 'Organizační stupně velkého podniku', x: TROS.orgStupne(), cap: 'Strom podniku: OS1 podnik → OS2 divize → OS3 závody → OS4 provozy. Pod provozem leží JOP, které už nejsou samostatný organizační stupeň.' },
+      { t: 'def', term: 'Organizační stupeň', x: 'OJ stejného typu, přibližně stejné velikosti a stejného významu na stejné rozlišovací úrovni.', items: ['relativně materiálně, energeticky, organizačně a ekonomicky samostatný druh OJ', 'stupně: <b>podnik, divize, závod, provoz</b>'] },
+      { t: 'def', term: 'Organizační jednotka a JOP', x: '<b>OJ</b> je dána určitým počtem výkonných (manuálních) pracovníků s určitým množstvím výrobních prostředků.', items: ['realizuje výrobní proces nebo jeho část', 'vede ji jediný přímý vedoucí', '<b>JOP</b> = dále nedělitelná OJ (jednotka organizace práce, např. směna)'] },
       { t: 'p', x: '<b>Faktory ovlivňující tvorbu nebo změnu organizační struktury</b>' },
       { t: 'ul', items: [
         'velikost firmy a její struktura',
@@ -38,17 +38,13 @@ registerTopic({
         ['3 stupně (podnik → závod → provoz)', 'střední a velké podniky – optimum', '0,73'],
         ['4 stupně (podnik → divize → závod → provoz)', 'velké podniky', '0,66']
       ] },
+      { t: 'widget', name: 'stupne', how: ['Posuvníkem měníš spolehlivost jednoho organizačního stupně.', 'Tabulka a pruh ukazují celkovou spolehlivost při 1 až 5 stupních (součin).'], sol: 'Při spolehlivosti jednoho stupně 0,90 je celková spolehlivost: 1 stupeň <b>0,90</b>, 2 stupně <b>0,81</b>, 3 stupně <b>0,73</b>, 4 stupně <b>0,66</b>.', title: 'Spolehlivost podle počtu organizačních stupňů' },
       { t: 'p', x: 'Každý další stupeň <b>snižuje spolehlivost</b> (sériové spojení – násobí se) a <b>vlastní aktivitu</b> pracovníků: čím dál od vzniku nápadu a pokynů, tím víc je člověku lhostejno (ve skriptech klesá aktivita při k = 0,10 z 1,00 přes 0,90 a 0,70 na 0,40 na 4. stupni = nepřijatelné). Optimum středních a velkých podniků je proto <b>třístupňová struktura</b>.' },
       { t: 'tip', x: 'U velkých podniků se sériové spojení stupňů částečně přerušuje <b>samofinancováním</b>: divize nebo závod jsou ekonomicky samostatné (SOJ/SBU), cíle se zadávají v ekonomických ukazatelích, takže se neztrácí informace a aktivita. Nemají právní samostatnost; provoz je na to zpravidla příliš malý.' }
     ] },
     { title: 'Typy organizačních struktur', blocks: [
-      { t: 'table', head: ['Typ (podle)', 'Princip', 'Výhody', 'Nevýhody'], rows: [
-        ['<b>Podnikových funkcí</b> (výroba, obchod, služby, účtárna, štáb)', 'jednotky podle činnosti; vhodné pro menší a střední podniky', 'obchod prodává veškerou produkci, účtárna zpracuje všechno z jednoho místa', 'nehodí se při složité výrobě a specialistech v obchodě'],
-        ['<b>Výrobků (produktová)</b>', 'OJ podle produktů (např. SW pro účetnictví, bankovnictví, docházku) + servis', 'jednoznačná odpovědnost a pravomoci, jednoduchá řídící struktura', 'uzavřenost jednotek, zkušenosti se nepřenášejí → nový stupeň „vývoj“'],
-        ['<b>Území</b> (územní)', 'OJ podle lokality, typické pro zemědělské podniky (region → oblast → farma); často SOJ', 'decentralizace, aktivita a motivace, výchova ŘP generalistů', 'uzavřenost, horší horizontální spolupráce'],
-        ['<b>Odvětvová / druh výroby</b>', 'podle druhu výroby, odvětví', '', ''],
-        ['<b>Kombinovaná</b>', 'kombinace předchozích podle potřeb podniku', '', '']
-      ] },
+      { t: 'svg', title: 'Typy organizačních struktur – schémata', x: TROS.orgTypy(), cap: 'Odvětvová a kombinovaná struktura schéma nemají: jde o členění podle druhu výroby a o kombinaci předchozích.' },
+      { t: 'ul', items: ['<b>Podnikových funkcí</b> (výroba, obchod, služby, účtárna, štáb): jednotky podle činnosti, vhodné pro menší a střední podniky. + obchod prodává veškerou produkci, účtárna zpracuje všechno z jednoho místa · − nehodí se při složité výrobě a specialistech v obchodě.', '<b>Výrobků (produktová)</b>: organizační jednotky podle produktů (např. SW pro účetnictví, bankovnictví, docházku) + servis. + jednoznačná odpovědnost a pravomoci, jednoduchá řídící struktura · − uzavřenost jednotek, zkušenosti se nepřenášejí → nový stupeň „vývoj“.', '<b>Území</b> (územní): jednotky podle lokality, typické pro zemědělské podniky (region → oblast → farma); často SOJ. + decentralizace, aktivita a motivace, výchova řídících pracovníků generalistů · − uzavřenost, horší horizontální spolupráce.', '<b>Odvětvová / podle druhu výroby</b>: členění podle druhu výroby, odvětví.', '<b>Kombinovaná</b>: kombinace předchozích podle potřeb podniku.'] },
       { t: 'versus', title: 'Pružné organizační struktury', cols: [
         { h: 'Maticová (projektová)', items: ['vertikální liniová struktura + dočasné horizontální projektové týmy', 'tým tvoří lidé z vývoje, výroby, servisu, obchodu; vedoucí projektu', '+ spolupráce, přenos zkušeností, rychlá zpětná vazba', '− <b>dvojí podřízenost</b> členů týmu, slabé pravomoci vedoucího projektu'] },
         { h: 'Procesní', items: ['vychází z podnikových procesů (napříč jednotkami a stupni)', 'procesní týmy vedle klasických OJ', '+ měřitelnost procesů, jasný začátek a konec, IT podpora', '− odpor starších ŘP, nutnost vzdělávání, nevychovává generalisty; hrozí chaos'] }
@@ -61,7 +57,7 @@ registerTopic({
       { t: 'ex', x: '<b>Cvičení – návrh struktury velkého výrobního podniku</b> (návrh doplněn; podle zadání): <b>Divize 1 – strojírenská</b> (závody zemědělské techniky, vysokozdvižných vozíků, bezpečnostních pásů), <b>Divize 2 – agrochemie a krmiva</b> (závody krmiv, biotechnologický, hnojiv), <b>Divize 3 – stavební činnost</b>, <b>Divize 4 – zemědělská prvovýroba a zpracování</b> (závody RV a ŽV). Pod závody provozy podle produktů (např. u vozíků: podvozky, elektromotory, hydraulika, kompletace). Pak se podle tohoto schématu odvodí řídící struktura. Platí PS1 → určuje OSS → určuje ŘSS (SPŘ).' }
     ] },
     { title: 'Řídící struktura', blocks: [
-      { t: 'def', term: 'Řídící struktura', x: 'Tvoří ji <b>řídící pracovníci</b>, kteří mají mezi sebou informační vazby: vztahy pravomoci, kompetencí, nadřízenosti a podřízenosti a spolupráce. Řídící jednotka = řídící pracovník s podřízenými. Řídící struktura má stejný počet stupňů jako organizační struktura.' },
+      { t: 'def', term: 'Řídící struktura', x: 'Tvoří ji <b>řídící pracovníci</b>, kteří mají mezi sebou informační vazby.', items: ['vazby: vztahy pravomoci, kompetencí, nadřízenosti a podřízenosti a spolupráce', 'řídící jednotka = řídící pracovník s podřízenými', 'řídící struktura má stejný počet stupňů jako organizační struktura'] },
       { t: 'table', head: ['Hledisko', 'Organizační struktura', 'Řídící struktura'], rows: [
         ['Prvky', 'organizační jednotky (smíšené prvky L + HP)', 'řídící pracovníci (lidé)'],
         ['Vazby', 'smíšené (HE + I)', 'informační (pravomoc, nadřízenost, spolupráce)'],
@@ -75,20 +71,15 @@ registerTopic({
       ], x: 'Rozdíl je v tom, kdo koho kontroluje. V německém modelu stojí dozorčí rada nad představenstvem a jmenuje ho, takže kontrola je silná; v americkém modelu představenstvo (které volí valná hromada) jmenuje generálního ředitele a dozorčí rada vedle něj plní kontrolní roli. V obou modelech majitelé (držitelé akcií, podílů) rozhodují na valné hromadě.' }
     ] },
     { title: 'Typy řídících struktur', blocks: [
-      { t: 'table', head: ['Typ', 'Charakteristika'], rows: [
-        ['<b>Liniové × štábní ŘP</b> (podle vztahu k transformačním procesům)', 'linie GŘ → ředitel závodu → vedoucí provozu řídí výkonné pracovníky a transformační proces; štábní útvary (právní oddělení, IT, sekretariát) radí a podporují vedení, bez přímé pravomoci nad linií'],
-        ['<b>Funkcionální</b> (útvarová)', 'vedení podniku → ředitelé funkcí (výroba, ekonomika, obchod) → vedoucí oddělení; každá funkce má svou liniovou strukturu (2–3 stupně)'],
-        ['<b>Divizionální</b> (věcná)', 'ředitelé divizí; každá divize má vlastní výrobu, prodej, finance (plánovač, ekonom, právník); liniové uspořádání'],
-        ['<b>Projektová</b> (pružná)', 'vedení podniku (představenstvo, GŘ, štáb) + ředitelé vývoje, výroby, servisu, obchodu; pro projekty vedoucí projektů P1…Pn s pracovníky z jednotlivých útvarů'],
-        ['<b>Procesní</b>', 'rozšíření procesu řízení: <b>sponzor procesu</b> (vedení), <b>koordinátor procesu</b> a <b>vlastníci</b> podprocesů; vedle ředitelů výroby, vývoje, servisu, obchodu']
-      ] },
+      { t: 'svg', title: 'Typy řídících struktur – schémata', x: TROS.ridiciStruktury(), cap: 'Štáb v liniově-štábní struktuře radí a podporuje vedení, ale nemá přímou pravomoc nad linií.' },
+      { t: 'ul', items: ['<b>Liniové × štábní ŘP</b> (podle vztahu k transformačním procesům): linie GŘ → ředitel závodu → vedoucí provozu řídí výkonné pracovníky a transformační proces; štábní útvary (právní oddělení, IT, sekretariát) radí a podporují vedení, bez přímé pravomoci nad linií.', '<b>Funkcionální</b> (útvarová): vedení podniku → ředitelé funkcí (výroba, ekonomika, obchod) → vedoucí oddělení; každá funkce má svou liniovou strukturu (2–3 stupně).', '<b>Divizionální</b> (věcná): ředitelé divizí; každá divize má vlastní výrobu, prodej, finance (plánovač, ekonom, právník); liniové uspořádání.', '<b>Projektová</b> (pružná): vedení podniku (představenstvo, GŘ, štáb) + ředitelé vývoje, výroby, servisu, obchodu; pro projekty vedoucí projektů P1…Pn s pracovníky z jednotlivých útvarů.', '<b>Procesní</b>: rozšíření procesu řízení – <b>sponzor procesu</b> (vedení), <b>koordinátor procesu</b> a <b>vlastníci</b> podprocesů; vedle ředitelů výroby, vývoje, servisu, obchodu.'] },
       { t: 'versus', title: 'Strmá × plochá řídící struktura', cols: [
         { h: 'Strmá', items: ['mnoho stupňů, nízká řídící kapacita', '+ těsné vedení a kontrola, rychlá komunikace s podřízenými', '− zásahy do práce nižších stupňů, ztráta informací, mnoho úrovní'] },
         { h: 'Plochá', items: ['málo stupňů, vysoká řídící kapacita', '+ vyžaduje delegování, jasná strategie, samostatnost podřízených', '− přetížení ŘP, ztráta přehledu (slabší přímá motivace), nároky na kvalitu ŘP'] }
       ], x: 'Strmá struktura znamená mnoho „šéfů nad šéfy“, kteří mají jen pár podřízených: dobře je kontrolují, ale informace se při průchodu stupni zkreslují a podřízení nemají volnost. Plochá struktura má málo stupňů a každý šéf mnoho podřízených: lidé mají volnost a zodpovědnost, ale šéf nestíhá a musí hodně delegovat.' }
     ] },
     { title: 'Řídící kapacita', blocks: [
-      { t: 'def', term: 'Řídící kapacita (rozpětí řízení)', x: '<b>q</b> = počet přímo podřízených pracovníků jednomu řídícímu pracovníkovi. <b>Skutečná</b> řídící kapacita <b>sq</b> je skutečný počet podřízených (určuje ji organizační struktura); <b>teoretická</b> <b>tq</b> je počet, který ŘP může efektivně uřídit.' },
+      { t: 'def', term: 'Řídící kapacita (rozpětí řízení)', x: '<b>q</b> = počet přímo podřízených pracovníků jednomu řídícímu pracovníkovi.', items: ['<b>skutečná</b> řídící kapacita <b>sq</b> je skutečný počet podřízených (určuje ji organizační struktura)', '<b>teoretická</b> <b>tq</b> je počet, který ŘP může efektivně uřídit'] },
       { t: 'ul', items: [
         'Teoretickou kapacitu ovlivňují: prostorové rozmístění podřízených, úroveň delegování, osobní vlastnosti, charakter práce (složitost, podobnost), motivační mechanismus, charakter OJ, úroveň organizačních norem, <b>styl řízení</b> (q roste od autokratického k týmovému stylu).'
       ] },

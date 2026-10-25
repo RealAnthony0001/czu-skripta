@@ -19,7 +19,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Co je motivace', blocks: [
-      { t: 'def', term: 'Motivace', x: 'Soubor činitelů – vnitřních hnacích sil, které usměrňují lidské chování a prožívání. Představuje touhu člověka dosáhnout žádoucího cíle; je to proces, který ovlivňuje chování v různých situacích. <b>Vnitřní motivace je silnější a trvalejší než vnější.</b>' },
+      { t: 'def', term: 'Motivace', x: 'Soubor činitelů – vnitřních hnacích sil, které usměrňují lidské chování a prožívání.', items: ['představuje touhu člověka dosáhnout žádoucího cíle', 'je to proces, který ovlivňuje chování v různých situacích', '<b>vnitřní motivace je silnější a trvalejší než vnější</b>'] },
       { t: 'p', x: 'Pracovní motivace je v podstatě <b>umění vedoucího vzbudit u spolupracovníků zájem, ochotu a chuť aktivně se účastnit plnění všech činností směřujících ke stanovenému cíli</b>. „Zapalovat může jen ten, kdo sám hoří“ – motivující ŘP musí být sám motivován.' },
       { t: 'pyramid', title: 'Maslowova hierarchie potřeb (dnešní pojetí, shora dolů)', levels: [
         { h: 'Sebetranscendence', x: 'něco, co přesahuje jedince' },

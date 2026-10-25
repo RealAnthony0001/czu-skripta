@@ -36,6 +36,7 @@ registerTopic({
         ['konstanty v konjunkci', 'A ∧ 1 ≡ A,  A ∧ 0 ≡ 0']
       ] },
       { t: 'tip', x: 'Nejčastěji budeš potřebovat jen čtyři: <b>A⇒B ≡ ¬A∨B</b>, <b>A⇔B ≡ (A∧B)∨(¬A∧¬B)</b>, <b>De Morgan</b> a <b>distributivitu</b>. Zbytek je zjednodušování.' },
+      { t: 'widget', name: 'venn', how: ['Vyber zákon tlačítkem; vlevo je levá strana rovnosti, vpravo pravá.', 'Vybarvená oblast je výsledek výrazu; obdélník je universum U, kruhy jsou množiny A, B, (C).', '<b>Stejně vybarvené oblasti</b> znamenají rovnost množin, tedy i ekvivalenci příslušných logických formulí.', 'Poslední příklad je častá chyba – oblasti se liší, rovnost neplatí.'], sol: '<b>De Morgan:</b> (A ∪ B)′ = A′ ∩ B′ – obě strany jsou oblast <b>mimo oba kruhy</b>. Naopak (A ∪ B)′ ≠ A′ ∪ B′: pravá strana by zahrnula i prvky, které leží v jednom z kruhů.', m: 'law', title: 'Zákony pohledem množin (Vennovy diagramy)', cap: 'Každá logická spojka má množinový protějšek: ∧ = ∩, ∨ = ∪, ¬ = doplněk. Stejně vybarvené oblasti odpovídají ekvivalenci.' },
       { t: 'warn', x: 'V negaci ekvivalence se nemění jen jedna strana: ¬(A⇔B) je <i>ne</i> (¬A⇔¬B) (ta je ekvivalentní A⇔B), ale ¬A⇔B. Totéž pro implikaci: negace A⇒B <i>není</i> ¬A⇒¬B, nýbrž A∧¬B.' }
     ] },
     { title: 'Normální tvary – definice', blocks: [
@@ -47,7 +48,7 @@ registerTopic({
       { t: 'warn', x: 'Úplnost znamená, že <b>každá</b> konjunkce (disjunkce) má <b>každou</b> proměnnou právě jednou. Pro proměnné A, B, C je A∧B∧¬C úplná konjunkce, ale A∧B (chybí C) ani A∧A∧C (A dvakrát, chybí B) úplné nejsou.' }
     ] },
     { title: 'Převod do DNT a KNT', blocks: [
-      { t: 'svg', title: 'Čtyři kroky převodu', x: MLG.dntPostup() },
+      { t: 'svg', title: 'Čtyři kroky převodu', x: MLG.dntPostup(), cap: 'Převod do DNT: ① odstranit ⇒ a ⇔, ② zatáhnout negace (De Morgan, ¬¬A → A), ③ roznásobit, ④ zjednodušit (A ∧ ¬A → 0, A ∨ A → A); výsledek je disjunkce konjunkcí literálů.' },
       { t: 'ex', x: '<b>Do DNT:</b> (1) A′ ∧ (B′ ∨ A) ≡ (A′∧B′) ∨ (A′∧A) ≡ (A′∧B′) ∨ 0 ≡ <b>A′ ∧ B′</b>' },
       { t: 'ex', x: '(2) (A′ ⇒ (B ∧ C′))′ ≡ A′ ∧ (B ∧ C′)′ ≡ A′ ∧ (B′ ∨ C) ≡ <b>(A′∧B′) ∨ (A′∧C)</b>' },
       { t: 'ex', x: '(3) A′ ⇔ (B ∨ C′) ≡ (A′ ∧ (B ∨ C′)) ∨ (A ∧ (B ∨ C′)′) ≡ <b>(A′∧B) ∨ (A′∧C′) ∨ (A∧B′∧C)</b>' },
@@ -63,6 +64,7 @@ registerTopic({
         { h: 'Algebraicky', x: 'převeď do DNT, pak do každé konjunkce, které chybí proměnná X, doplň X∨X′ ≡ 1 a roznásob; duplicitní členy vynech (A∨A ≡ A)' }
       ] },
       { t: 'svg', title: 'Od tabulky k ÚDNT', x: MLG.tabulkaUdnt(), cap: 'Příklad: A B ϕ s hodnotami 11→1, 10→1, 01→0, 00→1.' },
+      { t: 'widget', name: 'tt', how: ['Do pole ϕ napiš formuli (proměnné A–E, spojky ¬ ∧ ∨ ⇒ ⇔ ⊕ ↑ ↓ – dají se vkládat tlačítky pod polem).', 'Tabulka má sloupec pro každou podformuli; <b>poslední (červeně) je výsledek celé formule</b>.', 'Pod tabulkou je určení formule (tautologie / kontradikce / splnitelná) a její ÚDNT a ÚKNT.', 'Do pole ψ napiš druhou formuli – widget rozhodne o ekvivalenci a logickém důsledku a při neplatnosti ukáže protipříklad.'], sol: 'Formule <b>(A ∨ B) ∧ ¬C</b> je pravdivá jen v řádcích (A, B, C) = (1,1,0), (1,0,0), (0,1,0). <b>ÚDNT</b> (z jedniček): (A ∧ B ∧ ¬C) ∨ (A ∧ ¬B ∧ ¬C) ∨ (¬A ∧ B ∧ ¬C). <b>ÚKNT</b> (z nul): (¬A ∨ ¬B ∨ ¬C) ∧ (¬A ∨ B ∨ ¬C) ∧ (A ∨ ¬B ∨ ¬C) ∧ (A ∨ B ∨ ¬C) ∧ (A ∨ B ∨ C).', f: '(A ∨ B) ∧ ¬C', title: 'Zkus si to: tabulka, ÚDNT a ÚKNT libovolné formule', cap: 'Napiš vlastní formuli (A–E, spojky ¬ ∧ ∨ ⇒ ⇔ ⊕ ↑ ↓ nebo tlačítka). ÚDNT = disjunkce úplných konjunkcí řádků s 1, ÚKNT = konjunkce úplných disjunkcí řádků s 0.' },
       { t: 'ex', x: '<b>1)</b> A ∨ (A′ ∧ B). Tabulka (A,B): 11→1, 10→1, 01→1, 00→0. ÚDNT: <b>(A∧B) ∨ (A∧B′) ∨ (A′∧B)</b>. (Platí A ∨ (A′∧B) ≡ A ∨ B.)' },
       { t: 'ex', x: '<b>2)</b> (A ∧ B) ∨ (B ∧ C′). Algebraicky: A∧B ≡ (A∧B∧C) ∨ (A∧B∧C′), B∧C′ ≡ (A∧B∧C′) ∨ (A′∧B∧C′). Po vypuštění duplicitního A∧B∧C′: <b>(A∧B∧C) ∨ (A∧B∧C′) ∨ (A′∧B∧C′)</b>.' },
       { t: 'ex', x: '<b>3)</b> (A′ ⇒ B′) ∨ (B ∧ C′) ≡ A ∨ B′ ∨ (B∧C′). Formule je nepravdivá jen pro A = 0, B = 1, C = 1, takže ÚDNT má 7 z 8 možných konjunkcí: <b>ABC ∨ ABC′ ∨ AB′C ∨ AB′C′ ∨ A′BC′ ∨ A′B′C ∨ A′B′C′</b> (A′ = ¬A).' },

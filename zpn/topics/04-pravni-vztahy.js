@@ -23,7 +23,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Právní vztah, předpoklady a prvky', blocks: [
-      { t: 'def', term: 'Právní vztah', x: 'Společenský vztah mezi nejméně dvěma konkrétně určenými subjekty, upravený právní normou, v němž jsou účastníci nositeli vzájemně spjatých subjektivních práv a povinností. Veškeré vztahy mezi subjekty jsou společenské; teprve regulace právní normou z nich dělá právní.' },
+      { t: 'def', term: 'Právní vztah', x: 'Společenský vztah mezi nejméně dvěma konkrétně určenými subjekty, upravený právní normou.', items: ['účastníci jsou nositeli vzájemně spjatých subjektivních práv a povinností', 'veškeré vztahy mezi subjekty jsou společenské; teprve regulace právní normou z nich dělá právní'] },
       { t: 'tree', title: 'Předpoklady a prvky právního vztahu', root: { h: 'Právní vztah', kids: [
         { h: '2 předpoklady', kids: [
           { h: 'Právní norma', x: 'platná a účinná, vztah upravuje (např. OZ – převod nemovitosti)' },
@@ -35,7 +35,7 @@ registerTopic({
           { h: 'Obsah', x: 'práva a povinnosti (vzájemně podmíněné)' }
         ] }
       ] } },
-      { t: 'svg', title: 'Právní vztah na příkladu převodu nemovitosti', x: ZPN.relationDiagram() },
+      { t: 'svg', title: 'Právní vztah na příkladu převodu nemovitosti', x: ZPN.relationDiagram(), cap: 'Dva předpoklady (právní norma, právní skutečnost) a tři prvky vztahu: prodávající a kupující jsou subjekty, nemovitost je objekt a obsahem je povinnost převést vlastnictví a zaplatit cenu.' },
       { t: 'icons', title: 'Obsah vztahu: právo (oprávnění) + povinnost', items: [
         { i: '🎁', h: 'Dát' },
         { i: '🔨', h: 'Konat' },
@@ -46,8 +46,8 @@ registerTopic({
       { t: 'ex', x: 'Převod nemovitosti: norma = občanský zákoník, skutečnost = uzavření kupní smlouvy (a zápis do katastru), subjekty = prodávající a kupující, objekt = nemovitost, obsah = povinnost předat a převést vlastnictví × povinnost zaplatit cenu.' }
     ] },
     { title: 'Právní skutečnosti a jejich členění', blocks: [
-      { t: 'def', term: 'Právní skutečnost', x: 'Okolnost právně významná – právní norma s ní spojuje vznik, změnu nebo zánik právního vztahu (tj. subjektivních práv a právních povinností).' },
-      { t: 'svg', title: 'Právní skutečnosti: vůle × soulad s právem', x: ZPN.factsDiagram() },
+      { t: 'def', term: 'Právní skutečnost', x: 'Okolnost právně významná – právní norma s ní spojuje vznik, změnu nebo zánik právního vztahu.', items: ['tj. subjektivních práv a právních povinností'] },
+      { t: 'svg', title: 'Právní skutečnosti: vůle × soulad s právem', x: ZPN.factsDiagram(), cap: 'Dvě osy – závislost na vůli a soulad s právem – dávají čtyři druhy právních skutečností (právní jednání, protiprávní jednání, právní událost, protiprávní stav); zvláštní je konstitutivní rozhodnutí.' },
       { t: 'tree', title: 'Čtyři druhy + konstitutivní rozhodnutí', root: { h: 'Právní skutečnosti', kids: [
         { h: 'Závislé na vůli (subjektivní)', kids: [
           { h: 'Právní jednání', x: 'projev vůle v souladu s právem + individuální právní akty; smlouva, výpověď, závěť, odvolání' },
@@ -116,7 +116,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Právnické osoby (subjekt)', blocks: [
-      { t: 'def', term: 'Právnická osoba (§ 20)', x: 'Organizovaná jednotka, o níž zákon stanoví, že má právní osobnost (nebo jejíž právní osobnost uznává). Umělý útvar vytvořený právem, aby sloužil zájmům lidí – soukromým (běžná banka) nebo veřejným (ČNB). Právnickou osobou je i <b>stát</b> (§ 21). PO veřejného práva se řídí hlavně zvláštními zákony (obce, ČNB, veřejné vysoké školy).' },
+      { t: 'def', term: 'Právnická osoba (§ 20)', x: 'Organizovaná jednotka, o níž zákon stanoví, že má právní osobnost (nebo jejíž právní osobnost uznává).', items: ['umělý útvar vytvořený právem, aby sloužil zájmům lidí – soukromým (běžná banka) nebo veřejným (ČNB)', 'právnickou osobou je i <b>stát</b> (§ 21)', 'PO veřejného práva se řídí hlavně zvláštními zákony (obce, ČNB, veřejné vysoké školy)'] },
       { t: 'tree', title: 'Typy právnických osob', root: { h: 'Právnická osoba', kids: [
         { h: 'Korporace (§ 210 an.)', x: 'základ = osobní složka, členové (corpus)', kids: [
           { h: 'Spolky' }, { h: 'Obchodní společnosti', x: 'a.s., s.r.o., k.s., v.o.s.' }, { h: 'Družstva' }, { h: 'Obce, kraje, komory' }
@@ -146,7 +146,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Zastoupení a opatrovnictví', blocks: [
-      { t: 'def', term: 'Zastoupení', x: 'Kdo je oprávněn právně jednat jménem jiného, je jeho zástupcem; práva a povinnosti z jednání vznikají <b>přímo zastoupenému</b>. Zastoupit nemůže ten, jehož zájmy jsou v rozporu se zájmy zastoupeného (u smluvního jen pokud zastoupený o rozporu věděl či musel vědět).' },
+      { t: 'def', term: 'Zastoupení', x: 'Kdo je oprávněn právně jednat jménem jiného, je jeho zástupcem.', items: ['práva a povinnosti z jednání vznikají <b>přímo zastoupenému</b>', 'zastoupit nemůže ten, jehož zájmy jsou v rozporu se zájmy zastoupeného', 'u smluvního zastoupení jen pokud zastoupený o rozporu věděl či musel vědět'] },
       { t: 'icons', title: 'Druhy zastoupení', items: [
         { i: '📝', h: 'Smluvní (plná moc)', x: 'strany se ujednají; zmocnitel vymezí rozsah' },
         { i: '🏢', h: 'Prokura', x: 'zvláštní smluvní zmocnění podnikatele' },

@@ -32,26 +32,25 @@ registerTopic({
         '<b>při nabídkách a slibech:</b> <i>I’ll do it for you.</i> · <i>We’ll give you a lift.</i>',
         '<b>ve větách s <i>if</i></b> (první kondicionál): <i>If you walk more, you’ll feel refreshed.</i>'
       ] },
-      { t: 'grid', head: ['Typ věty', 'Pravidlo', 'Příklad'], rows: [
-        ['Kladná', '<b>will</b> (nebo <b>’ll</b>) + základní tvar; žádná zvláštní forma pro 3. osobu', 'I’ll see you on Friday. · She’ll take questions at the end of her speech.'],
-        ['Záporná', '<b>won’t</b> (will not)', 'He won’t be here for at least half an hour.'],
-        ['Otázka', 'změň pořadí slov', 'What time will he get here?'],
-        ['Krátká odpověď', '<b>will / won’t</b>', 'Will it work? Yes, it will. / No, it won’t.']
-      ] }
+      { t: 'svg', title: 'Stavba vět s will', x: ANG.willForm(), cap: 'Slovesa po will mají vždy základní tvar.' },
+      { t: 'ex', x: '<b>Příklady z učebnice:</b><br><b>Kladná</b>: I’ll see you on Friday. · She’ll take questions at the end of her speech.<br><b>Záporná</b>: He won’t be here for at least half an hour.<br><b>Otázka</b>: What time will he get here?<br><b>Krátká odpověď</b>: Will it work? Yes, it will. / No, it won’t.' }
     ] },
     { title: 'going to', blocks: [
       { t: 'ol', items: [
         '<b>záměry a plány:</b> <i>I’m going to visit my sister tomorrow.</i> (koupil jsem si letenku a čeká mě) · <i>They’re going to open a new office in Shanghai.</i> (už se rozhodli)',
         '<b>předpověď podle toho, co teď vidíme:</b> <i>There are black clouds. It’s going to rain.</i> · <i>The train’s delayed. We’re going to be late.</i>'
       ] },
-      { t: 'grid', head: ['Typ věty', 'Pravidlo', 'Příklad'], rows: [
-        ['Kladná', '<b>be going to</b> + základní tvar', 'They’re going to reorganize the office. · I’m only going to stay there for a week.'],
-        ['Záporná', 'záporný tvar slovesa <i>be</i>', 'We’re not going to clean up. · He isn’t going to arrive in time.'],
-        ['Otázka', 'změň pořadí slovesa <i>be</i>', 'Are you going to employ an assistant? · What’s he going to do?'],
-        ['Krátká odpověď', 'sloveso <i>be</i>', 'Is he going to come? Yes, he is. / No, he isn’t.']
-      ] },
+      { t: 'svg', title: 'Stavba vět s going to', x: ANG.goingToForm(), cap: 'Sloveso be se mění podle osoby, going to zůstává.' },
+      { t: 'ex', x: '<b>Příklady z učebnice:</b><br><b>Kladná</b>: They’re going to reorganize the office. · I’m only going to stay there for a week.<br><b>Záporná</b>: We’re not going to clean up. · He isn’t going to arrive in time.<br><b>Otázka</b>: Are you going to employ an assistant? · What’s he going to do?<br><b>Krátká odpověď</b>: Is he going to come? Yes, he is. / No, he isn’t.' },
       { t: 'warn', x: 'Se slovesem <i>go</i> obvykle nepoužíváme <i>going to</i>. Místo toho zvolíme jinou budoucí formu, např. present continuous nebo <i>will</i>: <b>I’m going to Paris.</b> / <b>I’ll go to Paris.</b> (ne: I’m going to go to Paris).' },
-      { t: 'ex', x: 'V rozhovoru na letišti: <i>I’m <b>going to</b> meet the sales and marketing managers.</i> (pevný plán) · <i>I’ll probably check my email.</i> · <i>I think <b>I’ll</b> get a head and shoulder massage.</i> (rozhodnutí právě teď)' }
+      { t: 'ex', x: 'V rozhovoru na letišti: <i>I’m <b>going to</b> meet the sales and marketing managers.</i> (pevný plán) · <i>I’ll probably check my email.</i> · <i>I think <b>I’ll</b> get a head and shoulder massage.</i> (rozhodnutí právě teď)' },
+      { t: 'widget', name: 'kviz', how: ['Vyber odpověď – hned se ukáže, zda je správná, a proč.', 'Šipkami ◀ ▶ přecházíš mezi otázkami; poslední stránka ukazuje skóre.', 'Otázky vycházejí z vět a významů z tohoto tématu.'], sol: '1. <i>Er… OK, I’ll come</i> – rozhodnutí právě teď (<b>will</b>). 2. <i>I’m going to come</i> – už jsem se rozhodl (<b>going to</b>). 3. <i>I might come</i> – není to jisté (<b>might</b>). 4. <i>I think I’ll get a massage</i> – rozhodnutí právě teď (<b>will</b>). 5. <i>I’m going to Paris</i> – se slovesem <i>go</i> obvykle ne <i>going to go</i>.', title: 'Zkus si: která budoucí forma?', cap: 'Věty a významy jsou z tohoto tématu.', items: [
+        { q: 'Er… OK, I ____ come to the meeting.', hint: 'rozhoduji se právě teď', o: ['’ll', '’m going to', '’m coming', 'might'], a: 0, why: 'will vyjadřuje rozhodnutí v okamžiku mluvení.' },
+        { q: 'I ____ come to the meeting.', hint: 'už jsem se rozhodl, mám to v úmyslu', o: ['’ll', '’m going to', 'might'], a: 1, why: 'going to = už jsem se rozhodl.' },
+        { q: 'I ____ come to the meeting.', hint: 'není to jisté', o: ['’ll', '’m going to', 'might'], a: 2, why: 'might / may = možnost, není to jisté.' },
+        { q: 'I think I ____ get a head and shoulder massage.', hint: 'rozhodnutí právě teď', o: ['’ll', '’m going to', 'might'], a: 0, why: 'I think I’ll… = rozhodnutí právě teď.' },
+        { q: '____ to Paris. (se slovesem go)', o: ['I’m going to go', 'I’m going', 'I go to go'], a: 1, why: 'Se slovesem go obvykle nepoužíváme going to; zvolíme present continuous nebo will: I’m going to Paris / I’ll go to Paris.' }
+      ] },
     ] },
     { title: 'Budoucí možnost: may, might, could', blocks: [
       { t: 'ol', items: [

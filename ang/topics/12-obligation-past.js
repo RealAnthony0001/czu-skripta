@@ -27,7 +27,7 @@ registerTopic({
       { t: 'tip', x: 'Naučit se tři věty: <b>I had to</b> (musel jsem), <b>I didn’t have to</b> (nemusel jsem), <b>I wasn’t allowed to</b> (nesměl jsem). V učebnici je trénuješ na tématu „Those were the days“ – jak se dříve pracovalo (<i>Men had to wear … to the office. A secretary had to … and give the boss his hat and coat.</i>).' }
     ] },
     { title: 'make / let / allow', blocks: [
-      { t: 'svg', title: 'Čtyři významy', x: ANG.makeLetAllow(), cap: '' },
+      { t: 'svg', title: 'Čtyři významy', x: ANG.makeLetAllow(), cap: 'let / allow = dovolit a make = přinutit, každé v kladné i záporné větě s příkladem (don’t allow = nedovolit, don’t make = nenutit).' },
       { t: 'ol', items: [
         '<b>let / allow</b> používáme, když máme <b>povolení</b> něco dělat: <i>He allows his staff to vote on most major decisions.</i> = <i>He lets his staff vote on most major decisions.</i>',
         '<b>not allow</b> používáme, když povolení nemáme: <i>They don’t allow staff to use the internet.</i>',

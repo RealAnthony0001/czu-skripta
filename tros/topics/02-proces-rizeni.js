@@ -41,7 +41,7 @@ registerTopic({
       { t: 'p', x: 'Slovo „výroba“ se nahrazuje výrazem <b>produkce</b>, protože výroba se pojí jen s hmotnou činností a podnik může produkovat i služby.' }
     ] },
     { title: 'Proces řízení: fáze a stádia', blocks: [
-      { t: 'def', term: 'Proces řízení', x: 'Informační působení realizované v čase. Vzhledem k proměnlivému okolí se OS musí měnit, proto je řídící proces <b>nikdy nekončící</b>; jeho úkolem je zajišťovat dynamickou rovnováhu OS. Končí až s koncem OS.' },
+      { t: 'def', term: 'Proces řízení', x: 'Informační působení realizované v čase.', items: ['vzhledem k proměnlivému okolí se OS musí měnit, proto je řídící proces <b>nikdy nekončící</b>', 'jeho úkolem je zajišťovat dynamickou rovnováhu OS', 'končí až s koncem OS'] },
       { t: 'versus', title: 'Dvě hlediska procesu řízení', cols: [
         { h: 'Časové: fáze procesu', items: ['<b>Plánování</b> (dlouhodobé cíle, projekt OS)', '<b>Organizování</b> (přiřazení zdrojů, vytvoření OJ)', '<b>Operativní řízení</b> = vedení lidí (realizace chování, odchylky)'] },
         { h: 'Věcné: stádia cyklu', items: ['<b>I</b> – informace (primární)', '<b>RO</b> – rozhodování', '<b>RE</b> – realizace (součástí je ovlivňování)', '<b>K</b> – kontrola (sekundární informace)'] }
@@ -50,7 +50,7 @@ registerTopic({
       { t: 'tip', x: 'Jednotlivé fáze a stádia <b>nelze oddělit</b>. Každá fáze obsahuje celý cyklus. Systémově: plánování → dlouhodobé cíle a projekt organizačního systému; organizování → organizační normy a vytváření organizačních jednotek; operativní řízení → operativní cíle a realizace chování.' }
     ] },
     { title: 'Matice fází a stádií (pole 11–33)', blocks: [
-      { t: 'svg', title: 'Integrace časového a věcného hlediska', x: TROS.matice() },
+      { t: 'svg', title: 'Integrace časového a věcného hlediska', x: TROS.matice(), cap: 'Tabulka spojuje fáze procesu řízení (plánování, organizování, operativní řízení) se stádii (informace, rozhodování, realizace a kontrola); pole 11 až 33 jsou jednotlivé činnosti.' },
       { t: 'ul', items: [
         '<b>Plánování (11–13)</b> provádí vyšší stupně řízení, často kolektivním rozhodnutím užšího vedení. Vstup: informace o trhu, konkurenci, kapacitě trhu. Pole 12 = výběr jedné z variant plánu → schválení.',
         '<b>Organizování (21–23)</b> zajišťuje vyšší stupeň se zástupci závodů a provozů, kteří budou produkt realizovat. Výsledkem je plán realizace: finance (vlastní, cizí), technologie a technologický postup, technické vybavení, kvalifikace lidí, počet směn, místo výroby, nákup a prodej, příprava lidí.',

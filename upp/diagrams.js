@@ -203,19 +203,6 @@ const UPP = (() => {
     return svg(720, 350, o + path(`M${bx + bw + 14},${12 + 70 + 3} h8 v${44 + 70 * 2 - 6 - 2} h-8`, 'ln') + text(bx + bw + 34, 12 + 70 + 70 + 24, 'vše mezi aplikací a hardwarem zajišťuje OS', 'sm mu'));
   };
 
-  // 17) stavy procesu
-  const procStatesDiagram = () => svg(720, 290,
-    rect(160, 40, 400, 230, 'pd') + text(172, 60, 'spuštěné uživatelské procesy', 'sm mu') +
-    box(10, 120, 100, 44, 'b', 'nový') +
-    box(190, 90, 130, 44, 'fW', 'připraven', 'čeká na procesor') + box(400, 90, 130, 44, 'fA', 'probíhající', 'má procesor') +
-    box(600, 90, 110, 44, 'b', 'ukončen') +
-    box(190, 200, 130, 50, 'fD', 'čekající', 'na zdroj / událost') + box(400, 200, 130, 50, 'fE', 'zablokován', 'pozastaven (zmrazen)') +
-    line(110, 142, 190, 120, 'ln', 'end') + line(320, 104, 400, 104, 'lA', 'end') + line(400, 122, 320, 122, 'lA', 'end') +
-    line(530, 112, 600, 112, 'ln', 'end') +
-    line(430, 134, 320, 214, 'lD', 'end') + line(250, 200, 250, 134, 'lD', 'end') +
-    line(500, 134, 500, 200, 'lW', 'end') + line(400, 236, 300, 134, 'lW', 'end') +
-    text(360, 80, 'přidělení procesoru', 'c sm mu') + text(360, 138, 'odebrání', 'c sm mu') + text(256, 172, 'zdroj uvolněn', 'sm mu'));
-
   // 18) uváznutí
   const deadlockDiagram = () => svg(720, 250,
     box(110, 15, 120, 44, 'fD', 'proces P1') + box(490, 15, 120, 44, 'fD', 'proces P2') +
@@ -318,22 +305,6 @@ const UPP = (() => {
       line(406, 144, 406, 176, 'lW', 'end') + text(406, 194, 'vyjmutí', 'c sm tW') +
       line(630, 176, 630, 144, 'lW', 'end') + text(630, 194, 'vložení', 'c sm tW');
     return svg(720, 262, o);
-  };
-
-  // 25) klasické, proudové a superskalární zpracování 6 instrukcí
-  const pipelineDiagram = () => {
-    const ph = [['výběr', 'fA'], ['dekód. 1', 'fE'], ['dekód. 2', 'fW'], ['provedení', 'fD'], ['uložení', 'b']];
-    const cw = 20, x0 = 80, rh = 12;
-    let o = ph.map(([n, c], i) => rect(80 + i * 130, 6, 14, 14, c) + text(100 + i * 130, 18, n, 'sm')).join('');
-    const model = (title, y, start, total) => {
-      let g = text(10, y + 10, title, 'sm bd tA');
-      for (let i = 0; i < 6; i++) {
-        g += text(x0 - 6, y + 26 + i * (rh + 1) + 10, 'i' + (i + 1), 'e sm mu');
-        ph.forEach(([, c], p) => { g += rect(x0 + (start(i) + p) * cw, y + 26 + i * (rh + 1), cw - 1, rh, c); });
-      }
-      return g;
-    };
-    return svg(720, 372, o + model('klasicky: 6 · 5 = 30 cyklů', 36, i => 5 * i, 30) + model('pipeline: 6 + 4 = 10 cyklů', 150, i => i, 10) + model('superskalární (2 najednou): 3 + 4 = 7 cyklů', 264, i => i >> 1, 7));
   };
 
   // 26) sběrnicová architektura osobního počítače
@@ -551,21 +522,6 @@ const UPP = (() => {
       text(10, 238, 'Zbozi.DPH()  – volání metody; Zbozi je instance třídy TypZbozi', 'sm mo'));
   };
 
-  // ---------- T15 Dynamické datové struktury ----------
-  // 40) rekurze: R_Faktorial(4)
-  const recursionDiagram = () => {
-    const fact = n => (n <= 1 ? 1 : n * fact(n - 1)), by = i => 12 + i * 66;
-    let o = '';
-    for (let i = 0; i <= 4; i++) {
-      const n = 4 - i;
-      o += box(250, by(i), 220, 38, i === 4 ? 'fW' : 'fA', `R_Faktorial(${n})`, i === 4 ? 'N = 0 → konec rekurze, vrací 1' : `čeká na R_Faktorial(${n - 1})`);
-      if (i < 4) o += line(300, by(i) + 38, 300, by(i + 1), 'lA', 'end') + text(292, by(i) + 38 + 18, `volá ${n} · R(${n - 1})`, 'e sm') +
-        line(420, by(i + 1), 420, by(i) + 38, 'lD', 'end') + text(428, by(i) + 38 + 18, `vrací ${fact(n)}`, 'sm tD bd');
-    }
-    return svg(720, 330, o + text(10, 40, 'volání ↓', 'sm tA bd') + text(10, 58, 'zásobník volání roste', 'sm mu') + text(500, 250, 'návrat ↑', 'sm tD bd') + text(500, 268, 'hodnoty se násobí při návratu', 'sm mu') +
-      text(10, 306, '4! = 4 · 3 · 2 · 1 = 24', 'sm mo bd'));
-  };
-
   // 41) binární strom
   const treeDiagram = () => {
     const node = (cx, y, v) => rect(cx - 36, y, 72, 34, 'fA') + text(cx, y + 21, v, 'c bd mo') + rect(cx - 36, y + 34, 36, 18, 'b') + rect(cx, y + 34, 36, 18, 'b') + text(cx - 18, y + 47, 'L', 'c sm mu') + text(cx + 18, y + 47, 'P', 'c sm mu');
@@ -604,46 +560,6 @@ const UPP = (() => {
       if (es.length) o += line(px, y + 17, px + 20, y + 17, 'ln', 'end') + text(px + 24, y + 21, 'NULL', 'sm mu mo');
     });
     return svg(720, 275, o);
-  };
-
-  // ---------- T16 Speciální datové struktury ----------
-  // 43) cyklická fronta (max = 5)
-  const circQueueDiagram = () => {
-    const max = 5, df = (kf, zf) => (kf - zf + max + 1) % max, X = 170;
-    const states = [
-      ['po vložení A, B, C', { 1: 'A', 2: 'B', 3: 'C' }, 1, 3],
-      ['po vyjmutí A', { 2: 'B', 3: 'C' }, 2, 3],
-      ['po vložení D, E', { 2: 'B', 3: 'C', 4: 'D', 0: 'E' }, 2, 0]
-    ];
-    let o = '';
-    for (let i = 0; i < max; i++) o += text(X + i * 56 + 28, 16, i, 'c sm mu mo');
-    states.forEach(([name, items, zf, kf], r) => {
-      const y = 26 + r * 96;
-      o += text(10, y + 24, name, 'sm bd');
-      for (let i = 0; i < max; i++) o += items[i] ? box(X + i * 56, y, 56, 38, 'fE', items[i]) : rect(X + i * 56, y, 56, 38, 'pd');
-      o += line(X + zf * 56 + 28, y + 62, X + zf * 56 + 28, y + 42, 'lD', 'end') + text(X + zf * 56 + 28, y + 76, 'ZF = ' + zf, 'c sm tD') +
-        line(X + kf * 56 + 28, y + 62, X + kf * 56 + 28, y + 42, 'lW', 'end') + text(X + kf * 56 + 28, y + 76, 'KF = ' + kf, 'c sm tW') +
-        text(490, y + 24, `DF = (${kf} − ${zf} + ${max} + 1) % ${max} = ${df(kf, zf)}`, 'sm mo');
-    });
-    return svg(720, 330, o + text(10, 322, 'indexy 0…4 · ZF = začátek, KF = konec · KF = (KF + 1) % max zalamuje konec na začátek pole', 'sm mu'));
-  };
-
-  // 44) hash tabulka s kolizí
-  const hashDiagram = () => {
-    const m = 7, h = k => [...k].reduce((a, c) => a + c.charCodeAt(0) - 64, 0) % m;
-    const keys = ['NOVAK', 'SVOBODA', 'KRAL', 'HORAK', 'BLAHA', 'NEMEC'];
-    let o = text(10, 18, 'klíč k', 'sm mu') + text(250, 18, 'h(k) = (součet pořadí písmen) mod 7', 'c sm mu') + text(560, 18, 'tabulka (7 řádků)', 'c sm mu');
-    keys.forEach((k, i) => {
-      const y = 30 + i * 40, t = h(k), ty = 30 + t * 38;
-      o += box(10, y, 110, 30, k === 'KRAL' ? 'fW' : 'fE', k) + path(`M120,${y + 15} C250,${y + 15} 330,${ty + 17} 458,${ty + 17}`, k === 'KRAL' ? 'lW' : 'lA', 'end') +
-        text(270, y + 11 - (i % 2) * 0, 'h = ' + t, 'c sm mo mu');
-    });
-    for (let t = 0; t < m; t++) {
-      const owner = keys.filter(k => h(k) === t);
-      o += rect(460, 30 + t * 38, 220, 34, owner.length ? (owner.length > 1 ? 'fW' : 'fA') : 'pd') + text(672, 30 + t * 38 + 22, t, 'e sm mu mo') +
-        (owner.length ? text(570, 30 + t * 38 + 22, owner[0] + (owner.length > 1 ? '  ⚠' : ''), 'c bd sm') : text(570, 30 + t * 38 + 22, 'volno', 'c sm mu'));
-    }
-    return svg(720, 300, o + text(10, 292, 'NOVAK a KRAL: h = 0 pro oba → kolize (synonyma)', 'sm tW'));
   };
 
   // 45) sekvenční soubor a soubor s přímým přístupem
@@ -770,5 +686,176 @@ const UPP = (() => {
       text(610, 214, 'dva AP propojí dvě', 'c sm mu') + text(610, 230, 'sítě (drátové či bezdrátové)', 'c sm mu'));
   };
 
-  return { soustavyMap, groupingDiagram, byteDiagram, setsDiagram, consequenceDiagram, textDiagram, utfDiagram, wheelDiagram, shiftDiagram, ieeeDiagram, cubeDiagram, hammingGrid, vnDiagram, cycleDiagram, addrDiagram, osLayersDiagram, procStatesDiagram, deadlockDiagram, controlDiagram, maskDiagram, matrixDiagram, pointerDiagram, listDiagram, stackQueueDiagram, pipelineDiagram, busDiagram, colorDiagram, topologyDiagram, lifecycleDiagram, multitaskDiagram, virtMemDiagram, semaphoreDiagram, complexityDiagram, modFlowDiagram, translateDiagram, tiersDiagram, arrayDiagram, setDiagram, recordDiagram, recursionDiagram, treeDiagram, graphDiagram, circQueueDiagram, hashDiagram, fileDiagram, dbmsDiagram, hddDiagram, opticalDiagram, lcdDiagram, laserDiagram, switchDiagram, wifiDiagram };
+  // ===== diagramy nahrazující tabulky =====
+  // pomocník: obdélník s několika řádky textu (první tučně)
+  const lines = (x, y, w, h, cls, ls) => rect(x, y, w, h, cls) + ls.map((t, i) => text(x + w / 2, y + 17 + i * 15, t, i ? 'c sm' : 'c sm bd')).join('');
+
+  // 46) speciální hodnoty IEEE 754 na ose hodnot
+  const ieeeSpecial = () => {
+    const S = [['−∞', '(s = 1)', 'e′: samé 1', 'm = 0', 'fW'], ['záporná', 'normalizovaná', 'e′: 1 … 254', 'm: libovolná', 'fD'], ['záporná', 'denormalizovaná', 'e′: samé 0', 'm ≠ 0', 'fA'], ['±0', '(s = 0 / 1)', 'e′: samé 0', 'm = 0', 'b'],
+      ['kladná', 'denormalizovaná', 'e′: samé 0', 'm ≠ 0', 'fA'], ['kladná', 'normalizovaná', 'e′: 1 … 254', 'm: libovolná', 'fD'], ['+∞', '(s = 0)', 'e′: samé 1', 'm = 0', 'fW']];
+    return svg(740, 250, S.map((s, i) => lines(6 + i * 104, 30, 100, 80, s[4], s.slice(0, 4))).join('') + line(10, 128, 730, 128, 'ln', 'both') + text(370, 148, 'osa hodnot zleva doprava (v řádném měřítku by byly denormalizovaná čísla o řády užší)', 'c sm mu') +
+      lines(250, 168, 240, 64, 'fE', ['NaN (nedefinováno)', 'znaménko: libovolné', 'e′: samé 1 · m ≠ 0']) + text(370, 18, 'rozložení hodnot podle exponentu e′ a mantisy m', 'c sm mu'), 740);
+  };
+
+  // 47) d_min a schopnost kódu
+  const dminDiagram = () => {
+    const row = (y, n, hole, label, cls, why) => {
+      const x0 = 190, st = 62, xs = [...Array(n + 1)].map((_, i) => x0 + i * st);
+      return `<text x="10" y="${y + 23}" class="bd">d<tspan dy="4" font-size="10">min</tspan><tspan dy="-4"> = ${n}</tspan></text>` + line(xs[0], y + 18, xs[n], y + 18, 'ln') + xs.map((x, i) => (i === 0 || i === n ? `<circle cx="${x}" cy="${y + 18}" r="14" class="fD"/>` + text(x, y + 23, i ? 'B' : 'A', 'c bd') : `<circle cx="${x}" cy="${y + 18}" r="12" class="pd"/>`)).join('') +
+        text(x0 + n * st + 40, y + 14, label, 'sm bd ' + cls) + text(x0 + n * st + 40, y + 31, why, 'sm mu');
+    };
+    return svg(740, 230, text(190, 16, 'plná kolečka = kódová slova, čárkovaná = slova, která nejsou v kódu', 'sm mu') + row(32, 1, 0, 'žádné zabezpečení', 'tW', 'chyba v 1 bitu dá jiné platné slovo, nepozná se') + row(94, 2, 1, 'zabezpečující kód: detekuje d−1 chyb', 'tD', '1 chyba vede na neplatné slovo → chyba se pozná') +
+      row(156, 3, 2, 'samoopravný kód: opraví (d−1) div 2 chyb', 'tA', '1 chyba leží blíž k původnímu slovu → opraví se'), 740);
+  };
+
+  // 48) registry procesoru
+  const cpuRegisters = () => svg(740, 215,
+    box(10, 40, 100, 130, 'b', 'paměť') + rect(160, 10, 570, 195, 'pd') + text(172, 28, 'procesor', 'sm mu') +
+    lines(190, 40, 150, 56, 'fA', ['IP', 'čítač instrukcí']) + lines(190, 120, 150, 56, 'fW', ['RI', 'registr instrukcí']) + lines(400, 40, 130, 56, 'fD', ['S', 'střadač']) + lines(400, 120, 130, 56, 'b', ['IND', 'indexregistr']) +
+    lines(580, 45, 135, 56, 'b', ['ALU', 'provede operaci']) + lines(580, 140, 135, 56, 'fE', ['Flag Register', 'stavové slovo']) +
+    line(190, 62, 112, 62, 'lA', 'end') + text(155, 54, 'adresa', 'e sm tA') + line(112, 150, 190, 150, 'lA', 'end') + text(155, 168, 'instrukce', 'e sm tA') +
+    line(580, 70, 532, 66, 'lD', 'end') + text(556, 56, 'výsledek', 'c sm') + line(648, 101, 648, 138, 'ln', 'end') + text(656, 124, 'příznaky', 'sm'), 740);
+
+  // 49) formát strojové instrukce
+  const instrFormat = () => svg(740, 190,
+    [['operační kód', 'fA', 20, 130], ['adresa vstupního operandu(ů)', 'fD', 150, 190], ['adresa výstupního operandu(ů)', 'fW', 340, 190], ['adresa následující instrukce', 'pd', 530, 190]].map(([t, c, x, w]) => rect(x, 40, w, 50, c) + text(x + w / 2, 70, t, 'c sm bd')).join('') +
+    path('M20,30 H720', 'ln') + text(370, 22, 'strojová instrukce (pole instrukce)', 'c sm mu') +
+    [['co se bude vykonávat', 85], ['s kým instrukce pracuje', 245], ['kam se uloží výsledek', 435], ['kterou instrukci provést dál', 625]].map(([t, x]) => text(x, 112, t, 'c sm')).join('') +
+    text(625, 132, '(čárkovaně: nepovinné)', 'c sm mu') + text(370, 168, 'není-li adresa následující instrukce uvedena, provede se bezprostředně následující', 'c sm mu'), 740);
+
+  // 50) druhy zdrojů – kdy je lze přidělit jinému procesu
+  const zdrojeLanes = () => {
+    const bar = (x, w, y, c, t) => rect(x, y, w, 24, c) + text(x + w / 2, y + 16, t, 'c sm bd');
+    return svg(740, 230,
+      text(10, 36, 'násobně použitelný', 'bd') + text(10, 52, '(sdílitelný, reentrantní)', 'sm mu') + bar(250, 180, 20, 'fA', 'proces 1') + bar(320, 180, 48, 'fD', 'proces 2 – už teď') + text(520, 40, 'disk, myš, data pro čtení', 'sm mu') +
+      text(10, 118, 'opakovaně použitelný', 'bd') + text(10, 134, '(reusabilní, kritická oblast)', 'sm mu') + bar(250, 140, 104, 'fA', 'proces 1') + bar(390, 140, 104, 'fD', 'proces 2 – až poté') + text(540, 118, 'tiskárna, pracovní oblast', 'sm mu') +
+      text(10, 196, 'na jedno použití', 'bd') + text(10, 212, '(nereusabilní)', 'sm mu') + bar(250, 140, 184, 'fA', 'proces 1') + rect(390, 184, 140, 24, 'pd') + text(460, 200, 'nelze přidělit znovu', 'c sm tW bd') + text(540, 204, 'papír do tiskárny', 'sm mu') +
+      line(250, 8, 250, 220, 'ds') + text(250, 224, 'čas →', 'sm mu'), 740);
+  };
+
+  // 51) přístupy k uváznutí na ose času
+  const deadlockApproach = () => svg(740, 215,
+    line(20, 110, 720, 110, 'ln', 'end') + text(700, 128, 'čas', 'sm mu') + `<circle cx="450" cy="110" r="10" class="fA"/>` + text(450, 92, 'uváznutí', 'c bd tA') +
+    box(30, 20, 190, 50, 'fD', 'prevence', 'dopředu: číslování zdrojů') + box(240, 20, 170, 50, 'fW', 'vyhýbání se', 'při přidělení: bankéř') + line(125, 70, 125, 108, 'lD', 'end') + line(325, 70, 325, 108, 'lW', 'end') +
+    box(480, 20, 200, 50, 'fE', 'detekce a obnova', 'po uváznutí, obnova stavu') + line(580, 70, 580, 108, 'ln', 'end') +
+    box(30, 150, 650, 44, 'b', 'ignorovat hrozbu', '„pštrosí algoritmus“: nedělat nic, používá mnoho OS včetně UNIXů'), 740);
+
+  // 52) uzly algoritmu (vývojový diagram)
+  const flowNodes = () => {
+    const col = i => 70 + i * 145, a = (x1, y1, x2, y2) => line(x1, y1, x2, y2, 'lA', 'end');
+    const lab = (i, t, l) => text(col(i), 175, t, 'c sm bd') + l.map((s, k) => text(col(i), 192 + k * 14, s, 'c sm mu')).join('');
+    return svg(740, 245,
+      rect(col(0) - 40, 50, 80, 30, 'fA').replace('<rect', '<rect rx="15"') + text(col(0), 70, 'start', 'c sm') + a(col(0), 80, col(0), 112) + lab(0, 'Počátek', ['vstupy 0 · výstupy 1', '1× v grafu']) +
+      a(col(1), 8, col(1), 50) + rect(col(1) - 40, 50, 80, 30, 'fA').replace('<rect', '<rect rx="15"') + text(col(1), 70, 'konec', 'c sm') + lab(1, 'Konec', ['vstupy 1 · výstupy 0', '1× v grafu']) +
+      a(col(2), 8, col(2), 50) + rect(col(2) - 40, 50, 80, 30, 'fD') + text(col(2), 70, 'krok', 'c sm') + a(col(2), 80, col(2), 112) + lab(2, 'Výkonný', ['vstupy 1 · výstupy 1', 'n× v grafu']) +
+      a(col(3), 8, col(3), 40) + path(`M${col(3)},40 l40,25 l-40,25 l-40,-25 z`, 'fW') + text(col(3), 69, 'podmínka', 'c sm') + a(col(3) - 28, 78, col(3) - 50, 112) + a(col(3) + 28, 78, col(3) + 50, 112) + text(col(3) - 60, 104, 'ne', 'e sm mu') + text(col(3) + 60, 104, 'ano', 'sm mu') + lab(3, 'Rozhodovací', ['vstupy 1 · výstupy 2', 'm× v grafu']) +
+      a(col(4) - 20, 8, col(4) - 8, 50) + a(col(4) + 20, 8, col(4) + 8, 50) + `<circle cx="${col(4)}" cy="65" r="15" class="fE"/>` + a(col(4), 80, col(4), 112) + lab(4, 'Slučovací', ['vstupy 2 · výstupy 1', 'm× v grafu']), 740);
+  };
+
+  // 53) grafický adaptér – součásti
+  const gpuBlocks = () => svg(740, 255,
+    box(20, 10, 150, 46, 'b', 'ovladač', 'software ↔ adaptér') + line(95, 56, 95, 108, 'lA', 'both') +
+    box(20, 108, 150, 60, 'fW', 'konektor pro sběrnici', 'PCI · AGP · PCI Express') + line(170, 138, 235, 138, 'lA', 'end') +
+    box(240, 10, 150, 46, 'fD', 'Video BIOS', 'rozhraní HW ↔ software') + line(315, 56, 315, 90, 'lD', 'end') +
+    box(240, 90, 150, 96, 'fA', 'grafický procesor', 'čipová sada: funkce a výkon') + box(240, 205, 150, 44, 'fE', 'paměť adaptéru', 'určuje rozlišení a barvy') + line(315, 186, 315, 203, 'lE', 'both') +
+    line(390, 138, 450, 138, 'lA', 'end') + box(450, 108, 140, 60, 'fD', 'konvertor D/A', 'digitální → analogový') + line(590, 138, 640, 138, 'lA', 'end') + box(640, 113, 90, 50, 'b', 'monitor'), 740);
+
+  // 54) princip tiskáren (jehličková, inkoustová, termografická)
+  const printerTypes = () => {
+    const paper = (x, y) => rect(x, y, 170, 12, 'b');
+    return svg(740, 185,
+      // jehličková
+      text(105, 18, 'jehličková', 'c bd') + rect(60, 28, 90, 28, 'fA') + text(105, 46, 'hlava', 'c sm') + [75, 95, 115, 135].map(x => line(x, 56, x, 82, 'lA')).join('') + path('M30,90 H180', 'lW') + text(105, 102, 'barvicí páska', 'c sm mu') + paper(20, 112) + text(105, 150, 'jehličky tisknou úderem', 'c sm') + text(105, 166, 'přes barvicí pásku', 'c sm') +
+      // inkoustová
+      text(370, 18, 'tryskové (inkoustové)', 'c bd') + rect(320, 28, 100, 28, 'fD') + text(370, 46, 'trysky', 'c sm') + [345, 370, 395].map((x, i) => `<circle cx="${x}" cy="${72 + i * 6}" r="4" class="fD"/><circle cx="${x}" cy="${92 + i * 6}" r="3" class="fD"/>`).join('') + paper(285, 112) + text(370, 150, 'kapičky inkoustu z trysek', 'c sm') + text(370, 166, 'vychylované elektrostatickým polem', 'c sm') +
+      // termografická
+      text(635, 18, 'termografická', 'c bd') + rect(585, 28, 100, 28, 'fE') + text(635, 46, 'zahřátá tělíska', 'c sm') + path('M555,76 H715', 'lW') + text(635, 92, 'vosková páska', 'c sm mu') + paper(550, 112) + text(635, 150, 'vosk se rozpustí', 'c sm') + text(635, 166, 'a přenese na papír', 'c sm'), 740);
+  };
+
+  // 17) stavy procesu
+  const procStatesDiagram = () => svg(720, 290,
+    rect(160, 40, 400, 230, 'pd') + text(172, 60, 'spuštěné uživatelské procesy', 'sm mu') +
+    box(10, 120, 100, 44, 'b', 'nový') +
+    box(190, 90, 130, 44, 'fW', 'připraven', 'čeká na procesor') + box(400, 90, 130, 44, 'fA', 'probíhající', 'má procesor') +
+    box(600, 90, 110, 44, 'b', 'ukončen') +
+    box(190, 200, 130, 50, 'fD', 'čekající', 'na zdroj / událost') + box(400, 200, 130, 50, 'fE', 'zablokován', 'pozastaven (zmrazen)') +
+    line(110, 142, 190, 120, 'ln', 'end') + line(320, 104, 400, 104, 'lA', 'end') + line(400, 122, 320, 122, 'lA', 'end') +
+    line(530, 112, 600, 112, 'ln', 'end') +
+    line(430, 134, 320, 214, 'lD', 'end') + line(250, 200, 250, 134, 'lD', 'end') +
+    line(500, 134, 500, 200, 'lW', 'end') + line(400, 236, 300, 134, 'lW', 'end') +
+    text(360, 80, 'přidělení procesoru', 'c sm mu') + text(360, 138, 'odebrání', 'c sm mu') + text(256, 172, 'zdroj uvolněn', 'sm mu'));
+
+  // ---------- T15 Dynamické datové struktury ----------
+  // 40) rekurze: R_Faktorial(4)
+  const recursionDiagram = () => {
+    const fact = n => (n <= 1 ? 1 : n * fact(n - 1)), by = i => 12 + i * 66;
+    let o = '';
+    for (let i = 0; i <= 4; i++) {
+      const n = 4 - i;
+      o += box(250, by(i), 220, 38, i === 4 ? 'fW' : 'fA', `R_Faktorial(${n})`, i === 4 ? 'N = 0 → konec rekurze, vrací 1' : `čeká na R_Faktorial(${n - 1})`);
+      if (i < 4) o += line(300, by(i) + 38, 300, by(i + 1), 'lA', 'end') + text(292, by(i) + 38 + 18, `volá ${n} · R(${n - 1})`, 'e sm') +
+        line(420, by(i + 1), 420, by(i) + 38, 'lD', 'end') + text(428, by(i) + 38 + 18, `vrací ${fact(n)}`, 'sm tD bd');
+    }
+    return svg(720, 330, o + text(10, 40, 'volání ↓', 'sm tA bd') + text(10, 58, 'zásobník volání roste', 'sm mu') + text(500, 250, 'návrat ↑', 'sm tD bd') + text(500, 268, 'hodnoty se násobí při návratu', 'sm mu') +
+      text(10, 306, '4! = 4 · 3 · 2 · 1 = 24', 'sm mo bd'));
+  };
+
+  // ---------- T16 Speciální datové struktury ----------
+  // 43) cyklická fronta (max = 5)
+  const circQueueDiagram = () => {
+    const max = 5, df = (kf, zf) => (kf - zf + max + 1) % max, X = 170;
+    const states = [
+      ['po vložení A, B, C', { 1: 'A', 2: 'B', 3: 'C' }, 1, 3],
+      ['po vyjmutí A', { 2: 'B', 3: 'C' }, 2, 3],
+      ['po vložení D, E', { 2: 'B', 3: 'C', 4: 'D', 0: 'E' }, 2, 0]
+    ];
+    let o = '';
+    for (let i = 0; i < max; i++) o += text(X + i * 56 + 28, 16, i, 'c sm mu mo');
+    states.forEach(([name, items, zf, kf], r) => {
+      const y = 26 + r * 96;
+      o += text(10, y + 24, name, 'sm bd');
+      for (let i = 0; i < max; i++) o += items[i] ? box(X + i * 56, y, 56, 38, 'fE', items[i]) : rect(X + i * 56, y, 56, 38, 'pd');
+      o += line(X + zf * 56 + 28, y + 62, X + zf * 56 + 28, y + 42, 'lD', 'end') + text(X + zf * 56 + 28, y + 76, 'ZF = ' + zf, 'c sm tD') +
+        line(X + kf * 56 + 28, y + 62, X + kf * 56 + 28, y + 42, 'lW', 'end') + text(X + kf * 56 + 28, y + 76, 'KF = ' + kf, 'c sm tW') +
+        text(490, y + 24, `DF = (${kf} − ${zf} + ${max} + 1) % ${max} = ${df(kf, zf)}`, 'sm mo');
+    });
+    return svg(720, 330, o + text(10, 322, 'indexy 0…4 · ZF = začátek, KF = konec · KF = (KF + 1) % max zalamuje konec na začátek pole', 'sm mu'));
+  };
+
+  // 44) hash tabulka s kolizí
+  const hashDiagram = () => {
+    const m = 7, h = k => [...k].reduce((a, c) => a + c.charCodeAt(0) - 64, 0) % m;
+    const keys = ['NOVAK', 'SVOBODA', 'KRAL', 'HORAK', 'BLAHA', 'NEMEC'];
+    let o = text(10, 18, 'klíč k', 'sm mu') + text(250, 18, 'h(k) = (součet pořadí písmen) mod 7', 'c sm mu') + text(560, 18, 'tabulka (7 řádků)', 'c sm mu');
+    keys.forEach((k, i) => {
+      const y = 30 + i * 40, t = h(k), ty = 30 + t * 38;
+      o += box(10, y, 110, 30, k === 'KRAL' ? 'fW' : 'fE', k) + path(`M120,${y + 15} C250,${y + 15} 330,${ty + 17} 458,${ty + 17}`, k === 'KRAL' ? 'lW' : 'lA', 'end') +
+        text(270, y + 11 - (i % 2) * 0, 'h = ' + t, 'c sm mo mu');
+    });
+    for (let t = 0; t < m; t++) {
+      const owner = keys.filter(k => h(k) === t);
+      o += rect(460, 30 + t * 38, 220, 34, owner.length ? (owner.length > 1 ? 'fW' : 'fA') : 'pd') + text(672, 30 + t * 38 + 22, t, 'e sm mu mo') +
+        (owner.length ? text(570, 30 + t * 38 + 22, owner[0] + (owner.length > 1 ? '  ⚠' : ''), 'c bd sm') : text(570, 30 + t * 38 + 22, 'volno', 'c sm mu'));
+    }
+    return svg(720, 300, o + text(10, 292, 'NOVAK a KRAL: h = 0 pro oba → kolize (synonyma)', 'sm tW'));
+  };
+
+  // 25) klasické, proudové a superskalární zpracování 6 instrukcí
+  const pipelineDiagram = () => {
+    const ph = [['výběr', 'fA'], ['dekód. 1', 'fE'], ['dekód. 2', 'fW'], ['provedení', 'fD'], ['uložení', 'b']];
+    const cw = 20, x0 = 80, rh = 12;
+    let o = ph.map(([n, c], i) => rect(80 + i * 130, 6, 14, 14, c) + text(100 + i * 130, 18, n, 'sm')).join('');
+    const model = (title, y, start, total) => {
+      let g = text(10, y + 10, title, 'sm bd tA');
+      for (let i = 0; i < 6; i++) {
+        g += text(x0 - 6, y + 26 + i * (rh + 1) + 10, 'i' + (i + 1), 'e sm mu');
+        ph.forEach(([, c], p) => { g += rect(x0 + (start(i) + p) * cw, y + 26 + i * (rh + 1), cw - 1, rh, c); });
+      }
+      return g;
+    };
+    return svg(720, 372, o + model('klasicky: 6 · 5 = 30 cyklů', 36, i => 5 * i, 30) + model('pipeline: 6 + 4 = 10 cyklů', 150, i => i, 10) + model('superskalární (2 najednou): 3 + 4 = 7 cyklů', 264, i => i >> 1, 7));
+  };
+
+  return { soustavyMap, groupingDiagram, byteDiagram, setsDiagram, consequenceDiagram, textDiagram, utfDiagram, wheelDiagram, shiftDiagram, ieeeDiagram, cubeDiagram, hammingGrid, vnDiagram, cycleDiagram, addrDiagram, osLayersDiagram, deadlockDiagram, controlDiagram, maskDiagram, matrixDiagram, pointerDiagram, listDiagram, stackQueueDiagram, busDiagram, colorDiagram, topologyDiagram, lifecycleDiagram, multitaskDiagram, virtMemDiagram, semaphoreDiagram, complexityDiagram, modFlowDiagram, translateDiagram, tiersDiagram, arrayDiagram, setDiagram, recordDiagram, treeDiagram, graphDiagram, fileDiagram, dbmsDiagram, hddDiagram, opticalDiagram, lcdDiagram, laserDiagram, switchDiagram, wifiDiagram, ieeeSpecial, dminDiagram, cpuRegisters, instrFormat, zdrojeLanes, deadlockApproach, flowNodes, gpuBlocks, printerTypes, procStatesDiagram, recursionDiagram, circQueueDiagram, hashDiagram, pipelineDiagram };
 })();

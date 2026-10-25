@@ -23,7 +23,7 @@ registerTopic({
   ],
   sections: [
     { title: 'Pojem a druhy odpovědnosti', blocks: [
-      { t: 'def', term: 'Právní odpovědnost', x: 'Povinnost strpět <b>nepříznivý následek (sankci)</b> za porušení právní povinnosti. Může mít podobu <b>reparační</b> (náhrada, napravení stavu – soukromé právo) nebo <b>represivní</b> (trest, pokuta – veřejné právo).' },
+      { t: 'def', term: 'Právní odpovědnost', x: 'Povinnost strpět <b>nepříznivý následek (sankci)</b> za porušení právní povinnosti.', items: ['<b>reparační</b> podoba: náhrada, napravení stavu (soukromé právo)', '<b>represivní</b> podoba: trest, pokuta (veřejné právo)'] },
       { t: 'table', head: ['Hledisko', 'Soukromoprávní', 'Veřejnoprávní'], rows: [
         ['Hlavní předpis', 'občanský zákoník 89/2012 Sb. (§ 2894 an.), zákoník práce', 'přestupkový zákon 250/2016 Sb., trestní zákoník 40/2009 Sb., zvláštní zákony (správní delikty)'],
         ['Účel', 'reparace – odčinění újmy poškozeného', 'represe a prevence – trest za porušení veřejného pořádku'],
@@ -83,7 +83,7 @@ registerTopic({
         ['Kdy', 'obecné pravidlo (§ 2910 an.)', 'jen tam, kde to zákon stanoví'],
         ['Příklady', 'špatný šachový tah, dopravní nehoda z nepozornosti', 'zvlášť nebezpečný provoz, vada výrobku, zvíře, vada věci při úplatném plnění']
       ] },
-      { t: 'def', term: 'Liberace (zproštění odpovědnosti)', x: 'Možnost odpovědné osoby <b>zprostit se</b> povinnosti k náhradě prokázáním zákonných okolností. <b>Liberační důvody</b> se liší podle skutkové podstaty. U smluvní odpovědnosti (§ 2913) zprostí škůdce <b>mimořádná, nepředvídatelná a nepřekonatelná překážka vzniklá nezávisle na vůli</b> (vyšší moc – např. povodeň, válka).' },
+      { t: 'def', term: 'Liberace (zproštění odpovědnosti)', x: 'Možnost odpovědné osoby <b>zprostit se</b> povinnosti k náhradě prokázáním zákonných okolností.', items: ['<b>liberační důvody</b> se liší podle skutkové podstaty', 'u smluvní odpovědnosti (§ 2913) zprostí škůdce <b>mimořádná, nepředvídatelná a nepřekonatelná překážka vzniklá nezávisle na vůli</b>', 'příklad vyšší moci: povodeň, válka'] },
       { t: 'table', head: ['Zvláštní případ', 'Odpovědná osoba', 'Typ / zproštění'], rows: [
         ['<b>Provozní činnost</b> (§ 2924 an.)', 'provozovatel zvlášť nebezpečného provozu (doprava, energetika, těžba…)', 'objektivní; zprostí se jen prokáže-li, že škodu nebylo možné odvrátit ani při vynaložení veškerého úsilí, které lze požadovat'],
         ['<b>Zvíře</b> (§ 2933 an.)', 'chovatel (ne jen vlastník)', 'odpovědnost chovatele; zprostí se, prokáže-li, že vynaložil péči, kterou lze po něm požadovat (dohled řádného hospodáře)'],
@@ -115,7 +115,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Bezdůvodné obohacení (§ 2991 an.)', blocks: [
-      { t: 'def', term: 'Bezdůvodné obohacení', x: 'Kdo se <b>obohatí</b> majetkovým prospěchem <b>na úkor jiného</b> bez spravedlivého důvodu, musí obohacení vydat (§ 2991 odst. 1). Věřitelem je ochuzený, dlužníkem obohacený.' },
+      { t: 'def', term: 'Bezdůvodné obohacení', x: 'Kdo se <b>obohatí</b> majetkovým prospěchem <b>na úkor jiného</b> bez spravedlivého důvodu, musí obohacení vydat (§ 2991 odst. 1).', items: ['věřitelem je ochuzený', 'dlužníkem je obohacený'] },
       { t: 'p', x: 'Typické případy dle odst. 2 (příkladmo, <b>nejde o výčet uzavřený</b>):' },
       { t: 'table', head: ['Případ', 'Význam', 'Příklad'], rows: [
         ['Plnění <b>bez právního důvodu</b>', 'plnil bez dluhu', 'zaplatil fakturu dvakrát; omylem poslal peníze na jiný účet'],
@@ -141,7 +141,7 @@ registerTopic({
         ['<b>Disciplinární / kárný delikt</b>', 'členové profesí (komory), soudci, studenti VŠ', 'profesní/vnitřní předpisy', 'důtka, pokuta, vyloučení, vyškrtnutí'],
         ['<b>Odpovědnost státu</b> (82/1998 Sb.)', 'stát, územní samospráva', 'výkon veřejné moci', 'náhrada škody a nemajetkové újmy poškozenému (objektivní)']
       ] },
-      { t: 'def', term: 'Přestupek', x: '<b>Společensky škodlivý protiprávní čin</b>, který je v zákoně výslovně označen za přestupek a který vykazuje znaky stanovené zákonem (zák. 250/2016 Sb.). Projednává ho zpravidla <b>správní orgán</b> (obec, úřad), nikoli soud; trestný čin by projednával soud.' },
+      { t: 'def', term: 'Přestupek', x: '<b>Společensky škodlivý protiprávní čin</b>, který je v zákoně výslovně označen za přestupek a který vykazuje znaky stanovené zákonem (zák. 250/2016 Sb.).', items: ['projednává ho zpravidla <b>správní orgán</b> (obec, úřad), nikoli soud', 'trestný čin by projednával soud'] },
       { t: 'table', head: ['Hledisko', 'Trestný čin', 'Přestupek'], rows: [
         ['Společenská škodlivost', 'vyšší (musí jít o čin „společensky škodlivý“ + subsidiarita trestní represe)', 'nižší'],
         ['Orgán', 'policie – státní zástupce – soud', 'správní orgán (obecní úřad, policie – blokově)'],

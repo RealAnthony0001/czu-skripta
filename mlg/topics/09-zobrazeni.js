@@ -20,8 +20,8 @@ registerTopic({
   ],
   sections: [
     { title: 'Zobrazení', blocks: [
-      { t: 'def', term: 'Zobrazení z A do B', x: 'relace F na množinách A a B taková, že (∀x ∈ A)(∀y, z ∈ B) ((x, y) ∈ F ∧ (x, z) ∈ F ⇒ y = z). Obraz prvku x značíme F(x). Je-li navíc D(F) = A, mluvíme o zobrazení <b>A do B</b> (bez „z“). Zobrazení množiny A do ℝ se nazývá (reálná) <b>funkce</b>.' },
-      { t: 'svg', title: 'Typy zobrazení', x: MLG.zobrazeniTypy() },
+      { t: 'def', term: 'Zobrazení z A do B', x: 'Relace F na množinách A a B taková, že (∀x ∈ A)(∀y, z ∈ B) ((x, y) ∈ F ∧ (x, z) ∈ F ⇒ y = z).', items: ['obraz prvku x značíme F(x)', 'je-li navíc D(F) = A, mluvíme o zobrazení <b>A do B</b> (bez „z“)', 'zobrazení množiny A do ℝ se nazývá (reálná) <b>funkce</b>'] },
+      { t: 'svg', title: 'Typy zobrazení', x: MLG.zobrazeniTypy(), cap: 'Čtyři šipkové diagramy A → B: není zobrazení (a má dva obrazy), prosté (ne na), na (ne prosté) a bijekce (prosté i na – páry 1 : 1).' },
       { t: 'ex', x: '<b>Disponent účtu</b> (k D u ⇔ k je disponentem účtu u) <b>není zobrazení</b> – jeden klient může disponovat více účty.' },
       { t: 'grid', head: ['Relace (přednáška)', 'Zobrazení?', 'Proč'], rows: [
         ['{(x, y) | 2y = x} na ℤ', 'ano', 'y = x/2 je nejvýš jedno; obraz mají jen sudá x'],
@@ -57,7 +57,7 @@ registerTopic({
       ] }
     ] },
     { title: 'Inverzní relace a inverzní funkce', blocks: [
-      { t: 'def', term: 'Inverzní relace', x: 'R⁻¹ = {(y, x) ∈ B × A | (x, y) ∈ R}, tj. x R⁻¹ y ⇔ y R x. <b>Věta:</b> inverzní relace k zobrazení F je zobrazení, právě když je F prosté.' },
+      { t: 'def', term: 'Inverzní relace', x: 'R⁻¹ = {(y, x) ∈ B × A | (x, y) ∈ R}, tj. x R⁻¹ y ⇔ y R x.', items: ['<b>věta:</b> inverzní relace k zobrazení F je zobrazení, právě když je F prosté'] },
       { t: 'flow', title: 'Jak najít inverzní funkci', steps: [
         { h: 'Ověř, že f je prostá', x: 'jinak inverzní funkce neexistuje (jen inverzní relace)' },
         { h: 'Z rovnice y = f(x) vyjádři x', x: 'běžné algebraické úpravy, logaritmus místo mocniny apod.' },
@@ -77,8 +77,8 @@ registerTopic({
       { t: 'warn', x: 'U f(x) = 5 − √(x + 1) platí inverze x² − 10x + 24 jen pro x ≤ 5 (na oboru hodnot původní funkce) – mimo něj by nebyla prostá. Vždy uváděj D(f⁻¹) = H(f).' }
     ] },
     { title: 'Mohutnost množin', blocks: [
-      { t: 'def', term: 'Mohutnost', x: '|A| ≤ |B|, právě když existuje <b>prosté</b> zobrazení A do B; |A| = |B|, právě když existuje <b>bijekce</b> A na B. Mohutnost konečné množiny je počet jejích prvků.' },
-      { t: 'def', term: 'Spočetná množina', x: 'je konečná, nebo existuje bijekce f: ℕ → A. Nekonečné spočetné množiny jsou nejmenší nekonečné množiny – dají se seřadit do posloupnosti.' },
+      { t: 'def', term: 'Mohutnost', x: 'Porovnání velikosti množin pomocí zobrazení:', items: ['|A| ≤ |B|, právě když existuje <b>prosté</b> zobrazení A do B', '|A| = |B|, právě když existuje <b>bijekce</b> A na B', 'mohutnost konečné množiny je počet jejích prvků'] },
+      { t: 'def', term: 'Spočetná množina', x: 'Množina je konečná, nebo existuje bijekce f: ℕ → A.', items: ['nekonečné spočetné množiny jsou nejmenší nekonečné množiny', 'dají se seřadit do posloupnosti'] },
       { t: 'ul', items: [
         '|ℕ| = |ℤ| = |ℚ| – celá i racionální čísla jsou spočetná, i když se zdá, že jich je „víc“.',
         '<b>Cantorova věta:</b> pro každou množinu A platí |A| &lt; |P(A)|.',

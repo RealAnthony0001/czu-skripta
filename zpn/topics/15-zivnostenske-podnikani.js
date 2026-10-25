@@ -31,7 +31,7 @@ registerTopic({
       { t: 'tip', x: 'Zapamatuj: „podnikatel“ je pojem OZ (a ŽZ ho má užší – <b>živnostník</b>). Živnost = jen podmnožina podnikání.' }
     ] },
     { title: 'Živnost – pojem a znaky', blocks: [
-      { t: 'def', term: 'Živnost (§ 2 ŽZ)', x: 'Soustavná činnost provozovaná <b>samostatně</b>, <b>vlastním jménem</b>, <b>na vlastní odpovědnost</b>, <b>za účelem dosažení zisku</b> a za podmínek stanovených živnostenským zákonem.' },
+      { t: 'def', term: 'Živnost (§ 2 ŽZ)', x: 'Soustavná činnost provozovaná za podmínek stanovených živnostenským zákonem:', items: ['<b>samostatně</b>', '<b>vlastním jménem</b>', '<b>na vlastní odpovědnost</b>', '<b>za účelem dosažení zisku</b>'] },
       { t: 'table', head: ['Znak', 'Co znamená'], rows: [
         ['<b>Soustavnost</b>', 'Činnost je opakovaná, ne nahodilá. Jednorázový prodej osobního majetku není živnost.'],
         ['<b>Samostatnost</b>', 'Podnikatel není podřízen (nejde o závislou práci zaměstnance).'],
@@ -76,7 +76,7 @@ registerTopic({
         'Podnikatel musí <b>do 15 dnů</b> ohlásit změnu údajů uvedených v ohlášení (adresa, provozovna, rozsah).',
         'Navazující povinnosti: registrace u finančního úřadu (daň z příjmů, případně DPH), u správy sociálního zabezpečení a zdravotní pojišťovny (OSVČ).'
       ] },
-      { t: 'def', term: 'Provozovna (§ 17 ŽZ)', x: 'Prostor, kde se živnost provozuje (kde se trvale provozuje podnikatelská činnost – obchod, dílna, kancelář). Musí splňovat podmínky stanovené zvláštními předpisy (hygienické, stavební), musí být <b>řádně označena</b> (obchodní firma / jméno podnikatele, IČ, identifikace provozovny) a podnikatel ji musí oznámit živnostenskému úřadu.' },
+      { t: 'def', term: 'Provozovna (§ 17 ŽZ)', x: 'Prostor, kde se živnost provozuje (kde se trvale provozuje podnikatelská činnost – obchod, dílna, kancelář).', items: ['musí splňovat podmínky stanovené zvláštními předpisy (hygienické, stavební)', 'musí být <b>řádně označena</b> (obchodní firma / jméno podnikatele, IČ, identifikace provozovny)', 'podnikatel ji musí oznámit živnostenskému úřadu'] },
       { t: 'ul', items: [
         '<b>Živnostenský úřad:</b> obecní živnostenský úřad (v obcích s rozšířenou působností), registr živnostenský; dozoruje dodržování předpisů a ukládá pokuty.',
         '<b>Sídlo</b> podnikatele (FO: místo trvalého pobytu / místo podnikání; PO: sídlo v obchodním rejstříku) × <b>místo podnikání</b> × <b>provozovna</b> – nezaměňovat.',

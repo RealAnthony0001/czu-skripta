@@ -38,7 +38,7 @@ registerTopic({
       { t: 'ex', x: 'Pepa a Marie jsou svoji 8 měsíců, žijí odděleně 7 měsíců a mají dohodu o všem. Mohou se rozvést dohodou? Ne – manželství muselo trvat alespoň 1 rok. Zbývá rozvod sporem, který soud povolí, jen je-li manželství hluboce rozvráceno.' }
     ] },
     { title: 'Rodičovská odpovědnost a vyživovací povinnost', blocks: [
-      { t: 'def', term: 'Rodičovská odpovědnost (§ 865 an.)', x: 'Souhrn práv a povinností rodičů k nezletilému dítěti: <b>péče o dítě</b> (zdraví, výchova, vzdělání), <b>zastupování</b> dítěte, <b>správa jmění</b> dítěte. Vzniká narozením dítěte (rodičům), končí zletilostí (18 let) nebo uzavřením manželství. Vykonávají ji <b>oba rodiče</b>; i po rozvodu zůstává společná, ale soud určí, komu bude dítě svěřeno (do péče jednoho / střídavá péče).' },
+      { t: 'def', term: 'Rodičovská odpovědnost (§ 865 an.)', x: 'Souhrn práv a povinností rodičů k nezletilému dítěti:', items: ['<b>péče o dítě</b> (zdraví, výchova, vzdělání)', '<b>zastupování</b> dítěte', '<b>správa jmění</b> dítěte', 'vzniká narozením dítěte (rodičům), končí zletilostí (18 let) nebo uzavřením manželství', 'vykonávají ji <b>oba rodiče</b>; i po rozvodu zůstává společná, ale soud určí, komu bude dítě svěřeno (do péče jednoho / střídavá péče)'] },
       { t: 'table', head: ['Složka', 'Obsah'], rows: [
         ['Péče o dítě', 'zdraví, tělesný a duševní vývoj, výchova, vzdělání, bydlení'],
         ['Zastupování', 'právní jednání jménem dítěte; významné věci (nemovitost) – souhlas soudu'],
@@ -56,7 +56,7 @@ registerTopic({
       { t: 'ex', x: 'Rodiče se rozvedli, dítě je svěřeno matce. Otec platí výživné podle svých příjmů a potřeb dítěte (např. 5 000 Kč). Ztráta zaměstnání otce neznamená zánik povinnosti – soud výši může snížit.' }
     ] },
     { title: 'Společné jmění manželů (SJM)', blocks: [
-      { t: 'def', term: 'SJM (§ 708 an.)', x: 'Zákonný majetkový režim manželů: do SJM patří <b>vše, čeho nabyl kterýkoli z manželů za trvání manželství</b>, s výjimkami stanovenými zákonem; zahrnuje i dluhy. <b>Vzniká dnem uzavření manželství, zaniká zánikem manželství</b> (rozvod, smrt) – nebo dřív smlouvou, rozhodnutím soudu.' },
+      { t: 'def', term: 'SJM (§ 708 an.)', x: 'Zákonný majetkový režim manželů.', items: ['do SJM patří <b>vše, čeho nabyl kterýkoli z manželů za trvání manželství</b>, s výjimkami stanovenými zákonem; zahrnuje i dluhy', '<b>vzniká dnem uzavření manželství, zaniká zánikem manželství</b> (rozvod, smrt) – nebo dřív smlouvou, rozhodnutím soudu'] },
       { t: 'table', head: ['Patří do SJM', 'Nepatří do SJM (výlučný majetek)'], rows: [
         ['výdělek (mzda, odměna)', 'majetek <b>nabytý před sňatkem</b>'],
         ['<b>zisk z podnikání</b> kteréhokoli z manželů', 'věc nabytá <b>darem nebo děděním</b> (pokud dárce/zůstavitel nestanoví jinak)'],
@@ -82,7 +82,7 @@ registerTopic({
       { t: 'ex', x: 'Pepa koupil za trvání manželství pozemek za svůj plat. Patří do SJM (nabyl jej za trvání manželství z výdělku). Pokud by pozemek zdědil, patří jen jemu (výlučný majetek). Pokud ho chce prodat za 3 mil. Kč, potřebuje souhlas manželky (§ 714); bez něj může být prodej neplatný.' }
     ] },
     { title: 'Formy podnikání, veřejný rejstřík', blocks: [
-      { t: 'def', term: 'Podnikatel (§ 420 NOZ)', x: 'Ten, kdo <b>samostatně</b> vykonává na <b>vlastní účet a odpovědnost</b> výdělečnou činnost <b>živností nebo obdobným způsobem</b> <b>se záměrem činit tak soustavně</b> za účelem dosažení zisku. Zápis do obchodního rejstříku není pro podnikatele-fyzickou osobu povinný (jen živnostenský rejstřík).' },
+      { t: 'def', term: 'Podnikatel (§ 420 NOZ)', x: 'Ten, kdo <b>samostatně</b> vykonává na <b>vlastní účet a odpovědnost</b> výdělečnou činnost <b>živností nebo obdobným způsobem</b> <b>se záměrem činit tak soustavně</b> za účelem dosažení zisku.', items: ['zápis do obchodního rejstříku není pro podnikatele-fyzickou osobu povinný (jen živnostenský rejstřík)'] },
       { t: 'table', head: ['Forma', 'Právní osobnost', 'Vznik', 'Základní kapitál / vklad', 'Ručení', 'Orgány'], rows: [
         ['<b>OSVČ</b> (živnostník, FO)', 'FO (bez PO)', 'ohlášením / koncesí – Živnostenský úřad (zák. 455/1991 Sb.): věk 18, svéprávnost, bezúhonnost, odborná způsobilost', 'žádný', '<b>neomezeně celým majetkem</b> (včetně SJM)', '—'],
         ['<b>Veřejná obchodní společnost</b> (v.o.s.)', 'PO', 'zápis do OR (min. 2 společníci)', 'žádný', 'společníci <b>neomezeně, společně a nerozdílně</b>', 'všichni společníci (statutární orgán)'],
@@ -111,7 +111,7 @@ registerTopic({
         ['Podnikání bez souhlasu', 'za podnikání jednoho odpovídá SJM, ledaže smlouva o zúžení / soud rozhodl jinak'],
         ['Manžel pomáhá v podniku', 'jako <b>zaměstnanec</b> (pracovní poměr / DPP), jako spolupracovník, nebo společník; nelze mlčky předpokládat zdarma']
       ] },
-      { t: 'def', term: 'Rodinný podnik', x: 'Podnik, ve kterém <b>rozhodující vliv (kapitál, řízení) drží rodina</b>. České právo pro něj nezná zvláštní právní formu; využívá se OSVČ, v.o.s., s.r.o. i a.s. Typické otázky: <b>nástupnictví</b> (převod na děti, dědictví), <b>spolupráce rodinných příslušníků</b> (pracovní smlouva / dohoda / společník), <b>majetkové vyrovnání</b> (SJM, dědické podíly), <b>ochrana majetku rodiny</b> (zúžení SJM, svěřenský fond, podíly).' },
+      { t: 'def', term: 'Rodinný podnik', x: 'Podnik, ve kterém <b>rozhodující vliv (kapitál, řízení) drží rodina</b>.', items: ['české právo pro něj nezná zvláštní právní formu; využívá se OSVČ, v.o.s., s.r.o. i a.s.', 'typické otázky: <b>nástupnictví</b> (převod na děti, dědictví)', '<b>spolupráce rodinných příslušníků</b> (pracovní smlouva / dohoda / společník)', '<b>majetkové vyrovnání</b> (SJM, dědické podíly)', '<b>ochrana majetku rodiny</b> (zúžení SJM, svěřenský fond, podíly)'] },
       { t: 'table', head: ['Výhody rodinného podniku', 'Rizika'], rows: [
         ['dlouhodobá orientace, důvěra, rychlé rozhodování, flexibilita', 'smíšení rodinných a firemních záležitostí (spory)'],
         ['nízké náklady (pracovní síla v rodině)', 'problém nástupnictví a dědických sporů'],

@@ -35,7 +35,7 @@ registerTopic({
       { t: 'p', x: 'Stavy 1 / 0 se technicky snadno realizují: úrovně napětí, směr magnetických oblastí, odraz a pohlcení světla.' }
     ] },
     { title: 'Jednotky: bit, byte, půlbyte', blocks: [
-      { t: 'svg', title: 'Bit, půlbyte a byte', x: UPP.byteDiagram() },
+      { t: 'svg', title: 'Bit, půlbyte a byte', x: UPP.byteDiagram(), cap: '1 byte = 8 bitů = 256 stavů; dělí se na dva půlbyty po čtyřech bitech a každý půlbyte odpovídá jedné hexadecimální cifře (0100 0001 = 41₁₆).' },
       { t: 'table', head: ['Jednotka', 'Značka', 'Velikost', 'Poznámka'], rows: [
         ['bit (binary digit)', 'b', '1 bit', 'ANO/NE, 1/0; dále nedělitelný; používá se hlavně u přenosu dat (rychlost sítě v b/s)'],
         ['půlbyte', '–', '4 bity = 16 stavů', '1 šestnáctková cifra'],
@@ -55,7 +55,7 @@ registerTopic({
       { t: 'ex', x: '1 MB = 1 048 576 B = 8 388 608 b. Hexadecimální výpis paměti zobrazuje každý bajt jako dvojici hex cifer (např. <code>4F 4B</code>).' }
     ] },
     { title: 'Kódování a dekódování', blocks: [
-      { t: 'def', term: 'Kód', x: 'Prosté (vzájemně jednoznačné) zobrazení množiny kódovaných objektů {x<sub>i</sub>} do množiny kódových slov {x′<sub>i</sub> = k(x<sub>i</sub>)}, kde kódová slova jsou binární řetězce. Mají-li délku n, lze vytvořit 2<sup>n</sup> různých kódových slov.' },
+      { t: 'def', term: 'Kód', x: 'Prosté (vzájemně jednoznačné) zobrazení množiny kódovaných objektů {x<sub>i</sub>} do množiny kódových slov {x′<sub>i</sub> = k(x<sub>i</sub>)}.', items: ['kódová slova jsou <b>binární řetězce</b>', 'mají-li délku n, lze vytvořit <b>2<sup>n</sup></b> různých kódových slov'] },
       { t: 'flow', title: 'Cesta dat', steps: [
         { h: 'Objekt', x: 'číslo, znak, barva, logická hodnota' },
         { h: 'Kódování', x: 'kód k přiřadí kódové slovo' },
