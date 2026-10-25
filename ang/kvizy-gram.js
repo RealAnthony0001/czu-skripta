@@ -147,3 +147,159 @@ KVIZ['past-continuous'] = [
   { q: 'Past continuous se tvoří:', o: ['was / were + -ing', 'had + -ed', 'am / is / are + -ing'], a: 0, why: 'Stejné jako present continuous, jen be je v minulém čase.' },
   { q: 'Co v příběhu popisuje past continuous?', o: ['krátkou hlavní událost', 'pozadí a děj v průběhu', 'budoucí plán'], a: 1, why: 'Past continuous je scenérie, past simple je to, co se v ní stane.' }
 ];
+
+KVIZ['past-tenses'] = [
+  { q: 'I ____ the film a few days ago.', o: ['saw', 'seen', 'was seeing'], a: 0, why: 'Ukončený děj v minulosti = past simple; see má tvar saw.' },
+  { q: 'We didn’t ____ the question.', o: ['understood', 'understand', 'understanding'], a: 1, why: 'Po didn’t následuje základní tvar.' },
+  { q: 'When ____ he win a gold medal?', o: ['was', 'did', 'had'], a: 1, why: 'Otázka v past simple: tázací slovo + did + podmět + základní tvar.' },
+  { q: 'Steve ____ 30 when he got fired.', hint: 'oslavil třicítku dřív, než ho vyhodili', o: ['turned', 'had turned', 'was turning'], a: 1, why: 'Dřívější děj než jiný děj v minulosti = past perfect (had + past participle).' },
+  { q: 'The film ____ already started when we arrived.', o: ['has', 'had', 'was'], a: 1, why: 'Past perfect: had + past participle.' },
+  { q: 'She ____ set up her own company by the age of 19.', o: ['has', 'had', 'did'], a: 1, why: 'Výrazy by the age of / by the time se pojí s past perfect.' },
+  { q: 'Had she recognized him from TV? – ____', o: ['Yes, she had.', 'Yes, she did.', 'Yes, she has.'], a: 0, why: 'Krátká odpověď opakuje had.' },
+  { q: 'Jak se vyslovuje koncovka -ed ve slově washed?', o: ['/d/', '/t/', '/ɪd/'], a: 1, why: 'Po neznělé hlásce (sh) se čte /t/.' },
+  { q: 'Jak se vyslovuje koncovka -ed ve slově wanted?', o: ['/t/', '/d/', '/ɪd/'], a: 2, why: 'Po /t/ a /d/ přibývá slabika /ɪd/ (want = 1 slabika, wanted = 2).' },
+  { q: 'Jak se vyslovuje koncovka -ed ve slově cleaned?', o: ['/d/', '/t/', '/ɪd/'], a: 0, why: 'Po znělé hlásce (n) se čte /d/.' }
+];
+
+KVIZ['zero-first-conditional'] = [
+  { q: 'If I go shopping, I ____ recyclable plastic bags.', hint: 'obecně platí', o: ['will use', 'use', 'would use'], a: 1, why: 'Zero conditional: present simple + present simple.' },
+  { q: 'If you cycle to work, it ____ you money.', hint: 'možnost v budoucnosti', o: ['saves', 'will save', 'would save'], a: 1, why: 'First conditional: if + present simple, will + základní tvar.' },
+  { q: 'If it ____, I’ll stay at home.', o: ['will rain', 'rains', 'would rain'], a: 1, why: 'Ve větě s if nestojí will, ale present simple.' },
+  { q: 'I’ll take the job ____ I get a better offer.', o: ['if', 'unless', 'when'], a: 1, why: 'unless = pokud ne (if … not).' },
+  { q: 'V zero conditional lze místo if použít:', o: ['when / whenever', 'would', 'had'], a: 0, why: 'Employees tend to be happier if / when they are able to contribute their ideas.' },
+  { q: 'Stojí-li if-clause na začátku věty, mezi obě části:', o: ['píšeme čárku', 'čárku nepíšeme', 'píšeme středník'], a: 0, why: 'If you do some exercise, you’ll feel better. Na konci věty se čárka nepíše.' },
+  { q: 'If the price is too high, she ____ buy it.', o: ['doesn’t', 'won’t', 'wouldn’t'], a: 1, why: 'First conditional: záporná hlavní věta s won’t.' },
+  { q: 'Který výraz místo will použijeme, když dáváme radu?', o: ['should / need to / have to', 'would / could', 'did / does'], a: 0, why: 'Např. If you use a lot of electricity, you should consider using renewable sources.' },
+  { q: 'If you replace your old light bulbs, it ____ reduce your electricity bills.', hint: 'jen možný výsledek', o: ['can', 'did', 'is'], a: 0, why: 'Místo will lze použít may / might / can / could.' },
+  { q: 'If you cycle to work, it’ll save you money. Jaký je to kondicionál?', o: ['zero', 'first', 'second'], a: 1, why: 'Present simple + will = první kondicionál (konkrétní možnost v budoucnosti).' }
+];
+
+KVIZ['second-conditional'] = [
+  { q: 'If I ____ the time, I’d have a long holiday.', o: ['had', 'have', 'would have'], a: 0, why: 'Second conditional: if + past simple, would + základní tvar.' },
+  { q: 'If I ____ the mayor, I would ban cars in the city centre.', hint: 'formální angličtina', o: ['am', 'were', 'would be'], a: 1, why: 'Ve formální angličtině je ve všech osobách were.' },
+  { q: 'If we had enough money, we ____ go on a cruise.', o: ['will', 'would', 'had'], a: 1, why: 'Hlavní věta: would + základní tvar.' },
+  { q: 'If we have enough money, we ____ go on a cruise.', hint: 'pravděpodobné', o: ['’ll', '’d', 'would have'], a: 0, why: 'Pravděpodobná situace = first conditional (will).' },
+  { q: 'If you cycled to work, you ____ get fit.', hint: 'možnost', o: ['might', 'will', 'had'], a: 0, why: 'Místo would lze použít could / might.' },
+  { q: 'If you wanted to be eco-friendly, you ____ stop using plastic bags.', o: ['could', 'did', 'should have'], a: 0, why: 'could vyjadřuje možnost.' },
+  { q: 'Past simple v if-clause druhého kondicionálu označuje:', o: ['minulost', 'nereálnost', 'budoucnost'], a: 1, why: 'If I had the time mluví o dnešku a o nereálné situaci, ne o minulosti.' },
+  { q: 'Která věta je správně?', o: ['If I would have time, I’d travel.', 'If I had time, I’d travel.', 'If I have time, I’d travel.'], a: 1, why: 'Would nepatří do if-clause; po if stojí past simple.' },
+  { q: 'V mluvené angličtině se would často stahuje na:', o: ['’d', '’s', '’ll'], a: 0, why: 'If I were in your situation, I’d resign.' },
+  { q: 'Mluvčí věří, že na plavbu nejspíš nebudou peníze. Řekne:', o: ['If we have enough money, we’ll go on a cruise.', 'If we had enough money, we’d go on a cruise.'], a: 1, why: 'Nepravděpodobné = second conditional.' }
+];
+
+KVIZ['passive-forms'] = [
+  { q: 'A billion text messages ____ each day.', o: ['send', 'are sent', 'sent'], a: 1, why: 'Present simple trpný rod: am / is / are + past participle.' },
+  { q: 'The first cellphone call ____ by Dr Martin Cooper in 1973.', o: ['made', 'was made', 'is made'], a: 1, why: 'Past simple trpný rod: was / were + past participle; původce s by.' },
+  { q: 'The goods weren’t ____ on time.', o: ['deliver', 'delivered', 'delivering'], a: 1, why: 'Po be následuje past participle.' },
+  { q: 'Her new film ____ released.', hint: 'present perfect', o: ['is', 'has been', 'was being'], a: 1, why: 'Present perfect trpný rod: has / have been + past participle.' },
+  { q: 'The film ____ be shown all over the country.', hint: 'budoucnost', o: ['will', 'is', 'has'], a: 0, why: 'Budoucnost: will be + past participle.' },
+  { q: 'It cannot ____ done in two weeks.', o: ['be', 'been', 'being'], a: 0, why: 'Modální sloveso + be + past participle.' },
+  { q: 'The book ____ being made into a film.', hint: 'present continuous', o: ['is', 'was', 'has'], a: 0, why: 'Present continuous trpný rod: am / is / are being + past participle.' },
+  { q: 'Kterou předložkou uvedeš původce děje?', o: ['of', 'by', 'with'], a: 1, why: 'The book was written by Jhumpa Lahiri. (Materiál je of: made of gold.)' },
+  { q: 'It isn’t made ____ gold.', o: ['by', 'of', 'to'], a: 1, why: 'Materiál = of.' },
+  { q: 'Trpný rod použiješ, když:', o: ['nás zajímá děj a ne původce', 'chceme zdůraznit, kdo děj dělá', 'mluvíme jen o budoucnosti'], a: 0, why: 'Také když nevíme, kdo děj udělal.' }
+];
+
+KVIZ['active-or-passive'] = [
+  { q: 'Která věta zní formálněji?', o: ['Privacy is threatened.', 'Social networking sites threaten our privacy.'], a: 0, why: 'Trpný rod zní formálněji a neosobně.' },
+  { q: 'Která věta zní méně formálně?', o: ['Private information could be used without permission.', 'Anyone could use this private information without permission.'], a: 1, why: 'Činný rod je přímější a neformálnější.' },
+  { q: 'Nevíme (nebo nechceme říct), kdo smazal soubor. Který rod zvolíme?', o: ['činný', 'trpný', 'oba stejně'], a: 1, why: 'I’m afraid the file has been accidentally deleted.' },
+  { q: 'Který rod je typičtější pro textovky, poznámky, reklamy a příběhy?', o: ['činný', 'trpný'], a: 0, why: 'Činný rod zní neformálněji.' },
+  { q: 'Trpný rod je častější:', o: ['v psané angličtině', 'v mluvené angličtině'], a: 0, why: 'V mluvě se používá méně.' },
+  { q: 'Který rod se hodí do návodů a výzkumných prací?', o: ['trpný', 'činný'], a: 0, why: 'Trpný rod zní formálněji.' },
+  { q: 'A rescue team rescued two backpackers. → Two backpackers ____ in the Italian Alps yesterday.', o: ['were rescued', 'rescued', 'have rescued'], a: 0, why: 'Past simple trpný rod; původce (rescue team) se vynechal.' },
+  { q: 'Researchers have developed Saya. → Saya has ____ developed by researchers.', o: ['be', 'been', 'being'], a: 1, why: 'Present perfect trpný rod: has been + past participle.' },
+  { q: 'Someone has trained our employees. → Our employees ____ trained.', o: ['have been', 'are', 'were being'], a: 0, why: 'Present perfect trpný rod, podmět v množném čísle: have been trained.' },
+  { q: 'Then repeat step 2. → Step 2 of the process is then ____.', o: ['repeat', 'repeated', 'repeating'], a: 1, why: 'is + past participle.' }
+];
+
+KVIZ['third-conditional'] = [
+  { q: 'If he ____ more money, he’d have bought the house.', o: ['had', 'had had', 'would have had'], a: 1, why: 'If + past perfect: he had had (zkráceně he’d had).' },
+  { q: 'If you’d asked me, I ____ helped you.', o: ['would have', 'will have', 'would'], a: 0, why: 'Hlavní věta: would have + past participle.' },
+  { q: 'If she ____ fallen, she would have won the race.', o: ['hadn’t', 'didn’t', 'wouldn’t'], a: 0, why: 'Záporný past perfect: hadn’t + past participle.' },
+  { q: 'She ____ lost the race if she hadn’t fallen.', o: ['wouldn’t have', 'didn’t have', 'won’t have'], a: 0, why: 'Záporná hlavní věta: wouldn’t have + past participle.' },
+  { q: 'Správná otázka ve třetím kondicionálu:', o: ['Would you have got the job if you hadn’t lied?', 'Did you would have got the job if you hadn’t lied?', 'Would have you got the job if you hadn’t lied?'], a: 0, why: 'Změníme pořadí would a podmětu.' },
+  { q: 'He ____ come to me if he needed money.', hint: 'kritika', o: ['should have', 'would to', 'shall'], a: 0, why: 'Kritiku minulých činů vyjádříme pomocí should have + past participle.' },
+  { q: 'Třetí kondicionál mluví o:', o: ['jiné minulosti, než jaká byla', 'možnosti v budoucnosti', 'obecných pravdách'], a: 0, why: 'Představujeme si jinou minulost, než jaká byla ve skutečnosti.' },
+  { q: 'Ve tvaru he’d had znamená ’d:', o: ['would', 'had', 'did'], a: 1, why: 'he’d had = he had had.' },
+  { q: 'Ve tvaru he’d have bought znamená ’d:', o: ['had', 'would', 'did'], a: 1, why: 'he’d have bought = he would have bought.' },
+  { q: 'Která věta je správně?', o: ['If he would have had money, he’d have bought it.', 'If he had had money, he would have bought it.', 'If he had money, he would have bought it.'], a: 1, why: 'If-clause: past perfect, hlavní věta: would have + past participle.' }
+];
+
+KVIZ['should-have'] = [
+  { q: 'I guess I ____ another year before buying the house.', hint: 'lítost', o: ['should wait', 'should have waited', 'should have wait'], a: 1, why: 'Lítost nad minulostí: should have + past participle.' },
+  { q: 'Some of my friends say I ____ him the money.', hint: 'kritika', o: ['shouldn’t have lent', 'shouldn’t lend', 'wouldn’t lent'], a: 0, why: 'shouldn’t have + past participle = neměl jsem to dělat.' },
+  { q: 'Maybe Dan ____ borrowed a smaller amount.', o: ['should have', 'should had', 'should be'], a: 0, why: 'should have + past participle (borrowed).' },
+  { q: 'Dan ____ asked his friend for so much money.', hint: 'neměl to dělat', o: ['should have', 'shouldn’t have', 'mustn’t'], a: 1, why: 'Co udělal, ale neměl = shouldn’t have.' },
+  { q: 'I shouldn’t have ____ a Sociology degree.', o: ['do', 'did', 'done'], a: 2, why: 'Po have následuje past participle (done).' },
+  { q: 'Co vyjadřuje věta I should have waited?', o: ['lítost nad vlastním jednáním', 'kritiku jiného člověka', 'budoucí plán'], a: 0, why: 'O sobě = lítost; o druhých = kritika.' },
+  { q: 'Co vyjadřuje věta He should have come to me?', o: ['lítost', 'kritiku', 'radu do budoucna'], a: 1, why: 'Mluvíme o někom jiném a o minulosti – kritika.' },
+  { q: 'Které výrazy použijeme, když si nejsme jisti?', o: ['perhaps, maybe, I guess, I suppose', 'always, never, often', 'tomorrow, yesterday'], a: 0, why: 'Zjemňují tvrzení.' },
+  { q: 'Která věta míří do minulosti?', o: ['He should come to me.', 'He should have come to me.'], a: 1, why: 'Bez have se should vztahuje na přítomnost / budoucnost.' },
+  { q: 'Stavbu should have + past participle má stejně:', o: ['third conditional', 'zero conditional', 'present perfect continuous'], a: 0, why: 'Modální sloveso + have + past participle.' }
+];
+
+KVIZ['relative-pronouns'] = [
+  { q: 'That’s the woman ____ took the photographs at my wedding.', o: ['who', 'which', 'where'], a: 0, why: 'Pro osoby: who / that.' },
+  { q: 'This is the café ____ we first met.', o: ['which', 'where', 'whose'], a: 1, why: 'Pro místa: where.' },
+  { q: 'It’s a kind of team-building activity ____ you do with ropes.', o: ['who', 'where', 'which'], a: 2, why: 'Pro věci: which / that.' },
+  { q: 'That’s the man ____ wife is a multi-millionaire.', o: ['who’s', 'whose', 'which'], a: 1, why: 'Přivlastnění (jehož) = whose.' },
+  { q: '____ been drinking coffee at my desk?', o: ['Whose', 'Who’s', 'Who'], a: 1, why: 'Who’s = who has.' },
+  { q: 'Sandra, ____ is as old as me, is having a birthday party on Saturday.', o: ['that', 'who', 'which'], a: 1, why: 'V doplňující větě (s čárkami) nelze that.' },
+  { q: 'New Zealand, ____ has spectacular scenery, is great for outdoor sports.', o: ['that', 'which', 'whose'], a: 1, why: 'Non-defining clause: which, ne that.' },
+  { q: 'Doplňující (non-defining) vztažná věta se píše:', o: ['bez čárek', 's čárkami'], a: 1, why: 'Jen dodává informaci navíc, proto je v čárkách.' },
+  { q: 'That’s the girl they’ve just recruited. Zájmeno who / that:', o: ['lze vynechat – vztažná věta má jiný podmět (they)', 'nelze vynechat'], a: 0, why: 'Před novým podmětem lze zájmeno vynechat.' },
+  { q: 'It’s a national dish ____ is made with seafood and rice.', hint: 'zájmeno je podmětem vztažné věty', o: ['– (vynecháme)', 'that', 'where'], a: 1, why: 'Po zájmenu následuje sloveso, takže je podmětem a musí zůstat.' }
+];
+
+KVIZ['present-perfect-continuous'] = [
+  { q: 'He ____ living here since 2008.', o: ['has been', 'is', 'have been'], a: 0, why: 'He / she / it + has been + -ing.' },
+  { q: 'We ____ living here for three years.', o: ['has been', 'have been', 'are been'], a: 1, why: 'I / you / we / they + have been + -ing.' },
+  { q: 'How long have you been ____ to play the piano?', o: ['learn', 'learning', 'learned'], a: 1, why: 'Present perfect continuous: have been + -ing.' },
+  { q: 'You’re out of breath. You’ve been ____, haven’t you?', hint: 'vysvětlení současného důsledku', o: ['run', 'running', 'ran'], a: 1, why: 'Continuous vysvětluje důsledek činnosti.' },
+  { q: 'I have ____ my flat for ten years now.', hint: 'stavové sloveso', o: ['been having', 'had', 'have'], a: 1, why: 'Se stavovými slovesy se obvykle používá present perfect simple.' },
+  { q: 'We have ____ each other since we were at primary school.', o: ['known', 'been knowing', 'knew'], a: 0, why: 'know je stavové sloveso → present perfect simple.' },
+  { q: 'Která věta má příslovce just na správném místě?', o: ['I’ve just been talking to the supplier.', 'I just’ve been talking to the supplier.'], a: 0, why: 'Just stojí mezi pomocným a významovým slovesem.' },
+  { q: 'I’ve been travelling a lot for work ____.', o: ['lately', 'yesterday', 'tomorrow'], a: 0, why: 'Lately / recently stojí obvykle na začátku nebo na konci věty.' },
+  { q: 'We’ve been packing all morning. Co to naznačuje?', o: ['že balení asi není dokončené', 'že balení je hotovo', 'že jde o životní zkušenost'], a: 0, why: 'Continuous zdůrazňuje činnost, která trvá.' },
+  { q: 'We’ve ____ some new furniture.', hint: 'hotová věc', o: ['been buying', 'bought', 'buying'], a: 1, why: 'Dokončený výsledek = present perfect simple.' }
+];
+
+KVIZ['reported-speech'] = [
+  { q: '“I’m arriving in LA on Thursday.” → She said she ____ in LA on Thursday.', o: ['is arriving', 'was arriving', 'will arrive'], a: 1, why: 'Čas se posouvá o krok zpět.' },
+  { q: '“We’ll do it.” → They said they ____ do it.', o: ['will', 'would', 'can'], a: 1, why: 'will → would.' },
+  { q: '“I can’t start until Monday.” → He said he ____ start until Monday.', o: ['couldn’t', 'can’t', 'wouldn’t'], a: 0, why: 'can’t → couldn’t.' },
+  { q: '“I must call them.” → She said she ____ call them.', o: ['must', 'had to', 'has to'], a: 1, why: 'must / have to → had to.' },
+  { q: '“I’ll fix it tomorrow.” → She told me she would fix it ____.', o: ['tomorrow', 'the following day', 'the day before'], a: 1, why: 'tomorrow → the following day.' },
+  { q: '“I called yesterday.” → He said he had called ____.', o: ['the day before', 'the following day', 'next week'], a: 0, why: 'yesterday → the day before.' },
+  { q: 'She ____ me she was arriving in LA on Thursday.', o: ['said', 'told'], a: 1, why: 'Po tell následuje osoba; say se zájmenem nepoužíváme.' },
+  { q: 'Která modální slovesa se v nepřímé řeči nemění?', o: ['might, would, should', 'will, can, must', 'can, will'], a: 0, why: 'Might, would a should zůstávají.' },
+  { q: '“Hollywood is the home of the stars.” → He says Hollywood ____ the home of the stars.', hint: 'stále platný fakt', o: ['was', 'is', 'had been'], a: 1, why: 'U faktů a stále platných věcí se čas nemění.' },
+  { q: 'The customer asked me ____ again.', hint: 'negativní požadavek', o: ['not to call', 'to not calling', 'don’t call'], a: 0, why: 'Negativní požadavky: not to + sloveso.' }
+];
+
+KVIZ['embedded-questions'] = [
+  { q: 'Could you tell me where ____?', o: ['do they live', 'they live', 'they lives'], a: 1, why: 'Nepřímá otázka má běžný slovosled a bez do.' },
+  { q: 'Do you know what time the film ____?', o: ['does start', 'starts', 'start does'], a: 1, why: 'Bez do / does; sloveso nese -s ve 3. osobě.' },
+  { q: 'Do you know ____ they’re planning to get married?', hint: 'otázka ano / ne', o: ['if', 'what', 'do'], a: 0, why: 'Bez tázacího slova použijeme if.' },
+  { q: 'I’d like to know what you ____ of the film.', hint: 'What did you think of the film?', o: ['think', 'thought', 'do think'], a: 1, why: 'Z did think se stane thought – pomocné did zmizí.' },
+  { q: 'Která věta je nepřímá (vnořená) otázka?', o: ['Where do they live?', 'Could you tell me where they live?', 'Where they live?'], a: 1, why: 'Úvodní fráze + tázací slovo + běžný slovosled.' },
+  { q: 'Do you know if ____?', o: ['the concert has been cancelled', 'has the concert been cancelled', 'did the concert cancel'], a: 0, why: 'Slovosled jako v oznamovací větě.' },
+  { q: 'Po jedné nebo dvou nepřímých otázkách obvykle:', o: ['přejdeme na přímé otázky', 'pokračujeme jen nepřímými', 'přestaneme se ptát'], a: 0, why: 'So, how many guests are coming? – přímá otázka.' },
+  { q: 'K čemu slouží Did you say 15 or 50?', o: ['ověřujeme, co jsme slyšeli', 'vyjadřujeme budoucí plán', 'ptáme se na názor'], a: 0, why: 'Did you say…? / Are you saying…? ověřuje porozumění.' },
+  { q: 'Are you saying they haven’t separated? – co vyjadřuje?', o: ['překvapení, „nevěřím ti“', 'prosbu', 'zdvořilé poděkování'], a: 0, why: 'Takové otázky mohou být i výzvou.' },
+  { q: 'Proč používáme nepřímé otázky?', o: ['zní zdvořileji než přímé', 'jsou kratší', 'jsou povinné ve formální angličtině'], a: 0, why: 'Jsou to zdvořilejší způsob, jak se zeptat.' }
+];
+
+KVIZ['irregular-verbs'] = [
+  { q: 'go – went – ____', o: ['gone', 'went', 'goed'], a: 0, why: 'Past participle slovesa go je gone (nebo been).' },
+  { q: 'Past simple slovesa buy:', o: ['buyed', 'bought', 'boughten'], a: 1, why: 'buy – bought – bought.' },
+  { q: 'Past participle slovesa write:', o: ['wrote', 'written', 'writed'], a: 1, why: 'write – wrote – written.' },
+  { q: 'Které sloveso má všechny tři tvary stejné?', o: ['go', 'come', 'put'], a: 2, why: 'put – put – put (stejně cut, hit, let, set, shut).' },
+  { q: 'Které sloveso má vzorec A–B–A (základní tvar = příčestí)?', o: ['come – came – come', 'bring – brought – brought', 'beat – beat – beaten'], a: 0, why: 'come – came – come (stejně run – ran – run).' },
+  { q: 'Jaký vzorec má beat – beat – beaten?', o: ['A–A–A', 'A–A–B', 'A–B–C'], a: 1, why: 'Základní tvar = past simple, příčestí se liší.' },
+  { q: 'Americká angličtina má příčestí slovesa get:', o: ['got', 'gotten', 'getten'], a: 1, why: 'BrE got, AmE gotten.' },
+  { q: 'Jak se vyslovuje read v past simple?', o: ['/riːd/', '/red/'], a: 1, why: 'Základní tvar /riːd/, past simple i příčestí /red/.' },
+  { q: 'Která věta je správně?', o: ['I have went home.', 'I have gone home.', 'I have go home.'], a: 1, why: 'V present perfect je příčestí (gone), ne past simple (went).' },
+  { q: 'Past simple a past participle slovesa bring:', o: ['brought – brought', 'brang – brung', 'brought – broughten'], a: 0, why: 'bring – brought – brought.' }
+];

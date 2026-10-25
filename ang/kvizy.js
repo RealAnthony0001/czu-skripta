@@ -7,7 +7,7 @@ window.KVIZ = {};
     const items = KVIZ[t.id];
     if (items) {
       const w = t.sections.flatMap(s => s.blocks).find(b => b.name === 'kviz');
-      if (w) w.items.push(...items);
+      if (w) { w.sol = (w.sol || '') + ' ' + items.map((it, i) => `${w.items.length + i + 1}. <b>${it.o[it.a]}</b> – ${it.why}`).join(' '); w.items.push(...items); }
       else t.sections.push({ title: 'Otestuj se', blocks: [{ t: 'widget', name: 'kviz', title: 'Zkus si: kvíz k tématu', how: ['Vyber odpověď – hned se ukáže, zda je správná, a proč.', 'Šipkami ◀ ▶ přecházíš mezi otázkami; poslední stránka ukazuje skóre.', 'Otázky vycházejí z příkladů a pravidel v tomto tématu.'], items }] });
     }
     reg(t);
