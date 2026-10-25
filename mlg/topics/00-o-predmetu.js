@@ -83,7 +83,6 @@ registerTopic({
         ['P11', 'Konečné automaty a regulární jazyky', '6'],
         ['P12', 'Minimalizace automatů', '6']
       ] },
-      { t: 'warn', x: 'Podklady přednášky nečíslují. Čísla P1–P12 jsou <b>odvozená z pořadí látky</b> (návaznost handoutů a slajdů, číslování cvičení 1–6 a termíny testů: logika + množiny v listopadu, grafy v prosinci, automaty až v dodatečném testu). Pokud se rozvrh liší, oprav pole <code>lec</code> v tématech.' }
     ] }
   ],
   mistakes: [
