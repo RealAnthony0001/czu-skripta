@@ -1,0 +1,253 @@
+=== SLIDE 1 ===
+
+
+studijní obory: INFO/HKS/SYI
+
+Jana Horáková
+katedra řízení
+horakova@pef.czu.cz
+E476
+Teorie řízení organizačních systémů/ Základy řízení
+
+=== SLIDE 2 ===
+
+POŽADAVKY K ZÁPOČTU a ke zkoušce
+
+aktivní účast na seminářích
+absolvování seminárních testů
+závěrečná zkouška: písemná (test) a ústní(diskuse)
+studium jak doporučované, tak i  literatury dle vlastního výběru v rámci probíraných témat (www.bookport.cz, www.sic.czu.cz, www.techlib.cz)  
+
+style.visibilitystyle.visibilitystyle.visibilitystyle.visibility
+=== SLIDE 3 ===
+
+Otázky pro vlastní inspiraci
+Máte nějakou dosavadní zkušenost s významem slova management? Co je to řízení?
+Kdybyste se stali v budoucnu manažery, co by vám na tom připadalo nejsložitější a nejobtížnější? Proč řízení není ovládání?
+Znáte někoho, ať už z literatury, médií či osobní zkušenosti, kdo je nebo byl v řídící profesi úspěšným?                   
+Jak rozumíte tomu, že řízení je věda i umění?
+V jakém slovním spojení jste někdy slyšeli slovo systém? Proč je nutno v souvislosti s řízením hovořit o systému?​ Proč  dochází v systému ke změnám? 
+
+=== SLIDE 4 ===
+
+TEORIE nebo PRAXE?
+
+„Teprve na konci díla lze poznat, čím bylo třeba začít.“
+Blaise Pascal (1623 – 1662)
+
+„Kdybych žil ještě jednou, dopustil bych se stejných hloupostí a chyb, 
+ale snažil bych se je udělat dřív.“Bertrand Russell (1872 – 1970)
+
+=== SLIDE 5 ===
+
+Teorie je soubor tvrzení o předmětu výzkumu, která považujeme za pravdivá. Vyžaduje se, aby nebyl v rozporu s dosavadními zkušenostmi a výsledky experimentů a byl vnitřně konzistentní. 
+
+Teorie je dobře podloženým a konzistentním systémem pojmů a tvrzení vysvětlující určitý okruh jevů (a umožňující jejich predikci), jejichž platnost byla opakovaně prokázána experimentálně či pozorováním.
+Teorií označujeme systém zobecnělého poznání, vysvětlující určité stránky skutečnosti. Je vždy odrazem praxe a vzniká v důsledku možností a potřeb, které praxe vytváří. 
+
+Co je to teorie?
+
+=== SLIDE 6 ===
+
+Opakem teorie je praxe (empirie). 
+
+Jde o:
+zkušenost, dovednost a zběhlost v daném oboru; 
+činnost, která je už v minulosti vykonávaná, takže je nám bližší či známá;
+vědomou, záměrnou, cílevědomou činnost lidí, při které přetvářejí svět, v němž žijí a přizpůsobují jej svým potřebám. 
+ Co je příčinou čeho?
+Žádná teorie nevzniká bez předchozího poznání.
+
+Co je to praxe?
+
+=== SLIDE 7 ===
+
+
+řízení auta (drive), řízení letového provozu (steering), řízení automatu, atd.
+insolvenční řízení, dědické řízení, atd.
+kybernetické pojetí řízení
+řízení podniků - management
+Řízení a management
+
+=== SLIDE 8 ===
+
+Jestliže jsou lidské činnosti ve skupině založené na dělbě práce, pak je logické, že vzájemnou součinnost jednotlivců musí někdo:
+organizovat
+koordinovat
+
+ Také je třeba:
+určovat cíle 
+kontrolovat jejich dosažení 
+
+Takový typ činností je shrnován pod souhrnný název řízení - management. 
+Řízení a management
+
+=== SLIDE 9 ===
+
+Program předmětu:
+co to je teorie řízení, co jsou to organizační systémy
+řízení a jeho vztah k managementu
+teorie informace, entropie, systém a jeho dynamika
+organizační systém a jeho dekompozice, charakteristika jednotlivých subsystémů
+organizace, organizační a řídící struktury
+role člověka v organizaci, formální a neformální vztahy
+
+management, manažer, jeho dovednosti, role, funkce
+plánování, organizování, řízení lidských zdrojů
+vedení lidí, motivace, kontrola
+informace a rozhodování
+princip delegování, styl řízení
+možnosti racionalizace řídící práce manažera
+význam komunikace pro řízení
+
+=== SLIDE 10 ===
+
+Tématické okruhy pro seminární práci:
+organizační struktura vybraného podniku – analýza
+role člověka v organizaci, formální a neformální vztahy
+osobnost manažera, manažerské role
+manažerské funkce a vývoj jejich definování (POSDCOORB)
+vedení lidí a motivace
+dovednost manažera delegovat
+styly řízení
+rozhodování
+racionalizace řízení – time management
+význam komunikace pro řízení
+
+=== SLIDE 11 ===
+
+Co je to řízení ?
+„Řízení je nejstarší umění a nejmladší povolání.“ 
+„Řízení je dosahování cílů prostřednictvím jiných lidí.“
+S.M. Silverstein 
+
+Existují 3 základní podmínky, aby mohlo řízení lidí proběhnout:
+
+řídící systém musí být schopen informaci vyslat.
+řízený systém musí být schopen informaci přijmout.
+řízený systém musí být ochoten informaci přijmout.
+
+=== SLIDE 12 ===
+
+Řízení
+Řízení je :	Informační působení
+			Činnost
+			Proces
+
+Řízení jako informační působení je: 
+Ovládání
+Řízení
+Regulace 
+
+=== SLIDE 13 ===
+
+Řízení jako informační působení
+Ad 1) Ovládání
+
+Ovládající systém
+
+Ovládaný systém
+
+Cíl, informace
+Cílové chování
+Vlastní zpětná vazba, program
+
+=== SLIDE 14 ===
+
+Řízení jako informační působení
+Ad 2) Řízení 
+
+řídící systém
+
+řízený systém
+
+Cíl, informace
+Cílové chování
+vlastní 
+zpětná vazba, program
+přímá zpětná vazba (kontrola)
+
+=== SLIDE 15 ===
+
+Řízení jako informační působení
+Ad 3) Regulace
+
+regulační působení 
+Cíl, informace
+
+řídícící systém
+
+řízený systém
+
+Cílové chování
+
+Vlastní 
+zpětná vazba, program
+
+Regulační systém
+
+sledování odchylek
+podmínky stability
+
+=== SLIDE 16 ===
+
+Řízení jako činnost
+
+Systém
+
+informace
+Prostředky, suroviny, energie
+Činnosti:
+hmotně energetické; „co“
+informační; „jak“
+
+=== SLIDE 17 ===
+
+Řízení jako proces
+Stadia cyklu řízení: 
+Fáze procesu řízení
+
+plánování
+organizování
+operativní řízení
+Informace
+I
+I
+I
+Rozhodování
+Ro
+Ro
+Ro
+Realizace
+Re
+Re
+Re
+Kontrola
+K
+K
+K
+
+časové hledisko
+
+věcné hledisko
+
+=== SLIDE 18 ===
+
+Co je to řízení?
+  subjektivní, cílevědomá činnost lidí;
+
+  objektivně nutná;
+
+  poznává a využívá objektivní zákonitosti přírody a společnosti;
+
+  na jejich základě pak stanovuje: cíle, prostředky, průběh a kontrolu stanovené činnosti.
+Úspěšně řídit znamená: znát, mít pravomoc, chtít a stačit. 
+
+=== SLIDE 19 ===
+
+otázky pro samostudium
+Proč je důležité se zabývat vlastní zpětnou vazbou v souvislosti s přenosem řídících informací?​
+Jak lze rozumět tomu, že řízení je činností subjektivní a objektivně nutnou?​
+Jak lze definovat vztah mezi teorií a praxí?​
+Kdo jsou lidé, kteří dokáží vést jiné lidi?
+

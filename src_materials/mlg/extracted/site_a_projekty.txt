@@ -1,0 +1,121 @@
+=== PAGE 1 ===
+S´ıtˇe
+S´ıtˇe a projekty
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+9. z´aˇr´ı 2025
+Jan Hora S´ıtˇe a projekty
+=== PAGE 2 ===
+S´ıtˇe
+S´ıtˇe
+Definice
+Orientovan´y nez´apornˇe ohodnocen´y souvisl´y graf bez smyˇcek a n´asobn´ych hran se
+naz´yv´a s´ıt’, pokud jsou urˇceny vrcholy s a t, s ̸= t splˇnuj´ıc´ı deg−(s) = deg+(t) = 0.
+Vrchol s se naz´yv´a zdroj, vrchol t stok (spotˇrebiˇc). Ohodnocen´ı c(e) hrany e se naz´yv´a
+kapacita t´eto hrany.
+Znaˇcen´ı
+Mnoˇzinu hran zaˇc´ınaj´ıc´ıch ve vrcholu v znaˇc´ıme H+(v), podobnˇe H−(v) oznaˇcuje
+mnoˇzinu hran ve v konˇc´ıc´ıch.
+Jan Hora S´ıtˇe a projekty
+=== PAGE 3 ===
+S´ıtˇe
+Toky v s´ıt´ıch
+Definice
+Tokem v s´ıti rozum´ıme ohodnocen´ı hran f splˇnuj´ıc´ı
+1. 0 ≤f (e) ≤c(e) pro kaˇzdou hranu e,
+2.
+e∈H−(v)
+f (e) =
+e∈H+(v)
+(Kirchhoﬀ˚uv z´akon) pro kaˇzd´y vrchol v ̸= s, t.
+Definice
+Velikost´ı toku f rozum´ıme ˇc´ıslo
+|f |=
+e∈H+(s)
+f (e) =
+e∈H−(t)
+Jan Hora S´ıtˇe a projekty
+f (e)
+f (e).
+=== PAGE 4 ===
+S´ıtˇe
+ˇ
+Rezy
+Definice
+ˇ
+Bud’ A ⊆V podmnoˇzina mnoˇziny vrchol˚u s´ıtˇe G.
+Rezem R(A) urˇcen´ym mnoˇzinou A
+rozum´ıme pr´avˇe ty hrany, kter´e zaˇc´ınaj´ı v nˇejak´em vrcholu mnoˇziny A a konˇc´ı ve
+vrcholu nen´aleˇz´ıc´ım do A. Pokud A obsahuje s a neobsahuje t, ˇr´ık´ame, ˇze dan´y ˇrez
+oddˇeluje zdroj od spotˇrebiˇce. Kapacitou ˇrezu rozum´ıme souˇcet kapacit jeho hran.
+Vˇeta
+od spotˇrebiˇce.
+Velikost maxim´aln´ıho toku s´ıt´ı je rovna kapacitˇe minim´aln´ıho ˇrezu oddˇeluj´ıc´ıho zdroj
+Jan Hora S´ıtˇe a projekty
+=== PAGE 5 ===
+S´ıtˇe
+Pˇr´ıklad na hled´an´ı maxim´aln´ıho toku
+Pˇr´ıklad
+Naleznˇete maxim´aln´ı tok s´ıt´ı a alespoˇn jeden minim´aln´ı ˇrez.
+2
+B
+D
+4
+2
+6
+S
+8
+C
+E
+3
+Jan Hora S´ıtˇe a projekty
+T
+4
+8
+=== PAGE 6 ===
+S´ıtˇe
+Kdo nedˇel´a na projektu, jako by nebyl
+Definice
+S´ıt’ se naz´yv´a projekt, pokud splˇnuje n´asleduj´ıc´ı podm´ınky
+Neobsahuje ˇz´adn´y orientovan´y cyklus.
+Kaˇzd´y vrchol leˇz´ı alespoˇn na jedn´e orientovan´e cestˇe z s do t.
+Definice
+Kritick´a cesta projektu je kaˇzd´a orientovan´a cesta z s do t, jej´ıˇz d´elka je maxim´aln´ı
+mezi vˇsemi takov´ymi cestami. Vrchol, kter´y leˇz´ı na alespoˇn jedn´e kritick´e cestˇe, se
+naz´yv´a kritick´y vrchol.
+Jan Hora S´ıtˇe a projekty
+=== PAGE 7 ===
+S´ıtˇe
+Pˇr´ıklad na hled´an´ı kritick´e cesty
+Pˇr´ıklad
+Naleznˇete vˇsechny kritick´e cesty dan´eho projektu.
+10
+D
+7 9
+B
+3
+S
+4
+4
+12
+5
+6
+E
+5
+13
+C
+3
+5
+12
+19
+F
+Jan Hora S´ıtˇe a projekty
+G
+7
+H
+21
+21
+11
+18
+T

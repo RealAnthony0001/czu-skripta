@@ -1,0 +1,208 @@
+=== PAGE 1 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Neorientovan´e grafy
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+9. z´aˇr´ı 2025
+Jan Hora Neorientovan´e grafy
+=== PAGE 2 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Graf nen´ı graf funkce
+Definice
+Neorientovan´y graf G je trojice G = (V , E, p), kde V je nepr´azdn´a (koneˇcn´a)
+mnoˇzina, jej´ı prvky budeme naz´yvat vrcholy, E je (koneˇcn´a) mnoˇzina hran a p je
+zobrazen´ı, kter´e kaˇzd´e hranˇe pˇriˇrazuje jednoprvkovou nebo dvouprvkovou mnoˇzinu
+vrchol˚u, ˇcili p : E →{{a, b}|a, b ∈V }, urˇcuj´ıc´ı, kter´e vrcholy dan´a hrana spojuje.
+Definice
+Hrany zaˇc´ınaj´ıc´ı a konˇc´ıc´ı ve stejn´em vrcholu (p(e) je jednoprvkov´a) naz´yv´ame smyˇcky.
+Definice
+Graf, ve kter´em existuj´ı r˚uzn´e hrany e1 a e2, pro kter´e plat´ı p(e1) = p(e2) (tvz.
+v´ıcen´asobn´e hrany), se naz´yv´a multigraf.
+Jan Hora Neorientovan´e grafy
+=== PAGE 3 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Diagram grafu
+Pˇr´ıklad
+G = (V , E, p),
+V= {a, b, c, d},
+E= {e1, e2, e3, e4, e5, e6},
+p(e1) = {a, b}, p(e2) = {a, c}, p(e3) = {a, d},
+p(e4) = {b, c}, p(e5) = {b, d}, p(e6) = {c, d}.
+Definice
+Konkr´etn´ı zobrazen´ı grafu (obr´azek na pap´ıˇre) se naz´yv´a diagram grafu.
+Jan Hora Neorientovan´e grafy
+=== PAGE 4 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Grafy jsou relace
+V pˇr´ıpadˇe, ˇze neuvaˇzujeme v´ıcen´asobn´e hrany:
+Alternativn´ı definice
+Neorientovan´y graf je symetrick´a relace E na nepr´azdn´e
+mnoˇzinˇe V.
+V pˇr´ıpadˇe, ˇze neuvaˇzujeme v´ıcen´asobn´e hrany a smyˇcky:
+Alternativn´ı definice
+Neorientovan´y graf je symetrick´a antireflexivn´ı relace E na nepr´azdn´e mnoˇzinˇe V.
+V dalˇs´ım budeme pˇredpokl´adat grafy bez smyˇcek a v´ıcen´asobn´ych hran. Takov´e grafy
+naz´yv´ame prost´e.
+Jan Hora Neorientovan´e grafy
+=== PAGE 5 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Extr´emn´ı grafy
+Definice
+Graf se naz´yv´a diskr´etn´ı, pokud nem´a ˇz´adnou hranu. Diskr´etn´ı graf s n vrcholy se
+obvykle oznaˇcuje Dn.
+Definice
+Graf se naz´yv´a ´upln´y, pokud jsou kaˇzd´e dva (r˚uzn´e) vrcholy spojeny hranou. Znaˇc´ı se
+obvykle Kn, kde n je poˇcet jeho vrchol˚u.
+Jan Hora Neorientovan´e grafy
+=== PAGE 6 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Kdy jsou dva grafy stejn´e
+Definice
+Grafy G1 = (V1, E1, p1) a G2 = (V2, E2, p2) (bez v´ıcen´asobn´ych hran) se naz´yvaj´ı
+izomorfn´ı, pokud existuje vz´ajemnˇe jednoznaˇcn´e zobrazen´ı I : V1 →V2 splˇnuj´ıc´ı
+{a, b}∈p(E1) ⇔{I (a), I (b)}∈p(E2).
+Definice
+Stupeˇn vrcholu a (znaˇc´ıme deg(a)) je poˇcet hran, kter´e z a vych´azej´ı, ˇcili
+deg(a) =|{e ∈E|a ∈p(e)}|.
+Definice
+Bud’ G graf s vrcholy v1, v2, . . . , vn. Pak posloupnost ˇc´ısel
+(deg(v1), deg(v2), . . . , deg(vn)) nazveme sk´ore grafu G. Dvˇe sk´ore povaˇzujeme za
+shodn´a, pokud se liˇs´ı pouze poˇrad´ım ˇc´ısel. Sk´ore budeme vˇetˇsinou zapisovat jako
+nerostouc´ı posloupnost.
+Jan Hora Neorientovan´e grafy
+=== PAGE 7 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Izomorfn´ı grafy maj´ı stejn´e vlastnosti
+Vˇeta
+Izomorfn´ı grafy maj´ı
+1. Stejn´y poˇcet vrchol˚u.
+2. Stejn´y poˇcet hran.
+3. Stejn´e sk´ore.
+Vˇeta
+Vˇeta
+se sk´ore
+Souˇcet stupˇn˚u vˇsech vrchol˚u libovoln´eho grafu je sud´y.
+Prost´y graf s nerostouc´ım sk´ore (d1, d2, . . . , dn) existuje pr´avˇe tehdy, kdyˇz existuje graf
+(d′
+2, d′
+3, . . . , d′
+n), kde d′
+i =
+di−1, i ≤d1 + 1,
+di , i > d1 + 1.
+Jan Hora Neorientovan´e grafy
+=== PAGE 8 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Kolik kdo zn´a lid´ı
+Pˇr´ıklad
+Radek pozval na oslavu sv´ych narozenin nˇekolik sv´ych kamar´ad˚u s t´ım, ˇze mohou
+pˇriv´est i sv´e pˇr´ıtelkynˇe. Nakonec dorazilo devˇet lid´ı (plus Radek). Martin znal
+pˇrekvapivˇe vˇsechny pˇr´ıtomn´e, jeho pˇr´ıtelkynˇe vˇsak pouze ˇctyˇri. Pavel neznal pouze
+jednoho z ´uˇcastn´ık˚u, Karel i Mojm´ır znali ˇsest lid´ı, Filip sedm. Magda znala z dˇr´ıvˇejˇska
+tˇri z pˇr´ıtomn´ych a Lenka s Monikou pouze dva. Urˇcete, kolik maxim´alnˇe host˚u m˚uˇze
+Radek zn´at.
+Jan Hora Neorientovan´e grafy
+=== PAGE 9 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Cesta nebo tah
+Definice
+Posloupnost vrchol˚u a hran (v0, e1, v1, e2, . . . , en, vn) se naz´yv´a sled, pokud
+p(ei ) = {vi−1, vi }pro kaˇzd´e i ∈{1, . . . , n}. D´elkou tohoto sledu rozum´ıme ˇc´ıslo n.
+Definice
+Sled, ve kter´em se neopakuj´ı hrany, naz´yv´ame tah. V pˇr´ıpadˇe, ˇze v0 = vn, naz´yv´ame
+tento tah uzavˇren´y, v opaˇcn´em pˇr´ıpadˇe otevˇren´y.
+Definice
+Sled, ve kter´em se neopakuj´ı vrcholy (s moˇznou v´yjimkou prvn´ıho a posledn´ıho),
+naz´yv´ame cesta. Uzavˇren´a cesta se naz´yv´a kruˇznice.
+Jan Hora Neorientovan´e grafy
+=== PAGE 10 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Probl´em popel´aˇre
+Definice
+Graf se naz´yv´a souvisl´y, pokud jsou kaˇzd´e dva vrcholy spojen´e cestou (tahem, sledem).
+Maxim´aln´ı souvisl´e ˇc´asti (nesouvisl´eho) grafu se naz´yvaj´ı komponenty.
+Definice
+Graf se naz´yv´a Eulerovsk´y, pokud v nˇem existuje (uzavˇren´y ˇci otevˇren´y) tah, kter´y
+obsahuje kaˇzdou hranu pr´avˇe jednou. Naz´yv´a se (uzavˇren´y ˇci otevˇren´y) Eulerovsk´y tah.
+Pozn´amka
+Eulerovsk´y graf bez vrchol˚u stupnˇe 0 mus´ı b´yt souvisl´y.
+Jan Hora Neorientovan´e grafy
+=== PAGE 11 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Domeˇcek s kˇr´ıˇzem jedn´ım tahem
+Vˇeta
+Souvisl´y graf obsahuje uzavˇren´y Eulerovsk´y tah pr´avˇe tehdy, kdyˇz je stupeˇn vˇsech
+vrchol˚u sud´y. Pak kaˇzd´y Eulerovsk´y tah konˇc´ı ve stejn´em vrcholu jako zaˇc´ın´a.
+Vˇeta
+Souvisl´y graf obsahuje otevˇren´y Eulerovsk´y tah pr´avˇe tehdy, kdyˇz maj´ı pr´avˇe dva
+vrcholy lich´y stupeˇn. Tyto vrcholy jsou pak poˇc´ateˇcn´ı a koncov´y vrchol kaˇzd´eho
+Eulerovsk´eho tahu.
+Jan Hora Neorientovan´e grafy
+=== PAGE 12 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Probl´em obchodn´ıho cestuj´ıc´ıho
+Definice
+Graf se naz´yv´a Hamiltonovsk´y, pokud v nˇem existuje kruˇznice, kter´a obsahuje kaˇzd´y
+vrchol (pr´avˇe jednou). Takov´a kruˇznice se naz´yv´a Hamiltonovsk´a.
+Vˇeta
+Bud’ G graf s n vrcholy. Pokud je stupeˇn kaˇzd´eho vrcholu alespoˇn n/2, pak je dan´y
+graf Hamiltonovsk´y.
+Vˇeta
+Bud’ G graf s n vrcholy. Pokud pro kaˇzd´e dva vrcholy u, v, kter´e nejsou spojeny
+hranou, plat´ı st(u) + st(v) ≥n, pak je dan´y graf Hamiltonovsk´y.
+Jan Hora Neorientovan´e grafy
+=== PAGE 13 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Strom je les
+Definice
+Graf se naz´yv´a les, pokud neobsahuje ˇz´adnou kruˇznici.
+Definice
+Graf se naz´yv´a strom, pokud neobsahuje ˇz´adnou kruˇznici a je souvisl´y.
+Vˇeta
+Souvisl´y graf o n vrcholech je strom pr´avˇe tehdy, kdyˇz m´a n−1 hran.
+D˚usledek
+Graf o n vrcholech s m´enˇe neˇz n−1 hranami je nesouvisl´y.
+Jan Hora Neorientovan´e grafy
+=== PAGE 14 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+a m´a listy
+Definice
+Vrcholy stupnˇe jedna se naz´yvaj´ı listy.
+Vˇeta
+Strom s alespoˇn dvˇema vrcholy m´a minim´alnˇe dva listy.
+Definice
+Graf (V ′
+, E′
+, p′) se naz´yv´a podgraf grafu (V , E, p), pokud V ′⊆V ,
+E′⊆E ∩(V ′×V ′) a p(e) = p′(e) pro kaˇzdou hranu e ∈E′
+.
+Definice
+Podgraf obsahuj´ıc´ı vˇsechny vrcholy p˚uvodn´ıho grafu G se naz´yv´a faktor grafu G.
+Definice
+Faktor (souvisl´eho) grafu G, kter´y je z´aroveˇn stromem, se naz´yv´a kostra grafu G.
+Jan Hora Neorientovan´e grafy
+=== PAGE 15 ===
+´
+Uvodn´ı definice Eulerovsk´e grafy Grafy bez kruˇznic
+Pˇr´ıklady
+Pˇr´ıklad
+Naleznˇete vˇsechny kostry grafu K4 a urˇcete, kter´e z nich jsou izomorfn´ı.
+Pˇr´ıklad
+na dvˇe ˇc´asti?
+Volejbalov´a s´ıt’ m´a 120 x 12 ok. Kolikr´at do n´ı m˚uˇzeme stˇrihnout, aniˇz by se rozpadla
+Jan Hora Neorientovan´e grafy

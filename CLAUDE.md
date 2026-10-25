@@ -18,6 +18,21 @@ tools/shot.swift        render HTML → PNG (WebKit) pro kontrolu diagramů
 
 Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení), `mlg` (Matematická logika a grafy – logika, množiny a relace, grafy, konečné automaty; přednášky P1–P12 odvozené z pořadí podkladů), `ang` (Angličtina podle učebnice Lifestyle Intermediate: gramatika z lekcí 1–12 a Grammar reference (témata 1–25), ke každé lekci téma s Word Focus, Communication strategies a Interaction (26–37) a Review 1–3, 4–6, 7–9, 10–12 (38–41); učebnice je jen sken, text se získal OCR – ověř při pochybnostech ve zdrojovém PDF).
 
+## Podklady (`src_materials/`)
+
+```
+src_materials/<předmět>/original/    původní soubory (PDF, docx, pptx …) – mimo git (.gitignore), jen lokálně
+src_materials/<předmět>/extracted/   textová extrakce, 1 soubor .txt na originál, stejný název – JE v gitu
+```
+
+`extracted/`: PDF po stránkách (`=== PAGE n ===`), pptx po slajdech (`=== SLIDE n ===`); tabulky a obrázky v nich chybí. Učebnice `ang` je OCR (Apple Vision, může mít chyby). **Neextrahováno:** 7 starých `.ppt` v `zpn/original` (nemáme nástroj) – obsah ověř jinak nebo se zeptej.
+
+**Před prací na předmětu (nové téma, oprava, doplnění):**
+1. Zkontroluj aktuální skripta předmětu (`<předmět>/topics/*.js`, `diagrams.js`) – co už je pokryto.
+2. Chybí-li fakt, hledej ho v `src_materials/<předmět>/extracted/` (`grep -ri`), případně na jiných předmětech, pokud se tématem překrývají.
+3. Není-li to ani tam, **zeptej se uživatele na další podklady**; až je dodá, ulož originály do `original/`, extrahuj do `extracted/`, commitni `extracted/` a teprve potom je zpracuj do témat.
+4. Co v podkladech není, nevymýšlej; doplněný obsah označ podle pravidel níže („(doplněno)“).
+
 ## Nový předmět
 
 **Každý nový předmět musí mít od začátku i diagramy (`<id>/diagrams.js`)** – nejsou volitelné. Postup: témata → diagramy do témat → myšlenková mapa. Videa se nedělají. Předmět je hotový, až když projdou body „Hotovo“ na konci této sekce.

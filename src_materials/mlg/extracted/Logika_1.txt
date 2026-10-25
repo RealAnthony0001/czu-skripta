@@ -1,0 +1,124 @@
+=== PAGE 1 ===
+1. Cviˇcen´ı z v´yrokov´e logiky
+1. Kter´e z n´asleduj´ıc´ıch z´apis˚u (ne)jsou v´yrokov´e formule:
+A A′ A′′ ′A
+A⇒ B A⇐ B A⇒ A∧ A
+A∧ ∨B (A∧ B) ∨ A (A∧ B)′A A⇒ B′
+⇒ ∨B A∨ B∧ C A⇒ (A∧ B)′ (A⇒ B)′
+2. Napiˇste pravdivostn´ı tabulku dan´e formule a zjistˇete, jestli se jedn´a o
+tautologie, popˇr´ıpadˇe o kontradikce:
+(a) (A′ ⇒ (A∨ B′))′
+(b) (A⇒ (B ⇒ A))
+(c) (A∨ B) ⇒ (A′ ∨ C)
+(d) (A∨ B) ⇔ (A′ ⇒ B)
+(e) (A∧ B) ⇔ (A⇒ B′)
+(f) (A⇒ B) ∨ (A∧ B′)
+3. Zjistˇete, zda je splniteln´a formule
+(a) (A∧ B) ⇔ (B′ ∧ C′)
+(b) (((A⇒ B) ⇒ C) ⇒ D) ⇒ E
+(c) (A′ ⇒ (B∧ C′)) ⇔ ((B ⇒ C) ∧ A′)
+(d) A′ ∧ ((B ⇒ A) ∧ B)
+4. Zjistˇete, zda jsou n´asleduj´ıc´ı formule ekvivalentn´ı
+(a) A∨ (B∧ C) a (A∨ B) ∧ (A∨ C)
+(b) (A⇒ B) ∧ (B ⇒ C) a A⇒ C
+(c) (A′ ∨ B) ∧ (A∨ B′) a A⇔ B
+(d) A⇔ B a ((A⇒ B) ⇒ (B ⇒ A)′)′
+(e) (A⇒ B) ⇒ (A⇒ C) a (B ⇒ A) ⇒ (B ⇒ C)
+(f) (A⇒ B) ⇒ C a (A⇒ C) ⇔ (B∧ C′)′
+5. Urˇcete, kter´e z formul´ı C, A ⇒ B a A∧ C′ jsou logick´ym d˚usledkem
+formule (A⇔ B′) ∨ C.
+6. Urˇcete, kter´e z formul´ı A∨C′
+, A⇒ Aa A∧B∧C′ jsou logick´ym d˚usledkem
+formule A∧ B′ ∧ C.
+7. Napiˇste pravdivostn´ı tabulky formul´ı ϕa ψa rozhodnˇete, zda je ψd˚usledkem ϕ.
+(a) ϕ= (A⇒ B)′ ∧ B, (b) ϕ= (A⇔ B) ∧ C, (c) ϕ= (A′ ∧ B) ⇒ C, ψ= C
+ψ= (A′ ∧ C) ∨ B
+ψ= A⇒ (B∨ C).
+1
+=== PAGE 2 ===
+8. Martin a Petra pl´anuj´ı svatbu s t´ım, ˇze by r´adi udrˇzeli poˇcet host˚u v ro-
+zumn´ych mez´ıch. Z ˇsirˇs´ıho pˇr´ıbuzenstva ˇzenicha zvaˇzuj´ı pozvat tetu M´aˇnu,
+dˇedu Frantiˇska a bratrance Karla. Jednoduch´e to ovˇsem nebude, Martin
+m´a nˇekolik n´amitek: Pokud pozveme dˇedu Frantiˇska i bratrance Karla,
+mus´ıme pozvat i tetu M´aˇnu, jinak by chlapi nemˇeli s k´ym tancovat, a
+nerad bych je zase vidˇel tancovat spolu. Ovˇsem aspoˇn jednoho z tˇech tˇr´ı
+pozveme, jinak by tu Tv´ych pˇr´ıbuzn´ych bylo v´yraznˇe v´ıc, a to by moje
+rodina tˇeˇzce nesla. A jestli nepozveme dˇedu Frantiˇska, nem˚uˇzeme pozvat
+ani tetu M´aˇnu, dˇeda by pak tu chatu v Srn´ı urˇcitˇe odk´azal br´achovi.
+Urˇcete, kter´e z n´asleduj´ıc´ıch tvrzen´ı jsou logick´ym d˚usledkem pˇredchoz´ıch
+vˇet:
+(a) Pozvou dˇedu Frantiˇska.
+(b) Pozvou tetu M´aˇnu pr´avˇe tehdy, kdyˇz pozvou bratrance Karla.
+(c) Pozvou dˇedu Frantiˇska nebo bratrance Karla.
+9. Zjistˇete z proslovu starosty, zda se postav´ı nov´a ˇskola:
+”D´amy a p´anov´e, dobˇre v´ıte, ˇze vzdˇel´an´ı je naprostou prioritou naˇs´ı strany;
+proto se budeme zasazovat, at’ pˇr´ıˇst´ı rok postav´ıme novou budovu ˇskoly.
+Nemohu v´am sl´ıbit, ˇze se to podaˇr´ı, ponˇevadˇz nˇekter´e ˇctvrti potˇrebuj´ı nov´e
+silnice a tak´e novou kanalizaci; a na vˇsechny tˇri stavby nebudou finance. Ta
+ˇskola, kterou budeme cht´ıt letos postavit, pochopitelnˇe nem˚uˇze b´yt kolau-
+dov´ana dˇr´ıv, neˇz k n´ı bude vybudov´ana kanalizace. Pˇresto z˚ust´av´a ˇskola
+naˇs´ı prioritou, narozd´ıl od priorit opozice, kter´a by si pˇr´ala vyspravit sil-
+nice, asi aby si nezniˇcili ta nov´a auta, na kter´a si nakradli. Nicm´enˇe je prav-
+dou, ˇze pokud se bude kopat kanalizace, budeme muset kaˇzdop´adnˇe poloˇzit
+nov´y asfalt na vozovky. To n´am ale nebude br´anit prosazovat stavbu ˇskoly
+do pr´avˇe navrhovan´eho rozpoˇctu mˇesta.“
+10. Pomozte sleˇcnˇe se rozhodnout, jak m˚uˇze str´avit dneˇsn´ı odpoledne: m´a
+na v´ybˇer baz´en, fitness, cukr´arnu a kadeˇrn´ıka, pˇriˇcemˇz rozhodnˇe chce
+navˇst´ıvit alespoˇn dvˇe atrakce. Urˇcitˇe nen´ı moˇzn´e j´ıt ve stejn´y den do
+baz´enu a ke kadeˇrn´ıkovi, ale ostatn´ı kombinace uˇz sch˚udn´e jsou. Do cukr´arny
+ovˇsem bude ochotna j´ıt jedinˇe, pokud bude pˇred t´ım sportovat, tj. po
+baz´enu nebo po fitku. Naopak, pokud by navˇst´ıvila jak baz´en, tak i fitko,
+bude doplnˇen´ı cukr˚u v cukr´arnˇe ˇzivotn´ı nutnost´ı. Kadeˇrn´ık m´a zase tu
+nev´yhodu, ˇze je ˇcasovˇe n´aroˇcn´y a pokud by si nechala udˇelat vlasy, stihne
+bˇehem odpoledne uˇz jen jednu dalˇs´ı akci. A pokud by tou akc´ı snad byla
+n´avˇstˇeva fitness centra, bude natolik zpocen´a, ˇze bude naprosto nutn´e j´ıt
+n´aslednˇe do baz´enu. Jak´y tedy bude jej´ı program?
+2
+=== PAGE 3 ===
+V´ysledky
+1. V´yrokov´e formule: ano ano ano ne
+ano ne ne ano
+ne ano ne ano
+ne ne ano ano
+2. (a) A B ϕ
+(c) A B C ϕ
+1 1 0
+1 0 0
+0 1 1
+0 0 0
+1 1 1 1 1 0 1 0 0 1 0 1 0 0 0 0 1 1
+0 0
+1 1
+0 0
+1 1
+0 1
+1 1
+0 1
+(b) tautologie
+(d) tautologie
+(e) kontradikce
+(f) tautologie
+3. (a) ano
+(b) ano, napˇr. je-li E pravda
+4. (a) ano
+(b) ne
+(c) ano
+(c) ne
+(d) ne, jedn´a se o kontradikci
+(d) ano
+(e) ano
+(f) ne
+5.
+ˇ
+Z´adn´a.
+6. A∨ C′ a A⇒ A.
+7. (a) Ano.
+(b) Ano.
+(c) Ne.
+8. (a) Ne.
+(b) Ne.
+(c) Ano.
+9. Starosta kvˇetnatˇe vyj´adˇril, ˇze ˇskolu nepostav´ı.
+10. Sleˇcna m´a dvˇe moˇznosti: bud’ p˚ujde do fitka, do baz´enu a do cukr´arny,
+nebo do baz´enu a do cukr´arny.
+3

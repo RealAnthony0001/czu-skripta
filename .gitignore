@@ -1,1 +1,2 @@
-src_materials/
+src_materials/*/original/
+.DS_Store

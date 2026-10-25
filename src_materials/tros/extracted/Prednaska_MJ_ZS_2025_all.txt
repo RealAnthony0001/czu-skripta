@@ -1,0 +1,6973 @@
+=== PAGE 1 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 2 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+2
+Konzultační hodiny
+Organizační informace
+▪ Katedra managementu a marketingu
+▪ Kancelář 442
+Monika Jadrná
+KONZULTACE
+Středa 14:30 – 15:30 hodin
+V jiných dnech konzultace probíhají prostřednictvím MS Teams.
+Pozvánka na e-mail pozvánku pro připojení na schůzku.
+jadrnam@rektorat.czu.cz
+jadrnam@pef.czu.cz
+=== PAGE 3 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+3
+Zápočet a zkouška
+Organizační informace
+Požadavky k zápočtu:
+Požadavky ke zkoušce:
+PÍSEMNÝ test pro ŘÁDNÝ TERMÍN a 1. OPRAVNÝ TERMÍN
+▪ možné ústní dozkoušení
+ÚSTNÍ forma zkoušky – pro 2. OPRAVNÝ TERMÍN
+￼
+=== PAGE 4 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+4
+Témata přednášek
+Organizační informace
+1. Úvodní přednáška, seznámení s organizací výuky
+2. Řízení jako činnost, proces a informační působení
+3. Vymezení pojmu systém, agregace, integrace, typologie systémů
+4. Organizační systém, subsystémy 1. řádu, vlastnosti subsystémů, oblasti a proces
+5. Organizační a řídící struktury
+6. Motivace pracovníků
+7. Komunikace a řešení konfliktů
+8. Rozhodování
+9. Vedení lidí a delegování
+10. Time management
+11. Historie managementu
+=== PAGE 5 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+5
+Témata cvičení
+Organizační informace
+1. Řízení jako činnost a proces, Typy informačního působení
+2. Definice systému, Organizační systém
+3. Naplnění subsystémů 1. řádu a vyšších řádů
+4. Motivace
+5. Komunikace a konflikty
+6. Vedení lidí a rozhodování
+=== PAGE 6 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+6
+Řízení lze chápat jako…
+Řízení jako činnost a proces
+▪ Činnost řídících pracovníků (realizace řídícího procesu)
+▪ Řídící proces (fáze procesu řízení a stádia cyklu řízení)
+▪ Řízení jako informační působení
+Podle složitosti informací:
+▪ Ovládání
+▪ Řízení
+▪ Regulace
+=== PAGE 7 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+7
+OVLÁDÁNÍ – nejjednodušší typ informačního působení
+Typy informačního působení
+￼
+Ovládající systém
+subjekt
+￼
+￼
+￼
+Vstupní informace
+Ovládací příkazy (působení)
+Ovládaný systém
+objekt
+￼
+Provedení - realizace příkazu
+￼
+Program subjektu,
+jak zajistit cílové chování
+vlastní zpětná vazba
+Cílové chování
+=== PAGE 8 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+8
+OVLÁDÁNÍ
+Typy informačního působení
+Příklad: Vojsko
+￼
+Ovládající systém (SŘ)
+Velitel
+￼
+￼
+￼
+Ovládaný systémČeta vojáků
+￼
+Tichý ústup
+￼
+Vyhodnocení síly nepřítele
+Srovnání s vlastní silou
+Rozhodnutí – potichu ustoupit
+Cílové chování
+Ovládací příkazy
+(působení)
+Potichu ustoupit
+Vstupní informace
+=== PAGE 9 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+9
+ŘÍZENÍ
+Typy informačního působení
+Zpětná vazba – kontrola
+￼
+Subjekt řízeníSŘ
+￼
+￼
+￼
+Vstupní informace
+Řídící příkazyŘídící působení
+Objekt řízeníOŘ
+￼
+Provedení - realizace řídícího příkazu
+￼
+Program SŘ, jak zajistit cílové chování
+→ Výsledek programu
+￼
+Program OŘ, jak zajistit řídící příkazy
+￼
+￼
+￼
+KONTROLA
+• realizace programu
+• cílového chování
+• zjištění odchylek
+informace o splnění příkazu
+pro subjekt řízení
+přímá zpětná vazba
+vlastní zpětná vazba SŘ
+vlastní zpětná vazba OŘ
+Výsledné chování
+Cílové chování
+=== PAGE 10 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+10
+Typy informačního působení
+￼
+Subjekt řízeníSŘ
+￼
+￼
+￼
+Vstupní informace
+Řídící příkazyŘídící působení
+Objekt řízeníOŘ
+￼
+￼
+Program SŘ, jak zajistit cílové chování
+→ Výsledek programu
+￼
+Program OŘ, jak zajistit řídící příkazy
+￼
+￼
+Kontrola
+Zjištění stavu
+Fungování realizace
+Nová produkce → tržní uplatnění
+Možnosti podniku – zdroje
+• finanční
+• personální
+• odborné (umíme to?)
+• kapacitní (prostor, čas)
+• termíny
+• Vlastní program jak splnit zadané úkoly
+• Promyslet ,co kdo bude dělat
+• Jak to budeme dělat
+• Zabezpečit prostředky
+• Zabezpečit a vyškolit lidi
+• Termíny
+Výsledné chování
+Cílové chování
+• o trhu
+• o konkurenci
+• o možné spolupráci Podnikatelský nápad – nový produkt
+￼
+￼
+￼
+Posouzení možností
+Rozhodnutí o realizaci
+Plán → zadání úkolů
+Zabezpečení
+podmínek
+realizace
+Realizace nového produktu → navazuje obchodní činnost
+Informace o skutečném
+stavu , průběhu, uplatnění
+￼
+Řízení jako informační působení
+Zavedení nového produktu
+=== PAGE 11 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+11
+REGULACE
+Typy informačního působení
+Vložení regulačního systému
+￼
+Subjekt řízeníSŘ
+￼
+￼
+￼
+Vstupní informace
+Řídící příkazy
+Řízený systémOŘ
+￼
+Výsledné chování
+Cílové chování
+￼
+￼
+￼
+￼
+Program jak zajistit cílové chování
+Kontrola
+cílového
+chování
+￼
+Regulační systém
+regulátor
+￼
+Kontrola správnosti nastavení
+požadovaných stavů
+￼
+Kalibrace
+=== PAGE 12 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+12
+REGULACE
+Typy informačního působení
+Příklad: Líheň kuřat
+￼
+Subjekt řízení (SŘ)
+Vedoucí líhně
+￼
+￼
+￼
+Vstupní informace – požadovaný počet kuřat
+Řídící příkazy
+Řízené systémy (OŘ)
+• tepelný agregát
+• zdroj světla
+• pás s krmivem
+• ventilátory
+￼
+￼
+￼
+Program jak zajistit cílové chování OŘ
+• stanovení intervalu požadované teploty
+• stanovení intervalů světlo a tma
+• stanovení času krmení
+Kontrola
+výsledného
+chování
+(namátková
+kontrola)
+￼
+Regulační systémy
+• termostat – měření a vyrovnávání teploty
+• zapínaní a vypínání světla
+• režim krmení
+• ventilace
+￼
+Kontrola správnosti
+nastavení požadovaných
+stavů
+￼
+Kalibrace
+Výsledné chování
+Požadovaný režim líhně
+=== PAGE 13 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+13
+REGULACE
+Typy informačního působení
+Regulace je spjatá především s technickou stránkou produkce:
+▪ technologické linky
+▪ automatizované postupy
+▪ regulátor může vykonávat i kontrolní činnost
+▪ zastavení technologické linky při poruše
+▪ brzdění rychlovýtahů a další
+Při vedení lidí můžeme zástupce vedoucího pro určitou činnost chápat jako regulátora,
+který zvyšuje spolehlivost systému.
+=== PAGE 14 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+14
+Řízení lze chápat jako…
+Řízení jako činnost a proces
+▪ Činnost řídících pracovníků (realizace řídícího procesu)
+▪ Řídící proces (fáze procesu řízení a stádia cyklu řízení)
+▪ Řízení jako informační působení
+Podle složitosti informací:
+▪ Ovládání
+▪ Řízení
+▪ Regulace
+=== PAGE 15 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+￼
+Řízení jako činnost
+=== PAGE 16 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+16
+Řízení jako činnost
+Řízení jako činnost zahrnuje:
+▪ Stanovení cílů – současný a budoucí stav podniku
+▪ Vedení lidí – realizuje vedoucí pracovník společně s podřízenými
+▪ Vytváření organizačního systému – z množiny prvků: lidí, věcí, prostředků,
+informací, zájmů, činností....
+▪ Získávání informací – vedoucí pracovník potřebuje k rozhodování informace
+▪ Udržování kondice – dobrý zdravotní stav a duševní připravenost
+▪ Faktor času – čas je omezující faktor
+=== PAGE 17 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+17
+Řízení jako činnost
+Řídící pracovník musí zabezpečit
+chod podniku:
+Uvedené body představují výsledky
+činnosti řídících pracovníků
+Řídící pracovník vystupuje jako SŘ i jako OŘ
+(v závislosti na stupni řízení)
+▪ musí zabezpečit transformaci vstupů na výstupy (zboží,
+služby)▪ vlastní fungování podniku
+▪ hospodářský výsledek (zisk)
+▪ rozvoj podniku
+▪ dividendy majitelům
+▪ produkty musí plnit očekávání zákazníků → produkce
+▪ cena x kvalita → produkce x obchod
+▪ produkty snadno dostupné → obchod (internet x výdejní místa)
+▪ produkty musí být nabízeny vhodným způsobem
+▪ produkty musí vejít ve známost
+▪ musí být zajištěna následná péče
+▪ servis produktů (reklamace)
+▪ školení uživatelů
+=== PAGE 18 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+18
+Činnosti zabezpečující předcházející body:
+Řízení jako činnost a proces
+▪ určit cíle a strategii podniku (strategické řízení)
+▪ zabezpečit vlastní výrobu produktů (množství, kvalita, termín)
+▪ prodej a servis produktů (stanovit správnou obchodní strategii, tedy marketing a obchod,
+stanovit cenu produktu, formu prodeje, vytvoření obchodní sítě…
+Dále je třeba získat kvalitní zaměstnance:
+▪ řídící pracovníky (získat a zvyšovat jejich kompetence)
+▪ obchodníky (získat a zvyšovat jejich výkonnost)
+▪ specialisty (získat a zvyšovat jejich odbornost)
+▪ výkonné pracovníky (získat a zvyšovat jejich kvalifikaci)
+Řízení v tomto pojetí lze chápat jako cílově usměrňovanou činnost, respektive koordinaci celé řady činností
+PROCES ŘÍZENÍ
+￼
+=== PAGE 19 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+19
+Proces řízení
+Proces řízení
+= informační působení realizované v čase
+2 základní hlediska
+▪ Horizontální členění respektující faktor času
+▪ Horizontální členění respektující faktor času
+￼
+SUBJEKT
+rozhodovatel
+￼
+￼
+Přijímání
+informace
+Předávání
+informace
+￼
+Zpracování
+informace
+=== PAGE 20 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+20
+Fáze a stádia cyklu řízení
+Proces řízení
+Stádia cyklu řízení – věcné hledisko
+ovlivňování
+Fáze procesu řízení – časové hledisko
+▪ Plánování
+▪ Organizování
+▪ Operativní řízení (Vedení lidí)
+▪ Informace
+▪ Rozhodování
+▪ Kontrola
+▪ Realizace
+=== PAGE 21 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+21
+Fáze procesu řízení
+a jejich návaznost
+Proces řízení
+￼
+￼
+￼
+￼
+Plánování
+Organizování
+Operativní řízení
+￼
+￼
+Vstupní informace
+(trh)
+Informace o zdrojích
+Informace o stavu a fungování zdrojů
+￼
+Vstupní informace
+(cíle)
+Plány – výsledky plánování
+Přiřazení zdrojů - výsledky organizování
+Požadované chování objektu řízení
+=== PAGE 22 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+22
+Systémové pojetí procesu řízení
+Proces řízení
+Plánování Organizování Operativní řízení
+Plánování Dlouhodobé cíle Středně a krátkodobé
+cíle
+Operativní cíle
+Organizování Projekt organizačního
+systému
+Vytváření
+organizačního systému
+Organizační normy
+Operativní řízení Projekt organizačních
+jednotek
+Vytváření
+organizačních jednotek
+Realizace chování
+=== PAGE 23 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+23
+Fáze procesu řízení
+￼
+￼
+▪ o trhu
+▪ o konkurenci
+▪ o možné spolupráci
+Možnosti podniku → zdroje
+▪ Finanční
+▪ Personální
+▪ Odborné (umíme to?)
+▪ Kapacitní (prostor, čas)
+▪ Termíny
+Zadání úkolů (hodnoty, termíny)
+Vlastní program jak splnit zadané úkoly
+▪ Promyslet ,co kdo bude dělat
+▪ Jak to budeme dělat
+▪ Zabezpečit prostředky
+▪ Zabezpečit a vyškolit lidi
+▪ Termíny
+Splnění úkolů
+Realizace → nového produktu → navazuje obchodní činnost
+￼
+Vedení podniku ŘSS
+Vedení závodu (provozu)
+￼
+Zabezpečení
+podmínek
+realizace
+￼
+Podnikatelský nápad – nový produkt
+￼
+Posouzení možností
+Rozhodnutí o realizaci
+Plán → zadání úkolů
+Informace o skutečném
+stavu , průběhu, uplatnění
+Plánování
+Organizování
+Operativní Ř
+￼
+Proces řízení
+=== PAGE 24 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+24
+Stádia cyklu řízení
+a jejich návaznost
+Proces řízení
+I
+K RO
+RE
+￼
+￼
+￼
+￼
+=== PAGE 25 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+25
+Stadia cyklu řízení
+￼
+▪ o trhu
+▪ o konkurenci
+▪ o možné spolupráci
+Možnosti podniku → zdroje
+▪ Finanční
+▪ Personální
+▪ Odborné (umíme to?)
+▪ Kapacitní (prostor, čas)
+▪ Termíny
+Zadání úkolů (hodnoty, termíny)
+Vlastní program jak splnit zadané úkoly
+▪ Promyslet ,co kdo bude dělat
+▪ Jak to budeme dělat
+▪ Zabezpečit prostředky
+▪ Zabezpečit a vyškolit lidi
+▪ Termíny
+Splnění úkolů
+Realizace → nového produktu → navazuje obchodní činnost
+￼
+Vedení podniku (ŘSS)
+Vedení závodu (provozu)
+￼
+Zabezpečení
+podmínek
+realizace
+￼
+Podnikatelský nápad – nový produkt
+￼
+Posouzení možností
+Rozhodnutí o realizaci
+Plán → zadání úkolů
+Informace o skutečném
+stavu , průběhu, uplatnění
+￼
+I
+￼
+RO
+￼
+RE
+￼
+K
+￼
+￼
+￼
+￼
+Proces řízení
+=== PAGE 26 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+26
+Fáze a stádia
+Proces řízení
+￼
+￼
+Plánování
+Organizování
+Operativní řízení
+￼
+￼
+I
+￼
+￼
+RO
+￼
+￼
+K
+￼
+￼
+RE
+￼
+￼
+￼
+I
+￼
+￼
+￼
+K
+￼
+￼
+RE
+￼
+￼
+￼
+I
+￼
+￼
+￼
+K
+￼
+￼
+RE
+￼
+Jednotlivé fáze a stádia nelze oddělit
+￼
+RO
+￼
+RO
+=== PAGE 27 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+27
+Realizace dvou cyklů řízení pro zabezpečení cílového chování
+Proces řízení
+￼
+￼
+I
+￼
+￼
+RO
+￼
+￼
+￼
+K
+￼
+￼
+RE
+￼
+￼
+￼
+I
+￼
+￼
+RO
+￼
+￼
+￼
+K
+￼
+￼
+RE
+￼
+￼
+￼
+Zjištěná
+odchylka
+Očekávané
+(cílové)
+chování
+=== PAGE 28 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+28
+￼
+Integrace věcného a časového hlediska
+Proces řízení
+realizace
+příprava
+Informace o zdrojích Informace o stavu zdrojů
+o lidech
+Vstupní informace (trh)
+=== PAGE 29 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+29
+Integrace časového a věcného hlediska
+procesu řízení
+Proces řízení
+11: I pro PL – návrhy variant řešení
+12: RO ve fázi PL – výběr nejvhodnější varianty → schválení návrhu PL
+13: RE a K ve fázi PL – prověření I o trhu, kontrolní propočty
+→ Schválený a prověřený PLÁN dát ve známost → I pro 2. fázi
+￼
+Informace o zdrojích Informace o stavu zdrojů, o lidech
+Vstupní informace (trh)
+=== PAGE 30 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+30
+Integrace časového a věcného hlediska
+procesu řízení
+Proces řízení
+￼
+Informace o zdrojích Informace o stavu zdrojů, o lidech
+Vstupní informace (trh)
+21: I ve fázi ORG – získání a zpracování I pro fázi ORG → přiřazení zdrojů, jejich lokalizaci
+a termíny plnění (finance, lidi, technologie, kvalifikace, …)
+22: RO ve fázi ORG – opět výběr z několika variant → RO o přidělení zdrojů
+23: K před zahájením RE a následné zahájení RE → přiřazování zdrojů
+=== PAGE 31 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+31
+Integrace časového a věcného hlediska
+procesu řízení
+Proces řízení
+￼
+Informace o zdrojích Informace o stavu zdrojů, o lidech
+Vstupní informace (trh)
+31: I ve fázi OŘ – plánování směn, úkoly pro směny – JOP
+32: RO v případech řešení odchylek od plánu
+33: K činnost ve výrobě a službách, dodržování kvality, termínů, množství, nákladů, … → cílové chování
+OŘ je spojeno s vedením lidí → výběr, hodnocení, motivaci, odměňování, pracovní podmínky, sociální
+klima, seberealizaci, …
+=== PAGE 32 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+32
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká
+zemědělská univerzita, Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem on
+Production-Technical Area of Organizational System. Agrarian Perspectives XXVIII.
+International Scientific Conference
+=== PAGE 33 ===
+Děkuji za pozornost.
+=== PAGE 34 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+34
+Řízení jako informační působení
+ŠKOLA
+￼
+Nová informace pro výklad
+Program 1
+Zapracování informace do výkladu
+Volba formy výkladu
+▪ Složitost
+▪ Cizí pojmy
+▪ Srozumitelnost
+Výklad a zadání úkolů
+Program 2
+▪ Učení
+▪ Pochopení
+▪ Vytvoření znalostního systému
+Aplikace znalostí
+Kontrola
+▪ Zjištění znalostí
+▪ Ocenění znalostí známkou
+▪ Informace co změnit ve výkladu
+Subjekt řízení: Učitel
+Objekt řízení: Student
+Typy informačního působení
+=== PAGE 35 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+35
+Řízení jako informační působení – příklad: PODNIK
+￼
+Informace týkající se produkčního problému
+Program 1
+▪ Zpracování dostupných informací
+▪ Vytvoření plánu, jak problém vyřešit
+▪ (rozhodovací proces)
+▪ Rozhodnutí – bude tlumočeno jako úkol
+– zodpovědné osoby
+▪ Termíny
+Zadání úkolů Program 2
+▪ Vlastní program jak splnit zadané
+úkoly
+▪ Promyslet, co kdo bude dělat – určit
+zodpovědné osoby
+▪ Zabezpečit prostředky
+▪ Termíny
+Produkční problém vyřešen
+Kontrola
+▪ Kontrola produkce,
+zda je problém
+vyřešen
+▪ Zjištění stavu
+▪ Splnění úkolů
+▪ Fungování produkce
+Řešení:
+Vedoucí (řídící pracovník) → podřízený (řídící pracovník, výkonný pracovník) → úkolování podřízeného
+Zakreslete vlastní příklad
+=== PAGE 36 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 37 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+37
+Vymezení pojmu systém
+Systém
+▪ Agregace – Desagregace
+▪ Integrace – Diferenciace (Desintegrace)
+▪ Efektivní organizační systém
+▪ Vlastnosti subsystémů 1. řádu
+=== PAGE 38 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+38
+Vymezení pojmu systém
+Systém
+„Systém je určitou abstrakcí reálného objektu,
+kterou je možné definovat při respektování vytčeného cíle
+určitými prvky (vlastnostmi) a vazbami mezi nimi.“ (Hron, 2014)
+Symbolický zápis S = { A, R } A … množina prvků
+R … množina vazeb
+▪ konečná množina prvků navzájem propojená konečnou množinou vazeb kdy je toto spojení
+podřízeno určité účelové funkci
+▪ abstrakce reálného objektu
+▪ lze jej definovat při respektování vytčeného cíle určitými prvky a vazbami mezi nimi při
+vykazování určité účelové funkci
+▪ systém můžeme zavést na jakémkoliv objektu
+=== PAGE 39 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+39
+"Systém je určitou abstrakcí reálného objektu, kterou je možné definovat při respektování vytčeného cíle určitými prvky (vlastnostmi) a vazbami mezi nimi." (Hron, 2014)
+Agregace – Desagregace
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+=== PAGE 40 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+40
+Operace uvnitř systému
+AGREGACE
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Nový stav – zvýšená AGREGACE
+=== PAGE 41 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+41
+AGREGACE – DESAGREGACE
+Slučování prvků, Slučování systémů, Vlastnosti OS
+Operace uvnitř systému
+A1
+A2
+A3
+￼
+￼
+￼
+￼
+￼
+￼
+A3
+A1 + A2
+￼
+￼
+￼
+￼
+AGREGACE
+￼
+￼
+DESAGREGACE
+Agregace je slučování prvků systému – snižování rozlišovací úrovně
+Desagregace je dělení prvků – zvyšování rozlišovací úrovně
+=== PAGE 42 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+42
+Standardní schéma nejvyššího stupně agregace
+￼
+Systém jako černá skříňka
+▪ známe vstupy
+▪ známe výstupy
+▪ neznáme strukturu systému
+￼
+Příklad:
+Konkurenční systém
+=== PAGE 43 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+43
+Mezisystémové operace
+INTEGRACE – DIFERENCIACE
+￼
+Integrace je spojování více systémů – slučování firem (fúze, koupě)
+Desintegrace je dělení systémů – dělení firem např. podle produkce
+=== PAGE 44 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+44
+Mezisystémové operace
+INTEGRACE – DIFERENCIACE
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+S2
+S1
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Nový stav:
+S
+=== PAGE 45 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+45
+Typologie systémů
+Systém
+Podle vztahu k objektům
+▪ abstraktní systémy →
+matematické, ekonomické
+modely
+▪ reálné systémy → podnik
+Podle vztahu k okolí
+▪ uzavřené systémy → laboratorní pokusy,
+(experimenty)
+▪ otevřené systémy → ???
+▪ relativně izolované systémy → podnik
+=== PAGE 46 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+46
+Typologie systémů
+Systém
+Podle podrobnosti zkoumání
+▪ absolutní systémy → ???
+▪ redukované systémy → podnik
+Podle faktoru času
+▪ prospektivní systémy → simulační,
+prognostické modely
+▪ retrospektivní systémy →
+účetnictví
+=== PAGE 47 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+47
+Typologie systémů
+Systém
+Podle složitosti
+▪ jednoduché systémy →
+termostat
+▪ složité systémy → počítač, mobil
+▪ velmi složité systémy → trh,
+národní hospodářství, podnik
+Podle typu chování
+▪ deterministické systémy →
+technologická linka (v omezeném
+čase)
+▪ stochastické systémy → podnik
+=== PAGE 48 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+48
+podle typu chování…
+Systém
+￼
+S
+￼
+￼
+Podnět x
+Reakce y
+y = f(x), kde x je podnět a y reakce
+Deterministický systém
+Reakce jsou jednoznačně určeny podněty
+=== PAGE 49 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+49
+podle typu chování…
+Systém
+Stochastický systém
+Stochastický systém - nelze jednoznačně určit přiřazení určité reakce
+k určitému podnětu, ale jen s určitou pravděpodobností.
+￼
+Podnik OS
+￼
+￼
+Podnět x
+Reakce y
+y = f(x)
+z = f(x)
+￼
+Reakce z
+p1 = 0,8 p2 = 0,2
+možnosti chování OS
+PODNIK
+=== PAGE 50 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+50
+Typologie systémů
+Systém
+Podle vztahu ke změnám
+▪ neadaptivní systémy → nejsou
+schopné se přizpůsobit, je
+ohrožena jejich existence
+▪ adaptivní systémy → reagují na
+změny stavů systému a změny ve
+svém okolí takovým způsobem,
+který je pro jejich existenci
+vhodný → podnik
+Podle vztahu chování k tvorbě cílů
+▪ systémy bez cílového chování
+▪ systémy s cílovým chováním → reagují
+na podněty tak, aby jejich trajektorie
+vedla k dosažení předem stanoveného
+cíle, tj. žádoucího stavu vnitřní
+struktury nebo chování → podnik
+=== PAGE 51 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+51
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká
+zemědělská univerzita, Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem on
+Production-Technical Area of Organizational System. Agrarian Perspectives XXVIII.
+International Scientific Conference
+=== PAGE 52 ===
+Děkuji za pozornost.
+=== PAGE 53 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 54 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+54
+Vymezení pojmu systém
+Systém
+„Systém je určitou abstrakcí reálného objektu,
+kterou je možné definovat při respektování vytčeného cíle
+určitými prvky (vlastnostmi) a vazbami mezi nimi.“ (Hron, 2014)
+Symbolický zápis S = { A, R } A … množina prvků
+R … množina vazeb
+▪ konečná množina prvků navzájem propojená konečnou množinou vazeb kdy je toto spojení
+podřízeno určité účelové funkci
+▪ abstrakce reálného objektu
+▪ lze jej definovat při respektování vytčeného cíle určitými prvky a vazbami mezi nimi při
+vykazování určité účelové funkci
+▪ systém můžeme zavést na jakémkoliv objektu
+=== PAGE 55 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+55
+Systém a jeho okolí
+Systém
+Okolí systému
+▪ užší (vždy podstatné)
+▪ širší
+▪ širší (nepodstatné)
+Vstupy (akce)
+Výstupy (reakce)
+kalendář - definované časové intervaly,
+v nichž působí akce/reakce
+repertoár - množina možných akcí/reakcí
+vstupy
+okolí
+systému
+výstupy
+SYSTÉM
+￼
+￼
+=== PAGE 56 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+56
+￼
+Organizační systém
+Systém
+Prvky
+Lidé (L)
+Hmotné prvky (HP)
+Smíšené prvky (SP)
+Vstupy
+Hmotně energetické (HE)
+Informační (I)
+Vazby
+Hmotně-energetické (HE)
+Informační (I)
+Smíšené vazby (SV)
+ORAGANIZAČNÍ
+SYSTÉM
+=
+systémové pojetí
+organizace
+Výstupy
+Hmotně energetické (HE)
+Informační (I)
+=== PAGE 57 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+57
+Subsystémy OS – prvky, vazby, rozlišovací úroveň
+￼
+S = [HP,SP,L ], [HE,SV,I] → → → → →
+￼
+Výsledek obrázku pro obrázek krychle
+￼
+prvky vazby rozlišovací úroveň
+1. rozměr
+2. rozměr
+3. rozměr
+￼
+￼
+2 rozměry 3 rozměry
+5. rozlišovací úroveň
+=== PAGE 58 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+58
+Podnik jako
+organizační systém
+Organizační systém
+HMOTNĚ ENERGETICKÉ V. SMÍŠENÉ V. INFORMAČNÍ V.
+HMOTNÉ P.
+SMÍŠENÉ P.
+LIDSKÉ P.
+Nabídka Poptávka
+Ekologicko
+ergonomický
+sub.
+Produkční
+sub.
+Technologický
+sub.
+Organizační sub.
+Technický
+sub.
+Ekonomicko
+informační
+sub.
+Pracovní
+sub.
+Marketingově
+obchodní
+sub.
+Řídící
+sub.
+￼
+￼
+Zdroj: Hron, Traxler, 2017
+=== PAGE 59 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+59
+Posloupnost vzniku a vzájemné návaznosti
+subsystémů 1. řádu
+Subsystémy
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PS1 T1S T2S
+EES OSS EIS
+PS2 MOS ŘSS
+￼
+￼
+￼
+￼
+￼
+￼
+=== PAGE 60 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+60
+Hlavní a podpůrné subsystémy
+Organizační systém
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PS1
+EIS
+PS2 MOS
+TS1 TS2
+EES OSS
+ŘSS
+￼
+Hlavní diagonálu tvoří hlavní subsystémy 1. řádu (PS1, OSS, ŘSS)
+Nad hlavní diagonálou jsou podpůrné subsystémy 1.řádu s převahou L (MOS, EES
+a vzdálený subsystém PS2)
+Pod hlavní diagonálou jsou podpůrné subsystémy 1. řádu s převahou HP (EIS, TS1
+a vzdálený TS2)
+Hlavní diagonála
+Subsystémy působí jako
+transformátor vstupů
+na výstupy.
+Procesy
+představují aktivity, které je
+nutné realizovat, aby došlo k
+uvedené transformaci.
+=== PAGE 61 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+61
+Oblasti a procesy
+Organizační systém
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PS1
+EIS
+PS2 MOS
+TS1 TS2
+EES OSS
+ŘSS
+￼
+Produkčně
+technická
+oblast
+Organizačně
+ekonomická
+oblast
+Obchodně
+řídící
+oblast
+Realizační
+procesy
+Organizační
+procesy
+Informační
+a rozhodovací
+procesy
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Proces
+přímého
+řízení
+Proces
+nepřímého
+řízení
+Proces
+produkčního
+řízení
+=== PAGE 62 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+62
+Efektivní organizační systém
+Vlastnosti subsystémů 1. řádu
+▪ Nezastupitelnost – všechny subsystémy jsou k plnění
+stanovených cílů stejně důležité
+▪ Vzájemná podmíněnost – závislost výsledného chování
+organizačního systému na všech jeho subsystémech
+▪ Rozdílná stabilita – nejméně stabilní je řídící subsystém
+▪ Proporcionální rozvoj – pokud dojde k přednostnímu rozvoji
+určitého systému tak může dojít k dvojímu možnému vývoji
+▪ Různá kompetentnost – podle pravomoci a sféry působnosti
+▪ Vztah disjunkce a konjunkce – logický součet nebo logický součin
+￼
+=== PAGE 63 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+63
+Vzájemná nezastupitelnost
+Vlastnosti subsystémů 1. řádu
+▪ Nezastupitelnost – všechny subsystémy jsou k plnění stanovených cílů stejně důležité
+▪ žádný subsystém nemůže nahradit jiný
+▪ každý subsystém má jiné prvky nebo vazby
+▪ oblasti mají stejné prvky, ale jiné vazby
+▪ produkčně technická oblast
+▪ oblast nepřímého řízení
+▪ oblast přímého řízení
+▪ procesy mají stejné vazby jiné prvky
+▪ informační proces
+▪ organizační proces
+▪ realizační proces
+￼
+=== PAGE 64 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+64
+Vzájemná podmíněnost
+Vlastnosti subsystémů 1. řádu
+▪ Vzájemná podmíněnost – závislost výsledného chování organizačního systému
+na všech jeho subsystémech
+▪ Subsystémy jsou nezaměnitelné, ale podmíněné
+Podmíněnost subsystémů je dána:
+▪ dynamikou oblastí OS
+▪ dynamikou na hlavní diagonále
+￼
+=== PAGE 65 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+65
+Proporcionalita
+Vlastnosti subsystémů 1. řádu
+▪ správná funkce OS je podmíněna proporcionalitu subsystémů
+▪ posílení jen jednoho subsystému (pokud to není ten nejslabší) nevede ke zlepšení
+fungování celého OS
+▪ je vhodné posilovat pouze limitní subsystém
+▪ snaha o dosažení rovnovážného stavu (dynamické rovnováhy)
+▪ Proporcionální rozvoj – pokud dojde k přednostnímu rozvoji určitého systému
+tak může dojít k dvojímu možnému vývoji
+￼
+=== PAGE 66 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+66
+Stabilita
+Vlastnosti subsystémů 1. řádu
+▪ Rozdílná stabilita – nejméně stabilní je řídící subsystém
+směr zvyšující se hierarchie subsystémů 1. řádu
+￼
+ŘSS
+OSS
+￼
+PS1
+￼
+EES
+￼
+￼
+PS2
+￼
+￼
+TS1
+￼
+￼
+TS2
+￼
+Subsystémy hlavní
+diagonály
+nízká úroveň stability
+minimální množství investic
+rychlá reakce na změny
+střední úroveň stability
+střední množství investic
+střední reakce na změny
+vysoká úroveň stability
+vysoké množství investic
+pomalá reakce na změny
+EIS
+MOS
+=== PAGE 67 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+67
+▪ střední úroveň stability
+▪ střední množství investic
+▪ střední reakce na změny
+▪ střední hierarchie
+▪ vysoký úroveň stability
+▪ vysoké množství investic
+▪ pomalá reakce na změny
+▪ nízká hierarchie
+▪ nízká úroveň stability
+▪ minimální množství investic
+▪ rychlá reakce na změny
+▪ nejvyšší hierarchie
+Stabilita
+vs. Hierarchie
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Subsystémy hlavní
+diagonály
+￼
+￼
+￼
+Růst hierarchie
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PS1
+EES TS1 TS2
+￼
+￼
+￼
+PS2
+OSS
+MOS EIS
+￼
+ŘSS
+pT1-n
+￼
+￼
+HPn,m
+￼
+￼
+￼
+￼
+￼
+P1-n T1-n
+HPn,m
+￼
+￼
+￼
+￼
+TP1-n
+PHPn,m
+EKS
+ERS
+FSpTn,m
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+MSS
+OBS
+SS1
+SS2
+MJS
+SŘO
+SPŘ
+SS3
+OS 1-n
+OJ n,m
+JOPn,m
+ISS
+ESS
+FSS
+Subsystémy nad
+hlavní diagonálou
+Subsystémy pod
+hlavní diagonálou
+Růst stability
+￼
+￼
+￼
+￼
+￼
+=== PAGE 68 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+68
+Hierarchie ŘSS PS1
+Řídící subsystém je ve vztahu k ostatním subsystémům subjektem řízení
+￼
+ŘSS
+subjekt
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Rozhodnutí
+o nové produkci
+Příprava produkce
+1) Kontrola produkce
+2) Požadavky produkce
+Zadání
+přípravy
+produkce
+Chování PS1
+(produkce)
+Vzájemný vztah ŘSS a PS1
+PS1
+objekt
+￼
+=== PAGE 69 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+69
+Hierarchie ŘSS OSS
+Řídící subsystém je ve vztahu k ostatním subsystémům subjektem řízení
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Informační
+zdroj
+Návrh změn
+v organizaci OS
+Vytvoření
+nových OJ,
+směn …
+1) Požadavky OSS
+2) Kontrola plnění
+příkazů
+Příkaz k
+provedení
+změn
+Chování OSS
+(důsledek změn)
+Vzájemný vztah ŘSS a OSS
+ŘSS
+subjekt
+OSS
+objekt
+￼
+=== PAGE 70 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+70
+Hierarchie ŘSS TS1
+Řídící subsystém je ve vztahu k ostatním subsystémům subjektem řízení
+￼
+￼
+TS1
+objekt
+￼
+￼
+￼
+￼
+￼
+￼
+Informační
+zdroj
+Rozhodnutí
+o technologii
+Příprava
+technologického
+postupu
+1) Kontrola technologie
+2) Požadavky technologie
+Zadání
+přípravy
+technologického
+postupu
+Chování TS1
+(technologický proces)
+Vzájemný vztah ŘSS a TS1
+ŘSS
+subjekt
+￼
+=== PAGE 71 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+71
+Hierarchie ŘSS TS2
+Řídící subsystém je ve vztahu k ostatním subsystémům subjektem řízení
+￼
+Vzájemný vztah ŘSS a TS2
+￼
+￼
+TS2
+objekt
+￼
+￼
+￼
+￼
+￼
+￼
+Informační
+zdroj
+Výběr HP
+(technických
+prostředků)
+Instalace HP
+1) Kontrola
+fungování
+HP
+Zadání
+k nákupu
+HP
+Chování TS2
+(fungování a výkon HP)
+ŘSS
+subjekt
+=== PAGE 72 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+72
+Hierarchie ŘSS MOS
+Řídící subsystém je ve vztahu k ostatním subsystémům subjektem řízení
+￼
+Vzájemný vztah ŘSS a MOS
+￼
+￼
+MOS
+objekt
+￼
+￼
+￼
+￼
+￼
+￼
+Informační
+zdroj
+Stanovení marketingové
+a obchodní strategie
+Příprava marketingových
+obchodních případů
+1) Kontrola plnění
+marketingové
+aobchodní
+strategie
+2) Informace o průběhu
+obchodních případů
+Zadání
+strategie
+Chování MOS
+(obchodní případy (OP))
+ŘSS
+subjekt
+=== PAGE 73 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+73
+Hierarchie ŘSS EIS
+Řídící subsystém je ve vztahu k ostatním subsystémům subjektem řízení
+￼
+Informační
+zdroj
+￼
+￼
+EIS
+objekt
+￼
+￼
+￼
+￼
+￼
+￼
+Potřebné informace
+Zpracování informací
+Struktura informaci
+Tvorba informačních
+systémů
+1) Požadavky EIS
+2) Kontrola plnění
+zadání
+Zadání
+Chování EIS
+(poskytované informace)
+ŘSS
+subjekt
+Vzájemný vztah ŘSS a EIS
+=== PAGE 74 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+74
+Hierarchie ŘSS EES
+Řídící subsystém je ve vztahu k ostatním subsystémům subjektem řízení
+￼
+Informační
+zdroj
+￼
+￼
+EES
+objekt
+￼
+￼
+￼
+￼
+￼
+￼
+Návrh řešení
+požadavků
+Realizace
+opatření
+1) Požadavky EES
+2) Kontrola plnění
+požadavků
+Opatření
+Chování EES
+(realizovaná opatření)
+ŘSS
+subjekt
+Vzájemný vztah ŘSS a EES
+=== PAGE 75 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+75
+Hierarchie ŘSS PS2
+Řídící subsystém je ve vztahu k ostatním subsystémům subjektem řízení
+￼
+Informační
+zdroj
+￼
+￼
+PS2
+objekt
+￼
+￼
+￼
+￼
+￼
+￼
+Informační
+zdroj
+Stanovení cílů pro PS2
+Program plnění
+Pracovní postupy
+při fyzické spolupráci
+Kontrola plnění
+úkolů
+Úkoly
+Chování PS2
+(realizovaná spolupráce)
+ŘSS
+subjekt
+Vzájemný vztah ŘSS a PS2
+=== PAGE 76 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+76
+Kompetence
+Vlastnosti subsystémů 1. řádu
+▪ Různá kompetentnost – podle pravomoci a sféry působnosti
+▪ Kompetence je schopnost nebo předpoklad zvládnout určitou funkci, úkol, očekávané chování
+▪ měříme ji poměrným číslem od 0 - 1
+▪ součet kompetencí subsystémů je 1, pokud je systém správně nastaven
+Kompetence jednotlivých subsystémů OS zajišťuje kompetenci celého systému.
+Kcs ˂ 1 znamená to, že v systému existují hluchá místa bez kompetencí
+Kcs˃ 1 znamená to, že se překrývají kompetence jednotlivých subsystémů
+Kcs … celková kompetence OS
+=== PAGE 77 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+77
+Kompetence
+Vlastnosti subsystémů 1. řádu
+Ki,j = PRi x SPj
+kde Ki,j … kompetence určitého subsystému na určité hierarchické úrovni
+SPj sféra působnosti pro subsystémy na stejné hierarchické úrovni
+PRi pravomoc pro i-tý hierarchický stupeň
+SPj =
+1
+počet subsystémů PRi =
+1
+počet úrovní
+Kompetenci konkrétního subsystému (Ki,j) lze charakterizovat jako současný vliv sféry působnosti (SPj) a pravomocí (PRi).
+Výpočet:
+=== PAGE 78 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+78
+Kompetence
+Vlastnosti subsystémů 1. řádu
+1. meziúroveň
+Hlavní úroveň
+2. meziúroveň
+Hlavní úroveň
+Vzdálené
+podpůrné
+subsystémy
+Vzdálené
+podpůrné
+subsystémy
+￼
+▪ postavení subsystémů
+1. řádu k hlavní diagonále
+určuje kompetentnost
+jednotlivých subsystémů
+=== PAGE 79 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+79
+Výpočet kompetencí subsystémů 1. řádu OS
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+EIS
+ŘSS
+OSS
+EES TS1
+PS2 TS2
+PS1
+PR 1 = 0,2
+PR 2 = 0,2
+PR 3 = 0,2
+PR 4= 0,2
+PR 5= 0,2
+SP1= 1,000
+SP2= 0,500
+SP3= 1,000
+SP4= 0,500
+SP5= 0,333
+K1,1 = 0,2
+K3,1 = 0,2
+K2,1 = 0,1 K2,2 = 0,1
+K4,1 = 0,1 K4,2 = 0,1
+K5,1 = 0,067 K5,2 = 0,066 K5,3= 0,067
+0,067 0,466
+MOS
+0,200 0,200 0,067
+1,000
+K 5 = PR 5 x SP5
+K 4 = PR4 x SP4
+K3 = PR3 x SP3
+K 2 = PR2 x SP2
+Hlavní
+subsystémy
+(hlavní diagonála)
+Podpůrné
+subsystémy
+(blízké)
+Podpůrné
+Subsystémy
+(blízké)
+Podpůrné
+Subsystémy
+(vzdálené)
+Podpůrné
+subsystémy
+(vzdálené)
+Kompetence
+Pravomoci
+(Rozhodování)
+Sféra
+působnosti
+K 1 = PR1 x SP1
+Hlavní
+subsystém
+Hlavní
+subsystém
+Podpůrné SS
+Podpůrné SS
+Hierar-
+chické
+úrovně
+1
+3
+5
+hlavní
+úroveň
+hlavní
+úroveň
+hlavní
+úroveň Hlavní vzdálený SS
+Vzdálený
+podpůrný SS
+Vzdálený
+podpůrný SS
+mezi
+úroveň
+mezi
+úroveň
+2
+4
+Kcs
+=== PAGE 80 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+80
+Disjunkce a konjunkce
+Vlastnosti subsystémů 1. řádu
+▪ Vztah disjunktivní - subsystémy nemají společné prvky ani vazby
+▪ produkční a řídící subsystém
+▪ jejich vztah představuje logický součet - procesy probíhají po sobě
+a důsledky se sčítají
+▪ Vztah konjunktivní - mají společné prvky nebo vazby
+▪ marketingově obchodní a řídící subsystém
+▪ jejich vztah představuje logický součin - procesy probíhají
+současně a důsledky se násobí
+▪ Vztah disjunkce a konjunkce – logický součet nebo logický součin
+￼
+=== PAGE 81 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+81
+Subsystémy OS – prvky, vazby, rozlišovací úroveň
+￼
+S = [HP,SP,L ], [HE,SV,I] → → → → →
+￼
+Výsledek obrázku pro obrázek krychle
+￼
+prvky vazby rozlišovací úroveň
+1. rozměr
+2. rozměr
+3. rozměr
+￼
+￼
+2 rozměry 3 rozměry
+5. rozlišovací úroveň
+=== PAGE 82 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+82
+Posloupnost vzniku a vzájemné návaznosti
+subsystémů 1. řádu
+Subsystémy
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PS1 T1S T2S
+EES OSS EIS
+PS2 MOS ŘSS
+￼
+￼
+￼
+￼
+￼
+￼
+=== PAGE 83 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+83
+Produkční subsystém PS1
+￼
+Produkční
+subsystém
+PS1
+Subsystém
+produkt 1
+P1
+￼
+Subsystém
+produkt 2
+P2
+Subsystém
+produkt 3
+P3
+2. rozlišovací úroveň
+subsystém 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+￼
+Hmotný
+prvek
+HP21
+HP22
+...
+HP23
+.
+.
+.
+.
+.
+.
+4. rozlišovací úroveň
+subsystémy 3. řádu
+P1 → subsystém produktu 1, Pn → subsystém produktu n
+HP21 → 1. hmotný prvek subsystému P2
+Konkrétní
+Stroje
+Budovy
+PC + kom.
+atd.
+Konkrétní
+Materiál
+Elektrická eng.
+PHM, palivo
+atd.
+Konkrétní
+Stroje
+Budovy
+PC + kom.
+atd.
+HP2m
+￼
+￼
+HE vazby
+HE vazby
+Konkrétní
+Materiál
+Elektrická eng.
+PHM, palivo
+atd.
+Konkrétní
+Stroje
+Budovy
+PC + kom.
+atd.
+Konkrétní
+Materiál
+Elektrická eng.
+PHM, palivo
+atd.
+Konkrétní
+Stroje
+Budovy
+PC + kom.
+atd.
+￼
+HE vazby
+(meziprodukt)
+(fyzická návaznost) (fyzická návaznost)
+(Bez fyzické
+návaznosti)
+￼
+￼
+￼
+￼
+￼
+￼
+Pn.............
+￼
+HE vazby
+(fyzická návaznost)
+￼
+Výsledek obrázku pro obrázek krychle
+￼
+￼
+pohled do OS
+=== PAGE 84 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+84
+Technologický subsystém
+￼
+￼
+￼
+￼
+Technologický
+subsystém
+TS1
+Subsystém
+technologie 1
+T1
+Subsystém
+technologie 2
+T2
+Subsystém
+technologie n
+Tn
+.....
+2. rozlišovací úroveň
+subsystém 1. řádu
+HP22
+... HP2m
+.
+.
+.
+.
+.
+.
+T1 → subsystém technologie 1
+HP21 → 1. hmotný prvek pro T 2
+tp2 → technologický postup pro T2
+HP21
+￼
+SV (smíšené
+vazby) (technologický postup)
+￼
+SV (smíšené
+vazby)(technologický postup)
+Konkrétní
+Stroje
+Budovy
+PC + kom.
+atd.
+Konkrétní
+informace
+tp2: množství,
+lhůty, teplota,
+návaznosti, atd.
+￼
+Konkrétní
+Stroje
+Budovy
+PC + kom.
+atd.
+Konkrétní
+informace
+tp2: množství,
+lhůty, teplota,
+návaznosti, atd.
+￼
+Konkrétní
+Stroje
+Budovy
+PC + kom.
+atd.
+3. rozlišovací úroveň
+subsystémy 2. řádu
+4. rozlišovací úroveň
+subsystémy 3. řádu
+=== PAGE 85 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+85
+Technický subsystém
+￼
+Technický
+subsystém
+TS2
+Subsystém
+požadavky
+technologie 1
+PT1
+Subsystém
+požadavky
+technologie 2
+PT2
+Subsystém
+požadavky
+technologie n
+PTn
+. . . . .
+2. rozlišovací úroveň
+subsystémy 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+Parametry HP21
+PHP21
+...
+.
+.
+.
+.
+.
+.
+4. rozlišovací úroveň
+subsystémy 3. řádu
+(prvky TS2)
+Parametry HP22
+PHPZ22
+Parametry HP2n
+PHP2n
+PT1 → požadavky technologie 1
+HP21 → 1. hmotný prvek pro T2
+PHP21 → (technické) parametry) 1. hmotného prvku pro technologii 2
+=== PAGE 86 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+86
+Ekologicko-ergonomicky subsystém
+￼
+Ekologicko-ergonomický
+subsystém
+EES
+Subsystém
+ekologický
+EKS
+Subsystém
+ergonomický
+ERS
+2. rozlišovací úroveň
+subsystém 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+Ekologická opatření
+na pracovištích
+4. rozlišovací úroveň
+subsystémy 3. řádu
+(prvky OS)
+Ekologická opatření
+pro životní prostředí
+EkOPr → ekologická opatření na pracovištích
+EkOŽp → ekologická opatření pro životní prostředí
+ErOT1 → ergonomická opatření na pracovišti s T1
+ErOTn → ergonomická opatření na pracovištích s Tn
+T1 → technologie 1
+Tn → technologie n
+Ergonomická opatření
+na pracovištích T1
+Ergonomická opatření
+na pracovištích Tn…
+=== PAGE 87 ===
+￼
+Ekologicko-ergonomický
+subsystém
+EES
+Subsystém
+ekologický
+EKS
+Subsystém
+ergonomický
+ERS
+2. rozlišovací úroveň
+subsystém 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+Ekologická opatření
+na pracovištích
+4. rozlišovací úroveň
+subsystémy 3. řádu
+(prvky OS)
+Ekologická opatření
+pro životní prostředí
+EkOPr → ekologická opatření na pracovištích
+EkOŽp → ekologická opatření pro životní prostředí
+ErOT1 → ergonomická opatření na pracovišti s T1
+ErOTn → ergonomická opatření na pracovištích s Tn
+T1 → technologie 1
+Tn → technologie n
+Ergonomická opatření
+na pracovištích T1
+Ergonomická opatření
+na pracovištích Tn…
+=== PAGE 88 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+88
+Organizační subsystém
+￼
+Organizační
+subsystém
+OSS
+Organizační
+stupeň 1
+OS1
+Organizační
+stupeň 2
+OS2
+Organizační
+stupeň n
+OSn
+. . . . .
+2. rozlišovací úroveň
+subsystémy 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+Organizační jednotka
+OJ21
+...
+.
+.
+.
+.
+.
+.
+4. rozlišovací úroveň
+subsystémy 3. řádu
+(prvky OS)
+Organizační jednotka
+OJ22
+OSS → organizační subsystém
+OS1 → první organizační stupeň
+OJ21 → první organizační jednotka OS2
+Organizační jednotka
+OJ2n
+=== PAGE 89 ===
+￼
+Organizační
+subsystém
+OSS
+Organizační
+stupeň 1
+OS1
+Organizační
+stupeň 2
+OS2
+Organizační
+stupeň n
+OSn
+. . . . .
+2. rozlišovací úroveň
+subsystémy 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+Organizační jednotka
+OJ21
+...
+.
+.
+.
+.
+.
+.
+4. rozlišovací úroveň
+subsystémy 3. řádu
+(prvky OS)
+Organizační jednotka
+OJ22
+OSS → organizační subsystém
+OS1 → první organizační stupeň
+OJ21 → první organizační jednotka OS2
+Organizační jednotka
+OJ2n
+=== PAGE 90 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+90
+Organizační stupně
+Organizační systém
+￼
+OS1 → podnik
+OS2 → divize
+OS3 → závod
+OS4 → provoz
+OJ21
+OJ22
+OJ23
+OJ31
+OJ32
+OJ33
+OJ41 OJ42
+OJ43
+(OJ11)
+=== PAGE 91 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+91
+Ekonomicko-informační subsystém
+Sdílení a výměna
+informací
+Sdílení a výměna
+informací
+Sdílení a výměna
+informací
+￼
+Ekonomicko-informační
+subsystém
+EIS
+Informační
+subsystém
+ISS
+Ekonomický
+subsystém
+ESS
+Finanční
+subsystém
+FSS
+2. rozlišovací úroveň
+3. rozlišovací úroveň
+Skupiny řídících
+informací
+SŘI1 → SŘIn
+4. rozlišovací
+úroveň
+Skupiny ekonomických
+informací
+SEI1 → SEIn
+Skupiny finančních
+informací
+SFI1 → SFIn
+- informace o trhu
+-vědecko-technické
+informace
+- řídící informace
+-ekonomický vývoj
+- ceny materiálu
+- ceny zboží
+- cena práce
+- ekonomické parametry
+- ekonomické ukazatele
+- ekonomické výsledky
+Finanční zdroje:
+- vlastní
+- externí
+Investice:
+- velikost
+- návratnost
+Cash-flow
+Cenné papíry
+Kapitálové účasti
+￼
+￼
+Sdílení a výměna
+informací
+￼
+￼
+=== PAGE 92 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+92
+Pracovní subsystém
+￼
+Pracovní
+subsystém
+PS2
+Pracoviště
+technologie 1
+pT1
+Pracoviště
+technologie 2
+pT2
+Pracoviště
+technologie n
+pTn
+. . . . .
+2. rozlišovací úroveň
+subsystémy 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+Fyzická spolupráce na pT1
+FSpT1
+4. rozlišovací úroveň
+subsystémy 3. řádu
+(prvky OS)
+Fyzická spolupráce na pT2
+FSpT2
+PS2 → pracovní subsystém
+pT1 → pracoviště první technologie
+pTn → pracoviště n-té technologie
+FSpT1 → fyzická spolupráce na pT1
+FSpTn → fyzická spolupráce na pTn
+Fyzická spolupráce na pTn
+FSpTn
+=== PAGE 93 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+93
+Marketingově obchodní subsystém
+￼
+Marketingově-obchodní
+subsystém
+MOS
+Servisní
+subsystém
+SS1
+Obchodní
+subsystém
+OBS
+Subsystém
+služeb
+SS2
+2. rozlišovací úroveň
+subsystém 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+Servisní případ 1 → n
+SP 1-n
+4. rozlišovací úroveň
+subsystémy 3. řádu
+(prvky OS)
+Obchodní případ 1 → n
+OP 1-n
+MOS → marketingově-obchodní subsystém
+MS → marketingový subsystém
+OBS → obchodní subsystém
+SS1 → servisní subsystém
+SS2 → subsystém služeb
+MP1-n → marketingové případy od prvního po n-tý
+OP1-n → obchodní případy od prvního po n-tý
+SP1-n → servisní případy od prvního po n-tý
+S1-n → služba 1-n
+Služba 1 → n
+S1-n
+Marketingový případ 1 → n
+MP 1-n
+Marketingový
+subsystém
+MS
+=== PAGE 94 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+94
+Řídící subsystém
+￼
+Řídící
+subsystém
+ŘSS
+Majetkový
+subsystém
+MJS
+Subsystém
+řídících orgánů
+SSŘO
+2. rozlišovací
+úroveň
+3. rozlišovací
+úroveň
+Majitelé 1 → n
+M 1-n
+4. rozlišovací
+úroveň
+VH
+M 1-n → majitelé od prvního po n-tého
+SS 1-n → sociální skupiny od první po n-tou
+ŘP 1-n → řídící pracovníci od prvního po n-tého
+Z 1-n → zaměstnanci od prvního po n-tého
+Sociální
+subsystém
+SSS3
+Sociální skupiny 1 → n
+SS 11-n
+Účastníci
+valné hromady
+Zaměstnanci
+členové soc. skupin 1 → n
+Z 1-n
+Subsystém
+přímého řízení
+SSPŘ
+Řídící stupně 1 → n
+ŘS 1-n
+Řídící pracovníci 1 → n
+ŘP 1-n
+PŘ DR
+Členové
+představenstva
+Členové
+dozorčí rady
+VH → valná hromada
+PŘ → představenstvo
+DR → dozorčí rada
+(I) → informační vazby
+(výměna informací)
+￼
+￼
+￼
+(I) (I) (I)
+=== PAGE 95 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+95
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká
+zemědělská univerzita, Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem
+on Production-Technical Area of Organizational System. Agrarian Perspectives
+XXVIII. International Scientific Conference
+=== PAGE 96 ===
+Děkuji za pozornost.
+=== PAGE 97 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 98 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+98
+Organizační a řídící struktury podniku
+OS a ŘS
+Organizační struktura
+- základní pojmy
+•organizační jednotka
+•organizační stupeň
+•typy organizační
+struktury
+Řídící struktura -
+základní pojmy
+•typy řídící struktury
+•řídící kapacita
+=== PAGE 99 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+99
+Organizační subsystém
+OSS
+Organizační
+stupeň 1
+OS1
+Organizační
+stupeň 2
+OS2
+Organizační
+stupeň n
+OSn
+. . . . .
+2. rozlišovací úroveň
+subsystémy 1. řádu
+3. rozlišovací úroveň
+subsystémy 2. řádu
+Organizační jednotka
+OJ21
+...
+.
+.
+.
+.
+.
+.
+4. rozlišovací úroveň
+subsystémy 3. řádu
+(prvky OS)
+Organizační jednotka
+OJ22
+OSS → organizační subsystém
+OS1 → první organizační stupeň
+OJ21 → první organizační jednotka OS2
+Organizační jednotka
+OJ2n
+￼
+=== PAGE 100 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+100
+Organizační struktura
+OS a ŘS
+▪ Organizační stupeň
+▪ Organizační stupeň představují OJ stejného typu, přibližně stejné velikosti
+a stejného významu na stejné rozlišovací úrovni
+▪ relativně materiálně, energeticky, organizačně a ekonomicky samostatný
+druh organizační jednotky: podnik, divize, závod, provoz
+=== PAGE 101 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+101
+Organizační struktura
+OS a ŘS
+▪ Organizační jednotka (OJ)
+▪ je dána určitým počtem výkonných /manuálních pracovníků, kteří mají k
+dispozici určité množství VP
+▪ prostřednictvím nich se realizuje určitý výrobní proces nebo jeho část a v
+jejich čele stojí jediný přímý vedoucí
+▪ JOP – dále nedělitelná organizační jednotka = Jednotka Organizace Práce
+=== PAGE 102 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+102
+Organizační struktura
+OS a ŘS
+▪ Faktory ovlivňující tvorbu organizační struktury nebo její změnu:
+▪ velikost firmy a struktura
+▪ používaná technika a technologie
+▪ vliv prostředí
+▪ právní forma firmy
+▪ úroveň komunikačních a informačních prostředků firem
+▪ strategie a cíle firmy
+▪ firemní kultura
+=== PAGE 103 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+103
+Organizační struktura
+OS a ŘS
+▪ Faktory ovlivňující tvorbu organizační struktury
+nebo její změnu:
+▪ velikost firmy
+▪ používaná technika a technologie
+▪ vliv prostředí
+▪ právní forma firmy
+▪ úroveň komunikačních a informačních
+prostředků firem
+▪ strategie a cíle firmy
+▪ firemní kultura
+￼
+=== PAGE 104 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+104
+Organizační stupně OS
+Organizační stupně podniku
+￼
+OS1 → podnik
+OS2 → divize
+OS3 → závod
+OS4 → provoz
+OJ21
+OJ22
+OJ23
+OJ31
+OJ32
+OJ33
+OJ41 OJ42 OJ43
+(OJ11)
+=== PAGE 105 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+105
+￼
+￼
+￼
+￼
+Organizační stupně
+OS a ŘS
+• jednostupňová struktura
+• dvoustupňová struktura
+podnik
+JOP JOP
+JOP
+JOP
+provoz
+JOP
+podnik
+JOP JOP JOP
+JOP není stupeň
+JOP není stupeň
+￼
+￼
+￼
+￼
+provoz
+￼
+￼
+=== PAGE 106 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+106
+￼
+￼
+￼
+￼
+Organizační stupně
+OS a ŘS
+• třístupňová organizační struktura
+provoz
+JOP
+závod
+JOP JOP JOP
+JOP není stupeň
+￼
+￼
+￼
+￼
+provoz provoz
+JOP
+závod
+JOP JOP JOP
+provoz
+podnik
+￼
+=== PAGE 107 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+107
+Organizační struktura
+Organizační struktura
+PODNIK
+Divize 1 Divize 2
+Závod 11
+Provoz 111
+Provoz 112
+Divize 3 Divize 4
+Závod 12 Závod 21 Závod 22 Závod 31 Závod 32 Závod 41 Závod 42 Závod 43
+Provoz 113
+Provoz 114
+Provoz 121
+Provoz 122
+Provoz 123
+Provoz 214
+Provoz 213
+Provoz 212
+Provoz 211
+Provoz 414
+Provoz 413
+Provoz 412
+Provoz 411
+Provoz 424
+Provoz 423
+Provoz 422
+Provoz 421
+Provoz 433
+Provoz 432
+Provoz 431
+Provoz 223
+Provoz 222
+Provoz 221
+Provoz 312
+Provoz 311
+Provoz 322
+Provoz 321
+=== PAGE 108 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+108
+Organizační struktura
+OS a ŘS
+Základní typy
+▪ podle druhu činnosti
+▪ podle druhu transformačního procesu
+▪ podle druhu organizačního procesu
+▪ územní (podle lokality)
+▪ odvětvová (podle druhu výroby, odvětví)
+▪kombinovaná
+￼
+=== PAGE 109 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+109
+Organizační struktura
+OS a ŘS
+Základní typy
+▪ podle druhu činnosti
+▪ podle druhu transformačního procesu
+▪ podle druhu organizačního procesu
+▪ územní (podle lokality)
+▪ odvětvová (podle druhu výroby, odvětví)
+▪kombinovaná
+￼
+=== PAGE 110 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+110
+Organizační struktura
+OS a ŘS
+￼
+Sestupná – podniková
+hierarchie (příkazy,
+instrukce, delegování, …)
+Vzestupná – informace a
+sdělení (nápady,
+inspirace, nutné
+naslouchat)
+Horizontální –
+koordinace OJ,
+Spolupráce vedoucích,
+odstranění výsledků
+špatné vertikální K
+Diagonální - všemi směry
+- spíše neformální typ
+komunikace
+￼
+=== PAGE 111 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+111
+Organizační struktura
+OS a ŘS
+Základní typy
+▪ podle druhu činnosti
+▪ podle druhu transformačního procesu
+▪ podle druhu organizačního procesu
+▪ územní (podle lokality)
+▪ odvětvová (podle druhu výroby, odvětví)
+Výhody / Nevýhody
+▪kombinovaná
+￼
+=== PAGE 112 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+112
+￼
+=== PAGE 113 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+113
+Améba
+OS a ŘS
+￼
+▪ nemají stálý počet
+zaměstnanců
+▪ nemají stálé technické
+vybavení
+▪ pronájem technického
+zařízení na určitou dobu
+▪ získání zaměstnanců na určitou dobu
+▪ když améba nefunguje, tak zaniká → zaměstnanci jsou bez práce, ale i bez mzdy
+▪ pokud si je nevybere jiná améba, tak z podniku odchází
+=== PAGE 114 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+114
+Řídící struktura
+OS a ŘS
+▪ Řídící struktura - je tvořena řídícími pracovníky,
+▪ kteří mají mezi sebou informační vazby.
+▪ informační vazby: vztahy pravomoci, kompetencí, podřízenosti a nadřízenosti,
+spolupráce.
+▪ Řídící jednotka
+▪ Řídící kapacita/ řídící rozpětí - počet přímo podřízených pracovníků
+konkrétnímu řídícímu pracovníkovi.
+￼
+=== PAGE 115 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+115
+Řídící struktura
+OS a ŘS
+￼
+￼
+Generální ředitel
+Ředitel závodu 1 Ředitel závodu 2 . . . . . Ředitel závodu n
+Vedoucí provozu 21 Vedoucí provozu 22 Vedoucí provozu 2n. . . .
+=== PAGE 116 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+116
+Řídící subsystém
+Majetkový
+subsystém
+MJS
+Subsystém
+řídících orgánů
+SŘO
+2. rozlišovací
+úroveň
+3. rozlišovací
+úroveň
+Majitelé 1 → n
+M 1-n
+4. rozlišovací
+úroveň
+VH
+M 1-n → majitelé od prvního po n-tého
+SS 1-n → sociální skupiny od první po n-tou
+ŘP 1-n → řídící pracovníci od prvního po n-tého
+Z 1-n → zaměstnanci od prvního po n-tého
+Sociální
+subsystém
+SSS3
+Sociální skupiny 1 → n
+SS 11-n
+Účastníci
+valné hromady
+Zaměstnanci
+členové soc. skupin 1 → n
+Z 1-n
+Subsystém
+přímého řízení
+SPŘ
+Řídící stupně 1 → n
+ŘS 1-n
+Řídící pracovníci 1 → n
+ŘP 1-n
+PŘ DR
+Členové
+představenstva
+Členové
+dozorčí rady
+VH → valná hromada
+PŘ → představenstvo
+DR → dozorčí rada
+(I) → informační vazby
+(výměna informací)
+￼
+￼
+￼
+(I) (I) (I)
+5. rozlišovací
+úroveň
+￼
+ŘSS
+=== PAGE 117 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+117
+Vztah organizační a řídící struktury
+￼
+￼
+v
+v
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Divize
+￼
+Podnik
+Provoz
+￼
+Závod
+1
+2 → vedoucí divize 3 → (náměstek GŘ)
+1
+2
+3
+1
+2
+3
+1. stupeň
+2. stupeň
+3. stupeň
+4. stupeň
+JOP
+Jednotky
+organizace
+práce
+→ předseda představenstva,
+generální ředitel
+→ vedoucí divize 2 → (náměstek GŘ)
+→ vedoucí divize 1 → (náměstek GŘ)
+→ vedoucí závodu 1 → (ředitel závodu)
+→ vedoucí závodu 1 → (ředitel závodu)
+→ vedoucí závodu 1 → (ředitel závodu)
+→ vedoucí provozu 1 → (ředitel provozu)
+→ vedoucí provozu 1 → (ředitel provozu)
+→ vedoucí provozu 1 → (ředitel provozu)
+3
+Organizační stupně Řídící stupně
+1. stupeň
+2. stupeň
+3. stupeň
+4. stupeň
+Řídící struktura má, stejný počet stupňů jako organizační struktura.
+=== PAGE 118 ===
+4 stupňová řídící struktura (pouze SPŘ)
+￼
+Generální ředitel
+Ředitel divize 1 Ředitel divize 2
+Ředitel závodu 21
+Ředitel divize n. . . . .
+Ředitel závodu 22 . . . . . Ředitel závodu 2n
+Vedoucí provozu 221 Vedoucí provozu 222 Vedoucí provozu 22n. . . .
+6
+=== PAGE 119 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+119
+Řídící struktura – americký model
+￼
+Valná hromada
+Představenstvo
+Generální ředitel
+Dozorčí rada
+Ředitel závodu 1 Ředitel závodu n
+Předseda představenstva
+Vedoucí provozu 1
+Vedoucí provozu 2
+Vedoucí provozu 3
+Vedoucí provozu 1
+Vedoucí provozu 2
+Vedoucí provozu 3
+…
+→ Majitelé (držitelé akcií, podílů)
+→ Zástupci v PR a DR voleni VH
+→ Předseda představenstva → volen představenstvem
+→ GŘ → jmenován představenstvem
+→ ŘZ → jmenováni GŘ
+Valná hromada
+=== PAGE 120 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+120
+Průměrná řídící kapacita
+OS a ŘS
+￼
+q …. průměrná řídící kapacita
+n … počet stupňů řízení
+a0 … počet manuálních pracovníků v podniku
+av … počet vrcholových pracovníků
+ρ … koeficient rozšířené řídící kapacity [ró]
+￼
+=== PAGE 121 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+121
+Průměrná řídící kapacita – příklad
+OS a ŘS
+Jaká bude průměrná řídící kapacita v podniku, ve kterém pracuje 468 manuálních
+pracovníků, řídící struktura je uspořádána do 3 stupňů řízení, průměrná velikost
+JOP je 12,8 a ředitel podniku řídí přímo 5 podřízených.
+￼
+=== PAGE 122 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+122
+Typy řídících struktur
+OS a ŘS
+Základní řídící struktury můžeme členit podle:
+▪ vztahu k transformačním procesům
+▪ útvarových struktur
+▪ věcně řídících struktur
+▪ projektové struktury
+▪ procesní struktury
+=== PAGE 123 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+123
+Řídící struktura – linioví a štábní ŘP – podle vztahu k transformačním procesům
+￼
+Generální ředitel
+￼
+Ředitel Z1 Ředitel Z2…
+Vedoucí P12
+JOP
+JOP
+JOP
+Vedoucí P11
+Linie 1
+￼
+Výkonní pracovníci
+Vedení
+podniku
+Linie: GŘ → ŘZ → VP
+Vedoucí P22
+JOP
+JOP
+JOP
+Vedoucí P21
+￼
+Výkonní pracovníci
+Linie 2
+=== PAGE 124 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+124
+Útvarové řídící struktury – funkcionální typ řídící struktury
+￼
+￼
+Vedení podniku
+Ředitel
+výroby
+Ekonomický
+ředitel…
+Vedoucí fin.
+oddělení
+Vedoucí
+provozů
+Obchodní
+ředitel
+￼
+￼
+Plánovač
+Vedoucí
+zásobování
+Liniové
+uspořádání
+(3 stupně)
+￼
+￼
+Vedoucí marketingu
+Vedoucí reklamace
+Vedoucí propagace
+Vedoucí
+obchodních
+skupin
+￼
+Liniové
+uspořádání
+(2 stupně)
+Vedoucí
+účtárny
+Vedoucí
+metodického
+oddělení
+￼
+Liniové
+uspořádání
+(2 stupně)
+Ředitelé
+závodů
+￼
+=== PAGE 125 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+125
+Věcné řídící struktury – divizionální typ řídící struktury
+Vedení podniku
+￼
+Ředitel
+Divize 1
+Ředitel
+Divize 3…
+Vedoucí
+výroby
+Ředitel
+Divize 2
+￼
+￼
+Plánovač
+Ekonom
+Právník
+￼
+￼
+Vedoucí
+prodeje
+Vedoucí
+financí
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Vedoucí
+výroby
+Vedoucí
+prodeje
+Vedoucí
+financí
+Vedoucí
+výroby
+Vedoucí
+prodeje
+Vedoucí
+financí
+ŘZ1
+ŘZ2
+ŘZ3
+ŘZ4
+￼
+Liniové
+uspořádání
+￼
+Plánovač
+Ekonom
+Právník
+Plánovač
+Ekonom
+Právník
+=== PAGE 126 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+126
+Pružné řídící struktury – Projektová řídící struktura
+Vedení podniku (Představenstvo, GŘ, štáb)
+￼
+VP 1
+vývoje
+VP 2
+vývoje
+VP 3
+vývoje
+VP n
+vývoje
+VP 1
+výroby
+VP 1
+servisu
+VP 1
+obchodu
+VP 2
+výroby
+VP 3
+výroby
+VP n
+výroby
+VP 2
+servisu
+VP 3
+servisu
+VP n
+servisu
+VP 2
+obchodu
+VP 3
+obchodu
+VP n
+obchodu
+Ředitel
+vývoje
+Ředitel
+servisu
+Ředitel
+výroby
+…
+.
+.
+.
+Obchodní
+ředitel
+Vedoucí P1
+Vedoucí P2
+Vedoucí P3
+Vedoucí Pn
+=== PAGE 127 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+127
+Procesní řídící struktury Vedení podniku (Představenstvo, GŘ, štáb)
+Sponzor
+Procesu P1
+Vlastník P11
+Vlastník P12
+Vlastník P1n
+Ředitel
+servisu
+Ředitel
+výroby
+Ředitel
+vývoje
+Sponzor
+procesu P2
+Sponzor
+Procesu Pn
+￼
+￼
+￼
+Koordinátor
+procesu P1
+Vlastník P21
+Vlastník P22
+Vlastník P2n
+￼
+￼
+￼
+Koordinátor
+procesu P2
+Vlastník Pn1
+Vlastník Pn2
+Vlastník Pnn
+￼
+￼
+￼
+Koordinátor
+procesu Pn
+. . . . .
+.
+.
+.
+Obchodní
+ředitel
+=== PAGE 128 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+128
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká
+zemědělská univerzita, Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem
+on Production-Technical Area of Organizational System. Agrarian Perspectives
+XXVIII. International Scientific Conference
+=== PAGE 129 ===
+Děkuji za pozornost.
+=== PAGE 130 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 131 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+131
+Motivace
+Motivace
+▪ soubor činitelů – vnitřní hnací síly, které usměrňují lidské chování a prožívání
+▪ představuje touhu člověka dosáhnout jemu žádoucího cíle
+▪ proces, který ovlivňuje chování člověka v různých situacích v průběhu života
+▪ soubor hnacích sil usměrňujících veškerou aktivitu daného jedince (uspokojování požitků)
+▪ vnitřní síla, která žene člověka k uspokojování jeho nenaplněných potřeb
+Motivy:
+▪ specifické vnitřní podmínky, které vzbuzují a udržují aktivitu
+člověka a orientují ji směrem k určitému cíli
+▪ jedná se o potřeby, city, zájmy, pudy, ideály, hodnoty, přání,
+postoje, …
+￼
+Vnitřní motivace je silnější a trvalejší, než vnější motivace.
+￼
+=== PAGE 132 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+132
+Abraham Maslow
+Motivace
+￼
+￼
+Sebe
+realizace
+￼
+Estetické
+potřeby
+￼
+Poznávací potřeby
+(znalosti, smysl, sebeuvědomění)
+￼
+Potřeby úcty a uznání
+(sebeúcta, nezávislost, prestiž …)
+￼
+Sociální potřeby
+(příslušnost ke skupině, láska …)
+￼
+Potřeby jistoty a bezpečí
+(pořádek, zákon, bezpečí …)
+￼
+Biologické a fyziologické potřeby
+(jídlo, spánek, pití, sex …)
+Dnešní pojetí
+Sebetranscendence
+(něco co přesahuje jedince)
+=== PAGE 133 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+133
+Nejdůležitější momenty řízení
+Motivace
+Správně motivovaný řídící subsystém OS (podniku) je jednou
+z hlavních podmínek úspěšnosti podniku, tzn. dosahování
+dobrých hospodářských výsledků (zisku) a rozvoje podniku
+1. Vědět co máme dělat
+2. Motivovat lidi aby, to s námi chtěli dělat
+3. Správně rozhodovat
+Motivace se dá vyjádřit jedním slovem CHTÍT.
+￼
+ŘSS
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PS1 T1S T2S
+EES OSS
+PS2 MOS
+￼
+Motivační
+subsystém
+EIS
+Informační
+subsystém
+Ekonomický
+subsystém
+Finanční
+subsystém
+Subsystém
+vývoj
+=== PAGE 134 ===
+￼
+￼
+Ekonomicko-informační
+subsystém
+EIS
+￼
+￼
+Informační
+subsystém
+ISS
+￼
+Ekonomický
+subsystém
+ESS
+Finanční
+subsystém
+FSS
+2. rozlišovací úroveň
+3. RÚ
+Skupiny řídících
+informací
+SŘI1 → SŘIn
+4. RÚ
+Skupiny ekonomických
+informací
+SEI1 → SEIn
+Skupiny finančních
+informací
+SFI1 → SFIn
+￼
+￼
+Motivační
+subsystém
+MSS
+￼
+Motivační stimuly
+Hodnocení pracovníků
+SFI1 → SFIn
+Subsystém
+Vývoj
+SSV
+Vývoj jednotlivých
+produktů
+VP1 → VPn
+MSS
+Přímá motivace:
+▪ hmotné stimuly
+▪ sociální stimuly
+▪ morální stimuly
+▪ hodnocení pracovníků
+▪ motivační pravidla
+Nepřímá motivace:
+▪ pravidla samofinancování
+▪ obchodní provizní systém
+▪ úroveň organizace
+▪ produkty a jejich kvalita
+LP
+▪ motivující
+▪ motivovaný
+▪ motivovaná skupina
+￼
+=== PAGE 135 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+135
+Motivace a subsystémy OS
+Motivace
+￼
+ŘSS
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PS1 T1S T2S
+EES OSS
+PS2 MOS
+￼
+Motivační
+subsystém
+EIS
+Informační
+subsystém
+Ekonomický
+subsystém
+Finanční
+subsystém
+Subsystém
+vývoj
+OSS – špatná organizace demotivuje
+PS1 – nekvalitní, neprodejná produkce demotivuje
+TS1 – špatně zvolená technologie demotivuje
+EIS – nepřímé řízení SF, motivační systém – silné stimuly
+MOS – úspěch na trhu – velice silný stimul
+procesy přímého řízení →
+přímá motivace
+procesy nepřímého řízení →
+motivační systém
+=== PAGE 136 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+136
+ŘSS ve vyšší rozlišovací úrovni
+Motivace
+￼
+ŘSS
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PS1 T1S T2S
+EES OSS
+PS2 MOS
+￼
+EIS
+￼
+Každý subsystém 2. řádu
+má jinou motivaci
+=== PAGE 137 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+137
+ŘSS ve vyšší rozlišovací úrovni
+Motivace
+￼
+Majetkový subsystém
+▪ rozvoj podniku
+▪ dividenda
+▪ zhodnocení vkladu při prodeji podniku
+▪ touha po majetku, po bohatství
+▪ chování majitelů ovlivňuje motivaci
+zaměstnanců
+Subsystém přímého řízení
+▪ motivace ŘP
+▪ na vyšším stupni řídících pracovníků
+středního stupně řízení
+▪ na středním stupni řízení řídících
+pracovníků nižšího stupně řízení
+▪ na nižším stupni řízení výkonných
+pracovníků
+▪ motivace k pracovnímu výkonu
+▪ motivace k setrvání se firmě
+Subsystém řídících orgánů
+▪ VH – motivace ke správnému rozdělení
+zisku
+▪ správný poměr dividenda x rozvoj
+▪ představenstvo
+▪ realizace závěrů VH
+▪ vlastní motivace (může být problém – větší angažovanost jinde)
+Subsystém sociální
+▪ ŘP i výkonní pracovníci
+▪ motivace ke zvyšování pracovního výkonu
+▪ motivace k setrvání ve firmě
+(nepříznivý jev – fluktuace)
+=== PAGE 138 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+138
+Motivace k pracovnímu výkonu
+a setrvání v podniku
+Motivace
+￼
+Motivace vnitřní
+￼
+Majitel
+Řídící pracovník
+￼
+Touha po úspěchu
+￼
+Seberealizace
+￼
+Zábava
+￼
+Motivace vnější
+(stimulace)
+￼
+Řídící pracovník
+Výkonný pracovník
+￼
+HZI
+￼
+Sociální
+￼
+Morální
+Pracovní motivace je v podstatě umění vedoucího pracovníka
+vzbudit u spolupracovníků zájem, ochotu a chuť
+aktivně se účastnit plnění všech činností směřujících ke stanovenému cíli.
+=== PAGE 139 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+139
+Prostředky motivace
+Motivace
+Prostředky ŘP
+pro motivování
+￼
+Nezávislé
+proměnné
+▪ hmotné stimuly
+▪ sociální stimuly
+▪ morální stimuly
+Determinanty chování
+(osobnost motivovaného
+člověka)
+▪ potřeby
+▪ motivy
+▪ postoje
+▪ hodnoty
+▪ charakter
+▪ temperament
+▪ schopnosti
+▪ způsob myšlení
+a) Situace
+▪ příznivá
+▪ nepříznivá
+b) Prostředí
+▪ pracovní skupiny
+▪ podniku
+▪ společenské
+￼
+￼
+￼
+￼
+￼
+Osobnost ŘP
+▪ odbornost
+▪ vstřícnost
+▪ charakter
+￼
+￼
+Motivované chování
+Závislá proměnná
+￼
+￼
+￼
+￼
+=== PAGE 140 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+140
+Hmotné stimuly
+Motivace
+￼
+Motivace vnější
+(stimulace)
+￼
+Řídící pracovník
+Výkonný pracovník
+￼
+HZI
+￼
+Sociální
+￼
+Morální
+Základní složky:
+▪ Základní mzda
+▪ Prémie
+▪ Odměna
+Pravidla:
+▪ HZI vázat na to, co může pracovník ovlivnit
+▪ stanovit jednoduchá pravidla
+▪ včasnost – co nejmenší odstup od události
+▪ odměna musí být spravedlivá
+▪ odměna výkonu a úsilí
+▪ dodržování pravidel
+=== PAGE 141 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+141
+Hmotné stimuly
+Motivace
+￼
+Motivace vnější
+(stimulace)
+￼
+Řídící pracovník
+Výkonný pracovník
+￼
+HZI
+￼
+Sociální
+￼
+Morální
+Základní složky:
+▪ Základní mzda
+▪ Prémie
+▪ Odměna
+Pravidla:
+▪ HZI vázat na to, co může pracovník ovlivnit
+▪ stanovit jednoduchá pravidla
+▪ včasnost – co nejmenší odstup od události
+▪ odměna musí být spravedlivá
+▪ odměna výkonu a úsilí
+▪ dodržování pravidel
++ / –
+=== PAGE 142 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+142
+Sociální stimuly
+Motivace
+￼
+Motivace vnější
+(stimulace)
+￼
+Řídící pracovník
+Výkonný pracovník
+￼
+HZI
+￼
+Sociální
+￼
+Morální
+Sociální stimuly se vztahují k postavění člověka v pracovní skupině.
+Odrážejí jeho status a vyjadřují jeho postavení i navenek skupiny.
+▪ firemní auto
+▪ parkovací místo
+▪ velikost a vybavení kanceláře
+▪ neomezený telefonní tarif
+▪ neomezený internet
+=== PAGE 143 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+143
+Morální stimuly
+Motivace
+￼
+Motivace vnější
+(stimulace)
+￼
+Řídící pracovník
+Výkonný pracovník
+￼
+HZI
+￼
+Sociální
+￼
+Morální
+Morální motivace je vázána přímo na vztah
+motivovaného pracovníka a vedoucího pracovníka.
+▪ pochvala
+▪ kárání
+▪ zpětná vazba, která je nejúčinnější, když je
+poskytována v průběhu pracovní činnosti
+nebo bezprostředně po jejím ukončení
+▪ soutěž (průběžné hodnocení)
+▪ článek ve firemních novinách
+▪ gratulace k významnému datu události
+=== PAGE 144 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+144
+Stimuly ekonomické, sociální a morální
+Motivace
+￼
+￼
+LEVITT, Steven D. a Stephen J. DUBNER. Freakonomie: skrytá ekonomie všeho.
+Přeložil Ivo MAGERA. V Brně: BizBooks, 2015. ISBN 978-80-265-0415-3.
+=== PAGE 145 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+145
+Motivační působení
+Motivace
+￼
+Správné motivační působení
+▪ využívá správně vnitřní motivaci toho, kdo má
+být motivován
+▪ využívá správně možnosti vnější motivace
+▪ správně je kombinuje
+Důležité:
+▪ znát vnitřní motivaci toho, koho chci
+motivovat – přání, touhy, cíle, samostatnost,
+volnost… (to souvisí s q – řídící kapacitou)
+▪ znát ekonomické potřeby motivovaného
+▪ dát najevo spokojenost – ocenit
+▪ dát ve známost úspěch motivovaného
+ostatním
+=== PAGE 146 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+146
+Motivační systém
+Motivace
+￼
+Pracovní motivace
+Pracovní motivace je v
+podstatě umění vedoucího
+pracovníka vzbudit u
+spolupracovníků zájem,
+ochotu a chuť aktivně se
+účastnit plnění všech
+činností směřujících
+ke stanovenému cíli.
+=== PAGE 147 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+147
+Motivační pravidla
+Motivace
+1. Motivační pravidlo
+Motivaci pracovníků můžeme vázat jen na takové
+činnosti, které mohou podřízení ovlivnit.
+2. Motivační pravidlo
+Motivovat přímo je možné jen toho, kdo je
+vedoucímu přímo podřízen, "kam dohlédnu".
+3. Motivační pravidlo
+Vyhlášené motivační stimuly se nesmí v průběhu
+hodnoceného období měnit.
+4. Motivační pravidlo
+Slíbené motivační stimuly se musí splnit.
+5. Motivační pravidlo
+Hodnotící období pro stanovení prémií bude čtvrt roku.
+Jednorázová odměna za mimořádný počin musí být
+vyplacena při nejbližším výplatním termínu.
+6. Motivační pravidlo
+Pokud je to možné, bude zaveden princip
+samofinancování OJ.
+7. Motivační pravidlo
+Nejlépe hodnocení pracovníci několikrát po sobě postoupí
+v řídící hierarchii výše.
+8. Motivační pravidlo
+Vedoucí pracovníci využívají hmotné stimuly v kombinaci
+s nehmotnými motivačními stimuly.
+=== PAGE 148 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+148
+Motivační pravidla
+Motivace
+1. Motivační pravidlo
+Motivaci pracovníků můžeme vázat jen na takové
+činnosti, které mohou podřízení ovlivnit.
+2. Motivační pravidlo
+Motivovat přímo je možné jen toho, kdo je
+vedoucímu přímo podřízen, "kam dohlédnu".
+3. Motivační pravidlo
+Vyhlášené motivační stimuly se nesmí v průběhu
+hodnoceného období měnit.
+4. Motivační pravidlo
+Slíbené motivační stimuly se musí splnit.
+5. Motivační pravidlo
+Hodnotící období pro stanovení prémií bude čtvrt roku.
+Jednorázová odměna za mimořádný počin musí být
+vyplacena při nejbližším výplatním termínu.
+6. Motivační pravidlo
+Pokud je to možné, bude zaveden princip
+samofinancování OJ.
+7. Motivační pravidlo
+Nejlépe hodnocení pracovníci několikrát po sobě postoupí
+v řídící hierarchii výše.
+8. Motivační pravidlo
+Vedoucí pracovníci využívají hmotné stimuly v kombinaci
+s nehmotnými motivačními stimuly.
+=== PAGE 149 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+149
+￼
+=== PAGE 150 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+150
+Motivační teorie
+Motivace
+Adamsova teorie spravedlnosti
+Alderferova teorie motivačních potřeb
+Herzbergova motivační teorie dvou faktorů
+Maslowova pyramida potřeb
+McClellandova teorie získaných potřeb
+McGregorova teorie XY
+Skinnerova teorie zesílení
+Vroomova teorie očekávání
+Teorie psychologického zmocnění
+Úkolem je vytvoření motivačního systému…
+ přímá motivace k setrvání v podniku
+ nepřímá motivace ke zvýšení pracovního výkonu
+Je třeba si uvědomit, že teorie
+motivace jsou jen základem.
+ŘP musí skutečně motivovat.
+=== PAGE 151 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+151
+▪ Teorie psychologického zmocnění (spoluúčast na řízení a rozhodování)
+Je třeba si uvědomit, že teorie motivace jsou jen základem.
+ŘP musí skutečně motivovat.
+Úkolem je vytvoření motivačního systému…
+▪ přímá motivace k setrvání v podniku
+▪ nepřímá motivace ke zvýšení pracovního výkonu
+Sociálně psychologický přístup
+Motivační teorie
+=== PAGE 152 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+152
+▪ teorie zmocnění se nezabývá jednotlivostmi, (potřeby, očekávání, posílení, atd.) jako
+ostatní teorie, které staví některý aspekt na přední místo. Působí motivačně v komplexu.
+V praktickém řízení je spojeno s udělením větší samostatnosti, pravomoci, ale i odpovědnosti
+organizační jednotce, pracovní skupině, případně jednotlivci (velmi významné ve vývoji).
+Jde ruku v ruce s větší ekonomickou samostatností, tzn. vytvoření samofinancujících
+se organizačních jednotek.
+Sociálně psychologický přístup
+Motivační teorie
+Teorie psychologického zmocnění (spoluúčast na řízení a rozhodování)
+Podmínka: Požadovaná úroveň organizační jednotky (skupiny) a důvěra v ní --> potom výhoda
+=== PAGE 153 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+153
+Motivační teorie - Sociálně psychologický přístup
+Teorie psychologického zmocnění
+Výhody:
+▪ Zmocnění pracovníci se učí samostatně rozhodovat a tím se profesně rozvíjejí
+▪ Vedoucí pracovník si uvolňuje ruce od nadbytku rozhodování, které musel dělat
+ponechává si ve svých rukou jen zásadní rozhodnutí
+▪ Zmocnění působí motivačně na zmocněné pracovníky a větší volnost jednání
+obohacuje jejich práci
+▪ Rozhodovací hierarchie založená na zmocnění je pokládána za flexibilnější
+▪ Rozhodnutí jsou přijímána rychleji, přímo na místě a se znalostí věci
+=== PAGE 154 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+154
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká zemědělská univerzita,
+Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ HRON, J. TRAXLER, A. 2018. Dovednosti v řízení. V Praze: Česká zemědělská univerzita, Provozně
+ekonomická fakulta. ISBN 978-80-213-2833-4.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ LEVITT, Steven D. a Stephen J. DUBNER. Freakonomie: skrytá ekonomie všeho. Přeložil Ivo MAGERA. V Brně:
+BizBooks, 2015. ISBN 978-80-265-0415-3. http://burzaprokazdeho.cz/motivace-vs-inspirace/
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem on Production-Technical
+Area of Organizational System. Agrarian Perspectives XXVIII. International Scientific Conference
+=== PAGE 155 ===
+Děkuji za pozornost.
+=== PAGE 156 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 157 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+157
+Komunikační proces
+Komunikace
+▪ sdílení informací
+▪ Ať chceme nebo nechceme, komunikujeme prakticky neustále, ať již
+verbálně nebo neverbálně.
+￼
+Struktura komunikace
+ kdo (komunikátor)
+ říká co (komuniké)
+ komu (komunikant)
+ čím (druh komunikace, např. slova)
+ prostřednictvím jakého média
+(např. mluvené řeči
+v bezprostředním kontaktu)
+ s jakým úmyslem (motivace)
+ s jakým účinkem
+=== PAGE 158 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+158
+Základní znaky komunikace
+Komunikace
+▪ Komunikace má určitý cíl
+▪ Komunikace je kontextuální
+▪ Komunikace je oboustranná
+▪ Komunikace je symbolická
+Věcná a vztahová stránka komunikace
+Věcná stránka se zabývá obsahem komunikace, tzn. informací, kterou sdělujeme,
+vztahová se zabývá vztahem mezi účastníky a také významem, který účastníci
+danému sdělení přisuzují.
+=== PAGE 159 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+159
+Základní znaky komunikace
+Komunikace
+▪ Komunikace má určitý cíl
+▪ Komunikace je kontextuální
+▪ Komunikace je oboustranná
+▪ Komunikace je symbolická
+Věcná a vztahová stránka komunikace
+Věcná stránka se zabývá obsahem komunikace, tzn. informací, kterou sdělujeme,
+vztahová se zabývá vztahem mezi účastníky a také významem, který účastníci
+danému sdělení přisuzují.
+=== PAGE 160 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+160
+Metakomunikace
+Komunikace
+▪ posouvá, popírá nebo doplňuje význam sdělení
+▪ zahrnuje verbální i neverbální projevy, které upřesňují nebo mění význam sdělení
+▪ při neverbální komunikaci využíváme metasignálů
+▪ … je to tedy jakási komunikace o komunikaci, která upřesňuje nebo mění
+následující činnost
+▪ význam poznáme z kontextu situace
+=== PAGE 161 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+161
+Komunikace podle charakteristiky
+Komunikace
+▪ Intrapersonální
+vnitřní komunikace jednoho člověka v myšlenkách (typické pro rozhodování)
+▪ Interpersonální
+vzájemná komunikace mezi dvěma a více lidmi (vedení lidí, obchodní jednání,
+jednání obecně, …)
+▪ Skupinová
+specifický případ interpersonální komunikace v sociální skupině (specifickým
+kanálem je internet), porady, řešení problému v týmu
+▪ Masová
+jednosměrná komunikace k většímu počtu osob (např. televize, rozhlas, tisk, internet)
+=== PAGE 162 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+162
+Proč si lidé neporozumí…
+Komunikace
+▪ Objektivní důvody▪ Individuální důvody
+▪ používání symbolů
+▪ různost jazyků
+▪ kulturní rozdíly
+▪ osobnostní rozdíly
+▪ rušení komunikace
+▪ konzervativismus (z lat. conservare, uchovávat)
+▪ předsudky
+▪ podezřívavost
+▪ neupřímnost
+▪ netaktnost
+▪ agresivita
+▪ konfliktnost
+▪ nerozlišování příčin a následků
+=== PAGE 163 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+163
+Komunikační bariéry
+Komunikace
+Bariéry v komunikaci jsou překážky, které komunikaci znesnadňují.
+Mohou být na straně mluvčího i na straně příjemce sdělení.
+Tyto překážky mohou mít různé příčiny:
+▪ odlišnost postojů, názorů, znalostí
+a zkušeností
+▪ selektivní vnímání (ovlivněno naším
+subjektivním očekáváním)
+▪ špatná schopnost naslouchat
+▪ hodnocení sdělení a předčasné závěry
+▪ sémantické problémy (sémantická gesta…)
+▪ filtrování
+▪ časová tíseň
+▪ komunikační přetížení
+▪ nezájem
+▪ stydlivost a stres atd.
+=== PAGE 164 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+164
+Komunikační zlozvyky
+Komunikace
+▪ Na straně mluvčího ▪ Na straně příjemce sdělení
+▪ dvojná vazba
+▪ nejasnost a nekonkrétnost sdělení
+▪ zobecňování
+▪ neupřímnost a skrývání skutečných
+pocitů
+▪ přehánění a překrucování,
+▪ odbíhání od tématu,
+▪ nekontrolované emoce
+▪ přerušování a skákání do řeči
+▪ neudržování očního kontaktu
+▪ nesoustředěnost na mluvčího
+▪ neposkytování zpětné vazby
+▪ čtení myšlenek
+=== PAGE 165 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+165
+Funkce komunikace
+Komunikace
+▪ Informovat (informativní funkce)
+▪ Instruovat (instruktážní funkce)
+▪ Přesvědčit (persuazivní funkce)
+▪ Pobavit (funkce zábavní)
+Komunikační funkce se mohou překrývat a mísit. Často jde o instruktáž nebo přesvědčování,
+například tam, kde je promluva nabízena jako informování.
+=== PAGE 166 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+166
+Komunikace
+Komunikace
+▪ Formy komunikace
+▪ verbální (písemná, ústní)
+▪ neverbální (řeč těla)
+▪ Technika řeči
+▪ dýchání (respirace) –výdechový proud vzduchu
+▪ fonace–vytváření zvuku v hlasivkách
+▪ artikulace– vyslovování hlásek
+▪ 2 významy slov:
+▪ denotativní – slovníkový
+▪ konotativní – emocionální
+GRAMATIKA
+a
+RÉTORIKA
+=== PAGE 167 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+167
+Paralingvistika
+Komunikace
+▪ Rychlost (změny tempa)
+▪ Hlasitost (posluchači a prostor)
+▪ Tichá řeč je znakem úzkosti, nejistoty,
+nedostatku sebedůvěry.
+▪ Hlasitý projev není známkou kvality
+řeči, spíše přesná a pečlivá artikulace a
+smysluplné frázování.
+▪ tónová výška
+▪ barva hlasu
+▪ Intonace (?!...)
+▪ přízvuk
+▪ důraz
+▪ přestávky v řeči
+▪ chyby v řeči
+▪ nefunkční zvuky (ehm, ééé)
+▪ parazitická slova
+=== PAGE 168 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+168
+Proces vnímání
+Komunikace
+Proecs vnánímí je schonpost mzoku zprcaovat infmorace, ketré k nám
+přichází z okolí. Při vnímnáí se nejrpve vybíarjí pdněty, které povajužeme za
+důltežié, a terpve ptom je mozek zpracvoává. Každý čolvěk tak vnímá svět
+jinak – na zákaldě svých zkušnesotí, očeákvání a emocí.
+Prbůěh vnínámí není pasviní, ale akitvní precos. To, co slymíše nebo vdiíme,
+jen zříkda odpoívdá realitě, ale spíše naší intrpetrecai a fitlraci infromací.
+=== PAGE 169 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+169
+Proces naslouchání
+Komunikace
+￼
+Naslouchání je soubor dovedností
+zahrnující soustředění a pozornost
+při příjmu signálů,
+porozumění významu sdělení,
+uložení do paměti,
+zhodnocení sdělení,
+reakci v podobě zpětné vazby.
+=== PAGE 170 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+170
+Proces naslouchání
+Komunikace
+￼
+Naslouchání je soubor dovedností
+zahrnující soustředění a pozornost
+při příjmu signálů,
+porozumění významu sdělení,
+uložení do paměti,
+zhodnocení sdělení,
+reakci v podobě zpětné vazby.
+=== PAGE 171 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+171
+Neverbální komunikace
+Komunikace
+▪ mimika
+▪ gestika
+▪ haptika
+▪ proxemika
+▪ posturologie
+▪ kinezika
+▪ pohledy, tón řeči,
+úprava zevnějšku...
+Neverbální signály jsou podmíněny:
+▪ druhově
+▪ kulturou
+▪ osobností mluvčího a příjemce
+▪ dobou a prostředím
+▪ sociální skupinou
+Mnoho činů se obejde beze slov.
+=== PAGE 172 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+172
+Mimika a pohledy
+Komunikace
+Primární emoce
+▪ štěstí x neštěstí
+▪ klid x rozčílení
+▪ strach x pocit jistoty
+▪ zájem x nezájem
+Obličejové zóny
+▪ čelo a obočí
+▪ oči a víčka
+▪ dolní část obličeje od kořene nosu po
+bradu
+Bolest můžeme vyčíst hlavně z horní části obličeje (čelo, obočí a víčka očí).
+Štěstí je patrné z dolní části obličeje.
+Překvapení nejpřesněji určíme podle obočí a čela, ale objeví se v každé obličejové zóně.
+Strach a smutek poznáme podle očí a očních víček.
+Rozčílení a vztek se zrcadlí v celém obličeji
+=== PAGE 173 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+173
+Gestika
+Komunikace
+Gesty, neboli posunky, rozumíme kulturně vázané pohyby.
+￼
+=== PAGE 174 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+174
+Gestika
+￼
+▪ Gesto: "OK "
+▪ OK je v mnoha státech jasnou známkou toho, že je vše v pořádku s vámi a s celou situací.
+▪ Tímto gestem se lidé dorozumívají i při některých aktivitách, kde nelze mluvit či kvůli hlučnému
+prostředí není slyšet.
+￼
+▪ Palec nahoru
+▪ Palec nahoru je signálem schválení. Celosvětově se gesto používá ve významu
+"OK".
+▪ Ale v Japonsku může znamenat například číslo pět.
+▪ Francie: spojení palce a ukazováčku znamená "nula" nebo "bezcenný".
+▪ Brazílie: patří mezi nejvulgárnější gesta
+▪ Řecko, Turecko: sexuální urážka
+▪ Belgie, Tunisko: "Ty nulo!"
+▪ Itálie: "O čem to mluvíš?"
+▪ Japonsko: peníze
+Negativní význam platí hlavně v Iráku, některých částech Itálie a Řecka.
+=== PAGE 175 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+175
+Haptika
+Komunikace
+▪ doteková komunikace, kontakt hmatem, způsob sdělení, které přijímaný přímým tělesným kontaktem
+▪ podání ruky, poplácání po zádech apod.
+▪ při podání ruky jsou informace předány šesti způsoby:
+▪ vzhled ruky
+▪ vjem stisku
+▪ stupeň suchosti nebo vlhkosti ruky
+▪ síla stisku
+▪ délka trvání kontaktu
+▪ styl uchopení ruky
+￼
+=== PAGE 176 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+176
+Haptika
+Komunikace
+▪ doteková komunikace, kontakt hmatem, způsob sdělení, které přijímaný přímým tělesným kontaktem
+▪ podání ruky, poplácání po zádech apod.
+▪ při podání ruky jsou informace předány šesti způsoby:
+▪ vzhled ruky
+▪ vjem stisku
+▪ stupeň suchosti nebo vlhkosti ruky
+▪ síla stisku
+▪ délka trvání kontaktu
+▪ styl uchopení ruky
+￼
+=== PAGE 177 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+177
+Proxemika
+Komunikace
+￼
+Zóny
+▪ Intimní zóna – od úplného dotyku do 30 cm až 60 cm
+▪ Osobní – od 30 cm až 60 cm do 1,2 m až 2 m
+▪ Společenská – od 1,2 m do 3,6 m
+▪ Veřejná – od 3,6 m
+=== PAGE 178 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+178
+Posturologie
+Komunikace
+￼
+3 základní polohy těla:
+▪ stání
+▪ sezení
+▪ ležení
+=== PAGE 179 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+179
+Kinezika
+Komunikace
+￼
+▪ zabývá se pohyby těla v sociální interakci a jejich koordinací
+▪ koordinace pohybů vytváří specifickou eleganci a šarm v pohybové kultuře člověka
+▪ z pohybových vzorců lze vysledovat např. zdravotní stav, náladu v jaké se pozorovaný člověk nachází
+Sledování
+rozsah pohybu (šíře prostoru závisí na temperamentu)
+počet pohybů (zvýšený počet pohybů = napětí)
+různorodost pohybů (agrese x deprese)
+▪ kdy tento pohyb začal,
+▪ kdy nastal vrchol
+▪ jak dlouho trval, kdy byl jeho konec
+▪ jakou měl pohyb akceleraci, na jakém místě nastala změna směru pohybu
+Pokud jsou dva lidé spolu v kontaktu můžeme u nich pozorovat soulad nebo nesoulad, koordinaci či diskoordinaci a také jejich harmonii
+nebo disharmonii.
+=== PAGE 180 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+180
+Řeč těla
+Komunikace
+Přicházející člověk
+▪ rázná, vzpřímená chůze – odvaha, sebedůvěra, smělost
+▪ shrbený člověk, ruce v kapsách – sklíčenost, deprese
+▪ přešlapování – nejistota, submise (pokora, poslušnost)
+▪ ruce zkroucené či spojené před tělem – plachost
+▪ ruce překřížené před tělem – malé sebevědomí
+▪ ruce v bok– zlost, agrese, připravenost jednat
+▪ ležérní postoj, opírá se o něco – okázalý nezájem, uvolnění, relaxace
+=== PAGE 181 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+181
+Řeč těla
+Komunikace
+▪ pozice sedu s nohou přes nohu a horní lehce houpá – znuděnost
+▪ hlava v dlaních a oči koukají směrem dolů – nezájem
+▪ nakloněná hlava – zájem
+▪ mírný předklon – soustředěnost
+▪ posed na kraji židle, pohledy na hodinky a ke dveřím – netrpělivost
+▪ nohy těsně vedle sebe, ruce na kolenou – plachost, nejistota
+▪ otáčení hlavy, těla na opačnou stranu – nezájem o komunikaci
+▪ zkroucené nohy – křečovitost
+=== PAGE 182 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+182
+Řeč těla
+Komunikace v organizaci
+Potenciální zákazník
+▪ ruka na bradě - návrh zvažuje, hodnotí a
+přemýšlí
+▪ mne si bradu - blížící se rozhodnutí
+▪ rukou má sevřený nosní můstek, zavřené
+oči - negativní hodnocení
+▪ tření nosu, doteky kolem očí - lhaní,
+pochyby, nedůvěra
+▪ zatáhnutí dolního rtu - pocit viny, rozpaky
+▪ kousání prstu - nervozita, lítost
+Uchazeč o práci
+▪ posed s rukama za zády a nohu má přes
+nohu - sebedůvěra, nadřazenost
+▪ ruce na stole či v klíně složené do stříšky
+směrem vzhůru - autoritativnost
+▪ tření rukou - očekává od vás více
+▪ otevřené dlaně - upřímnost, naivita
+▪ ruce sevřené za zády - hněv, zlost, vztek,
+frustrace, obavy
+=== PAGE 183 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+183
+￼
+Komunikační strategie podniku
+Komunikace v organizaci
+Konkurenti
+Substituenti
+Potenciální
+odběratelé
+Odběratelé
+Úřady
+Finanční
+instituce
+Dodavatelé
+Potenciální
+dodavatelé
+PODNIK
+Na konci je vždy nějaký člověk → komunikace mezi dvěma nebo více lidmi
+9
+=== PAGE 184 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+184
+Směry komunikace v organizaci
+￼
+Sestupná – podniková
+hierarchie (příkazy,
+instrukce, delegování, …)
+Vzestupná – informace o
+sdělení (nápady,
+inspirace, nutné
+naslouchat)
+Horizontální –
+koordinace OJ,
+Spolupráce vedoucích,
+odstranění výsledků
+špatné vertikální K
+Diagonální - všemi směry
+- spíše neformální typ
+komunikace
+=== PAGE 185 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+185
+Tradiční druh komunikace
+Komunikace v organizaci
+▪ Schůze, porady…
+▪ Valná hromada
+▪ Zasedání představenstva (dozorčí rada)
+▪ Porada vedení
+▪ Tvůrčí porada týmů
+▪ Hodnocení pracovníka
+▪ Obchodní jednání
+=== PAGE 186 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+186
+Komunikace shora
+Komunikace
+▪ předávání informací, které vznikají na určitém stupni řízení podniku a šíří se v hierarchii struktury
+směrem dolů s cílem informovat a ovlivňovat ostatní
+▪ dává zaměstnancům informace o jejich podniku a zpětnou vazbu o výsledcích jejich pracovní aktivity
+￼
+přímé ústní nebo písemné příkazy
+(delegování)
+￼
+instrukce, návody apod.
+￼
+podnikové publikace
+￼
+informační brožury
+￼
+nahrané vzkazy (které se využívají v
+amerických podnicích) - vlastní televizní
+programy, přehrávané na obrazovkách na
+frekventovaných místech v podniku, resp. určitá
+vymezená telefonická čísla, určité adresy ve
+vnitropodnikové elektronické poště
+￼
+bulletiny pro zaměstnance
+￼
+zprávy pro zaměstnance a setkání
+s nimi
+￼
+=== PAGE 187 ===
+Komunikace zdola
+▪ vysílány zaměstnanci na nižších stupních hierarchie podniku, kteří se
+snaží informovat a ovlivňovat ty, kdo jsou v podnikové hierarchii výše
+▪ vzestupná – informace o sdělení (nápady,
+inspirace, nutné naslouchat)
+￼
+vnitropodnikový systém
+podávání stížností
+￼
+organizované diskusní
+kroužky
+￼
+systémy předkládání
+návrhů
+￼
+průzkumy mínění, názorů,
+postojů zaměstnanců
+￼
+=== PAGE 188 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+188
+Rady pro sdělování
+Komunikace
+A. Zaujmout vlastní stanovisko – to sdělovat (připravenost)
+B. Využít ochotu partnera v komunikaci – jak postupovat aby se chyba neopakovala
+C. Přizpůsobit sdělení a jeho formu podle příjemce (inteligence, temperament,
+znalosti, zkušenosti, věk, pohlaví
+D. Vhodný rozsah – ani málo, ani moc
+E. Kombinace ústní informace s názornou (kreslete)
+F. Počítat s citovou reakcí příjemce
+G. Ověřit si jak a v jakém rozsahu bylo sdělení pochopeno (kontrolní otázka)
+=== PAGE 189 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+189
+Rady pro sdělování
+Komunikace
+H. Vytvořte atmosféru důvěry, jednání není zkouška
+I. Dejte druhému najevo, že jeho informaci potřebujete
+J. Na poskytnuté informace reagujte, sleduje váš myšlenkový chod
+K. Buďte aktivní a snažte se porozumět
+L. Naučte se dávat otázky a poslouchat (ne vyslýchat)
+M. Přesvědčte se, zda jste informaci správně pochopili – pak stanovisko
+N. Při veřejném projevu se snažte mluvit spisovně (hovorová podoba)
+O. Vyhýbejte se sprostým výrazům, hantýrce, nadbytku cizích slov
+=== PAGE 190 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+190
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká zemědělská univerzita,
+Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ HRON, J. TRAXLER, A. 2018. Dovednosti v řízení. V Praze: Česká zemědělská univerzita, Provozně
+ekonomická fakulta. ISBN 978-80-213-2833-4.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ LEVITT, Steven D. a Stephen J. DUBNER. Freakonomie: skrytá ekonomie všeho. Přeložil Ivo MAGERA. V Brně:
+BizBooks, 2015. ISBN 978-80-265-0415-3. http://burzaprokazdeho.cz/motivace-vs-inspirace/
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem on Production-Technical
+Area of Organizational System. Agrarian Perspectives XXVIII. International Scientific Conference
+=== PAGE 191 ===
+Děkuji za pozornost.
+=== PAGE 192 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 193 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+193
+Rozhodování
+Rozhodování
+▪ Rozhodovací proces
+▪ Delegování
+=== PAGE 194 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+194
+Podstata rozhodování
+Rozhodování
+▪ jedna z paralelních (průběžných) manažerských funkcí
+▪ kvalita rozhodovacích procesů ovlivňuje zásadním způsobem fungování organizace
+￼
+=== PAGE 195 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+195
+Rozhodování
+Rozhodování
+Postupy a nástroje rozhodování závisí na:
+▪ subjektu rozhodování (jednotlivec, skupina)
+▪ času (statické - dynamické, spojité - diskrétní)
+▪ kritériích (jedno-, vícekriteriální)
+▪ míře určitosti (za jistoty, rizika, nejistoty, neurčitosti)
+▪ úrovni a závažnosti (strategické, taktické, operativní)
+▪ důsledcích variant řešení
+▪ systémové struktuře problému (dobře - špatně strukturovaný)
+▪ možnosti algoritmizace
+▪ Formulace problému
+▪ Analýza úlohy
+▪ Vytvoření algoritmu
+▪ Sestavení programu
+▪ Odladění programu
+=== PAGE 196 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+196
+Rozhodování
+Rozhodování
+Postupy a nástroje rozhodování závisí na:
+▪ subjektu rozhodování (jednotlivec, skupina)
+▪ času (statické - dynamické, spojité - diskrétní)
+▪ kritériích (jedno-, vícekriteriální)
+▪ míře určitosti (za jistoty, rizika, nejistoty, neurčitosti)
+▪ úrovni a závažnosti (strategické, taktické, operativní)
+▪ důsledcích variant řešení
+▪ systémové struktuře problému (dobře - špatně strukturovaný)
+▪ možnosti algoritmizace
+▪ Formulace problému
+▪ Analýza úlohy
+▪ Vytvoření algoritmu
+▪ Sestavení programu
+▪ Odladění programu
+=== PAGE 197 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+197
+Fáze a stádia cyklu řízení a rozhodování
+Rozhodování
+Schvalování → rozhodnutí
+￼
+￼
+Plánování
+Organizování
+Operativní řízení
+￼
+￼
+I
+￼
+￼
+RO
+￼
+￼
+K
+￼
+￼
+RE
+￼
+￼
+￼
+I
+￼
+￼
+￼
+K
+￼
+￼
+RE
+￼
+￼
+￼
+I
+￼
+￼
+￼
+K
+￼
+￼
+RE
+￼
+￼
+RO
+￼
+RO
+Rozhodnutí
+=
+řešení problému
+=
+podstata podnikového řízení
+Výběr ze dvou či více alternativ
+▪ na všech řídících stupních
+▪ ve všech oblastech
+=== PAGE 198 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+198
+Rozhodovací procesy
+Rozhodování
+Rozhodovací proces je proces řešení rozhodovacích problémů (problémů
+s více variantami řešení) – posuzování variant a výběr optimální varianty
+Problém: existuje odchylka mezi žádoucím a skutečným stavem
+▪ reálný – stupeň naléhavosti
+▪ potenciální – reakce na hrozby a příležitosti, prevence
+=== PAGE 199 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+199
+Struktura rozhodovacích procesů
+Rozhodování
+1. Identifikace problému – identifikace situací, které vyžadují řešení, skutečnost se liší od
+požadovaného stavu
+▪ definování problému;
+▪ sběr, analýza a vyhodnocování informací
+2. Stanovení váhy kritérií – například 10 bodů nejdůležitější, 1 bod nejméně důležité
+(vážený průměr)
+2. Stanovení kritérií rozhodování – pro posuzování a hodnocení variant řešení
+▪ co je důležité z hlediska rozhodování
+▪ sběr, analýza a vyhodnocování informací
+4. Formulování alternativ/variant – nalezení a formulace činností vedoucích k řešení,
+vytvoření seznamu možných alternativ
+=== PAGE 200 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+200
+Struktura rozhodovacích procesů
+Rozhodování
+Při vyhodnocování alternativ/variant řešení je nutné:
+▪ stanovení kritérií hodnocení
+▪ určení důsledků
+▪ volba varianty k realizaci
+7. Implementace alternativy/varianty – seznámení s podřízených s rozhodnutím, vysvětlení
+rozhodnutí, získání souhlasného stanoviska s rozhodnutím
+6. Výběr alternativy/varianty – výběr varianty určené k realizaci (optimální) nebo preferenční
+uspořádání variant výsledek analýzy, kritéria a váhy, ekonomické zhodnocení
+5. Analýza alternativ/variant – vyhodnocení alternativ, silné a slabé stránky každé
+alternativy, stanovení důsledků z hlediska vybraných kritérií
+8. Monitorování a kontrola – stanovení odchylek vzhledem ke stanoveným cílům, příprava a
+realizace nápravných opatření, korekce cílů, pokud nebyly stanoveny realisticky
+=== PAGE 201 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+201
+Kolektivní a individuální rozhodování
+Rozhodování
+￼
+￼
+Rozhodování
+Kolektivní
+Individuální
+kdo rozhoduje
+nese odpovědnost
+Valná hromada
+Představenstvo
+Dozorčí rada
+Vedení (užší vedení – neformální)
+Tvůrčí týmy
+Ředitel podniku
+Ředitel závodu
+Obchodní ředitel
+Vedoucí OJ
+=== PAGE 202 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+202
+Rozhodování podle stupně řízení
+Charakteristika informací Strategická úroveň
+TOP management
+Taktická úroveň
+Střední management
+Operativní úroveň
+Nižší management
+Informační zdroj Externí Externí a interní Interní
+Rozsah Velmi široký
+nespecifikovaný
+Průměrný Úzce specifikovaný
+Podrobnost Integrované veličiny Částečně integrované Podrobné údaje
+Časovost Budoucnost Budoucnost, Současnost
+Minulost
+Současnost
+Minulost
+Včasnost Nejsou urgentní Neurgentní i urgentní Urgentní
+Četnost Málo četné (rok) Pravidelné (měsíc) Četné (denně)
+Přesnost Nízká
+Aproximace
+Kvalitativní
+Přesnější
+Kvalitativní
+Kvantitativní
+Přesné
+Kvantitativní
+=== PAGE 203 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+203
+ŘP a rozhodování
+Rozhodování
+Řídící pracovník musí zvládnout:
+▪ formulovat problém
+▪ posoudit a vybrat nejvhodnější variantu
+▪ rozhodnout
+▪ převzít odpovědnost za realizaci
+Úspěch ŘP závisí na správné analýze
+problému a schopnosti učinit rozhodnutí.
+￼
+Faktor času: Horší rozhodnutí včas je lepší, než geniální pozdě!
+=== PAGE 204 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+204
+Bariéry rozhodování
+Rozhodování
+▪ brání dosažení žádoucí kvality řešení rozhodovacích problémů
+▪ zvyšování kvality rozhodovacích procesů vede k oslabování či odstraňování bariér
+Subjektivní bariéry Objektivní bariéry
+▪ omezená schopnost zpracovávat informace
+▪ omezený rozsah poznání
+▪ omezená schopnost formulovat a řešit složité
+rozhodovací problémy
+▪ omezená schopnost internalizace systému hodnot
+(ztotožnění se systémem hodnot)
+▪ opakováni neefektivních řešení (opakované
+pokusy o záchranu ztrátové firmy, …)
+▪ nedostatečná kvalita informační základny (hlavně
+pro vrcholové řízení a rozhodování)
+▪ nepružnost organizační struktury (obtížné vytváření
+dočasných týmů)
+▪ velký počet stupňů v hierarchii řízení
+▪ nepřesnost a nejasnost vymezení rozhodovacích
+pravomocí
+=== PAGE 205 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+205
+Klasifikace rozhodovacích procesů
+Rozhodování
+Dobře a špatně strukturované problémy…
+▪ Rozhodování:
+▪ za jistoty
+▪ za rizika
+▪ za nejistoty
+▪ za neurčitosti
+=== PAGE 206 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+206
+Kritéria hodnocení
+Rozhodování
+▪ slouží k posouzení výhodnosti jednotlivých variant z hlediska dosažení
+dílčích cílů
+▪ Typy kritérií:
+▪ výnosová: „čím více, tím lépe“:
+výnosy, zisk
+▪ nákladová, „čím více, tím hůře“:
+náklady, ztráta
+▪ kvantitativní – ukazatele, výhoda:
+jednoznačnost, měřitelnost
+▪ kvalitativní – agregovanější, širší
+náplň
+▪ Stupnice měření:
+▪ Nominální (jmenné) – kvalitativní, varianty zařazené do
+určité třídy jsou rovnocenné; barva aut
+▪ Ordinální (pořadová) – kvalitativní, stanovení pořadí,
+aniž můžeme říci, o kolik nebo kolikrát je jedna varianta
+lepší než druhá
+▪ Kardinální – kvantitativní (jednotka a počátek měření)
+▪ Intervalová – umožňuje měřit, o kolik je jedna varianta
+větší či menší než jiná
+▪ Poměrová - umožňuje měřit, kolikrát je jedna varianta
+větší či menší než jiná
+=== PAGE 207 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+207
+Eisenhowerův princip důležitosti a naléhavosti
+Rozhodování
+￼
+￼
+Generál Dwight David Eisenhower
+(14. října 1890 – 28. března 1969)
+34. prezident Spojených států amerických
+▪ technika určování priorit
+▪ spadá do oblasti sebeřízení
+▪ rozdělení úkolů podle 2 kritérií:
+▪ důležitosti
+▪ naléhavosti
+Dwight Eisenhower, bývalý americký prezident a armádní důstojník.
+▪ U každé položky se nejprve zeptáte sami sebe:
+▪ Jak moc je pro vás daná činnost důležitá
+s ohledem na následky, cíle a souvislosti?
+▪ Jak rychle musí být úkol vyřešen?
+=== PAGE 208 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+208
+Eisenhowerův princip důležitosti a naléhavosti
+Rozhodování
+￼
+￼
+I. Důležité a naléhavé:
+odevzdání seminární práce za
+5 hodin když máte jen úvodní
+stranu
+test, na který jste zapomněli
+rozbitý počítač
+Řeší sám a hned
+▪ Krizové situace a neodkladné problémy nebo
+úkoly, jejichž splnění je velmi důležité.
+=== PAGE 209 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+209
+Eisenhowerův princip důležitosti a naléhavosti
+Rozhodování
+￼
+￼
+I. Důležité a naléhavé:
+odevzdání seminární práce za
+5 hodin když máte jen úvodní
+stranu
+test, na který jste zapomněli
+rozbitý počítač
+￼
+II. Důležité a nenaléhavé:
+průběžné přípravy na
+přednášky
+výběr vedoucího bakalářské
+práce
+najít si stáž v dobré firmě
+napsat kvalitní životopis
+Řeší sám a hned Řeší sám později
+▪ Podstatné, chcete to v delším časovém horizontu
+udělat.
+▪ Činnosti vyžadující naši soustředěnost.
+▪ Člověk realizuje svoji vizi a plní dlouhodobé cíle.
+▪ Slouží také jako včasná prevence krizových situací
+(důležitých a naléhavých).
+=== PAGE 210 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+210
+Eisenhowerův princip důležitosti a naléhavosti
+Rozhodování
+￼
+￼
+I. Důležité a naléhavé:
+odevzdání seminární práce za
+5 hodin když máte jen úvodní
+stranu
+test, na který jste zapomněli
+rozbitý počítač
+￼
+II. Důležité a nenaléhavé:
+průběžné přípravy na
+přednášky
+výběr vedoucího bakalářské
+práce
+najít si stáž v dobré firmě
+napsat kvalitní životopis
+￼
+III. Nedůležité, ale naléhavé:
+záskok za kolegu v práci
+nutné nákupy
+příchozí telefonát
+Řeší sám a hned
+Deleguje
+Řeší sám později
+▪ Málo důležité události nebo nepředpokládané
+události
+▪ určitým způsobem urgentní, ale nemají nic
+společného s naší vizí a cíli.
+=== PAGE 211 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+211
+Eisenhowerův princip důležitosti a naléhavosti
+Rozhodování
+￼
+￼
+I. Důležité a naléhavé:
+odevzdání seminární práce za
+5 hodin když máte jen úvodní
+stranu
+test, na který jste zapomněli
+rozbitý počítač
+￼
+II. Důležité a nenaléhavé:
+průběžné přípravy na
+přednášky
+výběr vedoucího bakalářské
+práce
+najít si stáž v dobré firmě
+napsat kvalitní životopis
+￼
+III. Nedůležité, ale naléhavé:
+záskok za kolegu v práci
+nutné nákupy
+příchozí telefonát
+￼
+IV. Nedůležité a nenaléhavé:
+úklid pokoje
+umývání nádobí po
+spolubydlících
+vyzvednutí zásilky na poště
+Řeší sám a hned
+Deleguje
+Řeší sám později
+Eliminuje
+▪ Činnosti s nejnižší prioritou.
+▪ Zástupné úkoly a činnosti, které si člověk
+nachází, zatímco odsouvá důležitější, do
+kterých se mu nechce.
+prokrastinace
+=== PAGE 212 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+212
+Eisenhowerův princip důležitosti a naléhavosti
+Rozhodování
+￼
+￼
+I. Důležité a naléhavé:
+odevzdání seminární práce za
+5 hodin když máte jen úvodní
+stranu
+test, na který jste zapomněli
+rozbitý počítač
+￼
+II. Důležité a nenaléhavé:
+průběžné přípravy na
+přednášky
+výběr vedoucího bakalářské
+práce
+najít si stáž v dobré firmě
+napsat kvalitní životopis
+￼
+III. Nedůležité, ale naléhavé:
+záskok za kolegu v práci
+nutné nákupy
+příchozí telefonát
+￼
+IV. Nedůležité a nenaléhavé:
+úklid pokoje
+umývání nádobí po
+spolubydlících
+vyzvednutí zásilky na poště
+Řeší sám a hned
+Deleguje
+Řeší sám později
+Eliminuje
+Na ně se
+soustřeďte!
+Vyřešte a pak
+naplánujte!
+Odmítněte je! Vyhoďte je!
+￼
+90% času věnuje „I.“
+Mnoho lidí dělá úkoly „III.“ s tím,
+že si myslí, že jde o úkoly „I.“
+￼
+=== PAGE 213 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+213
+Rozhodování a delegování
+Rozhodování
+￼
+￼
+Rozhodovací
+proces
+Rozhodovací
+metody
+￼
+￼
+￼
+Rozhodnutí
+Rozhodnutí
+NE
+NE
+ANO
+ANO
+Rozhodnutí, zda se bude
+problémem zabývat
+SÁM a hned
+Někdo jiný hned
+SÁM později
+Někdo později
+NE
+￼
+￼
+￼
+￼
+￼
+Delegování
+=== PAGE 214 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+214
+Delegování
+Rozhodování
+Rozhodnutí, zda se budu
+problémem zabývat
+Někdo jiný hned
+￼
+DELEGOVÁNÍ
+Ubytování zahraniční návštěvy
+Příklad:
+1. Partneři přiletí na Letiště Václava Havla
+28.12.2023
+2. Přistání letadla je v 17:00 h., na místě je čekat
+v 16:45 h., připravte viditelnou orientační
+ceduli
+3. Ubytujte je v Hotelu Praha
+4. Dnes zamluvte v tomto hotelu 2 pokoje, cena
+max 4000 Kč/pokoj, platba na fakturu
+5. Informujte mě, až bude ubytování
+zarezervované
+6. Večer je pozvěte na večeři, cena max 4000 Kč
+celkem
+7. 29.12.2023 je dopoledne vyzvednete a
+přivezete je 10:30 h. do firmy
+DELEGOVÁNÍ?
+￼
+￼
+=== PAGE 215 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+215
+Delegování
+Rozhodování
+Ubytování zahraniční návštěvy
+Rozhodnutí, zda se budu
+problémem zabývat
+Někdo jiný hned
+￼
+DELEGOVÁNÍ
+Příklad:
+1. Zodpovídáte za program návštěvy
+projektových partnerů
+2. Přiletí 28.12.2023 v 17:00 h. na Václava
+Havla
+3. 29.12.2023 je očekávám u nás ve firmě
+v 10:30 h.
+4. K dispozici máte 10.000 Kč
+5. Kontakt: telefon, email
+DELEGOVÁNÍ?
+￼
+=== PAGE 216 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+216
+Úrovně řízení
+Vedení lidí
+￼
+￼
+Řídící stupně
+￼
+￼
+I. II. III.
+Strategické řízení
+Operativní řízení
+￼
+￼
+Směřování
+firmy
+Realizace
+směřování
+firmy
+Rozvojové
+programy
+Zabezpečení
+výroby / služby
+Zabezpečení
+standardního
+obchodu
+Činnosti
+Výsledek
+=== PAGE 217 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+217
+Hlediska zájmů
+Vedení lidí
+￼
+Strategické řízení
+Operativní řízení
+￼
+￼
+Majitel podniku
+Zaměstnanec (VP)
+▪ vysoký zisk
+▪ vysoké výnosy TRŽBY
+▪ nízké náklady
+▪ nízké mzdy
+▪ hodně práce
+▪ pracovní prostředí ?
+▪ vysoká mzda a odměny
+▪ nenáročná/ práce
+▪ málo práce/hodně volna
+▪ pěkné pracovní prostředí
+Nejnižší
+Nejvyšší
+￼
+￼
+￼
+￼
+￼
+Střední
+úrovně řízení
+=== PAGE 218 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+218
+Nejnižší stupeň řízení
+Vedení lidí
+Nejnižší
+úroveň řízení
+Odborné dovednosti
+▪ Rozumí dané problematice
+▪ stavař umí číst výkresy
+▪ základní rozpočet
+▪ stanovení normy práce na den
+▪ výpočet odměny
+Praktické dovednosti
+▪ zednické práce (elektrikářské, instalatérské, …)
+▪ strojní (stroje se kterými se pracuje)
+▪ kontrola kvality práce
+▪ kontrola množství práce
+q – řídící kapacita je vyšší
+▪ práce jednoduchá
+▪ práce podobná
+▪ nižší odpovědnost
+Vedení lidí
+▪ Vede skupinu výkonných pracovníků
+▪ srozumitelně zadané úkoly
+▪ motivace k pracovnímu výkonu
+▪ spravedlnost/zastání před vedením
+▪ pravidelné hodnocení
+▪ odbornost → vzor, uznání, respekt
+▪ spolupráce s neformálním vůdcem
+Plánování a organizování
+▪ Organizuje a přiděluje práci
+▪ zabezpečení dostatku materiálu a potřebné techniky
+▪ pořádek na pracovišti
+▪ organizace pracovních postupů (procesů)
+Operativní řízení – zajištění úkolů
+▪ Kontroluje práci skupiny/pracovníka
+▪ Navrhuje odměny/prémie skupině/umí získat prostředky
+▪ Příprava na účast na poradách s vedením i podřízenými
+▪ Rychlá reakce na změny
+=== PAGE 219 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+219
+Střední stupeň řízení
+Vedení lidí
+úroveň řízení
+￼
+￼
+Střední
+q – řídící kapacita se snižuje
+▪ práce složitější
+▪ práce rozdílná
+▪ vyšší odpovědnost
+Realizuje strategii
+určenou vyšším stupněm
+▪ plní úkoly vedení
+▪ plánuje a koordinuje práci nižších OJ
+▪ stále odbornost, ale už i teorie (více)
+▪ přímo řídí
+▪ ŘP nižšího stupně
+▪ motivuje je
+▪ důležité procesy a úkoly
+▪ nepřímo řídí
+▪ výkonné pracovníky
+▪ motivuje je
+Odborné dovednosti
+▪ více teorie, méně praktické (dle oboru)
+▪ klesá význam praktické dovednosti
+▪ rozpočty
+▪ znalost trhu
+▪ příprava nových projektů
+▪ stanovení reálných termínů
+Taktické řízení
+▪ obchodní jednání
+▪ plnění úkolů shora – termíny, kvalita, ekonomické ukazatele
+▪ přidělené pravomoci/sdílená odpovědnost
+▪ účast na poradě vyššího stupně – nutná příprava
+▪ jasná formulace úkolu směrem dolů
+▪ rychlá reakce na změny (neustálé)
+▪ získání zdrojů pro HZI (odměny podřízených), motivace
+=== PAGE 220 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+220
+Nejvyšší stupeň řízení
+Vedení lidí
+úroveň řízení
+q – řídící kapacita nízká
+▪ práce složitá
+▪ práce rozdílná
+▪ vysoká odpovědnost
+Formuluje vizi a strategii
+Řídí střední stupeň
+▪ Udává směr vývoje, řídí podnik
+▪ Klesá význam specializace/odbornosti
+▪ Zastupuje firmu navenek (konkurence,
+spolupráce, banky)
+▪ Vede důležitá obchodní jednání
+▪ Vytváří a rozhoduje o:
+▪ ekonomickém systému
+▪ motivačním systému
+▪ motivuje a hodnotí přímé podřízené
+Odborné dovednosti
+▪ jen teorie (dle oboru)
+▪ praktické dovednosti nejsou rozhodující
+▪ rozpočty a jejich schvalování
+▪ znalost trhu (konkurence, spolupráce
+▪ příprava nových projektů
+▪ posouzení a schvalování nových nápadů
+▪ stanovení reálných termínů
+Vedení lidí
+▪ seznámení podřízených s vizí a strategií
+▪ schopnost získat pro své myšlenky
+▪ vytváření „ducha firmy“
+▪ jednání s majiteli (pokud nejde přímo o majitele)
+Nejvyšší
+=== PAGE 221 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+221
+Srovnání stupňů řízení
+Vedení lidí
+▪ Odbornost
+▪ Komunikace
+▪ Řešení konfliktů
+▪ Motivování
+▪ Organizování (činnost)
+Vlastnosti:
+▪ Rozhodnost
+▪ Vytrvalost
+▪ Pružnost
+▪ Charakter
+Nejnižší stupeň
+￼
+￼
+Střední
+▪ Odbornost
+▪ Komunikace
+▪ Řešení konfliktů
+▪ Motivování
+▪ Organizování
+▪ Obchodování
+▪ Tvořivost - nápady
+Vlastnosti:
+▪ Rozhodnost
+▪ Vytrvalost
+▪ Pružnost
+▪ Charakter
+Nejvyšší
+▪ Odbornost nahrazena generalizací
+▪ Komunikace
+▪ Řešení konfliktů – vlastních i pracovních
+▪ Motivování – přímé i nepřímé
+▪ Organizování – schvalování – rozhodování
+▪ Obchodování – největší obchodní případy
+▪ Tvořivost - nápady
+Vlastnosti:
+▪ Rozhodnost → ochota nést odpovědnost
+▪ Vytrvalost
+▪ Sebedůvěra
+▪ Charakter a charisma
+=== PAGE 222 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+222
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká zemědělská univerzita,
+Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ HRON, J. TRAXLER, A. 2018. Dovednosti v řízení. V Praze: Česká zemědělská univerzita, Provozně
+ekonomická fakulta. ISBN 978-80-213-2833-4.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ LEVITT, Steven D. a Stephen J. DUBNER. Freakonomie: skrytá ekonomie všeho. Přeložil Ivo MAGERA. V Brně:
+BizBooks, 2015. ISBN 978-80-265-0415-3. http://burzaprokazdeho.cz/motivace-vs-inspirace/
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem on Production-Technical
+Area of Organizational System. Agrarian Perspectives XXVIII. International Scientific Conference
+=== PAGE 223 ===
+Děkuji za pozornost.
+=== PAGE 224 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 225 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+225
+Manažerské funkce
+Manažerské funkce
+▪ typické činnosti, které manager ve své práci vykonává
+▪ podstatné činnosti, které musí manager zvládnout
+▪ za zakladatele koncepce manažerských funkcí bývá považován jeden z průkopníků teorie
+managementu Francouz Henry Fayol
+▪ v roce 1916 definoval pět funkcí, které v té době nazval funkcemi správy
+=== PAGE 226 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+226
+Manažerské funkce
+Manažerské funkce
+1. Plánování (planning) - stanovení budoucích cílů a postupu, jak jich
+dosáhnout
+2. Organizování (organizing) - zabezpečení zdrojů (hmotných, finančních,
+lidských aj.), popřípadě podmínek pro uskutečňování plánovaných činností
+3. Přikazování (directing) - dávání úkolů a instrukcí podřízeným
+spolupracovníkům
+4. Koordinace (coordinating) - slaďování činností spolupracovníků
+5. Kontrola (controlling) - ověřování souladu plánu a skutečností a přijetí
+závěrů
+￼
+Henri Fayol (1841 - 1925)
+=== PAGE 227 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+227
+Vývojové etapy managementu
+1. Technokratický přístup – Klasické školy řízení
+C. Správní řízení
+Henri Fayol (1841 - 1925) – Správní teorie
+Úkoly a činnosti vyplývající z řízení členil na funkce
+▪ technické (technologické) – výroba, těžba (PS1, TS1, TS2)
+▪ obchodní – nákup, prodej, směna (MOS)
+▪ finanční – opatřování a efektivní využití kapitálu (EIS)
+▪ ochranné – ochrana vlastnictví a osobnosti (ŘSS-MJS)
+▪ účetní – výkazy, kalkulace inventarizace (EIS)
+▪ správní – předvídání, organizování, přikazování, koordinace a kontrola (ŘSS, OSS)
+Orientace na vědecké zkoumání
+principů organizace – správních
+činností (řídících činností)
+=== PAGE 228 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+228
+Vývojové etapy managementu
+1. Technokratický přístup – Klasické školy řízení
+C. Správní řízení
+Henri Fayol (1841 - 1925) – Správní teorie
+Úkoly a činnosti vyplývající z řízení členil na funkce
+▪ technické (technologické) – výroba, těžba (PS1, TS1, TS2)
+▪ obchodní – nákup, prodej, směna (MOS)
+▪ finanční – opatřování a efektivní využití kapitálu (EIS)
+▪ ochranné – ochrana vlastnictví a osobnosti (ŘSS-MJS)
+▪ účetní – výkazy, kalkulace inventarizace (EIS)
+▪ správní – předvídání, organizování, přikazování, koordinace a kontrola (ŘSS, OSS)
+Požadavky na řídícího pracovníka
+▪ tělesné vlastnosti – zdraví, fyzická kondice
+▪ duševní vlastnosti – chápavost, schopnost učit se, soudnost,
+duševní pružnost
+▪ mravní vlastnosti – zásadovost, odvaha, pevnost,
+odpovědnost, iniciativa, taktnost…
+▪ všeobecné vzdělání – obecný základ nesouvisící přímo s
+oborem činností
+▪ speciální znalosti – znalosti související s vykonávanou funkcí,
+zkušenosti – znalosti získané praxí
+Orientace na vědecké zkoumání
+principů organizace – správních
+činností (řídících činností)
+=== PAGE 229 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+229
+Vývojové etapy managementu
+1. Technokratický přístup – Klasické školy řízení
+C. Správní řízení
+Henri Fayol (1841 - 1925) – Správní teorie – 14 principů managementu
+1. Specializace pracovníků – podněcuje sebezlepšování schopností
+a vylepšování metod
+2. Autorita – právo dávat příkazy a moc vyžadovat poslušnost
+3. Disciplína – žádné uvolňování či změkčování pravidel.
+4. Jednota přikazování – každý zaměstnanec má pouze a jenom
+jednoho nadřízeného
+5. Jednota vedení – jedna mysl vytvoří jednotný plán, v němž bude
+každý hrát svou roli
+6. Podřízenost osobních zájmů – v práci se mají sledovat pouze
+pracovní zájmy a myšlenky
+7. Odměňování – zaměstnanci dostávají odpovídající ohodnocení,
+ne tolik, kolik může podnik postrádat
+8. Centralizace – upevnění manažerských funkcí, rozhodnutí se
+tvoří od shora
+9. Skalární řetěz – formální řetěz příkazů, běžící odshora dolů,
+jako v armádě
+10. Pořádek – materiál i personál má svoje předepsané místo a
+musí tam zůstat
+11. Rovnost – rovnocenné nakládání
+12. Držení personálu – co nejmenší obměna personálu, doživotní
+zaměstnání pro výborné zaměstnance
+13. Iniciativa – vymyslet plán a udělat vše potřebné k jeho
+uskutečnění
+14. Morálka kolektivu – harmonie a soudržnost mezi personálem
+=== PAGE 230 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+230
+Typické činnosti
+Manažerské funkce
+▪ manažera kvality – vyhodnocování výsledků kvality, zjišťování příčin nekvality, zajišťování interních auditů
+▪ manažera logistiky – organizace logistických procesů, komunikace se zákazníky
+▪ produktového manažera – analýza potřeb zákazníků, návrhy na zvýšení prodejů
+▪ projektového manažera – sestavení projektového týmu, definování dílčích cílů, určení odpovědností za
+plnění úkolů
+▪ finančního manažera – sestavení ročních plánů, rozbor hospodářských výsledků, návrhy daňové
+optimalizace
+▪ výrobního manažera – implementace strategie společnosti, rozvoj a hodnocení pracovníků apod.
+=== PAGE 231 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+231
+Sekvenční manažerské funkce
+Manažerské funkce
+Sekvenční manažerské funkce (realizují se postupně)
+1. PLÁNOVÁNÍ
+2. ORGANIZOVÁNÍ
+3. VÝBĚR A ROZMÍSTĚNÍ PRACOVNÍKŮ
+4. VEDENÍ LIDÍ
+5. KONTROLA
+Aby firma byla schopna zvýšit měsíční produkci svých výrobků
+PLÁN, musí umět definovat potřeby tohoto záměru
+ORGANIZOVAT a dále učinit konkrétní kroky, aby cíle bylo
+dosaženo VÝBĚR A VEDENÍ nejen LIDÍ. V neposlední řadě musí
+být firma schopna všechny předešlé kroky vyhodnocovat a
+případně upravovat KONTROLOVAT.
+=== PAGE 232 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+232
+Paralelní manažerské funkce
+Manažerské funkce
+Paralelní manažerské funkce (průběžné)
+1. ANALÝZA problémů (analysis)
+2. ROZHODOVÁNÍ (decision making)
+3. REALIZACE (resp. implementace) včetně KOORDINACE (implementation, coordination)
+Firma, resp. její manažeři, ANALYZUJÍ plán, jednotlivé potřeby
+výroby, výkonnost pracovníků a kontrolní mechanismy.
+ROZHODUJÍ o podobě plánu, o tom, zda lze akceptovat
+jednotlivé potřeby výroby, o systému pracovních činností, o
+vhodnosti systému kontroly. Při REALIZACI vlastní výroby
+KOORDINUJÍ pracovníky, výrobu, dozorové činnosti apod.
+=== PAGE 233 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+233
+Manažerské funkce - matice
+Manažerské funkce
+￼
+￼
+=== PAGE 234 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+234
+Manažerské funkce
+Manažerské funkce
+Angličan Lyndal F. Urwick rozšířil Fayolovo členění o další 2 funkce:
+6. ZKOUMÁNÍ respektive rozbor (investigating)
+7. KOMUNIKACE (communicating)
+=== PAGE 235 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+235
+Rozhodující faktory úspěšné práce manažera
+Manažerské funkce
+Kritické faktory úspěchu Critical Success Factors (CSF)
+Nejrozšířenější koncepce:
+❑ koncepce "7 S" konzultační firmy McKinsey
+❑ koncepce "kritických faktorů úspěchu" K. H. Chunga
+=== PAGE 236 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+236
+Koncepce "7 S"
+Manažerské funkce
+￼
+=== PAGE 237 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+237
+Podniková kultura – sdílené hodnoty
+Podniková kultura
+Strategie
+• vychází z vize firmy a z konkrétního poslání firmy (výroba,
+poskytování služby)
+• dlouhodobá orientace firmy, směřování k cíli/cílům
+• má obvykle formu dostatečně volných pokynů, které by měly být
+ve firmě dodržovány, a popisů aktivit, které firma musí učinit pro
+dosažení určitých cílů
+￼
+STRATEGIE
+=== PAGE 238 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+238
+Podniková kultura – sdílené hodnoty
+Podniková kultura
+Systémy
+• především informační systémy
+Struktura
+• organizační struktura
+• řídící struktura
+￼
+SYSTÉM
+STRUKTURA
+=== PAGE 239 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+239
+Vztah organizační a řídící struktury
+￼
+￼
+v
+v
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Divize
+￼
+Podnik
+Provoz
+￼
+Závod
+1
+2 → vedoucí divize 3 → (náměstek GŘ)
+1
+2
+3
+1
+2
+3
+1. stupeň
+2. stupeň
+3. stupeň
+4. stupeň
+JOP
+Jednotky
+organizace
+práce
+→ předseda představenstva,
+generální ředitel
+→ vedoucí divize 2 → (náměstek GŘ)
+→ vedoucí divize 1 → (náměstek GŘ)
+→ vedoucí závodu 1 → (ředitel závodu)
+→ vedoucí závodu 1 → (ředitel závodu)
+→ vedoucí závodu 1 → (ředitel závodu)
+→ vedoucí provozu 1 → (ředitel provozu)
+→ vedoucí provozu 1 → (ředitel provozu)
+→ vedoucí provozu 1 → (ředitel provozu)
+3
+Organizační stupně Řídící stupně
+1. stupeň
+2. stupeň
+3. stupeň
+4. stupeň
+Řídící struktura má, stejný počet stupňů jako organizační struktura.
+=== PAGE 240 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+240
+Řídící struktura – americký model
+￼
+Valná hromada
+Představenstvo
+Generální ředitel
+Dozorčí rada
+Ředitel závodu 1 Ředitel závodu n
+Předseda představenstva
+Vedoucí provozu 1
+Vedoucí provozu 2
+Vedoucí provozu 3
+Vedoucí provozu 1
+Vedoucí provozu 2
+Vedoucí provozu 3
+…
+→ Majitelé (držitelé akcií, podílů)
+→ Zástupci v PR a DR voleni VH
+→ Předseda představenstva → volen představenstvem
+→ GŘ → jmenován představenstvem
+→ ŘZ → jmenováni GŘ
+=== PAGE 241 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+241
+Řídící struktura – německý model
+￼
+￼
+Valná hromada
+Představenstvo
+Generální ředitel
+Dozorčí rada
+Ředitel závodu 1 Ředitel závodu n
+Předseda představenstva / GŘ
+Vedoucí provozu 1
+Vedoucí provozu 2
+Vedoucí provozu 1
+Vedoucí provozu 2
+…
+→ Majitelé (držitelé akcií, podílů)
+→Členi DR voleni VH
+→ Předseda dozorčí rady → volen dozorčí radou
+Představenstvo je jmenováno dozorčí radou
+Výkonný orgán
+→ ŘZ → jmenováni PP/GŘ
+→VP → jmenováni PP/GŘ
+na návrh ŘZ
+Předseda dozorčí rady
+Předseda je jmenován dozorčí radou
+většinou je i GŘ
+→pokud existuje samostatně
+=== PAGE 242 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+242
+Řídící struktura – linioví a štábní ŘP – podle vztahu k transformačním procesům
+￼
+Generální ředitel
+Ředitel Z1
+￼
+￼
+- Vedoucí právního oddělení
+- Vedoucí informatik
+- Vedoucí sekretariátu ….
+Ředitel Z2…
+Vedoucí P12
+Štábní útvary
+JOP
+JOP
+JOP
+Vedoucí P11
+Linie 1
+￼
+Výkonní pracovníci
+Vedení
+podniku
+Linie: GŘ → ŘZ → VP
+Vedoucí P22
+JOP
+JOP
+JOP
+Vedoucí P21
+￼
+Výkonní pracovníci
+Linie 2
+=== PAGE 243 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+243
+Útvarové řídící struktury – funkcionální typ řídící struktury
+￼
+￼
+Vedení podniku
+Ředitel
+výroby
+Ekonomický
+ředitel…
+Vedoucí fin.
+oddělení
+Vedoucí
+provozů
+Obchodní
+ředitel
+￼
+￼
+Plánovač
+Vedoucí
+zásobování
+Liniové
+uspořádání
+(3 stupně)
+￼
+￼
+Vedoucí marketingu
+Vedoucí reklamace
+Vedoucí propagace
+Vedoucí
+obchodních
+skupin
+￼
+Liniové
+uspořádání
+(2 stupně)
+Vedoucí
+účtárny
+Vedoucí
+metodického
+oddělení
+￼
+Liniové
+uspořádání
+(2 stupně)
+Ředitelé
+závodů
+=== PAGE 244 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+244
+Věcné řídící struktury – divizionální typ řídící struktury
+Vedení podniku
+Ředitel
+Divize 1
+Ředitel
+Divize 3…
+Vedoucí
+výroby
+Ředitel
+Divize 2
+￼
+￼
+Plánovač
+Ekonom
+Právník
+￼
+￼
+Vedoucí
+prodeje
+Vedoucí
+financí
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+Vedoucí
+výroby
+Vedoucí
+prodeje
+Vedoucí
+financí
+Vedoucí
+výroby
+Vedoucí
+prodeje
+Vedoucí
+financí
+ŘZ1
+ŘZ2
+ŘZ3
+ŘZ4
+￼
+Liniové
+uspořádání
+￼
+Plánovač
+Ekonom
+Právník
+Plánovač
+Ekonom
+Právník
+=== PAGE 245 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+245
+Pružné řídící struktury – Projektová řídící struktura
+Vedení podniku (Představenstvo, GŘ, štáb)
+￼
+VP 1
+vývoje
+VP 2
+vývoje
+VP 3
+vývoje
+VP n
+vývoje
+VP 1
+výroby
+VP 1
+servisu
+VP 1
+obchodu
+VP 2
+výroby
+VP 3
+výroby
+VP n
+výroby
+VP 2
+servisu
+VP 3
+servisu
+VP n
+servisu
+VP 2
+obchodu
+VP 3
+obchodu
+VP n
+obchodu
+Ředitel
+vývoje
+Ředitel
+servisu
+Ředitel
+výroby
+…
+.
+.
+.
+Obchodní
+ředitel
+Vedoucí P1
+Vedoucí P2
+Vedoucí P3
+Vedoucí Pn
+=== PAGE 246 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+246
+Podniková kultura – sdílené hodnoty
+Podniková kultura
+Styl řízení
+• autoritativní styl
+• demokratický styl
+• liberální styl
+Schopnosti
+• adaptace a rozvoj
+• řídící struktura
+Spolupráce
+• zvyšování výkonnosti x provozní riziko
+￼
+STYL
+SCHOPNOSTI
+SPOLUPRÁCE
+=== PAGE 247 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+247
+POSDCORB
+Manažerské funkce
+Luther Gulick ve 30. letech uspořádal manažerské funkce do systému
+▪ Planning
+▪ Organizing
+▪ Staffing
+▪ Directing
+▪ Coordinating
+▪ Reporting
+▪ Budgeting
+▪ Plánování
+▪ Organizování
+▪ Výběr a umísťování pracovníku
+▪ Vedení
+▪ Koordinování
+▪ Reportování
+▪ Rozpočtování
+…..
+…..
+…..
+…..
+…..
+…..
+…..
+￼
+￼
+=== PAGE 248 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+248
+Hlavní činnosti manažera podle Druckera
+Manažerské funkce
+▪ stanovení cílů a způsobu jeho dosažení, tj. vlastně plánování
+▪ organizování
+▪ motivace a komunikace, tj. vlastně volby spolupracovníků a
+vedení lidí
+▪ měření, resp. vyhodnocování dosažených výsledků
+Hlavní manažerské činnosti zkráceně vyjadřuje takto:
+▪ plánování
+▪ organizování
+▪ integrování
+▪ měření
+Peter Ferdinand Drucker
+(1909-2005)
+￼
+=== PAGE 249 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+249
+Manažerské funkce podle Koontze a Weihricha
+Manažerské funkce
+Nejužívanější klasifikaci uvádí učebnice managementu H. Koontze a H. Weihricha
+Členění funkcí:
+1. plánování
+2. organizování
+3. výběr a rozmístění spolupracovníků (personální zajištění)
+4. vedení lidí
+5. kontrola
+￼
+=== PAGE 250 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+250
+H. Mintzberg 10 „rolí“ ve 3 skupinách
+Manažerské funkce
+Koncept manažerských funkcí je kritizován, např. H. Mintzbergem v práci
+"The Nature of Management Work" a dalších publikacích.
+Dle Mintzberga lze činnosti vedoucích pracovníků
+shrnout do deseti "rolí„ ve třech skupinách.
+▪ Skupina interpersonálních rolí
+▪ Skupina informačních rolí
+▪ Skupina rozhodovacích rolí
+￼
+*1939 Kanada
+=== PAGE 251 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+251
+Skupina interpersonálních rolí
+Manažerské funkce
+▪ vyplývají přímo z formální pravomoci a zodpovědnosti vedoucího pracovníka
+udržovat a rozvíjet kontakty s partnery
+▪ mimo vlastní řízenou organizaci - zákazníci, dodavatelé, představitelé bank, státní správy…
+▪ v rámci vlastní organizace - nadřízení, podřízení, představitelé odborů, …
+Dílčí role:
+▪ představitel organizace (figurehead)
+▪ vůdce organizace (leader)
+▪ spojovací článek (liason)
+￼
+=== PAGE 252 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+252
+Skupina informačních rolí
+Manažerské funkce
+￼
+▪ spočívá v účasti při vytváření, sběru, přenosu, třídění, filtraci a využití informací
+Dílčí role:
+▪ monitorující příjemce informací
+(monitor)
+▪ šiřitel informací (disseminator)
+▪ mluvčí organizace (spokenperson)
+=== PAGE 253 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+253
+Skupina rozhodovacích rolí
+Manažerské funkce
+￼
+▪ jsou projevem cílevědomé činnosti k dosažení cílů organizace
+Dílčí role:
+▪ podnikatelská (enterprenerurial)
+▪ řešení problémů (disturbance-handler)
+▪ alokace zdrojů (resource-allocator)
+▪ vyjednavač (negotiator)
+=== PAGE 254 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+254
+Mintzbergova kategorizace rolí
+Manažerské funkce
+▪ Mezilidské vztahy
+Role Charakteristika
+Manažer s autoritou Právní, sociální oblast
+Vůdce Motivování, vzdělávání, rozvoj
+Budovatel vztahů Vnější vztahy podniku
+=== PAGE 255 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+255
+Mintzbergova kategorizace rolí
+Manažerské funkce
+▪ Předávání informací
+Role Charakteristika
+Monitorování Organizace prostředí
+Rozšiřování Transfer informací
+Mluvčí Transfer informací vně
+=== PAGE 256 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+256
+Mintzbergova kategorizace rolí
+Manažerské funkce
+▪ Rozhodování
+Role Charakteristika
+Podnikatel Příležitosti, změny
+Krizový manager Nápravná opatření
+Alokátor zdrojů Alokování zdrojů organizace
+Vyjednavač Jednání v zájmu podniku
+=== PAGE 257 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+257
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká zemědělská univerzita,
+Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ HRON, J. TRAXLER, A. 2018. Dovednosti v řízení. V Praze: Česká zemědělská univerzita, Provozně
+ekonomická fakulta. ISBN 978-80-213-2833-4.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ LEVITT, Steven D. a Stephen J. DUBNER. Freakonomie: skrytá ekonomie všeho. Přeložil Ivo MAGERA. V Brně:
+BizBooks, 2015. ISBN 978-80-265-0415-3. http://burzaprokazdeho.cz/motivace-vs-inspirace/
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem on Production-Technical
+Area of Organizational System. Agrarian Perspectives XXVIII. International Scientific Conference
+=== PAGE 258 ===
+Děkuji za pozornost.
+=== PAGE 259 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+259
+Time management
+Time management
+Existuje alespoň tisíc způsobů, jak zabít čas.
+Ale žádný, kterým lze čas vzkřísit.
+Albert Einstein
+￼
+￼
+Není pravda, že máme málo času, pravdou je, že ho
+hodně promarníme.
+Seneca
+=== PAGE 260 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 261 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+261
+￼
+Time management
+Time management
+✓ Kdo neřídí je řízen
+✓ Kdo řídí, určuje čas sobě a jiným
+✓ Všichni máme 24 hodin k dispozici: jedna z mála spravedlností
+✓ Čas jsou peníze s časem se musí hospodařit jako s penězi!
+✓ Ztráta peněz se dá nahradit.
+✓ Ztráta času se již nedá nahradit – ten je definitivně pryč!
+Je potřeba podle toho jednat!
+￼
+=== PAGE 262 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+262
+Úvod do Time Managementu
+Timemanagement
+Time Management představuje metody a techniky,
+které nám pomáhají efektivněji plánovat a využívat čas.
+Čas je omezený zdroj, který nelze obnovit ani získat
+zpět.
+Efektivní řízení času znamená rozvrhnout naše aktivity
+tak, abychom zvládali více úkolů s menším stresem a
+lépe využívali svůj den.
+￼
+=== PAGE 263 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+263
+Proč je řízení času důležité
+Timemanagement
+Řízení času zvyšuje naši produktivitu a pomáhá
+dosahovat stanovených cílů.
+TM umožňuje identifikovat a eliminovat zbytečné
+činnosti, což vede k efektivnějšímu plnění úkolů.
+Řízení času snižuje stres, protože umožňuje mít kontrolu
+nad časem a úkoly.
+￼
+=== PAGE 264 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+264
+Hlavní cíle Time Managementu
+Timemanagement
+￼
+❑ Prioritizace úkolů podle důležitosti:
+▪ Pomáhá soustředit se na klíčové úkoly a
+eliminovat zbytečné aktivity.
+❑ Efektivní organizace pracovních procesů:
+▪ Umožňuje strukturovat činnosti tak, abychom
+dosahovali optimální efektivity.
+❑ Minimalizace stresu a časových ztrát:
+▪ Pomáhá udržet kontrolu nad harmonogramem a
+vyhnout se pocitu zahlcení.
+=== PAGE 265 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+265
+Historie Time Managementu
+Timemanagement
+Time Management se začal rozvíjet v 70. letech 20.
+století. V té době začaly vznikat první teorie a metody
+zaměřené na efektivní plánování času, které se snažily
+reagovat na zvyšující se nároky moderního života.
+V průběhu let se koncept Time Managementu dále
+vyvíjel s příchodem nových technologií a nástrojů.
+￼
+=== PAGE 266 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+266
+Čtyři generace plánování času
+Timemanagement
+I. Poznámky a upomínky:
+▪ První generace se zaměřovala na zaznamenávání úkolů, které
+bylo potřeba udělat.
+II. Kalendáře a diáře:
+▪ Druhá generace přinesla snahu o systematické plánování pomocí
+kalendářů.
+III. Prioritizace úkolů:
+▪ Třetí generace se začala zaměřovat na stanovení priorit a
+dosažení efektivity.
+IV. Osobní řízení a rovnováha:
+▪ Čtvrtá generace zdůrazňuje rovnováhu mezi prací a osobním
+životem.
+￼
+￼
+Každá generace přístupů k TM reflektuje postupný vývoj v tom, jak lidé chápou a organizují svůj čas:
+￼
+￼
+=== PAGE 267 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+267
+I. generace
+Timemanagement
+￼
+▪ Praktický a jednoduchý
+přístup.
+▪ Chybí strategický rozměr.
+I. Poznámky a upomínky:
+▪ První generace se zaměřovala na zaznamenávání úkolů, které bylo potřeba udělat.
+=== PAGE 268 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+268
+￼
+￼
+II. generace
+Timemanagement
+II. Kalendáře a diáře:
+▪ Druhá generace přinesla
+snahu o systematické
+plánování pomocí
+kalendářů.
+▪ Spíše organizace, než
+prioritizace.
+=== PAGE 269 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+269
+III. generace
+Timemanagement
+￼
+￼
+III. Prioritizace úkolů:
+▪ Třetí generace Time Managementu
+kladla důraz na stanovení priorit a
+organizaci úkolů podle jejich
+důležitosti a naléhavosti.
+=== PAGE 270 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+270
+IV. generace
+Timemanagement
+￼
+IV. Osobní řízení a rovnováha:
+▪ Čtvrtá generace Time Managementu se zaměřuje na osobní řízení
+a rovnováhu mezi prací a osobním životem.
+▪ Umění říkat „NE“.
+=== PAGE 271 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+271
+Paretovo pravidlo 80/20
+Time management
+Cílem řízení času:
+▪ vyzískat ze svého času co možná nejvíce
+▪ vyhnout se stresu
+▪ dostat svůj časový rozvrh pod kontrolu
+proto je ceněna volná pracovní doba
+Naučte se:
+▪ efektivně plánovat svůj čas
+▪ stanovte si životní a pracovní cíle
+▪ stanovte si priority a řiďte se jimi
+Uvědomte si, jak funguje Paretovo pravidlo
+20 % – 80 % → chyba už ve škole
+řešení nepodstatných problémů
+￼
+=== PAGE 272 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+272
+10 hlavních zásad TM
+Time management
+￼
+1. Stanovit si priority důležitosti
+▪ stanovit je – napsat si je
+▪ řídit se jimi – kdy kterou věc chci řešit (jak a s kým to chci řešit)
+▪ včas účastníky řešení informovat (co a kdy)
+▪ nedopustit, aby urgentní záležitost vytěsnila důležitou
+2. Delegování
+▪ co můžu přesunu na jiné
+▪ dle stanovených priorit a důležitosti vyberu co budu řešit sám
+▪ při delegování postupovat dle pravidel delegování
+▪ vymezit pravomoci a požadovat spoluúčast na odpovědnosti
+▪ důvěřovat, že to podřízený udělá dobře (není pravda, že všechno umím nejlépe)
+▪ nestát se nepostradatelným
+=== PAGE 273 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+273
+10 hlavních zásad TM
+Time management
+3. Efektivně využívat nástroje (pomůcky)
+▪ výpočetní techniku – využít, co je k
+dispozici, ne jen to, co umím
+▪ informační systémy podniku
+▪ MIS →pokud je
+▪ vytvoření vlastního SW (pro opakující se
+operace)
+4. Systematické plánování času
+▪ diář (někdy vede sekretářka)
+▪ plánovací SW
+▪ celkový přehled vašeho časového rozvrhu
+(den, týden, měsíc)
+▪ dodržovat domluvené termíny („termín je
+svatá věc“)
+▪ zamezit kolizi termínů
+▪ snižování stresu (ti, kteří neustále nestíhají,
+obvykle nemají žádný časový rozvrh)
+￼
+=== PAGE 274 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+274
+10 hlavních zásad TM
+Time management
+5. Umět říci NE
+▪ obecně při každé nabídce umět říci ANO
+nebo NE
+▪ NE neznamená odmítnutí člověka, ale jeho
+nabídky
+▪ NE je třeba říci, když vás chce někdo
+připravit o čas
+▪ Vytvořit si režim návštěv – pravidelný čas
+(otevřené dveře)
+6. Umět úkoly zpracovat „bleskově“
+▪ to co neumím ať dělá někdo jiný – bude to
+dělat lépe
+▪ co nenávidím ať dělá někdo jiný – bude to
+dělat lépe
+▪ když si včas uvědomím co mi nejde, ušetřím
+mnoho času
+￼
+=== PAGE 275 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+275
+10 hlavních zásad TM
+Time management
+8. Odstranit rušivé vlivy
+▪ nečekané návštěvy bez ohlášení
+▪ příjem telefonu při jednání, poradě → ztráta
+koncentrace
+▪ před důležitým jednání si vypněte telefon
+(pokud to uděláte před partnerem, vyzýváte ho
+nepřímo, aby to udělal také)
+7. Informovanost
+▪ včasná informovanost
+▪ úplná informovanost
+▪ vytvoření časového rámce → pro plánování
+jiné činnosti
+▪ sníženi stresu (otevřené dveře)
+￼
+=== PAGE 276 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+276
+10 hlavních zásad TM
+Time management
+9. Vytvoření časové rezervy
+▪ naplánovat cca 60% času
+▪ 40 % času na vytvoření mezery – zvláště před
+důležitým
+bodem programu
+▪ snížení stresu (téměř nikdy nic netrvá tak dlouho,
+jak si naplánujete)
+10. Uspořádání pracovního místa
+▪ vytvořte si svůj systém
+▪ když ho nevytvoříte sami, vytvoří vám ho
+někdo jiný
+▪ omezení hledání
+▪ uspořádat si věci na počítači (přehledné
+složky)
+▪ zálohujte (hledat je špatné, ztratit je horší)
+￼
+• E– evaluated – vyhodnocený
+• R– rewarded – odměněný
+E R
+=== PAGE 277 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+277
+Donald Wetmor – 5 omylů v plánování času
+Time management
+1. Začít den bez jasného plánu
+▪ neúměrně se rozvine rutina
+▪ většinou bude potřebovat více lidí
+▪ udělejte si exkurzi, jak to dělají jinde
+2. Nevyrovnanost v osobním života
+▪ přepracovanost vede k mnoha negativním jevům v osobním životě
+▪ nestihá a jsem nespokojený
+▪ problémy v rodině
+▪ zdravotní problémy
+▪ nedělám co bych chtěl
+3. Smetiště na pracovním stole (v počítači)
+▪ neustálé hledání
+▪ ztráty
+▪ archivujte, vyhazujte
+4. Pracovat jde i na úkor spánku
+▪ nejde dlouhodobě
+▪ funguje jen krátce
+▪ nedostatečná regenerace – horší výkon, horší zdravotní stav
+5. Přestávka na oběd není čas určený k práci
+▪ regenerace
+▪ kondice
+▪ dobití baterek
+▪ naladění – lepší si povídat vtipy
+▪ stejně nic nezískáte
+▪ choďte na oběd bez telefonu
+▪ výjimku tvoří pracovní oběd
+1.000 (ne)dokončených nedůležitých věcí < jedna důležitá dokončená!
+=== PAGE 278 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+278
+Time management
+Time management
+￼
+￼
+=== PAGE 279 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+279
+Time management
+Time management
+￼
+￼
+=== PAGE 280 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+280
+Time management
+Time management
+￼
+￼
+=== PAGE 281 ===
+Univerzita plná života
+pef.czu.cz 11/12/25
+Time management
+￼
+=== PAGE 282 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+282
+Zdroje
+Zdroje
+Autorský kolektiv:
+Ing. Monika Jadrná, Ph.D.
+Ing. Arnošt Traxler, CSc.
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze: Česká zemědělská univerzita,
+Provozně ekonomická fakulta. ISBN 978-80-213-2768-9.
+▪ HRON, J. TRAXLER, A. 2018. Dovednosti v řízení. V Praze: Česká zemědělská univerzita, Provozně
+ekonomická fakulta. ISBN 978-80-213-2833-4.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ LEVITT, Steven D. a Stephen J. DUBNER. Freakonomie: skrytá ekonomie všeho. Přeložil Ivo MAGERA. V Brně:
+BizBooks, 2015. ISBN 978-80-265-0415-3. http://burzaprokazdeho.cz/motivace-vs-inspirace/
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control Subsystem on Production-Technical
+Area of Organizational System. Agrarian Perspectives XXVIII. International Scientific Conference
+=== PAGE 283 ===
+Děkuji za pozornost.

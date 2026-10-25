@@ -1,0 +1,569 @@
+=== PAGE 1 ===
+Matematická logika a grafy
+pro PEF ČZU
+Množiny
+Ing. Jakub Čermák
+Katedra matematiky a fyziky, TF ČZU
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+1 / 26
+=== PAGE 2 ===
+Množiny
+Motivace
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+2 / 26
+=== PAGE 3 ===
+Motivace
+Spousta úloh je vlastně o souborech objektů — a o tom, co mají společného.
+S tím přichází přirozená potřeba tyto soubory (mj. v neuspořádaném smyslu) popisovat, k čemuž
+se množiny hodí.
+Příklady využití
+databáze — dotaz vybírá množinu záznamů,
+typy v programování — hodnoty, kterých smí proměnná nabývat,
+pravděpodobnost — jevy jsou množiny výsledků.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+3 / 26
+=== PAGE 4 ===
+Čemu se budeme věnovat
+Rozsah přednášky
+Teorie množin je samostatná matematická disciplína. My zůstaneme pouze u základů, které spadají
+do tzv. naivní teorie množin a které stačí k základní praktické práci.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+4 / 26
+=== PAGE 5 ===
+Množiny
+Naivní teorie množin
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+5 / 26
+=== PAGE 6 ===
+Co je množina
+Pseudodefinice
+Množina je souhrn přesně specifikovaných a navzájem rozlišitelných objektů. Tyto objekty nazýváme
+prvky dané množiny.
+Značení
+To, že prvek x leží v množině M, zapisujeme x ∈M. V opačném případě píšeme x M.
+Poznámka
+Množinu lze definovat výčtem jejích prvků, například
+A = {1, 2, 3, 4, 5}.
+Množinu lze definovat také pomocí vlastnosti jejích prvků, například
+B = {x ∈ |x je sudé}.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+6 / 26
+=== PAGE 7 ===
+Příklady množin
+Značení
+Množiny se obvykle značí velkými písmeny.
+Příklady množin
+P = {a, b, c, d, e, f }
+B = {krtek, lama, emu, beruška, lemur, krajta}
+S = {x ∈P |x je samohláska}= {a, e}
+V = {x ∈B |x snáší vajíčka}= {emu, beruška, krajta}
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+7 / 26
+=== PAGE 8 ===
+Vlastnosti množin
+Poznámka
+Prvky množiny nemají pořadí.
+Poznámka
+Každý prvek v množině buď leží, nebo neleží. Neřeší se žádná násobnost prvku.
+Poznámka
+Množina je jednoznačně určena svými prvky.
+Poznámka
+Množiny mohou být konečné, tedy obsahovat konečně mnoho prvků, ale i nekonečné, tedy
+obsahovat nekonečně mnoho prvků.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+8 / 26
+=== PAGE 9 ===
+Kvantifikátory a prázdná množina
+Značení
+x ∈A — (pro) každé x z množiny A,
+x ∈A — existuje x z množiny A,
+!x ∈A — existuje právě jedno x z množiny A.
+Definice
+Množina, která neobsahuje žádné prvky, se nazývá prázdná množina. Značí se ∅, případně {}.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+9 / 26
+=== PAGE 10 ===
+Množiny
+Množinové vztahy a operace
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+10 / 26
+=== PAGE 11 ===
+Množinové vztahy
+Definice
+Pro libovolné množiny A a B prvků z universa Udefinujeme vztahy:
+A je podmnožinou B (resp. B je nadmnožinou A):
+A ⊆B ⇔( x ∈U)(x ∈A ⇒x ∈B),
+A je rovna B:
+A = B ⇔( x ∈U)(x ∈A ⇔x ∈B),
+A je vlastní podmnožinou B:
+A ⊊ B ⇔(A ⊆B)∧(A B).
+Poznámka
+Vztah ⊆se nazývá množinová inkluze.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+11 / 26
+=== PAGE 12 ===
+Potenční množina
+Definice
+značíme P(A):
+Pro množinu A definujeme její potenční množinu jako množinu obsahující všechny podmnožiny A,
+P(A):= {X ⊆U|X ⊆A}.
+Pozor, je to podmnožina jiného universa, než množina A samotná.
+Příklad
+Buď A = {1, 2, 3}. Pak
+P(A)= {∅, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+12 / 26
+=== PAGE 13 ===
+Potenční množina — příklad
+Příklad
+Buď A = {1, 2, 3}a B = {1, 2, 3, 4}. Jelikož B je nadmnožina A lišící se jen o jeden prvek, lze při
+konstrukci P(B)využít znalosti P(A):
+P(B)= {∅, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}
+,
+všechny prvky P(A)
+{4}, {1, 4}, {2, 4}, {3, 4}, {1, 2, 4}, {1, 3, 4}, {2, 3, 4}, {1, 2, 3, 4}
+všechny prvky P(A), s přidanou 4
+}
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+13 / 26
+=== PAGE 14 ===
+Množiny množin
+Prvkem množiny může být zase množina — nic tomu nebrání.
+Příklad
+Nechť
+Barcelona= {Xavi, Messi, Iniesta, . .. },
+Real= {Ronaldo, Adebayor, Casillas, .. . }.
+Poté nechť
+Liga= {Barcelona, Real}.
+To je totéž jako
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+Liga= {Xavi, Messi, Iniesta, .. . }, {Ronaldo, Adebayor, .. . }.
+Poznámka
+Pozor na úroveň — prvky množiny Liga jsou týmy, ne hráči. Platí tedy
+Real ∈Liga, ale Ronaldo Liga.
+Podobně {1, 2}∈ {1, 2}, {3} , ale 1 {1, 2}, {3}.
+14 / 26
+=== PAGE 15 ===
+Množinové operace
+Definice
+Buďte A, B ⊆U. Definujeme
+doplněk A (v universu U):
+A′
+:= {x ∈U|x A},
+průnik A a B:
+A ∩B := {x ∈U|x ∈A ∧x ∈B},
+sjednocení A a B:
+A ∪B := {x ∈U|x ∈A ∨x ∈B},
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+rozdíl A a B:
+A \B := {x ∈U|x ∈A ∧x B},
+kartézský součin A a B:
+A ×B := {(a, b)|a ∈A ∧b ∈B}.
+Poznámka
+Uspořádaná dvojice (a, b)není prvkem Uale universa U×U:= {(a, b)|a ∈U∧b ∈U}.
+15 / 26
+=== PAGE 16 ===
+Doplněk v množině a disjunktnost
+Definice
+Nechť A ⊆B. Pak doplňkem množiny A v množině B je množina
+A′
+B = {x ∈U|x ∈B ∧x A}.
+Je-li množina B zjevná z kontextu, píše se jen A′. Doplněk A′je tedy zvláštní případ pro B = U.
+Definice
+Množiny, které mají prázdný průnik, nazýváme disjunktní.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+16 / 26
+=== PAGE 17 ===
+Množinové operace — příklady
+Příklad
+Mějme množiny A = {k, o, s, t, e, l}a B = {s, t, á, n, e, k}. Určete A ∩B, A ∪B, A \B a B \A.
+Příklad
+Mějme množiny C = {k, a, l}a D = {v, l, a, k, v, e, d, o, u, c, í}. Určete C′
+D a P(C).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+17 / 26
+=== PAGE 18 ===
+Souvislost s výrokovou logikou
+Všimněte si, že v definicích operací se objevily logické spojky — a není to náhoda. Jsme vlastně jen na
+jiné úrovni detailu a místo pravdivosti výroku se ptáme na příslušnost prvku, což lze na pravdivost
+výroku převést.
+Logika Množiny
+A ∧B A ∨B A ⇒B A ⇔B A ∩B průnik
+A ∪B sjednocení
+A ⊆B podmnožina
+A = B rovnost
+Mnohé logické zákony lze proto ve velmi podobném duchu formulovat i v případě množin.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+18 / 26
+=== PAGE 19 ===
+Množiny
+Vennovy diagramy
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+19 / 26
+=== PAGE 20 ===
+Vennovy diagramy
+Vennův diagram je grafické znázornění vztahů mezi množinami. Každá množina je znázorněna uzavře-
+nou křivkou (zpravidla kružnicí nebo elipsou) uvnitř obdélníku představujícího univerzum U.
+Překrývající se části křivek odpovídají prvkům, které patří do více množin zároveň.
+Každá oblast diagramu odpovídá jedné kombinaci příslušnosti do daných množin a tedy jednoznačně
+vymezené skupině prvků — žádný prvek se nevyskytuje ve dvou různých oblastech diagramu najednou
+(tj. oblasti jsou tzv. disjunktní). Díky tomu lze počty prvků v jednotlivých oblastech sčítat.
+A
+U
+B C
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+20 / 26
+=== PAGE 21 ===
+Vennův diagram pro čtyři množiny
+U čtyř množin už kružnice nestačí — i přes to jsme ale schopni všech 16 oblastí sestrojit.
+A
+U
+B
+C
+D
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+21 / 26
+=== PAGE 22 ===
+Použití Vennových diagramů — Octavia
+Příklad
+Modelu Octavia se loni vyrobilo stejně ve verzi kombi jako ve verzi sedan (jiná verze se nevyrábí). Kli-
+matizaci mělo 80 % Octavií, CD-přehrávač 72 %. Kombíky s klimatizací a CD-přehrávačem tvoří pouze
+pětinu všech vyrobených Octavií, sedany s klimatizací 45 % a kombíky bez CD-přehrávače 20 %. Spo-
+lečnost Škoda nevyrábí sedany s CD-přehrávačem, které by neměly klimatizaci.
+Určete:
+kolik procent výroby tvoří sedany bez CD-přehrávače a klimatizace,
+kolik procent sedanů má klimatizaci,
+kolik Octavií loni společnost Škoda vyrobila.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+22 / 26
+=== PAGE 23 ===
+Použití Vennových diagramů — zvířata
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Příklad
+Ve třídě 3. B je 30 žáků. Hada i potkana chová sedm žáků, hada i velkého chlupatého pavouka pět žáků,
+potkana i (velkého chlupatého) pavouka osm žáků. Jedničkářů, čili žáků, kteří doma chovají alespoň
+dvě zvířata, je ve třídě 14. Čtyři žáci nechovají žádné zvíře.
+Určete:
+kolik žáků chová hada, potkana i pavouka,
+kolik žáků chová právě jedno zvíře,
+kolik žáků chová pouze hada.
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+23 / 26
+=== PAGE 24 ===
+Množiny
+Číselné obory
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+24 / 26
+=== PAGE 25 ===
+Číselné obory
+Značení
+= {0, 1, 2, 3, . . .}— přirozená čísla,
+= {. . . ,−2,−1, 0, 1, 2, 3, . . .}— celá čísla,
+= a
+b a ∈ , b ∈ , b 0 — racionální čísla,
+— reálná čísla, odpovídají bodům na číselné ose,
+= \ — iracionální čísla,
+= {a +b·i |a, b ∈ , i2 =−1}— komplexní čísla.
+Pozorování
+⊊ ⊊ ⊊ ⊊
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+25 / 26
+=== PAGE 26 ===
+Číselné obory — příklady
+Příklad - Intervaly
+Buďte A, B množiny reálných čísel
+A = (−∞,−1)∪⟨2, 5⟩, B = ⟨−3, 0)∪(2, ∞).
+Určete A ∪B, A ∩B a A \B.
+Příklad - Dělitelnost
+Buďte A = {x ∈ |12 dělí x}a B = {x ∈ |9 dělí x}. Určete A ∩B.
+Příklad - Komplexní čísla
+1 Sečtěte, odečtěte, vynásobte a vydělte komplexní čísla 18−i a 3 +2i.
+2 Určete absolutní hodnotu čísel−5, 4−3i, 1 +i.
+3 Vyřešte kvadratickou rovnici x2 +6x +25 = 0.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Množiny
+Motivace
+Naivní teorie
+množin
+Množinové vztahy
+a operace
+Vennovy
+diagramy
+Číselné obory
+26 / 26

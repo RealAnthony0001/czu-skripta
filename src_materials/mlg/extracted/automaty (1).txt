@@ -1,0 +1,105 @@
+=== PAGE 1 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Hospody, do kter´ych nevede cesta, jsou zbyteˇcn´e
+Pˇr´ıklad
+0 1
+Zjistˇete, jak´y jazyk pˇrij´ım´a automat
+→←A ←C ←E B D
+B D B
+C B
+D B D
+B D
+Definice
+Stav q se naz´yv´a dosaˇziteln´y, pokud existuje slovo w takov´e, ˇze
+v´ypoˇcet nad t´ımto slovem konˇc´ı ve stavu q.
+Definice
+Koneˇcn´y automat se naz´yv´a dosaˇziteln´y, pokud jsou dosaˇziteln´e
+vˇsechny jeho stavy.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 2 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Pˇr´ıklad
+Pˇr´ıklad
+Naleznˇete dosaˇzitelnou ˇc´ast automatu A a n´aslednˇe urˇcete, jak´y
+jazyk dan´y automat pˇrij´ım´a.
+A a b
+→1 5 5
+←2 2 7
+3 4 6
+4 6 1
+5 1 3
+6 5 4
+7 8 1
+←8 2 5
+Jan Hora Koneˇcn´e automaty
+=== PAGE 3 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Kdyˇz dva dˇelaj´ı tot´eˇz, je to tot´eˇz
+Definice
+jazyk.
+Dva automaty se naz´yvaj´ı ekvivalentn´ı, pokud pˇrij´ımaj´ı stejn´y
+Pˇr´ıklad
+automat A.
+Naleznˇete minim´aln´ı automat, kter´y pˇrij´ım´a stejn´y jazyk jako
+A a b
+→1 ←3 ←6 1 3
+2 1 3
+6 5
+4 1 5
+5 2 4
+6 2
+Jan Hora Koneˇcn´e automaty
+=== PAGE 4 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Maxim´aln´ı faktorizace
+Definice
+Bud’ A = (Q,Σ,δ,q0,F ) koneˇcn´y automat. Stavy q1 a q2 se
+naz´yvaj´ı ekvivalentn´ı (znaˇc´ıme q1 ∼q2), pokud automaty
+(Q,Σ,δ,q1,F ) a (Q,Σ,δ,q2,F ), pˇrij´ımaj´ı stejn´y jazyk.
+Definice
+Automat A/∼= (Q/∼
+,Σ,δ/∼
+,[q0]∼,F /∼) se naz´yv´a maxim´aln´ı
+faktorizace automatu A.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 5 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Proˇc to dˇelat sloˇzitˇe, kdyˇz to jde jednoduˇse
+Vˇeta
+Maxim´aln´ı faktorizace automatu A pˇrij´ım´a stejn´y jazyk jako
+automat A. Pokud byl automat A dosaˇziteln´y, je tato maxim´aln´ı
+faktorizace minim´aln´ım automatem (vzhledem k poˇctu stav˚u)
+pˇrij´ımaj´ıc´ım jazyk L(A).
+Definice
+Automat A se naz´yv´a redukovan´y, pokud je dosaˇziteln´y a jeho
+maxim´aln´ı faktorizace m´a stejn´y poˇcet stav˚u jako automat
+p˚uvodn´ı.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 6 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Svat´y gr´al teorie koneˇcn´ych automat˚u
+Vˇeta
+Bud’
+te A1 a A2 dva redukovan´e automaty pˇrij´ımaj´ıc´ı stejn´y jazyk.
+Pak jsou tyto automaty stejn´e aˇz na pˇrejmenov´an´ı stav˚u.
+Vˇeta
+Dva automaty jsou ekvivalentn´ı (pˇrij´ımaj´ı stejn´y jazyk) pr´avˇe
+tehdy, kdyˇz maxim´aln´ı faktorizace dosaˇziteln´ych ˇc´ast´ı tˇechto
+automat˚u jsou shodn´e aˇz na pˇrejmenov´an´ı stav˚u.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 7 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Syntaktick´a ekvivalence
+Definice
+Mˇejme jazyk L nad abecedou Σ a slovo u ∈Σ∗
+. Prav´y kontext
+slova u vzhledem k jazyku L je mnoˇzina
+u\L= {v ∈Σ∗|uv ∈L}.
+Myhillova–Nerodova ekvivalence vzhledem k L je bin´arn´ı relace∼L
+na mnoˇzinˇe Σ∗ sluˇcuj´ıc´ı ta slova, kter´a maj´ı stejn´y prav´y kontext,
+tj.
+u ∼L v ≡u\L= v\L.
+Pˇr´ıklad
+Jak vypad´a Myhillova–Nerodova ekvivalence jazyka
+L= {111,1011}?
+Jan Hora Koneˇcn´e automaty

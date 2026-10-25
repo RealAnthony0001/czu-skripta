@@ -1,0 +1,417 @@
+=== PAGE 1 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+přednáška 02
+Úvod do principu počítačů
+David Buchtela
+Katedra informačního
+inženýrství
+Informace a data v počítači
+1
+=== PAGE 2 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Informace versus data
+❑ Data (jednotné číslo údaj) obvykle chápeme jako údaje, tj. číselné
+hodnoty, znaky, texty a další fakta zaznamenaná ve formě uspořádané
+posloupnosti znaků zvolené abecedy – obvykle binární řetězce
+➢ jakékoli vyjádření (reprezentaci) skutečnosti, schopné přenosu, uchování,
+interpretace či zpracování
+❑ Informací sdělení, komunikovatelný poznatek, který má význam pro
+příjemce nebo údaj usnadňující volbu mezi alternativními možnostmi
+při rozhodování příjemce
+❑ Procesu, při kterém z dat získáváme zpětně informace,
+říkáme interpretace dat
+➢ Data sama o sobě tedy ještě neznamenají informaci
+➢ Informaci z dat získáme pouze tak, že porozumíme, co nám sdělují, tedy
+umíme je interpretovat
+➢ např. text napsaný v čínštině nebo Morseova abeceda ∙∙∙/---/∙∙∙ (S.O.S.)
+❑ Počítač (výpočetní systém) = stroj na automatické
+ukládání, zpracovávání, zpřístupňování a přenos dat
+2
+￼
+110101…
+=== PAGE 3 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+￼
+Data v počítači
+❑ Počítač von Neumannovy architektury používá dvojkovou soustavu,
+tj. všechny součásti počítače zpracovávají údaje v podobě nul a jedniček
+➢ Operační paměť ukládá data i programy v podobě nul a jedniček
+➢ Aritmeticko-logická jednotka počítá ve dvojkové soustavě
+➢ Vstupní zařízení převádějí vstupní údaje (např. stisk klávesy) na nuly a jedničky
+➢ Výstupní zařízení převádějí nuly a jedničky na výstupní údaje
+(např. na barvu na obrazovce)
+➢ John von Neumann (*1903, +1957)
+❑ Reprezentace (kódování) dat (čísel, textů, barev apod.)
+v počítači
+➢ popisujeme, jak jsou data (čísla, texty, barvy apod.) uložena v počítači, tedy jak jsou
+vyjádřena v nulách a jedničkách
+3
+￼
+￼
+=== PAGE 4 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+￼
+Kódování (reprezentace) dat v počítači
+❑ Chceme-li uložit a dále zpracovávat jakákoliv data v počítači, je
+potřeba je vhodným způsobem zakódovat do binární soustavy
+➢ najít pro každý typ dat vhodný kód K
+➢ Kód je prosté (vzájemně jednoznačné) zobrazení množiny kódovaných
+objektů X do množiny kódových slov X´
+• {objekty} → {kódová slova}
+❑ Je nutno najít způsob kódování
+informačních dat (kódem k)
+➢ Zobrazení množiny objektů
+{xi} na množinu kódových
+slov {x´
+i | x´
+i = k (xi)},
+kde kódovými slovy
+jsou binární řetězce
+➢ mají-li binární kódová
+slova délku n lze
+vytvořit 2n různých
+kódových slov
+➢
+4
+=== PAGE 5 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Dekódování (interpretace) dat
+❑ Při zpětné interpretaci uložených dat (zjištění, co
+kódové slovo představuje) je třeba znát kód, kterým byl
+kódovaný objekt do tohoto kódového slova zakódován
+➢ Stejné kódové slovo (n-bitový binární řetězec) tak může, při
+použití různých kódů, představovat různé objekty (číselnou
+hodnotu, znak, …)
+5
+￼
+=== PAGE 6 ===
+Buchtela@pef.czu.cz (P02) B-UPP 6
+Binární kódy
+=== PAGE 7 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Binární kód
+❑ Binární kód
+➢ kód je prosté (vzájemně jednoznačné) zobrazení množiny
+kódovaných objektů xi do množiny kódových slov x´
+i
+➢ množ. objektů {xi} → množ. kódových slov {x´
+i | x´
+i = k (xi)},
+kde kódovými slovy jsou binární řetězce
+➢ mají-li binární kódová slova délku n lze vytvořit 2n různých
+kódových slov
+• např. n = 8 (1 byte) → 28 = 256 různých kódových slov
+7
+￼
+=== PAGE 8 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Hammingova vzdálenost
+❑ Binární kódová slova délky n lze chápat jako body v n-rozměrném
+Eukleidovského prostoru En tvořící vrcholy jednotkového objektu
+v tomto prostoru
+❑ Hammingova vzdálenost
+➢ 𝒅 𝑿, 𝒀 = σ𝒊=𝟏
+𝒏 𝒙𝒊− 𝒚𝒊
+• kde X = (x1,x2, … xn) a Y = (y1, y2, … yn)
+➢ vzdálenost bodů v prostoru, tj. nejmenší počet hran, na cestě, která
+spojuje body X a Y
+➢ počet bitů (souřadnic), ve kterých se X a Y od sebe liší
+• pokud jsou kódová slova binární řetězce
+❑ Minimální kódová vzdálenost
+➢ Hammingova váha kódu
+➢ 𝒅𝒎𝒊𝒏 = 𝐦𝐢𝐧
+𝑿𝒊,𝒋∈𝑲
+𝒅(𝑿𝒊, 𝑿𝒋)𝒊≠𝒋
+• pro všechny dvojice různých
+kódových slov Xi a Xj z kódu K
+8
+￼
+=== PAGE 9 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Rozdělení binárních kódů dle dmin
+❑ Podle hodnoty minimální kódové vzdálenosti lze kódy
+rozdělit
+➢ kód (splnění definice kódu)
+• dmin ≥ 1
+➢ zabezpečující kód
+• dmin ≥ 2
+• lze detekovat obecně dmin - 1 chyb
+➢ samoopravný kód
+• dmin ≥ 3
+• lze opravit obecně (dmin - 1) div 2 chyb
+9
+=== PAGE 10 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Konstrukce zabezpečujícího kódu
+❑ Kódy, které mají dmin = 1, tj. nejsou zabezpečující, se
+rozšiřují o tzv. paritní bit
+➢ původní kód s kódovými slovy X = (x1,x2, … xn) rozšíříme
+o paritní bit na kód s kódovými slovy X´ = (x1,x2, … xn, p)
+➢ lichá parita
+• výsledný počet jedniček v X´ je lichý
+•
+➢ sudá parita
+• výsledný počet jedniček v X´ je sudý
+•
+10
+=== PAGE 11 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Konstrukce samoopravného kódu
+❑ Vycházíme z binárního kódu délky m bitů
+➢ kódová slova jsou m-bitové binární řetězce
+• bity řetězce se označují jako
+datové - (d1 … dm)
+➢ dmin = 1
+❑ Kód rozšíříme o k paritních bitů
+➢ vzniknou kódová slova
+délky (m + k) bitů
+• (d1 … dm, p1 … pk)
+❑ Hledáme samoopravný kód
+➢ dmin = 3
+➢ m + k + 1  2k
+11
+￼
+=== PAGE 12 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Hammingův kód
+❑ Hammingův kód – SEC (Single Error Correcting)
+➢ dmin = 3
+➢ uspořádání datových (d1 … dm) a paritních (p1 … pk) bitů
+• všechny pozice, jejichž číslo je rovno mocnině 2 jsou použity pro paritní
+bity
+– tj. pozice 1,2,4,8,16,32,…
+• ostatní pozice jsou postupně obsazeny datovými bity
+➢ každý paritní bit je vypočítán z některých datových bitů
+• pozice paritního bitu udává sekvenci bitů (kódového slova), které se
+pro výpočet použijí a které vynechají
+– počínaje pozicí paritního bitu
+• např. pro paritní bit p1 (pozice 1) → 1 bit se použije, 1 bit vynechá
+– p1 = d1  d2  d4  d5  d7  d9  …
+• pro paritní bit p2 (pozice 2) → 2 bity se použijí, 2 bity vynechají
+– p2 = d1  d3  d4  d6  d7  d10  …
+12
+￼
+=== PAGE 13 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Princip zabezpečení dat SEC kódem
+❑ Korektor je schopen chybu v jednom bitu opravit
+➢ na základě syndromů z komparátoru
+➢ chyby ve dvou bitech ale opraví špatně
+❑ → SEC DED (Double Error Detecting) kód
+➢ SEC kód rozšířený o bit celkové parity (sudá / lichá)
+➢ je schopen detekovat chybu ve dvou bitech
+13
+generátor
+parity
+hlavní
+paměť
+generátor
+parity
+komparátor
+korektor
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+p1…p4
+p1…p4
+p1
+´
+…p4
+´
+syndromy
+oprava
+￼
+￼
+￼
+￼
+d1…d8 d´
+1…d´
+8
+=== PAGE 14 ===
+Buchtela@pef.czu.cz (P02) B-UPP 14
+Kódování dat v počítači
+=== PAGE 15 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Data v počítači
+❑ Informační data (elementární datové typy)
+➢ data, která po interpretaci mohou přinášet nějakou informaci
+➢ Logické hodnoty
+➢ Znaky
+➢ Čísla
+• v pevné řádové čárce (celá čísla)
+• v pohyblivé (plovoucí) řád. čárce (reálná čísla)
+❑ Povelová data (instrukce programu)
+➢ data, která určují počítači (procesoru), jakým způsobem
+zpracovávat informační data
+15
+=== PAGE 16 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Kódování logických hodnot v počítači
+❑ Logickou hodnota - rozhodnutí, zda je něco pravda či
+nepravda
+➢ možné teoreticky uložit do kódového slova délky 1 b (bit)
+➢ v praxi se ale logická hodnota obvykle ukládá do kódového
+slova velikosti 1 B (byte)
+❑ Logické hodnoty mohou být:
+➢ nepravda (logická 0)
+• kódové slovo 0000 0000 – nulová hodnota
+➢ pravda (logická 1)
+• kódové slovo např. 0000 0001 – (jakákoliv) nenulová hodnota
+16
+=== PAGE 17 ===
+Buchtela@pef.czu.cz (P02) B-UPP 17
+Reprezentace textu (znaků)
+=== PAGE 18 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Texty
+❑ Každý text chápeme jako posloupnost znaků příslušné
+abecedy, tj. znakových hodnot
+❑ Při ukládání textu ukládáme dvě skupiny informací:
+➢ informace o jednotlivých znacích textu, tzv. prostý text
+➢ informace o formátování textu
+• velikost a typ písma, barva, podtržení atd.
+❑ Formátování textu ukládá skoro každý program jinak
+➢ proto se budeme zabývat jen uložením prostého textu
+18
+=== PAGE 19 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Znaky
+❑ Znak, znakovou hodnotu lze rozdělit na:
+➢ řídicí = znak má speciální význam pro řízení zpracování
+ostatních znakových hodnot, např. konec zprávy, nová řádka
+• takové znaky představují tzv. netisknutelné znaky, tj. nemají
+žádnou viditelnou podobu
+• např. znak pro přesun na nový řádek – „Enter“
+➢ grafický = znak má význam grafického symbolu pro písmena,
+číslice, interpunkce, značky, ….
+• Takovéto znaky představují tzv. vnější reprezentaci vhodnou pro
+zobrazení na monitoru či tisk na tiskárně
+19
+=== PAGE 20 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Reprezentace prostého textu
+❑ Princip reprezentace prostého textu lze popsat následujícím
+postupem:
+➢ Text se rozdělí na jednotlivé znaky, které jsou pak uloženy jeden za
+druhým
+➢ Každý znak se pomocí speciální převodní tabulky (kódu) převede na
+číslo (desítkové) –> kódové slovo
+• Kódování: X = znak → X´
+= číslo
+➢ Číslo znaku se uloží ve (převede do) dvojkové soustavě
+• Převod: X´ (desítkově) → binární číslo
+❑ Příklad: Uložte text „AHOJ“
+➢ text rozdělíme na znaky „A“, „H“, „O“ a „J“
+➢ A´= 65, H´= 72, O´= 79 a J´= 74
+➢ A´
+-> 01000001, H´
+-> 01001000, O´
+-> 01001111, J´
+-> 01001010
+20
+=== PAGE 21 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Kódování znakových hodnot
+❑ Většina programů používá pro kódování znaků jednu ze
+tří metod:
+➢ 7-bitový ASCII kód (1973)
+• ASCII - American Standard Code for Information Interchange
+• pro znaky se používají 7-bitová kódová slova → 128 znaků
+➢ 8-bitový ASCII kód - kódové stránky (80-90.léta)
+• pro znaky se používají 8-bitová kódová slova → 256 znaků
+➢ Unicode (1991)
+• pro znaky se používají kódová slova velikosti 1 až 4 bajty
+(8 – 32 bitů) → cca 100 000 znaků
+21
+=== PAGE 22 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+7-bitový ASCII
+❑ Tabulka ASCII obsahuje tyto znaky:
+➢ Písmena abecedy, malá i velká - bez diakritiky
+➢ Číslice 0 až 9
+➢ Větnou interpunkci (čárku, tečku, vykřičník, otazník, dvojtečku, závorky, …)
+➢ Několik dalších, speciálních znaků (@, &, #, …), mezeru (znak s číslem 32)
+➢ řídící znaky - znaky s čísly 0 až 31 a znak 127
+22
+￼
+=== PAGE 23 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+8-bitový ASCII
+❑ Tabulka ASCII obsahuje navíc tyto znaky:
+➢ rozšíření o 128 znaků s interpunkcí
+➢ není dostatečné pro všechny jazyky
+→ více rozšíření, tzv. kódových stránek pro různé jazyky (skupiny jazyků)
+23
+￼
+=== PAGE 24 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+8-bitový ASCII – kódové stránky
+❑ V dnešní době převažuje používání dvou skupin kódových
+stránek:
+➢ Kódové stránky ISO 8859-1 až ISO 8859-16 (LATIN1 – LATIN16)
+(např. v operačním systému Linux)
+➢ Kódové stránky Windows 1250 až Windows 1258
+(např. v operačním systému Windows)
+• V programech firmy Microsoft se tyto kódové stránky často souhrnně
+označují zkratkou ANSI, přičemž záleží na jazykové verzi programu,
+která konkrétní kódová stránka je tím myšlena
+❑ Jedna kódová stránka obvykle obsahuje znaky potřebné
+v jedné geografické nebo jazykové oblasti
+➢ např. kódová stránka ISO 8859-1 je určena pro západoevropské
+jazyky (francouzštinu, němčinu, španělštinu, dánštinu atd.)
+• !!! V jednom textu nelze použít více kódových stránek !!!
+➢ kódové stránky ISO 8859-2 (LATIN2) a Windows 1250 pokrývají
+všechny znaky využívané v češtině
+• !!! Význam znaků není zcela jednoznačný ani pro stejné jazyky !!!
+24
+=== PAGE 25 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Unicode
+❑ Tabulka Unicode obsahuje znaky všech světových jazyků
+➢ v současné době obsahuje přes 100 000 znaků
+➢ v textu není problém používat znaky z více jazyků
+❑ Pro převod čísla znaku do dvojkové soustavy se používají
+různé metody
+➢ nejpoužívanější se označují jako UTF-8, UTF-16 a UTF-32
+(UTF = Unicode Transformation Format)
+➢ pokud je někde uvedeno pouze obecné „Unicode“, znamená to
+často metodu UTF-16
+➢ Volba metody UTF má vliv např. na velikost reprezentace znaku:
+• při použití UTF-8 má reprezentace znaku velikost 1, 2, 3 nebo 4 bajty
+(podle typu znaku)
+• při použití UTF-16 mají znaky 2 nebo 4 bajty
+• u UTF-32 mají všechny znaky 4 bajty
+25
+=== PAGE 26 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Použití kódování textu
+❑ Nejrozšířenějším kódování webových stránek bylo do roku
+2007 ASCII, pak ho vystřídal Unicode ve variantě UTF-8
+❑
+❑ Program Word pro uložení prostého textu používá Unicode
+➢ u souborů *.doc používá variantu UTF-16
+➢ u souborů *.docx (verze 2007 a novější) variantu UTF-8
+❑ Pro uložení názvu souboru používá operační systém
+Windows kódování Unicode UTF-16
+❑ Řada programů ale stále používá kódové stránky
+➢ např. Poznámkový blok jako výchozí kódování textu použije ANSI
+(tj. kódovou stránku dle jazykové verze Windows)
+26
+=== PAGE 27 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+Srovnání kódování textu
+❑ Znakový repertoár
+27
+￼
+אלוהים
+=== PAGE 28 ===
+Buchtela@pef.czu.cz (P02) B-UPP
+DOTAZY ?
+28
+Děkuji za pozornost!

@@ -1,0 +1,148 @@
+=== PAGE 1 ===
+3. Cviˇcen´ı z teorie mnoˇzin
+1. Urˇcete mnoˇziny A ∪B, A ∩B a A B pro mnoˇziny
+(a) A= {z,c,s,r,d,e,n,t}, B= {a,e,i,o,u,y}
+(b) A= {b,r,o,n,t,o,s,a,u,r,u,s}, B= {t,y,r,a,n,o,s,a,u,r,a,t,k,o}
+(c) A = (−∞,−5⟩∪(2, ∞), B= ⟨−7, 1)
+(d) A= ⟨−5, 1) ∪⟨3, 8), B = (−∞,−3⟩∪(3, ∞)
+(e) A = (−4, 0) ∪⟨2, 6⟩, B = (−∞,−3) ∪{−1}∪{1}
+(f) A= Z, B= R+
+(g) A= {x ∈Z; x je sud´e}, B= {x ∈Z; x > 17}
+2. Do vyhl´aˇsen´e restaurace u silnice prvn´ı tˇr´ıdy E31 pˇrijel autobus s 28
+turisty. Hlavn´ı j´ıdlo si objednalo 22 z nich, pol´evku a j´ıdlo (ovˇsem bez
+z´akusku) si objednali ˇctyˇri lid´e. Devˇet ˇzen (a ˇz´adn´y muˇz) si objednalo
+pouze jednu vˇec, ˇcili bud’ pol´evku nebo hlavn´ı j´ıdlo nebo z´akusek. Hlavn´ı
+j´ıdlo, ale ne z´akusek, si objednalo tak´e devˇet turist˚u, z´akusek, ale ne
+pol´evku, ˇctyˇri. Nikdo se neodv´aˇzil objednat si pol´evku a z´akusek bez
+hlavn´ıho j´ıdla a tˇri lid´e si dali pouze pol´evku.
+Urˇcete:
+(a) kolik turist˚u si objednalo pol´evku,
+(b) kolik turist˚u si objednalo z´akusek,
+(c) kolik turist˚u si neobjednalo nic (nejsp´ıˇs proto, ˇze nepochopili, ˇze je
+obˇed v cenˇe z´ajezdu).
+3. Studenti si na sportovn´ım soustˇredˇen´ı vybrali ze tˇr´ı sport˚u (kaˇzd´y si tedy
+vybral alespoˇn jeden). 21 student˚u zvolilo fotbal, 15 plav´an´ı a 8 posilovnu.
+Pouze 2 studenti si troufli na vˇsechny tˇri sporty. Na plav´an´ı a z´aroveˇn na
+fotbal chodili 3 studenti, na plav´an´ı a z´aroveˇn do posilovny 6 student˚u.
+Vyhranˇen´ych fotbalist˚u bylo o 14 v´ıc, neˇz posiluj´ıc´ıch neplavaj´ıc´ıch fotba-
+list˚u. Kolik student˚u tvoˇrilo skupinu celkem? Kolik jich zvl´adalo v´ıce neˇz
+jeden sport?
+4. Ve front´ach u vˇsech pokladen hypermarketu stoj´ı 38 z´akazn´ık˚u. Z nich m´a
+11 ve voz´ıku pivo, 24 jogurty a 29 m´a rohl´ıky. Kaˇzd´y z´akazn´ık m´a alespoˇn
+jednu z uveden´ych potravin. 6 z´akazn´ık˚u drˇz´ı dietu, a proto nekupuje ani
+pivo ani rohl´ıky. Z´akazn´ık˚u, kteˇr´ı maj´ı pivo i rohl´ıky je dvakr´at v´ıce, neˇz
+tˇech, kteˇr´ı maj´ı pivo a jogurty. 15 z´akazn´ık˚u m´a jedin´y z uveden´e trojice
+v´yrobk˚u. Kolik z´akazn´ık˚u m´a pivo a jogurty, ale ˇz´adn´e rohl´ıky?
+5. U n´asleduj´ıc´ıch relac´ı na mnoˇzinˇe {, }urˇcete, jestli jsou reflexivn´ı, sy-
+metrick´e, antisymetrick´e ˇci tranzitivn´ı a jestli se v d˚usledku jedn´a o ekvi-
+valenci, uspoˇr´ad´an´ı nebo zobrazen´ı.
+1
+=== PAGE 2 ===
+(a) {(, ), (, )}
+(b) {(, )}
+(c) {(, ), (, ), (, ), (, )}
+(d) {}
+6. U n´asleduj´ıc´ıch relac´ı na mnoˇzinˇe {♥, ♠, ♦, ♣}urˇcete, jestli jsou refle-
+xivn´ı, symetrick´e, antisymetrick´e ˇci tranzitivn´ı a jestli se v d˚usledku jedn´a
+o ekvivalenci, uspoˇr´ad´an´ı nebo zobrazen´ı.
+(a) (b) (c) (d) {(♥, ♠), (♠, ♦), (♦, ♣)}
+{(♦, ♥), (♣, ♠), (♦, ♠), (♥, ♣), (♦, ♣), (♥, ♠)}
+{(♦, ♣), (♠, ♠), (♣, ♠), (♦, ♦), (♥, ♥), (♠, ♦), (♣, ♣), (♦, ♠), (♣, ♦), (♠, ♣)}
+{(♥, ♠), (♥, ♣), (♦, ♥), (♣, ♥), (♠, ♥), (♥, ♦)}
+7. U n´asleduj´ıc´ıch relac´ı na mnoˇzinˇe ˇc´ısel {1, 2, 3, 4, 5}urˇcete, jestli jsou refle-
+xivn´ı, symetrick´e, antisymetrick´e ˇci tranzitivn´ı a jestli se v d˚usledku jedn´a
+o ekvivalenci, uspoˇr´ad´an´ı nebo zobrazen´ı.
+(a) {(a, b); a + b > 3},
+(b) {(a, b); a·b = 4},
+(c) {(a, b); b = 2a−3},
+(d) {(a, b); 2|(a·b + a)}.
+8. Doplˇnte relaci na mnoˇzinˇe A= {a, b, c, d, e, f}nejmenˇs´ım poˇctem dvojic
+tak, aby v´ysledn´a relace byla tranzitivn´ı
+(a) (b) (c) R= {(a, d), (b, f), (e, b), (c, c), (c, e), (d, a), (d, f)};
+S= {(a, d), (d, b), (f, a), (b, f)};
+T= {(a, c), (b, d), (f, a), (d, b), (c, e), (c, f)}.
+9. Doplˇnte relaci na mnoˇzinˇe A= {a, b, c, d, e, f}nejmenˇs´ım poˇctem dvojic
+tak, aby v´ysledn´a relace byla ekvivalence, a urˇcete tˇr´ıdy t´eto ekvivalence
+(a) (b) (c) R= {(a, b), (e, e), (a, c), (c, c), (f, e), (d, c), (c, a)};
+S= {(a, f), (d, d), (a, c), (d, b), (c, a)};
+T= {(a, c), (b, d), (f, a), (d, b), (c, e), (c, f)}.
+10. Doplˇnte relaci na mnoˇzinˇe K= {k, l, m, n, o, p}nejmenˇs´ım poˇctem dvojic
+tak, aby v´ysledn´a relace byla uspoˇr´ad´an´ı, a n´aslednˇe nakreslete Hasseho
+diagram tohoto uspoˇr´ad´an´ı
+(a) (b) (c) R= {(l, o), (o, k), (p, p), (o, p), (l, n)};
+S= {(n, l), (m, p), (o, k), (l, k), (m, m), (l, m), (n, o)};
+T= {(n, m), (l, p), (k, p), (o, k), (m, k), (o, n), (n, l)}.
+11. Zjistˇete, jestli n´asleduj´ıc´ı relace na mnoˇzin´ach {r, s, t, u}a {5, 6, 7}jsou
+zobrazen´ı. Pokud ano, zjistˇete, zda-li jsou injektivn´ı, surjektivn´ı nebo bi-
+jektivn´ı a jak vypad´a inverzn´ı relace.
+2
+=== PAGE 3 ===
+(a) R1 = {(r, 7), (t, 5), (u, 5), (s, 6)},
+(b) R2 = {(t, 6), (r, 5), (u, 7)},
+(c) R3 = {(s, 6), (t, 5), (r, 7), (s, 7)},
+(d) R4 = {(r, 6), (s, 5), (u, 6)}.
+V´ysledky
+1. (a) A∪B= {z,c,s,r,d,e,n,t,a,i,o,u,y}, A ∩B= {e}a A B= {z,c,s,r,d,n,t}
+(b) A ∪B= {a,b,k,n,o,r,s,t,u,y}, A ∩B= {a,n,o,r,s,t,u}, A B= {b}
+(c) A ∪B = (−∞; 1) ∪(2; ∞), A ∩B= ⟨−7;−5⟩a A B = (−∞,−7) ∪
+(2, ∞)
+(d) A ∪B = (−∞, 1) ∪⟨3, ∞), A ∩B= ⟨−5,−3⟩∪(3, 8) a A B=
+(−3, 1) ∪{3}
+(e) A ∪B = (−∞, 0) ∪{1}∪⟨2, 6⟩, A ∩B = (−4;−3) ∪{−1}a A B=
+⟨−3,−1) ∪(−1, 0) ∪⟨2, 6⟩
+(f) A ∪B= Z ∪R+ = Z−
+0 ∪R+
+, A ∩B= Z+ a A B= Z−
+0
+(g) A ∪B= {. . . 12, 14, 16}∪{18, 19, 20, . . . }, A ∩B= {18, 20, 22, . . . }a
+A B= {. . . , 10, 12, 14, 16}
+2. (a) 17,
+(b) 14,
+(c) 2.
+3. Celkem 33 student˚u, 9 zvl´adlo v´ıce neˇz jeden sport.
+4. Jeden z´akazn´ık m´a jen pivo a jogurty.
+5. (a) symetrick´a; zobrazen´ı;
+(b) antisymetrick´a, tranzitivn´ı; zobrazen´ı;
+(c) reflexivn´ı, symetrick´a, tranzitivn´ı; ekvivalence;
+(d) symetrick´a, antisymetrick´a, tranzitivn´ı; zobrazen´ı;
+6. (a) antisymetrick´a; zobrazen´ı;
+(b) antisymetrick´a, tranzitivn´ı;
+(c) reflexivn´ı, symetrick´a, tranzitivn´ı; ekvivalence;
+(d) symetrick´a;
+7. (a) Pouze symetrick´a,
+(b) symetrick´a a zobrazen´ı,
+(c) antisymetrick´a, tranzitivn´ı a zobrazen´ı,
+(d) reflexivn´ı a tranzitivn´ı.
+3
+=== PAGE 4 ===
+8. Je nutn´e pˇridat dvojice
+(a) (b) (c) 9. (a)
+(a, a), (d, d), (a, f), (c, b), (e, f), (c, f);
+(a, a), (b, b), (d, d), (f, f), (a, b), (a, f), (b, a), (b, d), (d, a), (d, f), (f, b), (f, d);
+(a, a), (b, b), (c, c), (d, d), (f, f), (a, e), (a, f), (c, a), (f, c), (f, e).
+(b)
+(c)
+E(R) = {(a, b), (e, e), (a, c), (c, c), (f, e), (d, c), (c, a)}∪
+∪{(a, a), (b, b), (d, d), (f, f), (b, a), (b, c), (c, b), (a, d), (d, a), (b, d), (d, b), (c, d), (e, f)}
+Tˇr´ıdy ekvivalence jsou {a, b, c, d}a {e, f}.
+E(S) = {(a, f), (d, d), (a, c), (d, b), (c, a)}∪
+∪{(a, a), (b, b), (c, c), (e, e), (f, f), (f, a), (c, f), (f, c), (b, d)}
+Tˇr´ıdy ekvivalence jsou {a, c, f}, {b, d}a {e}.
+E(T ) = {(a, c), (b, d), (f, a), (d, b), (c, e), (c, f)}∪
+∪{(a, a), (b, b), (c, c), (d, d), (e, e), (f, f), (a, e), (a, f), (c, a), (f, c), (f, e), (e, c), (e, a), (e, f)}
+Tˇr´ıdy ekvivalence jsou {a, c, e, f}a {b, d}.
+10. (a)
+U(R) = {(l, o), (o, k), (p, p), (o, p), (l, n)}∪
+∪{(k, k), (l, l), (m, m), (n, n), (o, o), (l, k), (l, p)}
+(b)
+U(S) = {(n, l), (m, p), (o, k), (l, k), (m, m), (l, m), (n, o)}∪
+∪{(k, k), (l, l), (n, n), (o, o), (p, p), (n, k), (n, p), (n, m), (l, p)}
+(c)
+11. U(T ) = {(n, m), (l, p), (k, p), (o, k), (m, k), (o, n), (n, l)∪
+∪{(k, k), (l, l), (m, m), (n, n), (o, o), (p, p), (o, m), (o, p), (o, l), (n, k), (n, p), (m, p)}
+(a) R1 je surjektivn´ı zobrazen´ı. Inverzn´ı relace je {(7, r), (5, t), (5, u), (6, s)}.
+(b) R2 je injektivn´ı a surjektivn´ı zobrazen´ı. Inverzn´ı zobrazen´ı je {(6, t), (5, r), (7, u)}.
+(c) R3 nen´ı zobrazen´ı. Inverzn´ı relace je {(6, s), (5, t), (7, r), (7, s)}.
+(d) R4 je zobrazen´ı, kter´e nen´ı ani injektivn´ı ani surjektivn´ı. Inverzn´ı
+relace je {(6, r), (5, s), (6, u)}.
+4

@@ -1,0 +1,41 @@
+=== PAGE 1 ===
+Cvičebnice z předmětu Výpočetní systémy
+16
+Souhrnná cvičení
+1) Převeďte čísla v desítkové soustavě do soustavy osmičkové, šestnáctkové a dvojkové.
+a) (86)10
+b) (360)10
+c) (240)10
+d) (880)10
+e) (3641)10
+f) (4116)10
+g) (56983)10
+2) Převeďte desetinná čísla v desítkové soustavě do soustavy dvojkové. Převod proveďte
+s přesností na 4 platná místa za binární čárkou.
+a) (275,125)10
+b) (534,487)10
+c) (1266,7)10
+d) (6895,624)10
+3) Dané cifry v šestnáctkové soustavě vyjádřete jako číslo v desítkové číselné soustavě:
+a) (BF2A)16
+b) (2D8C)16
+c) (1001011)2
+d) (101010111,1101)2
+e) (7 256)8
+f) (52 337)8
+4) Čísla vyjádřená v osmičkové soustavě vyjádřete jako čísla ve dvojkové, desítkové a
+šestnáctkové soustavě.
+a) (276)8
+b) (544)8
+c) (2136)8
+d) (36547)8
+e) (316057)8
+f) (4305)8
+5) Čísla vyjádřená v šestnáctkové soustavě převeďte na čísla vyjádřená v soustavě dvojkové,
+desítkové a osmičkové.
+a) (21FF)16
+b) (A6BB)16
+c) (836D5)16
+d) (1AC37F)16
+e) (FFE2AA)16
+f) (3E8D61)16

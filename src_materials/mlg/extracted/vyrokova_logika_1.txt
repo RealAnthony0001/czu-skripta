@@ -1,0 +1,254 @@
+=== PAGE 1 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+V´yrokov´a logika
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+5. srpna 2025
+Jan Hora V´yrokov´a logika
+=== PAGE 2 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+U makl´eˇre
+J´a: Dobr´y den, r´ad bych koupil nˇejak´y svˇetl´y byt. Chtˇel bych, aby
+mˇel dvˇe koupelny a aby byl v domˇe v´ytah.
+Makl´eˇr: Ano ano, rozhodnˇe nˇejak´e byty, co by se V´am mohly l´ıbit,
+v nab´ıdce m´ame. Ovˇsem, pokud budete trvat na v´ytahu, pak
+nem˚uˇzete m´ıt dvˇe koupelny. Ale rozhodnˇe V´am nenab´ıdnu nˇeco
+tmav´eho, bez v´ytahu a s jednou koupelnou, tak v´aˇzen´emu
+z´akazn´ıkovi, jako jste Vy (n´asledov´ano slizk´ym ´usmˇevem). A jak
+tak kouk´am, je tu jeˇstˇe jedna dobr´a zpr´ava, vˇsechny svˇetl´e byty v
+nab´ıdce maj´ı dvˇe koupelny a v´ytah.
+Jan Hora V´yrokov´a logika
+=== PAGE 3 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Z´akladn´ı stavebn´ı kameny
+Definice
+Element´arn´ı v´yrok je oznamovac´ı vˇeta, o kter´e m´a smysl
+rozhodovat, jestli je pravdiv´a, a kterou ch´apeme jako nedˇeliteln´y
+celek.
+Pˇr´ıklady
+M´am dnes narozeniny.
+33 = 9.
+Uvaˇr´ım ˇsvestkov´e knedl´ıky.
+Nepˇr´ıklady
+Jdi pryˇc.
+x2
+−2 ≥3x + 2.
+Jestli budou m´ıt ˇsvestky, uvaˇr´ım ˇsvestkov´e knedl´ıky.
+Jan Hora V´yrokov´a logika
+=== PAGE 4 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Nˇekter´e v´yroky jsou sloˇzitˇejˇs´ı
+H: P˚ujdu dnes veˇcer s Pavlem do hospody.
+S: NEp˚ujdeˇs dnes veˇcer s Pavlem do hospody.
+H:
+S: JESTLI p˚ujdeˇs dnes veˇcer s Pavlem do hospody, PAK
+budou z´ıtra k veˇceˇri bramborov´e ˇsiˇsky s m´akem. (dotyˇcn´y je
+nem´a r´ad)
+H: P˚ujdu dnes veˇcer s Pavlem do hospody A d´am si gul´aˇs se
+ˇsesti.
+S: Z˚ustaneˇs doma NEBO pozvu na v´ıkend svoj´ı maminku.
+´
+ˇ
+ˇ
+H: P˚ujdu dnes veˇcer do hospody PR
+AV
+E TEHDY, KDY
+Z
+p˚ujde Pavel.
+Jan Hora V´yrokov´a logika
+=== PAGE 5 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Pravdivost v´yrok˚u
+Znaˇcen´ı
+V´yroky budeme oznaˇcovat velk´ymi p´ısmeny, a to bud’ ze zaˇc´atku
+abecedy nebo tak, aby n´azev odpov´ıdal dan´emu v´yroku.
+Znaˇcen´ı
+V´yrok m˚uˇze nab´yvat dvou hodnot, a to pravda a nepravda,
+znaˇc´ıme 1 a 0.
+Pozn´amka
+Pravdivost v´yroku nemus´ıme b´yt schopni v dan´e chv´ıli urˇcit.
+Jan Hora V´yrokov´a logika
+=== PAGE 6 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Negace
+Pˇr´ıklad
+A ... Trautenberk je dobr´y ˇclovˇek.
+Definice
+Negac´ı v´yroku A rozum´ıme vˇetu ”Nen´ı pravda, ˇze A”. Znaˇc´ıme
+obvykle¬A, alternativnˇe tak´e A′ nebo A.
+Pˇr´ıklad
+Negace v´yroku A je tedy vˇeta
+¬A ... Nen´ı pravda, ˇze Trautenberk je dobr´y ˇclovˇek.
+neboli
+¬A ... Trautenberk nen´ı dobr´y ˇclovˇek.
+Jan Hora V´yrokov´a logika
+=== PAGE 7 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Konjunkce
+Pˇr´ıklad
+A ... Hrab´aˇc se ˇziv´ı termity.
+B ... Hrab´aˇc se ˇziv´ı mravenci.
+Definice
+A ∧B.
+Konjunkc´ı v´yrok˚u A a B rozum´ıme vˇetu ”A a z´aroveˇn B”. Znaˇc´ıme
+Pˇr´ıklad
+Konjunkce v´yrok˚u A a B je tedy vˇeta
+A ∧B ... Hrab´aˇc se ˇziv´ı termity a z´aroveˇn mravenci.
+L´epe ˇcesky:
+A ∧B ... Hrab´aˇc se ˇziv´ı termity i mravenci.
+Jan Hora V´yrokov´a logika
+=== PAGE 8 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Disjunkce
+Pˇr´ıklad
+A ... Novˇe pˇrijat´y zamˇestnanec mus´ı m´ıt vysokou ˇskolu.
+B ... Novˇe pˇrijat´y zamˇestnanec mus´ı m´ıt praxi.
+Definice
+A ∨B.
+Disjunkc´ı v´yrok˚u A a B rozum´ıme vˇetu ”A nebo B”. Znaˇc´ıme
+Pˇr´ıklad
+Disjunkce v´yrok˚u A a B je tedy vˇeta
+A ∨B ... Novˇe pˇrijat´y zamˇestnanec mus´ı m´ıt vysokou ˇskolu nebo
+praxi.
+Jan Hora V´yrokov´a logika
+=== PAGE 9 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Implikace
+Pˇr´ıklad
+A ... Budou m´ıt ˇsvestky.
+B ... Uvaˇr´ım ˇsvestkov´e knedl´ıky.
+Definice
+Implikac´ı v´yrok˚u A a B rozum´ıme vˇetu ”Jestliˇze A, pak B”.
+Znaˇc´ıme A ⇒B.
+Pˇr´ıklad
+Implikace v´yrok˚u A a B (v tomto poˇrad´ı) je tedy vˇeta
+A ⇒B ... Jestliˇze budou m´ıt ˇsvestky, uvaˇr´ım ˇsvestkov´e knedl´ıky.
+Jan Hora V´yrokov´a logika
+=== PAGE 10 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Ekvivalence
+Pˇr´ıklad
+A ... Alice miluje Boba.
+B ... Bob miluje Alici.
+Definice
+Ekvivalenc´ı v´yrok˚u A a B rozum´ıme vˇetu ”A pr´avˇe tehdy, kdyˇz B”.
+Znaˇc´ıme A ⇔B.
+Pˇr´ıklad
+Ekvivalence v´yrok˚u A a B je tedy vˇeta
+A ⇔B ... Alice miluje Boba pr´avˇe tehdy, kdyˇz Bob miluje Alici.
+Jan Hora V´yrokov´a logika
+=== PAGE 11 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Logick´e spojky – shrnut´ı
+Znaˇcen´ı N´azev V´yznam
+A′
+, A,
+A ∧B A ∨B A ⇒B A ⇔B ¬A Negace Konjunkce Disjunkce Implikace Ekvivalence Nen´ı pravda, ˇze A
+A a souˇcasnˇe B
+A nebo B
+Jestliˇze A, pak B
+A pr´avˇe tehdy, kdyˇz B
+Jan Hora V´yrokov´a logika
+=== PAGE 12 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Skl´ad´ame v´yroky ve formule
+Definice
+V´yrokov´a promˇenn´a je form´aln´ı symbol zastupuj´ıc´ı libovoln´y
+element´arn´ı v´yrok.
+V´yrokov´a konstanta je form´aln´ı symbol zastupuj´ıc´ı konkr´etn´ı
+v´yrokovou hodnotu (ˇcili Pravdu nebo Nepravdu).
+Definice
+Kaˇzd´a v´yrokov´a promˇenn´a je v´yrokov´a formule.
+Kaˇzd´a v´yrokov´a konstanta je v´yrokov´a formule.
+Pokud jsou ϕ,ψ v´yrokov´e formule, pak jsou v´yrokov´e formule
+i (¬ϕ),(ϕ∨ψ),(ϕ∧ψ),(ϕ⇒ψ),(ϕ⇔ψ).
+Jin´e v´yrokov´e formule nejsou.
+M´ısto v´yrokov´e formule budeme obvykle ˇr´ıkat jen formule.
+Jan Hora V´yrokov´a logika
+=== PAGE 13 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Pravda, nepravda, leˇz
+V´yrokov´a promˇenn´a (stejnˇe jako element´arn´ı v´yrok) m˚uˇze
+nab´yvat dvou hodnot, a to PRAVDA/NEPRAVDA, znaˇc´ı se
+1/0.
+Pravdivost sloˇzitˇejˇs´ıch v´yrokov´ych formul´ı definujeme tak, aby
+A B A′ A ∧B A ∨B A ⇒B A ⇔B
+souhlasila s v´yznamem tˇechto spojek v bˇeˇzn´e ˇreˇci:
+1 1 0 1 1 1 1
+1 0 0 0 1 0 0
+0 1 1 0 1 1 0
+0 0 1 0 0 1 1
+Jan Hora V´yrokov´a logika
+=== PAGE 14 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Pˇr´ıklady
+Pˇr´ıklad
+Napiˇste pravdivostn´ı tabulku formule A ⇒(B′ ⇒A).
+Pˇr´ıklad
+Napiˇste pravdivostn´ı tabulku formule (A′ ⇔B) ∧(B′ ∨C)′
+.
+Jan Hora V´yrokov´a logika
+=== PAGE 15 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Ohodnotit znamen´a dosadit
+Definice
+Ohodnocen´ı formule je pˇriˇrazen´ı hodnoty pravda ˇci nepravda (0 ˇci
+1) kaˇzd´e v´yrokov´e promˇenn´e obsaˇzen´e v t´eto formuli.
+Jan Hora V´yrokov´a logika
+=== PAGE 16 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Absolutn´ı pravda, absolutn´ı leˇz
+Definice
+Tautologie je formule, kter´a je pravdiv´a pˇri kaˇzd´em ohodnocen´ı.
+Tedy formule, kter´a m´a ve vˇsech ˇr´adc´ıch pradivostn´ı tabulky
+jedniˇcky.
+Definice
+nepravdiv´a.
+Kontradikce (spor) je formule, kter´a je pˇri kaˇzd´em ohodnocen´ı
+Tedy formule, kter´a m´a ve vˇsech ˇr´adc´ıch pradivostn´ı tabulky nuly.
+Jan Hora V´yrokov´a logika
+=== PAGE 17 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Nen´ı ekvivalence jako ekvivalence
+Pˇr´ıklad
+Napiˇste pravdivostn´ı tabulku formule (A ∨B′ ∨C′) ⇒(A ∧B) a na
+jej´ım z´akladˇe urˇcete, ˇci se jedn´a o tautologii (kontradikci).
+Pozn´amka
+Nˇekdy se tautologie/kontradikce znaˇc´ı jen symbolem 1/0.
+Definice
+Formule se naz´yv´a splniteln´a, pokud existuje ohodnocen´ı, pˇri
+kter´em je jej´ı pravdivostn´ı hodnota 1.
+Definice
+Dvˇe formule (ˇreknˇeme ϕ a ψ) se naz´yvaj´ı ekvivalentn´ı, pokud
+nab´yvaj´ı stejn´e pravdivostn´ı hodnoty pˇri vˇsech ohodnocen´ıch (maj´ı
+stejnou pravdivostn´ı tabulku). Znaˇc´ıme ϕ≡ψ.
+Jan Hora V´yrokov´a logika
+=== PAGE 18 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Pˇr´ıklady
+Pˇr´ıklad
+Zjistˇete, zda jsou n´asleduj´ıc´ı formule ekvivalentn´ı
+1. ϕ= ¬(¬A), ψ= A,
+2. ϕ= A ∧(B ∨C), ψ= (A ∧B) ∨(A ∧C),
+3. ϕ= A ⇒(B ⇒(C ⇒(D ⇒E))), ψ= A ∨B ∨C ∨D ∨E,
+4. ϕ= (A ∨B)′
+, ψ= A′ ∧B′
+.
+Jan Hora V´yrokov´a logika
+=== PAGE 19 ===
+Jak jsem potkal logiku Z´akladn´ı pojmy
+Jak je to s t´ım makl´eˇrem?
+A – s v´ytahem
+B – se dvˇema koupelnami
+C – svˇetl´y
+A B C A ⇒B′ (A′ ∧B′ ∧C′)′ C ⇒(A ∧B)
+1 1 1 1 1 0 1 0 0 1 0 1 0 0 0 0 1 0 0 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1
+1 1
+1 0
+1 1
+1 0
+1 1
+1 0
+0 1
+Jan Hora V´yrokov´a logika

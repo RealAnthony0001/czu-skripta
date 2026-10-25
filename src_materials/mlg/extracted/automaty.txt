@@ -1,0 +1,157 @@
+=== PAGE 1 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Koneˇcn´e automaty
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+5. listopadu 2018
+Jan Hora Koneˇcn´e automaty
+=== PAGE 2 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Od p´ısmenek ke slov˚um
+Definice
+Abeceda je koneˇcn´a mnoˇzina symbol˚u (znak˚u). Abecedu budeme
+obvykle znaˇcit symbolem Σ (velk´e ˇreck´e p´ısmeno Sigma).
+Definice
+Slovo nad abecedou Σ je kaˇzd´a koneˇcn´a posloupnost znak˚u t´eto
+abecedy.
+Definice
+D´elkou slova w rozum´ıme poˇcet jeho znak˚u a znaˇc´ıme |w |.
+Znaˇcen´ı
+Pr´azdn´e slovo (ˇcili slovo neobsahuj´ıc´ı ˇz´adn´y znak) znaˇc´ıme
+ε (ˇcti epsilon), |ε|= 0.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 3 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Od slov k jazyku
+Znaˇcen´ı
+Mnoˇzinu vˇsech slov nad
+abecedou Σ znaˇc´ıme Σ∗
+.
+Definice
+Jazyk je jak´akoli podmnoˇzina
+mnoˇziny Σ∗
+.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 4 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Koneˇcnˇe koneˇcn´y automat
+Definice
+Koneˇcn´y automat (d´ale jen automat) je uspoˇr´adan´a pˇetice
+(Q,Σ,δ,q0,F ), kde Q je koneˇcn´a mnoˇzina stav˚u, Σ je koneˇcn´a
+vstupn´ı abeceda, δ: Q ×Σ →Q je pˇrechodov´a funkce, q0 ∈Q je
+inici´aln´ı stav a F ⊆Q je mnoˇzina pˇrij´ımaj´ıc´ıch stav˚u.
+Definice
+V´ypoˇcet automatu nad slovem w = x1...xn je posloupnost stav˚u
+r0,...,rn tak, ˇze δ(ri−1,xi ) = ri ,i = 1,...n.
+Definice
+Automat dan´e slovo pˇrij´ım´a, pokud v´ypoˇcet nad t´ımto slovem
+konˇc´ı ve stavu n´aleˇzej´ıc´ım do F.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 5 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Pˇr´ıklady
+Pˇr´ıklad
+Navrhnˇete koneˇcn´y automat nad abecedou Σ = {0,1}pˇrij´ımaj´ıc´ı
+pr´avˇe slova, kter´a
+1. obsahuj´ı alespoˇn dva znaky,
+2. maj´ı poˇcet jedniˇcek dˇeliteln´y tˇremi,
+3. maj´ı prvn´ı a posledn´ı znak stejn´y,
+Pˇr´ıklad
+Navrhnˇete koneˇcn´y automat nad abecedou Σ = {A,B}pˇrij´ımaj´ıc´ı
+pr´avˇe slova, kter´a
+1. zaˇc´ınaj´ı na BABA,
+2. obsahuj´ı BABA,
+3. konˇc´ı na BABA.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 6 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Pˇr´ıklady
+Pˇr´ıklad
+Zjistˇete jak´y jazyk pˇrij´ımaj´ı automaty
+0 1
+a)
+→A ←D E B
+B C E
+C D E
+E E
+E E E
+a b
+b)
+→1 ←2 2 3
+1 3
+3 3 3
+Jan Hora Koneˇcn´e automaty
+=== PAGE 7 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Regul´arn´ı nen´ı regul´ern´ı
+Definice
+Jazyk automatu A je mnoˇzina slov, kter´e automat pˇrij´ım´a.
+Znaˇc´ıme L(A).
+Definice
+Jazyk L se naz´yv´a regul´arn´ı, pokud existuje koneˇcn´y automat A,
+kter´y ho pˇrij´ım´a, tedy L= L(A).
+Jan Hora Koneˇcn´e automaty
+=== PAGE 8 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Doplnˇek
+Pˇr´ıklad
+001.
+Navrhnˇete koneˇcn´y automat, kter´y pˇrij´ım´a pr´avˇe slova neobsahuj´ıc´ı
+Vˇeta
+Doplnˇek L′= Σ∗\L regul´arn´ıho jazyka L je regul´arn´ı jazyk.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 9 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Pr˚unik
+Pˇr´ıklad
+Navrhnˇete koneˇcn´y automat pˇrij´ımaj´ıc´ı pr´avˇe slova, kter´a konˇc´ı na
+1 a z´aroveˇn obsahuj´ı sekvenci 110.
+Vˇeta
+Pr˚unik dvou (koneˇcnˇe mnoha) regul´arn´ıch jazyk˚u je regul´arn´ı jazyk.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 10 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Sjednocen´ı
+Pˇr´ıklad
+Navrhnˇete koneˇcn´y automat pˇrij´ımaj´ıc´ı pr´avˇe slova, kter´a konˇc´ı na
+1 nebo obsahuj´ı sekvenci 110.
+Vˇeta
+jazyk.
+Sjednocen´ı dvou (koneˇcnˇe mnoha) regul´arn´ıch jazyk˚u je regul´arn´ı
+D˚usledek
+Kaˇzd´y koneˇcn´y jazyk je regul´arn´ı.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 11 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Iterace
+Definice
+Bud’ L jazyk. Jazykem L∗znaˇc´ıme jazyk
+v1v2···vn |(n ∈N) ∧(vi ∈L, pro 1 ≤i ≤n).
+Naz´yv´ame ho iterace jazyka L.
+Pozn´amka
+Jelikoˇz n v pˇredchoz´ı definici m˚uˇze b´yt rovno nule, obsahuje kaˇzd´y
+jazyk L∗pr´azdn´e slovo.
+Vˇeta
+Je-li L regul´arn´ı jazyk, pak L∗je tak´e regul´arn´ı.
+Pˇr´ıklad
+Bud’ L jazyk na abecedou {0,1}obsahuj´ıc´ı pouze slova 00 a 111.
+Sestrojte automat pˇrij´ımaj´ıc´ı jazyk L∗
+.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 12 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Neˇreˇsiteln´y pˇr´ıklad
+Pˇr´ıklad
+Navrhnˇete koneˇcn´y automat, kter´y pˇrij´ım´a pr´avˇe slova
+{ε,ab,aabb,aaabbb,...}= {anbn
+,n ∈N}.
+Jan Hora Koneˇcn´e automaty
+=== PAGE 13 ===
+Z´akladn´ı pojmy Regul´arn´ı jazyky Operace s regul´arn´ımi jazyky Minimalizace automat˚u
+Je to email?
+Pˇr´ıklad
+Navrhnˇete koneˇcn´y automat nad abecedou
+Σ = {a,b,c ...,z,@,.}, pˇrij´ımaj´ıc´ı slova, kter´a mohou b´yt emaily
+z ˇcesk´e dom´eny.
+Jan Hora Koneˇcn´e automaty

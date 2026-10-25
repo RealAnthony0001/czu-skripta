@@ -1,0 +1,554 @@
+=== PAGE 1 ===
+Matematická logika a grafy
+pro PEF ČZU
+Relace a zobrazení
+Ing. Jakub Čermák
+Katedra matematiky a fyziky, TF ČZU
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+1 / 24
+=== PAGE 2 ===
+Relace a zobrazení
+Motivace
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+2 / 24
+=== PAGE 3 ===
+Motivace
+Množiny samy o sobě říkají, co kam patří.
+Nyní nás ale budou zajímat vztahy mezi prvky.
+Vztah zachytíme jako množinu dvojic. Tomu se říká binární relace.
+Příklady využití
+uspořádání dat — relace „menší než“ nebo „větší než“,
+ekvivalence — rozdělení dat do skupin (tříd),
+funkce — speciální druh zobrazení, které je speciálním druhem relace,
+orientované grafy — hrany jako relace na množině vrcholů (pozdější přednáška).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+3 / 24
+=== PAGE 4 ===
+Relace a zobrazení
+Relace
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+4 / 24
+=== PAGE 5 ===
+Kartézský součin
+Definice
+Kartézský součin množin A a B je množina všech uspořádaných dvojic takových, že na prvním místě je
+prvek množiny A (první množiny) a na druhém prvek množiny B (druhé množiny):
+A ×B = {(a, b)|a ∈A, b ∈B}.
+Poznámka
+Na rozdíl od množiny, na pořadí u uspořádaných dvojic záleží: obecně (a, b) (b, a).
+Značení
+Pokud A = B, můžeme místo A ×A psát A2
+.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+5 / 24
+=== PAGE 6 ===
+Binární relace
+Definice
+Binární relace na množinách A a B je jakákoli podmnožina R kartézského součinu A ×B. Pokud je
+A = B, hovoříme o binární relaci na množině A.
+Značení
+Místo (a, b)∈R můžeme psát aRb.
+Značení
+Místo binární relace budeme zkracovat pouze relace.
+Příklad
+Mějme množinu K všech klientů banky a množinu U všech běžných účtů. Následně lze definovat relaci
+D na množinách K a U s předpisem
+k D u ⇔k je disponentem účtu u.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+6 / 24
+=== PAGE 7 ===
+Možnosti zadání relace
+Relaci lze zadat několika způsoby:
+výčtem všech dvojic, které do relace patří,
+předpisem, který určuje, kdy dvojice do relace patří,
+graficky (orientovaným grafem, resp. diagramem),
+maticí (tabulkou).
+Příklad (zadání relace předpisem a výčtem)
+Buď A = {1, 2, 3, 4}.
+1 xRy ⇔x ≤y;
+R = {(1, 1), (1, 2), (1, 3), (1, 4), (2, 2), (2, 3), (2, 4), (3, 3), (3, 4), (4, 4)}
+2 xSy ⇔x = y2;
+S = {(1, 1), (4, 2)}
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+7 / 24
+=== PAGE 8 ===
+Relace a zobrazení
+Vlastnosti relací
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+8 / 24
+=== PAGE 9 ===
+Vlastnosti relací
+Definice
+Buď R relace na množině A. Pak se R nazývá
+reflexivní, právě tehdy, když x ∈A: (x, x)∈R,
+symetrická, právě tehdy, když x, y ∈A: (x, y)∈R ⇒(y, x)∈R,
+antisymetrická, právě tehdy, když x, y ∈A: (x, y)∈R ∧(y, x)∈R ⇒x = y,
+tranzitivní, právě tehdy, když x, y ∈A: (x, y)∈R ∧(y, z)∈R ⇒(x, z)∈R.
+Definice (Ekvivalence)
+Relace R se nazývá ekvivalence, právě tehdy, když je reflexivní, symetrická a tranzitivní.
+Definice (Uspořádání)
+Relace R se nazývá uspořádání, někdy též částečné uspořádání, právě tehdy, když je reflexivní,
+antisymetrická a tranzitivní.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+9 / 24
+=== PAGE 10 ===
+Vlastnosti relací — příklady
+Příklad
+Určete, které z uvedených vlastností mají následující relace.
+1 Na množině A = {1, 2, 3, 4}je relace R daná předpisem xRy ⇔x = y2
+.
+R = {(1, 1), (4, 2)}
+2 Na množině P = {−2,−1, 0, 1, 2}je relace S daná předpisem xSy ⇔x2 = y2
+.
+S = {(−2,−2), (−1,−1), (0, 0), (1, 1), (2, 2), (1,−1), (−1, 1), (−2, 2), (2,−2)}
+Příklad
+Určete, které z uvedených vlastností mají následující relace na množině celých čísel:
+1 aRb ⇔a dělí b,
+2 aSb ⇔(a dělí b ∧b dělí a).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+10 / 24
+=== PAGE 11 ===
+Doplnění na ekvivalenci
+Příklad
+Doplňte relaci R na množině A nejmenším počtem dvojic tak, aby výsledná relace byla ekvivalence:
+A = {Dana, Karel, Petra, Hana, Radim, Vladimír},
+R = {(K, R), (D, H), (H, H), (K, P)}.
+Výše se dopouštíme zjednodušení v zápisu, kdy místo (Dana, Hana) píšeme (D, H) a podobně.
+Definice
+Ekvivalence rozdělí nosnou množinu na disjunktní části, které se nazývají třídy ekvivalence.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+11 / 24
+=== PAGE 12 ===
+Doplnění na uspořádání
+Příklad
+Doplňte relaci S na množině B nejmenším počtem dvojic tak, aby výsledná relace byla uspořádání:
+B = {Segedín, Rajská, Jahodové knedlíky, Šišky s mákem,
+Hrachová kaše, Řízek s bramborovým salátem},
+S = {(HK, SM), (HK, S), (R, R), (R, RBS), (SM, JK),
+(S, R), (HK, R), (SM, R)}.
+Výše se dopouštíme zjednodušení v zápisu, kdy místo (Hrachová kaše, Šišky s mákem) píšeme (HK,
+SM) a podobně.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+12 / 24
+=== PAGE 13 ===
+Jak zobrazit uspořádání
+Pseudodefinice
+Hasseho diagram zobrazuje uspořádání ≼ způsobem, kdy jsou „menší“ prvky níže než prvky „větší“
+a spojnice mezi dvěma prvky je právě tehdy, když
+(a ≼ b)∧¬( c)(a c b)∧(a ≼ c ≼ b).
+Poznámka
+Jinými slovy: vynechávají sereflexivní vztahy, protože ty jsou zřejmé a kreslíme jen vztahy
+bezprostředního předcházení, ty ostatní si čtenář domyslí tranzitivitou.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+13 / 24
+=== PAGE 14 ===
+Relace a zobrazení
+Zobrazení
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+14 / 24
+=== PAGE 15 ===
+Zobrazení
+Definice
+Relace F na množinách A a B se nazývá zobrazení z A do B (značíme F: A →B), právě tehdy, když
+( x ∈A)( y, z ∈B) (x, y)∈F ∧(x, z)∈F ⇒y = z .
+Obraz prvku x se označuje F(x). Podmnožina množiny A, pro jejíž prvky x existuje obraz F(x), se
+nazývá definiční obor F a značí se D(F). Podmnožina množiny B, sestávající ze všech obrazů prvků A,
+se nazývá obor hodnot F a značí se H(F).
+Definice
+Zobrazení F: A →B se nazývá zobrazení A do B (bez toho „z“), právě tehdy, když D(F)= A.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+15 / 24
+=== PAGE 16 ===
+Zobrazení — příklady
+Příklad
+je zobrazení.
+Určete, zda relace D „býti disponentem“ na množině všech klientů banky K a množině běžných účtů U
+Příklad
+Určete, zda jsou následující relace na množině celých čísel zobrazení:
+1 {(x, y)|2y = x},
+2 {(x, y)|x dělí y}.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+16 / 24
+=== PAGE 17 ===
+Zobrazení a funkce
+Příklad
+Určete, zda jsou následující relace na množině reálných čísel zobrazení:
+1 {(x, y)|y = x2},
+2 {(x, y)|x = y2},
+3 {(x, y)|x2 +y2 = 1}.
+Definice
+Zobrazení množiny A do množiny reálných čísel se nazývá (reálná) funkce na množině A.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+17 / 24
+=== PAGE 18 ===
+Relace a zobrazení
+Vlastnosti zobrazení
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+18 / 24
+=== PAGE 19 ===
+Vlastnosti zobrazení
+Definice
+Zobrazení F: A →B se nazývá prosté (injektivní), právě tehdy, když
+( x, y ∈A)F(x)= F(y)⇒x = y.
+Definice
+Zobrazení F: A →B zobrazuje množinu A na množinu B (F je surjektivní), právě tehdy, když
+( y ∈B)( x ∈A)F(x)= y.
+Definice
+Zobrazení F: A →B množiny A do množiny B se nazývá vzájemně jednoznačné (bijektivní, bijekce),
+právě tehdy, když je D(F)= A, F je prosté a zobrazuje A na B (tj. je injektivní i surjektivní).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+19 / 24
+=== PAGE 20 ===
+Vlastnosti zobrazení — příklady
+Příklad
+Určete, zda zobrazení, které každému občanu České republiky přiřazuje číslo jeho občanského
+průkazu, je injektivní, surjektivní a bijektivní.
+Příklad
+Určete, zda jsou následující zobrazení z množiny do množiny injektivní, surjektivní a bijektivní:
+1 {(x, y)|y = x2},
+2 {(x, y)|y = x3},
+3 {(x, y)|y = log x}.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+20 / 24
+=== PAGE 21 ===
+Inverzní relace
+Definice
+Buď R relace na množinách A a B. Pak relace R−1 definovaná
+R−1 := {(y, x)∈B ×A |(x, y)∈R},
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+neboli
+xR−1y ⇔yRx,
+se nazývá relace inverzní k R.
+Věta
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+Inverzní relace k zobrazení F je opět zobrazení právě tehdy, je-li F prosté.
+Příklad
+Určete, zda inverzní relace k dané funkci je funkce, a pokud ano, nalezněte její předpis, definiční obor
+a obor hodnot:
+1 y =
+2 y = x2
+x
+x+2 ,
+.
+21 / 24
+=== PAGE 22 ===
+Relace a zobrazení
+Mohutnost množin
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+22 / 24
+=== PAGE 23 ===
+Mohutnost množin
+Definice
+Mohutnost množiny A je menší nebo rovna mohutnosti množiny B, právě tehdy, když existuje
+injektivní zobrazení množiny A do množiny B. Píšeme |A|≤|B|.
+Definice
+Mohutnost množiny A je stejná jako mohutnost množiny B, právě tehdy, když existuje bijektivní
+zobrazení množiny A na množinu B. Píšeme |A|= |B|.
+Poznámka
+Mohutností konečné množiny rozumíme počet jejích prvků.
+Věta
+Pro každou množinu A platí |A|< |P(A)|.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+23 / 24
+=== PAGE 24 ===
+Spočetné a nespočetné množiny
+Definice
+f : →A.
+Množina A se nazývá spočetná, právě tehdy, když je konečná nebo existuje bijektivní zobrazení
+Poznámka
+Nekonečné spočetné množiny jsou v tomto smyslu nejmenší nekonečné množiny.
+Poznámka
+Kromě množiny přirozených čísel jsou spočetné i množiny a , tedy
+| |= | |= | |.
+Poznámka
+Množina reálných čísel je nespočetná.
+▶ How An Infinite Hotel Ran Out Of Room — Hilbertův hotel
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Relace a
+zobrazení
+Motivace
+Relace
+Vlastnosti relací
+Zobrazení
+Vlastnosti
+zobrazení
+Mohutnost
+množin
+24 / 24

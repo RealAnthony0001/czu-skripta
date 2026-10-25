@@ -1,0 +1,180 @@
+=== PAGE 1 ===
+Mnoˇziny
+Naivn´ı teorie mnoˇzin
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+6. srpna 2025
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 2 ===
+Mnoˇziny
+At’ jsou tady mnoˇziny
+Pseudodefinice
+Mnoˇzinou rozum´ıme souhrn urˇcit´ych a navz´ajem rozliˇsiteln´ych
+objekt˚u existuj´ıc´ıch v naˇs´ı mysli. Tyto objekty naz´yv´ame prvky
+dan´e mnoˇziny. Fakt, ˇze x je prvkem mnoˇziny A zapisujeme x ∈A.
+V opaˇcn´em pˇr´ıpadˇe p´ıˇseme x ̸∈A.
+Pˇr´ıklady
+P= {a, b, c, d, e, f }
+B= {krtek, lama, emu, beruˇska, lemur, krajta}
+S= {x ∈P|x je samohl´aska}= {a, e}
+V= {x ∈B|x sn´aˇs´ı vaj´ıˇcka }= {emu, beruˇska, krajta}
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 3 ===
+Mnoˇziny
+Vlastnosti mnoˇzin
+Pozn´amka
+Prvky mnoˇziny nemaj´ı poˇrad´ı.
+Pozn´amka
+Mnoˇzina je jednoznaˇcnˇe urˇcena sv´ymi prvky, nem´a ˇz´adn´e dalˇs´ı
+vlastnosti. Dvˇe mnoˇziny se tedy rovnaj´ı pr´avˇe tehdy, kdyˇz maj´ı
+stejn´e prvky: A= B, jestliˇze pro kaˇzd´e x plat´ı x ∈A ⇔x ∈B.
+Pozn´amka
+prvk˚u).
+Mnoˇziny mohou b´yt nekoneˇcn´e (obsahovat nekoneˇcnˇe mnoho
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 4 ===
+Mnoˇziny
+Kvantifik´atory
+Znaˇcen´ı
+∀x ∈A – (pro) kaˇzd´e x z mnoˇziny A,
+∃x ∈A – existuje x z mnoˇziny A,
+∃!x ∈A – existuje pr´avˇe jedno x z mnoˇziny A.
+Definice
+Mnoˇzinu neobsahuj´ıc´ı ˇz´adn´y prvek naz´yv´ame pr´azdnou mnoˇzinou a
+znaˇc´ıme ji ∅. Lze ji definovat napˇr´ıklad takto ∅= {x|x ̸= x}.
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 5 ===
+Mnoˇziny
+Pˇr´ıklady na mnoˇzinov´e operace, hled´ame bublinky
+Pˇr´ıklad
+Mˇejme mnoˇziny A= {k, o, s, t, e, l}a B= {s, t, ´a, n, e, k}. Urˇcete
+A ∩B, A ∪B, A \B a B \A.
+Pˇr´ıklad
+Mˇejme mmoˇziny C= {k, a, l}a D= {v, l, a, k, v, e, d, o, u, c,´ı}.
+Urˇcete C′
+D a P(C).
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 6 ===
+Mnoˇziny
+Mnoˇzinov´e operace
+ˇ
+R´ık´ame, ˇze mnoˇzina A je podmnoˇzinou mnoˇziny B, pokud
+kaˇzd´y prvek n´aleˇzej´ıc´ı do A leˇz´ı tak´e v B, znaˇc´ıme
+A ⊆B ⇔(∀x)(x ∈A ⇒x ∈B).
+Necht’ A ⊆B. Pak doplˇnkem mnoˇziny A v mnoˇzinˇe B je
+mnoˇzina
+A′
+B = {x |x ∈B ∧x ̸∈A}.
+A ∩B= {x |x ∈A ∧x ∈B}– pr˚unik
+Mnoˇziny, kter´e maj´ı pr´azdn´y pr˚unik, naz´yv´ame disjunktn´ı.
+A ∪B= {x |x ∈A ∨x ∈B}– sjednocen´ı
+A \B= {x |x ∈A ∧x ̸∈B}– rozd´ıl
+P(A) = {X , X ⊆A}– potenˇcn´ı mnoˇzina A
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 7 ===
+Mnoˇziny
+Vennovy diagramy pro tˇri mnoˇziny
+A
+C
+B
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 8 ===
+Mnoˇziny
+Vennovy diagramy pro ˇctyˇri mnoˇziny
+A
+C
+D
+B
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 9 ===
+Mnoˇziny
+Pouˇzit´ı Vennov´ych diagram˚u
+Pˇr´ıklad
+Modelu Octavia se loni vyrobilo stejnˇe ve verzi kombi jako ve verzi
+sedan (jin´a verze se nevyr´ab´ı). Klimatizaci mˇelo 80% Octavi´ı,
+CD-pˇrehr´avaˇc 72%. Komb´ıky s klimatizac´ı a CD-pˇrehr´avaˇcem tvoˇr´ı
+pouze pˇetinu vˇsech vyroben´ych Octavi´ı, sedany s klimatizac´ı 45% a
+komb´ıky bez CD-pˇrehr´avaˇce 20% (v obou pˇr´ıpadech se jedn´a o
+procento ze vˇsech vyroben´ych Octavi´ı). Spoleˇcnost ˇ
+Skoda nevyr´ab´ı
+sedany s CD-pˇrehr´avaˇcem, kter´e by nemˇely klimatizaci. Urˇcete
+Kolik procent v´yroby tvoˇr´ı sedany bez CD-pˇrehr´avaˇce a
+klimatizace.
+Kolik procent sedan˚u m´a klimatizaci.
+ˇ
+Kolik Octavi´ı loni spoleˇcnost
+Skoda vyrobila?
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 10 ===
+Mnoˇziny
+Pouˇzit´ı Vennov´ych diagram˚u
+Pˇr´ıklad
+Ve tˇr´ıdˇe 3.B na biologick´em gymn´aziu v Zelen´e ulici ˇc. 43 je 30
+ˇz´ak˚u. Hada i potkana chov´a sedm ˇz´ak˚u, hada i velk´eho chlupat´eho
+pavouka pˇet ˇz´ak˚u, potkana i (velk´eho chlupat´eho) pavouka osm
+ˇz´ak˚u. Jedniˇck´aˇr˚u, ˇcili ˇz´ak˚u, kteˇr´ı doma chovaj´ı alespoˇn dvˇe zv´ıˇrata,
+ˇ
+je ve tˇr´ıdˇe 14.
+Ctyˇri ˇz´aci nechovaj´ı ˇz´adn´e zv´ıˇre, nebot’ jim to
+maminka nedovolila. Urˇcete
+Kolik ˇz´ak˚u chov´a hada, potkana i pavouka?
+Kolik ˇz´ak˚u chov´a pr´avˇe jedno zv´ıˇre?
+Kolik ˇz´ak˚u chov´a pouze hada?
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 11 ===
+Mnoˇziny
+ˇ
+C´ıseln´e obory
+N= {0, 1, 2, 3, . . .}– pˇrirozen´a ˇc´ısla,
+Z= {. . . ,−2,−1, 0, 1, 2, 3, . . .}– cel´a ˇc´ısla,
+Q= {q, q lze napsat jakoa
+b |a, b ∈Z, b ̸= 0}– racion´aln´ı
+ˇc´ısla,
+R – re´aln´a ˇc´ısla, ˇc´ısla odpov´ıdaj´ıc´ı bod˚um na ˇc´ıseln´e ose
+(pˇr´ımce),
+I= R\Q – iracion´aln´ı ˇc´ısla,
+C= {a + ib |a, b ∈R, i2 =−1}– komplexn´ı ˇc´ısla.
+N ⊂Z ⊂Q ⊂R ⊂C
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 12 ===
+Mnoˇziny
+Komplexn´ı ˇc´ısla
+Seˇctˇete, odeˇctˇete, vyn´asobte a vydˇelte komplexn´ı ˇc´ısla 18−i
+a 3 + 2i.
+Urˇcete absolutn´ı hodnotu ˇc´ısel−5, 4−3i, 1 + i.
+Vyˇreˇste kvadratickou rovnici x2 + 6x + 25 = 0.
+Pˇreved’te do goniometrick´eho tvaru ˇc´ıslo 3√3 + 3i.
+Pˇreved’te do algebraick´eho tvaru ˇc´ıslo √2(cos 3π
+4 + i sin 3π
+4 ).
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 13 ===
+Mnoˇziny
+Pˇr´ıklady
+Pˇr´ıklad
+Bud’
+te A, B mnoˇziny re´aln´ych ˇc´ısel
+A = (−∞,−1) ∪⟨2, 5⟩,
+B= ⟨−3, 0) ∪(2, ∞).
+Urˇcete
+1. A ∪B,
+2. A ∩B,
+3. A \B.
+Jan Hora Naivn´ı teorie mnoˇzin
+=== PAGE 14 ===
+Mnoˇziny
+Pˇr´ıklady
+Pˇr´ıklad
+Bud’
+te A, B mnoˇziny cel´ych ˇc´ısel
+A= {x ∈Z|12 dˇel´ı x},
+B= {x ∈Z|9 dˇel´ı x}.
+Urˇcete A ∩B.
+Pˇr´ıklad
+Bud’
+te A, B mnoˇziny komplexn´ıch ˇc´ısel
+A= {a + ib|a, b ∈R, a2 + b2 = 1},
+B= {a + ib|a, b ∈R, a = 0}.
+Urˇcete A ∩B.
+Jan Hora Naivn´ı teorie mnoˇzin

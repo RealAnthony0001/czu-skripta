@@ -1,0 +1,311 @@
+=== SLIDE 1 ===
+
+Základy právních nauk
+2. seminář
+31/10/24
+Právní skutečnosti, právní jednání
+
+=== SLIDE 2 ===
+
+Otázky k diskuzi
+Co rozumíme pod pojmem právní skutečnost?
+Kdy můžeme o skutečnosti hovořit jako o skutečnosti právní?
+Uvedli byste příklad právní skutečnosti?
+Specifikujte pojem „právní jednání“.
+V jakém aspektu se liší pojem jednání a právní jednání?
+
+=== SLIDE 3 ===
+
+Právní skutečnosti
+
+Právní skutečnost 
+okolnost právně významná, s níž 
+právní norma spojuje vznik, změnu nebo zánik právního vztahu (tj. subjektivních práv a právních povinností). 
+
+=== SLIDE 4 ===
+
+Členění právních skutečností
+Právní skutečnosti závislé na lidské vůli (subjektivní)
+právní jednání
+protiprávní jednání (např. porušení smlouvy ) 
+c) konstitutivní rozhodnutí soudu, popř. jiných orgánů oprávněných rozhodovat (např. přikázání pohledávky soudem)
+Právní skutečnosti nezávislé na lidské vůli (objektivní)
+protiprávní stavy (např. pracovní úraz, živelní pohroma) 
+právní události (např. smrt, narození, běh času)
+
+=== SLIDE 5 ===
+
+Právní jednání
+Dle občanského zákoníku (§545 OZ )
+
+„Právní jednání vyvolává právní následky, které jsou v něm vyjádřeny, jakož  i právní následky plynoucí ze zákona, dobrých mravů, zvyklostí a zavedené praxe stran.“  
+
+=== SLIDE 6 ===
+
+Právně jednat lze:
+konáním (tj. komisivní chování, např. koupě něčeho)
+dare (dát) 
+facere (dělat)
+opomenutím (tj. omisivní chování, např. nesplnění dluhu včas)
+pati (strpět) 
+omitere (opomenout)
+právní jednání musí obsahem a účelem odpovídat dobrým mravům i zákonu  (§547 OZ)
+vznik, změnu či zánik práv lze vázat na podmínku
+
+=== SLIDE 7 ===
+
+Náležitosti právního jednání
+náležitost subjektu – osoby v právním smyslu (fyzické osoby a právnické osoby, které mají právní osobnost a jsou dostatečně svéprávné; nepatří do nich tedy sdružení bez právní subjektivity);
+náležitost vůle -  musí existovat, být svobodná, vážná, prostá omylu a nesmí být jednáno ve stavu tísně;
+náležitost projevu vůle – dostatečná určitost, srozumitelnost a v zákonem požadovaná forma
+náležitost předmětu – dovolenost (předmětem nemohou být např. lidské orgány, narkotika apod.) a možnost
+
+=== SLIDE 8 ===
+
+Forma právního jednání 
+
+Každý má právo zvolit si pro právní jednání libovolnou formu (ústní, písemná), není- li ve volbě formy omezen ujednáním stran nebo zákonem (kogentní ujednání)
+
+Písemná forma právního jednání: soukromé listiny, veřejné listiny (listina osvědčující určité skutečnosti  - např. rozhodnutí soudu), notářský zápis (např. povinná forma při rozdělení SJM za trvání manželství, založení obchodní společnosti).  
+§ 560 OZ - písemná forma se vyžaduje pro zřízení nebo převod (taky pro změnu nebo zrušení) věcného práva k nemovité věci. K platnosti  se vyžaduje podpis jednajícího; jedná-li více osob vyžadují se jejich projevy vůle na téže listině.
+§ 563 odst. 1 OZ pojednává o právním jednání v písemné formě osoby, která nemůže číst a psát, ale je schopna seznámit se s obsahem právního jednání - buď listinu opatří podpisem, nebo učiní namísto podpisu před alespoň dvěma svědky na listině rukou nebo jinak vlastní znamení, ke kterému jeden ze svědků připíše jméno jednajícího (forma soukromé listiny - blíže upravená v § 565-566 OZ)
+
+=== SLIDE 9 ===
+
+Písemná forma je zachována i elektronickými prostředky (požadován uznávaný elektronický podpis) 
+§564 OZ- „vyžaduje-li zákon pro právní jednání určitou formu, lze obsah právního jednání změnit projevem vůle v téže nebo přísnější formě; vyžaduje-li tuto formu jen ujednání stran, lze obsah právního jednání změnit i v jiné formě, pokud to ujednání stran nevylučuje.“ 
+K písemné formě právního jednání se vyžaduje podpis jednajícího.
+
+=== SLIDE 10 ===
+
+Otázky k diskuzi:
+Co znamená „elektronický podpis“ a kdy jej využijete?
+Jaké znáte formy elektronického jednání?
+Jakým způsobem můžete elektronicky komunikovat s úřadem nebo soudem?
+Kdy se Vám doručí písemnost, kterou obdržíte do datové schránky?
+Jaké jsou výhody a nevýhody datových schránek?
+Jakou formu budete volit pro uzavření vybrané smlouvy (například kupní smlouva), a z jakého důvodu?
+
+=== SLIDE 11 ===
+
+Výklad právního jednání
+
+Výklad právního jednání (§ 555 a násl. OZ) 
+
+Důraz kladen na svobodnou vůli: Právní jednání se posuzuje podle svého obsahu, nikoli např. podle svého názvu.
+Posouzení obsahu není věcí volné dispozice právně jednajících osob, proto existují pravidla pro výklad právního jednání.
+Vždy se zkoumá obsah právního jednání, není možné vnutit stranám jiný obsah / výklad právního jednání; výjimkou je zastřené právní jednání, které se posoudí podle jeho pravé povahy (viz §555 odst. 2 OZ)
+§ 557 OZ - připouští-li použitý výraz různý výklad, vyloží se v pochybnostech k tíži toho, kdo výrazu použil jako první. 
+
+=== SLIDE 12 ===
+
+Druhy právního jednání 
+
+jednostranné, dvoustranné, vícestranné (dvoustranné a vícestranné vyžadují konsenzus)
+adresované (návrh na uzavření smlouvy) a neadresované (veřejný příslib)
+mezi živými (inter vivos) a pro případ smrti (mortis causa)
+úplatné, bezúplatné a smíšené (za úplatu nižší, než je obvyklá hodnota plnění)
+dvoustranné synallagmatické (plnění se může domáhat jen ten, kdo je ochoten splnit) a asynallagmatické
+kauzální (kauza je patrná) a abstraktní (kauza není vyjádřena, např. závazky z cenných papírů)
+formální (zákon předepisuje formu) a neformální
+nominátní (typizované, výslovně upravené dle OZ) a inominátní (ust. § 1746 odst. 2 OZ - Strany mohou uzavřít i takovou smlouvu, která není zvláště jako typ smlouvy upravena).
+
+=== SLIDE 13 ===
+
+Zdánlivé právní jednání
+
+O právní jednání nejde, když:
+
+chybí vůle jednající osoby (§ 551 OZ), 
+nebyla zjevně projevena vážná vůle stran (§ 552 OZ),
+nelze pro neurčitost nebo nesrozumitelnost zjistit jeho  obsah ani výkladem (§ 553 OZ). 
+Ke zdánlivému právnímu jednání se nepřihlíží (§ 554 OZ), tzn., hledí se na něj jako by jednáno vůbec nebylo (např. § 2898 OZ- vzdání se předem náhrady škody, …).
+	Avšak byl-li projev vůle mezi stranami dodatečně vyjasněn, nepřihlíží se k jeho vadě a hledí se, jako by tu bylo právní jednání od počátku (§ 553 odst. 2 OZ).
+
+=== SLIDE 14 ===
+
+Neplatnost právního jednání
+
+Všeobecná ustanovení (§574 a násl. OZ) 
+
+Na právní jednání je třeba spíše hledět jako na platné než na neplatné
+Má-li neplatné právní jednání náležitosti jiného právního jednání, které je platné, platí toto jiné právní jednání, pokud z okolností je zřejmé, že vyjadřuje vůli jednající osoby.
+Jestli se týká důvod neplatnosti jen takové části právního jednání, kterou lze oddělit, je neplatnou jen tato část, lze-li předpokládat, že by k právnímu jednání došlo i bez neplatné části. 
+Chyby v psaní nebo počtech ( formální chyby)  nejsou na újmu právního jednání, je-li jeho význam nepochybný.
+Způsobil-li někdo neplatnost právního jednání, nemá právo namítat neplatnost nebo uplatnit z neplatného právního jednání pro sebe výhodu. 
+Kdo způsobil neplatnost právního jednání, nahradí škodu z toho vzniklou straně, která o neplatnosti nevěděla. 
+	Platí zásada, že nikdo nemůže získat výhodu z vlastního protiprávního činu (vztahuje se jen k relativní neplatnosti).
+
+=== SLIDE 15 ===
+
+Hlavní důvody neplatnosti právního jednání (tzv. absolutní neplatnost)
+
+rozpor s dobrými mravy nebo odporuje-li právní jednání zákonu 
+Neplatné je právní jednání, které se příčí dobrým mravům, jakož i právní jednání, které odporuje zákonu, pokud to smysl a účel zákona vyžaduje (§ 580 odst. 1 OZ)
+Obcházení účelu zákona není jako důvod neplatnosti výslovně uvedeno, nicméně není pochyb, že i to zakládá rozpor se zákonem a navržené znění tohoto ustanovení kryje i tento případ.
+nemožnost předmětu plnění - Neplatné je právní jednání, pokud má být podle něho plněno něco nemožného (§ 580 odst. 2 OZ).
+jednání osobou nesvépravnou nebo v duševní poruše - Neplatné je právní jednání osoby nesvéprávné nebo jednající v duševní poruše, která jí činí neschopnou právně jednat (§ 581 OZ).
+nedodržení stanovené formy - Nedodržení ujednané nebo zákonem stanovené formy právního jednání má za následek neplatnost právního jednání; jednání však bude platné, pokud strany vadu dodatečně zhojí. Neplatnost právního jednání pro nedodržení formy právního jednání ujednané stranami lze namítnout pouze, nebylo-li již plněno. (§ 582 OZ)
+
+=== SLIDE 16 ===
+
+Hlavní důvody neplatnosti právního jednání
+
+O neplatné právní jednání se jedná také tehdy, jednal-li někdo v omylu o rozhodující okolnosti a byl-li v omyl uveden druhou stranou. (§ 583 OZ)
+Týká-li se omyl vedlejší okolnosti, kterou strany ani neprohlásily za rozhodující, je právní jednání platné, ale osoba uvedená v omyl má vůči původci omylu právo na přiměřenou náhradu; toto však neplatí, pokud bylo právně jednáno v omylu vyvolaném lstí, takové jednání je vždy neplatné, přestože se omyl týká vedlejší okolnosti. (§ 584 odst.2 OZ)
+
+=== SLIDE 17 ===
+
+Následky neplatnosti právního jednání 
+
+Neplatnost právního jednání může namítat jenom osoba, které zájem je chráněn (subjekt právního vztahu) / § 586 OZ / 
+Nenamítne-li tato oprávněná osoba neplatnost právního jednání, považuje se právní jednání za platné.
+Osoba se neplatnosti musí dovolat u soudu – relativní neplatnost. Výjimka z relativní neplatnosti (§ 588 OZ): - soud může přihlédnout k neplatnosti právního jednání, jestli se zjevně příčí dobrým mravům, anebo odporuje zákonu a zjevně narušuje veřejný pořádek.
+
+=== SLIDE 18 ===
+
+3 druhy nezákonnosti právního jednání:
+
+Jednání je sice nezákonné, ale je tu silná vůle obou stran (zhojení) = pak je jednání platné. 
+Nezákonné právní jednání, ale smysl a účel zákona připouštějí takové jednání = jednání je relativně neplatné.
+Nezákonné právní jednání – příčí se dobrým mravům, odporuje zákonu a narušuje veřejný pořádek = absolutní neplatnost (např. korupce).
+
+=== SLIDE 19 ===
+
+Relativní neúčinnost
+Zkracuje-li dlužník svým právním jednáním uspokojení vykonatelné pohledávky věřitele, má věřitel právo domáhat se, aby soud určil, že právní jednání dlužníka není vůči věřiteli právně účinné. (§ 587 a násl. OZ)
+
+toto právo má věřitel i tehdy, je-li právo třetí osoby vykonatelné, anebo již bylo uspokojeno.
+věřitel podává na dlužníka odpůrčí žalobu, kterou je odporováno právnímu jednání dlužníka.
+jednání relativně neplatné
+
+=== SLIDE 20 ===
+
+Konvalidace, Konverze, Ratihabice 
+
+Konverze a konvalidace
+obsahuje-li totiž neplatné právní jednání náležitosti jiného právního jednání, který má stejný či obdobný cíl a u něhož důvody neplatnosti nejsou dány, je platné toto druhé právní jednání za předpokladu, že je zřejmé, že by taková byla vůle jednající osoby, kdyby o neplatnosti věděla (konverze ) 
+je třeba odlišit od konvalidace (odpadnutí důvodů neplatnosti, tj. z neplatného jednání se stane platné) a od ratihabice (dodatečného schválení)
+při konverzi neplatné právní jednání zůstává neplatné (i kdyby bylo dodatečně schváleno), ale projev vůle bude posouzen jako jiné právní jednání 
+
+=== SLIDE 21 ===
+
+Právní události
+Právní události  jsou právní skutečnosti nezávislé na vůli osoby. 
+Čas – doby, lhůty
+Protiprávní stavy
+
+=== SLIDE 22 ===
+
+Právní událost - ČAS
+ČAS : Právní událost nezávislá na lidské vůli 
+
+Doba se rozumí časový úsek, jehož uplynutím zaniká právo nebo povinnost bez dalšího, aniž je potřeba pro vyvolání tohoto právního následku zvláště projevit vůli. Naproti tomu jako Lhůta se označuje časový úsek stanovený k uplatnění práva u druhé strany, popř. u jiné osoby, anebo u soudu nebo jiného příslušného orgánu. Známe lhůty pořádkové, promlčecí a prekluzivní. 
+Význam času
+práva a povinnosti zanikají počátkem určeného dne a zanikají koncem určeného dne
+podmiňuje-li zánik určitého práva vznik jiného práva ve vzájemné návaznosti, stává se oboje v týž okamžik, a to koncem dne, pokud není ujednáno jinak
+vyžaduje se vykonávat práva a plnit povinnosti v obvyklou denní dobu, neplyne-li něco jiného ze zvyklostí, zavedené praxe stran, popř. zvláštních okolností případu
+
+=== SLIDE 23 ===
+
+Rozlišení času:
+čas, od kterého se právní následky počínají (začíná běžet den následující po dni, který způsobil běh lhůty) 
+čas, kterým právní následky končí (poslední den lhůty – končí o půlnoci) 
+
+Časem se rozumí:
+Určitý okamžik
+Plynutí času (doby a lhůty)
+Dovršení určitého času
+
+=== SLIDE 24 ===
+
+Počítání času
+Zásady počítání lhůt:
+lhůta nebo doba počíná den následující po rozhodné skutečnosti
+konec lhůty nebo doby určené týdny, měsíci nebo roky připadá na den, který se pojmenováním nebo číslem shoduje se dnem skutečnosti rozhodné pro počátek
+polovinou měsíce je 15 dní a středem měsíce je 15tý den
+připadne-li konec lhůty na sobotu, neděli nebo svátek, je posledním dnem lhůty následující pracovní den – procesní lhůty  x hmotně právní lhůta – konkrétní den uvedený  - v tento den musí být splněno 
+§608 - je-li např. stanovena lhůta v délce 48 hodin, nejde o lhůtu dvou dnů a počítá se od okamžiku, kdy začne do okamžiku, kdy skončí
+
+=== SLIDE 25 ===
+
+Počítání lhůt dle §§ 605, 606, 607, 608 OZ - lhůta stanovená:
+
+Počtem dní
+Podle týdnů
+Podle kratších časových útvarů než jsou dny
+Podle měsíců
+
+Pozn.: polovina měsíce – 15 kalendářních dní
+
+=== SLIDE 26 ===
+
+§ 605
+(1) Lhůta nebo doba určená podle dnů počíná dnem, který následuje po skutečnosti rozhodné pro její počátek.
+(2) Konec lhůty nebo doby určené podle týdnů, měsíců nebo let připadá na den, který se pojmenováním nebo číslem shoduje se dnem, na který připadá skutečnost, od níž se lhůta nebo doba počítá. Není-li takový den v posledním měsíci, připadne konec lhůty nebo doby na poslední den měsíce.
+§ 606
+(1) Polovinou měsíce se rozumí patnáct dnů a středem měsíce jeho patnáctý den.
+(2) Je-li lhůta nebo doba určena na jeden nebo více měsíců a část měsíce, počítá se část měsíce naposled.
+§ 607
+Připadne-li poslední den lhůty na sobotu, neděli nebo svátek, je posledním dnem lhůty pracovní den nejblíže následující.
+§ 608 
+Lhůta nebo doba určená v kratších časových jednotkách, než jsou dny, se počítá od okamžiku, kdy začne, do okamžiku, kdy skončí.
+
+=== SLIDE 27 ===
+
+Právní domněnky a fikce
+Právní domněnky a fikce zákonem stanovené domněnky a fikce zavazují soud, aby (bez)podmínečně předpokládal existenci něčeho, o čem není jisté, že je nebo dokonce je jisté, že není
+právní domněnky
+vyvratitelné právní domněnky („má se za to“)
+přípustný důkaz opaku
+př. vyvratitelná domněnka otcovství
+nevyvratitelné právní domněnky („platí“)
+důkaz opaku není přípustný
+př. § 765 – „vypořádání majetku manželů po rozvodu podle důvodové zprávy nevyvratitelná domněnka platí (po 3 letech od zániku nemovitosti přejdou do podílového spoluvlastnictví, platí, že podíly spoluvlastníků jsou stejné)“
+právní fikce („hledí se“, „považuje se“) – je známo, že fingovaná skutečnost neexistuje, nicméně se k ní z praktických důvodů přihlíží, jako by existovala (např. §80 (2) Nemá-li člověk bydliště, považuje se za ně místo, kde žije.“)
+
+=== SLIDE 28 ===
+
+Příklady:
+Příklad č.1:
+
+Den 21.10. 2024 je prvním dnem lhůty. 
+Lhůta je stanovená na 8 dnů.
+Kterým dnem končí tato lhůta a jaký je to den v týdnu (myšleno pondělí, út , apod.)
+Příklad č.2:
+Dnem 31.1.2024 začala běžet doba v délce 13. měsíců stanovená smlouvou o dílo pro dokončení hrubé stavby blíže specifikované ve smlouvě. Jaký den tato doba uplyne?
+
+=== SLIDE 29 ===
+
+Promlčení
+
+PROMLČENÍ:  je doba, po kterou je možné uplatnit právo  u soudu. 
+
+promlčením právo nezaniká, ale  je omezena vymahatelnost práva I když zanikne vymahatelnost nároku, sám závazek nezaniká- zůstává tzv. naturální obligace
+k promlčení se přihlédne jen k námitce dlužníka  - osoba, jíž se promlčení týká (zpravidla žalovaný z dluhu ) , musí vznést  u soudu námitku promlčení, pokud nenamítne promlčení při soudním jednání, soud nárok žalobce přizná ( je vymahatelné dalších 10 let )  
+přijetí plnění z promlčeného dluhu není bezdůvodným obohacením – pokud oprávněná osoba přijme plnění z promlčeného dluhu, ( není bezdůvodným obohacením ) nemusí přijatou částku  vracet 
+
+=== SLIDE 30 ===
+
+Promlčení
+Promlčují se všechna majetková práva (př. právo na vrácení dluhu) s výjimkou případů stanovených zákonem. Jiná práva se promlčují pokud to stanoví zákon.
+Nepromlčují se (demonstrativní výčet):
+právo na výživné
+právo vlastnické
+právo domáhat se rozdělení společné věci
+právo na zřízení nezbytné cesty
+právo na vykoupení reálného břemene 
+Délka promlčecí lhůty
+Subjektivní promlčecí lhůta – 3 roky. Tuto lhůtu lze sjednat kratší (ne méně než 1 rok) a delší (ne více než 15 let).
+Objektivní promlčecí lhůta – 10 let. 
+
+=== SLIDE 31 ===
+
+Prekluze
+Prekluze:  v soukromém právu znamená nejen zánik nároku z určitého subjektivního práva, ale i úplný zánik práva jako takového. Je označována za tzv. propadnou lhůtu.
+Přijetí plnění z prekludovaného nároku je bezdůvodné obohacení – musí být vráceno. 
+K prekluzi soud přihlédne z moci úřední.  
+
+=== SLIDE 32 ===
+
+

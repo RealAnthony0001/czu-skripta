@@ -1,0 +1,562 @@
+=== PAGE 1 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+cvičení 01
+Úvod do principu počítačů
+David Buchtela
+Katedra informačního
+inženýrství
+Úvodní informace
+Číselné soustavy
+1
+=== PAGE 2 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Kontakt
+Ing. David Buchtela, Ph.D.
+katedra informačního inženýrství PEF ČZU
+katedra softwarového inženýrství FIT ČVUT
+❑ místnost: PEF 552 (5.patro)
+❑ telefon: +420 22434 3806
+❑ e-mail: buchtela@pef.czu.cz
+❑ www: http://home.czu.cz/buchtela
+❑ konzultace: středa 10:30 – 12:00
+(jindy po dohodě)
+2
+=== PAGE 3 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Doporučená literatura
+❑ Systém Moodle.czu.cz – kurz Úvod do principů počítačů
+➢ Klíč k zápisu -> termín cvičení „streda845SB“
+❑ Buchtela, D., Vynikarová, D.: Cvičebnice z předmětu Výpočetní systémy,
+Praha: PEF ČZU, 2013, 1. vyd., 123 s., ISBN 978-80-213-2017-8
+❑ Buchtela, D., Vynikarová, D.: Cvičebnice z předmětu Architektura počítačů,
+Praha, Česká zemědělská univerzita, 2010, 83 s., ISBN 978-80-213-2073-4
+❑ MILKOVÁ, E., VOBORNÍK, P. Algoritmy: objasnění, procvičení a vizualizace
+základních algoritmických konstrukcí, Praha: Alfa Nakladatelství, 2008, 114 s.
+Informatika studium (Alfa Nakladatelství), ISBN 978-80-87197-10-3.
+❑ PONDĚLÍČEK, B., DEMLOVÁ, M.: Matematická logika, Praha: FEL ČVUT, 1997,1.
+vyd., 160 s., ISBN 80-01-01683-8
+❑ Vaníček, J., Papík, M., Pergl, R. a Vaníček, T.: Teoretické základy informatiky,
+Praha, Kernberg Publishing, 2007, ISBN 978-80-903962-4-1
+❑ …
+3
+=== PAGE 4 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Zakončení předmětu
+❑ Předmět je zakončen zápočtem a zkouškou
+❑ Podmínky zápočtu
+➢ přiměřená aktivní účast na výuce
+➢ absolvování všech (3) autotestů v systému Moodle ČZU
+• praktické příklady z probírané problematiky
+• neomezený počet pokusů, je třeba získat plný počet bodů
+(100%)
+❑ Zkouška
+➢ písemná část (povinná)
+• poměr teoretických a praktických otázek cca 50:50
+– 2x malá teoretická, 1x praktický příklad, 1x algoritmus
+➢ ústní část (dobrovolná)
+4
+=== PAGE 5 ===
+Buchtela@pef.czu.cz (C01) B-UPP 5
+Číselné soustavy
+=== PAGE 6 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Číselné soustavy
+❑ Základní požadavek na počítač je schopnost zobrazovat
+a pamatovat si čísla a provádět operace s těmito čísly
+❑ Čísla mohou být zobrazena v různých číselných soustavách
+➢ Většina lidí používá desítkovou soustavu (dekadická)
+• reprezentuje čísla v mocninách deseti - člověk má 10 prstů
+• základ této soustavy je 10 a je použito 10 základních číslic (0 - 9)
+• poloha číslice v čísle určuje jeho váhu - možné vyjádřit čísla větší než
+10
+➢ Všechny současné počítače jsou však založeny na dvojkové (binární)
+soustavě
+• je mnohem snadnější rozlišit mezi dvěma stavy než mezi deseti
+• základ soustavy j 2 a jsou použity číslice 0 a 1
+➢ V počítači obvykle ještě šestnáctková (hexadecimální) a osmičková
+(oktalová) soustava
+• kratší zápis než ve dvojkové soustavě, ale velmi snadný vzájemný
+převod
+• základem je 8 (osmičková) resp. 16 (šestnáctková soustava)
+• použité číslice (0 -7) u osmičkové, (0 – 9, A – F) u šestnáctkové
+6
+=== PAGE 7 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Číselné soustavy
+❑ Obecný formát čísla v číselné soustavě:
+➢ Č - hodnota čísla v desítkové soustavě
+➢ k - koeficient, cifra u příslušné mocniny základu Z
+➢ Z - základ soustavy (10, 2, 8, 16, 60)
+➢ e - exponent základu = celočíselná hodnota z intervalu (-m, n)
+❑ Rozvoj čísla v číselné soustavě se základem Z slouží k převodu z nedekadické
+do dekadické soustavy:
+❑ Cifry číselné soustavy se základem Z je možné brát pouze z množiny hodnot
+{0,1, …, Z-1}
+➢ Z = 2 → {0,1}
+➢ Z = 8 → {0,1,2,3,4,5,6,7}
+➢ Z = 16 →
+{0,1,2,3,4,5,6,7,8,9,A(10),B(11),C(12),D(13),E(14),F(15)}
+7
+￼
+Příklad:
+(375,4) -> ???
+=== PAGE 8 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Číselné soustavy
+❑ Obecný formát čísla v číselné soustavě:
+➢ Č - hodnota čísla v desítkové soustavě
+➢ k - koeficient, cifra u příslušné mocniny základu Z
+➢ Z - základ soustavy (10, 2, 8, 16, 60)
+➢ e - exponent základu = celočíselná hodnota z intervalu (-m, n)
+❑ Rozvoj čísla v číselné soustavě se základem Z slouží k převodu z nedekadické
+do dekadické soustavy:
+❑ Cifry číselné soustavy se základem Z je možné brát pouze z množiny hodnot
+{0,1, …, Z-1}
+➢ Z = 2 → {0,1}
+➢ Z = 8 → {0,1,2,3,4,5,6,7}
+➢ Z = 16 →
+{0,1,2,3,4,5,6,7,8,9,A(10),B(11),C(12),D(13),E(14),F(15)}
+8
+￼
+Příklad:
+(375,4) ->
+Č10 = 3.102+ 7.101+ 5.100+ 4.10-1
+Č10 = 375,4
+=== PAGE 9 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Číselné soustavy
+❑ Obecný formát čísla v číselné soustavě:
+➢ Č - hodnota čísla v desítkové soustavě
+➢ k - koeficient, cifra u příslušné mocniny základu Z
+➢ Z - základ soustavy (10, 2, 8, 16, 60)
+➢ e - exponent základu = celočíselná hodnota z intervalu (-m, n)
+❑ Rozvoj čísla v číselné soustavě se základem Z slouží k převodu z nedekadické
+do dekadické soustavy:
+❑ Cifry číselné soustavy se základem Z je možné brát pouze z množiny hodnot
+{0,1, …, Z-1}
+➢ Z = 2 → {0,1}
+➢ Z = 8 → {0,1,2,3,4,5,6,7}
+➢ Z = 16 →
+{0,1,2,3,4,5,6,7,8,9,A(10),B(11),C(12),D(13),E(14),F(15)}
+9
+￼
+Příklad:
+(375,4)8 ->
+Č10 = 3.82+ 7.81+ 5.80+ 4.8-1
+Č10 = 253,5
+=== PAGE 10 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod z nedekadické do dekadické soustavy
+❑ Převod čísla z nedekadické do dekadické soustavy:
+➢ zápis čísla vyhodnotíme dle výrazu
+➢ budeme používat mocniny základu číselné soustavy Z toho
+čísla, které do desítkové soustavy převádíme
+➢ Příklad: převod z dvojkové do desítkové soustavy:
+10
+￼
+￼
+￼
+=== PAGE 11 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod z dekadické do nedekadické soustavy
+❑ Převod čísla z dekadické do nedekadické soustavy:
+➢ zjistíme nejvyšší možnou mocninu základu Zi, kterou dekadické číslo
+obsahuje
+➢ zapíšeme celé číslo ki (z intervalu 1 .. Z-1), které udává, kolikrát se
+daná mocnina v čísle vyskytuje
+➢ odečteme od desítkového čísla hodnotu ki . Zi a zjistíme zbytek
+➢ postup opakujeme až do doby, kdy je zbytek nulový
+➢ Příklad: převod z desítkové do dvojkové soustavy:
+11
+￼
+Příklady:
+(213)10 -> ( . . . )8 (213)10 -> ( . . )16
+=== PAGE 12 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod z dekadické do nedekadické soustavy
+❑ Převod čísla z dekadické do nedekadické soustavy:
+➢ zjistíme nejvyšší možnou mocninu základu Zi, kterou dekadické číslo
+obsahuje
+➢ zapíšeme celé číslo ki (z intervalu 1 .. Z-1), které udává, kolikrát se
+daná mocnina v čísle vyskytuje
+➢ odečteme od desítkového čísla hodnotu ki . Zi a zjistíme zbytek
+➢ postup opakujeme až do doby, kdy je zbytek nulový
+➢ Příklad: převod z desítkové do dvojkové soustavy:
+12
+￼
+Příklady:
+(213)10 -> ( 325 )8 (213)10 -> ( . . )16
+=== PAGE 13 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod z dekadické do nedekadické soustavy
+❑ Převod čísla z dekadické do nedekadické soustavy:
+➢ zjistíme nejvyšší možnou mocninu základu Zi, kterou dekadické číslo
+obsahuje
+➢ zapíšeme celé číslo ki (z intervalu 1 .. Z-1), které udává, kolikrát se
+daná mocnina v čísle vyskytuje
+➢ odečteme od desítkového čísla hodnotu ki . Zi a zjistíme zbytek
+➢ postup opakujeme až do doby, kdy je zbytek nulový
+➢ Příklad: převod z desítkové do dvojkové soustavy:
+13
+￼
+Příklady:
+(213)10 -> ( 325 )8 (213)10 -> ( D5 )16
+=== PAGE 14 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a hexadecimální soustavou
+❑ Cifry v hexadecimální (šestnáctkové) soustavě:
+➢ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A(10), B(11), C(12), D(13), E(14), F(15)
+❑ Převod z hexadecimální do binární soustavy:
+➢ každou cifru hexadecimálního čísla převedeme zvlášť do binární soustavy na čtveřici
+cifer - (F)16 = 123 + 122 + 121 + 120 = (1111)2
+➢ všechny čtveřice v binární soustavě spojíme do jednoho řetězce
+❑ Převod z binární do hexadecimální soustavy:
+➢ binární číslo rozdělíme na čtveřice cifer zprava (od mocniny 20)
+➢ každou čtveřici převedeme na jednu cifru v hexadecimální soustavě
+14
+Příklady:
+(9B6)16 -> ( ??? )2
+(A2F9)16 -> ( ??? )2
+=== PAGE 15 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a hexadecimální soustavou
+❑ Převodní tabulka mezi dvojkovou a hexadecimální
+soustavou:
+15
+hodnota
+(šestnáctkově)
+hodnota
+(binárně)
+hodnota
+(šestnáctkově)
+hodnota
+(binárně)
+0 0000 8 1000
+1 0001 9 1001
+2 0010 A 1010
+3 0011 B 1011
+4 0100 C 1100
+5 0101 D 1101
+6 0110 E 1110
+7 0111 F 1111
+=== PAGE 16 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a hexadecimální soustavou
+❑ Cifry v hexadecimální (šestnáctkové) soustavě:
+➢ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A(10), B(11), C(12), D(13), E(14), F(15)
+❑ Převod z hexadecimální do binární soustavy:
+➢ každou cifru hexadecimálního čísla převedeme zvlášť do binární soustavy na čtveřici
+cifer - (F)16 = 123 + 122 + 121 + 120 = (1111)2
+➢ všechny čtveřice v binární soustavě spojíme do jednoho řetězce
+❑ Převod z binární do hexadecimální soustavy:
+➢ binární číslo rozdělíme na čtveřice cifer zprava (od mocniny 20)
+➢ každou čtveřici převedeme na jednu cifru v hexadecimální soustavě
+16
+Příklady:
+(9B6)16 -> (1001 1011 0110 )2
+(A2F9)16 -> (1010 0010 1111 1001 )2
+=== PAGE 17 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a hexadecimální soustavou
+❑ Cifry v hexadecimální (šestnáctkové) soustavě:
+➢ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A(10), B(11), C(12), D(13), E(14), F(15)
+❑ Převod z hexadecimální do binární soustavy:
+➢ každou cifru hexadecimálního čísla převedeme zvlášť do binární soustavy na čtveřici
+cifer - (F)16 = 123 + 122 + 121 + 120 = (1111)2
+➢ všechny čtveřice v binární soustavě spojíme do jednoho řetězce
+❑ Převod z binární do hexadecimální soustavy:
+➢ binární číslo rozdělíme na čtveřice cifer zprava (od mocniny 20)
+➢ každou čtveřici převedeme na jednu cifru v hexadecimální soustavě
+17
+Příklady:
+(9B6)16 -> (1001 1011 0110 )2
+(A2F9)16 -> (1010 0010 1111 1001 )2
+Příklady:
+(10 1011)2 -> ( ??? )16
+(1101 0101 0111)2 -> ( ??? )16
+=== PAGE 18 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a hexadecimální soustavou
+❑ Cifry v hexadecimální (šestnáctkové) soustavě:
+➢ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A(10), B(11), C(12), D(13), E(14), F(15)
+❑ Převod z hexadecimální do binární soustavy:
+➢ každou cifru hexadecimálního čísla převedeme zvlášť do binární soustavy na čtveřici
+cifer - (F)16 = 123 + 122 + 121 + 120 = (1111)2
+➢ všechny čtveřice v binární soustavě spojíme do jednoho řetězce
+❑ Převod z binární do hexadecimální soustavy:
+➢ binární číslo rozdělíme na čtveřice cifer zprava (od mocniny 20)
+➢ každou čtveřici převedeme na jednu cifru v hexadecimální soustavě
+18
+Příklady:
+(9B6)16 -> (1001 1011 0110 )2
+(A2F9)16 -> (1010 0010 1111 1001 )2
+Příklady:
+(0010 1011)2 -> ( 2 B )16
+(1101 0101 0111)2 -> ( D 5 7 )16
+=== PAGE 19 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a oktalovou soustavou
+❑ Cifry v oktalové (osmičkové) soustavě:
+➢ 0, 1, 2, 3, 4, 5, 6, 7
+❑ Převod z oktalové do binární soustavy:
+➢ každou cifru oktalového čísla převedeme zvlášť do binární soustavy na trojici cifer - (7)8
+= 122 + 121 + 120 = (111)2
+➢ všechny trojice v binární soustavě spojíme do jednoho řetězce
+❑ Převod z binární do oktalové soustavy:
+➢ binární číslo rozdělíme na trojice cifer zprava (od mocniny 20)
+➢ každou trojici převedeme na jednu cifru v oktalové soustavě
+19
+Příklady:
+(476)8 -> ( ??? )2
+(6271)8 -> ( ??? )2
+=== PAGE 20 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a oktalovou soustavou
+❑ Převodní tabulka mezi dvojkovou a oktalovou
+soustavou:
+20
+hodnota
+(osmičkově)
+hodnota
+(binárně)
+0 000
+1 001
+2 010
+3 011
+4 100
+5 101
+6 110
+7 111
+=== PAGE 21 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a oktalovou soustavou
+❑ Cifry v oktalové (osmičkové) soustavě:
+➢ 0, 1, 2, 3, 4, 5, 6, 7
+❑ Převod z oktalové do binární soustavy:
+➢ každou cifru oktalového čísla převedeme zvlášť do binární soustavy na trojici cifer - (7)8
+= 122 + 121 + 120 = (111)2
+➢ všechny trojice v binární soustavě spojíme do jednoho řetězce
+❑ Převod z binární do oktalové soustavy:
+➢ binární číslo rozdělíme na trojice cifer zprava (od mocniny 20)
+➢ každou trojici převedeme na jednu cifru v oktalové soustavě
+21
+Příklady:
+(476)8 -> ( 100 111 110 )2
+(6271)8 -> ( 110 010 111 001 )2
+=== PAGE 22 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a oktalovou soustavou
+❑ Cifry v oktalové (osmičkové) soustavě:
+➢ 0, 1, 2, 3, 4, 5, 6, 7
+❑ Převod z oktalové do binární soustavy:
+➢ každou cifru oktalového čísla převedeme zvlášť do binární soustavy na trojici cifer - (7)8
+= 122 + 121 + 120 = (111)2
+➢ všechny trojice v binární soustavě spojíme do jednoho řetězce
+❑ Převod z binární do oktalové soustavy:
+➢ binární číslo rozdělíme na trojice cifer zprava (od mocniny 20)
+➢ každou trojici převedeme na jednu cifru v oktalové soustavě
+22
+Příklady:
+(476)8 -> ( 100 111 110 )2
+(6271)8 -> ( 110 010 111 001 )2
+Příklady:
+(10 101 011)2 -> ( ??? )8
+(110 101 010 111)2 -> ( ??? )8
+=== PAGE 23 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod mezi binární a oktalovou soustavou
+❑ Cifry v oktalové (osmičkové) soustavě:
+➢ 0, 1, 2, 3, 4, 5, 6, 7
+❑ Převod z oktalové do binární soustavy:
+➢ každou cifru oktalového čísla převedeme zvlášť do binární soustavy na trojici cifer - (7)8
+= 122 + 121 + 120 = (111)2
+➢ všechny trojice v binární soustavě spojíme do jednoho řetězce
+❑ Převod z binární do oktalové soustavy:
+➢ binární číslo rozdělíme na trojice cifer zprava (od mocniny 20)
+➢ každou trojici převedeme na jednu cifru v oktalové soustavě
+23
+Příklady:
+(476)8 -> ( 100 111 110 )2
+(6271)8 -> ( 110 010 111 001 )2
+Příklady:
+(010 101 011)2 -> ( 2 5 3 )8
+(110 101 010 111)2 -> ( 6 5 2 7 )8
+=== PAGE 24 ===
+Buchtela@pef.czu.cz (C01) B-UPP 24
+Převod desetinného čísla
+do binární soustavy
+=== PAGE 25 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Desítkové číslo obsahující i desetinnou část lze rozdělit na
+➢ celou část (před desetinnou čárkou)
+• převedeme odděleně způsobem zmíněným v předchozích kapitolách
+➢ desetinnou část (za desetinnou čárkou)
+• pro převod desetinné části lze použít dva možné způsoby
+❑ Způsob I
+➢ Použijeme stejný způsob převodu jako u celého čísla s tím rozdílem,
+že využijeme i záporné mocniny základu Z = 2
+• Postup opakujeme až do doby, kdy je zbytek nulový nebo případně do
+dosažení počtu desetinných míst, které z hlediska přesnosti
+vyžadujeme
+25
+Příklad:
+(27,125)10 → 27 = → ( ??? )2
+→ 0,125 = → ( ??? )2
+→ ( ??? )2
+2-1 2-2 2-3
+1/21 1/22 1/23
+0,5 0,25 0,125
+=== PAGE 26 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Desítkové číslo obsahující i desetinnou část lze rozdělit na
+➢ celou část (před desetinnou čárkou)
+• převedeme odděleně způsobem zmíněným v předchozích kapitolách
+➢ desetinnou část (za desetinnou čárkou)
+• pro převod desetinné části lze použít dva možné způsoby
+❑ Způsob I
+➢ Použijeme stejný způsob převodu jako u celého čísla s tím rozdílem,
+že využijeme i záporné mocniny základu Z = 2
+• Postup opakujeme až do doby, kdy je zbytek nulový nebo případně do
+dosažení počtu desetinných míst, které z hlediska přesnosti
+vyžadujeme
+26
+2-1 2-2 2-3
+1/21 1/22 1/23
+0,5 0,25 0,125
+Příklad:
+(27,125)10 → 27 = 116 18 04 12 11 → (11011)2
+→ 0,125 = 00,5 00,25 10,125 → (0,001)2
+→ (11011,001)2
+=== PAGE 27 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Způsob II
+➢ Jako v předchozím případě oddělíme celočíselnou část a desetinnou část
+(dále označenou jako N)
+➢ Vycházíme z následující úvahy:
+• Desetinnou část N vynásobíme základem Z = 2 a zjistíme, zda je výsledná
+hodnota větší než číslo 1
+• Pokud ano, na příslušnou pozici převáděného čísla zapíšeme cifru 1 a
+zároveň hodnotu 1 od hodnoty desetinné části odečteme - získáme tak
+zbytek M
+• Pokud hodnota nedosahuje hodnoty 1, na příslušnou pozici převáděného
+čísla zapíšeme hodnotu 0 a číslo 1 od zbytku neodečítáme - zbytkem M je
+pak celá hodnota 2N
+• Daný zbytek M (po odečtení či neodečtení hodnoty 1) opět vynásobíme
+základem Z = 2 a taktéž zjišťujeme, zda je větší či menší než hodnota 1
+• Postup opakujeme opět do doby, kdy zbytek dosáhne nulové hodnoty
+nebo do počtu desetinných míst, které jsou vyžadovány
+27
+￼
+￼
+2N < 1  a
+-1 = 0 a M > 0
+2N > 1  a
+-1 = 1 a M > 0
+2N = 1  a
+-1 = 1 a M = 0
+=== PAGE 28 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Způsob II – příklad
+➢ Číslo, které má v desítkové soustavě konečný rozvoj (počet
+cifer za desetinnou čárkou) nemusí mít konečný rozvoj ve
+dvojkové soustavě!
+28
+Příklad:
+(0,853)10: 0,853  2 = 1,706 > 1 píšeme a odečteme 1 M = 0,706
+(0,853)10 → (0,1 )2
+=== PAGE 29 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Způsob II – příklad
+➢ Číslo, které má v desítkové soustavě konečný rozvoj (počet
+cifer za desetinnou čárkou) nemusí mít konečný rozvoj ve
+dvojkové soustavě!
+29
+Příklad:
+(0,853)10: 0,853  2 = 1,706 > 1 píšeme a odečteme 1 M = 0,706
+0,706  2 = 1,412 > 1 píšeme 1 M = 0,412
+(0,853)10 → (0,11 )2
+=== PAGE 30 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Způsob II – příklad
+➢ Číslo, které má v desítkové soustavě konečný rozvoj (počet
+cifer za desetinnou čárkou) nemusí mít konečný rozvoj ve
+dvojkové soustavě!
+30
+Příklad:
+(0,853)10: 0,853  2 = 1,706 > 1 píšeme a odečteme 1 M = 0,706
+0,706  2 = 1,412 > 1 píšeme 1 M = 0,412
+0,412  2 = 0,824 < 1 píšeme 0 M = 0,824
+(0,853)10 → (0,110 )2
+=== PAGE 31 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Způsob II – příklad
+➢ Číslo, které má v desítkové soustavě konečný rozvoj (počet
+cifer za desetinnou čárkou) nemusí mít konečný rozvoj ve
+dvojkové soustavě!
+31
+Příklad:
+(0,853)10: 0,853  2 = 1,706 > 1 píšeme a odečteme 1 M = 0,706
+0,706  2 = 1,412 > 1 píšeme 1 M = 0,412
+0,412  2 = 0,824 < 1 píšeme 0 M = 0,824
+0,824  2 = 1,648 > 1 píšeme 1 M = 0,648
+(0,853)10 → (0,1101 )2
+=== PAGE 32 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Způsob II – příklad
+➢ Číslo, které má v desítkové soustavě konečný rozvoj (počet
+cifer za desetinnou čárkou) nemusí mít konečný rozvoj ve
+dvojkové soustavě!
+32
+Příklad:
+(0,853)10: 0,853  2 = 1,706 > 1 píšeme a odečteme 1 M = 0,706
+0,706  2 = 1,412 > 1 píšeme 1 M = 0,412
+0,412  2 = 0,824 < 1 píšeme 0 M = 0,824
+0,824  2 = 1,648 > 1 píšeme 1 M = 0,648
+0,648  2 = 1,296 > 1 píšeme 1 M = 0,296
+(0,853)10 → (0,11011 )2
+=== PAGE 33 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Způsob II – příklad
+➢ Číslo, které má v desítkové soustavě konečný rozvoj (počet
+cifer za desetinnou čárkou) nemusí mít konečný rozvoj ve
+dvojkové soustavě!
+33
+Příklad:
+(0,853)10: 0,853  2 = 1,706 > 1 píšeme a odečteme 1 M = 0,706
+0,706  2 = 1,412 > 1 píšeme 1 M = 0,412
+0,412  2 = 0,824 < 1 píšeme 0 M = 0,824
+0,824  2 = 1,648 > 1 píšeme 1 M = 0,648
+0,648  2 = 1,296 > 1 píšeme 1 M = 0,296
+0,296  2 = 0,592 < 1 píšeme 0 M = 0,592
+(0,853)10 → (0,110110 )2
+=== PAGE 34 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+Převod desetinného čísla
+❑ Způsob II – příklad
+➢ Číslo, které má v desítkové soustavě konečný rozvoj (počet
+cifer za desetinnou čárkou) nemusí mít konečný rozvoj ve
+dvojkové soustavě!
+34
+Příklad:
+(0,853)10: 0,853  2 = 1,706 > 1 píšeme a odečteme 1 M = 0,706
+0,706  2 = 1,412 > 1 píšeme 1 M = 0,412
+0,412  2 = 0,824 < 1 píšeme 0 M = 0,824
+0,824  2 = 1,648 > 1 píšeme 1 M = 0,648
+0,648  2 = 1,296 > 1 píšeme 1 M = 0,296
+0,296  2 = 0,592 < 1 píšeme 0 M = 0,592
+… takto pokračujeme, až do požadovaného počtu míst za binární čárkou
+(0,853)10 → (0,110110…)2
+=== PAGE 35 ===
+Buchtela@pef.czu.cz (C01) B-UPP
+DOTAZY ?
+35
+Děkuji za pozornost!

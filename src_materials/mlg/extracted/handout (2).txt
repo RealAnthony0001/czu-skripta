@@ -1,0 +1,107 @@
+=== PAGE 1 ===
+Matematická logika a grafy
+pro PEF ČZU
+Výroková logika
+Ing. Jakub Čermák
+Katedra matematiky a fyziky, TF ČZU
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Minimalizace
+formulí
+Quine–
+McCluskeyho
+algoritmus
+1 / 6
+=== PAGE 2 ===
+Výroková logika
+Minimalizace formulí
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Minimalizace
+formulí
+Quine–
+McCluskeyho
+algoritmus
+2 / 6
+=== PAGE 3 ===
+Minimální disjunktivní tvar
+Definice
+Formule v disjunktivním tvaru je minimální, právě tehdy, když obsahuje nejmenší množství literálů
+v porovnání s jinými ekvivalentními formulemi v disjunktivním tvaru.
+Úmluva
+Dvě formule v disjunktivním tvaru budeme považovat za stejné, pokud se liší pouze pořadím
+konjunkcí, popřípadě pořadím literálů v konjunkcích.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Minimalizace
+formulí
+Quine–
+McCluskeyho
+algoritmus
+3 / 6
+=== PAGE 4 ===
+Výroková logika
+Quine–McCluskeyho algoritmus
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Minimalizace
+formulí
+Quine–
+McCluskeyho
+algoritmus
+4 / 6
+=== PAGE 5 ===
+Quine–McCluskeyho algoritmus — postup
+Algoritmus
+1 Formuli převedeme do ÚDNT (není-li v něm).
+2 Provedeme zakódování (bez duplikátů).
+3 Slučujeme zakódované dvojice, které se liší v jediné proměnné — na té nezáleží. Slučování
+iterativně opakujeme, dokud to jde (tj. máme, co slučovat).
+4 Sestavíme tabulku pokrytí (původních konjunkcí z ÚDNT konjunkcemi vzešlými ze slučování).
+5 Vybereme nejmenší počet sloučených konjunkcí, které pokryjí původní konjunkce; jejich
+disjunkce je minimální tvar. Může existovat více stejně dobrých řešení!
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Minimalizace
+formulí
+Quine–
+McCluskeyho
+algoritmus
+5 / 6
+=== PAGE 6 ===
+Minimalizace pomocí Quine–McCluskeyho algoritmu — příklady
+Příklady
+Pomocí Quine–McCluskeyho algoritmu nalezněte minimální vyjádření následujících výrokových
+formulí v disjunktivním tvaru:
+1 (A′ ∧ B′ ∧ C) ∨ (A′ ∧ B ∧ C′) ∨ (A′ ∧ B ∧ C) ∨ (A ∧ B′ ∧ C) ∨ (A ∧ B ∧ C);
+2 (A′ ∧ B′ ∧ C′) ∨ (A ∧ B′ ∧ C′) ∨ (A′ ∧ B ∧ C′) ∨ (A′ ∧ B ∧ C) ∨
+(A ∧ B′ ∧ C) ∨ (A ∧ B′ ∧ C′) ∨ (A ∧ B ∧ C);
+3 (A ∧ B′ ∧ C′ ∧ D ∧ E) ∨ (A ∧ B ∧ C ∧ D′ ∧ E) ∨ (A′ ∧ B′ ∧ C′ ∧ D ∧ E) ∨
+(A ∧ B′ ∧ C ∧ D′ ∧ E) ∨ (A′ ∧ B′ ∧ C′ ∧ D′ ∧ E) ∨ (A ∧ B ∧ C ∧ D′ ∧ E′) ∨
+(A ∧ B′ ∧ C′ ∧ D′ ∧ E).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Minimalizace
+formulí
+Quine–
+McCluskeyho
+algoritmus
+6 / 6

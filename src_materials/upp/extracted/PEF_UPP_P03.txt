@@ -1,0 +1,520 @@
+=== PAGE 1 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+přednáška 03
+Úvod do principu počítačů
+David Buchtela
+Katedra informačního
+inženýrství
+Kódování číselných hodnot
+Princip počítače a strojový kód
+1
+=== PAGE 2 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Kódování celých čísel
+❑ Celá čísla (čísla s pevnou řádovou čárkou)
+➢ kladná i záporná celá čísla
+❑ binární čísla v počítači nemají znaménko (především −)
+➢ je třeba najít způsob převodu celých čísel na přirozená čísla
+(nezáporná)
+❑ podle svého předpokládaného rozsahu se ukládají
+do 1 – 4 B (byte)
+2
+￼
+0
+− +
+0
++
+￼
+=== PAGE 3 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Doplňkový kód
+❑ Pro uložení celých čísel (X) se nejčastěji používá
+doplňkový kód, kde pro kódová slova (X´) platí:
+➢ je-li X kladné (včetně nuly), pak kódové slovo X´ = X
+➢ je-li X záporné, pak kódové slovo X´ = X + 2n, kde n je délka
+kódového slova
+➢ kódové slovo X´ (desítkové číslo) se převede do binární
+soustavy
+3
+￼
+0
+− +
+0
++
+￼
+2n-1
+−
+￼
+￼
+=== PAGE 4 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Doplňkový kód - vlastnosti
+❑ Doplňkový kód – vlastnosti
+➢ U nezáporného čísla je hodnota prvního bitu zleva 0
+➢ U záporného čísla je hodnota prvního bitu zleva 1
+➢ Kód vhodný pro aritmetické operace
+❑ Doplněk - d(x)
+➢ x + d(x) = 0 d(x) = -x
+➢ doplněk d(x) k číslu x získáme:
+• v binárním zápisu x zaměníme všechny 0 za 1 a všechny 1 za 0
+• přičteme binárně 1 → výsledek je d(x)
+4
+Číslo X Kód. slovo X´ binárně (8 bitů)
+53 0011 0101
+1100 1010 negace bitů
+d(53) = -53 1100 1011 +1 (binárně)
+0011 0100 negace bitů
+d(-53) = 53 0011 0101 +1 (binárně)
+=== PAGE 5 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Sčítání dvou čísel v doplňkovém kódu
+❑ Čísla A (an-1 … a1, a0 ) a B (bn-1 … b1, b0) jsou dvě
+n-bitová čísla v doplňkovém kódu
+❑ K číslům A a B stanovíme binární řetězec přenos (Carry)
+C (cn , cn-1 … c1 , c0) podle následujících rekurentních
+vztahů:
+➢ c0 = 0 vždy
+➢ Pro 0 < i  n -1 položíme ci+1 = 1,
+pokud alespoň dvě hodnoty
+z hodnot ai , bi a ci jsou rovny 1
+➢ V opačném případě položíme ci+1 = 0
+5
+4-bitový doplňkový kód (n = 4)
++5 A: 0 1 0 1
+-4 B: 1 1 0 0
+C: 1 1 0 0 0
+￼
+￼
+￼
+￼
+=== PAGE 6 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Sčítání dvou čísel v doplňkovém kódu
+❑ Dále vytvoříme binární řetězec S (sn-1 … s1 , s0) tak, že
+pro všechna i , 0  i  n -1 položíme:
+si = ai  bi  ci
+❑ Validační kritérium
+➢ Pokud je v = cn  cn-1 = 1 , potom výsledný součet
+A + B nelze vyjádřit ve zvoleném n-bitovém doplňkovém
+kódu
+• Hodnota S není součtem A + B
+• Došlo k tak zvanému přeplnění (přetečení, overflow)
+➢ Pokud je v = 0 , potom S vyjadřuje součet A + B
+6
+4-bitový doplňkový kód (n = 4)
++5 A: 0 1 0 1
+-4 B: 1 1 0 0
+C: 1 1 0 0 0
++1 v S: 0 0 0 1
+￼
+￼
+=== PAGE 7 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Násobení čísla X k-tou mocninou dvojky
+❑ Princip násobení čísla X (xn-1, xn-2, …xi, … x0)
+mocninou 2k
+➢ binární řetězec čísla X se posune o k-míst vlevo
+➢ zprava (na prázdná místa) se doplní vždy hodnota 0
+➢ Příklad: S = X  2k pro k = 2
+7
+X xn-1 xn-2… x2 x1 x0
+posun o
+k míst
+vlevo
+xn-1 xn-2 xn-3 xn-4… x0 0 0 
+doplnit
+0 zprava
+     
+S sn-1 sn-2… s2 s1 s0
+=== PAGE 8 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Dělení čísla X k-tou mocninou dvojky
+❑ Princip dělení čísla X (xn-1, xn-2, …xi, … x0) mocninou 2k
+➢ binární řetězec čísla X se posune o k-míst vpravo
+➢ zleva (na prázdná místa) se doplní stejná hodnota jako xn-1
+➢ Výsledkem podílu čísel X a 2k nemusí být obecně celé číslo
+• V doplňkovém kódu tedy můžeme stanovit pouze výsledek
+celočíselného dělení (div) a zbytek po celočíselném dělení (mod)
+➢ Příklad: D = X div 2k
+, M = X mod 2k pro k = 2
+8
+X xn-1 xn-2… x2 x1 x0
+doplnit
+hodnotu
+xn-1
+zleva→
+xn-1 xn-1 xn-1 xn-2… x2 x1 x0 posun
+o k míst
+vpravo
+       
+D dn-1 dn-2… d2 d1 d0   výsledek
+podílu
+div
+M m1 m0 zbytek
+po dělení
+mod
+=== PAGE 9 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Čísla v pohyblivé řádové čárce
+❑ IEEE 754 formát čísla
+➢ je definováno 32-bitové kódové slovo x´ reprezentující reálné
+číslo x ve tvaru
+x´
+=  1,m  2e
+➢ znaménko ()
+• nezáporná čísla -> 0, záporná čísla -> 1
+➢ exponent (e) - celé číslo z intervalu -126;127
+• kód s posunutou nulou - e´
+= e + 28-1
+-1 = e + 127
+➢ mantisa (m) – reálné číslo
+• m´
+= a22 a21 a20 … a2 a1 a0
+9
+bit 31 30 29… 24 23 22 21 20… 2 1 0
+význam  exponent e´ (8 bitů) mantisa m´ (23 bitů)
+0
+− +
+0
+−
+￼
+28-1
+-1
++
+￼
+￼
+=== PAGE 10 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+IEEE 754 formát čísla - vlastnosti
+❑ Speciální hodnoty
+➢ nula (záporná / kladná)
+• znaménko (), e = 0, m = 0
+• formát čísla ->  0,m . 2e
+➢ nekonečno ()
+• znaménko (), e = binárně samé jedničky, m = 0
+➢ nedefinovaná hodnota (Not a Number)
+• znaménko (), e = binárně samé jedničky,
+m = libovolná nenulová
+➢ velmi malá čísla blízko nule
+• znaménko (), e = binárně samé nuly, m = libovolná nenulová
+• formát čísla ->  0,m . 2e
+10
+=== PAGE 11 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+IEEE 754 formát čísla - varianty
+❑ IEEE 754 formát čísla – varianty přesnosti
+11
+formát (IEEE 754-2008) binary16 binary32 binary64 binary128
+značení single double
+šířka kódového slova (bit) 16 32 64 128
+- znaménko (bit) 1 1 1 1
+- šířka exponentu (bit) 5 8 11 15
+- šířka mantisy (bit) 10 23 52 112
+max. exponent () 15 127 1 023 16 383
+=== PAGE 12 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Kódování povelových dat
+(strojový kód)
+12
+Princip počítače von
+Neumannova typu
+=== PAGE 13 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Koncepce konstrukce počítače
+❑ John von Neumannovo schéma počítače
+➢ používá jednu elektronickou paměť pro program i pro data
+❑ Harwardské schéma počítače
+➢ používá oddělenou paměť pro data a pro program
+13
+Procesor
+Operační paměť
+ALU
+a registry
+Řadič
+Výstupní zařízení
+Vstupní zařízení
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+datový tok řídící signál stavové hlášení
+￼
+￼
+Koncepce počítače
+byla publikována
+v roce 1945 v článku
+"First Draft of
+a Report on the
+EDVAC"
+=== PAGE 14 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Princip činnosti počítače Von Neumannova typu
+❑ Do operační paměti se pomocí vstupních zařízení
+umístí program, který bude prováděn
+❑ Stejným způsobem se do operační paměti umístí data,
+která bude program zpracovávat
+❑ Proběhne vlastní výpočet, jehož jednotlivé kroky
+provádí ALU (aritmeticko-logická jednotka)
+➢ Tato jednotka je v průběhu výpočtu spolu s ostatními moduly
+řízena řadičem počítače
+➢ Mezivýsledky výpočtu jsou ukládány do registrů nebo
+operační paměti
+❑ Po skončení výpočtu jsou výsledky poslány na výstupní
+zařízení
+14
+=== PAGE 15 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Procesor
+❑ Registry procesoru:
+➢ Čítač instrukcí
+(IP – Instruction Pointer)
+adresa prováděné instrukce
+v paměti
+➢ Registr instrukcí (RI)
+obsahuje instrukci načtenou
+z paměti
+➢ Stavové slovo procesoru
+(Flag Register)
+registr příznaků, kde se
+jednotlivé bity nastavují
+podle výsledku operace
+➢ Střadač (S)
+obsahuje výsledek
+provedené instrukce
+➢ Indexregistr (IND)
+slouží pro modifikaci adresy
+(přičtení k adrese)
+15
+￼
+=== PAGE 16 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Programové vybavení počítače
+❑ Programové vybavení se skládá z programů
+➢ Každý program je tvořen posloupností instrukcí nižšího či vyššího
+programovacího jazyka nebo instrukcí procesoru (strojového kódu)
+➢ Instrukce určuje co se má se zpracovávanými informacemi udělat
+❑ Programové vybavení je možné dále rozdělit do skupin:
+➢ systémový software – programové vybavení na úrovni operačního
+systému a programovacích jazyků
+➢ aplikační software – programové vybavení na úrovni obecných
+funkčních a aplikačních programů
+➢ firmware - programové vybavení, které tvoří součást technického
+vybavení. Toto programové vybavení až na naprosté výjimky
+nemůže být uživatelem modifikováno
+16
+=== PAGE 17 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Strojový kód
+❑ Strojový kód (Machine code) je program vyjádřený
+v počítači jako posloupnost instrukcí procesoru
+(posloupnost bajtů, resp. bitů)
+➢ z hlediska uživatele je strojový kód nesrozumitelný,
+z hlediska systému je přímo proveditelný
+➢ jazyk symbolických instrukcí - assembler
+❑ Strojový kód procesoru je tedy množina všech
+strojových instrukcí, které je procesor schopen
+vykonávat
+❑ Kódování závisí na typu procesoru
+17
+=== PAGE 18 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Instrukce počítače
+❑ Formát strojové instrukce
+➢ operační kód
+• určuje, jaká instrukce se bude vykonávat
+➢ adresa vstupního operandu
+• identifikuje operand(y),
+se kterým bude instrukce
+pracovat
+➢ adresa výstupního operandu
+• stanoví adresu(y), na kterou
+bude po provedení instrukce uložen výsledek
+➢ adresa následně vykonané instrukce
+• sdělí procesoru, jakou instrukci
+má vykonávat jako následující
+• pokud není uvedena, procesor začne vykonávat bezprostředně následující instrukci
+18
+￼
+operační kód vstupní operand(y) výstupní operand(y)
+￼
+operační kód vstupní operand(y) adresa následující instrukce
+￼
+=== PAGE 19 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Činnost procesoru při provádění programu
+❑ Veškeré programy jsou převedeny do strojového kódu
+(sekvence strojových instrukcí)
+❑ Po spuštění programu procesor postupně zpracovává
+instrukce
+➢ adresa zpracovávané instrukce je v čítači instrukcí (IP)
+❑ Každá instrukce je zpracována ve dvou fázích
+➢ výběrová fáze
+➢ prováděcí fáze
+19
+=== PAGE 20 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Fáze zpracování instrukcí
+❑ Výběrová fáze:
+➢ řadič přenese obsah čítače instrukcí (IP) na adresní sběrnici
+a vydá příkaz ke čtení z hlavní paměti (HP)
+➢ paměť přenese obsah adresované buňky na datovou sběrnici
+➢ řadič uloží instrukci do registru instrukcí (RI)
+➢ obsah čítače instrukcí se zvýší o 1
+❑ Prováděcí fáze:
+➢ instrukce v RI je řadičem dekódována
+➢ je-li nastaven příznak modifikace indexregistrem (IND), je k operandu
+přičten obsah indexregistru
+➢ řadič naadresuje HP a přečte obsah vstupních operandů
+➢ v součinnosti s ALU je instrukce provedena a výsledek uložen do střadače
+➢ řadič zajistí přenos výsledku ze střadače na adresu výstupního operandu
+20
+=== PAGE 21 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Vstupní a výstupní operandy
+❑ Vstupní a výstupní operand může být umístěn
+➢ v hlavní paměti
+– jednoznačně určen adresou
+➢ v registru procesoru
+– procesor má vlastní registry (paměťová místa),
+do kterých lze ukládat data
+❑ způsob adresace operandu = způsob, jakým bude operand instrukce na
+základně obsahu procesorem identifikován
+❑ Dále použité symboly:
+➢ X operand
+➢ S střadač
+➢ <…> obsah operandu, adresy, …
+21
+=== PAGE 22 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Způsoby adresace operandu
+❑ bezprostřední X → S
+➢ pracuje se přímo s hodnotou operandu
+➢ operand je procesoru k dispozici okamžitě po načtení
+instrukce
+➢ není třeba žádného dalšího čtení z paměti nebo registru
+➢ Příklad: X = 100 do S se uloží hodnota 100
+❑ přímá <X> → S
+➢ pracuje se s obsahem paměti na adrese X
+➢ hodnota v poli operandu je interpretována
+jako adresa hlavní paměti, na které je
+operand uložen
+➢ Příklad: X = 100
+• do S se uloží obsah adresy 100, tj. hodnota 102
+22
+￼
+=== PAGE 23 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Způsoby adresace operandu
+❑ nepřímá <<X>> → S
+➢ pracuje se s obsahem obsahu adresy X v paměti
+➢ hodnota v poli operandu je interpretována jako adresa hlavní paměti, na
+které je teprve uložena adresa operandu
+➢ Příklad: X = 100
+• do S se uloží obsah obsahu
+adresy 100, tj. hodnota 101 na adrese 102
+❑ s posuvem <X + <R>> → S
+➢ k obsahu R se přičte X, pracuje se s obsahem výsledné adresy
+➢ Adresaci s posuvem lze použít několika různými způsoby:
+• relativní adresace
+– R = čítač instrukcí, X = posuv 
+• bázová (segmentová) adresace
+– R = základní adresa v HP (báze, segment), X = kladný posuv
+• indexová adresace
+– X = určitá adresa v HP, R = kladný posuv (IND)
+➢ Příklad: X = 100, IND = 1
+• do S se uloží obsah adresy 101, tj. 40
+23
+￼
+=== PAGE 24 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Typy strojových instrukcí
+❑ Aritmetické a logické instrukce
+➢ Provádějí výpočty a logické operace s daty
+➢ Aritmetické operace: sčítání, odčítání, násobení, dělení
+➢ Logické operace: logický součet (OR), součin (AND), negace (NON),
+nonekvivalence(XOR)
+➢ Posuvy a rotace: posouvají nebo rotují bity v registrech
+❑ Instrukce pro přenos dat
+➢ Zajišťují přesun dat mezi různými místy v počítači
+➢ Čtení z paměti: přenos dat z operační paměti do registru procesoru
+➢ Zápis do paměti: uložení dat z registru do operační paměti
+➢ Přesun mezi registry: přenos dat z jednoho registru do druhého
+➢ Vstupní a výstupní operace (I/O): čtení dat ze vstupního zařízení
+nebo zápis dat na výstupní zařízení
+24
+=== PAGE 25 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Typy strojových instrukcí
+❑ Řídicí instrukce
+➢ Tyto instrukce ovlivňují tok programu a rozhodují o pořadí,
+v jakém se budou instrukce provádět
+➢ Nepodmíněné skoky: přenášejí řízení programu na jinou
+adresu v paměti
+➢ Podmíněné skoky: přenášejí řízení jen v případě, že je splněna
+určitá podmínka (např. výsledek byl nulový nebo záporný)
+➢ Volání podprogramu: uloží se adresa návratu a skočí se na
+začátek podprogramu
+➢ Návrat z podprogramu: načte uloženou adresu a vrátí se do
+hlavního programu
+➢ Instrukce HALT: zastaví vykonávání programu a procesor
+přejde do klidového stavu
+25
+=== PAGE 26 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Logické instrukce
+❑ Většina procesorů poskytuje řadu instrukcí pro logické
+manipulace s bity operandů
+➢ logické instrukce
+➢ instrukce posuvu a rotace
+❑ Logické instrukce obvykle realizují logické operace:
+➢ AND (logický součin, konjunkce) – značí se , 
+, 
+➢ OR (logický součet, disjunkce) – značí se , +, |
+➢ EQ (ekvivalence, stejnost) – značí se , 
+➢ XOR (nestejnost, výlučné nebo) – značí se 
+➢ NON (negace) – značí se ,
+
+,
+
+26
+=== PAGE 27 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Vykonání logické instrukce
+❑ Mějme dva n-bitové operandy A (an-1, an-2, …ai, … a0)
+a B (bn-1, bn-2, …bi, … b0)
+❑ Vykonání logické instrukce (operace) ve tvaru OP A, B
+znamená provedení příslušné logické operace (OP) na
+souhlasných bitech obsahu operandů A a B a uložení
+výsledku operace do v pořadí druhého operandu,
+tj. do operandu B
+➢ Symbolický význam instrukce: B = <A> OP <B>
+➢ Pro všechny bity operandů A a B platí:
+bi = ai OP bi kde ai, bi  {0,1}
+27
+=== PAGE 28 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+Logické instrukce – obecná pravidla
+28
+￼
+Příklad logických instrukcí
+A: 1 0 0 1 0 0 1 0
+B: 0 1 1 1 0 1 1 0
+AND A,B (do B) 0 0 0 1 0 0 1 0
+OR A,B (do B) 1 1 1 1 0 1 1 0
+XOR A,B (do B) 1 1 1 0 0 1 0 0
+Poznámka: Pro zpracování instrukce se berou vždy výchozí hodnoty A a B
+=== PAGE 29 ===
+Buchtela@pef.czu.cz (P03) B-UPP
+DOTAZY ?
+29
+Děkuji za pozornost!

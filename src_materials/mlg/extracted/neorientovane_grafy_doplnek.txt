@@ -1,0 +1,20 @@
+=== PAGE 1 ===
+Doplnˇek ke cviˇcen´ı z teorie neorientevan´ych graf˚u
+1. Urˇcete, kter´e z n´asleduj´ıc´ıch graf˚u jsou rovinn´e
+a) b) c)
+2. Dokaˇzte, ˇze n´asleduj´ıc´ı grafy maj´ı uveden´e chromatick´e ˇc´ıslo:
+a) 2 b) 3 c) 4
+d) 2
+e) 3
+3. Naleznˇete Hamiltonovskou kruˇznici v grafu
+a) b)
+4. Dokaˇzte, ˇze graf nen´ı Hamiltonovsk´y
+a) b)
+1
+=== PAGE 2 ===
+V´ysledky
+1. Urˇcete, kter´e z n´asleduj´ıc´ıch graf˚u jsou rovinn´e
+(a) Ne, obsahuje podgraf homeomorfn´ı s 5.
+(b) Ano.
+(c) Ne, obsahuje podgraf homeomorfn´ı s 3,3.
+2

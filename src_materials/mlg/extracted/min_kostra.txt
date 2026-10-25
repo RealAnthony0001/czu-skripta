@@ -1,0 +1,896 @@
+=== PAGE 1 ===
+Minim´aln´ı kostra
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+24. listopadu 2014
+Jan Hora Minim´aln´ı kostra
+=== PAGE 2 ===
+Zad´an´ı
+Naleznˇete minim´aln´ı kostru dan´eho grafu.
+3 4
+f g h
+9
+y
+1
+8
+10
+10
+8
+3
+x
+8
+7
+7
+c d e
+2
+3 8
+4
+3
+4
+5
+6
+s a b
+1 9
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 3 ===
+1.
+ˇ
+Reˇsen´ı
+y
+x
+f g h
+c d e
+s a b
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 4 ===
+1.
+ˇ
+Reˇsen´ı
+1,
+y
+x
+f g h
+c d e
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 5 ===
+1.
+ˇ
+Reˇsen´ı
+1,
+y
+x
+f g h
+c d e
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 6 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1,
+y
+x
+1
+f g h
+c d e
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 7 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1,
+y
+x
+1
+f g h
+c d e
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 8 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2,
+y
+x
+1
+f g h
+c d e
+2
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 9 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2,
+y
+x
+1
+f g h
+c d e
+2
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 10 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3,
+y
+x
+1
+f g h
+c d e
+2
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 11 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3,
+y
+x
+1
+f g h
+c d e
+2
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 12 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3,
+y
+x
+1
+3
+f g h
+c d e
+2
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 13 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3,
+y
+x
+1
+3
+f g h
+c d e
+2
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 14 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3,
+y
+x
+3
+1
+3
+f g h
+c d e
+2
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 15 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3,
+y
+x
+3
+1
+3
+f g h
+c d e
+2
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 16 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3,
+y
+x
+3
+1
+3
+f g h
+c d e
+2
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+3
+z
+=== PAGE 17 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3,
+y
+x
+3
+1
+3
+f g h
+c d e
+2
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+3
+z
+=== PAGE 18 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4,
+y
+3
+x
+1
+3
+f g h
+c d e
+2
+3
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+3
+z
+=== PAGE 19 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4,
+y
+3
+x
+1
+3
+f g h
+c d e
+2
+3
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+3
+z
+=== PAGE 20 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4,
+3
+4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 21 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 22 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 23 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 24 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+5
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 25 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 26 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+6
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 27 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 28 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7,
+3 4
+f g h
+y
+1
+7
+c d e
+z
+2
+3
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 29 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 30 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7,
+3 4
+f g h
+y
+1
+7
+c d e
+3
+z
+2
+3
+3
+x
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 31 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7,
+3 4
+f g h
+y
+1
+c d e
+3
+z
+2
+3
+3
+x
+4
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 32 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8,
+3 4
+f g h
+y
+1
+c d e
+8
+z
+2
+3
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 33 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8,
+3 4
+f g h
+y
+1
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 34 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8,
+3 4
+f g h
+y
+1
+c d e
+2
+3 8
+3
+x
+8
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 35 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8,
+3 4
+f g h
+y
+1
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 36 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8,
+3 4
+f g h
+y
+1
+8
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 37 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8,
+3 4
+f g h
+y
+1
+8
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 38 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8,
+3 4
+f g h
+y
+1
+8
+8
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 39 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8,
+3 4
+f g h
+y
+1
+8
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 40 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8, 9,
+3 4
+f g h
+9
+y
+1
+8
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 41 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8, 9,
+3 4
+f g h
+y
+1
+8
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 42 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8, 9, 9,
+3 4
+f g h
+y
+1
+8
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+9
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 43 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8, 9, 9,
+3 4
+f g h
+y
+1
+8
+c d e
+2
+3 8
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+z
+=== PAGE 44 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10,
+3 4
+f g h
+y
+1
+10
+8
+c d e
+2
+3 8
+z
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 45 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10,
+3 4
+f g h
+y
+1
+8
+c d e
+2
+3 8
+z
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 46 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10, 10
+3 4
+f g h
+y
+1
+10
+8
+c d e
+2
+3 8
+z
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra
+=== PAGE 47 ===
+1.
+ˇ
+Reˇsen´ı
+1, 1, 2, 3, 3, 3, 3, 4, 4, 4, 5, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10, 10
+3 4
+f g h
+y
+1
+8
+c d e
+2
+3 8
+z
+3
+x
+4
+3
+s a b
+1
+Jan Hora Minim´aln´ı kostra

@@ -1,0 +1,139 @@
+=== PAGE 1 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+V´yrokov´a logika
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+5. srpna 2025
+Jan Hora V´yrokov´a logika
+=== PAGE 2 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+Logick´y d˚usledek
+Definice
+ˇ
+R´ık´ame, ˇze formule ψ je d˚usledkem formule ϕ, pokud je ψ pravdiv´a
+pˇri kaˇzd´em ohodnocen´ı, pˇri kter´em je pravdiv´a formule ϕ. Tento
+vztah se znaˇc´ı ϕ|= ψ.
+Pˇr´ıklad
+Urˇcete, zda je ψ d˚usledkem ϕ
+ϕ= A ∨B, ψ= A ⇒B
+ϕ= A ∧A′
+, ψ= A′ ⇔B
+Pozorov´an´ı
+Jak´akoli formule je d˚usledkem kontradikce, tautologie je d˚usledkem
+jak´ekoli formule.
+Jan Hora V´yrokov´a logika
+=== PAGE 3 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+Logick´y d˚usledek v´ıce formul´ı
+Definice
+ˇ
+R´ık´ame, ˇze formule ψ je d˚usledkem mnoˇziny formul´ı Γ, pokud je ψ
+pravdiv´a pˇri kaˇzd´em ohodnocen´ı, pˇri kter´em je pravdiv´a kaˇzd´a
+formule z mnoˇziny Γ. Tento vztah se znaˇc´ı Γ |= ψ.
+Jan Hora V´yrokov´a logika
+=== PAGE 4 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+D´am si mouˇcn´ık?
+Pˇr´ıklad
+Pol´evku nebo hlavn´ı j´ıdlo si urˇcitˇe d´am, ovˇsem jestliˇze si d´am
+hlavn´ı j´ıdlo, ned´am si rozhodnˇe pol´evku i mouˇcn´ık.
+Urˇcete, zda jsou n´asleduj´ıc´ı vˇety logick´ym d˚usledkem v´yˇse
+uveden´eho:
+D´am si pol´evku.
+D´am si hlavn´ı j´ıdlo.
+Jestliˇze si d´am hlavn´ı j´ıdlo i mouˇcn´ık, ned´am si pol´evku.
+Jan Hora V´yrokov´a logika
+=== PAGE 5 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+Ekvivalence formul´ı podruh´e
+Definice
+Dvˇe formule (ˇreknˇeme ϕ a ψ) se naz´yvaj´ı ekvivalentn´ı, pokud
+nab´yvaj´ı stejn´e pravdivostn´ı hodnoty pˇri vˇsech ohodnocen´ıch (maj´ı
+stejnou pravdivostn´ı tabulku). Znaˇc´ıme ϕ≡ψ.
+Fakt
+Formule ϕ a ψ jsou ekvivalentn´ı pr´avˇe tehdy, kdyˇz je formule
+ϕ⇔ψ tautologi´ı.
+Jan Hora V´yrokov´a logika
+=== PAGE 6 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+Pˇr´ıklady ekvivalentn´ıch formul´ı
+¬(¬A) ≡A, Z´akon dvojit´e negace
+¬(A ∨B) ≡A′ ∧B′, De Morganova pravidla
+¬(A ∧B) ≡A′ ∨B′
+,
+¬(A ⇒B) ≡A ∧B′
+,
+(A ⇔B) ≡(A ∧B) ∨(A′ ∧B′),
+A ∨A ≡A, A ∧A ≡A, idempotence
+A ∨B ≡B ∨A, A ∧B ≡B ∧A, komutativita
+(A ∨B) ∨C ≡A ∨(B ∨C) ≡A ∨B ∨C, asociativita
+A ∧(B ∨C) ≡(A ∧B) ∨(A ∧C), distributivita
+A ∧A′ ≡0, A ∨A′ ≡1,
+A ∨1 ≡1, A ∨0 ≡A,
+A ∧1 ≡A, A ∧0 ≡0.
+Jan Hora V´yrokov´a logika
+=== PAGE 7 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+Disjunkce konjunkc´ı, konjunkce disjunkc´ı
+Definice
+V´yrokov´e promˇenn´e a jejich negace se souhrnnˇe naz´yvaj´ı liter´aly.
+Definice
+Formule je v disjunktivn´ım tvaru (disjunktivn´ı norm´aln´ı formˇe –
+DNF), pokud je disjunkc´ı konjunkc´ı liter´al˚u.
+Definice
+Formule je v ´upln´em disjunktivn´ım tvaru, pokud je v disjunktivn´ım
+tvaru a kaˇzd´a konjunkce obsahuje vˇsechny v´yrokov´e promˇenn´e
+nebo jejich negace.
+Definice
+Formule je v konjunktivn´ım tvaru (konjunktivn´ı norm´aln´ı formˇe –
+CNF), pokud je konjunkc´ı disjunkc´ı liter´al˚u.
+Jan Hora V´yrokov´a logika
+=== PAGE 8 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+Pˇr´ıklady
+Pˇr´ıklad
+Pˇreved’te do disjunktivn´ıho tvaru
+1. (A′ ∧(B′ ∨A)),
+2. (A′ ⇒(B ∧C′))′
+,
+3. A′ ⇔(B ∨C′).
+Pˇr´ıklad
+Pˇreved’te do konjunktivn´ıho tvaru
+1. A ∨(A′ ∧B′)′
+,
+2. (A′ ⇒(B ∧C′))′
+,
+3. A′ ⇔B.
+Jan Hora V´yrokov´a logika
+=== PAGE 9 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+Pˇr´ıklady
+Pˇr´ıklad
+Pˇreved’te do ´upln´eho disjunktivn´ıho tvaru
+1. A ∨(A′ ∧B),
+2. (A ∧B) ∨(B ∧C′),
+3. (A′ ⇒B′) ∨(B ∧C′).
+Pˇr´ıklad
+Napiˇste jakoukoli formuli ϕ s n´asleduj´ıc´ı pravdivostn´ı tabulkou
+A B ϕ
+1 1 1
+1 0 1
+0 1 0
+0 0 1
+Jan Hora V´yrokov´a logika
+=== PAGE 10 ===
+Pˇrevod formule do (´upln´eho) disjunktivn´ıho tvaru
+Pˇr´ıklady
+Pˇr´ıklad
+Napiˇste jakoukoli formuli ϕ s n´asleduj´ıc´ı pravdivostn´ı tabulkou
+A B C ϕ
+1 1 1 1 1 0 1 0 0 1 0 1 0 0 0 0 1 0
+0 1
+1 1
+0 0
+1 1
+0 0
+1 0
+0 1
+Jan Hora V´yrokov´a logika

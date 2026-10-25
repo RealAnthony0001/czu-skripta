@@ -1,0 +1,139 @@
+=== PAGE 1 ===
+Rovinn´e grafy Barven´ı grafu
+Rovinn´e grafy a barven´ı graf˚u
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+9. z´aˇr´ı 2025
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 2 ===
+Rovinn´e grafy Barven´ı grafu
+Grafy rovinn´e a nerovinn´e
+Definice
+Graf se naz´yv´a rovinn´y, pokud existuje jeho diagram (v rovinˇe), ve kter´em se
+neprot´ınaj´ı hrany.
+Pˇr´ıklad
+K4 je rovinn´y.
+K5 nen´ı rovinn´y.
+Graf se ˇsesti vrcholy a dev´ıti hranami oznaˇcovan´y K3,3 nen´ı rovinn´y.
+K3,3
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 3 ===
+Rovinn´e grafy Barven´ı grafu
+Dva nerovinn´e grafy staˇc´ı
+Definice
+Bud’ G = (V ,E,p) graf, bud’
+v ∈V vrchol stupnˇe dva a necht’
+e1 a e2 jsou hrany
+vych´azej´ıc´ı z v, ˇcili p(e1) = {v,a}a p(e2) = {v,b}. Pak vypuˇstˇen´ı vrcholu v a
+nahrazen´ı hran e1 a e2 novou hranou e, p(e) = {a,b}, se naz´yv´a zcelen´ı hran e1 a e2.
+Proces opaˇcn´y se naz´yv´a dˇelen´ı hrany e.
+Definice
+Dva grafy se naz´yvaj´ı homeomorfn´ı, pokud lze jeden na druh´y pˇrev´est postupn´ym
+zcelov´an´ım a dˇelen´ım hran.
+Vˇeta
+Graf je rovinn´y, pokud neobsahuje ˇz´adn´y podgraf homeomorfn´ı ani s K5 ani s K3,3.
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 4 ===
+Rovinn´e grafy Barven´ı grafu
+Kolik tˇreˇsn´ı, tolik viˇsn´ı
+Definice
+naz´yv´a st´at.
+Mˇejme rovinn´y diagram grafu. Kaˇzd´a ˇc´ast roviny, kter´a je ohraniˇcen´a hranami, se
+Vˇeta
+Pro rovinn´y graf plat´ı n´asleduj´ıc´ı rovnost
+v + s = e + k + 1,
+kde v je poˇcet vrchol˚u, s je poˇcet st´at˚u, e je poˇcet hran a k je poˇcet jeho komponent.
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 5 ===
+Rovinn´e grafy Barven´ı grafu
+Mapy
+Definice
+Diagram souvisl´eho rovinn´eho grafu se naz´yv´a mapa, pokud
+1. neobsahuje vrcholy stupnˇe menˇs´ıho neˇz tˇri,
+2. kaˇzd´y st´at m´a hranici sloˇzenou alespoˇn ze tˇr´ı hran,
+3. kaˇzd´a hrana oddˇeluje dva st´aty,
+4. dva st´aty maj´ı nejv´yˇse jednu spoleˇcnou hranu.
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 6 ===
+Rovinn´e grafy Barven´ı grafu
+Pravideln´ych map je m´alo
+Definice
+Mapa se naz´yv´a pravideln´a, pokud maj´ı vˇsechny vrcholy stejn´y stupeˇn (k) a vˇsechny
+st´aty maj´ı hranici sloˇzenou ze stejn´eho poˇctu hran (n).
+Vˇeta
+Existuje pˇresnˇe pˇet pravideln´ych map.
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 7 ===
+Rovinn´e grafy Barven´ı grafu
+Pravideln´e mnohostˇeny – Plat´onsk´a tˇelesa
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 8 ===
+Rovinn´e grafy Barven´ı grafu
+Pravideln´e mnohostˇeny – Plat´onsk´a tˇelesa
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 9 ===
+Rovinn´e grafy Barven´ı grafu
+Pravideln´e mnohostˇeny – Plat´onsk´a tˇelesa
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 10 ===
+Rovinn´e grafy Barven´ı grafu
+Pravideln´e mnohostˇeny – Plat´onsk´a tˇelesa
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 11 ===
+Rovinn´e grafy Barven´ı grafu
+Pravideln´e mnohostˇeny – Plat´onsk´a tˇelesa
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 12 ===
+Rovinn´e grafy Barven´ı grafu
+Paramatry pravideln´ych mnohostˇen˚u
+k n v e s
+ˇ
+Ctyˇrstˇen Krychle Osmistˇen Dvan´actistˇen Dvacetistˇen 3 3 3 4 4 3 3 5 5 3 4 6 4
+8 12 6
+6 12 8
+20 30 12
+12 30 20
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 13 ===
+Rovinn´e grafy Barven´ı grafu
+Kolik hran m´a fotbalov´y m´ıˇc?
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 14 ===
+Rovinn´e grafy Barven´ı grafu
+Barven´ı grafu
+Definice
+k-obarven´ım grafu G = (V ,E,p) nazveme kaˇzd´e zobrazen´ı c : V →{1,2,...,k},
+kter´e kaˇzd´ym dvˇema vrchol˚um v, w spojen´ym hranou pˇriˇrazuje r˚uzn´e hodnoty
+c(v) ̸= c(w).
+Definice
+Chromatick´ym ˇc´ıslem grafu G (znaˇc´ı se obvykle χ(G)) nazveme minim´aln´ı pˇrirozen´e
+ˇc´ıslo k takov´e, ˇze existuje k-obarven´ı grafu G.
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 15 ===
+Rovinn´e grafy Barven´ı grafu
+N´amoˇrn´ıci, rozvrh, kˇriˇzovatky
+Pˇr´ıklad
+Urˇcete chromatick´e ˇc´ıslo grafu
+Dn,
+Kn,
+C5,
+C6.
+T , T je strom.
+Vˇeta
+Pro kaˇzd´y rovinn´y graf G plat´ı χ(G) ≤4.
+Jan Hora Rovinn´e grafy a barven´ı graf˚u
+=== PAGE 16 ===
+Rovinn´e grafy Barven´ı grafu
+Jeden´act rozmazlen´ych chlapeˇck˚u
+Pˇr´ıklad
+Na druh´y roˇcn´ık velmi drah´eho lyˇzaˇrsk´eho v´ycviku jede jeden´act chlapeˇck˚u. Kaˇzd´y z
+nich nechce b´yt na pokoji s nˇekolika jin´ymi mal´ymi lyˇzaˇri. Adam nechce sd´ılet pokoj s
+Boˇr´ıkem, Mart´ınkem a Fanouˇskem, Boˇr´ık s Karl´ıkem, Cyrilem a Pavl´ıkem, Cyril s
+Dav´ıdkem a Zdeˇnkem, Dav´ıdek s Adamem, Luk´aˇskem a Mart´ınkem, Fanouˇsek s
+Viktorem, Adamem a Boˇr´ıkem, Karl´ık s Boˇr´ıkem a Pavl´ıkem, Luk´aˇsek s Cyrilem,
+Viktorem a Dav´ıdkem, Mart´ınek s Karl´ıkem, Pavl´ık s Viktorem a Luk´aˇskem, Viktor s
+Fanouˇskem a Zdeˇnkem a Zdenˇek s Adamem.
+Urˇcete, kolik pokoj˚u budou hodn´ı instruktoˇri potˇrebovat, aby splnili poˇzadavky vˇsech
+chlapeˇck˚u (maminek)?
+Jan Hora Rovinn´e grafy a barven´ı graf˚u

@@ -1,0 +1,214 @@
+=== PAGE 1 ===
+Matematická logika a grafy
+pro PEF ČZU
+Výroková logika
+Ing. Jakub Čermák
+Katedra matematiky a fyziky, TF ČZU
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+1 / 13
+=== PAGE 2 ===
+Výroková logika
+Logické zákony
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+2 / 13
+=== PAGE 3 ===
+Logické zákony — negace
+Jak se neguje
+Dvojitá negace: ¬(¬A)≡A
+De Morganova pravidla: ¬(A ∨B)≡¬A ∧¬B
+¬(A ∧B)≡¬A ∨¬B
+Negace implikace: ¬(A ⇒B)≡A ∧¬B
+Negace ekvivalence: ¬(A ⇔B)≡¬A ⇔B
+¬(A ⇔B)≡A ⇔¬B
+¬(A ⇔B)≡(A ∧¬B)∨(¬A ∧B)
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+3 / 13
+=== PAGE 4 ===
+Logické zákony — převody implikace a ekvivalence
+Logické ekvivalenty k ⇒
+Zákon kontrapozice: Převedení na disjunkci: A ⇒B ≡¬B ⇒¬A
+A ⇒B ≡¬A ∨B
+Logické ekvivalenty k ⇔
+A ⇔B ≡(A ⇒B)∧(B ⇒A) A ⇔B ≡(A ⇒B)∧(¬A ⇒¬B) A ⇔B ≡¬A ⇔¬B
+A ⇔B ≡(A ∧B)∨(¬A ∧¬B)
+A ⇔B ≡(A ∨¬B)∧(¬A ∨B)
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+4 / 13
+=== PAGE 5 ===
+Logické zákony — známé vlastnosti spojek
+Idempotence, komutativita, asociativita, distributivita
+Idempotence: A ∨A ≡A A ∧A ≡A
+Komutativita: A ∨B ≡B ∨A A ∧B ≡B ∧A
+Asociativita: (A ∨B)∨C ≡A ∨(B ∨C)
+(A ∧B)∧C ≡A ∧(B ∧C)
+Distributivita: A ∧(B ∨C)≡(A ∧B)∨(A ∧C)
+A ∨(B ∧C)≡(A ∨B)∧(A ∨C)
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+5 / 13
+=== PAGE 6 ===
+Logické zákony — vztah s konstantami
+Vztahy s 0 a 1
+Vyloučený třetí: A ∨¬A ≡1
+Spor: A ∧¬A ≡0
+Konstanty v disjunkci: A ∨1 ≡1 A ∨0 ≡A
+Konstanty v konjunkci: A ∧1 ≡A A ∧0 ≡0
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+6 / 13
+=== PAGE 7 ===
+Výroková logika
+Normální tvary
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+7 / 13
+=== PAGE 8 ===
+Literály, DNT, KNT, ÚDNT, ÚKNT
+Definice
+Výrokové proměnné a jejich negace se souhrnně nazývají literály.
+Definice
+Formule je v disjunktivním normálním tvaru (DNT), pokud je disjunkcí konjunkcí literálů.
+Definice
+Formule je v konjunktivním normálním tvaru (KNT), pokud je konjunkcí disjunkcí literálů.
+Definice
+Formule je v úplném disjunktivním normálním tvaru (ÚDNT), pokud je v DNT a každá konjunkce
+obsahuje všechny výrokové proměnné (každou právě jednou, buď v přímé, nebo v negované podobě).
+Definice
+Formule je v úplném konjunktivním normálním tvaru (ÚKNT), pokud je v KNT a každá disjunkce
+obsahuje všechny výrokové proměnné (každou právě jednou, buď v přímé, nebo v negované podobě).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+8 / 13
+=== PAGE 9 ===
+Dvě poznámky k normálním tvarům
+Na uzávorkování nezáleží
+Konjunkce i disjunkce jsou asociativní, takže u zápisů
+A ∧B ∧C a A ∨B ∨C
+nemusíme psát závorky — ať je uzávorkujeme jakkoli, pravdivostní hodnota vyjde stejně. Proto se
+v normálních tvarech závorky uvnitř jednotlivých konjunkcí a disjunkcí nepíší.
+Tvar = forma
+Místo tvar se často říká forma; jde o totéž:
+KNT = KNF
+DNT = DNF
+ÚDNT = ÚDNF
+ÚKNT = ÚKNF
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+9 / 13
+=== PAGE 10 ===
+Převody do normálních tvarů — příklady
+Převeďte do DNT
+1 A′∧(B′∨A);
+2 (A′⇒(B ∧C′))′;
+3 A′⇔(B ∨C′).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+Převeďte do KNT
+1 A ∨(A′∧B′)′;
+2 (A′⇒(B ∧C′))′;
+3 A′⇔B.
+10 / 13
+=== PAGE 11 ===
+Převody do ÚDNT — příklady
+Převeďte do ÚDNT
+1 A ∨(A′∧B);
+2 (A ∧B)∨(B ∧C′);
+3 (A′⇒B′)∨(B ∧C′).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+11 / 13
+=== PAGE 12 ===
+Od tabulky k formuli
+Napište jakoukoli formuli ϕ s touto tabulkou
+A B ϕ
+1 1 1
+1 0 1
+0 1 0
+0 0 1
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+12 / 13
+=== PAGE 13 ===
+Od tabulky k formuli podruhé
+Napište jakoukoli formuli ϕ s touto tabulkou
+A B 1 1 1 1 1 0 1 0 0 1 0 1 0 0 0 0 C ϕ
+1 0
+0 1
+1 1
+0 0
+1 1
+0 0
+1 0
+0 1
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Logické zákony
+Normální tvary
+13 / 13

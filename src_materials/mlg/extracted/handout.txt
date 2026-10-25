@@ -1,0 +1,651 @@
+=== PAGE 1 ===
+Matematická logika a grafy
+pro PEF ČZU
+Výroková logika
+Ing. Jakub Čermák
+Katedra matematiky a fyziky, TF ČZU
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+1 / 27
+=== PAGE 2 ===
+Výroková logika
+Motivace
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+2 / 27
+=== PAGE 3 ===
+Motivace
+Běžná řeč je nejednoznačná.
+Logika je jazyk, který se dá využít k přesným formulacím - strojové využití.
+Příklady využití
+databázové dotazy - relační algebra,
+návrh obvodů (hardware) - Booleova algebra,
+dokazování správnosti programů,
+kontrola vygenerovaného kódu.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+3 / 27
+=== PAGE 4 ===
+Proč to potřebuje i programátor
+Umělá inteligence dnes běžně generuje kód — a ten je potřeba zkontrolovat.
+Kód A
+Kód B
+if (!(a && b)) {
+reject();
+if (!a || !b) {
+reject();
+}
+}
+Chovají se stejně, nebo ne?
+Odpověď dá De Morganovo pravidlo:
+¬(A ∧B)≡¬A ∨¬B
+Obě verze jsou tedy ekvivalentní.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+4 / 27
+=== PAGE 5 ===
+Výroková logika
+Výroky
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+5 / 27
+=== PAGE 6 ===
+Základní stavební kameny
+Definice
+Elementární výrok je oznamovací věta, o které má smysl rozhodovat, jestli je pravdivá, a kterou
+chápeme jako nedělitelný celek.
+Příklady
+Mám dnes narozeniny.
+33 = 9.
+Ve třídě je přesně 30 studentů.
+Co nejsou elementární výroky
+Jdi pryč!
+x2
+−2 ≥3x +2.
+Půjdeme do kina?
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+6 / 27
+=== PAGE 7 ===
+Pravdivost výroků
+Úmluva
+Výroky budeme zpravidla označovat velkými tiskacími písmeny, a to buď ze začátku abecedy, nebo
+tak, aby písmeno charakterizovalo daný výrok.
+Úmluva
+Výrok může nabývat dvou hodnot, a to pravda a nepravda, značíme 1 a 0.
+Poznámka
+Pravdivost výroku nemusíme být schopni v dané chvíli určit.
+Příklad
+Na Marsu kdysi existoval život.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+7 / 27
+=== PAGE 8 ===
+Výroková logika
+Logické spojky
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+8 / 27
+=== PAGE 9 ===
+Některé výroky jsou složitější
+M: Ž: Ž: M: Ž: M: Půjdu dnes večer s Pavlem do hospody.
+Nepůjdeš dnes večer s Pavlem do hospody.
+Jestli půjdeš dnes večer s Pavlem do hospody, pak budou zítra k večeři bramborové šišky
+s mákem.
+Půjdu dnes večer s Pavlem do hospody a dám si guláš.
+Zůstaneš doma nebo pozvu na víkend svoji maminku.
+Půjdu dnes večer do hospody právě tehdy, když půjde Pavel.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+9 / 27
+=== PAGE 10 ===
+Negace
+Definice
+Negací výroku A rozumíme větu: „Není pravda, že A.“ Značíme obvykle¬A, alternativně také A′nebo A.
+Příklad
+Mějme výrok A
+A: Pepův králík má rád mrkev.
+Negace výroku A, neboli¬A, je věta
+Není pravda, že Pepův králík má rád mrkev.
+Lépe česky:
+Pepův králík nemá rád mrkev.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+10 / 27
+=== PAGE 11 ===
+Konjunkce
+Definice
+Konjunkcí výroků A a B rozumíme větu: „A a zároveň B.“ Značíme A ∧B.
+Příklad
+Mějme výroky A a B
+A: Hrabáč se živí termity.
+B: Hrabáč se živí mravenci.
+Konjunkce výroků A a B, neboli A ∧B, je věta
+Hrabáč se živí termity a zároveň mravenci.
+Lépe česky:
+Hrabáč se živí termity i mravenci.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+11 / 27
+=== PAGE 12 ===
+Disjunkce
+Definice
+Disjunkcí výroků A a B rozumíme větu: „A nebo B.“ Značíme A ∨B.
+Příklad
+Mějme výroky A a B
+A: Nově přijatý zaměstnanec musí mít vysokou školu.
+B: Nově přijatý zaměstnanec musí mít praxi.
+Disjunkce výroků A a B, neboli A ∨B, je věta
+Nově přijatý zaměstnanec musí mít vysokou školu nebo praxi.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+12 / 27
+=== PAGE 13 ===
+Implikace
+Definice
+Implikací výroků A a B rozumíme větu: „Jestliže A, pak B.“ Značíme A ⇒B.
+Příklad
+Mějme výroky A a B
+A: Budou mít švestky.
+B: Uvařím švestkové knedlíky.
+Implikace výroků A a B (v tomto pořadí), neboli A ⇒B, je věta
+Jestliže budou mít švestky, uvařím švestkové knedlíky.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+13 / 27
+=== PAGE 14 ===
+Ekvivalence
+Definice
+Ekvivalencí výroků A a B rozumíme větu: „A právě tehdy, když B.“ Značíme A ⇔B.
+Příklad
+Mějme výroky A a B
+A: Alice miluje Boba.
+B: Bob miluje Alici.
+Ekvivalence výroků A a B, neboli A ⇔B, je věta
+Alice miluje Boba právě tehdy, když Bob miluje Alici.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+14 / 27
+=== PAGE 15 ===
+Logické spojky – shrnutí
+Značení A′
+, ¬A, A A ∧B A ∨B A ⇒B A ⇔B Název Negace Konjunkce Disjunkce Implikace Ekvivalence Význam
+Není pravda, že A
+A a současně B
+A nebo B
+Jestliže A, pak B
+A právě tehdy, když B
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+15 / 27
+=== PAGE 16 ===
+Výroková logika
+Výrokové formule a jejich pravdivost
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+16 / 27
+=== PAGE 17 ===
+Skládáme výroky ve formule
+Definice
+Výroková proměnná je formální symbol zastupující libovolný elementární výrok.
+Výroková konstanta je formální symbol zastupující konkrétní výrokovou hodnotu, čili 1 pro
+pravdu a 0 pro nepravdu.
+Definice
+Výroková formule se konstruuje rekurzivně:
+každá výroková proměnná je výroková formule;
+každá výroková konstanta je výroková formule;
+pokud jsou E a F výrokové formule, pak jsou výrokovými formulemi také
+¬E, E ∧F, E ∨F, E ⇒F, E ⇔F;
+jiné výrokové formule nejsou.
+Úmluva
+Místo výroková formule budeme obvykle říkat jen formule.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+17 / 27
+=== PAGE 18 ===
+Pravdivost výrokových formulí
+Poznámka
+Výroková proměnná (stejně jako elementární výrok) může nabývat dvou hodnot, a to
+pravda/nepravda. Značíme 1/0.
+Pravdivost složitějších formulí definujeme tak, aby souhlasila s významem spojek v běžné řeči.
+A B A′ A ∧B A ∨B A ⇒B A ⇔B
+1 1 1 0 0 1 0 0 0 1 0 0 1 0 1 0 1 1 1
+1 0 0
+1 1 0
+0 1 1
+Poznámka
+Pozor na implikaci: z nepravdy plyne cokoliv!
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+18 / 27
+=== PAGE 19 ===
+Ohodnotit znamená dosadit
+Definice
+Ohodnocení výrokové formule ϕje přiřazení hodnoty 1 či 0 každé z výrokových proměnných
+obsažených v této formuli a následné dopočítání pravdivosti všech podformulí formule ϕ.
+Podle výsledku řekneme, že je formule ϕpravdivá či nepravdivá při daném ohodnocení.
+Definice
+Pravdivostní tabulka výrokové formule ϕje soupis všech možných ohodnocení formule ϕ.
+Příklady
+Napište pravdivostní tabulku formule
+A ⇒(B′⇒A).
+Napište pravdivostní tabulku formule
+(A′⇔B)∧(B′∨C)′
+.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+19 / 27
+=== PAGE 20 ===
+Tautologie, kontradikce a splnitelná formule
+Definice
+Tautologie je formule, která je pravdivá při každém ohodnocení.
+Kontradikce (spor) je formule, která je nepravdivá při každém ohodnocení.
+Formule je splnitelná, pokud existuje alespoň jedno ohodnocení, při kterém je pravdivá.
+Úmluva
+Někdy se tautologie/kontradikce značí jen symbolem 1/0.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+20 / 27
+=== PAGE 21 ===
+Tautologie, kontradikce a splnitelná formule - příklad
+Příklad
+Napište pravdivostní tabulku formule
+(A ∨B′∨C′)⇒(A ∧B)
+a na jejím základě určete, zda se jedná o tautologii či kontradikci. Rozhodněte také, zda je formule
+splnitelná.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+21 / 27
+=== PAGE 22 ===
+Výroková logika
+Logická ekvivalence
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+22 / 27
+=== PAGE 23 ===
+Logická ekvivalence
+Definice
+Dvě formule ϕa ψse nazývají logicky ekvivalentní, právě tehdy, když nabývají stejných
+pravdivostních hodnot při každém ohodnocení. Značíme ϕ≡ψ.
+Věta
+Formule ϕa ψjsou logicky ekvivalentní právě tehdy, když je formule ϕ⇔ψtautologií.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+23 / 27
+=== PAGE 24 ===
+Logická ekvivalence – příklady
+Příklady
+Zjistěte, zda jsou následující dvojice formulí logicky ekvivalentní:
+1 ϕ= ¬(¬A), ψ= A;
+2 ϕ= A ∧(B ∨C), ψ= (A ∧B)∨(A ∧C);
+3 ϕ= A ⇒(B ⇒(C ⇒(D ⇒E))), ψ= A ∨B ∨C ∨D ∨E;
+4 ϕ= (A ∨B)′
+, ψ= A′∧B′
+.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+24 / 27
+=== PAGE 25 ===
+Výroková logika
+Logický důsledek
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+25 / 27
+=== PAGE 26 ===
+Logický důsledek
+Definice
+Říkáme, že formule ψje logickým důsledkem formule ϕ, pokud je ψpravdivá při každém
+ohodnocení, při kterém je pravdivá formule ϕ. Značíme ϕ |= ψ.
+Definice
+Formule ψje logickým důsledkem množiny formulí ϕ, pokud je ψpravdivá při každém ohodnocení,
+při kterém jsou pravdivé všechny formule z množiny ϕ. Značíme ϕ |= ψ.
+Věta
+Formule ψje logickým důsledkem formule ϕprávě tehdy, když je formule ϕ⇒ψtautologií.
+Věta
+Formule ϕa ψjsou logicky ekvivalentní právě tehdy, když ϕ |= ψa zároveň ψ |= ϕ.
+Pozorování
+Jakákoli formule je důsledkem kontradikce; tautologie je důsledkem jakékoli formule.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+26 / 27
+=== PAGE 27 ===
+Logický důsledek – příklady
+Příklady
+Určete, zda je ψdůsledkem ϕ:
+ϕ= A ∨B, ψ= A ⇒B;
+ϕ= A ∧A′
+, ψ= A′⇔B.
+Příklad: Dám si moučník?
+Polévku nebo hlavní jídlo si určitě dám, ovšem jestliže si dám hlavní jídlo, nedám si rozhodně polévku
+i moučník.
+Určete, zda jsou následující věty logickým důsledkem výše uvedeného:
+Dám si polévku.
+Dám si hlavní jídlo.
+Jestliže si dám hlavní jídlo i moučník, nedám si polévku.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Výroková
+logika
+Motivace
+Výroky
+Logické spojky
+Výrokové formule
+a jejich
+pravdivost
+Logická
+ekvivalence
+Logický důsledek
+27 / 27

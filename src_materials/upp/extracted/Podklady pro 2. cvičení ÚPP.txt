@@ -1,0 +1,35 @@
+=== PAGE 1 ===
+Podklady pro 2. cvičení z předmětu Úvod do principu počítačů
+1) Pomocí pravdivostní tabulky rozhodněte o správnosti následujících úsudků:
+a) Buď je examinátor shovívavý a nebo je kurz neužitečný. Examinátor není shovívavý.
+Plyne z toho, že kurz není užitečný?
+b) Jestli-že neprší nebo si vezmu deštník, nezmoknu. Prší. Plyne z toho, že nezmoknu?
+c) Nebude pršet. Spadnu do potoka. Když spadnu do potoka, budu mokrý. Plyne z toho,
+že jestliže nebude pršet, budu mokrý?
+d) Jestli-že sním neznámé houby a není mi dobře, vyhledám lékaře. Plyne z toho, že
+jestliže sním neznámé houby a je mi dobře, nevyhledám lékaře?
+e) Není pravda, že Petr hraje fotbal i hokej. Petr nehraje fotbal. Plyne z toho, že Petr
+hraje hokej?
+f) Je doma nebo ve škole. Jestliže je doma, hraje počítačové hry. Plyne z toho, že jestliže
+nehraje počítačové hry, pak je ve škole?
+g) Jestliže jsem vzhůru, pracuji, ale jestliže spím, jsem v posteli. Buď jsem vzhůru nebo
+spím. Jestliže pracuji, pak nejsem v posteli, a jestliže spím, pak nepracuji. Plyne
+z toho, že jsem v posteli?
+2) Sestrojte pravdivostní tabulky následujících formulí a rozhodněte, zda jde o tautologii
+kontradikci, nebo splnitelnou formuli:
+a) (p  q)  p
+b) p  p
+c) (p  q)  (p  q)
+d) ((p  q)  r) (p  (q  r))
+e) (p  q)  (p  q)
+f) ((p  q)  (p  q))  q
+g) (p  (p  q))  q
+h) ((p  r)  (q  r))  (p  q)
+3) Pomocí pravdivostní tabulky rozhodněte, zda následující formule jsou tautologicky
+ekvivalentní:
+a) (p  (q  r) a (p  q )  r)
+b) (p  (q  r) a (p  q )  r)
+c) (p  (q  r) a (p  q )  r)
+d) (p  (q  r) a (p  q )  r)
+e) (p  q) a (p  q)  (p  q)
+f) (p  q) a ((p  q)  (p  q))

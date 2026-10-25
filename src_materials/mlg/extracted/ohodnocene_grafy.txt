@@ -1,0 +1,81 @@
+=== PAGE 1 ===
+Ohodnocen´e grafy
+Ohodnocen´e grafy
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+9. z´aˇr´ı 2025
+Jan Hora Ohodnocen´e grafy
+=== PAGE 2 ===
+Ohodnocen´e grafy
+Ohodnocen´e grafy
+Definice
+Ohodnocen´y graf G je ˇctveˇrice G = (V , E, p, c), kde (V , E, p) je graf a c : E → R
+(R+) je zobrazen´ı, kter´e kaˇzd´e hranˇe pˇriˇrazuje (kladn´e) re´aln´e ˇc´ıslo, naz´yvaj´ıc´ı se
+ohodnocen´ı dan´e hrany.
+Definice
+Minim´aln´ı kostra souvisl´eho ohodnocen´eho grafu G je takov´a kostra, ˇze souˇcet
+ohodnocen´ı jej´ıch hran je minim´aln´ı mezi vˇsemi kostrami grafu G.
+Jan Hora Ohodnocen´e grafy
+=== PAGE 3 ===
+Ohodnocen´e grafy
+Pˇr´ıklad na hled´an´ı minim´aln´ı kostry
+Pˇr´ıklad
+Naleznˇete minim´aln´ı kostru dan´eho grafu.
+9
+2
+a b c
+1
+6
+9
+4
+10
+e f
+d g
+7
+5
+3
+4
+9
+9
+6
+6
+h i j
+8 8
+Jan Hora Ohodnocen´e grafy
+=== PAGE 4 ===
+Ohodnocen´e grafy
+Ohodnocen´e grafy
+Definice
+D´elkou cesty rozum´ıme souˇcet ohodnocen´ı jej´ıch hran.
+Definice
+Vzd´alenost dvou vrchol˚u je d´elka nejkratˇs´ı cesty mezi tˇemito vrcholy.
+Definice
+Strom nejkratˇs´ıch cest z vrcholu v je takov´a kostra grafu G, ve kter´e je vzd´alenost
+vrcholu v od vˇsech ostatn´ıch vrchol˚u stejn´a jako v grafu G.
+Jan Hora Ohodnocen´e grafy
+=== PAGE 5 ===
+Ohodnocen´e grafy
+Pˇr´ıklad na Dijkstr˚uv algoritmus
+Pˇr´ıklad
+Pomoc´ı Dijkstrova algoritmu naleznˇete nejkratˇs´ı cestu z vrcholu s do vˇsech ostatn´ıch
+vrchol˚u. N´aslednˇe nakreslete pˇr´ısluˇsn´y strom minim´aln´ıch cest.
+3 4
+f g h
+1
+8
+10
+7
+11
+c d e
+2
+3
+8
+2
+3
+5
+6
+s a b
+2
+9
+Jan Hora Ohodnocen´e grafy

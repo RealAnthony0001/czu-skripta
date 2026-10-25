@@ -1,0 +1,205 @@
+=== PAGE 1 ===
+Maxim´aln´ı tok s´ıt´ı
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+3. listopadu 2014
+Jan Hora Maxim´aln´ı tok s´ıt´ı
+=== PAGE 2 ===
+Zad´an´ı
+Naleznˇete maxim´aln´ı tok s´ıt´ı, urˇcete jeho velikost a n´aslednˇe
+naleznˇete alespoˇn jeden minim´aln´ı ˇrez.
+B
+D
+2
+4
+2
+S
+T
+7
+4 2
+8
+3
+A
+C
+Jan Hora Maxim´aln´ı tok s´ıt´ı
+=== PAGE 3 ===
+Inicializace
+0
+S
+0
+4
+7
+0
+B
+D
+2
+0
+0
+4
+2
+3
+A
+C
+0
+Jan Hora Maxim´aln´ı tok s´ıt´ı
+2
+8
+0
+0
+T
+=== PAGE 4 ===
+Krok 1
+Cesta SBDT , minim´aln´ı v´aha 2.
+B
+2
+2
+0
+S
+7
+4
+0
+A
+Jan Hora 2
+D
+0
+0
+2
+3
+C
+0
+Maxim´aln´ı tok s´ıt´ı
+0
+8
+2
+0
+T
+=== PAGE 5 ===
+Krok 2
+Cesta SBCT , minim´aln´ı v´aha 2.
+B
+4
+0
+0
+S
+7
+2
+0
+A
+Jan Hora 2
+D
+0
+2
+2
+3
+C
+0
+Maxim´aln´ı tok s´ıt´ı
+0
+6
+2
+2
+T
+=== PAGE 6 ===
+Krok 3
+Cesta SACT , minim´aln´ı v´aha 3.
+2
+B
+D
+0
+4
+0
+0
+2
+S
+4
+2
+2
+3
+0
+A
+C
+3
+Jan Hora Maxim´aln´ı tok s´ıt´ı
+0
+3
+2
+5
+T
+=== PAGE 7 ===
+Krok 4
+Cesta SADBCT , minim´aln´ı v´aha 2.
+0
+B
+D
+2
+4
+0
+2
+4
+S
+2
+0
+0
+5
+0
+A
+C
+3
+Jan Hora Maxim´aln´ı tok s´ıt´ı
+0
+1
+2
+7
+T
+=== PAGE 8 ===
+Maxim´aln´ı tok
+Maxim´aln´ı tok s´ıt´ı t je d´an zpˇetn´ymi hranami:
+B
+D
+0
+4
+S
+5
+4 2
+3
+A
+C
+Velikost tohoto toku t je |t| = 9.
+Jan Hora Maxim´aln´ı tok s´ıt´ı
+2
+7
+T
+=== PAGE 9 ===
+Nevyuˇzit´a kapacita s´ıtˇe
+Nevyuˇzit´a kapacita s´ıtˇe je d´ana v´ysledn´ym ohodnocen´ım p˚uvodn´ıch
+hran:
+B
+D
+2
+0
+0
+S
+T
+2
+0 0
+1
+0
+A
+C
+Jan Hora Maxim´aln´ı tok s´ıt´ı
+=== PAGE 10 ===
+Nevyuˇzit´a kapacita s´ıtˇe
+Nevyuˇzit´a kapacita s´ıtˇe bez hran s nulov´ym ohodnocen´ım:
+B
+D
+2
+S
+T
+2
+1
+A
+C
+Existuj´ı dva minim´an´ı ˇrezy oddˇeluj´ıc´ı zdroj od spotˇrebiˇce, a to ˇrez
+dan´y mnoˇzinou {S, A} a druh´y dan´y mnoˇzinou {S, A, B, D}.
+Jan Hora Maxim´aln´ı tok s´ıt´ı

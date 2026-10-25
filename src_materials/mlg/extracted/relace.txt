@@ -1,0 +1,255 @@
+=== PAGE 1 ===
+Relace Zobrazen´ı
+Relace
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+6. srpna 2025
+Jan Hora Relace
+=== PAGE 2 ===
+Relace Zobrazen´ı
+Mnoˇziny mnoˇzin
+Pˇr´ıklad
+Barcelona= {Xavi, Messi, Iniesta, ... },
+Real= {Ronaldo, Adebayor, Casillas, ... },
+ˇ
+Chelsea= {Drogba, Lampard,
+Cech, ... },
+Sparta= {ˇ
+Repka, Matˇejovsk´y, Blaˇzek, ...}.
+SLM2013 = {Barcelona, Real, Chelsea, Sparta}=
+= {{Xavi, Messi, Iniesta, ... }, {Ronaldo, Adebayor, Casillas ... },
+ˇ
+{Drogba, Lampard,
+Cech, ... }, {ˇ
+Repka, Matˇejovsk´y, Blaˇzek, ...}}.
+Jan Hora Relace
+=== PAGE 3 ===
+Relace Zobrazen´ı
+Kart´ezsk´y souˇcin
+Definice
+Dvouprvkovou mnoˇzinu {{x}, {x, y}}naz´yv´ame uspoˇr´adanou
+dvojic´ı prvk˚u x a y. Znaˇc´ıme ji (x, y).
+Definice
+Kart´ezsk´y souˇcin mnoˇzin A a B je mnoˇzina vˇsech uspoˇr´adan´ych
+dvojic takov´ych, ˇze na prvn´ım m´ıstˇe je prvek mnoˇziny A a na
+druh´em prvek mnoˇziny B
+A ×B= {(a, b)|a ∈A, b ∈B}.
+Definice
+Bin´arn´ı relace na mnoˇzin´ach A a B je jak´akoli podmnoˇzina R
+kart´ezsk´eho souˇcinu A ×B. Pokud je A= B, hovoˇr´ıme o bin´arn´ı
+relaci na mnoˇzinˇe A. M´ısto (a, b) ∈R p´ıˇseme nˇekdy aRb.
+Jan Hora Relace
+=== PAGE 4 ===
+Relace Zobrazen´ı
+Relace jsou vztahy
+Pˇr´ıklad
+Mnoˇzina K vˇsech klient˚u banky, mnoˇzina U vˇsech bˇeˇzn´ych ´uˇct˚u.
+Relace D na mnoˇzin´ach K a U je definov´ana pˇredpisem
+kDu ⇔ k je disponent u.
+Pˇr´ıklad
+A= {1, 2, 3, 4}
+1. xRy ⇔x ≤y
+R= {(1, 1), (1, 2), (1, 3), (1, 4), (2, 2),
+(2, 3), (2, 4), (3, 3), (3, 4), (4, 4)}
+2. xSy ⇔x = y2 ⇒S= {(1, 1), (4, 2)}
+Jan Hora Relace
+=== PAGE 5 ===
+Relace Zobrazen´ı
+Vlastnosti relac´ı
+Definice
+Bud’ R relace na mnoˇzinˇe A. Pak R se naz´yv´a
+reflexivn´ı, pokud (x, x) ∈R, ∀x ∈A,
+symetrick´a, pokud (x, y) ∈R ⇔(y, x) ∈R,
+antisymetrick´a, pokud ((x, y) ∈R ∧(y, x) ∈R) ⇒x = y,
+tranzitivn´ı, pokud ((x, y) ∈R ∧(y, z) ∈R) ⇒(x, z) ∈R,
+ekvivalence, pokud je reflexivn´ı, symetrick´a a tranzitivn´ı,
+uspoˇr´ad´an´ı, pokud je reflexivn´ı, antisymetrick´a a tranzitivn´ı.
+Jan Hora Relace
+=== PAGE 6 ===
+Relace Zobrazen´ı
+Pˇr´ıklady
+Pˇr´ıklad
+Urˇcete, kter´e z uveden´ych vlastnost´ı maj´ı n´asleduj´ıc´ı relace
+1. na mnoˇzinˇe A= {1, 2, 3, 4}relace dan´a pˇredpisem
+xRy ⇔x = y2 ⇒R= {(1, 1), (4, 2)}
+2. na mnoˇzinˇe P= {−2,−1, 0, 1, 2}relace dan´a pˇredpisem
+xSy ⇔x2 = y2 ⇒
+S= {(−2,−2), (−1,−1), (0, 0), (1, 1), (2, 2),
+(1,−1), (−1, 1), (−2, 2), (2,−2)}
+Jan Hora Relace
+=== PAGE 7 ===
+Relace Zobrazen´ı
+Doplnˇen´ı na ekvivalenci
+Pˇr´ıklad
+Doplˇnte relaci R na mnoˇzinˇe A nejmenˇs´ım poˇctem dvojic tak, aby
+v´ysledn´a relace byla ekvivalence
+A= {Dana, Karel, Petra, Hana, Radim, Vladim´ır},
+R= {(K, R), (D, H), (H, H), (K, P)}.
+Definice
+Ekvivalence rozdˇel´ı nosnou mnoˇzinu na disjunktn´ı ˇc´asti, naz´yvaj´ı se
+tˇr´ıdy ekvivalence.
+Jan Hora Relace
+=== PAGE 8 ===
+Relace Zobrazen´ı
+Doplnˇen´ı na uspoˇr´ad´an´ı
+Pˇr´ıklad
+Doplˇnte relaci S na mnoˇzinˇe B nejmenˇs´ım poˇctem dvojic tak, aby
+v´ysledn´a relace byla uspoˇr´ad´an´ı
+B= {Seged´ın, Rajsk´a, Jahodov´e knedl´ıky,
+ˇ
+Siˇsky s m´akem,
+ˇ
+Hrachov´a kaˇse,
+R´ızek s bramborov´ym sal´atem},
+S= {(HK, SM), (HK, S), (R, R), (R, RBS), (SM, JK),
+(S, R), (HK, R), (SM, R)}.
+Jan Hora Relace
+=== PAGE 9 ===
+Relace Zobrazen´ı
+Jak zobrazit uspoˇr´ad´an´ı
+Pseudodefinice
+Hasseho diagram zobrazuje uspoˇr´ad´an´ı zp˚usobem, kdy jsou
+”menˇs´ı“ prvky n´ıˇze neˇz prvky ”vˇetˇs´ı“ a spojnice mezi dvˇema prvky
+je pr´avˇe tehdy, kdyˇz
+(a b) ∧¬(∃c)((a ̸= c ̸= b) ∧(a c b)).
+Jan Hora Relace
+=== PAGE 10 ===
+Relace Zobrazen´ı
+Pˇr´ıklady
+Pˇr´ıklad
+Urˇcete, kter´e z uveden´ych vlastnost´ı maj´ı n´asleduj´ıc´ı relace na
+mnoˇzinˇe Z cel´ych ˇc´ısel,
+1. aRb ⇔a|b,
+2. aSb ⇔(a|b ∧b|a).
+Jan Hora Relace
+=== PAGE 11 ===
+Relace Zobrazen´ı
+Zobrazen´ı
+Definice
+Relace F na mnoˇzin´ach A a B se naz´yv´a zobrazen´ı z A do B
+(znaˇc´ıme F : A →B), pokud plat´ı
+((x, y) ∈F ∧(x, z) ∈F ) ⇒y= z.
+Obraz prvku x se oznaˇcuje F (x). Podmnoˇzina mnoˇziny A, pro jej´ıˇz
+prvky x existuje obraz F (x), se naz´yv´a definiˇcn´ı obor F a znaˇc´ı se
+D(F ).
+Definice
+Zobrazen´ı F : A →B se naz´yv´a zobrazen´ı A do B (bez toho “z”),
+pokud D(F ) = A.
+Jan Hora Relace
+=== PAGE 12 ===
+Relace Zobrazen´ı
+Pˇr´ıklady
+Pˇr´ıklad
+Urˇcete, zda relace D b´yti disponent na mnoˇzin´ach vˇsech klient˚u K
+banky a mnoˇzinˇe bˇeˇzn´ych ´uˇct˚u U je zobrazen´ı.
+Pˇr´ıklad
+zobrazen´ı
+1. {(x, y)|2y= x},
+2. {(x, y)|x dˇel´ı y}.
+Urˇcete, zda jsou n´asleduj´ıc´ı relace na mnoˇzinˇe cel´ych ˇc´ısel Z
+Jan Hora Relace
+=== PAGE 13 ===
+Relace Zobrazen´ı
+Pˇr´ıklady
+Pˇr´ıklad
+zobrazen´ı
+1. {(x, y)|y= x2},
+2. {(x, y)|x = y2}.
+3. {(x, y)|x2 + y2 = 1}.
+Urˇcete, zda jsou n´asleduj´ıc´ı relace na mnoˇzinˇe re´aln´ych ˇc´ısel R
+Definice
+Zobrazen´ı mnoˇziny A do mnoˇziny R re´aln´ych ˇc´ısel se naz´yv´a
+(re´aln´a) funkce na mnoˇzinˇe A.
+Jan Hora Relace
+=== PAGE 14 ===
+Relace Zobrazen´ı
+Vlastnosti zobrazen´ı
+Definice
+Zobrazen´ı F : A →B se naz´yv´a prost´e (injektivn´ı), pokud plat´ı
+(F (x) = z ∧F (y) = z) ⇒x = y.
+Definice
+Zobrazen´ı F : A →B zobrazuje mnoˇzinu A na mnoˇzinu B (F je
+surjektivn´ı), pokud plat´ı
+(∀y ∈B)(∃x ∈A)(F (x) = y).
+Definice
+Zobrazen´ı F mnoˇziny A do mnoˇziny B se naz´yv´a vz´ajemnˇe
+jednoznaˇcn´e (bijektivn´ı, bijekce), pokud je D(F ) = A, F je prost´e
+a zobrazuje mnoˇzinu A na mnoˇzinu B (injektivn´ı a surjektivn´ı).
+Jan Hora Relace
+=== PAGE 15 ===
+Relace Zobrazen´ı
+Pˇr´ıklady
+Pˇr´ıklad
+ˇ
+Urˇcete, zda zobrazen´ı, kter´e kaˇzd´emu obˇcanu
+Cesk´e republiky
+pˇriˇrazuje ˇc´ıslo jeho obˇcansk´eho pr˚ukazu je injektivn´ı, surjektivn´ı a
+bijektivn´ı.
+Pˇr´ıklad
+Urˇcete, zda jsou n´asleduj´ıc´ı zobrazen´ı z mnoˇziny R do mnoˇziny R
+injektivn´ı, surjektivn´ı a bijektivn´ı
+1. {(x, y)|y= x2},
+2. {(x, y)|y= x3},
+3. {(x, y)|y = log x}.
+Jan Hora Relace
+=== PAGE 16 ===
+Relace Zobrazen´ı
+Inverzn´ı relace
+Definice
+Bud’ R relace na mnoˇzin´ach A a B. Pak relace R−1 definovan´a
+xR−1y ⇔yRx se naz´yv´a relace inverzn´ı k R.
+Pozorov´an´ı
+prost´e.
+Inverzn´ı relace k zobrazen´ı F je opˇet zobrazen´ı pr´avˇe tehdy, je-li F
+Pˇr´ıklad
+Urˇcete, zda inverzn´ı relace k dan´e funkci je funkce, a pokud ano,
+naleznˇete jej´ı pˇredpis, definiˇcn´ı obor a obor hodnot
+1. y=
+x
+x+2
+2. y= x2
+3. y = 3 + 5·10x−2
+Jan Hora Relace
+=== PAGE 17 ===
+Relace Zobrazen´ı
+Mohutnost mnoˇzin
+Definice
+ˇ
+R´ık´ame, ˇze mnoˇzina A m´a menˇs´ı mohutnost neˇz mnoˇzina B,
+pokud existuje injektivn´ı zobrazen´ı mnoˇziny A do mnoˇziny B.
+P´ıˇseme |A|≤|B |.
+Definice
+ˇ
+R´ık´ame, ˇze mnoˇzina A m´a stejnou mohutnost jako mnoˇzina B,
+pokud existuje bijektivn´ı zobrazen´ı mnoˇziny A na mnoˇziny B.
+P´ıˇseme |A|=|B |.
+Pˇr´ıklad
+Mohutnost´ı koneˇcn´e mnoˇziny rozum´ıme poˇcet jej´ıch prvk˚u.
+Jan Hora Relace
+=== PAGE 18 ===
+Relace Zobrazen´ı
+Spoˇcetn´e mnoˇziny
+Definice
+Mnoˇzina A se naz´yv´a spoˇcetn´a, pokud je koneˇcn´a nebo existuje
+bijektivn´ı zobrazen´ı f : N →A.
+Pozn´amka
+Nekoneˇcn´e spoˇcetn´e mnoˇziny jsou v tomto smyslu nejmenˇs´ı
+nekoneˇcn´e mnoˇziny.
+Pozn´amka
+Spoˇcetn´e mnoˇziny lze uspoˇr´adat do (koneˇcn´e ˇci nekoneˇcn´e)
+posloupnosti. Kromˇe mnoˇziny pˇrirozen´ych ˇc´ısel N jsou spoˇcetn´e i
+mnoˇziny Z a Q, tedy
+|N|=|Z|=|Q|.
+Jan Hora Relace
+=== PAGE 19 ===
+Relace Zobrazen´ı
+Spoˇcetn´e a nespoˇcetn´e mnoˇziny
+Vˇeta
+Pro kaˇzdou mnoˇzinu A plat´ı |A|<|P(A)|.
+Vˇeta
+Plat´ı |R|=|P(N)|.
+D˚usledek
+Mnoˇzina re´aln´ych ˇc´ısel je nespoˇcetn´a, re´aln´a ˇc´ısla tedy nelze
+uspoˇr´adat do posloupnosti.
+Jan Hora Relace

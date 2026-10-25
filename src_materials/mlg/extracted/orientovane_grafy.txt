@@ -1,0 +1,158 @@
+=== PAGE 1 ===
+Orientovan´e grafy
+Orientovan´e grafy
+Jan Hora
+ˇ
+Cesk´a zemˇedˇelsk´a univerzita
+9. z´aˇr´ı 2025
+Jan Hora Orientovan´e grafy
+=== PAGE 2 ===
+Orientovan´e grafy
+Orientovan´e grafy
+Definice
+Orientovan´y graf G je trojice G = (V , E, p), kde V je nepr´azdn´a (koneˇcn´a) mnoˇzina
+vrchol˚u, E je (koneˇcn´a) mnoˇzina hran a p je zobrazen´ı, kter´e kaˇzd´e hranˇe pˇriˇrazuje
+uspoˇr´adanou dvojici vrchol˚u, ˇcili p : E →{(a, b)|a, b ∈V }. Vrchol a naz´yv´ame
+poˇc´ateˇcn´ı vrchol hrany, b koncov´y.
+Jan Hora Orientovan´e grafy
+=== PAGE 3 ===
+Orientovan´e grafy
+Diagram orientovan´eho grafu
+Pˇr´ıklad
+G = (V , E, p),
+V= {a, b, c, d, e},
+E= {e1, e2, e3, e4, e5, e6},
+p(e1) = (a, b), p(e2) = (c, c), p(e3) = (e, d),
+p(e4) = (b, c), p(e5) = (b, d), p(e6) = (d, e).
+Jan Hora Orientovan´e grafy
+=== PAGE 4 ===
+Orientovan´e grafy
+I orientovan´e grafy jsou relace
+V pˇr´ıpadˇe, ˇze neuvaˇzujeme v´ıcen´asobn´e hrany:
+Alternativn´ı definice
+Orientovan´y graf je relace E na nepr´azdn´e mnoˇzinˇe V.
+V pˇr´ıpadˇe, ˇze neuvaˇzujeme v´ıcen´asobn´e hrany a smyˇcky:
+Alternativn´ı definice
+Neorientovan´y graf je antireflexivn´ı relace E na nepr´azdn´e mnoˇzinˇe V.
+V dalˇs´ım budeme pˇredpokl´adat grafy bez smyˇcek a v´ıcen´asobn´ych hran.
+Jan Hora Orientovan´e grafy
+=== PAGE 5 ===
+Orientovan´e grafy
+Analogie s neorientovan´ymi grafy
+Definice
+Grafy G1 = (V1, E1, p1) a G2 = (V2, E2, p2) (bez v´ıcen´asobn´ych hran) se naz´yvaj´ı
+izomorfn´ı, pokud existuje vz´ajemnˇe jednoznaˇcn´e zobrazen´ı I : V1 →V2 splˇnuj´ıc´ı
+(a, b) ∈p(E1) ⇔(I (a), I (b)) ∈p(E2).
+Znaˇcen´ı
+Poˇcet hran, kter´e zaˇc´ınaj´ı ve vrcholu a, znaˇc´ıme deg+(a) a poˇcet hran, kter´e v a konˇc´ı,
+deg−(a). Stupeˇn vrcholu zapisujeme jako uspoˇr´adanou dvojici (deg+(a), deg−(a)).
+Jan Hora Orientovan´e grafy
+=== PAGE 6 ===
+Orientovan´e grafy
+Proch´azky v orientovan´em grafu
+Definice
+Posloupnost vrchol˚u a hran (v0, e1, v1, e2, . . . , en, vn) orientovan´eho grafu se naz´yv´a
+sled, pokud p(ei ) = (vi−1, vi ) pro kaˇzd´e i ∈{1, . . . , n}. D´elkou tohoto sledu rozum´ıme
+ˇc´ıslo n.
+Definice
+Sled, ve kter´em se neopakuj´ı hrany, naz´yv´ame tah. V pˇr´ıpadˇe, ˇze v0 = vn, naz´yv´ame
+tento tah uzavˇren´y, v opaˇcn´em pˇr´ıpadˇe otevˇren´y.
+Definice
+Sled, ve kter´em se neopakuj´ı vrcholy (s moˇznou v´yjimkou prvn´ıho a posledn´ıho),
+naz´yv´ame (orientovan´a) cesta. Uzavˇren´a cesta se naz´yv´a kruˇznice.
+Jan Hora Orientovan´e grafy
+=== PAGE 7 ===
+Orientovan´e grafy
+Souvislost´ı je v´ıce
+Definice
+Orientovan´y graf se naz´yv´a silnˇe souvisl´y, pokud z kaˇzd´eho vrcholu vede orientovan´a
+cesta do vˇsech ostatn´ıch vrchol˚u.
+Definice
+Orientovan´y graf se naz´yv´a slabˇe souvisl´y, pokud je souvisl´y jakoˇzto neorientovan´y graf.
+Jan Hora Orientovan´e grafy
+=== PAGE 8 ===
+Orientovan´e grafy
+Orientovan´y domeˇcek s kˇr´ıˇzem
+Definice
+Orientovan´y graf se naz´yv´a Eulerovsk´y, pokud v nˇem existuje (uzavˇren´y ˇci otevˇren´y)
+tah, kter´y obsahuje kaˇzdou hranu pr´avˇe jednou. Naz´yv´a se (uzavˇren´y ˇci otevˇren´y)
+Eulerovsk´y tah.
+Pozn´amka
+Eulerovsk´y orientovan´y graf bez vrchol˚u stupnˇe (0, 0) mus´ı b´yt slabˇe souvisl´y.
+Jan Hora Orientovan´e grafy
+=== PAGE 9 ===
+Orientovan´e grafy
+Probl´em popel´aˇre s jednosmˇerkami
+Vˇeta
+Slabˇe souvisl´y orientovan´y graf obsahuje uzavˇren´y Eulerovsk´y tah pr´avˇe tehdy, kdyˇz pro
+kaˇzd´y vrchol plat´ı deg−(a) = deg+(a). Pak kaˇzd´y Eulerovsk´y tah konˇc´ı ve stejn´em
+vrcholu jako zaˇc´ın´a.
+Vˇeta
+Slabˇe souvisl´y orientovan´y graf obsahuje otevˇren´y Eulerovsk´y tah pr´avˇe tehdy, kdyˇz
+1. existuje v nˇem pr´avˇe jeden vrchol z splˇnuj´ıc´ı deg+(z) = deg−(z) + 1,
+2. existuje v nˇem pr´avˇe jeden vrchol k splˇnuj´ıc´ı deg+(k) = deg−(k)−1,
+3. pro vˇsechny vrcholy kromˇe z a k plat´ı deg+(a) = deg−(a).
+Pak kaˇzd´y Eurovsk´y tah zaˇc´ın´a ve vrcholu z a konˇc´ı ve vrcholu k.
+Jan Hora Orientovan´e grafy
+=== PAGE 10 ===
+Orientovan´e grafy
+Stromy s koˇreny
+Definice
+Bud’ G orientovan´y graf. Vrchol v se naz´yv´a koˇren, pokud z nˇej vede orientovan´a cesta
+do vˇsech ostatn´ıch vrchol˚u.
+Definice
+Orientovan´y graf G = (V , E, p) se naz´yv´a koˇrenov´y strom, pokud existuje vrchol
+v ∈V splˇnuj´ıc´ı
+1. v je koˇren,
+2. ve vrcholu v nekonˇc´ı ˇz´adn´a hrana (deg−(v) = 0),
+3. do kaˇzd´eho vrcholu a ̸= v vede z v pr´avˇe jedna orientovan´a cesta.
+Jan Hora Orientovan´e grafy
+=== PAGE 11 ===
+Orientovan´e grafy
+Je jen jeden koˇren
+Vˇeta
+Bud’ G koˇrenov´y strom. Pak
+1. Obsahuje pr´avˇe jeden koˇren.
+2. Pokud tento graf ch´apeme jako neorientovan´y (nahrad´ıme orientovan´e hrany
+neorientovan´ymi), jedn´a se o strom.
+3. V kaˇzd´em vrcholu kromˇe koˇrene konˇc´ı pr´avˇe jedna hrana.
+Jan Hora Orientovan´e grafy
+=== PAGE 12 ===
+Orientovan´e grafy
+Pˇredkov´e a potomci
+Definice
+Bud’ (a, b) hrana v koˇrenov´em stromu G. Pak vrchol a se naz´yv´a otec (pˇredch˚udce)
+vrcholu b, naopak b se naz´yv´a syn (n´asledn´ık) vrcholu a. Vrcholy, ze kter´ych nevede
+ˇz´adn´a hrana se naz´yvaj´ı listy.
+Definice
+Podstromem koˇrenov´eho stromu G urˇcen´ym vrcholem v je podgraf grafu G tvoˇren´y
+vrcholy, do kter´ych vede z v orientovan´a cesta, a pˇr´ısluˇsn´ymi hranami.
+Jan Hora Orientovan´e grafy
+=== PAGE 13 ===
+Orientovan´e grafy
+Bin´arn´ı stromy a proch´azen´ı do hloubky
+Definice
+Bin´arn´ı koˇrenov´y strom je koˇrenov´y strom, jehoˇz kaˇzd´y vrchol m´a pr´avˇe dva n´asledn´ıky.
+Hovoˇr´ıme o lev´em a prav´em n´asledn´ıku (je urˇceno, kter´y je kter´y).
+Znaˇcen´ı
+Podstrom urˇcen´y lev´ym n´asledn´ıkem vrcholu v znaˇc´ıme L(x), prav´ym R(x).
+Definice
+Pˇri proch´azen´ı bin´arn´ıho stromu do hloubky (pokud lze, postupujeme vˇzdy nejdˇr´ıve
+vlevo) rozliˇsujeme tˇri zp˚usoby z´apisu (prov´adˇen´ı akc´ı):
+1. L(x)xR(x) – inorder,
+2. xL(x)R(x) – preorder,
+3. L(x)R(x)x – postorder.
+Jan Hora Orientovan´e grafy
+=== PAGE 14 ===
+Orientovan´e grafy
+Notace algebraick´ych v´yraz˚u
+Definice
+V pˇr´ıpadˇe, ˇze dan´y strom reprezentuje aritmetick´y (nebo jin´y) v´yraz, hovoˇr´ıme o
+pˇr´ısluˇsn´e notaci:
+1. L(x)xR(x) – infixov´a notace (inorder),
+2. xL(x)R(x) – prefixov´a notace (preorder),
+3. L(x)R(x)x – postfixov´a notace (postorder).
+Pozn´amka
+Prefixov´a a postfixov´a notace aritmetick´ych v´yraz˚u jsou jednoznaˇcn´e i bez pouˇzit´ı
+z´avorek, v pˇr´ıpadˇe infixov´e notace jsou z´avorky nutn´e.
+Jan Hora Orientovan´e grafy

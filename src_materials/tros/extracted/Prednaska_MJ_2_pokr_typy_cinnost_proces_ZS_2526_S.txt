@@ -1,0 +1,355 @@
+=== PAGE 1 ===
+Univerzita plná života
+pef.czu.cz 16/10/25
+TEORIE ŘÍZENÍ ORGANIZAČNÍHO SYSTÉMU
+ZÁKLADY ŘÍZENÍ
+Monika Jadrná
+Katedra managementu a marketingu
+=== PAGE 2 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+2
+Řízení lze chápat jako…
+Řízení jako činnost a proces
+▪ Činnost řídících pracovníků (realizace řídícího procesu)
+▪ Řídící proces (fáze procesu řízení a stádia cyklu řízení)
+▪ Řízení jako informační působení
+Podle složitosti informací:
+▪Ovládání ▪Regulace▪Řízení
+=== PAGE 3 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+3
+OVLÁDÁNÍ – nejjednodušší typ informačního působení
+Typy informačního působení
+￼
+Ovládající systém
+subjekt
+￼
+￼
+￼
+Vstupní informace
+Ovládací příkazy (působení)
+Ovládaný systém
+objekt
+￼
+Provedení - realizace příkazu
+￼
+Program subjektu,
+jak zajistit cílové chování
+vlastní zpětná vazba
+Cílové chování
+=== PAGE 4 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+4
+OVLÁDÁNÍ
+Typy informačního působení
+Příklad: Vojsko
+￼
+Ovládající systém (SŘ)
+Velitel
+￼
+￼
+￼
+Ovládaný systémČeta vojáků
+￼
+Tichý ústup
+￼
+Vyhodnocení síly nepřítele
+Srovnání s vlastní silou
+Rozhodnutí – potichu ustoupit
+Cílové chování
+Ovládací příkazy
+(působení)
+Potichu ustoupit
+Vstupní informace
+=== PAGE 5 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+5
+ŘÍZENÍ
+Typy informačního působení
+Zpětná vazba – kontrola
+￼
+Subjekt řízeníSŘ
+￼
+￼
+￼
+Vstupní informace
+Řídící příkazyŘídící působení
+Objekt řízeníOŘ
+￼
+Provedení - realizace řídícího příkazu
+￼
+Program SŘ, jak zajistit cílové chování
+→ Výsledek programu
+￼
+Program OŘ, jak zajistit řídící příkazy
+￼
+￼
+￼
+KONTROLA
+• realizace programu
+• cílového chování
+• zjištění odchylek
+informace o splnění příkazu
+pro subjekt řízení
+přímá zpětná vazba
+vlastní zpětná vazba SŘ
+vlastní zpětná vazba OŘ
+Výsledné chování
+Cílové chování
+=== PAGE 6 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+6
+Typy informačního působení
+￼
+Subjekt řízeníSŘ
+￼
+￼
+￼
+Vstupní informace
+Řídící příkazyŘídící působení
+Objekt řízeníOŘ
+￼
+￼
+Program SŘ, jak zajistit cílové chování
+→ Výsledek programu
+￼
+Program OŘ, jak zajistit řídící příkazy
+￼
+￼
+Kontrola
+Zjištění stavu
+Fungování realizace
+Nová produkce → tržní uplatnění
+Možnosti podniku – zdroje
+• finanční
+• personální
+• odborné (umíme to?)
+• kapacitní (prostor, čas)
+• termíny
+• Vlastní program jak splnit zadané úkoly
+• Promyslet ,co kdo bude dělat
+• Jak to budeme dělat
+• Zabezpečit prostředky
+• Zabezpečit a vyškolit lidi
+• Termíny
+Výsledné chování
+Cílové chování
+• o trhu
+• o konkurenci
+• o možné spolupráci Podnikatelský nápad – nový produkt
+￼
+￼
+￼
+Posouzení možností
+Rozhodnutí o realizaci
+Plán → zadání úkolů
+Zabezpečení
+podmínek
+realizace
+Realizace nového produktu → navazuje obchodní činnost
+Informace o skutečném
+stavu , průběhu, uplatnění
+￼
+Řízení jako informační působení
+Zavedení nového produktu
+=== PAGE 7 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+7
+REGULACE
+Typy informačního působení
+Vložení regulačního systému
+￼
+Subjekt řízeníSŘ
+￼
+￼
+￼
+Vstupní informace
+Řídící příkazy
+Řízený systémOŘ
+￼
+Výsledné chování
+Cílové chování
+￼
+￼
+￼
+￼
+Program jak zajistit cílové chování
+Kontrola
+cílového
+chování
+￼
+Regulační systém
+regulátor
+￼
+Kontrola správnosti nastavení
+požadovaných stavů
+￼
+Kalibrace
+=== PAGE 8 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+8
+REGULACE
+Typy informačního působení
+Příklad: Líheň kuřat
+￼
+Subjekt řízení (SŘ)
+Vedoucí líhně
+￼
+￼
+￼
+Vstupní informace – požadovaný počet kuřat
+Řídící příkazy
+Řízené systémy (OŘ)
+• tepelný agregát
+• zdroj světla
+• pás s krmivem
+• ventilátory
+￼
+￼
+￼
+Program jak zajistit cílové chování OS
+• stanovení intervalu požadované teploty
+• stanovení intervalů světlo a tma
+• stanovení času krmení
+Kontrola
+výsledného
+chování
+(namátková
+kontrola)
+￼
+Regulační systémy
+• termostat – měření a vyrovnávání teploty
+• zapínaní a vypínání světla
+• režim krmení
+• ventilace
+￼
+Kontrola správnosti
+nastavení požadovaných stavů
+• teplota
+• světlo
+• vzduch
+• krmení
+￼
+Kalibrace
+Výsledné chování
+Požadovaný režim líhně
+=== PAGE 9 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+9
+REGULACE
+Typy informačního působení
+Regulace je spjatá především s technickou stránkou produkce:
+▪ technologické linky
+▪ automatizované postupy
+▪ zastavení technologické linky při poruše
+▪ brzdění rychlovýtahů a další
+Při vedení lidí můžeme zástupce vedoucího pro určitou činnost chápat jako regulátora,
+který zvyšuje spolehlivost systému.
+=== PAGE 10 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+10
+Řízení lze chápat jako…
+Řízení jako činnost a proces
+▪ Činnost řídících pracovníků (realizace řídícího procesu)
+▪ Řídící proces (fáze procesu řízení a stádia cyklu řízení)
+▪ Řízení jako informační působení
+Podle složitosti informací:
+▪ Ovládání
+▪ Řízení
+▪ Regulace
+=== PAGE 11 ===
+Univerzita plná života
+pef.czu.cz 16/10/25
+￼
+Řízení jako činnost
+=== PAGE 12 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+12
+Řízení jako činnost
+Řízení jako činnost zahrnuje:
+▪ Stanovení cílů – současný a budoucí stav podniku
+▪ Vedení lidí – realizuje vedoucí pracovník společně s podřízenými
+▪ Vytváření organizačního systému – z množiny prvků: lidí, věcí, prostředků,
+informací, zájmů, činností....
+▪ Získávání informací – vedoucí pracovník potřebuje k rozhodování informace
+▪ Udržování kondice – dobrý zdravotní stav a duševní připravenost
+▪ Faktor času – čas je omezující faktor
+=== PAGE 13 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+13
+Řízení jako činnost
+Řídící pracovník musí zabezpečit
+chod podniku:
+Uvedené body představují výsledky
+činnosti řídících pracovníků
+Řídící pracovník vystupuje jako SŘ i jako OŘ
+(v závislosti na stupni řízení)
+▪ musí zabezpečit transformaci vstupů na výstupy (zboží,
+služby)▪ vlastní fungování podniku
+▪ hospodářský výsledek (zisk)
+▪ rozvoj podniku
+▪ dividendy majitelům
+▪ produkty musí plnit očekávání zákazníků → produkce
+▪ cena x kvalita → produkce x obchod
+▪ produkty snadno dostupné → obchod (internet x výdejní místa)
+▪ produkty musí být nabízeny vhodným způsobem
+▪ produkty musí vejít ve známost
+▪ musí být zajištěna následná péče
+▪ servis produktů (reklamace), následná péče
+▪ školení uživatelů
+￼
+=== PAGE 14 ===
+Česká zemědělská univerzita v Praze
+pef.czu.cz
+Provozně ekonomická fakulta
+14
+Činnosti zabezpečující předcházející body:
+Řízení jako činnost a proces
+▪ určit cíle a strategii podniku (strategické řízení)
+▪ zabezpečit vlastní výrobu produktů (množství, kvalita, termín)
+▪ prodej a servis produktů (stanovit správnou obchodní strategii, tedy marketing a obchod,
+stanovit cenu produktu, formu prodeje, vytvoření obchodní sítě…
+Dále je třeba získat kvalitní zaměstnance:
+▪ řídící pracovníky (získat a zvyšovat jejich kompetence)
+▪ obchodníky (získat a zvyšovat jejich výkonnost)
+▪ specialisty (získat a zvyšovat jejich odbornost)
+▪ výkonné pracovníky (získat a zvyšovat jejich kvalifikaci)
+Řízení v tomto pojetí lze chápat jako cílově usměrňovanou činnost, respektive koordinaci celé řady činností
+PROCES ŘÍZENÍ
+￼
+=== PAGE 15 ===
+pef.czu.cz
+Česká zemědělská univerzita v Praze Provozně ekonomická fakulta
+15
+Zdroje
+▪ HRON, J. TRAXLER, A. 2017. Teorie řízení organizačních systémů. V Praze:
+Česká zemědělská univerzita, Provozně ekonomická fakulta. ISBN 978-80-
+213-2768-9.
+▪ KŘÍŽ, J. Základy řízení. Praha: ČZU v Praze, 2019, skriptum
+▪ TRAXLER, A. DVOŘÁK, M., JADRNÁ, M. et al. 2019. Influence of Control
+Subsystem on Production-Technical Area of Organizational System.
+Agrarian Perspectives XXVIII. International Scientific Conference
+=== PAGE 16 ===
+Děkuji za pozornost.

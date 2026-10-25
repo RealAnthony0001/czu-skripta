@@ -1,0 +1,421 @@
+=== PAGE 1 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 2 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 3 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 4 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 5 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 6 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 7 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 8 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 9 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 10 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 11 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C )∨(A′ ∧B ∧C ′)∨(A′ ∧B ∧C )∨(A∧B′ ∧C )∨(A∧B ∧C )
+v disjunktivn´ım tvaru.
+-1 -1 1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 1 1 x 1,3 -1 ∗1 x 1,4 ∗-1 1 x 2,3 -1 1 ∗
+3,5 ∗ 1 1 x
+4,5 1 ∗1 x
+1,5 ∗∗1
+2,4 ∗∗1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 12 ===
+Quin-McCluskeyho algoritmus
+-1 1 ∗ ∗∗1
+-1 -1 1
+-1 1 -1
+-1 1 1
+1 -1 1
+1 1 1
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy (A′ ∧B) ∨C.
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 13 ===
+Quin-McCluskeyho algoritmus
+-1 1 ∗ ∗∗1
+-1 -1 1 ×
+-1 1 -1 ×
+-1 1 1 × ×
+1 -1 1 ×
+1 1 1 ×
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy (A′ ∧B) ∨C.
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 14 ===
+Quin-McCluskeyho algoritmus
+-1 1 ∗ ∗∗1
+-1 -1 1 ⊗
+-1 1 -1 ⊗
+-1 1 1 ⊗ ⊗
+1 -1 1 ⊗
+1 1 1 ⊗
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy (A′ ∧B) ∨C.
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 15 ===
+Quin-McCluskeyho algoritmus
+-1 1 ∗ ∗∗1
+-1 -1 1 ⊗
+-1 1 -1 ⊗
+-1 1 1 ⊗ ⊗
+1 -1 1 ⊗
+1 1 1 ⊗
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy (A′ ∧B) ∨C.
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 16 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 17 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 18 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 19 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 20 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 21 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 22 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 23 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 24 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 25 ===
+Quin-McCluskeyho algoritmus
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A′ ∧B′ ∧C ′) ∨(A ∧B′ ∧C ′) ∨(A′ ∧B ∧C ′) ∨(A′ ∧B ∧C )∨
+∨(A ∧B′ ∧C ) ∨(A ∧B′ ∧C ′) ∨(A ∧B ∧C ) v disjunktivn´ım tvaru.
+-1 -1 -1 x 1 -1 -1 x -1 1 -1 x -1 1 1 x 1 -1 1 x 1 -1 -1 1 1 1 x
+1,2 ∗-1 -1
+1,3 -1 ∗-1
+2,5 1 -1 ∗
+3,4 -1 1 ∗
+4,7 ∗ 1 1
+5,7 1 ∗ 1
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 26 ===
+Quin-McCluskeyho algoritmus
+∗-1 -1 -1 ∗-1 1 -1 ∗ -1 1 ∗ ∗1 1 1 ∗1
+-1 -1 -1
+1 -1 -1
+-1 1 -1
+-1 1 1
+1 -1 1
+1 1 1
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy
+bud’ (B′ ∧C ′) ∨(A′ ∧B) ∨(A ∧C )
+nebo (A′ ∧C ′) ∨(A ∧B′) ∨(B ∧C ).
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 27 ===
+Quin-McCluskeyho algoritmus
+∗-1 -1 -1 ∗-1 1 -1 ∗ -1 1 ∗ ∗1 1 1 ∗1
+-1 -1 -1 1 -1 -1 -1 1 -1 -1 1 1 1 -1 1 1 1 1 × ×
+× ×
+× ×
+× ×
+× ×
+× ×
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy
+bud’ (B′ ∧C ′) ∨(A′ ∧B) ∨(A ∧C )
+nebo (A′ ∧C ′) ∨(A ∧B′) ∨(B ∧C ).
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 28 ===
+Quin-McCluskeyho algoritmus
+∗-1 -1 -1 ∗-1 1 -1 ∗ -1 1 ∗ ∗1 1 1 ∗1
+-1 -1 -1 1 -1 -1 -1 1 -1 -1 1 1 1 -1 1 1 1 1 × ×
+× ×
+× ×
+× ×
+× ×
+× ×
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy
+bud’ (B′ ∧C ′) ∨(A′ ∧B) ∨(A ∧C )
+nebo (A′ ∧C ′) ∨(A ∧B′) ∨(B ∧C ).
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 29 ===
+Quin-McCluskeyho algoritmus
+∗-1 -1 -1 ∗-1 1 -1 ∗ -1 1 ∗ ∗1 1 1 ∗1
+-1 -1 -1 1 -1 -1 -1 1 -1 -1 1 1 1 -1 1 1 1 1 ⊗ ×
+⊗ ×
+× ⊗
+⊗ ×
+× ⊗
+× ⊗
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy
+bud’ (B′ ∧C ′) ∨(A′ ∧B) ∨(A ∧C )
+nebo (A′ ∧C ′) ∨(A ∧B′) ∨(B ∧C ).
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 30 ===
+Quin-McCluskeyho algoritmus
+∗-1 -1 -1 ∗-1 1 -1 ∗ -1 1 ∗ ∗1 1 1 ∗1
+-1 -1 -1 1 -1 -1 -1 1 -1 -1 1 1 1 -1 1 1 1 1 × ⊗
+× ⊗
+⊗ ×
+× ⊗
+⊗ ×
+⊗ ×
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy
+bud’ (B′ ∧C ′) ∨(A′ ∧B) ∨(A ∧C )
+nebo (A′ ∧C ′) ∨(A ∧B′) ∨(B ∧C ).
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 31 ===
+Quin-McCluskeyho algoritmus
+∗-1 -1 -1 ∗-1 1 -1 ∗ -1 1 ∗ ∗1 1 1 ∗1
+-1 -1 -1 1 -1 -1 -1 1 -1 -1 1 1 1 -1 1 1 1 1 × ×
+× ×
+× ×
+× ×
+× ×
+× ×
+Minim´aln´ı vyj´adˇren´ı v disjunktivn´ım tvaru je tedy
+bud’ (B′ ∧C ′) ∨(A′ ∧B) ∨(A ∧C )
+nebo (A′ ∧C ′) ∨(A ∧B′) ∨(B ∧C ).
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus
+=== PAGE 32 ===
+Quin-McCluskeyho algoritmus
+Pˇr´ıklad
+Pˇr´ıklad
+Naleznˇete minim´aln´ı vyj´adˇren´ı v´yrokov´e formule
+(A ∧B′ ∧C ′ ∧D ∧E ) ∨(A ∧B ∧C ∧D′ ∧E )∨
+∨(A′ ∧B′ ∧C ′ ∧D ∧E ) ∨(A ∧B′ ∧C ∧D′ ∧E )∨
+∨(A′ ∧B′ ∧C ′ ∧D′ ∧E ) ∨(A ∧B ∧C ∧D′ ∧E ′)∨
+∨(A ∧B′ ∧C ′ ∧D′ ∧E ) v disjunktivn´ım tvaru.
+Jan Hora Pˇr´ıklady na Quin-McCluskeyho algoritmus

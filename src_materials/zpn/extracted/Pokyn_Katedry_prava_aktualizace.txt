@@ -1,0 +1,84 @@
+
+POKYN K PSANÍ ZÁVĚREČNÝCH A SEMINÁRNÍCH PRACÍ A K VYUŽÍVÁNÍ NÁSTROJŮ UMĚLÉ INTELIGENCE (AI)PŘI JEJICH ZPRACOVÁNÍ
+NA KATEDŘE PRÁVA PEF, ČZU
+/dále jen „Pokyn“/
+Článek I.
+Působnost Pokynu
+1. Tento Pokyn upravuje základní požadavky na zpracování bakalářských a diplomových prací (dále jen „závěrečné práce“) a seminárních prací zpracovávaných na Katedře práva Provozně ekonomické fakulty České zemědělské univerzity v Praze (dále jen „katedra“), zejména požadavky na odborné zpracování, práci se zdroji, řádné citování, samostatnost autora a využívání nástrojů umělé inteligence (AI).
+2. Ve vztahu k bakalářským a diplomovým pracím je tento Pokyn vydáván v návaznosti na Směrnici rektora č. 7/2026, Pravidla zadávání, zpracování, odevzdávání, archivace a zveřejňování bakalářských, diplomových a rigorózních prací na ČZU (dále jen „Směrnice rektora“). Tento Pokyn ji konkretizuje pro potřeby katedry práva a nesmí být vykládán v rozporu s ní.
+3. Ve vztahu k seminárním pracím tento Pokyn stanoví samostatná pravidla odpovídající jejich účelu a povaze. Ustanovení Směrnice rektora se na seminární práce použijí přiměřeně v návaznosti na tento Pokyn.
+4. Pokyn sleduje zejména tyto cíle:
+podporovat samostatnou právní argumentaci a odborné myšlení studenta;
+zajistit řádnou práci s právními prameny, judikaturou a odbornou literaturou;
+zajišťovat ověřitelnost použitých zdrojů a dodržování zásad akademické integrity;
+stanovit předvídatelná pravidla pro odpovědné a etické využívání nástrojů umělé inteligence;
+rozlišovat požadavky kladené na závěrečné práce a požadavky přiměřené seminárním pracím.
+Článek II.
+Závěrečné práce - zadání a základní požadavky
+1. Při zadání závěrečné práce se postupuje podle pravidel a harmonogramu příslušné fakulty a podle Směrnice rektora. Tímto Pokynem nejsou dotčeny náležitosti zadání, jeho schvalování ani další postupy stanovené Směrnicí rektora nebo fakultními předpisy.
+2. Vedoucí závěrečné práce v zadání stanoví případný rozsah využití nástrojů umělé inteligence v jiné než rešeršní části závěrečné práce, pokud má být takové využití při zpracování práce přípustné. Vymezení a souhlas vedoucího práce s použitím AI musí být formulováno dostatečně srozumitelně a určitě.
+3. Není-li v zadání závěrečné práce výslovně stanovena možnost využití nástrojů umělé inteligence v jiné části závěrečné práce, řídí se student rozsahem využití dovoleným Směrnicí rektora, zejména pro rešeršní část závěrečné práce.
+4. Závěrečná práce musí být výsledkem samostatné odborné a tvůrčí činnosti studenta a musí odpovídat požadavkům příslušného studijního programu a charakteru zvoleného tématu.
+5. Závěrečná práce musí mít jasně formulovaný cíl a musí obsahovat odbornou analýzu založenou na relevantních a ověřitelných pramenech. Podle povahy tématu student formuluje výzkumné otázky, případně hypotézy, a v závěru práce na ně odpovídá.
+6. Struktura závěrečné práce musí odpovídat jejímu tématu a zvolené metodice zpracování, jakož i univerzitním a fakultním předpisům, pokynům a doporučením.
+7. Závěrečná práce nesmí být pouze mechanickým souhrnem právní úpravy, popisem právního stavu nebo kompilací převzatých textů. Musí obsahovat vlastní zpracování problému a přiměřenou míru samostatné analýzy, argumentace, kritického hodnocení nebo návrhů řešení ze strany autora.
+Článek III.
+Seminární práce
+1. Seminární práce je odborný text zpracovaný studentem v rámci výuky konkrétního předmětu nebo jiné výukové činnosti podle zadání vyučujícího. Zpracováním seminární práce může být podmíněno získání zápočtu z předmětu.
+2. Seminární práce musí být přiměřeně svému rozsahu a účelu odborně zpracovaná, musí vycházet z relevantních a ověřitelných zdrojů a musí respektovat pravidla akademické integrity.
+3. Seminární práce musí mít jasně vymezené téma a odpovídající strukturu. Je-li to vzhledem k zadání vhodné, obsahuje zejména úvod do problému, vymezení otázky nebo cíle, vlastní odborné zpracování, závěr a seznam použitých zdrojů.
+4. Požadavky na rozsah, strukturu, metodiku a formální úpravu seminární práce může vyučující přizpůsobit charakteru předmětu a konkrétnímu zadání. Vyučující je oprávněn stanovit rovněž další požadavky, pokud nejsou v rozporu s vnitřními předpisy ČZU a PEF.
+5. U seminární práce se vyžaduje vlastní odborné zpracování. Převzetí cizí argumentace, textu, výsledků nebo jiného autorského obsahu bez řádného označení a citace je nepřípustné.
+6. Využívání nástrojů umělé inteligence při zpracování seminární práce se řídí článkem V. tohoto Pokynu a případnými dalšími podmínkami stanovenými v zadání nebo vyučujícím.
+Článek IV.
+Práce se zdroji, citace a ověřitelnost
+1. Základními prameny při zpracování právně zaměřené práce jsou zejména právní předpisy, judikatura, odborná literatura a odborné články. Podle povahy tématu lze využít i další relevantní prameny a odborné materiály.
+2. Student je povinen pracovat se zdroji samostatně, kriticky je hodnotit a ověřovat jejich obsah, aktuálnost a relevanci pro řešený problém.
+3. Každý převzatý údaj, tvrzení, myšlenka, závěr nebo jiný obsah převzatý z cizího zdroje musí být řádně označen a citován podle citačního systému používaného fakultou nebo stanoveného vyučujícím či vedoucím práce.
+4. Je nepřípustné uvádět neexistující nebo neověřené zdroje, citovat zdroje bez jejich znalosti nebo vytvářet seznam literatury bez skutečné práce s uvedenými prameny.
+5. Odkaz nebo bibliografický údaj získaný prostřednictvím nástroje umělé inteligence nepředstavuje náhradu za vlastní ověření zdroje. Student odpovídá za existenci, správnost a obsah všech použitých bibliografických údajů a za to, že použil skutečně prostudovaný pramen.
+6. Výstup nástroje umělé inteligence sám o sobě nenahrazuje odborný právní pramen. Je-li prostřednictvím nástroje AI identifikován právní předpis, judikát, odborný článek nebo jiný zdroj, musí student tento skutečný zdroj samostatně dohledat a ověřit.
+Článek V.
+Využívání nástrojů umělé inteligence
+1. Nástroji umělé inteligence se pro účely tohoto Pokynu rozumí aplikace založené na umělé inteligenci, které mohou na základě vstupu uživatele vytvářet, upravovat, vyhledávat nebo jinak zpracovávat text, obraz, zvuk, data nebo jiné výstupy.
+2. Při zpracování bakalářské nebo diplomové práce se využití nástrojů AI řídí především Směrnicí rektora. 
+3. V rešeršní části závěrečné práce lze nástroje AI jako pomocný nástroj využít zejména ke kontrole gramatiky a stylistiky, k návrhům struktury textu, ke stylistické reformulaci textu a k vyhledávání zdrojů.
+4. Nástroje AI nesmí být bez výslovného vymezení v zadání použity v jiné části závěrečné práce způsobem, který nahrazuje vlastní odbornou a tvůrčí činnost studenta, zejména k analýze, samostatnému vytvoření vlastních výsledků práce, diskuse nebo sumarizace závěrů.
+5. Je-li v zadání závěrečné práce výslovně připuštěno využití nástrojů AI v jiné části práce, musí být rozsah a účel takového využití v zadání dostatečně určitě vymezeny. Student v takovém případě přebírá odpovědnost za výstup AI a vždy odpovídá za výsledný text, jeho obsah a jeho soulad s použitými prameny.
+6. Při zpracování seminární práce lze nástroje AI využít jako podpůrný nástroj zejména ke kontrole gramatiky a stylistiky, k návrhům struktury a k orientačnímu vyhledávání možných zdrojů, není-li v zadání stanoveno jinak.
+7. Použití nástrojů AI k vytvoření souvislého odborného textu seminární práce, k formulaci jejích odborných závěrů nebo k nahrazení vlastní práce studenta je bez výslovného souhlasu vyučujícího nepřípustné. Vyučující může v zadání stanovit konkrétní přípustný rozsah využití AI anebo její využití i zcela vyloučit.
+8. Student je povinen každý podstatný výstup AI, který použije při zpracování své práce, věcně ověřit. Nesmí přebírat neověřené skutkové, právní, bibliografické nebo jiné odborné informace pouze proto, že je vytvořil nástroj AI.
+9. Pokud student využije nástroj AI pro tvorbu obsahové části závěrečné nebo seminární práce, je povinen tento zdroj v práci ocitovat v souladu se Směrnicí rektora. Vhodným způsobem se uvede zejména skutečnost, že text byl vytvořen nebo upraven pomocí konkrétního nástroje AI, způsob jeho využití a podle okolností také znění použitého dotazu (promptu).
+10. Při využití nástrojů AI je student povinen do prohlášení o původnosti závěrečné nebo seminární práce doplnit tuto či obdobnou větu: „Prohlašuji, že jsem nástroje AI využil/-a v souladu s vnitřními předpisy
+univerzity a principy akademické integrity a etiky. Na využití těchto nástrojů v práci vhodným způsobem odkazuji.“
+11. Použití AI výhradně pro běžnou jazykovou nebo stylistickou úpravu textu, které nemá vliv na jeho obsahovou stránku, není nutné v práci zvlášť uvádět, pokud jinak není stanoveno v zadání nebo jiných pokynech.
+12. Je-li s použitím AI vytvořen obrázek, graf nebo schéma a je zařazen do práce, student uvede, že jde o výstup vytvořený pomocí nástroje AI, a označí konkrétní použitý nástroj. Označení se uvádí přímo u příslušného výstupu.
+13. Výstupy vytvořené pomocí nástrojů AI nesmí být vydávány za vlastní autorské dílo studenta v rozsahu, v němž student sám nevytvořil příslušný obsah.
+Článek VI.
+Ochrana osobních, důvěrných a neveřejných informací
+1. Při využívání nástrojů AI je student povinen dodržovat právní předpisy na ochranu osobních údajů a další povinnosti vztahující se k ochraně důvěrných nebo neveřejných informací.
+2. Student nesmí do veřejně dostupných nástrojů AI vkládat zejména osobní údaje fyzických osob, neveřejné nebo interní informace, údaje podléhající právní či smluvní ochraně nebo informace, na které se vztahuje povinnost mlčenlivosti, pokud k tomu nemá odpovídající právní titul a oprávnění.
+3. Při práci s právními případy, kazuistikami, dokumenty nebo daty z praxe je student povinen před použitím nástroje AI odstranit nebo dostatečně anonymizovat údaje umožňující identifikaci konkrétní osoby, pokud jejich vložení do daného nástroje není výslovně oprávněno.
+4. Student odpovídá za obsah dat, která do nástroje AI vkládá, a za dodržení všech povinností, které se k těmto datům vztahují.
+Článek VII.
+Kontrola samostatnosti a akademické integrity
+1. Vedoucí práce nebo vyučující je oprávněn v rámci hodnocení ověřovat, zda práce odpovídá požadavku samostatného zpracování a zda student při jejím zpracování dodržel tento Pokyn a další relevantní vnitřní předpisy ČZU a PEF.
+2. V případě důvodných pochybností může být student požádán o vysvětlení procesu zpracování práce, zejména o způsob výběru a použití zdrojů, postup tvorby argumentace, vznik jednotlivých částí práce nebo způsob využití nástrojů AI.
+3. Student je povinen být schopen přiměřeně vysvětlit obsah své práce, použitou metodiku, základní argumentaci a způsob práce se zdroji. V případě použití AI je povinen být schopen vysvětlit také účel a rozsah jejího využití.
+4. Vedoucí práce nebo vyučující může v odůvodněných případech požádat o předložení podkladů dokládajících průběh zpracování práce, zejména pracovních verzí, poznámek, analytických podkladů nebo jiných relevantních materiálů včetně použitých zdrojů, na které se student ve své práci odkazuje a které cituje.
+5. Indicie, které mohou vyvolat potřebu dalšího ověření, mohou zahrnovat zejména výskyt neexistujících nebo neověřitelných zdrojů, výrazné nesrovnalosti v úrovni nebo terminologii textu, nedostatečnou návaznost argumentace nebo neschopnost studenta vysvětlit vlastní text. Samotná existence takové indicie bez dalšího neprokazuje porušení povinností.
+6. Výsledek kontroly obsahové shody nebo jiného technického systému má podpůrný charakter. U závěrečných prací se postupuje podle Směrnice rektora a příslušných fakultních pravidel, včetně pravidel pro odborné posouzení shody a posouzení případného plagiátorství.
+7. Samotné využití nástrojů AI v rozsahu dovoleném tímto Pokynem a Směrnicí rektora není důvodem pro zhoršení hodnocení práce.
+8. Nepřiznané nebo nepřípustné využití nástrojů AI, které podstatně nahrazuje vlastní odbornou nebo tvůrčí činnost studenta, může představovat vážné porušení studijních povinností a může být řešeno podle příslušných vnitřních předpisů ČZU a PEF i jako případný disciplinární přestupek.
+Článek VIII.
+Postup při zjištění porušení pravidel
+1. Zjistí-li vedoucí práce, oponent nebo vyučující skutečnosti nasvědčující porušení pravidel akademické integrity nebo tohoto Pokynu, posoudí jejich povahu, rozsah a význam a poskytne studentovi prostor k vysvětlení, pokud to povaha věci umožňuje. O dané skutečnosti informuje též vedoucí/ho katedry a je vázán dalšími pokyny v dané záležitosti.
+2. U závěrečných prací se při posuzování plagiátorství a při následném postupu postupuje podle Směrnice rektora. Toto ustanovení nepřenáší na vedoucího práce, oponenta ani katedru pravomoci, které Směrnice rektora svěřuje jinému orgánu, zejména zkušební komisi.
+3. Zjistí-li vyučující u seminární práce porušení pravidel práce se zdroji nebo nepřípustné využití AI, zohlední tuto skutečnost při hodnocení práce podle pravidel konkrétního předmětu a podle příslušných vnitřních předpisů ČZU a PEF. V odůvodněných případech vrátí seminární práci studentovi k přepracování, případně ji klasifikuje stupněm nevyhověl či nezapočteno.
+4. Má-li zjištěné jednání studenta povahu závažného porušení akademické integrity a studijních povinností, postupuje se podle příslušného disciplinárního předpisu. Tento Pokyn nenahrazuje Disciplinární řád PEF ČZU ani jiné vnitřní předpisy upravující disciplinární odpovědnost.
+Článek IX.
+Závěrečná ustanovení
+1. Tento Pokyn je závazný pro studenty zpracovávající bakalářské a diplomové práce na katedře a pro studenty zpracovávající seminární práce v rámci výuky zajišťované katedrou, v rozsahu odpovídajícím jejich postavení a konkrétnímu zadání.
+2. Student je povinen při zpracování práce dodržovat tento Pokyn, příslušné vnitřní předpisy ČZU a PEF a pokyny vedoucího práce nebo vyučujícího, pokud nejsou s těmito předpisy v rozporu.
+3. V případě rozporu mezi tímto Pokynem a Směrnicí rektora nebo jiným nadřazeným vnitřním předpisem ČZU má přednost nadřazený předpis.
+4. Tento Pokyn nabývá účinnosti dnem jeho vydání katedrou.

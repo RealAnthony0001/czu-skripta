@@ -1,0 +1,118 @@
+=== PAGE 1 ===
+Doplnˇek ke cviˇcen´ı z teorie mnoˇzin
+1. U n´asleduj´ıc´ıch relac´ı na mnoˇzinˇe N urˇcete, jestli jsou reflexivn´ı, symet-
+rick´e, antisymetrick´e ˇci tranzitivn´ı a jestli se v d˚usledku jedn´a o ekviva-
+lenci, uspoˇr´ad´an´ı nebo zobrazen´ı.
+(a) aRb ⇔a = b;
+(b) aRb ⇔a < b;
+(c) aRb ⇔a b;
+(d) aRb ⇔a·b = 0;
+(e) aRb ⇔ a je lich´e nebo b je
+sud´e;
+(f) aRb ⇔(a−b) je sud´e;
+(g) aRb ⇔a·b je sud´e.
+2. Zjistˇete, jestli n´asleduj´ıc´ı relace na R jsou zobrazen´ı. Pokud ano, zjistˇete,
+zda-li jsou injektivn´ı, surjektivn´ı nebo bijektivn´ı a jak vypad´a inverzn´ı
+relace.
+(a) xRy ⇔2x + 3y = 5
+(b) xRy ⇔2x2 + 3y2 = 52
+(c) xRy ⇔2x + 3y2 = 5
+(d) xRy ⇔2x + 3y3 = 5
+(e) xRy ⇔2x2 + 3y = 5
+(f) xRy ⇔2x + 3y = 5
+3. U n´asleduj´ıc´ıch prost´ych re´aln´ych funkc´ı naleznˇete definiˇcn´ı obor, obor
+hodnot a inverzn´ı funkci.
+(a) f(x) = 2x + 4
+(b) f(x) = 5−√x + 1
+(c) f(x) = x2 + 10x + 33, pro
+x ≥−5
+4. Spoˇctˇete n´asleduj´ıc´ı komplexn´ı ˇc´ısla:
+(a) (2 + i) + (3−4i)
+(b) (5−4i)−(1−3i)
+(c) (2−i)·(−3 + 4i)
+(d) (3 + 3i)·(−1−4i)
+5. Pˇreved’te n´asleduj´ıc´ı ˇc´ısla do goniometrick´eho tvaru:
+(a)−3i (b)−1 + i (c) √3−i (d)−2 + √12i
+6. Naleznˇete koˇreny n´asleduj´ıc´ıch kvadratick´ych rovnic:
+(a) x2 + 2x + 2 = 0
+(b) x2
+−6x + 13 = 0
+(c) x2
+(d)−x2
+−10x + 50 = 0
+−8x−25 = 0
+(d) f(x) =−4x2 + 24x, pro x ≤3
+(e) f(x) = 6x + 5
+4−2x
+(f) f(x) = 2−3·10x
+(e) (6 + i) : (−2 + 3i)
+(f) (−2−7i) : (1−i)
+(e)−3x2+6x−15 = 0
+(f) 4x2 +12x+10 = 0
+1
+=== PAGE 2 ===
+V´ysledky
+1. (a) reflexivn´ı, symetrick´a, antisymetrick´a, tranzitivn´ı; ekvivalence, uspoˇr´ad´an´ı,
+zobrazen´ı;
+(b) antisymetrick´a, tranzitivn´ı;
+(c) reflexivn´ı, antisymetrick´a, tranzitivn´ı; uspoˇr´ad´an´ı;
+(d) symetrick´a;
+(e) reflexivn´ı, tranzitivn´ı;
+(f) reflexivn´ı, symetrick´a, tranzitivn´ı, ekvivalence;
+(g) symetrick´a;
+2. 3. (a) zobrazen´ı je injektivn´ı, surjektivn´ı, a tedy bijektivn´ı, inverzn´ı relace
+je xR−1y ⇔2y + 3x = 5
+(b) nen´ı zobrazen´ı;
+(c) nen´ı zobrazen´ı;
+(d) zobrazen´ı je injektivn´ı, surjektivn´ı, a tedy bijektivn´ı; inverzn´ı relace
+je xR−1y ⇔2y + 3x3 = 5
+(e) je zobrazen´ı, nen´ı injektivn´ı, surjektivn´ı ani bijektivn´ı;
+(f) zobrazen´ı je injektivn´ı, nen´ı surjektivn´ı ani bijektivn´ı; inverzn´ı relace
+je xR−1y ⇔2y + 3x = 5
+(a) D(f) = R, H(f) = R, f−1(x) =x
+2−2.
+(b) D(f) = ⟨−1, ∞), H(f) = (−∞, 5⟩, f−1(x) = x2
+−10x + 24.
+(c) D(f) = ⟨−5, ∞), H(f) = ⟨8, ∞), f−1(x) = √x−8−5.
+(d) D(f) = (−∞, 3⟩, H(f) = (−∞, 36⟩, f−1(x) = 3− 9−
+(e) D(f) = R {2}, H(f) = R {−3}, f−1(x) = 4x−5
+2x+6
+(f) D(f) = R, H(f) = (−∞, 2), f−1(x) = log 2−x
+3.
+4. (a) 5−3i
+(b) 4−i
+(c)−2 + 11i
+(d) 9−15i
+5. (a) 3(cos 3π
+2 + i sin 3π
+2 )
+(b) √2(cos 3π
+4 + i sin 3π
+4 )
+6. (a)−1 ±i
+(b) 3 ±2i
+x
+4.
+(c) 5 ±5i
+(d)−4 ±3i
+(e)−
+(f) 5
+2−
+9
+13−
+9
+2 i
+(c) 2(cos 11π
+6 + i sin 11π
+6 )
+(d) 4(cos 2π
+3 + i sin 2π
+3 )
+(e)−1 ±2i
+(f)−
+3
+2 ±1
+2 i
+20
+13 i
+2

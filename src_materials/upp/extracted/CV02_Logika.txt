@@ -1,0 +1,319 @@
+=== PAGE 1 ===
+Strukturovaná tvorba aplikací
+21
+2 Úvod do matematické logiky
+2.1 Výrokový počet
+Výrokový počet je formalizovaná teorie výroků. Výrokovým počtem rozumíme studium
+závislosti pravdivostní hodnoty složeného výroku na způsobu spojení a na pravdivostních
+hodnotách jednotlivých výroků.
+Výrokem je tvrzení (sdělení), o kterém má smysl říci, že je pravdivé či nepravdivé, tj. tvrzení
+nabývá jednu ze dvou pravdivostních hodnot:
+ Pravda (true) – zapisujeme jako 1,
+ Nepravda (false) – zapisujeme jako 0.
+Příkladem výroku je: „Číslo 8 je liché“, „Úhlopříčky čtverce jsou navzájem kolmé“. Výrokem
+není: „Kolik je hodin?“ ani „Kéž by pršelo!“.
+Výroky, které neobsahují logické spojky (, , , , atd.), nazýváme výroky jednoduchými
+(elementárními) a označujeme je malými písmeny (p, q, r, x, y, z, apod.). Jednoduché výroky
+lze spojovat logickými spojkami (resp. závorkami) ve složené výroky (logické formule),
+např. (p q)  r.
+2.1.1 Logické spojky
+Složené výroky (logické formule) získáme spojením elementárních výroků nebo již složených
+výroků pomocí logických spojek. Vybrané logické spojky a jejich význam je uveden
+v následující tabulce.
+Spojka Význam Značka Příklad
+negace „není pravda, že“  Není pravda, že prší. (Neprší)
+konjunkce „a (zároveň)“  Prší a svítí sluníčko.
+disjunkce „nebo“  Prší nebo svítí sluníčko.
+implikace „jestliže … , pak“ ,  Jestliže prší, vezmu si deštník.
+ekvivalence „právě tehdy, když“ ,  Prší právě tehdy, vezmu-li si deštník.
+=== PAGE 2 ===
+Strukturovaná tvorba aplikací
+22
+nonekvivalence „nestejnost;
+vylučující nebo“  Buď prší nebo svítí sluníčko.
+Shefferův operátor „není pravda, že … a …“  Není pravda, že prší a svítí sluníčko.
+(Neprší nebo nesvítí sluníčko.)
+Piercova šipka „není pravda,
+že … nebo …“  Není pravda, že prší nebo svítí sluníčko.
+(Neprší a ani nesvítí sluníčko.)
+2.1.2 Pravdivostní funkce
+Každá logická formule generuje pravdivostní funkci. Pravdivostní funkcí f(p1,p2,...pn)
+proměnných p1, p2, ..., pn rozumíme zobrazení {0,1}n  {0,1}. Pravdivostní funkci lze tedy
+chápat tak, že pro každou kombinaci ohodnocení n vstupních dvouhodnotových {0,1}
+proměnných generuje výstupní hodnotu 0 nebo 1.
+Pravdivostní funkce se obvykle zapisuje ve formě pravdivostní tabulky. Pravdivostní
+tabulka nejpoužívanějších logických spojek:
+Operace Logický
+součet
+Logický
+součin
+Ekvivalence
+Non
+ekvivalence
+Piercův
+operátor
+Shefferův
+operátor Negace Implikace
+Logická spojka -
+Booleova algebra
++      p
+, 
+p 
+Logická spojka -
+Výrokový počet OR
+
+AND
+
+EQV
+
+XOR
+
+NOR
+
+NAND
+
+NON
+p 
+p q
+0 0 0 0 1 0 1 1 1 1
+0 1 1 0 0 1 0 1 1 1
+1 0 1 0 0 1 0 1 0 0
+1 1 1 1 1 0 0 0 0 1
+2.1.3 Splnitelnost logické formule
+Vyhodnocením logické formule f je myšleno sestavení pravdivostní tabulky popisující
+pravdivostní funkci generovanou logickou formulí f. Pořadí vyhodnocení je dáno:
+ směrem od vnitřních závorek (formulí) k vnějším závorkám (formulím)
+ prioritou logických spojek – unární spojky mají vyšší prioritu než binární
+=== PAGE 3 ===
+Strukturovaná tvorba aplikací
+23
+Formule je splnitelná, jestliže existuje alespoň jedna kombinace ohodnocení vstupních
+proměnných, pro kterou nabývá pravdivostní funkce hodnoty 1.
+Tautologie výrokového počtu je výroková formule, která je vždy pravdivá, tj. generuje
+pravdivostní funkci rovnou 1. Pokud je tedy formule P tautologie, označujeme ji T.
+Kontradikce výrokového počtu je výroková formule, která je vždy nepravdivá,
+tj. generuje pravdivostní funkci vždy rovnou 0. Pokud je tedy formule P kontradikce,
+označujeme ji F.
+Příklad tautologie: p   p
+0 1 1 0
+1 1 0 1
+Příklad kontradikce: p   p
+0 0 1 0
+1 0 0 1
+Příklad 11:
+Pomocí pravdivostní tabulky rozhodněte, zda následující formule jsou tautologie, kontradikce,
+či splnitelné formule:
+a) ((p  q)  (p  q))  q
+b) (p  q)  (q  p)
+c) (p  q)  (p  q)
+Postup řešení:
+ K daným formulím sestavíme pravdivostní tabulku.
+ V případě tautologie ohodnocení proměnných výsledné pravdivostní funkce nabývá
+hodnotu 1. V případě kontradikce ohodnocený proměnných výsledné pravdivostní funkce
+nabývá hodnotu 0. V případě splnitelné formule existuje alespoň jedno ohodnocení
+proměnných takové, kde výsledná pravdivostní funkce nabývá hodnotu 1.
+a)
+((p  q)  (p  q))  q
+0 0 0 0 1 0 0 1 0
+0 0 1 0 1 1 1 1 1
+1 0 0 0 0 1 0 1 0
+1 1 1 1 0 1 1 1 1
+1. 3. 2. Výsl.
+￼
+￼
+Tato formule je tautologie.
+Tato formule není kontradikce.
+Tato formule je splnitelná.
+=== PAGE 4 ===
+Strukturovaná tvorba aplikací
+24
+b)
+(p  q)  (q  p)
+0 1 1 0 0 1 0
+0 0 0 0 1 0 0
+1 1 1 0 0 1 1
+1 1 0 0 1 1 1
+1. Výsl. 1.
+c)
+ (p  q)  (p  q)
+0 0 1 0 0 0 0 1
+0 0 1 1 0 0 0 0
+1 1 0 0 1 1 1 1
+0 1 1 1 0 1 0 0
+2. 1. Výsl. 3.
+2.1.4 Tautologická ekvivalence
+Formule P a Q jsou tautologicky ekvivalentní, pokud generují stejnou pravdivostní funkci,
+nebo-li dvě formule P a Q jsou tautologicky ekvivalentní právě, když formule (P  Q) je
+tautologie. Skutečnost, že formule P a Q jsou tautologicky ekvivalentní, označíme P  Q.
+Příklad 12:
+Pomocí pravdivostní tabulky rozhodněte, zda jsou následující formule tautologicky
+ekvivalentní:
+a) (p  q) a (p  q)
+b) (p  (q  r)) a ((p  q)  r)
+Postup řešení:
+ K daným formulím sestrojíme pravdivostní tabulku.
+ Pokud jsou výsledné pravdivostní funkce obou formulí stejné, jsou tyto formule
+tautologicky ekvivalentní. Pokud výsledné pravdivostní funkce obou formulí stejné nejsou,
+nejsou dané formule ekvivalentní.
+Tato formule je splnitelná.
+Tato formule není kontradikce
+ani tautologie.
+Tato formule je kontradikce.
+Tato formule není tautologie ani
+splnitelná.
+=== PAGE 5 ===
+Strukturovaná tvorba aplikací
+25
+(p  q)  ( p  q)
+0 1 0 1 1 0 1 0
+0 1 1 1 1 0 1 1
+1 0 0 1 0 1 0 0
+1 1 1 1 0 1 1 1
+Podle výše uvedených pravidel vyplývá, že dané formule jsou tautologicky ekvivalentní.
+(p  (q  r))  ((p  q)  r)
+0 1 0 1 0 1 0 1 0 1 0
+0 1 0 1 1 0 0 1 0 0 1
+0 1 1 1 0 1 0 1 1 1 0
+0 1 1 0 1 0 0 1 1 0 1
+1 0 0 1 0 0 1 1 0 1 0
+1 0 0 1 1 1 1 1 0 0 1
+1 0 1 1 0 0 1 0 1 1 0
+1 1 1 0 1 1 1 0 1 1 1
+Podle výše uvedených pravidel tedy vyplývá, že dané formule nejsou tautologicky
+ekvivalentní.
+Vybrané tautologické ekvivalence uvádí následující tabulka:
+￼
+=== PAGE 6 ===
+Strukturovaná tvorba aplikací
+26
+2.1.5 Logický důsledek
+Z výroků v1, v2, … , vn logicky vyplývá výrok d, tj. je logickým důsledkem, právě tehdy, je-li
+pro každé ohodnocení vstupních proměnných, kdy nabývají pravdivé hodnoty všechny výroky
+v1, v2, … , vn , výrok d také pravdivý.
+ Výrok d vyplývá z výroků v1, v2, … , vn právě tehdy, když formule v1  v2  …  vn  d je
+tautologie, respektive právě tehdy, když formule v1  v2  …  vn  d je kontradikce.
+ V opačném případě výrok d z výroků v1, v2, … , vn logicky nevyplývá.
+Příklad 13:
+Pomocí pravdivostní tabulky rozhodněte o správnosti následujících úsudků:
+a) Buď je zkoušející shovívavý, nebo je kurs neužitečný. Zkoušející není shovívavý.
+Plyne z toho, že kurz není užitečný?
+b) Jestli-že prší a já si vezmu deštník, nezmoknu. Vezmu si deštník. Plyne z toho, že
+nezmoknu?
+Postup řešení:
+ Jednotlivé dílčí výroky ohodnotíme pomocí výrokových proměnných a spojek.
+ Ke vzniklé formuli sestrojíme pravdivostní tabulku.
+ Pokud všechna ohodnocení proměnných výsledné pravdivostní funkce nabývají hodnotu 1,
+úsudek je správný. Pokud existuje alespoň jedno ohodnocení proměnných takové, kde
+výsledná pravdivostní funkce nabývá hodnotu 0, úsudek správný není.
+a) Buď je zkoušející shovívavý, nebo je kurs neužitečný. Zkoušející není shovívavý.
+Plyne z toho, že kurz není užitečný?
+p … zkoušející je shovívavý q … kurz je užitečný
+v1: p  q
+v2: p
+d: q
+Výsledná pravdivostní funkce je tautologie, tj. z prvních dvou výroků plyne třetí.
+((p  q)  p)  q
+0 1 1 1 1 1 1
+0 0 0 0 1 1 0
+1 0 1 0 0 1 1
+1 1 0 0 0 1 0
+=== PAGE 7 ===
+Strukturovaná tvorba aplikací
+27
+b) Jestli-že prší a já si vezmu deštník, nezmoknu. Vezmu si deštník. Plyne z toho, že
+nezmoknu?
+p … prší q … vezmu si deštník r … zmoknu
+v1: (p  q)  r
+v2: q
+d: r
+Výsledná pravdivostní funkce není tautologie, tj. z prvních dvou výroků neplyne třetí.
+2.2 Booleovská algebra
+Booleovská algebra se vyvinula v návaznosti na analogii mezi množinovými operacemi
+sjednocení a průnik a aritmetickými operacemi sčítání a násobení. Rozsah a důležitost této
+analogie objasnil jako první britský matematik George Boole (1815-1864), který položil
+základy algebraické teorie množin před více než 100 lety.
+2.2.1 Operace Booleovské algebry
+V Booleovské algebře definujeme Booleovské proměnné, které mohou nabývat hodnot 0 a 1
+a značíme je malými písmeny a, b, c, … x, y, z. Ohodnocení proměnné x pak označíme jako
+(x), kde platí (x)  {0,1}.
+Booleovská algebra definuje na dvou-elementové množině {0,1} operace součtu (+),
+součinu () a doplňku ( 
+, ):
+ logický součin
+ logický součet
+ doplněk
+(((p  q)  r)  q)  r
+0 0 0 1 1 0 0 1 1
+0 0 0 1 0 0 0 1 0
+0 0 1 1 1 1 1 1 1
+0 0 1 1 0 1 1 0 0
+1 0 0 1 1 0 0 1 1
+1 0 0 1 0 0 0 1 0
+1 1 1 1 1 1 1 1 1
+1 1 1 0 0 0 1 1 0
+=== PAGE 8 ===
+Strukturovaná tvorba aplikací
+28
+Pomocí proměnných (a, b, c,…), operací (logický součin, součet a doplněk) a konstant (0,1)
+se vytváří tzv. booleovské výrazy, např. ((x + z) + 1).
+Booleovskou funkcí f ( x1, x2, …, xn ) proměnných x1, x2, …, xn rozumíme zobrazení
+{0,1}n  {0,1}. Každý booleovský výraz definuje zobrazení {0,1}n  {0,1} a tudíž popisuje
+(vyjadřuje, realizuje, reprezentuje) určitou booleovskou funkci.
+Postup při vyhodnocování výrazu (stanovení hodnoty Booleovské funkce) je definován
+závorkami a prioritou operací, pokud pořadí vyhodnocování není dáno závorkami,
+vyhodnocují se operace s vyšší prioritou dříve, než s nižší prioritou.
+ Priorita operací od nejvyšší k nejnižší je: 
+, , +. Proto místo výrazu ((x  y) + z) lze zapsat
+pouze výraz x  y + z
+.
+Pokud platí (x)  {0,1}, existuje úzká souvislost mezi booleovskou algebrou a výrokovým
+počtem. Výrokový počet tvoří booleovskou algebru, pokud interpretujeme:
+ hodnotu 1 jako pravdivý výrok (true)
+ hodnotu 0 jako nepravdivý výrok (false)
+ booleovské proměnné jako výrokové proměnné
+ logické operace +, 
+,
+ jako logické spojky , , 
+2.2.2 Fuzzy logika
+Fuzzy logika1 se poprvé objevila v roce 1965 v článku, jehož autorem byl profesor
+L.A. Zadeh. Tehdy byl definován základní pojem fuzzy logiky a to fuzzy množina. Fuzzy
+teorie se snaží pokrýt realitu v její nepřesnosti a neurčitosti. Fuzzy logika přináší nové, v
+jistém smyslu přesnější chápání pojmů pravda/nepravda.
+Podstatný rozdíl oproti Booleovské algebře spočívá v ohodnocení proměnných. Ve fuzzy
+logice definujeme ohodnocení proměnné x jako , tj. jako míru „pravdivosti“
+(příslušnosti) proměnné x. Ohodnocení proměnné (x) může tedy nabývat libovolné hodnoty
+z intervalu .
+Operace logického součinu, součtu a doplňku definujeme obdobně jako v Booleovské
+algebře s tím rozdílem, že ohodnocení výrazů nabývá také libovolné
+hodnoty z intervalu .
+Pravdivostní funkci f ( x1, x2, …, xn ) proměnných x1, x2, …, xn definujeme ve fuzzy logice
+jako zobrazení .
+1 Fuzzy logika znamená roztřepaná, nejasná, nepřesná, chlupatá, neurčitá, vágní logika.
+=== PAGE 9 ===
+Strukturovaná tvorba aplikací
+29
+Příklad 14:
+Mějme dvě proměnné x a y a předpokládejme, že jejich ohodnocení může nabývat tří hodnot
+z intervalu :
+ slovně pravda
+ slovně nepravda
+ slovně neznámo
+Stanovte pravdivostní hodnoty operací .
+Postup řešení:
+ Sestavíme pravdivostní tabulky všech operací a to pro všechna možná ohodnocení
+proměnných x a y, resp. jen proměnné x u operace doplňku.
+ Pravdivostní hodnoty stanovíme dle předpisu operací součinu, součtu a doplňku
+definovaného v Booleovské algebře.
+x x x y (x  y) (x + y)
+0 1 0 0 0 0
+0 0
+1 0 0 1 0 1
+0 0
+1 1
+1 0 0 1
+1 1
+1 1 1 1
+2.3 Disjunktivní a konjunktivní normální forma
+Předpokládejme, že je definována logická formule A, jejíž pravdivostní hodnota je z množiny
+{0,1} a závisí na hodnotách logických proměnných x1, x2, …, xn. Ohodnocení logických
+proměnných je také hodnota z množiny {0,1}.

@@ -1,0 +1,547 @@
+
+ČESKÁ ZEMĚDĚLSKÁ UNIVERZITA V PRAZE
+Provozně ekonomická fakulta
+
+S t á t n í   z á v ě r e č n á   z k o u š k a
+b a k a l á ř s k á
+
+důležité termíny pro závěr studia
+okruhy otázek k SZZ
+
+2023/2024
+
+		Obsah:										Str.
+
+		Důležité termíny pro závěr studia							  2
+		Rámcový postup při SZZ								  3
+		Výňatek ze Studijního a zkušebního řádu ČZU v Praze			 	  3
+		Přehled komplexních předmětů pro SZZ						  5
+		Okruhy otázek z komplexních předmětů SZZ					  7
+Důležité termíny pro závěr studia
+Odevzdání BP do 15. 3. 2024
+Student odevzdá v IS ČZU (http://is.czu.cz) elektronickou verzi práce a případně další přílohy. Po přihlášení do informačního systému (is.czu.cz) přejde do sekce Portál studenta, kde zvolí v daném studijním programu ikonu Závěrečná práce (obrázek knihy). Nejdříve vloží abstrakt (souhrn) a klíčová slova k práci do systému přes Vložit doplňující informace zvlášť v českém i anglickém jazyce. Dále lze obdobně nahrát soubory své práce prostřednictvím Vložit práci a přílohy. Elektronická verze závěrečné práce v čitelném formátu PDF bude obsahovat v jednom souboru kompletní text práce, který bude shodný s tištěnou verzí závěrečné práce (tedy včetně tištěných příloh). Maximální velikost souboru závěrečné práce je 50 MB a celková velikost příloh je omezena na 200 MB. Do přílohy může případně nahrát vytvořený software, audiovizuální soubory, datové přílohy a jiné. Proces odevzdání práce se ukončí (potvrdí) tlačítkem „Odevzdat závěrečnou práci“ v položce Odevzdání závěrečné práce, poté již není možné soubory editovat (zrušit odevzdání a eventuálně po nahrání změn znovu odevzdat lze do 24 hodin po odevzdání práce, nejdéle však do stanoveného termínu odevzdávání). Elektronická verze musí být studentem odevzdána do výše uvedených termínů. Tištěnou verzi práce v pevné vazbě ve dvou výtiscích v českém jazyce (u anglických programů v jazyce anglickém) odevzdá student v den konání státní závěrečné zkoušky tajemníkovi komise. Zároveň s prací budou odevzdány 4 ks tezí (max. 3 str. textu a vybrané bibliografické citace). 
+Student zodpovídá za obsahovou shodu obou verzí práce. V případě, že se tištěná verze práce neshoduje s elektronickou verzí práce, student nebude připuštěn k obhajobě práce před komisí. Pokud bude při následné kontrole prací odhaleno podvodné jednání (včetně plagiátorství), bude se studentem zahájeno disciplinární řízení s možností vyloučení ze studia.
+
+Přihláška ke státní zkoušce a promoci: od 1. 3. do 31. 3. 2024
+Student provede kontrolu osobních údajů v IS a potvrdí jejich správnost. Při samotném přihlášení se k SZZ zadá volitelný komplexní předmět (koridor pouze vybrané programy Ing. studia). Pro účast na promocích v červnu 2024 se elektronicky přihlásí a uhradí poplatek 400 Kč za promoci (platební údaje budou sděleny po přihlášení). Toto přihlášení je závazné. Vše na http://is.czu.cz.
+
+Ukončení studia 3. ročníku: do 13. 5. 2024
+Podmínkou je splnění všech předepsaných studijních povinností. Na studijní oddělení student odevzdá (osobně v Infocentru nebo poštou nebo výjimečně e-mailem) podepsaný výpis známek z IS (jednostranný tisk, na šířku).
+Tento termín je závazný. Po tomto termínu nemůže být student ke státní zkoušce přiřazen.
+Státní závěrečné zkoušky: 20. - 31. 5. 2024
+přiřazení studenta na termín bude zveřejněno v  IS do 14. 5. 2024 (is.czu.cz).
+
+  
+Náhradní termín SZZ: únor 2025
+  
+  
+Rámcový postup při SZZ
+Interní seznámení komise s materiály studenta.
+Pozvání studenta a představení komisi - tajemníkem komise.
+Úvodní slovo studenta k problematice bakalářské práce (dále jen BP).
+Seznámení komise s posudky (vedoucí BP, oponent).	
+Stanovisko studenta k posudkům.	
+Rozprava k BP.
+Zkouška z jednotlivých předmětů:
+zadání otázky (otázek), např. ve vztahu k BP (otázky je třeba formulovat ze zadaných okruhů)
+rozprava k zadané otázce.
+Rozprava k případným problémům či nejasnostem.
+Interní porada komise, zhodnocení znalostí studenta.
+Sdělení výsledků obhajoby BP a SZZ studentovi.
+SZZ trvá u jednoho studenta průměrně 30 minut, včetně organizačních a administrativních činností. Před zkouškou student předloží doklad totožnosti (občanský průkaz, pas). Student si může k obhajobě přinést osnovu prezentace BP (případně kopii BP) a psací potřeby. Dostaví se ke zkoušce ve společenském oděvu. Na závěr dne probíhá komplexní vyhodnocení denního průběhu.
+  
+Výňatek ze Studijního a zkušebního řádu ČZU v Praze:
+Článek 17
+Státní závěrečná zkouška
+(1) SZZ musí student absolvovat nejpozději do dvou let od konce akademického roku, ve kterém splnil studijní povinnosti stanovené v posledním ročníku studia. Po tuto dobu zůstává studentem nebo může podat žádost o přerušení studia. 
+(2) SZZ se koná před komisí pro SZZ (dále jen „komise“) z předmětů stanovených studijním plánem a z obhajoby bakalářské nebo diplomové práce (dále jen „kvalifikační práce“), pokud je tato kvalifikační práce v souladu s akreditací daného studijního programu součástí SZZ. Průběh SZZ a vyhlášení výsledku jsou podle § 53 zákona veřejné. Komisi jmenuje děkan z profesorů, docentů a významných odborníků v daném oboru, kteří jsou schváleni vědeckou radou fakulty. Počet členů komise je minimálně tři. Termíny související se SZZ a podrobnosti k jejich průběhu stanoví děkan svým nařízením. 
+(3) Kvalifikační práce je hodnocena dvěma posudky, a to posudkem vedoucího kvalifikační práce a posudkem oponenta. Student má právo seznámit se s posudky nejpozději pět pracovních dnů před termínem SZZ. 
+(4) Pokud vedoucí kvalifikační práce i oponent klasifikují kvalifikační práci stupněm „nevyhověl“, nesplnil student předpoklady pro konání SZZ a k SZZ není připuštěn, tj. nekoná ani obhajobu kvalifikační práce ani zkoušky z předmětů SZZ. Student však může kvalifikační práci s původním tématem přepracovat a přistoupit k SZZ v některém z následujících termínů. 
+(5) Shodná kvalifikační práce zásadně nemůže být uznána pro absolvování studia ve dvou různých studijních programech. Student se při zpracování kvalifikační práce nesmí uchýlit k úmyslnému neoprávněnému užití díla jiné osoby a tím hrubě porušit právní předpisy upravující ochranu duševního vlastnictví podle § 47c odst. 2 zákona. 
+(6) Zveřejňování kvalifikačních prací včetně dalších náležitostí podle § 47b zákona je realizováno v informačním systému ČZU. 
+(7) Pokud se student k SZZ nedostaví nebo se písemně z uznatelných důvodů neomluví nejpozději do pěti pracovních dnů od konání SZZ, je klasifikován známkou „nevyhověl“; o uznatelnosti důvodů rozhoduje děkan. 
+(8) Kritéria pro hodnocení celkového výsledku SZZ a celkového výsledku studia jsou uvedena v příloze č. 1 tohoto studijního a zkušebního řádu. Rozhodnutí komise pro SZZ je konečné.
+Článek 18
+Opravná státní závěrečná zkouška
+(1) SZZ lze opakovat, tj. absolvovat v opravném termínu, a to pouze jednou, nejpozději do dvou let od konce akademického roku, ve kterém student neúspěšně vykonal SZZ, a zároveň nejpozději do tří let od konce akademického roku, ve kterém splnil studijní povinnosti stanovené v posledním ročníku studia. Po tuto dobu zůstává studentem nebo může podat žádost o přerušení studia. Doba tohoto přerušení se nezapočítává do celkové doby přerušení studia podle čl. 12 odst. 2.
+(2) V rámci opravné SZZ student absolvuje tuto zkoušku pouze z předmětů SZZ, které byly klasifikovány stupněm „nevyhověl“, výsledky z ostatních složených předmětů SZZ jsou uznány. Stejné pravidlo se týká rovněž výsledku obhajoby kvalifikační práce. Přičemž se připouští obhajoba přepracované práce s původním tématem.
+(3) Děkan svým nařízením stanoví termíny a podrobnosti k průběhu opravné SZZ. Děkan může vyhlásit samostatně opravné SZZ pro všechny nebo vybrané studijní programy.
+Příloha č. 1 
+ ke Studijnímu a zkušebnímu řádu ČZU
+
+Kritéria pro hodnocení SZZ  a celkového výsledku studia
+ v bakalářských a magisterských studijních programech
+
+Hodnocení SZZ
+
+Výsledek SZZ
+Obhajoba bakalářské nebo diplomové práce
+ (výrok komise)
+Klasifikace předmětů SZZ
+výborně
+výborně (1)
+
+průměr ≤ 1,5
+velmi dobře
+velmi dobře (2) 
+průměr ≤2,5
+
+výborně (1)
+průměr  > 1,5 a ≤ 2,5
+dobře
+dobře (3)
+průměr   3
+
+velmi dobře (2)
+průměr > 2,5
+
+výborně (1)
+průměr > 2,5
+nevyhověl
+Obhajoba bakalářské nebo diplomové práce (výrok komise) „nevyhověl(a)“ (4)
+nebo
+klasifikace některého z předmětů  SZZ „nevyhověl(a)“ (4)
+
+Celkový výsledek studia
+Výsledek studia
+Výsledek SZZ 
+Prospěch za celé studium)
+prospěl(a) s vyznamenáním
+výborně
+průměr  ≤ 1,5
+prospěl(a)
+výborně, velmi dobře nebo dobře
+
+neprospěl(a)
+nevyhověl(a)
+
+Přehled komplexních předmětů SZZ
+
+Studijní program: Ekonomika a management 
+
+Obecná ekonomie (skládá se před komisí)
+Obecná ekonomie I, Obecná ekonomie II 
+Základy řízení (skládá se před komisí)
+Teorie řízení organizačních systémů, Obchodní nauka, Ekonomika podniku
+Ekonomicko matematické metody a statistika (skládá se před komisí)
+Informační systémy, Ekonomicko matematické metody, Statistika 
+
+Studijní program: Podnikání a administrativa 
+
+Obecná ekonomie (skládá se před komisí)
+Obecná ekonomie I, Obecná ekonomie II
+Základy řízení (skládá se před komisí)
+Účetnictví, Teorie řízení organizačních systémů, Informační systémy
+Právo v podnikání (skládá se před komisí)
+Základy právních nauk, Občanské a obchodní právo
+
+Studijní program: Informatika 
+
+Ekonomie a řízení (skládá se před komisí)
+Obecná ekonomie, Teorie řízení organizačních systémů, Ekonomika podniku
+Kvantitativní metody (skládá se před komisí)
+Statistika, Operační a systémová analýza, Metody projektového řízení
+Výpočetní systémy a informační inženýrství (skládá se před komisí)
+Algoritmizace a programování, Operační systémy a počítačové sítě, Databázové systémy
+
+Studijní program: systémové inženýrství 
+
+Aplikovaná ekonomie a management (skládá se před komisí)
+Podniková ekonomika, Finance, Marketing, Řízení lidských zdrojů
+Systémová analýza a kvantitativní metody (skládá se před komisí)
+Systémové myšlení, Operační výzkum, Rozhodovací modely, Metody projektového řízení, Statistika
+Aplikovaná informatika (skládá se před komisí)
+Databázové systémy, Značkovací jazyky, Webdesign, Podnikové informační systémy
+
+Studijní program: veřejná správa a regionální rozvoj	
+
+1. Obecná ekonomie (skládá se před komisí)
+Obecná ekonomie I, Obecná ekonomie II, Ekonomika veřejného sektoru
+2. Základy řízení (skládá se před komisí)
+Základy řízení, Psychologie osobnosti a sociální psychologie, Účetnictví nevýdělečných organizací
+3. Právní a sociální vědy (skládá se před komisí)
+Základy veřejné správy, Základy regionálního rozvoje, Právo
+
+Studijní program: Hospodářská a kulturní studia 
+
+1. Obecná ekonomie (skládá se před komisí)
+Obecná ekonomie I, Obecná ekonomie II, Ekonomika veřejného sektoru
+2. Řízení v regionech (skládá se před komisí)
+Základy řízení, Základy právních nauk, Účetnictví nevýdělečných organizací
+3. Regionální rozvoj z hlediska společnosti a kultury (skládá se před komisí)
+Základy sociologie, Základy antropologie, Lingvistická antropologie
+
+Okruhy otázek ke SZZ z komplexních předmětů
+
+Obecná ekonomie – okruhy otázek (programy EAM a PaA)
+KET
+
+Zákon nabídky a poptávky. Mechanismus fungování trhu - utváření tržní rovnováhy. Determinanty nabídky a poptávky. Elasticita. Renta výrobců a spotřebitelů.
+Užitečnost statku, užitek, mezní užitek. Kardinalistická a ordinalistická teorie. Rovnováha spotřebitele.
+Produkční funkce, produkce a náklady v krátkém období.
+Produkční funkce, produkce a náklady v dlouhém období.
+Firma jako podniková organizace a tržní subjekt. Zisk firmy - účetní, ekonomický. Alternativní cíle firmy.
+Chování firem v dokonalé konkurenci. Podmínky dokonalé konkurence. Optimální výše produkce. Nabídková a poptávková funkce.
+Tržní chování firmy v nedokonalé konkurenci, podmínky nedokonalé konkurence. Druhy nedokonalé konkurence, Oligopol, typy.
+Monopolistická konkurence. Optimální výše produkce. Vytváření zisku v krátkém a dlouhém období.
+Monopol - podstata, příčiny vzniku, optimální rozsah produkce, maximalizace zisku monopolu. Cenová diskriminace.
+Trh výrobních faktorů, poptávka po výrobních faktorech.
+Míry výkonnosti ekonomiky, metody měření HDP. Nominální a reálný produkt. Míry cenové úrovně. Porovnání hospodářské vyspělosti zemí.
+Peníze, peněžní agregáty. Trh peněz. Formování nabídky a poptávky po penězích v ekonomice.
+Rovnovážný produkt v dvousektorovém modelu produkt - výdaje. Jednoduchý výdajový multiplikátor. Spotřební a úsporová funkce.
+Rovnovážný produkt v třísektorovém a čtyřsektorovém modelu produkt - výdaje. Multiplikátor. Rovnovážný produkt.
+Hospodářské politiky. Fiskální politika a její nástroje pomocí modelu IS-LM.
+Monetární politika a její nástroje pomocí modelu IS-LM.
+Inflace, měření, příčiny. Dopady inflace. Cílování inflace. Inflace a přijetí eura.
+Trh práce, příčiny, formy a důsledky nezaměstnanosti. Phillipsova křivka.
+Agregátní nabídka a agregátní poptávka. Analýza křivek nabídky a poptávky. Rovnováha na makroekonomické úrovni.
+Platební bilance - podstata, členění. Měnový kurz - podstata, členění, dopady na export a import.
+
+Obecná ekonomie – okruhy otázek (programy VSRR a HKS) 
+KET
+
+Zákon nabídky a poptávky. Mechanismus fungování trhu - utváření tržní rovnováhy. Determinanty nabídky a poptávky. Elasticita. Renta výrobců a spotřebitelů.
+Užitečnost statku, užitek, mezní užitek. Kardinalistická a ordinalistická teorie. Rovnováha spotřebitele.
+Produkční funkce, produkce a náklady v krátkém období. Produkční funkce, produkce a náklady v dlouhém období. Zisk firmy - účetní, ekonomický. Alternativní cíle firmy.
+Chování firem v dokonalé konkurenci. Podmínky dokonalé konkurence. Optimální výše produkce. Nabídková a poptávková funkce.
+Tržní chování firmy v nedokonalé konkurenci, podmínky nedokonalé konkurence. Druhy nedokonalé konkurence, Oligopol, typy.
+Monopolistická konkurence. Optimální výše produkce. Vytváření zisku v krátkém a dlouhém období.
+Monopol - podstata, příčiny vzniku, optimální rozsah produkce, maximalizace zisku monopolu. Cenová diskriminace.
+Trh výrobních faktorů, poptávka po výrobních faktorech.
+Míry výkonnosti ekonomiky, metody měření HDP. Nominální a reálný produkt. Míry cenové úrovně. Porovnání hospodářské vyspělosti zemí.
+Peníze, peněžní agregáty. Trh peněz. Formování nabídky a poptávky po penězích v ekonomice. Měnový kurz - podstata, členění, dopady na export a import. Platební bilance - podstata, členění.
+Rovnovážný produkt v dvousektorovém modelu produkt - výdaje. Jednoduchý výdajový multiplikátor. Spotřební a úsporová funkce. Rovnovážný produkt v třísektorovém a čtyřsektorovém modelu produkt - výdaje. Multiplikátor. Rovnovážný produkt.
+Hospodářské politiky. Fiskální politika a její nástroje pomocí modelu IS-LM. Monetární politika a její nástroje pomocí modelu IS-LM.
+Inflace, měření, příčiny. Dopady inflace. Cílování inflace. Inflace a přijetí eura. Trh práce, příčiny, formy a důsledky nezaměstnanosti. Phillipsova křivka.
+Agregátní nabídka a agregátní poptávka. Analýza křivek nabídky a poptávky. Rovnováha na makroekonomické úrovni.
+Postavení veřejného sektoru v národním hospodářství. Zdůvodnění existence veřejného sektoru v tržní ekonomice z hlediska ekonomického uspokojování potřeb. Struktura a rozsah veřejného sektoru. Faktory ovlivňující strukturu a rozsah veřejného sektoru.
+Veřejné statky – charakteristika, klasifikace veřejných statků (čistě veřejné statky, částečně veřejné statky, veřejně poskytované soukromé statky), podmínky efektivní nabídky veřejných statků, nástroje přidělování veřejných statků, problém jednotné spotřeby.
+Funkce veřejného sektoru, jejich definice a uplatnění v rámci veřejné správy (alokační, distribuční, stabilizační, regulační, stimulační, kontrolní).
+Veřejná volba jako nástroj rozhodování ve veřejném sektoru – podstata, formy veřejné volby, základní postupy a problémy veřejné volby.
+Rozpočtová soustava. Rozpočtový proces, rozpočtová skladba. Modely soustav rozpočtů – zásady fiskálního federalismu. Rozpočty měst a obcí – struktura jejich příjmů a výdajů.
+Základy daňové teorie. Daňové principy. Princip spravedlnosti ve zdanění. Efektivnost zdanění. Daňové břemeno a mrtvá váha. Daňová distorze.
+
+Ekonomie a řízení – okruhy otázek (program INFO)
+KE, KET, KMM 
+Poptávka, nabídka (základní tvar, funkce, determinanty). Utváření rovnováhy na trhu, rovnovážný bod, tržní oscilace, renta výrobců a spotřebitelů. Elasticita poptávky, nabídky (druhy, co vyjadřuje).
+Základní a alternativní cíle firmy. Zisk účetní a ekonomický. Rozdíl mezi krátkým a dlouhým obdobím. Zisk v krátkém a dlouhém období.
+Produkční funkce, nákladová funkce (co vyjadřují, mezní a průměrné veličiny). Podstata maximalizace zisku, maximalizace tržeb.
+Dokonalá, monopolistická konkurence (podstata, zisk v krátkém a dlouhém období) Vysvětlení pojmů oligolopol, duopol, monopol, monopson. Úřad pro ochranu hospodářské soutěže (význam, činnost). 
+Základní makroekonomické ukazatele. Hrubý domácí produkt, národní produkt, čistý produkt. Rozdíl mezi reálným a nominálním. Metody výpočtu HDP.
+Inflace (podstata, druhy podle tempa růstu, měření). Míra nezaměstnanosti, druhy nezaměstnanosti podle příčin vzniku, dopady nezaměstnanosti, aktivní a pasivní politika zaměstnanosti.
+Peníze (vývojové stupně, formy a význam peněz). Fiskální a monetární politika (tvůrce, nástroje, cíle). Úloha centrální banky.
+Majetek podniku – vymezení, druhy majetku a jejich význam, náklady vyvolané existencí a využíváním majetku, postup hodnocení vývoje a struktury majetku, vztah odpisů k nákladům a zisku, ukazatele hodnotící obrat dlouhodobého a krátkodobého majetku.
+Kapitál podniku  - vymezení, druhy kapitálu a jejich význam, postup hodnocení vývoje a struktury kapitálu, cena vlastního a cizího kapitálu a optimalizace nákladů na kapitál, zadlužení, překapitalizování a podkapitalizování podniku a jejich důsledky. Likvidita – význam a ukazatele.
+Výnosy, náklady a zisk podniku – vymezení, hodnocení vývoje a struktury. Rentabilita – vymezení, ukazatele rentability, faktory ovlivňující rentabilitu. Cash flow.
+Kalkulace nákladů na výkony – obsah a využití úplných kalkulací a neúplných kalkulací nákladů, analýza bodu zvratu a její využití při plánování výnosů, nákladů, zisku.
+Investice v podnicích – druhy, způsoby pořízení, vymezení investičních výdajů a ekonomických efektů, statické a dynamické ukazatele ekonomické efektivnosti.
+Mzdová soustava podniku – právní úprava podmínek pro stanovení mezd v podniku, pevná a pohyblivá složka mzdy, formy mzdy a jejich použitelnost, mzdové a ostatní osobní náklady podniku. Přidaná hodnota podniku. Vztah osobních nákladů přidané hodnoty.
+Charakteristika managementu, řízení jako informační působení, řízení jako proces, řízení jako činnost.
+Organizační systém podniku, jeho dekompozice a vztahy mezi jeho subsystémy.
+Organizační a řídící struktura podniku, jejich prvky, typy těchto struktur, řídící kapacita a faktory určující její velikost.
+Osobnost manažera, role manažera, manažerské funkce a jejich vymezení.
+Styl řízení, jeho základní typy, individuální styl řízení, vnitřní a vnější stránka stylu, princip delegování, jeho formální a obsahová stránka.
+Vedení lidí, motivace jako způsob vedení, motivační mechanismus, motivační teorie.
+Racionalizace řídící práce manažera, komunikace v organizaci, její význam, formy komunikace, komunikační kanály, komunikační modely.
+
+Aplikovaná ekonomie a management – okruhy otázek (program SYI)
+KMM, KE, KOF, 
+Kapitálová a majetková podstata podniku a její reprodukce. Kapitál podniku – vlastní, cizí, dlouhodobé a krátkodobé zdroje.
+Investice podniku. Ekonomická efektivnost investic. Statické a dynamické metody hodnocení efektivnosti investic.
+Náklady podniků, jejich klasifikace. Kalkulace nákladů – vybrané druhy kalkulací, výhody, problémy, uplatnění.
+Produkce, výnosy, hospodářský výsledek podniku. Výkaz zisku a ztrát.
+Financování podniku, běžné a mimořádné financování, metody hodnocení finanční situace podniku. Finanční analýza podniku.
+Peníze, peněžní zásoba, peněžní agregáty, úroková míra. 
+Úloha ČNB, nástroje regulace depozitní a úvěrové politiky.
+Cenné papíry.
+Investování na finančním trhu. Investiční portfolio.
+Marketing, podstata, vývojové koncepce.
+Marketingové prostředí, proces marketing managementu, systémy a funkční aplikace situační analýzy.
+Trh: definice, popis, stanovení potenciálu.
+Spotřební chování, STP marketing, přístupy k stanovení positioningu.
+Marketingový výzkum, metody a techniky sběru dat v potravinářství.
+Marketingový mix.
+Marketingové strategie, portfolio management – produkty, trhy/zákazníci, SBU.
+Koncepce a úkoly řízení lidských zdrojů v podnicích – vymezení základních pojmů. Trh práce. Nezaměstnanost. Organizace řízení lidských zdrojů v podnicích.
+Zajištění a stabilizace zaměstnanců – vyhledávání a výběr zaměstnanců, adaptace, motivace a stimulace, odměňování.
+Rozvoj zaměstnanců – hodnocení zaměstnanců, vzdělávání a rozvoj, řízení pracovní mobility, profesní kariéra a osobní rozvoj.
+Zaměstnanecké vztahy v podniku – praxe zaměstnaneckých vztahů, komunikace. Procesy participace a identifikace. Kolektivní vyjednávání. Pracovní a sociální klima.
+
+Základy řízení – okruhy otázek (program EAM)
+KMM, KOF, KE
+
+Trh a obchod, obchod jako systém, význam obchodu, potřeby, obchodní subjekty, obchodní operace. 
+Zboží, obchodní sortiment, klasifikace zboží, identifikace zboží, značka a ochranná známka v obchodě.
+Infrastruktura vnitřního obchodu (osídlení, maloobchod a velkoobchod, maloobchodní síť, provozní jednotky velkoobchodu a maloobchodu, nákupní spád, pohostinství a cestovní ruch).
+Cenová tvorba, konstrukce ceny v obchodě (obchodní marže), cenové pohyby, klamavé cenové praktiky.
+Obchodní logistika, distribuční politika, distribuce zboží, logistické metody v systému vnitřní obchod. Internetový obchod a jeho role v obchodní činnost.
+Základy marketingového pojetí obchodní činnosti. Strategie, techniky a formy prodeje. Etika v obchodní činnosti. Propagace, public relations a reklama v obchodní činnosti.
+Majetková podstata podniku a reprodukce majetku, druhy majetku, jejich vymezení a význam, náklady reprodukce majetku, hodnocení struktury a vývoje majetku, daňový štít odpisů, vztah odpisů a výsledku hospodaření podniku, ukazatelé hodnotící obrat krátkodobého majetku.
+Kapitálová podstata podniku, druhy kapitálu a jejich význam, externí a interní zdroje financování majetku, financování provozních výdajů, hodnocení vývoje a struktury kapitálu, stanovení ceny vlastního a cizího kapitálu, samofinancování, zadlužení, hodnocení financování dlouhodobého majetku (překapitalizování/podkapitalizování), pojem pracovní kapitál, likvidita.
+Výnosy, náklady a výsledek hospodaření podniku, vymezení a hodnocení vývoje a struktury, pojem obchodní marže, přidaná hodnota, obrat podniku, druhy tržeb podniku, ukazatele rentability, cash flow, faktory ovlivňující rentabilitu.
+Kalkulace nákladů v podniku, klasifikace nákladů, pojem fixní a variabilní náklady, kalkulace nákladů, nákladové funkce.
+Investice v rámci podniku – druhy, způsoby pořízení investic, investiční fáze a provozní fáze, investiční náklady, provozní náklady a provozní výnosy v rámci plánování projektu/cash flow investice, statické a dynamické metody hodnocení investic.
+Mzdový systém podniku – mzdové a ostatní osobní náklady podniku, pevná a pohyblivá složka mzdy, formy mzdy a jejich využitelnost v praxi, pracovní smlouva, dohody, vztah osobních nákladů a přidané hodnoty.
+Ekonomické aspekty tvorby cen v podniku – vnitropodnikové ocenění zásob, nákladová cena se ziskovou přirážkou, kalkulační vzorec, cena dle konkurence, vliv odběratelů na výši odbytové ceny prvovýrobce, výrobková vertikála, cenové nůžky, hodnota cen vstupů a výstupů.
+Proces řízení, jeho fáze, stadia cyklu řízení a vzájemné prolínání fází a cyklu řízení.
+Organizační systém (podnik), jeho prvky, vazby, subsystémy 1. řádu a charakteristika chování organizačního systému (vstupy, transformace vstupů na výstupy, výstupy z organizačního systému).
+Organizační a řídící struktury – rozdíly mezi nimi, jejich vzájemná podmíněnost a typy těchto struktur.
+Styl řízení, faktory ovlivňující styl řízení, přirozený a vynucený styl řízení, druhy stylu řízení v závislosti na dosažení cílů a zájmu o lidi a jejich charakteristika.
+Pracovní motivace – vnitřní motivace pracovníků, vnější stimuly sociální motivace a Herzbergova teorie motivace, odlišnosti motivace pro zvýšení výkonu a motivace pro setrvání v podniku. 
+Komunikace v řídící práci, obecné schéma komunikace, řídící příkazy a způsoby jejich komunikace (předávání), formální a neformální komunikace, podnikové porady. Konflikty – typy, způsoby řešení.
+Rozhodování, rozhodovací proces, kritéria rozhodování, objektivní a subjektivní rozhodování, intuitivní rozhodování, udělení pravomocí pro určitá řídící rozhodnutí a odpovědnost řídícího pracovníka. 
+
+Ekonomicko matematické metody a statistika – okruhy otázek (program EAM)
+KIT, KSI, KS
+
+Modely lineárního programování. Formulace a vlastnosti modelu, možnosti grafického řešení. Simplexový algoritmus, postoptimalizační analýzy. Aplikace modelů lineárního programování
+Dopravní modely. Jednostupňová dopravní úloha, možnosti řešení, analýza perspektivnosti a propustnosti dopravních tras. Přiřazovací problém, okružní dopravní problémy
+Modely teorie grafů. Graf, typy grafů. Základní grafové algoritmy (minimální kostra, maximální tok, nejkratší cesta). Úvod do projektového řízení, metoda CPM, analýza časových rezerv v projektu
+Modely konfliktních situací. Teorie rozhodování, přístupy k rozhodování za nejistoty a za rizika. Teorie her a jejich charakteristiky. Hry s konstantním součtem a jejich řešení v oboru čistých a smíšených strategií. Hry s nekonstantním součtem
+Modely vícekriteriálního rozhodování. Vymezení a vlastnosti. Metody stanovení vah kritérií na základě různé informace od rozhodovatele. Metody výběru kompromisní varianty. Vícekriteriální optimalizace
+Pojem efektivnost, přístupy k hodnocení efektivnosti. Metoda DEA. Analýza meziodvětvových vztahů, modely strukturní analýzy.
+Stochastické a simulační modely. Bernoulliho posloupnosti, Poissonovské procesy, Markovské řetězce, systémy hromadné obsluhy. Úvod do systémové dynamiky, diagram kauzálních smyček (CLD), diagram stavů a toků (SFD)
+Výběrová zjišťování. Podstata náhodného výběru. Popis jednorozměrných statistických souborů.
+Teorie odhadu. Bodový a intervalový odhad charakteristik základního souboru.
+Testování statistických hypotéz. Parametrické a neparametrické testy. Použití testů při analýze ekonomických dat.
+Měření závislosti kvantitativních znaků. Regresní model a jeho parametry. Korelační analýza. Jednoduchá a vícenásobná regrese a korelace. Zobecnění výsledků regresní a korelační analýzy.
+Kvalitativní znaky. Analýza v asociačních a kontingenčních tabulkách. Testování. Měření závislosti.
+Časové řady a jejich aplikace při analýze ekonomických jevů a procesů. Trend a sezónnost v časových řadách. Prognózy na základě časových řad.
+Indexní analýza. Individuální a souhrnné indexy. Cenové indexy. Rozklad indexů.
+Informační systémy – technické a programové vybavení počítačů, architektura počítače, operační systémy, typové aplikační programové vybavení. Principy využití dat a informací, reporting. 
+Informační strategie – význam, proces a budování. Charakteristika, vztah a použití dat, informací a znalostí. Competitive Intelligence – principy tvorby, jejich využití, mýty, využití. 
+Informační systémy – rozdělení, popis a vliv na podnik (transakční, manažerské strategické), principy tvorby architektury informačních systémů, její vrstvy a využití v podniku. Charakteristika ERP systémů, Business Intelligence, Customer Relationship Management. 
+Ekonomika informačních systémů – hodnocení ekonomické efektivnosti IS/ICT, způsoby vyjádření přínosů IS/ICT. 
+Outsourcing informačních systémů fáze outsourcingu, důvody využití, výhody a nevýhody zavedení. Cloud computing – rozdělění, typy cloud computingu, význam pro praxi.  
+Systémová integrace – princip a význam systémové integrace, proces integrace informačních systémů a informačních a komunikačních technologií, rizika systémové integrace. Principy využití integrované datové základny.
+Základy řízení – okruhy otázek (program PaA)
+KOF, KMM, KIT
+
+Postavení účetnictví v ekonomice, předmět účetnictví, požadavky na výstupy z účetnictví na jednotlivých úrovních řízení, direktivy EU, upravující harmonizaci účetnictví v mezinárodním měřítku. Zásady vedení řádného účetnictví v ČR. 
+Typy účtových osnov, právní úprava vedení účetnictví podnikatelských subjektů, konstrukce účtové osnovy pro podnikatele, náplň jednotlivých účtových tříd, základní vztahy mezi účtovými třídami.
+Charakteristika dlouhodobého majetku a účtování základních hospodářských operací, které souvisí s jeho pořízením, využíváním a vyřazením z užívání. Charakteristika metod odpisování dlouhodobého majetku, princip daňových a účetních odpisů.
+Charakteristika oběžného majetku a účtování základních hospodářských operací, které souvisí s pořízením a užíváním zásob. Charakteristika zúčtovacích vztahů, účtování základních hospodářských operací v oblasti zúčtovacích vztahů.
+Charakteristika nákladů a výnosů, zásady uplatňované při jejich účtování a vyčíslení zisku před a po zdanění.
+Charakteristika a účtování o základním kapitálu, charakteristika kapitálových fondů, fondů tvořených ze zisku – účtování základních účetních případů, které souvisí s jejich tvorbou a užitím.
+Účetní uzávěrka – postupy účtování, účetní závěrka – obsah, rozsah, zveřejňování.
+Charakteristika managementu, řízení jako informační působení, řízení jako proces, řízení jako činnost.
+Organizační systém podniku, jeho dekompozice a vztahy mezi jeho subsystémy.
+Organizační a řídící struktura podniku, jejich prvky, typy těchto struktur, řídící kapacita a faktory určující její velikost.
+Osobnost manažera, role manažera, manažerské funkce a jejich vymezení.
+Styl řízení, jeho základní typy, individuální styl řízení, vnitřní a vnější stránka stylu, princip delegování, jeho formální a obsahová stránka.
+Vedení lidí, motivace jako způsob vedení, motivační mechanismus, motivační teorie.
+Racionalizace řídící práce manažera, komunikace v organizaci, její význam, formy komunikace, komunikační kanály, komunikační modely.
+Informační systémy – technické a programové vybavení počítačů, architektura počítače, operační systémy, typové aplikační programové vybavení. Principy využití dat a informací, reporting. 
+Informační strategie – význam, proces a budování. Charakteristika, vztah a použití dat, informací a znalostí. Competitive Intelligence – principy tvorby, jejich využití, mýty, využití. 
+Informační systémy – rozdělení, popis a vliv na podnik (transakční, manažerské strategické), principy tvorby architektury informačních systémů, její vrstvy a využití v podniku. Charakteristika ERP systémů, Business Intelligence, Customer Relationship Management. 
+Ekonomika informačních systémů – hodnocení ekonomické efektivnosti IS/ICT, způsoby vyjádření přínosů IS/ICT. Zajištění bezpečnosti dat a informací v informačních systémech..  
+Outsourcing informačních systémů fáze outsourcingu, důvody využití, výhody a nevýhody zavedení. Cloud computing – rozdělění, typy, význam pro praxi.  
+Systémová integrace – princip a význam systémové integrace, proces integrace informačních systémů a informačních a komunikačních technologií, rizika systémové integrace. Principy využití integrované datové základny. 
+Právo v podnikání – okruhy otázek (program PaA)
+KPr
+Pojem právo, dualismus práva, právo soukromé a veřejné, prameny práva, právní řád ČR. 
+Právní norma, platnost, účinnost, působnost. Aplikace a interpretace právních norem.
+Obecná charakteristika občanského práva, vztah k jiným právním odvětvím, základní zásady soukromého práva.
+Občanskoprávní vztahy, subjekty občanskoprávních vztahů (osoby právnické, osoby fyzické), právní osobnost, svéprávnost, spotřebitel, podnikatel.
+Právní jednání, forma právních jednání, absolutní neplatnost, relativní neúčinnost. 
+Právní události, čas, jako právní skutečnost, promlčení, prekluze. 
+Věcná práva, kategorizace věcí podle OZ, práva k věci cizí, služebnosti, zástavní, zadržovací právo.  
+Vlastnictví. Nabývání a pozbývání vlastnického práva, omezení vlastnického práva, spoluvlastnictví, převod vlastnického práva k nemovitosti. 
+Závazkový právní vztah.  Vznik, změna, zánik, zajištění závazku. 
+Odpovědnost za újmu, objektivní a subjektivní odpovědnost, předsmluvní odpovědnost, odpovědnost za újmu v právu veřejném.
+Obchodní společnosti podle zákona o obchodních korporacích, druhy společností. Osobní a kapitálové společnosti – charakteristika, rozdíly.
+Vybrané typy smluv dle občanského zákoníku – smlouva nájemní, kupní, darovací, smlouva o zprostředkování, smlouva o dílo. 
+Nekalá soutěž a její právní úprava, druhy nekalé soutěže. 
+Podnikání. Živnostenské a neživnostenské podnikání. 
+Právní úprava pracovního práva, pojem závislé práce. Dohoda o pracovní činnosti a dohoda o provedení práce.
+Vznik, změna a skončení pracovního poměru, nároky z neplatného ukončení pracovního poměru.
+Odpovědnost za škodu v pracovním právu, obecná a zvláštní odpovědnost z pohledu zaměstnance a zaměstnavatele. 
+Základní právní úprava občanského soudního řízení, řízení sporné a nesporné, žaloba, druhy rozhodnutí soudů, opravné prostředky. 
+Ústavní právo, dělba moci dle Ústavy (zákonodárná, výkonná, soudní), Ústavní soud. 
+Správní právo, státní správa, územní samospráva, správní řízení. 
+Kvantitativní metody – okruhy otázek (program INFO)
+KSI, KS
+
+Systémový přístup, systémová analýza a její kroky, definice systému.
+Význam a postup matematického modelování, definice a struktura modelu.
+Systémová dynamika.
+Lineární optimalizační modely a jejich praktické aplikace.
+Dopravní a přiřazovací modely
+Teorie rozhodování, rozhodovací modely, modely teorie her.
+Vícekriteriální rozhodování, vícekriteriální analýza variant a vícekriteriální optimalizace.
+Modely teorie grafů, CPM, MPM, PERT.
+Projektové řízení, principy a nástroje.
+Teorie omezení a lidský činitel v projektovém řízení.
+Softwarové nástroje jako podpora při řízení projektů.
+Simulační modely a postupy
+Markovské řetězce a modely teorie hromadné obsluhy
+Náhodný jev, náhodná veličina.  Náhodné jevy, definice pravděpodobnosti, věty o sčítání a násobení pravděpodobností. Číselné charakteristiky náhodné veličiny, rozdělení náhodných veličin.
+Základní statistické charakteristiky. Výběrové techniky. Průzkumová analýza dat.
+Teorie odhadu. Základní principy, bodový odhad, intervalový odhad průměru základního souboru, rozptylu základního souboru, parametru  p alternativního rozdělení.
+Testování statistických hypotéz. Parametrické testovací postupy.
+Neparametrické testy.
+Regresní a korelační analýza. Jednoduchá lineární regrese a korelace, nelineární regrese a korelace, vícenásobná regrese a korelace, pořadová korelace.
+Analýza časových řad. Základní charakteristiky, analýza periodických časových řad, analýza neperiodických časových řad.
+
+Výpočetní systémy a informační inženýrství – okruhy otázek (program INFO)
+KIT, KII
+
+1. Základní (von Neumanova) architektura počítače. Formát instrukce, instrukční sada. Princip činnosti současných počítačů OS a HW – procesor, registry, přerušení a jeho správa, I/O operace, struktura a hierarchie pamětí, DMA, základní deska. 
+2. Výpočetní model a operační systémy (batch procesing, host/terminál, klient/server, cloud computing). 
+3. Systémy a aplikace na platformě World Wide Web. Princip, činnost, správa. Značkovací, skriptovací a programovací jazyky, technologie na straně klienta/serveru. 
+4. Služby OS a generické komponenty OS, správa procesů, správa pamětí, I/O systému, správa vnější paměti, souborů, networking, ochrany, interpret příkazů, GUI. 
+5. Architektura OS a principy výstavby OS, hierarchická vrstvená architektura, mikrojádro, modulová architektura, virtuální stroje. 
+6. Role operačního systému u současného počítače. Základní typy (rozdělení operačních systémů) a principy jejich činnosti. Multitasking (kooperativní, preemptivní), multithreading. Porovnání operačních systémů třídy MS Windows a Unix/Linux. 
+7. Operační systémy MacOS, Linux – distribuce, operační systémy pro mobilní zařízení (iOS, Android, Windows), další systémy (firmare, BIOS, UEFI). 
+8. Operační systémy a SW pro jednoúčelová zařízení, speciální zařízení, Smart... (SmartHome, SmartCar, SmartHealth, SmartWearables). 
+9. Souborové systémy, správa uživatelů, uživatelská práva, správa procesů, interprety v OS. 
+10. Síťové prvky, síťová řešení a jejich realizace, topologie sítí. 
+11. Vlastnosti algoritmu. Strukturované algoritmy. Zápis algoritmu pomocí plošných strukturovaných diagramů. 
+12. Řídící struktury. Podmínky if/else/else if. Větvení pomocí switch. Cyklus typu while. Cyklus typu do-while. 
+13. Modulární programování. Funkce a parametry funkcí. Návratová hodnota funkce. Rekurze. Proměnné a jejich reprezentace v paměti. Ukazatele - pointry. 
+14. Výroková logika. Výrok. Logická proměnná. Logické spojky a příklady použití. Výrokové formule. 
+15. Statické a dynamické datové struktury. Fronta, zásobník, spojový seznam, strom. 
+16. Relační datový model, relační algebra, relační databázová terminologie, Coddova pravidla. 
+17. Integrita dat, druhy integritních omezení, database triggers. Datová normalizace, redundance dat, normální formy. 
+18. Databázové transakce, smysl a principy, varianty řešení. 
+19. Dotazovací jazyky, předpoklady a principy, SQL, a QBE, standardizace SQL, kritika SQL. 
+20. Relační a objektová databázová řešení, uložení dat, přístup k datům, ochrana dat. 
+
+Systémová analýza a kvantitativní metody – okruhy otázek (program SYI)
+KSI, KS
+
+Systémová věda, definice systému.
+Systémové myšlení, komplexní systémy.
+Systémová dynamika, grafické znázornění systému, druhy proměnných, vazeb a zpětných vazeb.
+Počítačová simulace pro řešení komplexních socioekonomických problémů.
+Dopravní úloha bez tranzitu, okružní dopravní úloha, přiřazovací úloha.
+Alokace kapacit v ploše a v sítích.
+Modely teorie grafů, nejkratší cesta, minimální kostra, maximální tok.
+Vícekriteriální rozhodování, vícekriteriální analýza variant a vícekriteriální optimalizace.
+Modely pro hodnocení efektivnosti. Modely DEA.
+Individuální a skupinové rozhodování, rozhodovací modely.
+Modely konfliktních situací, teorie her.
+Projektové řízení, principy a nástroje.
+Deterministické a stochastické postupy časové analýzy projektů.
+Teorie omezení a lidský činitel v projektovém řízení.
+Techniky popisné statistiky.
+Náhodná veličina. Přehled nejdůležitějších pravděpodobnostních rozdělení.
+Statistická indukce (odhady charakteristik základního souboru, testování statistických hypotéz).
+Regresní a korelační analýza.
+Testování závislosti kvalitativních znaků.
+Metody analýzy časových řad.
+ Aplikovaná informatika – okruhy otázek (program SYI)
+KIT, KII
+
+Relační datový model, relační algebra, relační databázová terminologie, Coddova pravidla.
+Datová normalizace, redundance dat, normální formy (NF). Integrita dat, druhy integritních omezení (IO), database triggers. 
+Databázové transakce, smysl a principy, varianty řešení.
+Metody návrhu (modelování) bází dat. Dotazovací jazyky, jejich předpoklady a principy, SQL, standardizace a kritika SQL.
+Relační a objektová databázová řešení, přístupy k datům, ochrana dat.
+Princip značkovacích jazyků, důvody vzniku a aktuálně používané značkovací jazyky, značkovací jazyk HTML5 – sémantika, struktura webové stránky, struktura obsahu v HTML5, základní značky.
+Definiční nástroje pro stanovení omezení v XML dokumentu.
+Transformační nástroje pro XML, možnosti využití.
+XML jazyky pro práci s obsahem (grafika, textové dokumenty).
+Data v XML dokumentech - použití a doporučení pro tvorbu XML dokumentů.
+CSS, syntaxe, selektory, vlastnosti, hodnoty, responzivní layout, Media Queries, pokročilé formátování, Flexbox, Grid, CSS metodiky, CSS frameworky.
+WWW, princip WWW, Webový server, webový prohlížeč, princip hypertextu, URL, protokoly, cookies, hosting, domény, DNS, dynamické technologie pro web. 
+Grafika a grafické formáty pro web – rastrová grafika a vektorová grafika, vlastnosti, použití, barevné modely RGB a CMYK, rozlišení.
+Přístupnost, použitelnost a UX včetně metodik, pravidel a testování.
+Internetová reklama, princip, terminologie, měření návštěvnosti, internetový marketing, SEM, optimalizace pro vyhledávače, SEO, princip vyhledávačů.
+Informační systém, podnikový informační systém, transakční, manažerské, ERP, CRM, SCM. Strategické, systémy pro podporu rozhodování.
+Informační strategie – význam, proces budování, význam dat, informací, znalostí a zpráv (CI), problémy při řešení informační strategie.
+Postupy při projektování informačních systémů, životní cyklus IS. Architektura IS a její vrstvy. 
+Outsourcing IS, cloud computing, výhody, nevýhody.
+Systémová integrace – význam, proces integrace IS, rizika systémové integrace. Ekonomika informačních systémů.
+Základy řízení – okruhy otázek (program VSRR)
+KMM, KPs, KOF
+
+Charakteristika řízení, úkoly řízení, řízení jako informační působení, řízení jako proces, řízení jako činnost. Výkonnostní kompetence řídících pracovníků.
+Organizační systém podniku, jeho dekompozice, vztahy mezi subsystémy. Charakteristika řídícího subsystému.
+Organizační a řídící struktura podniku, typy organizačních struktur klasických a moderních, řídící kapacita a faktory, které ji ovlivňují.
+Osobnost manažera, role manažera, manažerské funkce (význam a uplatnění), manažerské dovednosti.
+Styl řízení, faktory ovlivňující styl řízení, základní typy stylu řízení a jejich charakteristika. Proces delegování (formální a obsahová stránka). Proces komunikace v podniku, komunikace vnější (e-Government).
+Motivační proces, využití motivačního procesu v řízení, model motivačního působení, motivační teorie.
+Racionalizace řídící práce, úloha rozhodovacího procesu (podpory rozhodování), principy time managementu.
+Vědecká psychologie - psychologické směry (včetně jejich hlavních metod)
+Psychologické obory. Metody psychologie.
+Psychologické dimenze ontogeneze jedince, vliv zrání a učení. 
+Obecné zákonitosti psychiky. Vědomí. Schopnosti.
+Rysy osobnosti. Motivace. Stres.
+Začleňování člověka do společnosti. Principy chování člověka ve společnosti a skupině.
+Sociální komunikace, sociální konflikt.
+Postavení a funkce neziskových organizací v rámci národního hospodářství. Právní rámec pro vedení účetnictví vybraných účetních jednotek.
+Charakteristika organizačních složek státu a územních samosprávných celků. Charakteristika účetního systému vybraných účetních jednotek. Struktura účetních výkazů. Konstrukce směrné účtové osnovy pro organizační složky státu, územně samosprávné celky a příspěvkové organizace. Náplň jednotlivých účtových tříd, základní vztahy mezi účtovými třídami.
+Charakteristika dlouhodobého majetku a účtování základních operací, které souvisí s jeho pořízením, odpisováním a vyřazením z užívání. Charakteristika zásob a účtování základních operací s nimi spojených. 
+Charakteristika a účtování zúčtovacích vztahů, charakteristika a účtování transferů. Charakteristika a účtování položek jmění a fondů. 
+Charakteristika a účtování příjmů a výdajů územně samosprávných celků. 
+Charakteristika neziskových organizací soukromého sektoru – nadace, nadační fondy, veřejně prospěšné organizace. Právní rámec vedení účetnictví. Struktura směrné účtové osnovy. Obsahová náplň účtových tříd.
+
+Právní a sociální vědy – okruhy otázek (program VSRR) 
+KHV, KPr
+Zásady občanského práva, charakteristika občanskoprávních vztahů, subjekt (osoba fyzická, právnická, osoba blízká, podnikatel), objekt, obsah, právní osobnost, svéprávnost, podnikatel prameny občanského práva, ochrana občanskoprávních vztahů, právní skutečnosti v občanském právu, promlčení, prekluze, čas jako právní skutečnost (lhůty, doby).
+Charakteristika absolutních majetkových práva, vlastnictví, držba, vydržení, věcná práva (dělení věcí), práva k věci cizí, druhy spoluvlastnictví, režim věcí nalezených a opuštěných, sousedská práva.
+Právní odpovědnost za škodu (újmu), obecná, zvláštní, konstrukce odpovědnosti v právu, objektivní a subjektivní odpovědnost, odpovědnost za bezdůvodné obohacení v právu soukromém, veřejném, pracovním.
+Charakteristika relativních majetkových vztahů – závazkové právo, vznik, změna, zánik závazku, zajištění závazku, charakteristika smlouvy kupní, smlouva kupní na nemovitost, katastr nemovitostí, nájemní smlouva, smlouva o dílo. 
+Charakteristika správního řízení, principy správního řízení, postavení účastníka řízení, stadia správního řízení, řádné a mimořádné opravné prostředky, správní trestání. Správní právo, předmět, subjekty, obsah. 
+Právní úprava pracovně právních vztahů, vznik, změna a zánik pracovního poměru, dohoda o provedení práce, dohoda o pracovní činnosti. 
+Veřejná správa v ČR. Ústřední státní správa, obecní a krajské zřízení. 
+Byrokracie jako racionální správa společnosti (moderní byrokracie podle M. Webera, předpoklady a důsledky rozvinuté byrokratické správy, alternativa k byrokratickým organizacím). New Public Management a jeho kritika.
+Formy vlády a státní zřízení. Ústavní uspořádání ČR, horizontální a vertikální dělba moci. 
+Politické strany a stranické systémy. Volební systémy. Volební systémy v ČR. Reprezentace zájmů v politickém životě ČR. 
+Společnost jako sociální prostor (skupiny a socializace, instituce a organizace, veřejná správa jako specifická instituce a organizace). Společenská změna a její aplikace na vývoj správy (základní pojmy, správa v tradiční a moderní společnosti). 
+Sociologie organizace (vznik, vývoj, přístupy ke studiu organizací). 
+Sociální nerovnost a sociální stratifikace (horizontální a vertikální diferenciace společnosti, rozdílné pohledy na sociální stratifikaci, hierarchická struktura soudobé společnosti a sociální status zaměstnanců veřejného sektoru). 
+Regionální nerovnosti jako sociální problém. Typy regionálních disparit v ČR. Venkovské disparity. Faktory ovlivňující sociální a ekonomickou rozdílnost regionů. 
+Koncept regionalizace. Regiony v ČR. Pojetí (charakteristika) venkova. 
+Modernizace a udržitelnost v regionálním a rurálním rozvoji. Lidský a sociální faktor v rozvoji ("neviditelné" formy kapitálu). 
+Místo a úloha sociálních věd v regionálním rurálním rozvoji. 
+Charakteristika základních dokumentů spojených s regionálním/rurálním rozvojem (Zák. 248/2000 Sb., Strategie regionálního rozvoje, Strategie Evropa 2020, Společný strategický rámec, Dohoda o partnerství, Integrovaný regionální operační program, Operační program Praha - Pól růstu, Programy přeshraniční spolupráce, Program obnovy venkova, Program rozvoje venkova). 
+Regionální/rurální rozvoj jako aktivita (aktéři, cíle, nástroje, objekty). 
+Příprava a zpracování rozvojových projektů (náležitosti, logický rámec). 
+Řízení v regionech – okruhy otázek (program HKS)
+KMM, KPr, KOF
+
+Charakteristika managementu, řízení jako informační působení, řízení jako proces, řízení jako činnost.
+Organizační systém podniku, jeho dekompozice a vztahy mezi jeho subsystémy.
+Organizační a řídící struktura podniku, jejich prvky, typy těchto struktur, řídící kapacita a faktory určující její velikost.
+Osobnost manažera, role manažera, manažerské funkce a jejich vymezení.
+Styl řízení, jeho základní typy, individuální styl řízení, vnitřní a vnější stránka stylu, princip delegování, jeho formální a obsahová stránka.
+Vedení lidí, motivace jako způsob vedení, motivační mechanismus, motivační teorie.
+Racionalizace řídící práce manažera, time management.
+Komunikace v organizaci, její význam, formy komunikace, komunikační kanály, komunikační modely.
+Zásady občanského práva, charakteristika občanskoprávních vztahů, subjekty, objekt, obsah, právní osobnost, svéprávnost, prameny občanského práva, ochrana občanskoprávních vztahů, právní skutečnosti v občanském právu, promlčení prekluze, čas jako právní skutečnost (lhůty, doby).
+Absolutní majetková práva, vlastnictví, držba, vydržení, věcná práva, práva k věci cizí, spoluvlastnictví, režim věcí nalezených a opuštěných, sousedská práva. 
+Právní odpovědnost za škodu, obecná, zvláštní, konstrukce odpovědnosti v právu, subjektivní a objektivní odpovědnost, odpovědnost za bezdůvodné obohacení v právu soukromém dle občanského zákoníku, zákoníku práce a v právu veřejném.
+Relativní majetkové vztahy - závazkové vztahy v občanském právu, vznik, změna, zánik závazku, zajištění závazku, kupní smlouva obecně, kupní smlouva na nemovitost, nájemní smlouva, darovací smlouva, smlouva o dílo.
+Právní norma, druhy, struktura, členění, části, platnost, účinnost, působnost, aplikace, interpretace, analogie, právní řád ČR, Sbírka zákonů.
+Kupní smlouva, smlouva o dílo, darovací smlouva, smlouva nájemní – charakteristika, účastníci, specifika. 
+Právní úprava vedení účetnictví, účetnictví v plném a zkráceném rozsahu.
+Účetní výkazy a účetní závěrka.
+Charakteristika systému účetnictví neziskových organizací.
+Nevýdělečné organizace (princip neziskovosti, typy organizací).
+Organizační složky státu (návaznost na státní rozpočet, příjmy a výdaje, organizace, jež mohou zřizovat).
+Územně samosprávní celky (členění, rozpočet, příjmy a výdaje).
+Regionální rozvoj z hlediska společnosti a kultury – okruhy otázek (program HKS)
+KPs, KHV
+
+Věda a filozofie (filozofický způsob tázání, pozitivismus, scientismus). Antropologie a věda (vědeckost disciplíny, obecné problémy společenských věd s důrazem na antropologii; metodologie, hypotézy a fakta, zevšeobecňování výsledků výzkumu).
+Antropologie a terénní výzkum (výzkumné metody, kvalitativní a kvantitativní výzkumné metody, adekvace metod).	
+Studium kultury (kulturní relativismus a determinismus, diachronní a synchronní metody; různé směry studia kultury – evolucionismus, difusionismus, funkcionalismus, strukturalismus).
+Studium kultury ve vztahu k politické moci (kolonialismus, imperialismus, globalizace). Politická geografie (geopolitika – nástroj a proces politické organizace prostoru, stát jako územně politická jednotka, populace, migrace a migrační teorie, mezinárodní migrace, anglická a německá škola, hranice).
+Jazyk, společnost a kultura (lingvistická antropologie, etnolingvistika, sociolingvistika, etnografie řeči, Sapir-Whorfova hypotéza, totalitarismus, propaganda), lingvistický obrat v antropologii (lingvistický strukturalismus, Pražský lingvistický kroužek, francouzský strukturalismus).
+Mezinárodní migrační procesy (klasifikace migračních hnutí, kulturní změny, diaspory).
+Paměť a vzpomínání sociálních skupin (koncepty kolektivní identity, kolektivní paměti, kolektivního traumatu, míst paměti, příklady z moderních dějin).
+Příbuzenské systémy (klasifikace, rozšíření, odvozování původu, endogamie, exogamie), význam genetiky v kulturní a sociální antropologii (základní genetické pojmy, chromozómové abnormality, rasy, eugenika, genografické testy).
+Náboženství jako prvek determinující kulturu (příklady světových náboženství).
+Etnicita a národ (pojem národ, etnikum, atributy etnicity, nacionalismus, různé přístupy ke studiu těchto fenoménů – primordialismus, konstruktivismus).
+Národnostní menšiny v Evropě. Základní přehled evropských států a jejich národnostních menšin, historické hledisko vzniku národnostních menšin.
+Kořeny evropské civilizace (židokřesťanská kulturní tradice, vliv antiky, evropský středověk, románská kultura, gotika, italská renesance a její znaky – renesance, humanismus, baroko – lidová zbožnost a formování tradiční lidové kultury, osvícenské reformy, kultura Evropy v první polovině 19. století, vznik národních kultur).
+Vliv evropské kultury a civilizace na území mimo Evropu (cestopisy, kroniky jako pramenný materiál ke studiu kultury, zámořské objevy, misijní činnost, koloniální říše, přenos evropských politických systémů do mimoevropských zemí, přenos ideologií).
+Sociologie a věda (charakter sociálních jevů, vznik a vývoj sociologie jako vědy, vztahy sociologie k jiným sociálním vědám, empirický výzkum v sociologii).
+Pojmový rámec sociologického studia (příroda-člověk-kultura-společnost, vývoj vztahu příroda-společnost, normativní kultura).
+Společenská změna (základní pojmy, mechanismus společenské změny, tradiční a moderní společnost, fáze vývoje moderní společnosti).
+Sociální skupiny a skupinová struktura společnosti (proces socializace, klasifikace sociálních skupin, instituce, organizace).
+Systém sociální kontroly (normy a deviace, sociologické koncepce výkladu deviací).
+Sociální nerovnost (horizontální a vertikální sociální diferenciace společnosti, analýza sociální nerovnosti, sociální stratifikace, sociální struktura).	
+Sociální jednání (vztah jedinec-společnost v teoriích sociálního jednáni, životní cyklus a životní dráha).

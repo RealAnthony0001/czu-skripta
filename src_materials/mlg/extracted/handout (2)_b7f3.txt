@@ -1,0 +1,615 @@
+=== PAGE 1 ===
+Matematická logika a grafy
+pro PEF ČZU
+Neorientované grafy
+Ing. Jakub Čermák
+Katedra matematiky a fyziky, TF ČZU
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+1 / 27
+=== PAGE 2 ===
+Neorientované grafy
+Motivace
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+2 / 27
+=== PAGE 3 ===
+Motivace
+Spousta úloh se dá popsat jako body a spojnice mezi nimi — města a silnice, lidé a známosti,
+počítače a kabely.
+Podstatné je, co je s čím spojené. K popisu toho využíváme grafy.
+Typické otázky
+Jak spojit všechna místa co nejlevněji?
+Kudy vede nejkratší cesta?
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+Příklady využití (grafů obecně)
+dopravní a logistické sítě, plánování tras,
+počítačové sítě a směrování,
+závislosti mezi úlohami, plánování projektů.
+Navazujeme na relace: graf bez násobných hran je vlastně symetrická relace na neprázdné množině
+vrcholů.
+3 / 27
+=== PAGE 4 ===
+Neorientované grafy
+Úvodní definice
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+4 / 27
+=== PAGE 5 ===
+Graf není graf funkce
+Definice
+Neorientovaný graf G je trojice G = (V, E, p), kde V je neprázdná konečná množina, jejíž prvky
+nazýváme vrcholy, E je konečná množina hran a p je zobrazení, které každé hraně přiřazuje
+jednoprvkovou nebo dvouprvkovou množinu vrcholů, tedy
+p : E → {a, b}|a, b ∈V ,
+určující, které vrcholy daná hrana spojuje.
+Definice
+Hranu e začínající a končící ve stejném vrcholu (p(e)je jednoprvková) nazýváme smyčka.
+Definice
+Graf, ve kterém existují různé hrany e1 a e2, pro které platí p(e1)= p(e2)(tzv. vícenásobné hrany), se
+nazývá multigraf.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+5 / 27
+=== PAGE 6 ===
+Diagram grafu
+Příklad
+Buď G = (V, E, p), kde
+V = {a, b, c, d},
+E = {e1, e2, e3, e4, e5, e6},
+p(e1)= {a, b}, p(e2)= {a, c}, p(e3)= {a, d},
+p(e4)= {b, c}, p(e5)= {b, d}, p(e6)= {c, d}.
+e1
+a b
+Definice
+Konkrétní zobrazení grafu (obrázek na papíře) se
+nazývá diagram grafu.
+e2
+e5
+e3 e4
+d
+c
+e6
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+6 / 27
+=== PAGE 7 ===
+Grafy jsou relace
+V případě, že neuvažujeme vícenásobné hrany:
+Definice (Alternativní definice)
+Neorientovaný graf je symetrická relace E na neprázdné množině V.
+V případě, že neuvažujeme vícenásobné hrany ani smyčky:
+Definice (Alternativní definice)
+Neorientovaný graf je symetrická antireflexivní relace E na neprázdné množině V.
+Definice
+Buď E relace na množině V. Pak se E nazývá antireflexivní, právě tehdy, když x ∈V: (x, x) E.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+7 / 27
+=== PAGE 8 ===
+Prosté grafy
+Definice
+Graf bez smyček a vícenásobných hran se nazývá prostý.
+Úmluva
+V dalším výkladu budeme předpokládat pouze prosté grafy.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+8 / 27
+=== PAGE 9 ===
+Diskrétní a úplné grafy
+Definice
+Graf se nazývá diskrétní, pokud nemá žádnou hranu.
+Definice
+Graf se nazývá úplný, pokud jsou každé dva různé vrcholy spojeny hranou.
+Úmluva
+Diskrétní graf s n vrcholy se obvykle označuje Dn, úplný graf s n vrcholy Kn.
+D4 K4 K5
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+9 / 27
+=== PAGE 10 ===
+Neorientované grafy
+Skóre grafu
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+10 / 27
+=== PAGE 11 ===
+Stupeň vrcholu a skóre grafu
+Definice
+Stupeň vrcholu a, značíme deg(a), je počet hran, které z a vycházejí, čili
+deg(a)= {e ∈E |a ∈p(e)}.
+Věta
+Součet stupňů všech vrcholů libovolného grafu je sudý.
+Definice
+Buď G graf s vrcholy v1, v2, . . . , vn. Pak posloupnost čísel (deg(v1), deg(v2), . . . , deg(vn))nazveme
+skóre grafu G. Dvě skóre považujeme za shodná, pokud se liší pouze pořadím čísel.
+Úmluva
+Skóre zapisujeme obvykle jako nerostoucí posloupnost.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+11 / 27
+=== PAGE 12 ===
+Kdy jsou dva grafy stejné
+Definice
+Grafy G1 = (V1, E1, p1)a G2 = (V2, E2, p2)se nazývají izomorfní, právě tehdy, když existuje vzájemně
+jednoznačné zobrazení I : V1 →V2 splňující
+{a, b}∈p1 (E1)⇔{I(a), I(b)}∈p2 (E2).
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Izomorfní grafy mají stejné vlastnosti:
+Věta
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+Izomorfní grafy mají stejný počet vrcholů, stejný počet hran a stejné skóre.
+1 2
+c
+d
+I
+−→
+4
+3
+a b
+G1
+G2
+I(1)= b, I(2)= a, I(3)= c, I(4)= d; skóre obou grafů je (3, 3, 2, 2).
+12 / 27
+=== PAGE 13 ===
+Existence grafu s daným skóre
+Věta
+Prostý graf s nerostoucím skóre (d1, d2, . . . , dn)existuje právě tehdy, když existuje graf se skóre
+(d′
+2, d′
+3, . . . , d′
+n), kde d′
+i =
+di−1, i ≤d1 +1,
+di, i > d1 +1.
+Příklad
+Radek pozval na oslavu svých narozenin několik svých kamarádů s tím, že mohou přivést i své přítel-
+kyně. Nakonec dorazilo devět lidí (plus Radek). Martin znal překvapivě všechny přítomné, jeho přítel-
+kyně však pouze čtyři. Pavel neznal pouze jednoho z účastníků, Karel i Mojmír znali šest lidí, Filip sedm.
+Magda znala z dřívějška tři z přítomných a Lenka s Monikou pouze dva.
+Určete, kolik maximálně hostů může Radek znát.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+13 / 27
+=== PAGE 14 ===
+Neorientované grafy
+Eulerovské grafy
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+14 / 27
+=== PAGE 15 ===
+Sled, tah a cesta
+Definice
+Posloupnost vrcholů a hran (v0, e1, v1, e2, . . . , en, vn)se nazývá sled, právě tehdy, když
+p(ei)= {vi−1, vi}pro každé i ∈{1, . . . , n}. Délkou tohoto sledu rozumíme číslo n.
+Definice
+Sled, ve kterém se neopakují hrany, nazýváme tah. V případě, že v0 = vn, nazýváme tento tah
+uzavřený, v opačném případě otevřený.
+Definice
+Sled, ve kterém se neopakují vrcholy (s možnou výjimkou prvního a posledního), nazýváme cesta.
+Uzavřená cesta se nazývá kružnice.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+15 / 27
+=== PAGE 16 ===
+Sled, tah a cesta — příklad
+e1 e2
+e1 e2
+a b
+a b c
+a b c
+c a b c
+e1 e2
+a
+b c
+a b c
+e3 e4 e5
+e3 e4 e5
+e3 e4 e5
+e
+d e f
+e6 e7
+e
+f
+d e f
+e6 e7
+f
+d e f
+d e
+e6 e7
+sled tah cesta
+(a, e1, b, e4, e, e4, b, e2, c) je sled,
+opakuje se hrana e4 i vrchol b
+(a, e1, b, e2, c, e5, f, e7, e, e4, b) je sled i tah,
+opakuje se vrchol b, neopakují se hrany
+(a, e3, d, e6, e, e4, b, e2, c, e5, f)
+je sled, tah i cesta,
+neopakují se vrcholy ani hrany
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+16 / 27
+=== PAGE 17 ===
+Souvislost a komponenty
+Definice
+Graf se nazývá souvislý, právě tehdy, když mezi každými dvěma vrcholy existuje cesta.
+Definice
+Maximální souvislé části (potenciálně nesouvislého) grafu se nazývají komponenty.
+souvislý graf nesouvislý graf se dvěma komponentami
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+17 / 27
+=== PAGE 18 ===
+Eulerovský graf
+Definice
+Graf se nazývá Eulerovský, právě tehdy, když v něm existuje (uzavřený či otevřený) tah, který
+obsahuje každou hranu právě jednou. Nazývá se (uzavřený či otevřený) Eulerovský tah.
+Poznámka
+souvislý být musí.
+Eulerovský graf z definice nemusí být vždy souvislý, nicméně Eulerovský graf bez vrcholů stupně 0 již
+Eulerovský graf, který není souvislý
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+18 / 27
+=== PAGE 19 ===
+Eulerovský tah v souvislém grafu
+Věta
+Souvislý graf obsahuje uzavřený Eulerovský tah právě tehdy, když je stupeň všech vrcholů sudý. Pak
+každý Eulerovský tah končí ve stejném vrcholu, ve kterém začíná.
+Věta
+Souvislý graf obsahuje otevřený Eulerovský tah právě tehdy, když mají právě dva vrcholy lichý stupeň.
+Tyto vrcholy jsou pak počáteční a koncový vrchol každého Eulerovského tahu.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+19 / 27
+=== PAGE 20 ===
+Eulerovské grafy — příklad
+Příklad
+Rozhodněte, které z následujících grafů jsou Eulerovské:
+domeček s křížem obálka dvojitý domeček
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+20 / 27
+=== PAGE 21 ===
+Hamiltonovský graf
+Dosud jsme procházeli každou hranou právě jednou, nyní chceme projít každým vrcholem. Jedná se
+proto o problém podobného charakteru jako v případě Eulerovských grafů.
+Definice
+Graf se nazývá Hamiltonovský, právě tehdy, když v něm existuje kružnice, která obsahuje každý vrchol
+právě jednou (s výjimkou prvního a posledního vrcholu, které splývají). Taková kružnice se nazývá
+Hamiltonovská.
+a
+a
+e1
+e5
+e6
+b
+b
+e
+e
+e2
+e7
+e4
+c d
+c d
+e3
+je Hamiltonovský,
+Hamiltonovská kružnice (a, e1, b, e2, c, e3, d, e4, e, e5, a)
+není Hamiltonovský,
+prostřední vrchol by se opakoval
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+21 / 27
+=== PAGE 22 ===
+Neorientované grafy
+Kostry
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+22 / 27
+=== PAGE 23 ===
+Les, strom a listy
+Definice
+Graf se nazývá les, právě tehdy, když je acyklický (= neobsahuje žádnou kružnici).
+Graf se nazývá strom, právě tehdy, když je acyklický a souvislý.
+Vrcholy stupně jedna se nazývají listy.
+Věta
+Buď G graf s n vrcholy.
+Má-li G méně než n−1 hran, pak není souvislý.
+Má-li G více než n−1 hran, pak obsahuje kružnici.
+Důsledek
+Strom s n vrcholy má n−1 hran.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+23 / 27
+=== PAGE 24 ===
+Les, strom a listy — pokračování
+Věta
+Buď G graf s n vrcholy a n−1 hranami. Pak jsou následující vlastnosti ekvivalentní:
+G je souvislý,
+G je acyklický,
+G je strom.
+Věta
+Strom s alespoň dvěma vrcholy má alespoň dva listy.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+24 / 27
+=== PAGE 25 ===
+Podgraf, faktor a kostry
+Definice
+Graf (V′
+, E′
+, p′)se nazývá podgraf grafu (V, E, p), právě tehdy, když V′⊆V, E′⊆E
+a p′(e)= p(e)⊆V′pro každou hranu e ∈E′
+.
+Definice
+Faktor grafu G je podgraf, který obsahuje všechny vrcholy původního grafu G.
+Definice
+Kostra grafu G je faktor grafu G, který je zároveň stromem.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+25 / 27
+=== PAGE 26 ===
+Podgraf, faktor a kostra — příklad
+a
+a
+a
+a
+a
+a
+b
+b
+e
+b
+b
+e
+e
+b
+b
+e
+e
+c d
+c d
+c d
+c d
+c d
+c d
+podgraf faktor kostra
+je podgraf,
+není faktor (chybí vrchol e)
+je faktor, není strom
+je faktor a je stromem,
+(má kružnici, je nesouvislý)
+tedy je to kostra
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+26 / 27
+=== PAGE 27 ===
+Kostry - příklad
+Příklad
+Nalezněte všechny kostry grafu K4 a určete, které z nich jsou izomorfní.
+hvězda (4 kostry)
+1 2
+cesta (12 koster)
+4
+3
+K4
+Graf K4 má 16 koster, ale jen dvě neizomorfní: hvězdu a cestu.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Neorientované
+grafy
+Motivace
+Úvodní definice
+Skóre grafu
+Eulerovské grafy
+Kostry
+27 / 27

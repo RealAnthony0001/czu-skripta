@@ -1,0 +1,439 @@
+=== PAGE 1 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+přednáška 01
+Úvod do principu počítačů
+David Buchtela
+Katedra informačního
+inženýrství
+Úvod do matematické logiky
+1
+=== PAGE 2 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Kontakt
+Ing. David Buchtela, Ph.D.
+katedra informačního inženýrství PEF ČZU
+katedra softwarového inženýrství FIT ČVUT
+❑ místnost: PEF 552 (5.patro)
+❑ telefon: +420 22434 3806
+❑ e-mail: buchtela@pef.czu.cz
+❑ konzultace: středa 10:30 – 12:00
+(jindy po dohodě)
+2
+=== PAGE 3 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Cíl a náplň předmětu
+❑ Cílem předmětu je seznámit se podrobně s principem činnosti současných počítačů
+Von Neumannova typu
+➢ hlavní zaměřením je programové vybavení počítače, strojový kód, algoritmizace a
+strukturovaný návrh programů
+➢ dále seznámení se s hlavními statickými a dynamickými datovými strukturami
+❑ Témata přednášek
+➢ Základy logiky – binární soustava v počítači, výrokový počet a logický důsledek
+➢ Kódování dat v počítači - binární kódy (zabezpečovací, samoopravný), kódování a
+interpretace dat, základní datové typy
+➢ Architektura a princip počítače – Von Neumanova architektura, strojový kód,
+logické instrukce
+➢ Programové vybavení počítače
+• Operační systém – role a rozhraní OS, procesy a spolupráce procesů
+• Aplikační software – principy strukturovaného návrhu algoritmů (programů)
+• Statické a dynamické datové struktury - pole, záznam, objekt, ukazatel,
+spojový seznam, binární strom, …
+➢ Technické vybavení počítače – procesor, paměti, periférní zařízení …
+3
+=== PAGE 4 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Doporučená literatura
+❑ Systém Moodle.czu.cz – kurz Úvod do principů počítačů, klíč k
+zápisu – odpovídá termínu cvičení – např. „pondeli1730“
+❑ Buchtela, D., Vynikarová, D.: Cvičebnice z předmětu Výpočetní
+systémy, Praha: PEF ČZU, 2013, 1. vyd., 123 s., ISBN 978-80-213-
+2017-8
+❑ MILKOVÁ, E., VOBORNÍK, P. Algoritmy: objasnění, procvičení a
+vizualizace základních algoritmických konstrukcí, Praha: Alfa
+Nakladatelství, 2008, 114 s. Informatika studium (Alfa
+Nakladatelství), ISBN 978-80-87197-10-3.
+❑ PONDĚLÍČEK, B., DEMLOVÁ, M.: Matematická logika, Praha: FEL
+ČVUT, 1997,1. vyd., 160 s., ISBN 80-01-01683-8
+❑ Vaníček, J., Papík, M., Pergl, R. a Vaníček, T.: Teoretické základy
+informatiky, Praha, Kernberg Publishing, 2007, ISBN 978-80-
+903962-4-1
+4
+=== PAGE 5 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Zakončení předmětu
+❑ Předmět je zakončen zápočtem a zkouškou
+❑ Podmínky zápočtu
+➢ přiměřená účast na cvičeních
+(dle podmínek cvičícího)
+➢ absolvování všech (3) autotestů v systému Moodle ČZU
+• praktické příklady z probírané problematiky
+• neomezený počet pokusů, je třeba získat plný počet bodů
+❑ Zkouška
+➢ podmínkou je získání zápočtu
+➢ písemná část
+• povinná pro všechny, trvání max. 45 minut
+• poměr teoretických a praktických otázek cca 1:1 z oblastí probíraných
+na přednáškách
+• 2x malá teoretická otázka, 1x praktický příklad, 1x algoritmus
+➢ ústní část
+• podle hodnocení písemné části
+• dobrovolná (hodnocení 1, 2, 3), zbytečná (hodnocení 4)
+5
+=== PAGE 6 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Hodnocení zkoušky
+❑ Hodnocení zkoušky – písemná část
+➢ každá dílčí otázka je hodnocena známkou 1 až 4
+➢ výsledná známka z písemné části = „vážený“ průměr
+• teoretické otázky mají větší váhu než praktické
+• 2x dílčí hodnocení 4 -> celkové hodnocení 4 (bez ohledu na
+ostatní)
+• bere se v úvahu celková úroveň odpovědí
+❑ Hodnocení zkoušky – ústní část
+➢ dobrovolná zkouška – hodnocení 1, 2 nebo 3
+• ústní zkouška se může týkat jakékoliv oblasti probírané na
+přednáškách – nejen z oblastí v písemné části
+• hodnocení lze změnit o libovolný počet stupňů (oběma směry)
+➢ zbytečná – hodnocení 4
+ Pokud se student nedostaví na zapsaný termín a svoji neúčast
+neomluví nejpozději v den konání zkoušky -> hodnocení 4 !!!
+6
+=== PAGE 7 ===
+Buchtela@pef.czu.cz (P01) B-UPP 7
+Úvod do matematické logiky
+=== PAGE 8 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Matematická logika
+❑ Logika
+➢ pochází od řeckého slova logos (slovo, rozum, smysl)
+→ logika je vědecká disciplína o správném uvažování (usuzování)
+➢ Matematická (formální) logika neřeší zda předpoklady, z kterých
+vycházíme, jsou pravdivé, ani zda výsledek uvažování je ve shodě se
+skutečností, ale pouze zda závěr vyplývá z daných předpokladů
+❑ Uplatnění matematické logiky
+➢ nutná k přesnému matematickému vyjadřování, k formulaci
+matematických vět a ke konstrukci jejich důkazů
+➢ při analýze a syntéze (konstrukci) elektronických logických obvodů,
+které jsou základními prvky současných počítačů
+➢ při konstrukci rozhodovacích podmínek při návrhu softwaru
+• strojový kód procesoru vyhodnocuje podmínky pomocí logických
+instrukcí
+8
+=== PAGE 9 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Výrokový počet
+❑ Výrokový počet – studium závislosti pravdivostní hodnoty
+složeného výroku na způsobu spojení a na pravdivostních
+hodnotách jednotlivých výroků.
+❑ Výrok – každá oznamovací věta (sdělení), o které lze
+rozhodnout, zda je pravdivá či nepravdivá
+výrokem je: Prší.
+Svítí sluníčko.
+výrokem není: Kéž by pršelo!
+Pro celé číslo x platí, že x > 3.
+❑ Pravdivostní hodnoty:
+pravda (true) – značíme 1 nebo t
+nepravda (false) – značíme 0 nebo f
+9
+=== PAGE 10 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Výroky
+❑ Elementární výrok (logická nebo výroková proměnná)
+➢ základní výrok, jehož struktura se dále nedělí
+➢ značíme malými písmeny: a,b,c,…,x,y,z
+➢ např.: a: Prší.
+b: Vezmu si deštník.
+c: Svítí sluníčko.
+❑ Složený výrok (logická nebo výroková formule)
+➢ spojení elementárních výroků pomocí závorek
+a logických spojek
+➢ značíme velkými písmeny: A,B,C,…,X,Y,Z
+➢ např.: X: Prší a nesvítí sluníčko.
+Y: Jestliže svítí sluníčko, nevezmu si deštník.
+10
+=== PAGE 11 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Vybrané logické spojky
+11
+Spojka Význam Značka Příklad
+negace „není pravda, že“ Není pravda, že prší. (Neprší)
+konjunkce „a (zároveň)“  Prší a svítí sluníčko.
+disjunkce „nebo“  Prší nebo svítí sluníčko.
+implikace „jestliže … , pak“ , → Jestliže prší, vezmu si deštník.
+ekvivalence „právě tehdy, když“ ,  Prší právě tehdy, vezmu-li si
+deštník.
+nonekvivalence „nestejnost;
+vylučující nebo“  Buď prší nebo svítí sluníčko.
+Shefferův
+operátor
+„není pravda, že … a
+…“ 
+Není pravda, že prší a svítí
+sluníčko.
+(Neprší nebo nesvítí sluníčko.)
+Piercova šipka „není pravda,
+že … nebo …“ 
+Není pravda,že prší nebo svítí
+sluníčko.
+(Neprší a ani nesvítí sluníčko.)
+=== PAGE 12 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Pravdivostní funkce
+❑ Pravdivostní funkcí f ( p1 , p2 , . . . pn ) proměnných
+p1 , p2 , . . . pn rozumíme zobrazení {0,1}n → {0,1}
+„Pro každou kombinaci ohodnocení n vstupních
+dvouhodnotových {0,1} proměnných generuje výstupní
+hodnotu 0 nebo 1“
+❑ Každá formule generuje určitou pravdivostní funkci
+❑ Pravdivostní funkce se obvykle zapisuje ve formě
+pravdivostní tabulky
+12
+=== PAGE 13 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Pravdivostní funkce vybraných logických operací
+❑ unární spojky → f(a)
+➢ negace ()
+❑ binární spojky → f(a,b)
+➢ konjunkce (), disjunkce (), implikace (→), ekvivalence ()
+➢ nonekvivalence (), Shefferův op. (), Piercův op. ()
+13
+a a
+0 1
+1 0
+a b a  b a  b a → b a  b a  b a  b a  b
+0 0 0 0 1 1 0 1 1
+0 1 0 1 1 0 1 1 0
+1 0 0 1 0 0 1 1 0
+1 1 1 1 1 1 0 0 0
+=== PAGE 14 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Tautologie a kontradikce
+❑ Tautologie T, 1 generuje f(a,b):
+„tautologie (formule T) je pravdivá pro všechna ohodnocení
+proměnných a a b, tj. vždy nabývá hodnotu 1“
+❑ Kontradikce F, 0 generuje f(a,b):
+„kontradikce (formule F) je nepravdivá pro všechna
+ohodnocení proměnných a a b, tj. vždy nabývá hodnotu 0“
+14
+a b T F
+0 0 1 0
+0 1 1 0
+1 0 1 0
+1 1 1 0
+=== PAGE 15 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Vyhodnocení logické formule
+❑ Vyhodnocením logické formule f je myšleno sestavení
+pravdivostní tabulky popisující pravdivostní funkci
+generovanou logickou formulí f
+➢ Pořadí vyhodnocení je dáno:
+• směrem od vnitřních závorek (formulí) k vnějším závorkám
+(formulím)
+• prioritou logických spojek – unární spojky mají vyšší prioritu
+než binární
+❑ Splnitelnost formule
+➢ Formule je splnitelná, jestliže existuje alespoň jedna
+kombinace ohodnocení vstupních proměnných, pro kterou
+nabývá pravdivostní funkce hodnoty 1
+15
+=== PAGE 16 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Vyhodnocení logické formule
+16
+( p   q )  ( r  q )
+0 1 1 0 0 0 0 0
+0 1 1 0 0 1 0 0
+0 0 0 1 1 0 0 1
+0 0 0 1 1 1 1 1
+1 1 1 0 0 0 0 0
+1 1 1 0 0 1 0 0
+1 1 0 1 0 0 0 1
+1 1 0 1 1 1 1 1
+2. 1. 3. 2.
+=== PAGE 17 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Ekvivalence formulí
+❑ Dvě formule A a B jsou tautologicky ekvivalentní,
+jestliže generují stejnou pravdivostní funkci
+➢ Značíme A  B
+❑ Dvě formule A a B jsou tautologicky ekvivalentní, právě
+když formule A  B je tautologie
+❑ Příklad
+Ukažme, že formule A: x  y je tautologicky ekvivalentní
+formuli B: x  y
+17
+=== PAGE 18 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Příklad tautologické ekvivalence
+A  B
+( x  y )  (  x  y )
+0 1 0 1 1 0 1 0
+0 1 1 1 1 0 1 1
+1 0 0 1 0 1 0 0
+1 1 1 1 0 1 1 1
+18
+=== PAGE 19 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Důležité ekvivalence
+19
+ a  a zákon dvojí
+negace
+a  a  1
+a  a  0
+zákony o
+vyloučeném
+třetím
+a  0  a
+a  1  a
+zákon
+neutrálnosti
+nuly a
+jedničky
+a  ( a  b )  a
+a  ( a  b )  a
+zákony o absorpci
+a  0  0
+a  1  1
+zákon
+agresivity
+nuly a
+jedničky
+a  ( a  b )  a  b
+a  ( a  b )  a  b
+zákony o absorpci
+negace
+a  a  a
+a  a  a
+a  a  a
+a  a  a
+zákony o
+idempotenc
+i prvků
+a  ( b  c )  ( a  b )  ( a  c )
+a  ( b  c )  ( a  b )  ( a  c )
+distributivní
+zákony
+a  b  b  a
+a  b  b  a
+a  b  b  a
+…
+a  b ≠ b  a
+komutativní
+zákony
+ ( a  b )  ( a  b )
+„negace disjunkce je konjunkce negace“
+ ( a  b )  ( a  b )
+„negace konjunkce je disjunkce negace“
+De Morganovy
+zákony
+( a  b )  c  a  ( b  c )
+( a  b )  c  a  ( b  c )
+( a  b )  c  a  ( b  c )
+…
+( a  b )  c ≠ a  ( b  c )
+asociativní
+zákony
+a  b  a  b
+(a  b)  c  (a  c)  (b  c)
+a  b  ( a  b )  ( b  a )
+a  b  ( a  b )  ( a  b )
+další ekvivalence
+=== PAGE 20 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Logický důsledek
+❑ Z výroků P = {v1, v2, … , vn} logicky vyplývá
+výrok d (je logickým důsledkem) P  d
+➢ právě tehdy, když pro všechna pravdivá
+ohodnocení všech výroků {v1, v2, … , vn}
+je výrok d také pravdivý
+➢ právě tehdy, když formule
+v1  v2  …  vn  d je tautologie
+➢ právě tehdy, když formule
+v1  v2  …  vn  d je kontradikce
+➢ V opačném případě výrok d z výroků v1, v2, … , vn logicky
+nevyplývá
+20
+￼
+Aristotelés
+384 – 322 př.n.l.
+=== PAGE 21 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Binární soustava v počítači
+21
+Informace a data v počítači
+=== PAGE 22 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Jednotka - bit
+❑ Jednotka informace (i dat): bit (binary digit) – značení: b
+➢ rozhodnutí mezi dvěma alternativami, možné hodnoty jsou
+• ANO (true)
+• NE (false)
+❑ Bitu odpovídají hodnoty 1 = ANO, 0 = NE v dvojkové
+(binární) soustavě
+➢ Téměř všechny současné počítače pracují v binární soustavě
+➢ Stavy 1 / 0 lze poměrně snadno technicky realizovat
+– úrovně napětí, směr magnetických oblastí, odraz a pohlcení světla
+❑ Bit je dále nedělitelný
+❑ S vyjádřením nějaké hodnoty v jednotkách bit se nejčastěji
+setkáme při fyzickém přenosu dat
+➢ pomocí úrovní napětí na kovovém drátu, intenzity světla, rádiových
+vln, …), např. přenosových rychlostí v počítačových sítích
+22
+=== PAGE 23 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Jednotka – byte (bajt)
+❑ byte (bajt) – značení: B
+➢ = 8 bitů (28=256 možných rozdílných stavů )
+➢ binárně vyjádřená čísla 0 – 255
+➢ základní jednotka, s kterou obvykle počítače pracují
+➢ používá se jako nejmenší jednotka pro uložení dat v počítači (v
+jeho paměti, na pevném disku, …)
+23
+￼
+=== PAGE 24 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Jednotka – půlbyte (půlbajt)
+❑ Půlbyte – 4 bity
+(16 možností)
+➢ číslice
+v šestnáctkové
+(hexadecimální)
+soustavě)
+➢ Byte je pak vyjádřen
+dvojicí
+šestnáctkových číslic
+• 0,1,2,3,4,5,6,7,8,9,
+A=10,B=11,C=12,
+D=13,E=14,F=15
+• velmi časté např.
+při výpisu obsahu
+paměti počítače
+24
+￼
+￼
+=== PAGE 25 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Hexadecimální výpis paměti
+25
+￼
+=== PAGE 26 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+Vyšší informatické jednotky
+❑ Násobky jednotek (předpony z latiny)
+❑ Zlomky (předpony z řečtiny) mili- , mikro-, piko-
+, …
+užívané pro fyzikální jednotky, například pro čas a
+vzdálenost, nemají pro informatické jednotky smysl
+26
+Předpona Značení Fyzikální jednotky Informatické
+jednotky
+kilo- k 103 = 1.000 210 = 1.024
+mega- M 106 = 1.000.000 220 = 1.048.576
+giga- G 109 230
+tera- T 1012 240
+peta- P 1015 250
+=== PAGE 27 ===
+Buchtela@pef.czu.cz (P01) B-UPP
+DOTAZY ?
+27
+Děkuji za pozornost!

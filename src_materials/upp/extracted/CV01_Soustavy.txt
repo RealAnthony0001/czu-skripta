@@ -1,0 +1,260 @@
+=== PAGE 1 ===
+Strukturovaná tvorba aplikací
+13
+1 Číselné soustavy a převody soustav
+Základní požadavek na počítač je schopnost zobrazovat a pamatovat si čísla a provádět
+operace s těmito čísly. Čísla mohou být zobrazena v různých číselných soustavách. Většina
+lidí používá desítkovou (dekadickou) soustavu. Tato soustava reprezentuje čísla
+v mocninách deseti a byla pravděpodobně vyvinuta vzhledem k faktu, že člověk má 10 prstů.
+Základ této soustavy je 10, neboť je použito 10 základních číslic (0 - 9). Poloha číslice v čísle
+určuje jeho váhu, čímž je možné vyjádřit čísla větší než 10. Je ovšem možné vybudovat
+číselnou soustavu s libovolným celočíselným základem.
+Výpočetní stroje mohou být samozřejmě zkonstruovány na základě libovolné číselné
+soustavy, nicméně všechny počítače jsou založeny na dvojkové (binární) soustavě. Je totiž
+mnohem snadnější rozlišit mezi dvěma stavy než např. mezi deseti. Ve všech oborech lidské
+činnosti se setkáváme s případy, kdy předměty nebo vlastnosti nebývají dvou užitečných
+stavů (spínač je zapnut nebo vypnut, proud obvodem protéká nebo neprotéká, díry v pásce
+nebo štítku jsou nebo nejsou vyděrovány, atd.). Je jednodušší a mnohem spolehlivější
+navrhnout obvody, které rozlišují pouze mezi dvěma stavy (binární 0 a binární 1) než mezi
+více, například deseti stavy.
+1.1 Číselná soustava se základem Z
+Obecná definice soustavy se základem Z:
+Č - hodnota čísla v desítkové soustavě k - koeficient, cifra
+Z - základ soustavy (10, 2, 8, 16, 60) e - exponent základu = (-m, n)
+Cifry číselné soustavy se základem Z: k  {0,1, …, Z-1}
+Z = 2  k  {0,1}
+Z = 8  k  {0,1,2,3,4,5,6,7}
+Z = 16  k  {0,1,2,3,4,5,6,7,8,9,A(10),B(11),C(12),D(13),E(14),F(15)}
+1.1.1 Převod z nedekadické do dekadické soustavy
+Rozvoj čísla v číselné soustavě se základem Z slouží k převodu z nedekadické do dekadické
+soustavy:
+￼
+Č10 = knZn ... + k2Z2 + k1Z1 + k0Z0 + k-1Z-1 + k-2Z-2
+... k-mZ-m
+=== PAGE 2 ===
+Strukturovaná tvorba aplikací
+14
+Budeme používat mocniny základu číselné soustavy Z toho čísla, které do desítkové soustavy
+převádíme.
+Příklad 1:
+Daná čísla, vyjádřená v různých číselných soustavách, převeďte do desítkové soustavy.
+(71285,369)10 = 71041103+2102+8101+5100+310-1+610-2910-3
+(1234,56)16 = 1163+2162+3161+4160+516-1+616-2
+= (4660,333)10
+(1010111,0011)2 = 126+025+124+023+122+121+120+02-1+02-2+12-3+12-4
+=
+= (87,1875)10
+(5713)8 = 583 + 782 + 181 + 380
+= (3019)10
+1.1.2 Převod z dekadické do nedekadické soustavy
+Postup převodu čísla z dekadické soustavy do libovolné soustavy se základem Z lze popsat
+následujícími kroky:
+ zjistíme nejvyšší možnou mocninu základu Zi, kterou dekadické číslo obsahuje
+ zapíšeme celé číslo ki (z intervalu 1 .. Z-1), které udává, kolikrát se daná mocnina v čísle
+vyskytuje
+ odečteme od desítkového čísla hodnotu ki . Zi a zjistíme zbytek
+ postup opakujeme až do doby, kdy je zbytek nulový
+Příklad 2:
+Čísla v desítkové soustavě převeďte na čísla vyjádřená v soustavě osmičkové.
+(250)10  364, 78, 21  (372)8 Zbytky: 58, 2
+(523)10  1512, 064, 18, 31  (1013)8 Zbytky: 11, 3
+(5324)10  14096, 2512, 364, 18, 41  (12314)8 Zbytky: 1228, 204, 12, 4
+Příklad 3:
+Čísla v desítkové soustavě převeďte na čísla vyjádřená v binární soustavě.
+(38)10  132, 016, 08, 14, 12, 01  (100110)2 Zbytky: 6, 2
+(715)10  (1011001011)2 Zbytky: 203, 75, 11, 3
+(3221)10  (110010010101)2 Zbytky: 1173, 149, 21, 5,
+=== PAGE 3 ===
+Strukturovaná tvorba aplikací
+15
+1.2 Dvojková, osmičková, šestnáctková soustava
+Pro vyjádření číselných hodnot v počítači je nejvýhodnější dvojková soustava. Nevýhodou
+dvojkové soustavy však je, že čísla (posloupnosti cifer) jsou velmi dlouhá a pro člověka
+obtížně zapamatovatelná. Z důvodu zkrácení zápisu čísla se proto v počítači používají
+osmičková (oktalová) a šestnáctková (hexadecimální) soustava. Hlavní důvody použití
+osmičkové a šestnáctkové soustavy jsou:
+ Převod mezi osmičkovou, šestnáctkovou a dvojkovou soustavou je velmi snadný.
+ Převod mezi uvedenými soustavami je vzájemně jednoznačný, tj. nehrozí situace, kdy číslo
+s konečným počtem desetinných míst v jedné soustavě by mělo nekonečný počet
+desetinných míst v jiné soustavě.
+1.2.1 Převod mezi dvojkovou a šestnáctkovou soustavou
+Při převodu čísel mezi dvojkovou a šestnáctkovou soustavou vycházíme z největší použitelné
+cifry (koeficientu ke) v šestnáctkové soustavě, tj. cifry F (hodnota 15). Hodnotu F (15)
+můžeme vyjádřit ve dvojkové soustavě jako čtveřici cifer:
+(F)16 = 123 + 122 + 121 + 120 = (1111)2
+Všechny ostatní cifry osmičkové soustavy lze potom také vyjádřit jako čtveřici cifer ve
+dvojkové soustavě:
+hodnota (šestnáctkově) hodnota (binárně) hodnota (šestnáctkově) hodnota (binárně)
+0 0000 8 1000
+1 0001 9 1001
+2 0010 A 1010
+3 0011 B 1011
+4 0100 C 1100
+5 0101 D 1101
+6 0110 E 1110
+7 0111 F 1111
+Při převodu čísla z šestnáctkové soustavy do dvojkové budeme postupovat následovně:
+ Každou cifru v šestnáctkové soustavě vyjádříme jako čtveřici cifer ve dvojkové soustavě
+ Čtveřice cifer spojíme a získáme výslednou hodnotu čísla ve dvojkové soustavě
+=== PAGE 4 ===
+Strukturovaná tvorba aplikací
+16
+Příklad 4:
+Čísla vyjádřená v šestnáctkové soustavě převeďte na čísla ve dvojkové soustavě.
+(1A5)16  (0001 1010 0101)2  (110100101)2
+(3E68)16  (0011 1110 0110 1000)2  (11111001101000)2
+(B23D)16  (1011 0010 0011 1101)2  (1011001000111101)2
+Obdobně lze postupovat i při převodu z dvojkové soustavy do šestnáctkové:
+ Číslo ve dvojkové soustavě rozdělíme na čtveřice cifer zprava (od poslední cifry vpravo).
+V případě, že na začátku (vlevo) čísla nevyjde čtveřice, doplníme potřebný počet nul, např.
+(110010101)2  1 1001 0101  0001 1001 0101
+ Každou čtveřici ve dvojkové soustavě vyjádříme jako jednu cifru v šestnáctkové soustavě.
+ Cifry v šestnáctkové soustavě spojíme a získáme výslednou hodnotu.
+Příklad 5:
+Čísla ve dvojkové soustavě vyjádřete jako čísla v soustavě hexadecimální.
+(011010000) 2  0 1101 0000  0 8+4+0+1 0  0 13 0  (D0)16
+(100001110011) 2  1000 0111 0011  8 4+2+1 2+1  (873)16
+(111110010100)2  1111 1001 0100  15 9 4  (F94)16
+1.2.2 Převod mezi dvojkovou a osmičkovou soustavou
+Při převodu čísel mezi dvojkovou a osmičkovou soustavou vycházíme, obdobně jako
+v šestnáctkové soustavě, z největší použitelné cifry (koeficientu ke) v osmičkové soustavě, tj.
+cifry 7. Hodnotu 7 můžeme vyjádřit ve dvojkové soustavě jako trojici cifer:
+(7)8 = 122 + 121 + 120 = (111)2
+Všechny ostatní cifry osmičkové soustavy lze potom také vyjádřit jako trojici cifer ve
+dvojkové soustavě:
+hodnota (osmičkově) hodnota (binárně) hodnota (osmičkově) hodnota (binárně)
+0 000 4 100
+1 001 5 101
+2 010 6 110
+3 011 7 111
+=== PAGE 5 ===
+Strukturovaná tvorba aplikací
+17
+Při převodu čísla z osmičkové soustavy do dvojkové budeme postupovat následovně:
+ Každou cifru v osmičkové soustavě vyjádříme jako trojici cifer ve dvojkové soustavě
+ Trojice cifer spojíme a získáme výslednou hodnotu čísla ve dvojkové soustavě
+Příklad 6:
+Čísla vyjádřená v osmičkové soustavě převeďte na čísla ve dvojkové soustavě.
+(701)8  (111 000 001)2  (111000001)2
+(3764)8  (011 111 110 100)2  (11111110100)2
+(1233)8  (001 010 011 011)2  (1010011011)2
+Obdobně lze postupovat i při převodu z dvojkové soustavy do osmičkové:
+ Číslo ve dvojkové soustavě rozdělíme na trojice cifer zprava (od poslední cifry vpravo).
+V případě, že na začátku (vlevo) čísla nevyjde trojice, doplníme potřebný počet nul, např.
+(1110101)2  1 110 101  001 110 101
+ Každou trojici ve dvojkové soustavě vyjádříme jako jednu cifru v osmičkové soustavě.
+ Cifry v osmičkové soustavě spojíme a získáme výslednou hodnotu.
+Příklad 7:
+Čísla uložená v binárním kódu vyjádřete v osmičkové soustavě.
+(10 111 001 010)2  0+2+0, 4+2+1, 0+0+1, 0+2+0  (2712)8
+(10 100 010 110)2  1, 4, 2 , 6  (2426)8
+(10 111 001 010)2  2, 7, 1, 2  (2712)8
+1.2.3 Převod mezi osmičkovou a šestnáctkovou soustavou
+Mezi osmičkovou a šestnáctkovou soustavou neexistuje přímá metoda převodu, lze však
+použít pro převod dvojkovou soustavu.
+=== PAGE 6 ===
+Strukturovaná tvorba aplikací
+18
+Příklad 8:
+Čísla vyjádřená v hexadecimální soustavě převeďte do soustavy osmičkové a naopak.
+(1AC37F)16  0001 1010 1100 0011 0111 1111  000 110 101 100 001 101 111 111 
+ (6541577)8
+(357231)8  011 101 111 010 011 001  0001 1101 1110 1001 1001  1 13 14 9 9 
+ (1DE99)16
+1.3 Desítkové desetinné číslo ve dvojkové soustavě
+Desítkové číslo obsahující i desetinnou část lze rozdělit na dvě části, celou část (před
+desetinnou čárkou) a desetinnou část (za desetinnou čárkou). Celou část převedeme odděleně
+způsobem zmíněným v předchozích kapitolách. Pro převod desetinné části lze použít dva
+možné způsoby.
+1.3.1 Způsob převodu I
+Použijeme stejný způsob převodu jako v kapitole 1.1.2 s tím rozdílem, že využijeme i záporné
+mocniny základu Z = 2. Postup opakujeme až do doby, kdy je zbytek nulový nebo případně
+do dosažení počtu desetinných míst, které z hlediska přesnosti vyžadujeme.
+Příklad 9:
+Desetinná čísla v desítkové soustavě převeďte na čísla vyjádřená v binární soustavě.
+(27,125)10 : 27  116 18 04 12 11  11011 Zbytek: 11, 3, 1
+0,125  00,5 00,25 10,125  0,001
+(27,125)10  (11011,001)2
+(312,686)10: 312  1256 0128 064 132 116 18 04 02 01  100111000
+Zbytek: 56, 24, 8
+0,686  10,5 00,25 10,125 00,0625  0,1010… (přesnost na 4 místa)
+Zbytek: 0,186, 0,61
+(312,686)10  (100111000,1010…)2
+1.3.2 Způsob převodu II
+U tohoto způsobu převádění není třeba znát záporné mocniny základu Z = 2. Jako
+v předchozím případě oddělíme celočíselnou část a desetinnou část (dále označenou jako N).
+Vycházíme z následující úvahy:
+=== PAGE 7 ===
+Strukturovaná tvorba aplikací
+19
+
+
+
+
+m
+i
+i
+i Z
+a
+N
+1
+. kde ai  {0, 1}
+2N < 1  a-1 = 0 a M > 0
+ 
+ 
+
+1
+0
+1
+3
+2
+1 2
+1
+...
+4
+1
+2
+1
+.2
+
+
+
+
+
+
+
+
+
+
+
+
+M
+m
+m
+a
+a
+a
+a
+N 2N > 1  a-1 = 1 a M > 0
+2N = 1  a-1 = 1 a M = 0
+U desetinné části čísla postupujeme tedy následovně:
+ Desetinnou část N vynásobíme základem Z = 2 a zjistíme, zda je výsledná hodnota větší
+než číslo 1.
+ Pokud ano, na příslušnou pozici převáděného čísla zapíšeme cifru 1 a zároveň hodnotu 1
+od hodnoty desetinné části odečteme. Získáme tak zbytek M.
+ Pokud hodnota nedosahuje hodnoty 1, na příslušnou pozici převáděného čísla zapíšeme
+hodnotu 0 a číslo 1 od zbytku neodečítáme. Zbytkem M je pak celá hodnota 2N.
+ Daný zbytek M (po odečtení i neodečtení hodnoty 1) opět vynásobíme základem Z = 2
+a taktéž zjišťujeme, zda je větší či menší než hodnota 1.
+ Postup opakujeme opět do doby, kdy zbytek dosáhne nulové hodnoty nebo do počtu
+desetinných míst, které jsou vyžadovány.
+Příklad 10:
+Desetinné číslo v desítkové soustavě převeďte na číslo vyjádřená v binární soustavě.
+(0,853)10: 0,853  2 = 1,706 > 1 píšeme a odečteme 1 M = 0,706
+0,706  2 = 1,412 > 1 píšeme 1 M = 0,412
+0,412  2 = 0,824 < 1 píšeme 0 M = 0,824
+0,824  2 = 1,648 > 1 píšeme 1 M = 0,648
+0,648  2 = 1,296 > 1 píšeme 1 M = 0,296
+0,296  2 = 0,592 < 1 píšeme 0 M = 0,592
+… takto pokračujeme, až do požadovaného počtu míst za binární čárkou
+(0,853)10  (0,110110…)2

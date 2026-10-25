@@ -1,0 +1,173 @@
+=== PAGE 1 ===
+2. Cviˇcen´ı z v´yrokov´e logiky
+1. Pˇreved’te formuli do ekvivalentn´ıho tvaru obsahuj´ıc´ıho jen negace, kon-
+junkce a disjunkce:
+(a) A ⇒ (B ⇔ C′) (b) (A′ ⇒ B) ⇒ (B ⇔ A)′
+2. Pˇreved’te formuli do ekvivalentn´ıho tvaru obsahuj´ıc´ıho jen negace v´yroko-
+v´ych promˇenn´ych, konjunkce a disjunkce:
+(a) ((A ∨ B)′ ∧ (A ⇒ B))′
+(b) ((A ⇒ B)′ ⇒ C)′
+(c) (A ⇔ B)′ ⇒ (B′ ∧ C)′
+(d) (((A ∧ B)′ ⇒ C)′ ∨ (A′ ⇒ C))′
+3. Pˇreved’te formuli do disjunktivn´ıho tvaru:
+(a) A ⇔ B′
+(b) (A ∧ B) ∨ (A′ ∧ B)
+(c) (A ∨ B) ∧ A′
+(d) (A ⇒ B′) ∨ (A ∧ B)
+(e) (A ⇒ B) ∧ (B ∨ C′)
+(f) (A′ ∨ C) ⇔ (B ⇒ C′)
+4. Formule z pˇredchoz´ıho cviˇcen´ı pˇreved’te do ´upln´eho disjunktivn´ıho tvaru.
+5. Naleznˇete formuli ϕ takovou, aby jej´ı pravdivostn´ı tabulka byla:
+A B ϕ
+A B C ϕ
+A B C ϕ
+(a)
+1 1 0
+1 0 0
+0 1 1
+0 0 0
+(c)
+A B ϕ
+(b)
+1 1 0
+1 0 1
+0 1 1
+0 0 1
+1 1 1 1 1 0 1 0 0 1 0 1 0 0 0 0 1 0
+0 1
+1 0
+0 1
+1 0
+0 0
+1 1
+0 0
+(d)
+1 1 1 1 1 0 1 0 0 1 0 1 0 0 0 0 1 1
+0 0
+1 1
+0 1
+1 0
+0 1
+1 0
+0 1
+1
+=== PAGE 2 ===
+6. A B C D ϕ
+A B C D ϕ
+(e)
+1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 1 1 0
+1 0 1
+0 1 1
+0 0 0
+1 1 0
+1 0 1
+0 1 1
+0 0 1
+1 1 1
+1 0 1
+0 1 0
+0 0 0
+1 1 0
+1 0 1
+0 1 1
+0 0 0
+(f)
+1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 1 1 1
+1 0 1
+0 1 0
+0 0 0
+1 1 1
+1 0 0
+0 1 0
+0 0 0
+1 1 1
+1 0 0
+0 1 1
+0 0 1
+1 1 0
+1 0 0
+0 1 1
+0 0 1
+Pomoc´ı Quine–McCluskeyho metody naleznˇete minim´aln´ı disjunktivn´ı formy
+n´asleduj´ıc´ıch formul´ı:
+(a) (A′ ∧ B) ∨ (A ∧ B′) ∨ (A′ ∧ B′)
+(b) (A∧B′ ∧C′)∨(A∧B ∧C)∨(A′ ∧B′ ∧C′)∨(A∧B ∧C′)∨(A∧B′ ∧C)
+(c) (A′ ∧ B′ ∧ C′) ∨ (A′ ∧ B ∧ C′) ∨ (A′ ∧ B′ ∧ C) ∨ (A ∧ B ∧ C′) ∨
+(A′ ∧ B ∧ C) ∨ (A ∧ B ∧ C)
+(d) (A ∧ B′ ∧ C) ∨ (A′ ∧ B ∧ C′) ∨ (A ∧ B ∧ C′) ∨ (A′ ∧ B′ ∧ C) ∨
+(A ∧ B′ ∧ C′) ∨ (A′ ∧ B ∧ C′) ∨ (A ∧ B ∧ C)
+(e) (A ∧ B ∧ C) ∨ (A ∧ B′ ∧ C′) ∨ (A′ ∧ B ∧ C′) ∨ (A′ ∧ B′ ∧ C′) ∨
+(A ∧ B ∧ C′) ∨ (A′ ∧ B′ ∧ C′)
+(f) (A′ ∧ B′ ∧ C′ ∧ D′) ∨ (A′ ∧ B ∧ C′ ∧ D′) ∨ (A′ ∧ B′ ∧ C′ ∧ D) ∨
+(A′ ∧ B ∧ C′ ∧ D) ∨ (A ∧ B ∧ C ∧ D)
+(g) (A′ ∧ B′ ∧ C ∧ D′) ∨ (A′ ∧ B ∧ C′ ∧ D′) ∨ (A′ ∧ B ∧ C ∧ D) ∨ (A ∧ B′ ∧
+C ∧ D′) ∨ (A ∧ B ∧ C′ ∧ D′) ∨ (A ∧ B ∧ C ∧ D′) ∨ (A′ ∧ B′ ∧ C′ ∧ D)
+(h) (A ∧ B′ ∧ C′ ∧ D) ∨ (A′ ∧ B′ ∧ C ∧ D′) ∨ (A ∧ B ∧ C′ ∧ D) ∨ (A ∧ B′ ∧
+C ∧ D) ∨ (A′ ∧ B ∧ C ∧ D′) ∨ (A′ ∧ B′ ∧ C ∧ D′) ∨ (A ∧ B ∧ C ∧ D) ∨
+(A ∧ B′ ∧ C′ ∧ D) ∨ (A ∧ B ∧ C ∧ D′) ∨ (A ∧ B ∧ C′ ∧ D′)
+(i) (A ∧ B′ ∧ C′ ∧ D) ∨ (A ∧ B ∧ C ∧ D′) ∨ (A′ ∧ B′ ∧ C ∧ D) ∨ (A ∧ B′ ∧
+C ∧ D) ∨ (A′ ∧ B ∧ C ∧ D′) ∨ (A ∧ B ∧ C′ ∧ D) ∨ (A′ ∧ B′ ∧ C′ ∧ D′)
+(j) (A′∧B′∧C∧D′) ∨ (A∧B′∧C′∧D′) ∨ (A′∧B′∧C∧D) ∨ (A′∧B∧C∧D)
+∨ (A∧B∧C′∧D′) ∨ (A∧B′∧C∧D′) ∨ (A′∧B∧C∧D′) ∨ (A∧B∧C′∧D)
+(k) (A′∧B′∧C′∧D′) ∨ (A′∧B∧C′∧D′) ∨ (A∧B′∧C′∧D) ∨ (A∧B∧C∧D′)
+∨ (A∧B∧C′∧D′) ∨ (A′∧B′∧C′∧D) ∨ (A∧B∧C∧D) ∨ (A∧B∧C′∧D)
+2
+=== PAGE 3 ===
+(l) (A′∧B∧C∧D′) ∨ (A′∧B′∧C∧D′) ∨ (A′∧B′∧C′∧D) ∨ (A′∧B∧C∧D)
+∨ (A′∧B∧C′∧D) ∨ (A′∧B′∧C∧D) ∨ (A∧B′∧C∧D′) ∨ (A′∧B∧C′∧D′)
+∨ (A∧B′∧C′∧D) ∨ (A∧B∧C′∧D′)
+(m) (A∧B∧C∧D) ∨ (A′∧B∧C′∧D) ∨ (A′∧B′∧C∧D′) ∨ (A∧B′∧C∧D′)
+∨ (A∧B∧C′∧D′) ∨ (A′∧B∧C∧D′) ∨ (A′∧B′∧C′∧D) ∨ (A∧B′∧C′∧D′)
+∨ (A∧B′∧C∧D) ∨ (A∧B′∧C′∧D)
+3
+=== PAGE 4 ===
+V´ysledky
+1. (a) A′ ∨ (B ∧ C′) ∨ (B′ ∧ C)
+(b) (A′ ∧ B′) ∨ (B ∧ A′) ∨ (B′ ∧ A)
+2. (a) A ∨ B ∨ (A ∧ B′)
+(b) A ∧ B′ ∧ C′
+(c) (A ∧ B) ∨ (A′ ∧ B′) ∨ (B ∨ C′)
+(d) ((A ∧ B) ∨ C) ∧ (A′ ∧ C′) kontradikce
+3. (a) (A ∧ B′) ∨ (A′ ∧ B)
+(b) (A ∧ B) ∨ (A′ ∧ B)
+(c) (A′ ∧ B)
+(d) (A ∧ B) ∨ (A′ ∧ B) ∨ (A ∧ B′) ∨ (A′ ∧ B′) (e) (A′ ∧ B) ∨ (A′ ∧ C′) ∨ (B ∧ B) ∨ (B ∧ C′)
+(f) (B′ ∧ C) ∨ (A′ ∧ C′)
+tautologie
+4. (a) (A ∧ B′) ∨ (A′ ∧ B)
+(b) (A ∧ B) ∨ (A′ ∧ B)
+(c) (A′ ∧ B)
+(d) (A ∧ B) ∨ (A′ ∧ B) ∨ (A ∧ B′) ∨ (A′ ∧ B′) tautologie
+(e) (A∧B ∧C)∨(A∧B ∧C′)∨(A′ ∧B ∧C)∨(A′ ∧B ∧C′)∨(A′ ∧B′ ∧C′)
+(f) (A ∧ B′ ∧ C) ∨ (A′ ∧ B ∧ C′) ∨ (A′ ∧ B′ ∧ C) ∨ (A′ ∧ B′ ∧ C′)
+5. (a) A′ ∧ B
+(b) (A ∧ B′) ∨ (A′ ∧ B) ∨ (A′ ∧ B′)
+(c) (A ∧ B ∧ C′) ∨ (A ∧ B′ ∧ C′) ∨ (A′ ∧ B′ ∧ C)
+(d) (A∧B ∧C)∨(A∧B′ ∧C)∨(A∧B′ ∧C′)∨(A′ ∧B ∧C′)∨(A′ ∧B′ ∧C′)
+(e) (A ∧ B ∧ C ∧ D′) ∨ (A ∧ B ∧ C′ ∧ D) ∨ (A ∧ B′ ∧ C ∧ D′) ∨
+∨ (A ∧ B′ ∧ C′ ∧ D) ∨ (A ∧ B′ ∧ C′ ∧ D′) ∨ (A′ ∧ B ∧ C ∧ D) ∨
+∨ (A′ ∧ B ∧ C ∧ D′) ∨ (A′ ∧ B′ ∧ C ∧ D′) ∨ (A′ ∧ B′ ∧ C′ ∧ D)
+(f) (A∧B∧C ∧D)∨(A∧B∧C ∧D′)∨(A∧B′ ∧C ∧D)∨(A′ ∧B∧C ∧D)∨
+∨ (A′ ∧ B ∧ C′ ∧ D) ∨ (A′ ∧ B ∧ C′ ∧ D′) ∨ (A′ ∧ B′ ∧ C′ ∧ D) ∨ (A′ ∧
+B′ ∧ C′ ∧ D′)
+6. (a) (A′ ∨ B′)
+(b) (B′ ∧ C′) ∨ A
+(c) A′ ∨ B
+(d) (B′ ∧ C) ∨ (B ∧ C′) ∨ A
+(e) (A ∧ B) ∨ C′
+4
+=== PAGE 5 ===
+(f) (A′ ∧ C′) ∨ (A ∧ B ∧ C ∧ D)
+(g) (A′ ∧ B ∧ C ∧ D) ∨ (A′ ∧ B′ ∧ C′ ∧ D) ∨ (B′ ∧ C ∧ D′) ∨ (B ∧ C′ ∧
+D′) ∨ (A ∧ B ∧ D′) nebo
+(A′ ∧ B ∧ C ∧ D) ∨ (A′ ∧ B′ ∧ C′ ∧ D) ∨ (B′ ∧ C ∧ D′) ∨ (B ∧ C′ ∧
+D′) ∨ (A ∧ C ∧ D′)
+(h) (j) (k) (l) (A′ ∧ C ∧ D′) ∨ (A ∧ D) ∨ (A ∧ B)
+(i) (A′ ∧ B′ ∧ C′ ∧ D′) ∨ (A ∧ C′ ∧ D) ∨ (B′ ∧ C ∧ D) ∨ (B ∧ C ∧ D′)
+(A∧B∧C′) ∨ (A′∧C) ∨ (A∧B′∧D′)
+(A∧B) ∨ (A′∧C′∧D′) ∨ (B′∧C′∧D)
+(B′∧C∧D′) ∨ (B′∧C′∧D) ∨ (B∧C′∧D′) ∨ (A′∧C) ∨ (A′∧B) nebo
+(B′∧C∧D′) ∨ (B′∧C′∧D) ∨ (B∧C′∧D′) ∨ (A′∧C) ∨ (A′∧D) nebo
+(B′∧C∧D′) ∨ (B′∧C′∧D) ∨ (B∧C′∧D′) ∨ (A′∧B) ∨ (A′∧D)
+(m) (A∧C∧D) ∨ (A′∧C′∧D) ∨ (A′∧C∧D′) ∨ (A∧C′∧D′) ∨ (A∧B′)
+5

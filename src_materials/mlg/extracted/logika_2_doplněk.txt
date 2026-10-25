@@ -1,0 +1,54 @@
+=== PAGE 1 ===
+Doplnˇek ke cviˇcen´ı z logiky 2
+1. Znegujte vˇety
+(a) Nebude-li prˇset, nezmoknem.
+(b) M˚uj poˇc´ıtaˇc je star´y nebo zavirovan´y.
+(c) Kdyˇz sn´ım pol´evku nebo hlavn´ı j´ıdlo, budu si moct d´at dort´ık.
+(d) Liˇska je chytr´a a opatrn´a.
+2. Negujte
+(a) (∀x∈R)(x2 >0)
+(b) (∀x,y∈R))((x>y) ⇒(x2 >y2))
+(c) (∀p prvoˇc´ıslo)(∃k∈N)(p= 2k+ 1)
+(d) (∃n∈N)(∀m∈N)(n·m= n)
+(e) (∀k∈N)(∃m,n∈N)((m̸= n) ∧(m·n= k))
+(f) (∀n∈N)(((∃k∈N)(n= 2k+ 1)) ⇒(∃a,b∈N)(a2 + b2 = n))
+(g) (∀ε>0)(∃δ>0)(∀x∈R)((|x−a|<δ) ⇒(|f(x)−f(a)|<ε))
+3. Negujte
+(a) Kaˇzd´y program´ator uvaˇzuje logicky.
+(b) Aspoˇn jeden student PEF nem´a r´ad matematiku.
+(c) Program je chybn´y nebo nefunguje poˇc´ıtaˇc.
+(d) Je-li logika uˇziteˇcn´a, tak je snadn´a a pochopiteln´a.
+(e) Pokud ji milujeˇs, nen´ı co ˇreˇsit.
+(f) Pokud m´a pacient vysok´y tlak a pot´ıˇze s d´ych´an´ım, popˇr´ıpadˇe pokud
+m´a vysokou teplotu, pak je nemocen.
+(g) Nem´am ˇz´adnou sestru.
+(h) V penˇeˇzence m´am jen bankovky menˇs´ı neˇz tis´ıc korun.
+(i) Nejpozdˇeji do tˇr´ı dn˚u zlevn´ıme vˇsechny naˇse v´yrobky alespoˇn o 20 %.
+1
+=== PAGE 2 ===
+V´ysledky
+1. Je uvedena jedna z moˇzn´ych formulac´ı
+(a) Nebude prˇset a zmoknem.
+(b) M˚uj poˇc´ıtaˇc je nov´y a nezavirovan´y.
+(c) Sn´ım pol´evku nebo hlavn´ı j´ıdlo a nebudu si moct d´at dort´ık.
+(d) Liˇska je hloup´a nebo neopatrn´a.
+2. (a) (∃x∈R)(x2 ≤0)
+(b) (∃x,y∈R))((x>y) ∧(x2 ≤y2))
+(c) (∃p prvoˇc´ıslo)(∀k∈N)(p̸= 2k+ 1)
+(d) (∀n∈N)(∃m∈N)(n·m̸= n)
+(e) (∃k∈N)(∀m,n∈N)((m= n) ∨(m·n̸= k))
+(f) (∃n∈N)(((∃k∈N)(n= 2k+ 1)) ∧(∀a,b∈N)(a2 + b2 ̸= n))
+(g) (∃ε>0)(∀δ>0)(∃x∈R)((|x−a|<δ) ∧(|f(x)−f(a)|≥ε))
+3. (a) Existuje program´ator, kter´y neuvaˇzuje logicky.
+(b) Vˇsichni studenti PEF maj´ı r´adi matematiku.
+(c) Program nen´ı chybn´y a poˇc´ıtaˇc funguje.
+(d) Logika je uˇziteˇcn´a, a tak nen´ı snadn´a nebo nen´ı pochopiteln´a.
+(e) Milujeˇs ji a je co ˇreˇsit.
+(f) I kdyˇz m´a pacient m´a vysok´y tlak a pot´ıˇze s d´ych´an´ım nebo m´a
+vysokou teplotu, pˇresto nen´ı nemocen.
+(g) M´am aspoˇn jednu sestru.
+(h) V penˇeˇzence m´am nejm´enˇe jednu bankovku, kter´a m´a hodnotu aspoˇn
+tis´ıc korun.
+(i) Nˇejak´y n´aˇs v´yrobek zlevn´ıme o m´enˇe neˇz 20 % nebo pozdˇeji neˇz za
+tˇri dny.
+2

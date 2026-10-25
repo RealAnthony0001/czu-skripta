@@ -1,0 +1,319 @@
+=== PAGE 1 ===
+Matematická logika a grafy
+pro PEF ČZU
+Ohodnocené neorientované grafy
+Ing. Jakub Čermák
+Katedra matematiky a fyziky, TF ČZU
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+1 / 14
+=== PAGE 2 ===
+Ohodnocené neorientované grafy
+Motivace
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+2 / 14
+=== PAGE 3 ===
+Motivace
+Dosud nás zajímalo jen to, co je s čím spojené.
+V praxi ale skoro každá hrana něco stojí — kilometry, minuty, peníze, kapacitu.
+Přiřadíme-li každé hraně číslo, dostaneme ohodnocený graf a můžeme se ptát na to nejlevnější
+řešení.
+Dvě klasické úlohy
+Minimální kostra — jak spojit všechna místa dohromady co nejlevněji?
+Nejkratší cesta — kudy se dostanu z A do B nejrychleji?
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+3 / 14
+=== PAGE 4 ===
+Ohodnocené neorientované grafy
+Minimální kostry
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+4 / 14
+=== PAGE 5 ===
+Ohodnocený graf a jeho minimální kostry
+Definice
+Ohodnocený graf G je čtveřice G = (V, E, p, c), kde (V, E, p) je graf a
+c : E → +
+je zobrazení, které každé hraně přiřazuje kladné reálné číslo, nazývané ohodnocení dané hrany.
+Definice
+Minimální kostra souvislého ohodnoceného grafu G je taková kostra, že součet ohodnocení všech
+jejích hran je minimální mezi všemi kostrami grafu G.
+Poznámka
+Minimálních koster může být více, všechny stejně dobré.
+c
+c
+c
+c
+c
+c
+c
+1
+1
+a b
+1
+graf, všechny hrany mají váhu 1 a b
+a b
+a b
+a b
+a b
+a b
+tři minimální kostry, každá má součet ohodnocení 2
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+5 / 14
+=== PAGE 6 ===
+Hladové algoritmy na hledání minimální kostry
+Princip Kruskalova algoritmu
+začínáme lesem tvořeným samotnými vrcholy bez hran,
+postupujeme od nejlehčích hran a postupně je přidáváme, ale tak, abychom nevytvořili cyklus,
+pokračujeme, dokud vytvářený graf není souvislý (na všech vrcholech).
+Princip Jarníkova algoritmu
+začínáme od jednoho libovolného vrcholu,
+postupně přidáváme vždy nejlehčí hranu, která vede z už vytvořeného stromu do nového
+vrcholu (tak, abychom nevytvořili cyklus),
+pokračujeme, dokud vytvářený graf není souvislý na všech vrcholech.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+6 / 14
+=== PAGE 7 ===
+Příklad na hledání minimální kostry
+Příklad
+Nalezněte všechny minimální kostry daného grafu.
+9
+2
+a b c
+1 4 6
+9
+10
+d g
+7
+e f
+5
+3
+4 6 9
+6 9
+h i j
+8 8
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+7 / 14
+=== PAGE 8 ===
+Ohodnocené neorientované grafy
+Nejkratší cesty
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+8 / 14
+=== PAGE 9 ===
+Strom nejkratších cest
+Definice
+Délkou cesty v ohodnoceném grafu rozumíme součet ohodnocení všech jejích hran.
+Definice
+Vzdálenost dvou vrcholů je délka nejkratší cesty mezi těmito vrcholy.
+Definice
+Strom nejkratších cest z vrcholu v je taková kostra grafu G, ve které je vzdálenost vrcholu v od všech
+ostatních vrcholů stejná jako v grafu G.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+9 / 14
+=== PAGE 10 ===
+Minimální kostra a strom nejkratších cest
+Poznámka
+Strom nejkratších cest z vrcholu v lze chápat jako grafické vyjádření nejkratších cest z vrcholu v do
+všech ostatních vrcholů.
+Poznámka
+Pozor, minimální kostra a strom nejkratších cest jsou dvě různé věci — obecně nevycházejí stejně.
+a
+a
+a
+a
+a
+2
+v
+2
+v
+v
+v
+v
+3
+b
+b
+b
+b
+b
+ohodnocený graf minimální kostra strom nejkratších cest z v
+součet ohodnocení 2 + 2 = 4 vzdálenosti od v: pro a dva, pro b tři
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+10 / 14
+=== PAGE 11 ===
+Dijkstrův algoritmus
+Algoritmus relaxace — postupně dochází k „vylepšování“ dosud nejlepšího nalezeného řešení.
+Je podstatné, kde začínáme.
+Využití pro
+hledání nejkratších cest a jejich délky a
+hledání stromu nejkratších cest.
+Poznámka
+Strom nejkratších cest vznikne tím, že si u každého vrcholu pamatujeme, ze kterého vrcholu jsme se
+do něj dostali.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+11 / 14
+=== PAGE 12 ===
+Dijkstrův algoritmus — princip
+Provedeme inicializaci (0 je počáteční hodnota pro startovní vrchol, ∞ pro ostatní vrcholy,
+předchůdci zatím neznámí).
+Následně opakujeme tyto kroky:
+Vybereme libovolné nejmenší číslo ve sloupci a vrchol v daném řádku uzavřeme (vybíráme
+z neuzavřených vrcholů). Tím získáme uzavřený vrchol = vrchol, do kterého je již nalezena
+nejkratší cesta, a který už nebude relaxován.
+Podíváme se na hrany z uzavřeného vrcholu a provedeme aktualizaci v dalším sloupci
+(každou hranu kontrolujeme právě jednou, kontrolujeme jen to, co se ještě nekontrolovalo,
+tj. hrany do neuzavřených vrcholů). Probíhá relaxace (pokud je nalezena kratší cesta,
+aktualizujeme délku a předchůdce).
+V každém kroku uzavíráme právě jeden vrchol, dokud nejsou uzavřeny všechny.
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+12 / 14
+=== PAGE 13 ===
+Příklad na Dijkstrův algoritmus
+Příklad
+Pomocí Dijkstrova algoritmu nalezněte nejkratší cestu z vrcholu s do všech ostatních vrcholů.
+Následně nakreslete příslušný strom nejkratších cest.
+3 4
+f g h
+1
+8 11
+7 10
+c d e
+2
+3
+8
+5
+2 6
+3
+s a b
+2
+9
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+13 / 14
+=== PAGE 14 ===
+Příklad na Dijkstrův algoritmus - reálná situace
+Příklad
+měst:
+Pomocí Dijkstrova algoritmu nalezněte nejkratší cestu z Londýna do Prahy, když znáte vzdálenosti
+Amsterdam–Brusel: 210 km
+Amsterdam–Frankfurt: 440 km
+Amsterdam–Kolín: 260 km
+Amsterdam–Londýn: 360 km
+Brusel–Kolín: 210 km
+Brusel–Londýn: 370 km
+Brusel–Mnichov: 720 km
+Frankfurt–Kolín: 190 km
+Kolín–Mnichov: 570 km
+Frankfurt–Mnichov: 300 km
+Frankfurt–Praha: 510 km
+Mnichov–Praha: 380 km
+Matematická
+logika a grafy
+Ing. Jakub Čermák
+Ohodnocené
+neoriento-
+vané grafy
+Motivace
+Minimální kostry
+Nejkratší cesty
+14 / 14

@@ -1,0 +1,204 @@
+=== PAGE 1 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+cvičení 02
+Úvod do principu počítačů
+David Buchtela
+Katedra informačního
+inženýrství
+Výrokový počet
+Logický důsledek
+1
+=== PAGE 2 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Příklady – výrokový počet
+❑ Rozhodněte, zda následující formule jsou
+➢ (T) tautologie, (F) kontradikce nebo (S) splnitelné
+➢ (p  q) → (p  q)
+➢ ((p  q)  r) (p  (q  r))
+2
+=== PAGE 3 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Vybrané logické spojky
+3
+Spojka Význam Značka Příklad
+negace „není pravda, že“ Není pravda, že prší. (Neprší)
+konjunkce „a (zároveň)“  Prší a svítí sluníčko.
+disjunkce „nebo“  Prší nebo svítí sluníčko.
+implikace „jestliže … , pak“ , → Jestliže prší, vezmu si deštník.
+ekvivalence „právě tehdy, když“ ,  Prší právě tehdy, vezmu-li si
+deštník.
+nonekvivalence „nestejnost;
+vylučující nebo“  Buď prší nebo svítí sluníčko.
+Shefferův
+operátor
+„není pravda, že … a
+…“ 
+Není pravda, že prší a svítí
+sluníčko.
+(Neprší nebo nesvítí sluníčko.)
+Piercova šipka „není pravda,
+že … nebo …“ 
+Není pravda,že prší nebo svítí
+sluníčko.
+(Neprší a ani nesvítí sluníčko.)
+=== PAGE 4 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Pravdivostní funkce vybraných logických operací
+❑ unární spojky → f(a)
+➢ negace ()
+❑ binární spojky → f(a,b)
+➢ konjunkce (), disjunkce (), implikace (→), ekvivalence ()
+➢ nonekvivalence (), Shefferův op. (), Piercův op. ()
+4
+a a
+0 1
+1 0
+a b a  b a  b a → b a  b a  b a  b a  b
+0 0 0 0 1 1 0 1 1
+0 1 0 1 1 0 1 1 0
+1 0 0 1 0 0 1 1 0
+1 1 1 1 1 1 0 0 0
+=== PAGE 5 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Tautologie a kontradikce
+❑ Tautologie T, 1 generuje f(a,b):
+„tautologie (formule T) je pravdivá pro všechna ohodnocení
+proměnných a a b, tj. vždy nabývá hodnotu 1“
+❑ Kontradikce F, 0 generuje f(a,b):
+„kontradikce (formule F) je nepravdivá pro všechna
+ohodnocení proměnných a a b, tj. vždy nabývá hodnotu 0“
+5
+a b T F
+0 0 1 0
+0 1 1 0
+1 0 1 0
+1 1 1 0
+=== PAGE 6 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Příklady – výrokový počet
+❑ Rozhodněte, zda následující formule jsou tautologicky
+ekvivalentní
+➢ (p  q) a ((p  q)  (p  q))
+➢ (p → (q → r) a (p → q ) → r)
+6
+=== PAGE 7 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Ekvivalence formulí
+❑ Dvě formule A a B jsou tautologicky ekvivalentní,
+jestliže generují stejnou pravdivostní funkci
+➢ Značíme A  B
+❑ Dvě formule A a B jsou tautologicky ekvivalentní, právě
+když formule A  B je tautologie
+❑ Příklad
+Ukažme, že formule A: x  y je tautologicky
+ekvivalentní formuli B: x  y
+7
+=== PAGE 8 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Důležité ekvivalence
+8
+ a  a zákon dvojí
+negace
+a  a  1
+a  a  0
+zákony o
+vyloučeném
+třetím
+a  0  a
+a  1  a
+zákon
+neutrálnosti
+nuly a
+jedničky
+a  ( a  b )  a
+a  ( a  b )  a
+zákony o absorpci
+a  0  0
+a  1  1
+zákon
+agresivity
+nuly a
+jedničky
+a  ( a  b )  a  b
+a  ( a  b )  a  b
+zákony o absorpci
+negace
+a  a  a
+a  a  a
+a  a  a
+a  a  a
+zákony o
+idempotenc
+i prvků
+a  ( b  c )  ( a  b )  ( a  c )
+a  ( b  c )  ( a  b )  ( a  c )
+distributivní
+zákony
+a  b  b  a
+a  b  b  a
+a  b  b  a
+…
+a  b ≠ b  a
+komutativní
+zákony
+ ( a  b )  ( a  b )
+„negace disjunkce je konjunkce negace“
+ ( a  b )  ( a  b )
+„negace konjunkce je disjunkce negace“
+De Morganovy
+zákony
+( a  b )  c  a  ( b  c )
+( a  b )  c  a  ( b  c )
+( a  b )  c  a  ( b  c )
+…
+( a  b )  c ≠ a  ( b  c )
+asociativní
+zákony
+a  b  a  b
+(a  b)  c  (a  c)  (b  c)
+a  b  ( a  b )  ( b  a )
+a  b  ( a  b )  ( a  b )
+další ekvivalence
+=== PAGE 9 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Příklady – výrokový počet
+❑ Rozhodněte, zda se v následujících případech jedná o
+logické důsledky
+➢ Jestli-že neprší nebo si vezmu deštník, nezmoknu. Neprší.
+Plyne z toho, že nezmoknu?
+➢ Není pravda, že Petr hraje fotbal i hokej. Petr nehraje fotbal.
+Plyne z toho, že Petr hraje hokej?
+➢ Buď je doma a nebo ve škole. Jestliže je doma, hraje
+počítačové hry.
+Plyne z toho, že jestliže je nehraje počítačové hry, pak je
+ve škole?
+9
+=== PAGE 10 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Logický důsledek
+❑ Z výroků P = {v1, v2, … , vn} logicky vyplývá výrok d
+(je logickým důsledkem) P  d
+➢ právě tehdy, když pro všechna pravdivá ohodnocení všech
+výroků {v1, v2, … , vn} je výrok d také pravdivý
+➢ právě tehdy, když formule
+v1  v2  …  vn  d je tautologie
+➢ právě tehdy, když formule
+v1  v2  …  vn  d je kontradikce
+➢ V opačném případě výrok d z výroků v1, v2, … , vn logicky
+nevyplývá
+10
+=== PAGE 11 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+Samostatný příklad
+❑ Rozhodněte, zda se v následujícím případě jedná o
+logický důsledek
+➢ P1: Logiku umím tehdy a jen tehdy, když umím uvažovat
+➢ P2: Nejsem hloupý
+➢ P3: Buď umím uvažovat, nebo jsem hloupý
+➢ d: Plyne z toho, že umím logiku?
+11
+=== PAGE 12 ===
+Buchtela@pef.czu.cz (C02) B-UPP
+DOTAZY ?
+12
+Děkuji za pozornost!
