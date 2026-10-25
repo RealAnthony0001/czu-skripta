@@ -197,5 +197,45 @@ const TROS = (() => {
     line(190, 54, 190, 110, 'ln ds', 'end') + line(530, 54, 440, 98, 'ln ds', 'end') +
     box(255, 240, 210, 44, 'b', 'Prostředí', 'skupina · podnik · společnost') + line(360, 240, 360, 192, 'ln ds', 'end'));
 
-  return { ovladani, rizeni, regulace, cyklus, matice, subsystemy, oblasti, kompetenceGrid, stabilita, systemOkoli, agregace, orgStupne, eisenhower, stylyGrid, komunikace, smery, spolehlivost, motivace };
+  // 17) sekvenční funkce (po sobě) × paralelní funkce (v každém kroku) – podle matice ze slajdu
+  const sekvParal = () => {
+    const seq = [['1 Plánování', 'cíle a postup'], ['2 Organizování', 'zdroje a podmínky'], ['3 Výběr lidí', 'a jejich rozmístění'], ['4 Vedení lidí', 'úkoly, motivace'], ['5 Kontrola', 'plán × skutečnost']];
+    const par = [['Analýza problémů', 'fD'], ['Rozhodování', 'fE'], ['Realizace (implementace) a koordinace', 'fW']];
+    let o = text(16, 22, 'SEKVENČNÍ FUNKCE – jedna po druhé', 'bd');
+    seq.forEach(([a, b], i) => { o += box(16 + i * 142, 34, 120, 52, i === 4 ? 'fA' : 'b', a, b) + (i < 4 ? line(136 + i * 142, 60, 158 + i * 142, 60, 'ln', 'end') : ''); });
+    o += path('M644,86 v20 h-572 v-20', 'lW', 'end') + text(360, 122, 'kontrola vyhodnotí výsledek a případně upraví plán → cyklus znovu', 'c sm mu');
+    o += text(16, 156, 'PARALELNÍ FUNKCE – probíhají průběžně, v každém z pěti kroků', 'bd');
+    par.forEach(([a, c], i) => { o += rect(16, 168 + i * 34, 688, 26, c) + text(360, 186 + i * 34, a, 'c bd'); });
+    return svg(720, 276, o);
+  };
+
+  // 18) Mintzbergových 10 rolí ve 3 skupinách (3 + 3 + 4)
+  const mintzberg = () => {
+    const g = [
+      ['Interpersonální (3)', 'práce s lidmi', 'fD', [['představitel organizace', 'figurehead'], ['vůdce', 'leader'], ['spojovací článek', 'liaison']]],
+      ['Informační (3)', 'práce s informacemi', 'fW', [['monitor', 'sbírá informace'], ['šiřitel', 'disseminator – dovnitř'], ['mluvčí', 'spokesperson – navenek']]],
+      ['Rozhodovací (4)', 'volba a jednání', 'fA', [['podnikatel', 'entrepreneur'], ['řešitel problémů', 'disturbance-handler'], ['alokátor zdrojů', 'resource-allocator'], ['vyjednavač', 'negotiator']]]
+    ];
+    let o = '';
+    g.forEach(([h, s, c, roles], j) => {
+      const x = 10 + j * 240;
+      o += box(x, 10, 220, 48, c, h, s);
+      roles.forEach(([a, b], i) => { o += line(x + 110, i ? 64 + i * 48 : 58, x + 110, 72 + i * 48, 'ln') + box(x, 72 + i * 48, 220, 40, 'b', a, b); });
+    });
+    return svg(720, 268, o);
+  };
+
+  // 19) koncepce 7 S (McKinsey) – šest S propojených navzájem, uprostřed sdílené hodnoty
+  const sedmS = () => {
+    const s = ['Strategie', 'Systémy', 'Struktura', 'Styl', 'Schopnosti', 'Spolupráce'];
+    const pt = s.map((_, i) => { const a = (-90 + i * 60) * Math.PI / 180; return [Math.round(360 + 250 * Math.cos(a)), Math.round(150 + 108 * Math.sin(a))]; });
+    let o = '';
+    pt.forEach(([x1, y1], i) => pt.slice(i + 1).forEach(([x2, y2]) => { o += line(x1, y1, x2, y2, 'ln ds'); }));
+    pt.forEach(([x, y]) => { o += line(x, y, 360, 150, 'ln'); });
+    pt.forEach(([x, y], i) => { o += box(x - 66, y - 20, 132, 40, 'fD', s[i]); });
+    o += `<ellipse cx="360" cy="150" rx="92" ry="32" class="fA"/>` + text(360, 147, 'Sdílené hodnoty', 'c bd') + text(360, 163, 'podniková kultura', 'c sm mu');
+    return svg(720, 284, o);
+  };
+
+  return { sekvParal, mintzberg, sedmS, ovladani, rizeni, regulace, cyklus, matice, subsystemy, oblasti, kompetenceGrid, stabilita, systemOkoli, agregace, orgStupne, eisenhower, stylyGrid, komunikace, smery, spolehlivost, motivace };
 })();
