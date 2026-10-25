@@ -1,0 +1,2 @@
+#!/bin/sh
+tools/version.sh && git add assets/version.js
