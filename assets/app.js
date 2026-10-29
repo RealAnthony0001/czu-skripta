@@ -189,8 +189,17 @@ document.addEventListener('click', e => {
   const bx = e.target.closest('.recall .box'); if (bx) bx.classList.toggle('shown');
   if (e.target.id === 'done') { const id = topics.find(t => '#/' + t.id === location.hash).id; done.has(id) ? done.delete(id) : done.add(id); store.set(KEY + '-done', [...done]); const y = scrollY; route(); scrollTo(0, y); }
 });
+// Anki: textový import (Soubor → Importovat), 1 řádek = otázka, odpověď, balíček podle tématu, štítek; zamčená témata vynechá
+const ankiTxt = () => {
+  const f = s => '"' + String(s).replace(/[\t\r\n]+/g, ' ').replace(/"/g, '""') + '"';
+  const deck = `Skripta ČZU::${SUBJECT.name}`;
+  return ['#separator:tab', '#html:true', '#notetype:Basic', '#deck column:3', '#tags column:4',
+    ...topics.filter(t => !locked(t)).flatMap(t => (t.qa || []).map(x => [x.q, x.a, `${deck}::${num(t.order)} ${t.title}`, `${SUBJECT.id}::${t.id}`].map(f).join('\t')))].join('\n');
+};
+const ankiDl = () => Object.assign(document.createElement('a'), { href: URL.createObjectURL(new Blob([ankiTxt()], { type: 'text/plain' })), download: `anki-${SUBJECT.id}.txt` }).click();
 addEventListener('DOMContentLoaded', () => {
   topics = T.sort((a, b) => a.order - b.order);
+  { const b = Object.assign(document.createElement('button'), { textContent: '⬇ Anki', title: 'Stáhnout otázky jako kartičky do Anki (Soubor → Importovat)', onclick: ankiDl }); $('#recall').before(b); }
   $('#theme').onclick = () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
   $('#recall').onclick = () => setRecall(!document.body.classList.contains('recall'));
   if (window.QUIZZES) { const b = document.createElement('button'); b.id = 'quizbtn'; b.onclick = () => location.hash = location.hash.startsWith('#/kviz') ? '#/' : '#/kviz'; $('#recall').before(b); }
