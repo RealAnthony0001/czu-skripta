@@ -117,13 +117,28 @@ function fcRender() {
   ${fc.show ? `<div class="a">${q.a}</div><button class="yes" data-fc="yes">✔ Věděl(a) jsem</button> <button class="no" data-fc="no">✘ Nevěděl(a) jsem</button>` : '<button data-fc="show" class="on">Ukázat odpověď</button>'} <button data-fc="stop">Konec</button></div>`;
 }
 function fcAct(a) {
-  const t = topics.find(x => '#/' + x.id === location.hash);
+  const t = location.hash.startsWith('#/anki/') ? ankiT(decodeURIComponent(location.hash.slice(7))) : topics.find(x => '#/' + x.id === location.hash);
+  if (a === 'stop' && location.hash.startsWith('#/anki/')) return void (location.hash = '#/anki');
   if (a === 'start') { fc = { t, order: t.qa.map((_, i) => i).sort(() => Math.random() - .5), i: 0, ok: 0, bad: [], show: false }; }
   else if (a === 'redo') fc = { ...fc, order: fc.bad, i: 0, ok: 0, bad: [], show: false };
   else if (a === 'stop') fc = null;
   else if (a === 'show') fc.show = true;
   else { a === 'yes' ? fc.ok++ : fc.bad.push(fc.order[fc.i]); fc.i++; fc.show = false; }
   fcRender();
+}
+// režim Anki (#/anki): balíčky = témata (+ vše najednou), zkoušení kartičkami na #/anki/<id>, stažení pro Anki
+const ankiT = id => id === 'vse' ? { title: 'Všechny otázky', qa: topics.filter(t => !locked(t) && inG(t)).flatMap(t => t.qa || []) } : topics.find(t => t.id === id && !locked(t) && t.qa?.length);
+function ankiList() {
+  const ts = topics.filter(t => !locked(t) && inG(t) && t.qa?.length), all = ts.reduce((a, t) => a + t.qa.length, 0);
+  const card = (id, n, title, s, cnt) => `<a href="#/anki/${id}" class="tcard"><div class="n">${n}</div><b>${title}</b><span class="s">${s}</span><div class="f"><span>${cnt} kartiček</span></div></a>`;
+  $('#main').innerHTML = `<div class="crumb">${SUBJECT.name} / Anki kartičky</div><header class="hero"><div><h2>Anki kartičky</h2><p>Vyber balíček a zkoušej se: otázka → odpověď → Věděl(a) / Nevěděl(a), nezvládnuté si zopakuješ. Celý předmět si můžeš stáhnout i do aplikace Anki.</p></div></header>
+  ${gTabs(true)}<p><button class="on" data-anki="dl">⬇ Stáhnout pro Anki (${SUBJECT.name})</button> <small>v Anki: Soubor → Importovat; balíček podle témat</small></p>
+  <div class="grid">${card('vse', '∞', 'Všechny otázky', 'Kartičky ze všech témat najednou, náhodně promíchané.', all)}${ts.map(t => card(t.id, num(topics.indexOf(t)), t.title, t.summary || '', t.qa.length)).join('')}</div>`;
+}
+function ankiDeck(id) {
+  const t = ankiT(id); if (!t) return void (location.hash = '#/anki');
+  $('#main').innerHTML = `<div class="crumb"><a href="#/anki">Anki kartičky</a> / ${SUBJECT.name}</div><header class="hero"><div><h2>${t.title}</h2><p>${t.qa.length} kartiček v náhodném pořadí.</p></div></header><div id="fc"></div>`;
+  fcAct('start');
 }
 // kvíz (#/kviz): window.QUIZZES = [{ id, title, desc, items }] z <předmět>/quiz.js (výběr na #/kviz, kvíz na #/kviz/<id>); otázka je „zapamatovaná“ po QZ_N správných odpovědích v řadě, špatná odpověď streak nuluje a otázku vrátí na konec kola
 const QZ_N = 2, qzKey = u => KEY + '-quiz-' + u.id, shuffle = a => a.map(x => [Math.random(), x]).sort((x, y) => x[0] - y[0]).map(x => x[1]);
@@ -161,11 +176,13 @@ function route() {
   document.body.classList.remove('nav'); spy?.disconnect(); fc = null;
   let i = topics.findIndex(t => t.id === h);
   if (i >= 0 && locked(topics[i])) { location.hash = '#/'; return; }
-  const q = h.startsWith('?q='), isQz = /^kviz(\/|$)/.test(h) && window.QUIZZES, qu = isQz && QUIZZES.find(u => 'kviz/' + u.id === h);
+  const isAnki = /^anki(\/|$)/.test(h), q = h.startsWith('?q='), isQz = /^kviz(\/|$)/.test(h) && window.QUIZZES, qu = isQz && QUIZZES.find(u => 'kviz/' + u.id === h);
   if (GROUPS && i >= 0 && topics[i].group && topics[i].group !== curG) setG(topics[i].group);
   m.className = i >= 0 ? 'topic' : '';
+  if (isAnki) h === 'anki' ? ankiList() : ankiDeck(h.slice(5)); else
   if (isQz) { qu ? (qz = { qu, queue: [] }, qzRender()) : qzList(); } else
   m.innerHTML = q ? search(h.slice(3)) : i >= 0 ? topicHTML(topics[i], i) : h === 'mapa' && window.WIDGETS?.mapa ? mapHTML() : home();
+  $('#ankibtn').textContent = isAnki ? '📖 Skripta' : '🃏 Anki';
   if (window.QUIZZES) $('#quizbtn').textContent = isQz ? '📖 Skripta' : '📝 Kvízy';
   $$('.wg').forEach(el => { const b = WGB[+el.dataset.wi]; window.WIDGETS?.[b.name]?.(el, b); });
   document.title = (i >= 0 ? topics[i].title + ' – ' : '') + SUBJECT.name;
@@ -184,6 +201,7 @@ document.addEventListener('click', e => {
   if (g) { e.preventDefault(); document.getElementById(g.dataset.go)?.scrollIntoView(); }
   if (qa) $$('details.qa').forEach(d => d.open = qa === 'open');
   if (f) fcAct(f);
+  if (e.target.dataset.anki === 'dl') ankiDl();
   const z = e.target.closest('[data-qz]'); if (z) qzAct(z.dataset.qz, z.dataset.k);
   const h3 = e.target.closest('article section>h3'); if (h3) h3.parentElement.classList.toggle('fold');
   const bx = e.target.closest('.recall .box'); if (bx) bx.classList.toggle('shown');
@@ -199,7 +217,7 @@ const ankiTxt = () => {
 const ankiDl = () => Object.assign(document.createElement('a'), { href: URL.createObjectURL(new Blob([ankiTxt()], { type: 'text/plain' })), download: `anki-${SUBJECT.id}.txt` }).click();
 addEventListener('DOMContentLoaded', () => {
   topics = T.sort((a, b) => a.order - b.order);
-  { const b = Object.assign(document.createElement('button'), { textContent: '⬇ Anki', title: 'Stáhnout otázky jako kartičky do Anki (Soubor → Importovat)', onclick: ankiDl }); $('#recall').before(b); }
+  { const b = Object.assign(document.createElement('button'), { id: 'ankibtn', title: 'Kartičky otázka → odpověď (zkoušení i stažení do Anki)', onclick: () => location.hash = location.hash.startsWith('#/anki') ? '#/' : '#/anki' }); $('#recall').before(b); }
   $('#theme').onclick = () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
   $('#recall').onclick = () => setRecall(!document.body.classList.contains('recall'));
   if (window.QUIZZES) { const b = document.createElement('button'); b.id = 'quizbtn'; b.onclick = () => location.hash = location.hash.startsWith('#/kviz') ? '#/' : '#/kviz'; $('#recall').before(b); }
