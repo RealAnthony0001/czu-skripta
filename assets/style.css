@@ -276,3 +276,8 @@ svg [data-act]{cursor:pointer}
 /* hledání v horní liště */
 .top #q{flex:0 1 240px;min-width:0;padding:6px 10px;border:1px solid var(--line2);background:var(--bg);color:var(--text);font:inherit;font-size:13px}.top #q:focus{outline:none;border-color:var(--accent)}.top #sbtn{display:none}
 @media(max-width:860px){.top #sbtn{display:inline-block}.top #q{display:none;position:absolute;left:8px;right:8px;top:6px;height:36px;flex:none;z-index:2}body.srch .top #q{display:block}}
+.hit a.hl{display:block;color:inherit;text-decoration:none;padding:3px 6px;margin:0 -6px}.hit a.hl:hover{background:var(--panel2)}.mu{color:var(--muted)}
+/* mobil: kompaktní horní lišta – jen ikony, bez verze, týdne a kódu */
+@media(max-width:860px){.top{gap:6px;padding:0 8px}.top .ver,.top .week,.top .code{display:none}.top button{flex:none;padding:5px 8px;white-space:nowrap;line-height:1.2}
+.top #ankibtn,.top #quizbtn,.top #recall,.top #theme{font-size:0}.top #ankibtn::first-letter,.top #quizbtn::first-letter,.top #recall::first-letter,.top #theme::first-letter{font-size:15px}
+.top h1{min-width:0;font-size:12px}}

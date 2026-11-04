@@ -91,11 +91,21 @@ function home() {
 }
 // myšlenková mapa (#/mapa): widget 'mapa' z <předmět>/map.js – kostra předmětu + sekce a pojmy z témat
 const mapHTML = () => `<div class="crumb"><a href="#/">${SUBJECT.name}</a> / Mapa</div><header class="hero"><div><h2>Myšlenková mapa</h2><p>Klikni na uzel – rozbalí se a vpravo dole uvidíš vysvětlení a odkaz do kapitoly. Najetím myší se ukáže krátký popis.</p></div></header>${block({ t: 'widget', name: 'mapa' })}`;
+// hledání: bez ohledu na diakritiku a velikost písmen, víceslovný dotaz = všechna slova ve stejné části; fold() drží délku textu (kvůli zvýraznění)
+const fold = x => [...x].map(c => c.length > 1 ? c : c.normalize('NFD')[0].toLowerCase()).join('');
 function search(q) {
-  const flat = v => typeof v === 'string' || typeof v === 'number' ? v : v && typeof v === 'object' ? Object.values(v).map(flat).join(' ') : ''; // rekurzivně: bloky mají vnořené objekty (cols, steps, kids …)
-  const re = new RegExp(reEsc(q), 'i'), strip = x => x.replace(/<[^>]+>/g, ' ');
-  const hits = topics.filter(t => !locked(t)).map(t => ({ t, parts: [...t.sections.flatMap(s => s.blocks.map(b => [s.title, strip(flat(b))])), ...(t.vocab || []).map(v => ['Slovníček', strip(v.w + ' ' + v.x)]), ...(t.qa || []).map(x => ['Otázky', strip(x.q + ' ' + x.a)])].filter(([, x]) => re.test(x)) })).filter(h => h.parts.length);
-  return `<h2 style="margin-top:0">Hledání: „${esc(q)}“</h2>` + (hits.map(({ t, parts }) => `<div class="card"><a href="#/${t.id}"><b>${t.title}</b></a>${parts.slice(0, 3).map(([s, x]) => { const m = x.search(re); return `<div class="hit"><b>${s}</b>: …${esc(x.slice(Math.max(0, m - 50), m + 90)).replace(new RegExp(reEsc(esc(q)), 'ig'), '<mark>$&</mark>')}…</div>`; }).join('')}</div>`).join('') || '<p>Nic nenalezeno.</p>');
+  const flat = v => typeof v === 'string' || typeof v === 'number' ? v : v && typeof v === 'object' ? Object.entries(v).filter(([k]) => k !== 't').map(([, y]) => flat(y)).join(' ') : ''; // klíč t = typ bloku (def, svg …), ne text; // rekurzivně: bloky mají vnořené objekty (cols, steps, kids …)
+  const strip = x => String(x).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(), ws = fold(q).split(/\s+/).filter(Boolean);
+  const re = new RegExp(ws.map(reEsc).join('|'), 'g'), ok = x => { const f = fold(x); return ws.every(w => f.includes(w)); };
+  const hits = topics.filter(t => !locked(t)).map(t => ({ t, parts: [
+    ...t.sections.flatMap((s, k) => s.blocks.map(b => [s.title, strip(flat(b)), sid(t, k)])),
+    ...(t.vocab || []).map(v => ['Slovníček', strip(v.w + ' ' + v.x), t.id + '-vocab']),
+    ['Rychlý přehled', strip(flat(t.key || [])), ''], ['Časté chyby', strip(flat(t.mistakes || [])), ''],
+    ...(t.qa || []).map(x => ['Otázky', strip(x.q + ' ' + x.a), ''])
+  ].filter(([, x]) => x && ok(x)) })).filter(h => h.parts.length || ok(strip(h.t.title))).map(h => ({ ...h, tm: ok(strip(h.t.title)) })).sort((a, b) => b.tm - a.tm || b.parts.length - a.parts.length); // nejdřív téma s dotazem v názvu, pak podle počtu nálezů
+  const mark = x => { const f = fold(x), m = f.search(re), st = Math.max(0, m - 50), seg = x.slice(st, m + 110), fs = f.slice(st, m + 110); let o = '', i = 0; for (const r of fs.matchAll(re)) { o += esc(seg.slice(i, r.index)) + '<mark>' + esc(seg.slice(r.index, r.index + r[0].length)) + '</mark>'; i = r.index + r[0].length; } return (st ? '…' : '') + o + esc(seg.slice(i)) + (x.length > m + 110 ? '…' : ''); };
+  const n = hits.reduce((a, h) => a + h.parts.length, 0);
+  return `<h2 style="margin-top:0">Hledání: „${esc(q)}“</h2><p class="mu">${hits.length ? `${n} nálezů v ${hits.length} tématech – klikni na nález a skočíš přímo do sekce.` : ''}</p>` + (hits.map(({ t, parts }) => `<div class="card"><a href="#/${t.id}"><b>${t.title}</b></a>${parts.length ? ` <span class="mu">· ${parts.length}×</span>` : ''}${parts.slice(0, 4).map(([sec, x, id]) => `<div class="hit"><a href="#/${t.id}" data-sec="${id}" class="hl"><b>${sec}</b>: ${mark(x)}</a></div>`).join('')}${parts.length > 4 ? `<div class="hit mu">… a dalších ${parts.length - 4}</div>` : ''}</div>`).join('') || '<p>Nic nenalezeno. Zkus kratší nebo jiné slovo (hledá se i bez diakritiky).</p>');
 }
 function nav() {
   const nd = topics.filter(t => !locked(t) && inG(t));
@@ -186,8 +196,8 @@ function route() {
   $$('.wg').forEach(el => { const b = WGB[+el.dataset.wi]; window.WIDGETS?.[b.name]?.(el, b); });
   document.title = (i >= 0 ? topics[i].title + ' – ' : '') + SUBJECT.name;
   if (!q) window._q = '';
-  nav(); $('#q').value = q ? window._q = h.slice(3) : '';
-  scrollTo(0, 0);
+  nav(); $('#q').value = q ? window._q = h.slice(3) : ''; if (!q && document.activeElement !== $('#q')) document.body.classList.remove('srch'); // mobil: zavřít pole po přechodu na výsledek
+  scrollTo(0, 0); if (window._sec) { document.getElementById(window._sec)?.scrollIntoView({ behavior: 'instant' }); window._sec = ''; }
   if (i >= 0) { // zvýraznění aktuální sekce v obsahu
     const links = $$('.toc a');
     spy = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && links.forEach(a => a.classList.toggle('act', a.dataset.go === e.target.id))), { rootMargin: '-60px 0px -70% 0px' });
@@ -197,6 +207,7 @@ function route() {
 document.addEventListener('click', e => {
   const gt = e.target.closest('[data-grp]'); if (gt) { setG(gt.dataset.grp); const t = topics.find(x => '#/' + x.id === location.hash); if (t?.group && t.group !== curG) location.hash = '#/'; route(); return; }
   const g = e.target.closest('[data-go]'), qa = e.target.dataset.qa, f = e.target.dataset.fc;
+  const sh = e.target.closest('[data-sec]'); if (sh) window._sec = sh.dataset.sec;
   if (g) { e.preventDefault(); document.getElementById(g.dataset.go)?.scrollIntoView(); }
   if (qa) $$('details.qa').forEach(d => d.open = qa === 'open');
   if (f) fcAct(f);
@@ -224,6 +235,9 @@ addEventListener('DOMContentLoaded', () => {
   { const i = Object.assign(document.createElement('input'), { id: 'q', type: 'search', placeholder: 'Hledat v celém skriptu…', oninput: e => { window._q = e.target.value.trim(); location.hash = window._q.length > 1 ? '#/?q=' + encodeURIComponent(window._q) : '#/'; } });
     const b = Object.assign(document.createElement('button'), { id: 'sbtn', textContent: '🔍', title: 'Hledat', onclick: () => { document.body.classList.toggle('srch'); i.focus(); } });
     $('.top h1').after(i); i.before(b); }
+  addEventListener('keydown', e => { const i = $('#q'), a = document.activeElement, typing = /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName);
+    if (e.key === '/' && !typing && !e.ctrlKey && !e.metaKey) { e.preventDefault(); document.body.classList.add('srch'); i.focus(); }
+    else if (e.key === 'Escape' && a === i) { i.value = window._q = ''; i.blur(); document.body.classList.remove('srch'); location.hash = '#/'; } });
   $('#burger').onclick = () => document.body.classList.toggle('nav');
   setTheme(store.get('theme', 'dark')); setRecall(store.get('recall', false)); route();
 });
