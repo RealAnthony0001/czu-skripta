@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'zivnostenske-podnikani', order: 15, icon: '🏪', title: 'Podnikání a živnostenské právo', src: 'doplneno', where: 'Seminář 4 (veřejnoprávní úprava podnikání; zákon č. 455/1991 Sb.) – psáno ze znalostí, bez podkladů',
+  id: 'zivnostenske-podnikani', order: 16, icon: '🏪', title: 'Podnikání a živnostenské právo', src: 'doplneno', where: 'Seminář 4 (veřejnoprávní úprava podnikání; zákon č. 455/1991 Sb.) – psáno ze znalostí, bez podkladů',
   summary: 'Pojem podnikatele podle občanského zákoníku, živnost a její znaky, všeobecné a zvláštní podmínky provozování, druhy živností, provozovna, odpovědný zástupce, živnostenský úřad, vznik a zánik oprávnění a podnikání mimo živnostenský zákon.',
   vocab: [
     { w: 'OZ, ŽZ, Sb.', x: 'OZ = občanský zákoník (č. 89/2012 Sb.), ŽZ = živnostenský zákon (č. 455/1991 Sb.), Sb. = Sbírka zákonů.' },

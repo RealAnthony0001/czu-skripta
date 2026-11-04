@@ -156,5 +156,31 @@ const ZPN = (() => {
     return svg(760, y - 6, o);
   };
 
-  return { legislativeProcess, publicPrivate, absRel, normDiagram, validityTimeline, powersDiagram, relationDiagram, factsDiagram, defectsDiagram, calendarDiagram, promlceniDiagram, nozBar, rulesOrder };
+  // 13) stránka zákona (občanský zákoník) s popisky
+  const lawPage = () => {
+    const L = (y, s, c) => text(225, y, s, c);
+    const tag = (y, h, x) => line(432, y - 4, 462, y - 4, 'ln') + text(470, y, h, 'bd') + text(470, y + 16, x, 'sm mu');
+    return svg(760, 430,
+      rect(20, 10, 410, 410, 'b') + rect(36, 214, 378, 104, 'fW') +
+      text(414, 38, 'č. 89/2012 Sb.', 'e sm') + L(62, 'ZÁKON', 'c bd') + L(82, 'ze dne 3. února 2012', 'c sm') + L(104, 'občanský zákoník', 'c bd') +
+      L(130, 'Parlament se usnesl na tomto zákoně České republiky:', 'c sm mu') +
+      L(162, 'ČÁST PRVNÍ – [název části]', 'c bd') + L(182, 'HLAVA I – [název hlavy]', 'c sm bd') + L(200, 'Díl 1 – [název dílu]', 'c sm') +
+      L(234, '§ 605', 'c bd') + text(52, 256, '(1) Lhůta nebo doba určená podle dnů počíná dnem, …', 'sm') + text(52, 276, '(2) Konec lhůty nebo doby určené podle týdnů, měsíců …', 'sm') + L(304, '§ 606 · § 607 · § 608 …', 'c sm') +
+      L(340, '⋮', 'c mu') + L(362, '§ 3081', 'c bd') + L(380, 'Tento zákon nabývá účinnosti dnem 1. ledna 2014.', 'c sm') + L(406, 'prezident · předseda Sněmovny · předseda vlády', 'c sm mu') +
+      tag(38, 'Číslo a rok ve Sbírce', '89/2012 Sb. – podle toho se cituje') + tag(90, 'Druh, datum a název', 'zákon ze dne …, název předpisu') +
+      tag(130, 'Úvodní věta', 'kdo zákon přijal') + tag(172, 'Členění: část → hlava → díl', 'jen u rozsáhlých zákonů') +
+      tag(226, 'Paragraf (§)', 'základní číslovaná jednotka') + tag(270, 'Odstavec (odst.)', 'číslo v závorce na začátku') +
+      tag(312, 'Průběžné číslování', '§ jdou dál napříč částmi, OZ až § 3081') + tag(366, 'Účinnost (v závěru)', 'jinak 15. den po vyhlášení') + tag(408, 'Podpisy', 'tři ústavní činitelé'));
+  };
+
+  // 14) citace ustanovení
+  const citation = () => {
+    const part = (x, w, c, t, h, s) => box(x, 20, w, 44, c, t) + text(x + w / 2, 88, h, 'c bd') + (s ? text(x + w / 2, 106, s, 'c sm mu') : '');
+    return svg(760, 170,
+      part(20, 76, 'fD', '§ 5', 'paragraf') + part(106, 110, 'fW', 'odst. 1', 'odstavec') + part(226, 110, 'fE', 'písm. d)', 'písmeno') +
+      part(346, 240, 'fA', 'zákona č. 252/1997 Sb.', 'který zákon', 'číslo / rok vyhlášení, Sb.') + part(596, 144, 'b', 'o zemědělství', 'název zákona') +
+      line(30, 140, 730, 140, 'ln', 'end') + text(380, 160, 'čte se od nejmenší jednotky k předpisu, v němž leží', 'c sm mu'));
+  };
+
+  return { lawPage, citation, legislativeProcess, publicPrivate, absRel, normDiagram, validityTimeline, powersDiagram, relationDiagram, factsDiagram, defectsDiagram, calendarDiagram, promlceniDiagram, nozBar, rulesOrder };
 })();
