@@ -1,6 +1,7 @@
 // Widgety TŘOS (blok { t: 'widget', name }): vahy (vážený součet variant), spolehlivost (série a paralela), stupne (spolehlivost podle počtu stupňů), kompetence (K = PR × SP).
 (() => {
   const f3 = x => x.toFixed(3).replace('.', ',');
+  const pc = x => (x * 100).toFixed(1).replace('.', ',') + ' %'; // p je bezrozměrné (0–1); v % pro čtení
 
   // ---------- vícekriteriální hodnocení variant ----------
   const VARS = [['V1', [3, 3, 3]], ['V2', [1, 5, 5]], ['V3', [5, 1, 2]]], CRIT = ['K1 návratnost', 'K2 spolehlivost', 'K3 servis'];
@@ -26,8 +27,8 @@
     input: (ui, k) => { const m = /^(p|on)(\d)(\d)$/.exec(k); if (m) { if (m[1] === 'p') ui.p[+m[2]][+m[3]] = Math.min(1, Math.max(0, ui[k])); else ui.on[+m[2]][+m[3]] = ui[k]; } },
     view: ui => {
       const stage = ST.map((_, g) => { const a = ui.p[g].filter((_, i) => ui.on[g][i]); return a.length ? 1 - a.reduce((h, p) => h * (1 - p), 1) : 0; }), tot = stage.reduce((a, b) => a * b, 1);
-      return WG.tbl(['stupeň', 'zapojené prvky', 'výpočet', 'spolehlivost stupně'], ST.map(([n], g) => { const a = ui.p[g].filter((_, i) => ui.on[g][i]); return { cells: [n, a.length || 0, a.length > 1 ? `p = 1 − ${a.map(p => `(1 − ${String(p).replace('.', ',')})`).join('·')}` : a.length ? 'jediný prvek' : 'žádný prvek → celek nefunguje', `<b>${f3(stage[g])}</b>`] }; }))
-        + WG.note(`Stupně jsou zapojeny <b>sériově</b> (násobí se): p = ${stage.map(f3).join(' · ')} = <b>${f3(tot)}</b>. Uvnitř stupně jsou prvky <b>paralelně</b> (zálohují se): p = 1 − ∏(1 − pᵢ).`, tot > 0 ? 'ok' : 'bad')
+      return WG.tbl(['stupeň', 'zapojené prvky', 'výpočet', 'spolehlivost stupně p (0–1)'], ST.map(([n], g) => { const a = ui.p[g].filter((_, i) => ui.on[g][i]); return { cells: [n, a.length || 0, a.length > 1 ? `p = 1 − ${a.map(p => `(1 − ${String(p).replace('.', ',')})`).join('·')}` : a.length ? 'jediný prvek' : 'žádný prvek → celek nefunguje', `<b>${f3(stage[g])}</b> (${pc(stage[g])})`] }; }))
+        + WG.note(`Stupně jsou zapojeny <b>sériově</b> (násobí se): p = ${stage.map(f3).join(' · ')} = <b>${f3(tot)}</b> (${pc(tot)}). Uvnitř stupně jsou prvky <b>paralelně</b> (zálohují se): p = 1 − ∏(1 − pᵢ).`, tot > 0 ? 'ok' : 'bad')
         + '<p class="mu" style="font-size:13px">Vypni záložní prvek (odškrtnutím) a uvidíš, o kolik klesne spolehlivost celku; v sérii platí, že celek je vždy horší než nejslabší stupeň.</p>';
     }
   }));
@@ -35,8 +36,8 @@
   // ---------- spolehlivost podle počtu organizačních stupňů ----------
   WG.reg('stupne', root => WG.app(root, {
     state: { p: 0.9 },
-    top: ui => `${WG.lbl('spolehlivost jednoho stupně p =')}${WG.rng('p', ui.p, 0.5, 1, 0.01)}<b class="mo">${String(ui.p.toFixed(2)).replace('.', ',')}</b>`,
-    view: ui => WG.tbl(['počet stupňů n', 'spolehlivost p<sup>n</sup>', ''], [1, 2, 3, 4, 5].map(n => [n, f3(ui.p ** n), `<div style="height:12px;background:var(--accent);width:${Math.round(ui.p ** n * 100)}%"></div>`]))
+    top: ui => `${WG.lbl('spolehlivost jednoho stupně p (0–1) =')}${WG.rng('p', ui.p, 0.5, 1, 0.01)}<b class="mo">${String(ui.p.toFixed(2)).replace('.', ',')}</b>`,
+    view: ui => WG.tbl(['počet stupňů n', 'spolehlivost p<sup>n</sup> (0–1)', 'v %', ''], [1, 2, 3, 4, 5].map(n => [n, f3(ui.p ** n), pc(ui.p ** n), `<div style="height:12px;background:var(--accent);width:${Math.round(ui.p ** n * 100)}%"></div>`]))
       + WG.note('Stupně jsou řazeny za sebou (sériově), takže se jejich spolehlivosti násobí: každý další stupeň spolehlivost snižuje (při 0,90: 0,90 · 0,81 · 0,73 · 0,66). Proto má mít podnik co nejméně stupňů – ale ne tak málo, aby ředitel nestihl řídit.')
   }));
 

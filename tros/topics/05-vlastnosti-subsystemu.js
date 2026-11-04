@@ -118,6 +118,18 @@ registerTopic({
     ] },
     { title: 'Spolehlivost organizačního systému', blocks: [
       { t: 'def', term: 'Spolehlivost', x: 'Pravděpodobnost <b>p</b>, že systém reaguje na známý podnět očekávanou reakcí (např. bezporuchovost linky p = 0,98).', items: ['<b>nespolehlivost h = 1 − p</b> (zde 0,02)', 'OS je stochastický, nikdy nemá p = 100 %'] },
+      { t: 'grid', head: ['Veličina', 'Značka', 'Jednotka', 'Příklad'], rows: [
+        ['Spolehlivost', 'p', 'bezrozměrná (pravděpodobnost 0–1), zapisuje se i v %', '0,98 = 98 %'],
+        ['Nespolehlivost', 'h = 1 − p', 'bezrozměrná (0–1), také v %', '0,02 = 2 %'],
+        ['Počet stupňů řízení', 'n', 'stupně (celé číslo)', '3 stupně'],
+        ['Počet prvků (OJ) ve stupni', 'm, o', 'ks (prvků, organizačních jednotek)', '4 prvky C1–C4'],
+        ['Vadné vstupy', '–', 'ks ze 100 (= 100 % − p)', 'p = 95 % → 5 ze 100 vadných']
+      ] },
+      { t: 'ul', items: [
+        '<b>Převod:</b> p v % = p · 100 (0,9392 → 93,92 % ≈ 94 %); p = % / 100 (87 % → 0,87).',
+        '<b>Počítej vždy v čísle 0–1</b>, ne v procentech: 0,95 · 0,90 = 0,855 (tj. 85,5 %), nikoli 95 · 90. Výsledek na konci převeď na %.',
+        'Součin i paralela dávají opět číslo z intervalu 0–1; spolehlivost nemá jednotku času ani kusů – udává <b>podíl případů</b>, kdy očekávaná reakce nastane.'
+      ] },
       { t: 'versus', cols: [
         { h: 'Sériové spojení', items: ['vstup → transformace → chování', 'výsledek = <b>součin</b> spolehlivostí: p = p₁ · p₂ · … · pₙ', 'každý další prvek spolehlivost snižuje'] },
         { h: 'Paralelní spojení', items: ['prvky se zálohují', 'nespolehlivosti se násobí: h = ∏(1 − pᵢ)', 'p = 1 − ∏(1 − pᵢ)', 'každý další prvek spolehlivost zvyšuje'] }
@@ -131,9 +143,13 @@ registerTopic({
         ['Zatížená záloha', 'plní jinou činnost, ale může plně nahradit jiný prvek', 'zástupce ŘP; stěžejní vývojář zálohovaný kolegou (nikdo nesmí být nenahraditelný)'],
         ['Částečně zatížená záloha', 'nahradí jen některé činnosti důležitějšího prvku', 'vývojář, který ovládá jen jedno ze dvou prostředí; zástupce vedoucího (místopředseda, náměstek, zástupce vedoucího směny)']
       ] },
+      { t: 'def', term: 'Spolehlivost vstupu', x: 'Podíl vstupů (materiálu, informací), které jsou v pořádku.', items: ['vstup 95 % = <b>5 ze 100 vstupů je vadných</b>', 'vstupní kontrola vadné vyřadí → do výroby jde 100 % spolehlivý materiál', 'u informací pro rozhodování je nespolehlivost větší a hůř se odhaluje; 100 % spolehlivý informační vstup neexistuje'] },
+      { t: 'p', x: '<b>Obecný vztah pro celý OS</b> (průměrná spolehlivost jedné organizační jednotky p<sub>ij</sub>, počet stupňů řízení n, průměrný počet jednotek v jednom stupni o): <b>p = [1 − (1 − p<sub>ij</sub>)<sup>o</sup>]<sup>n</sup></b> – uvnitř stupně paralela, mezi stupni série. (Vzorec je v podkladech jen jako obrázek; tvar je odvozen z uvedených vzorců pro sérii a paralelu.) Z něj lze vypočítat potřebný počet stupňů n, nebo nejmenší počet záložních jednotek o pro požadovanou spolehlivost p.' },
+      { t: 'ex', x: '<b>Kolik záloh pomůže:</b> p<sub>ij</sub> = 0,90, n = 3 stupně. Bez záloh (o = 1): 0,90³ = <b>0,729 ≈ 73 %</b>. Ve stupni dvě jednotky paralelně (o = 2): (1 − 0,10²)³ = 0,99³ = <b>0,970 ≈ 97 %</b>. Tři jednotky (o = 3): (1 − 0,10³)³ = 0,999³ ≈ <b>0,997 ≈ 99,7 %</b>.' },
       { t: 'ul', items: [
         'Spolehlivost lze zvyšovat <b>na vstupu</b> (vstupní kontrola kvality materiálu a informací) a <b>optimalizací uspořádání prvků</b> – zvyšováním spolehlivosti prvků (kvalita, vedení a motivace lidí) a vazeb (záložní větve).',
-        'Přesně lze počítat hlavně v produkčně-technické oblasti; u lidí a řízení se spolehlivost přesně určit nedá.'
+        '<b>Dvě strategie:</b> zvyšovat spolehlivost chování prvků (kvalita vstupů a subdodávek, konstrukční vylepšení technického prvku, lepší vedení a motivace u člověka) a zvyšovat spolehlivost vazeb mezi prvky (zálohové prvky = paralelní vazby).',
+        'Přesně lze počítat hlavně v produkčně-technické oblasti (statisticky průměrná spolehlivost prvků výrobní základny → přesný počet nezatížených záloh: zásoby, agregát, náhradní díly); u lidí a řízení se spolehlivost přesně určit nedá.'
       ] }
     ] }
   ],
