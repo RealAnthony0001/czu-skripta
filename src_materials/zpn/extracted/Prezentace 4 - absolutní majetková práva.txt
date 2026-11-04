@@ -1,0 +1,510 @@
+=== SLIDE 1 ===
+
+Základy právních nauk
+23/10/24
+Přednáška č. 4
+ABSOLUTNÍ MAJETKOVÁ PRÁVA
+
+=== SLIDE 2 ===
+
+Absolutní majetková práva
+Absolutní majetková práva
+Věcná práva:
+právní úprava v občanském zákoníku, zák. č. 89/2012 Sb., občanský zákoník § 976 - § 1720 
+umožňují úplné nebo částečné právní panství nad určitou věcí
+předmětem – věc (hmotná, nehmotná + věcná práva, pokud to připouští jejich povaha)  - určena individuálně
+
+=== SLIDE 3 ===
+
+Věc
+Definice věci podle občanského zákoníku)  
+§ 489 „Věc v právním smyslu je vše, co je rozdílné od osoby a slouží k potřebám lidí.“
+§ 490 „Věc určená k obecnímu užívání je veřejným statkem“
+§ 492 „ Hodnota věci, lze-li ji vyjádřit v penězích, je její cena“ (obvyklá, tržní, mimořádná cena) 
+§ 493 „Lidské tělo a ani jeho části, byť oddělené, není věcí“
+§ 494 „ Živé zvíře má zvláštní význam a hodnotu již jako smysly nadaný živý tvor. Živé zvíře není věcí a ustanovení o věcech se užije jen v rozsahu, ve kterém neodporuje jeho povaze“ 
+§495  „ Souhrn všeho, co osobě patří, tvoří její majetek. Jmění osoby tvoří její souhrn jejího majetku a jejích dluhů“ 
+
+=== SLIDE 4 ===
+
+Třídění věcí
+Hmotné - ovladatelná část vnějšího světa, má povahu samostatného předmětu – např. auto (pozn. na ovladatelné  přírodní síly, se kterými se obchoduje, se použijí přiměřeně ustanovení o věcech hmotných)
+Movité věci = věci, které nejsou nemovitostmi (auto, nábytek)    
+Zuživatelné věci - užíváním přenáší svoji hodnotu najednou či zcela se spotřebovávají 
+Zastupitelné věci lze nahradit stejným množstvím věci téhož druhu 
+Druhově určené - určené genericky (dle počtu, míry váhy )
+Reálně dělitelné - rozdělení věci nemá za následek její znehodnocení (např. určité množství suroviny ) 
+Nehmotné  -  práva, jejichž povaha to připouští, a jiné věci bez hmotné podstaty
+Nemovité - pozemky, podzemní stavby, věcná práva k nim   
+Nezuživatelné - svoji užitnou hodnotu ztrácejí postupně – opotřebovávají se 
+Nezastupitelné - rozhodující je individuální charakter, nelze je nahradit (umělecké dílo ) 
+Individuálně určené - určené specificky
+Reálně nedělitelné - věc nelze rozdělit, aniž by došlo k jejímu znehodnocení (např. motorové vozidlo ) 
+
+=== SLIDE 5 ===
+
+Třídění věcí
+Věci movité a nemovité § 498 OZ
+Nemovité věci § 498 OZ:
+ „ Nemovité věci jsou pozemky a podzemní stavby se samostatným účelovým určením, jakož i věcná práva k nim, a práva, která za nemovité věci prohlásí zákon. Stanoví-li zákon, že určitá věc není součástí pozemku, a nelze-li takovou věc přenést z místa na místo bez porušení její podstaty, je i tato věc nemovitá.“
+
+veškeré další věci, ať je jejich podstata hmotná či nehmotná, jsou movité. 
+
+=== SLIDE 6 ===
+
+Třídění věcí
+Věc hromadná, obchodní závod
+Věc hromadná ‐ soubor jednotlivých věcí náležejících téže osobě, považovaný za jeden předmět a jako takový nesoucí společné označení, pokládá se za celek a tvoří hromadnou věc. 
+Jednotlivé věci tvořící hromadnou věc neztrácejí právní povahu, lze je z hromadné věci vyjmout a dále s nimi disponovat (např. sbírka známek, soubor pohledávek)
+Obchodní závod‐ organizovaný soubor jmění, který podnikatel vytvořil a který z jeho vůle slouží k provozování jeho činnosti. Má se za to, že závod tvoří vše, co zpravidla slouží k jeho provozu
+Právní řád konstruuje závod jako samostatnou hromadnou věc. Smyslem takové úpravy je umožnit snazší dispozice se závodem jako celkem, aniž by bylo nutné ve smlouvě konkrétně vyjmenovávat všechny jednotlivosti, které jsou součástí závodu
+
+=== SLIDE 7 ===
+
+Součást a příslušenství věci
+Součást x příslušenství věci
+Součást věci 
+Není věcí samostatnou
+Nemůže být oddělena od věci hlavní, aniž by se věc zničila  
+
+Příklad:
+Součástka z motorového vozidla 
+Příslušenství 
+Je samostatnou věcí
+Věc určená k užívání spolu s věcí hlavní
+sleduje právní osud věci hlavní 
+
+Příklad: 
+- Příslušenstvím pohledávky -  úroky, úroky z prodlení a náklady spojené s jejím uplatněním  
+
+=== SLIDE 8 ===
+
+Absolutní majetková práva
+Znaky věcných práv
+
+působí proti všem (erga omnes) – tj. vůči neomezenému a neurčitému okruhu osob, jejichž povinnost vůči oprávněnému většinou spočívá v povinnosti se zdržet zasahovat do jeho práva nebo strpět výkon jeho práva nestanoví-li něco jiného zákon  
+jen zákon stanoví, která práva k majetku jsou absolutní (tzn. taxikativní výčet)
+nepromlčují se
+odlišují se od závazkových vztahů (relativní majetková práva)  
+
+=== SLIDE 9 ===
+
+Znaky věcných práv
+Znaky věcných práv
+určující je právo určité osoby k určité věci
+podstatný je osud věci, nikoliv osoby, která vůči ní toto právo má
+postavení oprávněné osoby vylučuje kohokoliv jiného z právního působení na věc jím ovládanou, v případě porušení tohoto práva má právní nárok na ochranu před takovým jednáním. 
+
+=== SLIDE 10 ===
+
+Struktura věcných práv – rozdělení věcných práv
+Struktura věcných práv v občanském zákoníku
+Obecná ustanovení (§ 976 – 986)
+Držba (§ 987 – 1010)
+Vlastnictví (§ 1011 – 1114)
+Spoluvlastnictví (§ 1115 – 1157)
+Bytové spoluvlastnictví (§ 1158 – 1222)
+Přídatné spoluvlastnictví (§ 1223 – 1235)
+Věcná práva k cizím věcem
+Právo stavby (§ 1240 – 1256)
+Věcná břemena (§ 1257 – 1308)
+– Služebnosti
+– Reálná břemena
+Zástavní právo (§ 1309 – 1394)
+Zadržovací právo (§ 1395 – 1399)
+Správa cizího majetku (§ 1400 – 1474)
+
+=== SLIDE 11 ===
+
+Vlastnické právo
+Vlastnické právo
+Vlastnictví – jedno ze základních lidských práv Čl. 11 Listiny základních práv a svobod: 
+
+„Každý má právo vlastnit majetek. Vlastnické právo všech vlastníků má stejný zákonný obsah a ochranu. Dědění se zaručuje.“ 
+„Vyvlastnění nebo nucené omezení vlastnického práva je možné ve veřejném zájmu, a to na základě zákona a za náhradu.“
+
+=== SLIDE 12 ===
+
+Vlastnické právo
+Vlastnické právo
+Vlastnictví či vlastnické právo 
+přímé a výlučné právní panství určité individuálně určené osoby (vlastníka) nad konkrétní 
+nejsilnější a nejrozsáhlejší věcné právo
+právo absolutní, působí vůči všem ostatním osobám (erga omnes) na rozdíl od závazkových práv, které působí jen mezi stranami závazku (inter partes) 
+Vlastnickému právu odpovídá povinnost všech ostatních subjektů nerušit vlastníka ve výkonu jeho práva k věci 
+
+=== SLIDE 13 ===
+
+Vlastnické právo
+Vlastnické právo
+definice vlastnického práva:
+§ 1011 OZ - vlastnictvím určité osoby je vše, co jí patří, všechny věci hmotné i nehmotné (pokud to jejich povaha připouští)
+
+=== SLIDE 14 ===
+
+Vlastnické právo
+Vlastnické právo
+Rozlišujeme:
+Vlastnické právo výlučné – všechna práva vykonává jeden  vlastník 
+Spoluvlastnictví – více vlastníků, podílové (podíl je určen v % nebo zlomkem ), rozhodují nadpoloviční většinou,  
+Společné jmění manželů  -  jediné bezpodílové spoluvlastnictví, vzniká  uzavřením manželství a končí zánikem manželství  
+
+=== SLIDE 15 ===
+
+Omezení vlastnického práva
+Omezení vlastnického práva
+Omezení vlastnického práva:
+se souhlasem vlastníka 
+(např. vlastník věc přenechá na přechodnou dobu jinému, zřídí k věci věcné břemeno ) 
+na základě zákona
+pouze ve stavu nouze či naléhavém veřejném zájmu,  
+na dobu nezbytnou a pouze v nezbytné míře 
+ za náhradu 
+
+=== SLIDE 16 ===
+
+Omezení vlastnického práva
+Vlastnické právo zavazuje
+zákaz zneužití vlastnického práva
+zákaz rozporu se zákonem chráněnými obecnými zájmy  
+
+Generální klauzule   
+zákaz obtěžování jiného nad míru přiměřenou poměrům   
+zákaz ohrožování výkonu  jiné osoby  (obtěžovat či škodit) 
+
+=== SLIDE 17 ===
+
+Omezení vlastnického práva
+2) Imise:
+Vlastník se zdrží všeho, co působí, že odpad, voda, kouř, prach, plyn, pach, světlo, hluk, otřesy atd. (imise) vnikají na pozemek jiného vlastníka (souseda ) v míře nepřiměřené místním poměrům, omezují obvyklé užívání pozemku (také vnikání zvířat) 
+cizí movitá věc na pozemku – vydá ji vlastník pozemku bez zbytečného odkladu jejímu vlastníkovi. Vlastník smí stíhat na cizím pozemku chovné zvíře,  roj včel (pokud vlétne do cizího úlu, nabývá vlastník úlu vlastnické právo k nim a nehradí ani újmu, v ostatních případech má právo na náhradu újmy způsobené zvířetem  
+Plody spadlé na zem ze stromů a keřů  na sousední pozemek náleží vlastníkovi sousedního pozemku (neplatí, je li sousední pozemek veřejný statek)   
+
+=== SLIDE 18 ===
+
+Omezení vlastnického práva
+3) Ohrožení sousedovy stavby nebo pozemku 
+
+zbavení sousedovy stavby opory zbouráním vlastní zdi
+provádění výkopů, které vyvolávají sesuv půdy. Atd.  
+„Má-li pro to vlastník pozemku rozumný důvod, může požadovat, aby se soused zdržel sázení stromů v těsné blízkosti společné hranice pozemků, a vysadí-li je a nechá je vyrůst, aby je odstranil. Nestanoví-li jiný právní předpis nebo neplyne-li z místních zvyklostí něco jiného, platí pro stromy dorůstající obvykle výšky přesahující 3m jako přípustná  vzdálenost od společné hranice pozemků 3m a pro ostatní stromy 1,5 m.
+
+=== SLIDE 19 ===
+
+Omezení vlastnického práva
+4) Vstup na pozemky a stavby 
+
+Vlastník umožní sousedovi vstup na svůj pozemek v době, rozsahu a způsobem, které jsou nezbytné k údržbě sousedního pozemku nebo k hospodaření na něm, nelze-li tohoto účelu dosáhnout jinak, soused však nahradí vlastníku pozemku újmu tím způsobenou
+
+=== SLIDE 20 ===
+
+Omezení vlastnického práva
+Rozhrady 
+Má se za to, že ploty, zdi, meze, strohou a jiné podobné přirozené či umělé rozhrady mezi sousedními pozemky jsou společné.
+Společnou zeď může každý užívat na své straně až do poloviny její tloušťky a zřídit v ní výklenek tam, kde na druhé straně nejsou. Nesmí však učinit nic, co by zeď ohrozilo nebo co sousedovi překáží v užívání jeho části.   
+Nezbytná cesta  
+Vlastník nemovité věci na níž nelze řádně hospodařit či jinak ji řádně užívat proto, že není dostatečně spojena s veřejnou cestou, může žádat, aby mu soused za náhradu povolil nezbytnou cestu přes svůj pozemek 
+Nezbytnou cestu může soud povolit  v rozsahu, který odpovídá potřebě vlastníka nemovité věci řádně ji užívat s náklady co nejmenšími, a to i jak služebnosti. 
+Současně musí být dbáno, ab soused byl zřízením nebo užíváním nezbytné cesty co nejméně obtěžován a jeho pozemek co nejméně zatížen 
+
+=== SLIDE 21 ===
+
+Omezení vlastnického práva
+Ve stavu nouze nebo v naléhavém veřejném zájmu lze na nezbytnou dobu a v nezbytné míře použít vlastníkovu věc, pokud čelu nelze dosáhnout jinak 
+Ve veřejném zájmu, který nelze uspokojit jinak, a jen na základě zákona lze vlastnické právo omezit nebo věc vyvlastnit   
+Za omezení vlastnického práv či vyvlastnění věci náleží vlastníkovi plná náhrada odpovídající míře, v jaké byl jeho  majetek těmito opatřeními dotčen 
+Náhrada se poskytuje v penězích. Lze ji však poskytnout i jiným způsobem, pokud si to strany ujednají.  
+
+=== SLIDE 22 ===
+
+Ochrana vlastnického práva
+Ochrana vlastnického práva
+Možnosti ochrany VP:
+prevence 
+Obecné prostředky – prostředky ochrany subjektivních práv 
+Žaloba na vydání věci  - reivindikační žaloba (nutná identifikace věci) v případě neoprávněného zadržování věci  - žaloba na vydání věci, vyklizení bytu  
+Žaloba na určení vlastnického práva  - deklaruje se existence či neexistence vlastnického práva 
+Žaloba zápůrčí -  směřuje ke zdržení se protiprávního jednání nebo obnovení původního stavu – zákaz nedovolených imisí, upuštění od stavby na cizím pozemku 
+
+=== SLIDE 23 ===
+
+Nabytí vlastnického práva
+
+Nabytí vlastnického práva
+Originární nabytí (původní)
+Nabyvatel získává vlastnické právo nezávisle na předchůdci nebo toto právo vzniká poprvé (Např. nabytí vlastnického práva ke zkonfiskované věci či nově vyrobené věci) 
+
+Derivativní nabytí (odvozené)
+Nabyvatel vlastnického práva odvozuje své právní postavení od právního předchůdce (Např. nabytí vlastnického práva dědictvím, kupní či darovací smlouva)
+
+Přechod vlastnického práva (= k nabytí vlastnického práva dochází na základě jiných  právních skutečností, např. ze zákona (dědění, příklep v dražbě, rozhodnutím státního orgánu) , následuje záznam vlastnického práva  -  zdarma (nemovitost)
+Převod vlastnického práva (= k nabytí  vlastnického práva dochází na základě projevu vůle vlastníka, 
+např. kupní či darovací smlouva následuje vklad vlastnického práva do KN  - poplatek 2.000,-- Kč )
+
+=== SLIDE 24 ===
+
+Nabývací tituly vlastnického práva
+Nabývací tituly
+právní titul = právní skutečnost, z jejíž účinků dochází k nabytí vlastnického práva 
+
+ Nabývání smlouvou
+movité věci -  okamžikem  převzetí věci, účinností smlouvy
+nemovité věci – účinnost smlouvy + vklad do KN (zpětně k datu podání) 
+2.– přechod VP okamžikem smrti zůstavitele 
+3. Nabývání rozhNabývání dědictvím odnutím státního orgánu dnem určeným v rozhodnutí tohoto orgánu (v rozhodnutí či rozsudku musí být vyznačena právní moc a vykonatelnost)
+4.  Nabývání na základě jiných skutečností stanovených zákonem 
+
+=== SLIDE 25 ===
+
+Nabývací tituly – nabývání na základě jiných skutečností
+ad 4) Nabývání na základě jiných skutečností stanovených zákonem: 
+
+Přivlastnění a nález
+Přirozený, umělý a smíšený přírůstek 
+Vydržení 
+Převod vlastnického práva
+Nabytí vlastnického práva od neoprávněného  
+
+=== SLIDE 26 ===
+
+Přivlastnění a nález 
+
+Přivlastnění – věc, která nikomu nepatří, si každý může přivlastnit, nebrání-li tomu zákon nebo právo jiného na přivlastnění věci. Movitá věc, kterou vlastník opustil, protože ji nechce jako svou držet, nikomu nepatří.  Opuštěná nemovitá věc  připadá do vlastnictví státu.
+zde zásada okupační  volnosti (věc opuštěná x nalezená) 
+Nález - věc nalezená, povinnost vrátit vlastníkovi, odevzdat obci 
+Nevykonává-li vlastnické  právo k movité věci po dobu 3 let, má se za to, že ji opustil.   
+nálezné 1/10 ceny 
+
+Nabývací tituly – nabývání na základě jiných skutečností
+
+=== SLIDE 27 ===
+
+Movitá věc: 
+Nevykonává-li vlastník vlastnické právo k movité věci po dobu 3 let, má  se za to, že věc opustil.  
+Byla-li movitá věc , která pro vlastníka má zřejmě jen nepatrnou hodnotu, zanechána na místě přístupném veřejnosti, považuje se za opuštěnou bez dalšího. 
+Nemovitá věc:
+nevykonává-li vlastník vlastnické právo k nemovité věci po dobu 10 let, má se za to, že ji opustil.  
+
+=== SLIDE 28 ===
+
+Vydržení
+Drží-li poctivý držitel vlastnické právo po určenou dobu, vydrží je a nabude věc do vlastnictví 
+K vydržení vlastnického práva k movité věci je potřebná nepřerušená držba trvající 3 roky 
+K vydržení vlastnického práva k nemovité věci je potřebná nepřerušovaná držba trvající 10 let 
+Do vydržecí doby se ve prospěch vydržitele započte i doba řádné a poctivé držby jeho předchůdce
+Držba  se přeruší není-li vykonávána 1 rok 
+mimořádné vydržení , neprokazuje se řádná a poctivá držba ( movité věci 6 let, nemovité věci 20 let )  
+
+=== SLIDE 29 ===
+
+Držba
+Držba
+= faktická vláda nad věcí, kterou držitel ovládá a má vůli být jejím vlastníkem 
+Držitelem je ten, kdo vykonává právo pro sebe.
+Objekt držby ‐ právo, které lze právním jednáním převést na jiného a které připouští trvalý nebo opakovaný výkon. Osobní právo není předmětem držby ani vydržení.
+Držba má 2 prvky  
+Prvek faktické moci nad věcí
+Prvek vůle vykonávat právo pro  sebe i vydržení. 
+
+=== SLIDE 30 ===
+
+Znaky držby:
+Řádná držba – pokud se zakládá na platném právním důvodu. Kdo se ujme držby bezprostředně, aniž ruší cizí držbu, nebo kdo se ujme držby z vůle předchozího držitele nebo na základě výroku orgánu veřejné moci, je řádným držitelem. 
+Poctivá držba  - kdo má z přesvědčivého důvodu za to, že mu náleží právo, které vykoná, je poctivý držitel. Nepoctivě drží ten, kdo ví nebo komu musí být z okolností zjevné, že vykonává právo, které mu nenáleží.
+Držba pravá - Neprokáže‐li se, že se někdo vetřel v držbu svémocně nebo že se v ni vloudil potajmu nebo lstí, anebo že někdo usiluje proměnit v trvalé právo to, co mu bylo povoleno jen výprosou, jde opravou držbu.
+Má se za to, že držba je řádná, poctivá a pravá – opak je třeba prokázat.
+
+=== SLIDE 31 ===
+
+Práva poctivého držitele
+
+V mezích právního řádu věc držet a užívat ji i zničit ji nebo s ní i jinak nakládat, a není nikomu odpovědný
+Náleží mu všechny plody věci, jakmile se oddělí. Jeho jsou také všechny již vybrané užitky, které za držby dospěly 
+Hradí se mu nutné náklady, jichž bylo pro trvající zachování podstaty věci potřeba, jakož i náklady vynaložené účelně a zvyšující užitečnost věci nebo její  hodnotu.
+Náhrada náleží do výše přítomné hodnoty, pokud ta nepřevyšuje náklady skutečné. Ale běžné udržovací náklady se nehradí 
+
+=== SLIDE 32 ===
+
+Nepoctivý držitel 
+
+Vydá veškerý užitek, kterého držbou nabyl, a nahradí ten, který by získala zkrácená osoba, jakož i všechnu škodu, která vzešla z jeho držby 
+Je mu uhrazena náhrada nutných nákladů, jichž bylo potřeba pro zachování podstaty věci
+
+=== SLIDE 33 ===
+
+Nabývací tituly 
+Nabytí vlastnického práva rozhodnutím orgánu veřejné moci 
+
+Rozhodnutím soudu nebo jiného orgánu veřejné moci se vlastnického práva nabývá dnem, který je v něm určen. (právní moc + vykonatelnost rozhodnutí)
+Není-li v rozhodnutí takový den učen, nabývá se vlastnického práva dnem právní moci rozhodnutí. 
+
+=== SLIDE 34 ===
+
+Zánik vlastnického práva
+Zánik vlastnického práva
+Absolutní zánik
+Vlastnické právo k věci zaniká + nikdo jiný jej nenabývá (Např. zničení či spotřebování věci) 
+Zánik na základě projevu vůle dosavadního vlastníka 
+Smlouvou (např. kupní smlouva ) 
+Opuštění věci (např. opuštění pozemku vlastníkem)
+Spotřebování věci ( např. spotřebování, potravin, surovin ) 
+Zničení věci ( např. spálení, roztrhání věci ) 
+Relativní zánik 
+Vlastnické právo k věci nabývá  jiný subjekt (Např. prodej věci, přechod děděním) 
+Zánik nezávisle na vůli vlastníka 
+Zánik věci  ( např. na základě právní události – zemětřesení, povodeň) 
+Ztráta věci 
+Smrtí
+Vydržením
+Rozhodnutím státního orgánu 
+
+=== SLIDE 35 ===
+
+Vlastnictví - spoluvlastnictví
+Vlastnictví - spoluvlastnictví
+Spoluvlastnictví podílové x bezpodílové
+
+Spoluvlastníci – osoby, jimž náleží vlastnické právo k věci společně
+Princip podílového spoluvlastnictví (ideální podíl, vyjádření zlomkem či procentem ) 
+Správa společné věci ‐ hlasy spoluvlastníků se  počítají podle velikosti jejich podílů.
+ Z právního jednání týkajícího se společné věci jsou všichni spoluvlastníci oprávněni a povinni společně a nerozdílně 
+Zrušení– dohodou, rozhodnutím soudu
+Značně omezeno předkupní právo mezi spoluvlastníky
+Zvláštní ustanovení o bytovém spoluvlastnictví a Společenství vlastníku jednotek
+
+=== SLIDE 36 ===
+
+Věcná práva k věci cizí
+Věcná práva k věci cizí
+Rozlišujeme:
+právo stavby
+věcná břemena
+zástavní právo 
+zadržovací právo  
+
+=== SLIDE 37 ===
+
+Věcná práva k věci cizí
+Věcná práva k věci cizí
+1) Právo stavby
+
+Pozemek může být zatížen věcným právem jiné osoby ( stavebníka ) mít na povrchu nebo pod povrchem pozemku stavbu. Nezáleží na tom, zda se jedná o stavbu již zřízenou či dosud nezřízenou. 
+Právo stavby nelze zřídit k pozemku, na kterém vázne právo příčící se účelu stavby. Je-li pozemek zatížen zástavním právem, lze jej zatížit právem stavby jen se souhlasem zástavního věřitele  
+Právo stavby je věc nemovitá 
+
+=== SLIDE 38 ===
+
+Věcná práva k věci cizí
+Věcná práva k věci cizí
+2) Věcná břemena 
+
+= práva, která omezují vlastníka nemovité věci ve prospěch jiné osoby (osoby oprávněné). Ukládají mu tedy určité povinnosti, a to: 
+povinnost něco strpět (např. přechod jiného přes jeho pozemek); 
+povinnost něčeho se zdržet (např. povinnost vlastníka nemovitosti nezvyšovat dům); 
+povinnost něco vykonat (např. udržovat příjezdovou komunikaci v provozuschopném stavu). 
+
+=== SLIDE 39 ===
+
+Věcná práva k věci cizí
+Věcná břemena:
+Subjekty:  povinný a oprávněný z věcného břemene 
+Druhy:  
+a) Dle oprávněného subjektu  
+     - Věcná břemena působící k věci (in rem) – reálná břemena
+       -  Věcná břemena působící k osobě (in personam) - služebnosti
+b) Dle obsahu 
+      - Věcná břemena s povinností konat (facere)
+       - Věcná břemena s povinností trpět (pati)
+       - Věcná břemena s povinností zdržet se (omnitere) 
+
+=== SLIDE 40 ===
+
+Služebnost
+spojená s pasivitou zatíženého vlastníka 
+postihuje vlastníka věci jako věcné právo tak, a že musí ve prospěch jiného něco trpět nebo něčeho se zdržet 
+
+Reálná věcná břemena  
+vyžadují aktivní chování  zatíženého vlastníka 
+je-li věc zapsána do veřejného seznamu,může být zatížena reálným břemenem tak, že dočasný  vlastník věci je jako dlužník vázán vůči oprávněné osobě něco jí dávat nebo něco konat. 
+
+=== SLIDE 41 ===
+
+Služebnost (§ 1257 - 1308 OZ)
+
+Nabytí služebnosti: (např.pozemkové služebnosti, užívací právo, - služebnost bytu ) 
+   Smlouvou
+     Pořízení pro případ smrti ( závěť) 
+     Vydržením 
+     Ze zákona 
+     Rozhodnutím orgánu veřejné moci  
+
+Zánik služebnosti 
+     Trvalou změnou – služebná věc již nemůže sloužit 
+     Dohodou stran
+     Uplynutím dob 
+     Osobní služebnost – úmrtí oprávněné osoby
+
+=== SLIDE 42 ===
+
+Služebnost -  druhy pravené OZ 
+
+Nezbytná cesta  šíře 3 m, geom. plán, zapsáno do KN )  
+Inženýrské sítě
+Opora cizí stavby
+Okapu – svod dešťových  vod na sousední pozemek 
+Rozlivu – voda při rozvodnění toku 
+Právo pastvy - 
+Právo na vodu
+Právo průhonu dobytka 
+Právo stezky  - 60 cm – jízda na kole, ne vozidla
+Právo cesty šíře 3 m, geom. plán, zapsáno do KN ) 
+
+=== SLIDE 43 ===
+
+3) Zástavní právo
+Při zajištění dluhu zástavním právem vznikne věřiteli oprávnění, nesplní-li dlužník dluh řádně a včas, uspokojit se  z výtěžku zpeněžení zástavy do ujednané výše, a není-li tato ujednána, do výše pohledávky s příslušenství ke dni zpeněžení zástavy.
+Zástavou mže být každá věc, s níž lze obchodovat. 
+Zástavní právo lze zřídit i k věci, k niž zástavnímu dlužníkovi vznikne vlastnické právo teprve v budoucnu.   
+
+=== SLIDE 44 ===
+
+Zástavní právo – zastavení 
+
+Zástavní právo se zřizuje zástavní smlouvou
+Zástava  může být určena jednotlivě, nebo jiným způsobem tak, aby ji bylo možné určit kdykoli v době trvání zástavního práva 
+Zástavní právo zajišťuje dluh a jeho příslušenství, je-li to zvlášť ujednáno, pak i smluvní pokutu  
+Není-li movitá věc jako zástava odevzdána zástavnímu věřiteli, nebo osob třetí, aby ji  pro zástavního věřitele opatrovala, vyžaduje se pro zástavní smlouvu písemná forma 
+
+=== SLIDE 45 ===
+
+Zástavní právo – zánik 
+
+Zanikne-li zajištěný dluh, zanikne i zástavní právo
+Zástavní právo zanikne, ale pohledávka trvá  
+  zanikne-li zástava 
+   vzdá-li se zástavní věřitel zástavního práva
+   vrátí-li zástavní věřitel zástavu zástavci nebo zástavnímu dlužníkovi  
+   složí-li zástavce nebo zástavní dlužník zástavnímu věřiteli cenu zastavené věci nebo 
+   uplyne-li doba, na níž bylo zástavní právo zřízeno 
+Zástavní právo k nemovitosti je nemovitostí  a zapisuje do se katastru nemovitostí. 
+
+=== SLIDE 46 ===
+
+4) Zadržovací právo
+Kdo má povinnost vydat cizí movitou věc, kterou má u sebe, může ji ze své vůle zadržet k zajištění splatného dluhu osoby, jíž by jinak měl věc vydat.  
+Zajistit zadržovacím právem lze i nesplatný dluh 
+Zadržet věc nesmí ten, kdo ji má u sebe neprávem, zejména zmocnil-li se jí násilně nebo lstí 
+Kdo zadržel cizí věc, vyrozumí dlužníka o jejím zadržení a jeho důvodu. Má-li věřitel věc u sebe na základě smlouvy uzavřené v písemné formě, vyžaduje se vyrozumění písemnou formou. 
+Věřitel je povinen pečovat o zadrženou věc jako řádný hospodář a má proti dlužníku právo na náhradu nákladů jako řádný držitel. 
+
+=== SLIDE 47 ===
+
+Zadržovací právo zaniká:
+
+ zánikem zajištěného dluhu nebo zadržené věci 
+  vzdá-li se věřitel zadržovacího práva jednostranně či   
+    ujednáním s vlastníkem zadržené věci  
+  dostane-li se věc trvale z moci věřitele  
+  dá-li se věřiteli dostatečná jistota 
+
+=== SLIDE 48 ===

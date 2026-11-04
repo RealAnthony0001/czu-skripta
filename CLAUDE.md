@@ -17,6 +17,7 @@ assets/map.js           společný engine myšlenkové mapy (#/mapa, widget 'map
 <předmět>/wg*.js         widgety předmětu (window.WIDGETS[name]), načtené před topics/*.js
 <předmět>/map.js         kostra mapy: MINDMAP({ h, c, x, kids: [{ h, c, x, kids: ['id-tématu', …] }] }); sekce a pojmy se berou z témat; vzor upp/map.js
 tools/shot.swift        render HTML → PNG (WebKit) pro kontrolu diagramů
+tools/ppt2txt.py        textová extrakce starých .ppt (bez závislostí)
 ```
 
 Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení), `mlg` (Matematická logika a grafy – logika, množiny a relace, grafy, konečné automaty; přednášky P1–P12; číslování je správně, neoznačovat ho jako nejisté), `ang` (Angličtina podle učebnice Lifestyle Intermediate: gramatika z lekcí 1–12 a Grammar reference (témata 1–25), ke každé lekci téma s Word Focus, Communication strategies a Interaction (26–37) a Review 1–3, 4–6, 7–9, 10–12 (38–41); učebnice je jen sken, text se získal OCR – ověř při pochybnostech ve zdrojovém PDF).
@@ -28,7 +29,7 @@ src_materials/<předmět>/original/    původní soubory (PDF, docx, pptx …) �
 src_materials/<předmět>/extracted/   textová extrakce, 1 soubor .txt na originál, stejný název – JE v gitu
 ```
 
-`extracted/`: PDF po stránkách (`=== PAGE n ===`), pptx po slajdech (`=== SLIDE n ===`); tabulky a obrázky v nich chybí. Učebnice `ang` je OCR (Apple Vision, může mít chyby). **Neextrahováno:** 7 starých `.ppt` v `zpn/original` (nemáme nástroj) – obsah ověř jinak nebo se zeptej.
+`extracted/`: PDF po stránkách (`=== PAGE n ===`), pptx po slajdech (`=== SLIDE n ===`); tabulky a obrázky v nich chybí. Učebnice `ang` je OCR (Apple Vision, může mít chyby). Staré `.ppt` (OLE) extrahuje `python3 -I tools/ppt2txt.py soubor.ppt > extracted/soubor.txt` (jen text, bez tabulek a obrázků; před `=== SLIDE 1 ===` odstraň text předlohy). `.pptx`/`.docx` jsou po slajdech `=== SLIDE n ===`; slajdy, které jsou jen obrázek, mají v extrakci prázdné místo.
 
 **Před prací na předmětu (nové téma, oprava, doplnění):**
 1. Zkontroluj aktuální skripta předmětu (`<předmět>/topics/*.js`, `diagrams.js`) – co už je pokryto.

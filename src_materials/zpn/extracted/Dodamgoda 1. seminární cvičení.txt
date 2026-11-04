@@ -1,0 +1,336 @@
+=== SLIDE 1 ===
+=== SLIDE 2 ===
+ZÁKLADNÍ INFORMACE
+JUDr. Bc. Veronika Dodamgoda Arachchige, Ph.D.
+Katedra práva PEF ČZU
+Kancelář: CEMS II/D 429
+Email: jarolinova@pef.czu.cz
+ČZU linka: +420 22438 2835 
+Mobil: +420 723 217 763
+Konzultační hodiny: PÁ  14:00 – 15:00
+=== SLIDE 3 ===
+PODMÍNKY PRO ZÍSKÁNÍ ZÁPOČTU
+Na pěti seminárních cvičeních bude probíhat výuka. Šesté seminární cvičení je určeno pro zápočtový test prostřednictvím aplikace Moodle. 
+Pro připuštění studenta k zápočtovému testu je nutné, aby z jeho strany byly splněny tyto podmínky: 
+Povinná účast na seminárních cvičeních (možnost absence na jednom seminárním cvičení). Je možné nahrazovat u jiných pedagogů – nutné přinést potvrzení o účasti na daném seminárním cvičení. V případě nedostatečné účasti bude student připuštěn k zápočtovému testu po vypracování seminární práce. 
+úspěšné absolvování průběžných testů v Moodlu vycházejících ze seminárního cvičení a přednášky na téma probrané látky.
+
+=== SLIDE 4 ===
+POŽADAVKY KE ZKOUŠCE
+Zkouška se skládá z písemné a ústní části. Písemná část bude probíhat elektronicky v testovacím centru PEF.
+Ke zkoušce může být přihlášen pouze student, který získal zápočet. 
+Termíny jednotlivých zkoušek budou vypsány v UIS. Každý student je povinen přihlásit se na zvolený termín prostřednictvím UIS. Student, který tak neučiní, nebude ke zkoušce připuštěn.
+K ústní části zkoušky bude student připuštěn pouze tehdy, pokud v písemném testu dosáhne stanovené minimální bodové hranice.
+
+
+=== SLIDE 5 ===
+ZÁKLADY PRÁVNÍCH NAUK – PŘEDNÁŠKY
+Právo, pojem práva, dualismu, prameny práva a právní systémy, právní řád, právní normy
+Právní vztahy, jejich předpoklady a prvky, právní skutečnosti, subjekty, předmět, obsah, ochrana subjektivních práv,
+Ústavní právo, Listina základních práv a svobod
+Občanské právo, zásady, absolutní majetková práva
+Odpovědnost v občanském právu - škoda, nemajetková újma, bezdůvodné bohacení
+Relativní majetková práva
+Rodinné právo, SJM
+Pracovní právo
+Správní právo
+Občanské soudní řízení
+Trestní právo
+Závěrečná rekapitulace předmětu.
+=== SLIDE 6 ===
+ZÁKLADY PRÁVNÍCH NAUK – CVIČENÍ
+Právní normy, systém právních norem, části právní normy, platnost, účinnost, publikace, aplikace, interpretace, novelizace. 
+Právní skutečnosti, právní jednání, čas, jako právní skutečnost, promlčení, prekluze. 
+Kupní smlouva, smlouva o dílo, nájemní vztah. 
+Veřejnoprávní úprava podnikání, živnostenské podnikání.
+Dědictví.
+Závěrečný test, zápočet. 	
+=== SLIDE 7 ===
+ZÁKLADNÍ POJMY
+POJEM PRÁVO – multidimenzionální fenomén, který musí být zkoumán ve více rovinách.
+PRÁVO OBJEKTIVNÍ – soubor právních norem jako obecně závazných pravidel chování  stanovených či uznaných státem.
+PRÁVO SUBJEKTIVNÍ –  možnost chování zaručenou subjektům objektivním právem.
+PRÁVO VEŘEJNÉ – upravuje vztahy mezi právně rovnými subjekty. Je založeno na autonomii vůle a převážně dispozitivních normách.
+PRÁVO SOUKROMÉ – upravuje vztahy, v nichž jeden subjekt vystupuje jako nositel veřejné moci. Je založeno na principu subordinace a převážně kogentních normách.
+PRÁVO HMOTNÉ – stanovuje adresátům subjektivní práva a povinnosti, které bezprostředně směřují k naplnění účelu a smyslu právní úpravy.
+PRÁVO PROCESNÍ – slouží k naplnění účelu a smyslu právní úpravy zprostředkovaně tím, že upravuje postup/proces, jak se domoci subjektivních hmotných práv či jak realizovat subjektivní hmotněprávní povinnosti.
+
+
+=== SLIDE 8 ===
+Právní norma
+Právní normy jsou obecně závazná pravidla lidského chování, stanovená nebo uznaná státem (resp. mezinárodním společenstvím států), jejichž porušení stát sankcionuje (resp. státy vytvořené mezinárodní instituce sankcionují). 
+každá norma má preskriptivní charakter
+=== SLIDE 9 ===
+Mody normativnosti
+OBJEKTIVNÍ:
+	-	příkaz
+	-	zákaz
+	-	dovolení
+SUBJEKTIVNÍ
+	-	oprávnění
+	-	povinnost
+
+ZÁSADA LEGÁLNÍ LICENCE: „Co není zakázáno, je dovoleno“
+ZÁSADA LEGALITY: „Státní moc slouží všem občanům a lze ji uplatňovat jen v případech, v mezích a způsoby, které stanoví zákon“
+=== SLIDE 10 ===
+Právní normy
+Charakteristické rysy:
+Závaznost (stanovuje oprávnění a povinnosti) 
+Formální určitost (stát uznává normy v určité právní formě a v takové formě musí být i vyjádřena)
+Obecnost (adresáti – druhově určení, jejich oprávnění a povinnosti a sankce obecně)
+Vynutitelnost (pokud není dodržena povinnost – lze její splnění zpravidla vynutit)
+=== SLIDE 11 ===
+STRUKTURA PRÁVNÍ NORMY
+Právní norma zpravidla bývá pojímána jako soustava tří navazujících složek (částí): hypotézy, dispozice a sankce. Uspořádány jsou jako konjunkce dvou podmíněných vět: „Jestliže je splněna hypotéza, vzniká tím závazek nebo oprávnění uvedené v dispozici“ a „jestliže je splněna hypotéza a nebyl splněn závazek v dispozici, pak vzniká sankční oprávnění nebo závazek“.
+Tradičně se vychází z toho, že struktura právní normy je trichotomická (trojčlenná) a má podobu podmíněné věty (implikace): jestliže je p (hypotéza), pak nastává q (dispozice), není-li q. nastupuje r (jinak r - sankce). Tato logická podoba právní normy vyplývá z jejího charakteru jako pravidla chování.
+=== SLIDE 12 ===
+STRUKTURA PRÁVNÍ NORMY
+Hypotéza
+je podmínka, která personálně (vymezením povinné osoby), lokálně (místním vymezením), temporálně (časovým vymezením) a (nebo) modálně omezuje platnost dispozice. 
+Dispozice
+Dispozice je vyjádření příkazu, zákazu, dovolení nebo práva (nároku). Dispozice zakládá za podmínek určených hypotézou závazkový vztah mezi osobami (stranami), tedy komplementární (vzájemně se doplňující) práva a povinnosti. 
+Dispozice nemůže u normy absentovat, jinak by ztratila smysl. 
+
+=== SLIDE 13 ===
+STRUKTURA PRÁVNÍ NORMY
+Sankce
+Sankce je vlastně další dispozicí, která se uplatní v případě, že osoba, jíž vyplývá závazek ze základní dispozice, jej nesplní. Sankcí může být například trest, výchovné nebo ochranné opatření, náhradní závazek anebo částečné nebo úplné přenesení původního závazku na jinou osobu.
+Sankce může být uvedena přímo u textu dispozice, k níž se vztahuje, nebo v samostatné části právního předpisu nebo v samostatném právním předpisu. Právní normy, k nimž nelze žádnou (účinnou) sankci přiřadit, se někdy označují jako nedokonalé (lat. lex imperfecta). 
+=== SLIDE 14 ===
+DRUHY PRÁVNÍCH NOREM
+Podle způsobu vymezení pravidla chování 
+PŘIKAZUJÍCÍ – určují jak se chovat.
+ZAKAZUJÍCÍ – zakazují určitý druh chování
+OPRAVŇUJÍCÍ – dovolují určitý druh chování
+=== SLIDE 15 ===
+DRUHY PRÁVNÍCH NOREM
+Podle stupně závaznosti 
+kogentní (kategorické) – jsou formulovány natolik imperativně, že nedávají žádný prostor po vůli adresáta normy. Ten musí přesně ustanovení normy naplnit. Toto je typické pro oblast veřejného a procesního práva.
+dispozitivní – buď vůbec nestanoví pravidlo chování nebo ho stanoví podpůrně, tzn. subjekty práv. vztahu si vlastní dohodou stanovily určili pravidlo chování; pokud si ho nestanovily, nastupuje podpůrné ustanovení příslušné podpůrné právní normy. Toto je typické pro oblast soukromého práva.
+=== SLIDE 16 ===
+DRUHY PRÁVNÍCH NOREM
+Z hlediska úplnosti či neúplnosti hypotézy, dispozice, sankce
+
+taxativní – úplný, uzavřený výčet
+
+demonstrativní – příkladný výčet („zejména“, „například“)
+=== SLIDE 17 ===
+DRUHY PRÁVNÍCH NOREM
+Z hlediska odvětví práva
+
+normy soukromoprávní a veřejnoprávní
+normy hmotněprávní a procesní
+normy vnitrostátní a mezinárodní
+=== SLIDE 18 ===
+PŮSOBNOST PRÁVNÍCH NOREM
+Působností právní normy se rozumí vymezení rozsahu realizace a aplikace právní normy. Rozlišují se čtyři roviny působnosti právních norem:
+věcná působnost
+prostorová působnost
+osobní působnost
+časová působnost.
+=== SLIDE 19 ===
+PŮSOBNOST PRÁVNÍCH NOREM
+	Věcná působnost právní normy se týká skutkové charakteristiky případů, které právní norma (jejich souhrn, tedy právní institut) upravuje.
+• normy obecné (s obecnou působností) - „lex generalis" - vztahují se na větší počet stejných případů,
+• normy speciální (se zvláštní působností) - „lex specialis" - upravují odlišně věcně shodnou problematiku.
+=== SLIDE 20 ===
+PŮSOBNOST PRÁVNÍCH NOREM
+Prostorová působnost vychází z teritoriální působnosti orgánů veřejné moci, které vydávají či oficiálně uznávají příslušné právní normy. 
+právní normy s celostátní působností (např. zákon) 
+lokální právní normy (např. nařízení rady kraje či obecně závazná vyhláška obce). 
+Významná je i problematika exteritoriality (použití právní normy mimo území státu, jehož právního řádu je součástí).
+
+=== SLIDE 21 ===
+PŮSOBNOST PRÁVNÍCH NOREM
+Osobní působnost je založena na principu rovnosti před zákonem a spočívá v druhovém vymezení právních subjektů v hypotéze právní normy. Odpovídá na otázku, na které osoby platí právní norma. 
+Součástí problematiky osobní působnosti právních norem je i možnost stanovit imunitu a exempce (a vymezit jejich rozsah) pro určité skupiny právních subjektů. 
+
+=== SLIDE 22 ===
+PŮSOBNOST PRÁVNÍCH NOREM
+TYPY IMUNITY
+1) absolutní (idemnita)
+• hlava státu - monarcha či prezident (v ČR není prezident odpovědný ani za přestupky, ani trestně odpovědný za jednání, kterého se dopustí v době funkčního období; může být souzen pouze za velezradu. což je zvláštní druh ústavního deliktu),
+• diplomatičtí zástupci, diplomat může být vyhoštěn jako persona non grata (osoba nežádoucí, nevítaná),
+• členové zákonodárného sboru (v ČR poslanci, resp. senátoři; pokud jde o jejich hlasování v Poslanecké sněmovně nebo v Senátu nebo jejich orgánech, nemohou být nijak postiženi).
+2) relativní
+• členové zákonodárného sboru, pokud jde o možnost trestního stíhání, stíhání za přestupek nebo za jejich projevy, bývá v různém rozsahu podmíněna souhlasem příslušného zákonodárného sboru či komory, resp. je omezena možnost postihu pouze na disciplinární odpovědnost,
+• soudci ústavního soudu mají obdobný rozsah imunity a režim trestní popř. přestupkové odpovědnosti jako členové zákonodárného sboru.
+=== SLIDE 23 ===
+PŮSOBNOST PRÁVNÍCH NOREM
+EXEMPCE 
+vynětí z působnosti příslušných orgánů
+v některých případech může rozhodnout o protiprávním jednání jiný orgán než v obecném režimu (např. u přestupků soudců, státních zástupců, politiků)
+=== SLIDE 24 ===
+PŮSOBNOST PRÁVNÍCH NOREM
+Časová působnost – souvisí s platnosti a účinností právního předpisu.
+Platnost: nastává dnem publikace předepsaným způsobem –  okamžik, kdy je norma včleněna do právního řádu a je možné se seznámit s jejím obsahem, ale ještě není nutné se právní normou řídit.
+Účinnost: nastává dnem uvedeným v posledním ustanovení právního předpisu, pokud není uvedeno, pak 15.dnem po jeho oficiálním vyhlášení (publikace)
+Derogace (zrušení): platnost právní normy končí jejím vyřazením z  právního řádu.
+
+=== SLIDE 25 ===
+Publikace právních norem v ČR
+27
+Sbírka zákonů a mezinárodních smluv – https://e-sbirka.gov.cz/
+zákon č. 222/2016 Sb., o Sbírce zákonů a mezinárodních smluv a o tvorbě právních předpisů vyhlašovaných ve Sbírce zákonů a mezinárodních smluv (účinnost 1.1.2024), dříve:
+- samostatná Sbírka mezinárodních smluv (Sb. m. s.) a Sbírka zákonů (Sb.) 
+
+Sbírka právních předpisů územních samosprávných celků a některých správních úřadů –  https://sbirkapp.gov.cz/vyhledavani
+zákon č. 35/2021 Sb., o Sbírce právních předpisů územních samosprávných celků a některých správních úřadů (účinnost od 1.1.2022, dříve jen:
+Věstník kraje - vyhlášení obecně závazných vyhlášek kraje a nařízení kraje
+Úřední deska obecního úřadu - nařízení obce, obecně závazné vyhlášky obce
+
+Úřední věstník Evropské unie – https://eur-lex.europa.eu/oj/direct-access.html
+vyhlašuje se právo EU: nařízení, směrnice, rozhodnutí EU a další akty EU.
+=== SLIDE 26 ===
+Publikace právních norem v ČR
+27
+Ve Sbírce zákonů a mezinárodních smluv se vyhlašují:
+1. Právní předpisy České republiky
+a) ústavní zákon,
+b) zákon,
+c) zákonné opatření Senátu,
+d) nařízení vlády,
+e) vyhláška vydaná ministerstvem, jiným ústředním správním úřadem nebo Českou národní bankou
+=== SLIDE 27 ===
+Publikace právních norem v ČR
+27
+2. Mezinárodní smlouvy
+platná mezinárodní smlouva, jíž je Česká republika vázána, nebo mezinárodní smlouva, jíž je Česká republika vázána a jež má být zcela nebo zčásti prozatímně prováděna před jejím vstupem v platnost, a to ve znění, které je pro Českou republiku závazné, včetně výhrad učiněných Českou republikou; mezinárodní smlouva, která je současně sjednána Evropskou unií a Českou republikou se vyhlašuje odkazem na částku Úředního věstníku Evropské unie, ve které byla vyhlášena,
+oznámení o ukončení platnosti mezinárodní smlouvy a o jiné skutečnosti důležité pro provádění mezinárodní smlouvy 
+oprava českého překladu mezinárodní smlouvy.
+=== SLIDE 28 ===
+Publikace právních norem v ČR
+27
+3. Ve Sbírce zákonů a mezinárodních smluv se dále vyhlašují: 
+nález Ústavního soudu, pokud tak stanoví jiný zákon,
+sdělení Ústavního soudu, jestliže o jeho vyhlášení Ústavní soud rozhodne,
+usnesení Poslanecké sněmovny o tom, že setrvává na zákonu vráceném prezidentem republiky,
+usnesení Poslanecké sněmovny o zákonném opatření Senátu, nebo sdělení předsedy Poslanecké sněmovny, že se Poslanecká sněmovna na své první schůzi o zákonném opatření Senátu neusnesla,
+rozhodnutí předsedy Senátu, a není-li funkce předsedy Senátu obsazena, předsedy Poslanecké sněmovny, o vyhlášení volby prezidenta republiky,
+rozhodnutí prezidenta republiky, usnesení komory Parlamentu a usnesení vlády, pokud tak stanoví jiný zákon nebo jestliže o jeho vyhlášení státní orgán, který jej učinil, rozhodne,
+rozhodnutí předsedy vlády o vyhlášení nouzového stavu,
+sdělení ministerstva, jiného ústředního správního úřadu, České národní banky, Státní volební komise nebo Národní rozpočtové rady o skutečnosti nebo přijatém rozhodnutí, pokud tak stanoví jiný zákon,
+sdělení Ministerstva vnitra o opravě chyby.
+=== SLIDE 29 ===
+Sbírka zákonů a mezinárodních smluv
+29
+vede se pouze v elektronické podobě 
+citace: číslo předpisu, lomítko, rok vydání, Sb., název
+zákon č. 89/2012 Sb., občanský zákoník
+§ 5 odst. 1 písm. d) zákona č. 252/1997 Sb., o zemědělství
+okamžik vyhlášení – okamžik jeho zveřejnění ve Sbírce zákonů a mezinárodních smluv.
+novela – právní předpis upravující změnu nebo doplnění  stávajícího právního předpisu předpisem pozdějším (x  novelizace – proces změny nebo doplnění)
+úplné znění – kvůli přehlednosti u často novelizovaného  právního předpisu
+=== SLIDE 30 ===
+Sbírku zákonů a mezinárodních smluv 
+27
+Právní akt č. 166/2026 Sb., zdroj: Sbírka zákonů a mezinárodních smluv, datum vyhlášení: 15. 9. 2026
+
+166
+ZÁKON
+ze dne 26. května 2026,
+kterým se mění zákon č. 375/2022 Sb., o zdravotnických prostředcích a diagnostických zdravotnických prostředcích in vitro, ve znění pozdějších předpisů
+
+Parlament se usnesl na tomto zákoně České republiky:
+Čl. I
+=== SLIDE 31 ===
+Sbírku zákonů a mezinárodních smluv 
+27
+Právní akt č. 179/2026 Sb., zdroj: Sbírka zákonů a mezinárodních smluv, datum vyhlášení: 30. 9. 2026
+
+179
+NAŘÍZENÍ VLÁDY
+ze dne 14. září 2026,
+kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace
+Vláda nařizuje podle § 5 odst. 1 zákona č. 20/1987 Sb., o státní památkové péči, ve znění zákona č. 132/2000 Sb.:
+Čl. I
+=== SLIDE 32 ===
+Sbírku zákonů a mezinárodních smluv 
+27
+Právní akt č. 173/2026 Sb., zdroj: Sbírka zákonů a mezinárodních smluv, datum vyhlášení: 29. 9. 2026
+
+173
+VYHLÁŠKA
+ze dne 23. září 2026,
+kterou se mění vyhláška č. 11/2023 Sb., o zdravotní způsobilosti ve vnitrozemské plavbě
+Ministerstvo zdravotnictví stanoví podle § 52 odst. 2 k provedení § 24k odst. 9, § 24w odst. 9 a § 26h odst. 9 zákona č. 114/1995 Sb., o vnitrozemské plavbě, ve znění zákona č. 372/2022 Sb.:
+Čl. I
+=== SLIDE 33 ===
+Publikace právních norem - dříve
+28
+Ve Sbírce zákonů vyhlašovány:
+ústavní zákony,
+zákony,
+zákonná opatření
+Senátu,
+nařízení vlády,
+právní předpisy  vydávané ministerstvy, a ostatními ústředními správními  úřady.
+=== SLIDE 34 ===
+Prameny práva jsou spojeny s typem právní kultury (kontinentální, angloamerický, islámský)
+Rozlišují se 4 základní prameny práva:
+PRÁVNÍ PŘEDPISY – výsledkem legislativního procesu, obsahuje právní normy jako předem daná pravidla chování
+SOUDNÍ PRECEDENTY – jedná se o soudní rozhodnutí, které je prvním řešením daného případu, dosud právem neupraveného, závazným pro obdobné případy v budoucnu
+NORMATIVNÍ PRÁVNÍ SMLOUVY – smlouva, která obsahuje právní normy jako obecně závazná pravidla chování
+PRÁVNÍ OBYČEJE – pravidla vznikají spontánně na základě dlouhodobé tradice a obecné akceptace veřejností a státem
+PRAMENY PRÁVA JAKO FORMY PRÁVNÍCH PRAVIDEL
+32
+=== SLIDE 35 ===
+Jedná se o systém pramenů práva, obsahujících právní normy určitého státu 
+Právní řád ČR patří ke kontinentálnímu typu právní kultury, je založen na psaném právu a tvořen zákony a dalšími právními předpisy, ratifikovanými a vyhlášenými mezinárodními smlouvami, k nimž dal souhlas Parlament ČR, a nálezy Ústavního soudu, kterými zrušil určitý zákon, jiný právní předpis nebo jejich jednotlivé ustanovení
+PRÁVNÍ ŘÁD ČR
+32
+=== SLIDE 36 ===
+Právní řád ČR
+=== SLIDE 37 ===
+Z hlediska právní síly právních norem platí, že
+norma nižší právní síly nesmí odporovat normě vyšší právní síly
+norma může být měněna nebo rušena pouze normou stejné nebo vyšší právní síly
+V rámci vnitrostátního práva se dělí normy na:
+ústavní
+zákonné
+podzákonné
+
+PRÁVNÍ ŘÁD ČR
+32
+=== SLIDE 38 ===
+Jedná se kvalifikovanou formu realizace práva uskutečňovanou orgány veřejné moci, při níž dochází k podřazení konkrétní skutkové podstaty pod příslušnou právní normu, výsledkem je akt aplikace práva (v něm soudy, správní úřady, jiiné orgány veřejné moci rozhodují o subjektivních právech a povinnostech FO a PO).
+Postup:
+zjištění skutkového stavu (bezprostředně, dokazováním)
+zjištění právních norem, podle kterých má být případ  řešen + jejich výklad (časovou, územní a osobní působnost normy a  její soulad s ústavou)
+rozhodnutí (konstitutivní, deklaratorní) ve věci samé - v mezích zákona, hospodárně
+Aplikace právních norem
+32
+=== SLIDE 39 ===
+Řešení případů výslovně neupravených:
+– analogie podle zákona – použije se právní norma, která upravuje  případ nejobdobnější
+pro případ, kdy konkrétní vztah není upraven žádnou právní normou
+– analogie podle práva – na základě obecných principů českého právního řádu a podle smyslu celého systému právních pravidel
+pokud neexistuje konkrétní norma, ani právní norma obdobná
+–	vyloučena analogie v trestním právu, finančním a správním; připuštěna
+v právu občanském, obchodním, rodinném a pracovním
+Aplikace právních norem
+33
+=== SLIDE 40 ===
+výklad právní normy - právní norma je abstraktní pravidlo  chování, při svém uplatňování na konkrétní případ musí být  vykládána, interpretována
+rozlišení podle toho, kdo výklad podává:
+legální  –  obecně  závazný,  výklad  orgánu  zmocněného  k  tomu  ústavou,  v	ČR  zmocnění není
+oficiální - státní orgán pro podřízené orgány či pracovníky; nezavazuje služebně nepodřízené
+Nejvyššího soudu a Vrchního soudu – rozhodnutí a stanoviska, není obecně právně  závazný, ovlivňuje soudní praxi
+orgánu aplikujícího právo – zpravidla soud, ale také správní orgány  při své  rozhodovací činnosti (např. stavební úřad), právně závazný výlučně jen v konkrétním  posuzovaném případě
+doktrinální - založený na vědeckém zkoumání platného práva;  v komentářích,  v učebnicích atd.; není právně závazný, praxi ovlivňuje
+rozlišení dle metody výkladu:
+metoda jazyková, historická, logická, systematická
+Interpretace právních norem
+34
+=== SLIDE 41 ===
+Interpretace práva
+Základní výkladové metody:
+Gramatická (jazyková) metoda je přímočarý výklad právní normy z jejího textu. Při výkladu se vychází ze struktury věty, rozebírají se vztahy mezi jednotlivými částmi souvětí i jednotlivých vět, co použité výrazy obvykle znamenají apod.
+Systematická metoda znamená, že se studuje umístění rozebírané právní normy v textu a systému právního předpisu (např. se hodnotí členění předpisu na části, hlavy a oddíly, dovozuje jaký význam mají marginální rubriky atd.) a jaké je postavení zkoumaného právního předpisu v daném právním odvětví a případně i v celém právním řádu.
+Logická, v této metodě se využívá logických postupů, a to především logického výkladu opaku, silnějšího a sporem.
+
+=== SLIDE 42 ===
+
+
+
+

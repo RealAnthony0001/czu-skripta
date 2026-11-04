@@ -1,0 +1,218 @@
+=== SLIDE 1 ===
+=== SLIDE 2 ===
+Právní norma
+Právní normy jsou obecně závazná pravidla lidského chování, stanovená nebo uznaná státem (resp. mezinárodním společenstvím států), jejichž porušení stát sankcionuje (resp. státy vytvořené mezinárodní instituce sankcionují). 
+právní normy x společenské normy
+právo jako historie x systémy práva x systém práva České republiky
+=== SLIDE 3 ===
+Právní řád ČR
+=== SLIDE 4 ===
+Mody normativnosti
+OBJEKTIVNÍ:
+	-	příkaz
+	-	zákaz
+	-	dovolení
+SUBJEKTIVNÍ
+	-	oprávnění
+	-	povinnost
+=== SLIDE 5 ===
+Právní normy
+Charakteristické rysy:
+Závaznost 
+Formální určitost
+Obecnost
+Vynutitelnost 
+=== SLIDE 6 ===
+Struktura PN
+Právní norma zpravidla bývá pojímána jako soustava tří navazujících složek (částí): hypotézy, dispozice a sankce. Uspořádány jsou jako konjunkce dvou podmíněných vět: „Jestliže je splněna hypotéza, vzniká tím závazek nebo oprávnění uvedené v dispozici“ a „jestliže je splněna hypotéza a nebyl splněn závazek v dispozici, pak vzniká sankční oprávnění nebo závazek“.
+Tradičně se vychází z toho, že struktura právní normy je trichotomická (trojčlenná) a má podobu podmíněné věty (implikace): jestliže je p (hypotéza), pak nastává q (dispozice), není-li q. nastupuje r (jinak r - sankce). Tato logická podoba právní normy vyplývá z jejího charakteru jako pravidla chování.
+=== SLIDE 7 ===
+Struktura PN
+Hypotéza
+je podmínka, která personálně (vymezením povinné osoby), lokálně (místním vymezením), temporálně (časovým vymezením) a (nebo) modálně omezuje platnost dispozice. 
+Dispozice
+Dispozice je vyjádření příkazu, zákazu, dovolení nebo práva (nároku). Dispozice zakládá za podmínek určených hypotézou závazkový vztah mezi osobami (stranami), tedy komplementární (vzájemně se doplňující) práva a povinnosti. 
+Dispozice nemůže u normy absentovat, jinak by ztratila smysl. 
+
+=== SLIDE 8 ===
+Struktura PN
+Sankce
+Sankce je vlastně další dispozicí, která se uplatní v případě, že osoba, jíž vyplývá závazek ze základní dispozice, jej nesplní. Sankcí může být například trest, výchovné nebo ochranné opatření, náhradní závazek anebo částečné nebo úplné přenesení původního závazku na jinou osobu.
+Sankce může být uvedena přímo u textu dispozice, k níž se vztahuje, nebo v samostatné části právního předpisu nebo v samostatném právním předpisu. Právní normy, k nimž nelze žádnou (účinnou) sankci přiřadit, se někdy označují jako nedokonalé (lat. lex imperfecta). 
+=== SLIDE 9 ===
+PŘÍKLAD
+„Kdo z hrubé nedbalosti zanedbá potřebnou péči o zvíře, které vlastní nebo o něž je povinen se z jiného důvodu starat, a způsobí mu tím trvalé následky na zdraví nebo smrt, bude potrestán odnětím svobody až na šest měsíců, zákazem činnosti nebo propadnutím věci.“
+Příklad:
+Určete hypotézu, dispozici a sankci:
+„Kdo najde ztracenou věc, je povinen ji vydat vlastníkovi.“
+„Každý má právo na příznivé životní prostředí“
+
+=== SLIDE 10 ===
+Druhy PN
+podle způsobu vymezení pravidla chování 
+přikazující – určují jak se chovat.
+zakazující – zakazují určitý druh chování
+opravňující – dovolují určitý druh chování
+=== SLIDE 11 ===
+Druhy PN
+podle stupně závaznosti 
+kogentní (kategorické) – jsou formulovány natolik imperativně, že nedávají žádný prostor po vůli adresáta normy. Ten musí přesně ustanovení normy naplnit. Toto je typické pro oblast veřejného a procesního práva (§ 46, § 479 OZ).
+
+dispozitivní – buď vůbec nestanoví pravidlo chování nebo ho stanoví podpůrně, tzn. subjekty práv. vztahu si vlastní dohodou stanovily určili pravidlo chování; pokud si ho nestanovily, nastupuje podpůrné ustanovení příslušné podpůrné právní normy. Toto je typické pro oblast soukromého práva (§ 507, § 545 OZ).
+=== SLIDE 12 ===
+Druhy PN
+Příklady.
+Je PN kogentní nebo dispozitivní?
+§ 16 zákona č. 262/2006 Sb., zákoník práce
+	[Rovné zacházení se zaměstnanci, zákaz diskriminace]
+	(1)	
+	„Zaměstnavatelé jsou povinni zajišťovat rovné zacházení se všemi zaměstnanci, pokud jde o jejich pracovní podmínky, odměňování za práci a o poskytování jiných peněžitých plnění a plnění peněžité hodnoty, o odbornou přípravu a o příležitost dosáhnout funkčního nebo jiného postupu v zaměstnání.“
+=== SLIDE 13 ===
+   
+Je PN kogentní nebo dispozitivní?
+§ 1963 OZ
+[Splatnost bez výzvy]
+(2)„Smluvní strany si mohou ujednat dobu splatnosti delší šedesáti dnů jen tehdy, pokud to není vůči věřiteli hrubě nespravedlivé. Je-li však obsahem závazku podnikatele povinnost dodat zboží nebo službu veřejnoprávní korporaci, smluvní strany si mohou ujednat delší dobu splatnosti jen tehdy, pokud je to odůvodněno povahou závazku, a doba splatnosti nesmí přesáhnout šedesát dní.“
+
+=== SLIDE 14 ===
+Působnost PN
+Působností právní normy se rozumí vymezení rozsahu realizace a aplikace právní normy. Rozlišují se čtyři roviny působnosti právních norem:
+a) věcná působnost,
+b) prostorová působnost,
+c) osobní působnost,
+d) časová působnost.
+=== SLIDE 15 ===
+Působnost PN
+	Věcná působnost právní normy se týká skutkové charakteristiky případů, které právní norma (jejich souhrn, tedy právní institut) upravuje.
+• normy obecné (s obecnou působností) - „lex generalis" - vztahují se na větší počet stejných případů,
+• normy speciální (se zvláštní působností) - „lex specialis" - upravují odlišně věcně shodnou problematiku.
+=== SLIDE 16 ===
+Působnost PN
+Prostorová působnost vychází z teritoriální působnosti orgánů veřejné moci, které vydávají či oficiálně uznávají příslušné právní normy. 
+PN s celostátní působností (např. zákon) 
+PN lokální právní normy (např. nařízení rady kraje či obecně závazná vyhláška obce). 
+Významná je i problematika exteritoriality (použití právní normy mimo území státu, jehož právního řáduje součástí).
+
+=== SLIDE 17 ===
+Působnost PN
+Osobní působnost je založena na principu rovnosti před zákonem a spočívá v druhovém vymezení právních subjektů v hypotéze právní normy. Odpovídá na otázku, na které osoby platí právní norma. 
+Součástí problematiky osobní působnosti právních norem je i možnost stanovit imunitu a exempce (a vymezit jejich rozsah) pro určité skupiny právních subjektů. 
+
+=== SLIDE 18 ===
+Působnost PN
+1) absolutní (idemnita)
+• hlava státu - monarcha či prezident (v ČR není prezident odpovědný ani za přestupky, ani trestně odpovědný za jednání, kterého se dopustí v době funkčního období; může být souzen pouze za velezradu. což je zvláštní druh ústavního deliktu),
+• diplomatičtí zástupci, diplomat může být vyhoštěn jako persona non grata (osoba nežádoucí, nevítaná),
+• členové zákonodárného sboru (v ČR poslanci, resp. senátoři; pokud jde o jejich hlasování v Poslanecké sněmovně nebo v Senátu nebo jejich orgánech, nemohou být nijak postiženi).
+2) relativní
+• členové zákonodárného sboru, pokud jde o možnost trestního stíhání, stíhání za přestupek nebo za jejich projevy, bývá v různém rozsahu podmíněna souhlasem příslušného zákonodárného sboru či komory, resp. je omezena možnost postihu pouze na disciplinární odpovědnost,
+• soudci ústavního soudu mají obdobný rozsah imunity a režim trestní popř. přestupkové odpovědnosti jako členové zákonodárného sboru.
+=== SLIDE 19 ===
+Působnost PN
+Časová působnost souvisí s platnosti a účinností právního předpisu.
+Platnost: nastává dnem publikace ve sbírce zákonů, okamžik, kdy je možné se seznámit s obsahem, ale ještě není nutné se právní normou řídit  
+Účinnost: nastává dnem uvedeným v posledním ustanovení každé právní normy, pokud není uvedeno, pak  15.dnem po zveřejnění ve Sb.zák.
+Někdy platnost a účinnost splývá  v jeden den 
+( účinnost nastává dnem publikace v Sbírce zákonů )
+
+=== SLIDE 20 ===
+Publikace právních norem v ČR
+27
+Sbírka zákonů - Sb.
+vyhlašování zákonem stanovených právních předpisů (zákon č. 309/1999
+Sb., o Sbírce zákonů a o Sbírce mezinárodních smluv)
+Sbírka mezinárodních smluv - Sb. m. s.
+sdělením MZV se vyhlašují zejm.:
+platné mezinárodní smlouvy, jimiž je ČR vázána
+oznámení a výpovědi mezinárodních smluv
+rozhodnutí přijatá mezinárodními orgány a orgány mezinárodních organizací,  jimiž je ČR vázána
+Sbírka právních předpisů územních samosprávných celků a některých správních úřadů https://sbirkapp.gov.cz/vyhledavani
+zřízena zákonem č. 35/2021 Sb., účinnost od 1.1.2022 !!!, dříve jen:
+Věstník kraje
+vyhlášení obecně závazných vyhlášek kraje a nařízení kraje
+Úřední deska obecního úřadu
+nařízení obce, obecně závazné vyhlášky obce
+=== SLIDE 21 ===
+Publikace právních norem
+28
+Ve Sbírce zákonů  jsou vyhlašovány:
+ústavní zákony,
+zákony,
+zákonná opatření
+Senátu,
+nařízení vlády,
+právní předpisy  vydávané ministerstvy, a ostatními ústředními správními  úřady.
+=== SLIDE 22 ===
+Sbírka zákonů
+29
+vydává se v číslovaných částkách – chronologické číslování v  každém roce dle jejich vydání (nelze přečíslovat, jedině  zrušit a nahradit) – v elektronické a písemné podobě
+obsah předpisu uspořádán do číslovaných paragrafů  (členění na odstavce, písmena)
+citace: číslo předpisu, lomítko, rok vydání, Sb., název
+zákon č. 89/2012 Sb., občanský zákoník
+§ 5 odst. 1 písm. d) zákona č. 252/1997 Sb., o zemědělství
+okamžik vyhlášení – datum rozeslání částky Sbírky zákonů
+novela – právní předpis upravující změnu nebo doplnění  stávajícího právního předpisu předpisem pozdějším (x  novelizace – proces změny nebo doplnění)
+úplné znění – kvůli přehlednosti u často novelizovaného  právního předpisu
+=== SLIDE 23 ===
+Nový právní předpis:
+Novela:
+=== SLIDE 24 ===
+Zrušovací pr. předpis:
+Úplné znění:
+=== SLIDE 25 ===
+=	používání	právní	normy	státními	orgány,	
+    ale i chování fyzických a právnických osob podle práva
+Postup:
+zjištění skutkového stavu (bezprostředně, dokazováním)
+zjištění právních norem, podle kterých má být případ  řešen + jejich výklad (časovou, územní a osobní působnost normy a  její soulad s ústavou)
+rozhodnutí ve věci samé - v mezích zákona, hospodárně
+Aplikace právních norem
+32
+=== SLIDE 26 ===
+Řešení případů výslovně neupravených:
+při vydávání státní orgán, který věc posuzuje a rozhoduje o ní (zpravzákona není přihlédnuto ke všem případům, které mohou
+nastat
+idla tedy soud),  však není oprávněn odmítnout řešení věci
+rozhodování dle analogie:
+– analogie podle zákona – použije se právní norma, která upravuje  případ nejobdobnější
+pro případ, kdy konkrétní vztah není upraven žádnou právní normou
+– analogie podle práva – na základě obecných principů českého právního řádu a podle smyslu celého systému právních pravidel
+pokud neexistuje konkrétní norma, ani právní norma obdobná
+–	vyloučena analogie v trestním právu, finančním a správním; připuštěna
+v právu občanském, obchodním, rodinném a pracovním
+Aplikace právních norem
+33
+=== SLIDE 27 ===
+výklad právní normy - právní norma je abstraktní pravidlo  chování, při svém uplatňování na konkrétní případ musí být  vykládána, interpretována
+rozlišení podle toho, kdo výklad podává:
+legální  –  obecně  závazný,  výklad  orgánu  zmocněného  k  tomu  ústavou,  v	ČR  zmocnění není
+oficiální - státní orgán pro podřízené orgány či pracovníky; nezavazuje služebně
+nepodřízené
+Nejvyššího soudu a Vrchního soudu – rozhodnutí a stanoviska, není obecně právně  závazný, ovlivňuje soudní praxi
+orgánu aplikujícího právo – zpravidla soud, ale také správní orgány  při své  rozhodovací činnosti (např. stavební úřad), právně závazný výlučně jen v konkrétním  posuzovaném případě
+doktrinální - založený na vědeckém zkoumání platného práva;  v komentářích,  v učebnicích atd.; není právně závazný, praxi ovlivňuje
+rozlišení dle metody výkladu:
+metoda jazyková, historická, logická, systematická
+Interpretace právních norem
+34
+=== SLIDE 28 ===
+Interpretace práva
+Výklad práva provádí  soudce,  základní výkladové metody:
+Gramatická (jazyková) metoda je přímočarý výklad právní normy z jejího textu. Při výkladu se vychází ze struktury věty, rozebírají se vztahy mezi jednotlivými částmi souvětí i jednotlivých vět, co použité výrazy obvykle znamenají apod.
+Systematická metoda znamená, že se studuje umístění rozebírané právní normy v textu a systému právního předpisu (např. se hodnotí členění předpisu na části, hlavy a oddíly, dovozuje jaký význam mají marginální rubriky atd.) a jaké je postavení zkoumaného právního předpisu v daném právním odvětví a případně i v celém právním řádu.
+Logická, v této metodě se využívá logických postupů, a to především logického výkladu opaku, silnějšího a sporem.
+
+=== SLIDE 29 ===
+Odkazy
+Sbírka mezinárodních smluv :
+http://www.mvcr.cz/clanek/stejnopisy-sbirky-mezinarodnich-smluv.aspx
+Sbírka zákonů :
+http://www.mvcr.cz/clanek/sbirka-zakonu.aspx
+Ústřední věstník EU: 
+https://eur-lex.europa.eu/oj/direct-access.html?locale=cs
+
+=== SLIDE 30 ===
+
+
+
+

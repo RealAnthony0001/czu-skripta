@@ -1,0 +1,236 @@
+=== SLIDE 1 ===
+=== SLIDE 2 ===
+ZÁVAZKY V SOUKROMÉM PRÁVU
+závazky a závazkové vztahy se vyskytují v každodenním životě a jsou jeho běžnou součástí
+závazkové vztahy se týkají každého člověka, který prostřednictvím svého (právního) jednání uspokojuje své osobní, pracovní, společenské či kulturní potřeby (např. nakupuje, prodává, směňuje apod.)
+závazkové neboli obligační právo je možno charakterizovat jako souhrn právních norem upravujících závazky, tj. vztahy mezi věřiteli a dlužníky
+dlužník je v závazkovém vztahu vždy povinen věřiteli něco dát, něco konat, něčeho se zdržet nebo něco trpět a věřitel je oprávněn to od dlužníka požadovat.
+
+=== SLIDE 3 ===
+ZÁKLADNÍ ZÁSADY ZÁVAZKOVÉHO PRÁVA
+zásada pacta sunt servanda
+zásada autonomie vůle
+zásada rovnosti účastníků občanskoprávních, resp. obchodněprávních vztahů
+zásada bezformálnosti
+zásada dispozitivnosti
+Zásada ochrany slabší strany
+zásada ochrany dobré víry a poctivého jednání
+zásada poctivého obchodního styku
+
+=== SLIDE 4 ===
+PRAMENY ZÁVAZKOVÉHO PRÁVA
+ústavněprávní předpisy (zejména: Ústava ČR – ústavní zákon č. 1/1993 Sb., Listina základních práv a svobod – ústavní zákon č. 23/1993 Sb.)
+občanský zákoník (zákon č. 89/2012 Sb.)
+zvláštní právní předpisy (př. zákon o odpovědnosti státu za škodu způsobenou nesprávným úředním postupem, zákon o spotřebitelském úvěru, zákoník práce aj.)
+podzákonné právní předpisy (např. nařízení vlády č. 351/2013 Sb., kterým se určuje výše úroků z prodlení a nákladů spojených s uplatněním pohledávky, nařízení vlády č. 308/2015 Sb., o vymezení pojmů běžná údržba a drobné opravy související s užíváním bytu, aj.)
+
+
+=== SLIDE 5 ===
+ZÁVAZKY Z PRÁVNÍHO JEDNÁNÍ
+nejdůležitější právní skutečností je právní jednání
+právní jednání je projevem vůle vyvolávající právní účinky, které s takovým projevem objektivní právo spojuje a které jsou tímto právem dovoleny
+následků právních jednání je celá řada. Jedním z nich je vznik závazku (př. smlouva, dohoda, prohlášení aj.).
+aby se jednalo o právní jednání, musí zde existovat vůle jednajícího subjektu a tato vůle musí být projevena navenek buď výslovně, nebo konkludentně
+projev vůle jednající osoby musí být učiněn svobodně, vážně, určitě a srozumitelně
+
+
+=== SLIDE 6 ===
+VZNIK A OBSAH ZÁVAZKŮ
+závazek vzniká ze smlouvy, z protiprávního činu nebo z jiné právní skutečnosti, která je k tomu podle právního řádu způsobilá
+obsahem závazku jsou práva a povinnosti subjektů tohoto závazku
+v prvé řadě jde především o pohledávky a dluhy
+obsahem závazku jsou vedle toho i práva a povinnosti související s pohledávkou (dluhem) – např. právo na stanovení splatnosti pohledávky, práva z vadného plnění, a též práva utvářecí – např. právo odstoupit od smlouvy
+
+=== SLIDE 7 ===
+	ZMĚNA ZÁVAZKŮ
+právní vztahy obecně nemusí po svém vzniku zůstat zcela neměnné 
+často existuje potřeba, či vznikne nutnost některé jejich aspekty upravit či přizpůsobit novým okolnostem
+může tak dojít ke změně závazků:
+ v subjektech 
+v obsahu
+=== SLIDE 8 ===
+	 ZMĚNA ZÁVAZKŮ V SUBJEKTECH
+změnou v subjektech na straně věřitele je především:
+postoupení pohledávky (cese)
+postoupení smlouvy
+
+ změnou v subjektech na straně dlužníka je zejména:
+převzetí dluhu (privativní intercese)
+přistoupení k dluhu (kumulativní intercese)
+převzetí plnění
+převzetí majetku 
+postoupení smlouvy
+=== SLIDE 9 ===
+ZMĚNA ZÁVAZKŮ V OBSAHU
+smluvní strany si mohou ujednat změnu svých práv a povinnosti (zásada autonomie vůle)
+dohodou lze změnit jak závazek vzniklý ze smlouvy, tak závazek vzniklý na základě jiné skutečnosti (např. z deliktu)
+ke změně závazku v obsahu dochází:
+dohodou o novaci (privativní novace)
+dohodou o změně závazku (kumulativní novace)
+dohodou o narovnání
+=== SLIDE 10 ===
+ZÁNIK ZÁVAZKŮ
+ukončení existence závazku se děje v důsledku právních skutečností, se kterými právní předpisy spojují zánik závazku - tyto skutečnosti mohou plynout ze zákona nebo ze smlouvy. 
+závazek může zaniknout:
+splněním
+výpovědí
+započtením
+odstoupením od smlouvy
+zaplacením odstupného
+prominutím dluhu
+splynutím
+jiným způsobem
+=== SLIDE 11 ===
+ZAJIŠTĚNÍ A UTVRZENÍ ZÁVAZKŮ
+zajišťovací a utvrzovací instituty mají za úkol zlepšit postavení (budoucího) věřitele
+
+Zajišťovací instituty
+odrazují dlužníka od případného porušení povinnosti sjednané ve smlouvě a v případě, že k porušení nakonec dojde, umožňují věřiteli uspokojit se z náhradního zdroje (zajišťovací institut)
+
+Utvrzovací instituty
+odrazují dlužníka od případného porušení povinnosti sjednané ve smlouvě a utvrzují, tedy zvyšují nebo mění kvalitu pohledávky věřitele
+účelem utvrzení závazků tedy není věřiteli umožnit čerpání náhradního plnění z jiného zdroje, tak jako je tomu u zajišťovacích institutů
+
+=== SLIDE 12 ===
+ZAJIŠŤOVACÍ INSTITUTY
+Jistota (§ 2012 – 2017 OZ)
+Ručení (§ 2018 – 2028 OZ)
+Finanční záruka (§ 2029 – 2039 OZ)
+Zajišťovací převod práva (§2040 – 2044 OZ)
+Dohoda o srážkách ze mzdy nebo jiných příjmů (§2045 – 2047 OZ)
+Zástavní právo (§ 1309 – 1394 OZ) 
+Zadržovací právo (§ 1395 – 1399 OZ)
+Závdavek (§ 1808 – 1809 OZ)
+Výhrada vlastnického práva (§ 2132 – 2134 OZ) 
+Směnka, blankosměnka (zákon č. 191/1950 Sb., zákon směnečný a šekový)
+Finanční zajištění (zákon č. 408/2010 Sb., o finančním zajištění) 
+=== SLIDE 13 ===
+UTVRZOVACÍ INSTITUTY
+Smluvní pokuta (§2048 – 2052 OZ)
+Uznání dluhu (§ 2053 – 2054 OZ)
+Úrok z prodlení (§ 1970 OZ)
+Zákaz zatížení nebo zcizení věcí (§ 1761 OZ)
+
+
+=== SLIDE 14 ===
+KONTRAKTAČNÍ PROCES
+smlouva vzniká přijetím (akceptací) učiněného návrhu na uzavření smlouvy, tj. v okamžiku, kdy si strany ujednají její obsah (§1725 OZ)
+nabídkou se stává právní jednání, jen pokud obsahuje podstatné náležitosti smlouvy a pokud z návrhu vyplývá vůle navrhovatele být smlouvou vázán, bude – li nabídka přijata
+osoba, které je nabídka určena, nabídku přijme tak, že s ní projeví včas vůči navrhovateli souhlas v přiměřené lhůtě
+pokud přijetí nabídky obsahuje dodatky, výhrady, omezení nebo jiné změny, jedná se o odmítnutí nabídky a považuje se za nabídku novou
+přijetí nabídky lze stejně jako nabídku zrušit, dojde – li zrušení navrhovateli nejpozději s přijetím
+
+
+=== SLIDE 15 ===
+OBSAH A FORMA SMLOUVY
+smlouva představuje vztah mezi smluvními stranami, jejímž obsahem jsou vždy práva a povinnosti smluvních stran
+plnění ze smlouvy může:
+znít na konání či nekonání 
+být úplatné či bezúplatné
+doba trvání smlouvy může být:
+na dobu určitou 
+na dobu neurčitou. 
+forma smlouvy může být:
+písemná
+ústní  
+konkludentní
+
+
+=== SLIDE 16 ===
+SMLUVNÍ TYPY
+pro závazky z právních jednání v občanském zákoníku je charakteristická demonstrativnost jejich výčtu
+mohou tedy vznikat závazky, které jako smluvní typ zákon výslovně upravuje a smlouvy nepojmenované (inominátní) – např. leasingová smlouva
+smluvním typem (smlouvou pojmenovanou) se rozumí taková smlouva, která zahrnuje podstatné náležitosti smlouvy stanovené v základním ustanovení pro každou z těchto smluv.
+běžně se lze setkat s těmito smluvními typy:
+Smlouva kupní
+Smlouva o dílo
+Smlouva o úvěru a zápůjčce
+Smlouva o výpůjčce a výprose
+Nájemní smlouva
+Pachtovní smlouva aj.
+
+
+=== SLIDE 17 ===
+KUPNÍ SMLOUVA 
+kupní smlouva je nejběžnějším smluvním typem
+kupní smlouvou se prodávající zavazuje, že kupujícímu odevzdá věc, která je předmětem koupě, a umožní mu nabýt vlastnické právo k ní, a kupující se zavazuje, že věc převezme a zaplatí prodávajícímu kupní cenu
+může být uzavřena jakýmkoliv způsobem (ústně, písemně, konkludentně), písemná forma je však zákonem vyžadována v určitých případech (např. pokud je předmětem koupě nemovitá věc)
+k podstatným náležitostem kupní smlouvy patří:
+ označení smluvních stran (prodávající a kupující)
+ dostatečně určité označení předmětu kupní smlouvy
+ kupní cena
+ vůle prodávajícího odevzdat předmět koupě kupujícímu a převést na něj vlastnické právo a vůle  kupujícího předmět koupě převzít a zaplatit za něj prodávajícímu dohodnutou cenu.
+=== SLIDE 18 ===
+KUPNÍ SMLOUVA 
+k vedlejším náležitostem kupní smlouvy patří např. koupě na zkoušku, právo zpětné koupě, předkupní právo, výhrada lepšího kupce aj. 
+předmět koupě je prodávající povinen kupujícímu odevzdat v ujednaném množství, jakosti a provedení - pokud sjednané vlastnosti předmět koupě nemá, je vadný – s tím souvisí pojmy:
+záruka 
+odpovědnosti za řádné splnění
+reklamační proces
+nároky z vadného plnění
+=== SLIDE 19 ===
+SMLOUVA O DÍLO
+smlouvou o dílo se zhotovitel zavazuje provést na svůj náklad a nebezpečí pro objednatele dílo a objednatel se zavazuje dílo převzít a zaplatit cenu
+písemná forma není vyžadována
+dílem se dle občanského zákoníku rozumí zhotovení určité věci, pokud toto nespadá pod kupní smlouvu, a dále údržba, oprava nebo úprava věci nebo činnost s jiným výsledkem, dílem se vždy rozumí zhotovení, údržba, oprava nebo úprava stavby nebo její části.
+k podstatným náležitostem smlouvy o dílo patří:
+	- označení smluvních (zhotovitel, objednatel)
+	- vymezení díla
+	- závazek provést dílo na vlastní náklad a nebezpečí
+	- závazek objednatele převzít dílo
+	- závazek k zaplacení ceny díla
+=== SLIDE 20 ===
+SMLOUVA O DÍLO
+provedení díla (způsob provádění díla, věci k provedení díla) 
+dílo je provedeno, je-li dokončeno a předáno
+dílo je dokončeno, je-li předvedena jeho způsobilost sloužit svému účelu
+objednatel převezme dokončené dílo s výhradami nebo bez výhrad 
+převzetím věci nabývá objednatel vlastnické právo k věci a přechází na něho nebezpečí škody na věci, nestalo –li se tak již dříve
+vady díla
+dílo má vadu, neodpovídá-li smlouvě
+o právech objednatele z vadného plnění platí obdobně ustanovení o kupní smlouvě - objednatel však není oprávněn požadovat provedení náhradního díla, jestliže předmět díla vzhledem k jeho povaze nelze vrátit nebo předat zhotoviteli
+
+=== SLIDE 21 ===
+SMLOUVA O ÚVĚRU, SMLOUVA O ZÁPŮJČCE
+smlouvou o úvěru se zavazuje věřitel (úvěrující), že na požádání dlužníka (úvěrovaného) poskytne v jeho prospěch peněžní prostředky do určité částky a dlužník se zavazuje poskytnuté peněžní prostředky vrátit a zaplatit úroky
+smlouvou o zápůjčce zapůjčitel vydlužiteli přenechává zastupitelnou věc tak, aby ji užil dle svého uvážení a po čase vrátil věc stejného druhu, lze sjednat peněžitou i nepeněžitou zápůjčku
+Rozdíl mezi smlouvou o úvěru a smlouvou o zápůjčce spočívá v tom, že smlouva o úvěru je uzavřena již dohodou o poskytnutí peněžních prostředků úvěrujícím a nikoliv až jejich faktickým poskytnutím.
+=== SLIDE 22 ===
+VÝPŮJČKA A VÝPROSA
+smlouvou o výpůjčce půjčitel přenechává vypůjčiteli nezuživatelnou věc a zavazuje se mu umožnit její bezplatné dočasné užívání
+smlouvou o výprose přenechává půjčitel druhé smluvní straně (výprosník) věc bezplatně k užívání, aniž se ujedná doba, po kterou se má věc užívat, a účel, ke kterému se má věc užívat
+=== SLIDE 23 ===
+NÁJEMNÍ SMLOUVA
+nájemní smlouvou se pronajímatel zavazuje přenechat nájemci věc ve stavu, aby jí mohl užívat ke sjednanému nebo obvyklému účelu, udržovat věc v takovém stavu, aby mohla sloužit k takovému užívání, pro které byla pronajata, a zajistit nájemci nerušení užívání věci po dobu nájmu
+nájemce je povinen platit nájemné a užívat věc jako řádný hospodář v souladu se sjednaným účelem
+nájem sjednaný na dobu určitou mohou smluvní strany vypovědět jen v případě, že ve smlouvě byly sjednány důvody výpovědi a výpovědní doba
+nájem sjednaný na dobu neurčitou je možné ukončit výpovědí - není-li dohodnuto jinak, činí výpovědní doba v případě věci movité jeden měsíc, v případě věci nemovité tři měsíce
+
+=== SLIDE 24 ===
+NÁJEMNÍ SMLOUVA
+pokud smluvní strana závažným způsobem porušuje své povinnosti a druhé straně tím způsobuje značnou újmu, lze vypovědět nájem i bez výpovědní doby.
+při skončení nájmu je nájemce povinen odevzdat předmět nájmu pronajímateli v místě, kde jej převzal, a v takovém stavu, v jakém byl v době, kdy jej převzal
+v případě nájmu nemovité věci je při skončení nájmu nájemce povinen věc vyklidit. 
+občanský zákoník obsahuje zvláštní úpravu pro nájem bytu a pro nájem prostoru sloužícího podnikání
+=== SLIDE 25 ===
+PACHTOVNÍ SMLOUVA 
+pachtem se rozumí přenechání individuálně určené věci, popř. souboru věcí, propachtovatelem k dočasnému užívání a požívání druhé smluvní straně (pachtýři), a to za úplatu (pachtovné) nebo za poskytnutí poměrného výnosu z věci
+pacht se odlišuje od nájmu tím, že nájemce nemá právo požívací a je pouhým uživatelem věci
+předmětem pachtu může být pouze věc plodonosná, která přináší určitý výnos (např. pozemek s funkcí lesa)
+=== SLIDE 26 ===
+OCHRANA SLABŠÍ STRANY
+jedná se o jednu ze základních zásad občanského práva
+slabším subjektem se rozumí takový subjekt, který se ocitá z určitého důvodu ve slabším postavení, kdy tímto důvodem může být nedostatek informací, nedostatek věku, oslabení duševních schopností, tíživá životní situace, a tyto důvody mu brání či ho omezují v možnosti hájit jeho zájmy
+smlouvy uzavírané adhezním způsobem
+adhezní smlouvou se rozumí každá smlouva, jejíž základní podmínky byly určeny jednou ze smluvních stran nebo podle jejích pokynů, aniž slabší strana měla skutečnou příležitost obsah těchto základních podmínek ovlivnit
+=== SLIDE 27 ===
+OCHRANA SPOTŘEBITELE, SPOTŘEBITELSKÉ SMLOUVY
+smlouvy uzavírané mezi podnikatelem a spotřebitelem se označují jako tzv. spotřebitelské smlouvy
+zvláštní ustanovení o spotřebitelských smlouvách obsahuje občanský zákoník (§ 1810 – 1867 OZ) a jejich smyslem je chránit spotřebitele jako slabší smluvní stranu
+
+=== SLIDE 28 ===
+
+
+
+--- poznámky ---
+

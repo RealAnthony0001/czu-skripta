@@ -1,0 +1,118 @@
+=== PAGE 1 ===
+Návrh na vklad do katastru nemovitostí
+podle § 14 zákona č. 256/2013 Sb.
+Spisová značka
+Určeno:
+Katastrálnímu úřadu pro
+Katastrálnímu pracovišti
+vyplní katastrální úřad
+I. Údaje o účastnících řízení – fyzických osobách
+pořadové
+číslo příjmení jméno, příp. jména titul před titul za
+rodné číslo (nebylo-li přiděleno, datum narození) číslo EČI**) dokladu navrhovatele (byl-li vydán) typ EČI**) dokladu
+Adresa místa trvalého pobytu (není-li povolen, adresa bydliště)
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze stát (vyplňte pouze v případě cizího státu)
+Adresa pro doručování, pokud je odlišná od adresy místa trvalého pobytu
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze
+příjmení a jméno zástupce, pokud je účastník zastoupen podpis navrhovatele/zástupce*)
+pořadové
+číslo příjmení jméno, příp. jména titul před titul za
+rodné číslo (nebylo-li přiděleno, datum narození) číslo EČI**) dokladu navrhovatele (byl-li vydán) typ EČI**) dokladu
+Adresa místa trvalého pobytu (není-li povolen, adresa bydliště)
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze stát (vyplňte pouze v případě cizího státu)
+Adresa pro doručování, pokud je odlišná od adresy místa trvalého pobytu
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze
+příjmení a jméno zástupce, pokud je účastník zastoupen podpis navrhovatele/zástupce*)
+*) Nehodící se škrtněte.
+6.87.1-2013
+**) EČI doklad = elektronicky čitelný identifikační doklad
+=== PAGE 2 ===
+pořadové
+číslo příjmení jméno, příp. jména titul před titul za
+rodné číslo (nebylo-li přiděleno, datum narození) číslo EČI**) dokladu navrhovatele (byl-li vydán) typ EČI**) dokladu
+Adresa místa trvalého pobytu (není-li povolen, adresa bydliště)
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze stát (vyplňte pouze v případě cizího státu)
+Adresa pro doručování, pokud je odlišná od adresy místa trvalého pobytu
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze
+příjmení a jméno zástupce, pokud je účastník zastoupen podpis navrhovatele/zástupce*)
+pořadové
+číslo příjmení jméno, příp. jména titul před titul za
+rodné číslo (nebylo-li přiděleno, datum narození) číslo EČI**) dokladu navrhovatele (byl-li vydán) typ EČI**) dokladu
+Adresa místa trvalého pobytu (není-li povolen, adresa bydliště)
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze stát (vyplňte pouze v případě cizího státu)
+Adresa pro doručování, pokud je odlišná od adresy místa trvalého pobytu
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze
+příjmení a jméno zástupce, pokud je účastník zastoupen podpis navrhovatele/zástupce*)
+pořadové
+číslo příjmení jméno, příp. jména titul před titul za
+rodné číslo (nebylo-li přiděleno, datum narození) číslo EČI**) dokladu navrhovatele (byl-li vydán) typ EČI**) dokladu
+Adresa místa trvalého pobytu (není-li povolen, adresa bydliště)
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze stát (vyplňte pouze v případě cizího státu)
+Adresa pro doručování, pokud je odlišná od adresy místa trvalého pobytu
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze
+příjmení a jméno zástupce, pokud je účastník zastoupen podpis navrhovatele/zástupce*)
+*) Nehodící se škrtněte. **) EČI doklad = elektronicky čitelný identifikační doklad
+=== PAGE 3 ===
+I. Údaje o účastnících řízení – právnických osobách
+pořadové
+číslo název právnické osoby/organizační složky státu*) identifikační číslo osoby, bylo-li přiděleno
+Adresa sídla
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze stát (vyplňte pouze v případě cizího státu)
+ID datové schránky (je-li zřízena)
+Adresa pro doručování, pokud je odlišná od adresy sídla
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze
+fyzická osoba jednající za účastníka řízení (přímo nebo na základě plné moci)
+příjmení, jméno, příp. jména, funkce nebo pracovní zařazení razítko (pokud je právnická osoba používá)
+podpis
+pořadové
+číslo název právnické osoby/organizační složky státu*) identifikační číslo osoby, bylo-li přiděleno
+Adresa sídla
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze stát (vyplňte pouze v případě cizího státu)
+ID datové schránky (je-li zřízena)
+Adresa pro doručování, pokud je odlišná od adresy sídla
+ulice č.p./č.ev.*) č.orient. část obce (v Praze název katastrálního území)
+PSČ obec městský obvod v Praze
+fyzická osoba jednající za účastníka řízení (přímo nebo na základě plné moci)
+příjmení, jméno, příp. jména, funkce nebo pracovní zařazení razítko (pokud je právnická osoba používá)
+podpis
+*) Nehodící se škrtněte.
+=== PAGE 4 ===
+III. Sdělení pro katastrální úřad
+Kontaktní údaje:
+Zde můžete uvést údaje, které v případě potřeby urychlí Vaše kontaktování a řešení případného problému. Uvedení kontaktních údajů je nepovinné.
+Pokud zároveň žádáte i o zaslání informace o tom, že došlo k vyznačení, že právní vztahy k Vašim nemovitostem jsou dotčeny změnou
+(zaplombování), na některý z kontaktních údajů (e-mail, telefon), vyjádřete tuto skutečnost zaškrtnutím pole před tímto údajem.
+Poř. číslo
+účastníka ID datové schránky e-mail telefon
+Na základě předložené listiny se zároveň žádá o zápis:
+poznámky o výhradě přednostního pořadí pro jiné právo
+poznámky o ujednání o tom, že vlastník pozemku nemá předkupní právo k právu stavby
+poznámky o ujednání o tom, že vlastník práva stavby nemá předkupní právo k pozemku
+poznámky o výhradě souhlasu se zatížením práva stavby
+poznámky o závazku nezajistit zástavním právem ve výhodnějším pořadí nový dluh
+poznámky o závazku neumožnit zápis nového zástavního práva namísto starého
+upozornění na závazek zástavního věřitele nepožádat o výmaz zástavního práva
+Další sdělení:
+Číslo jednací nebo jiné označení věci na straně vyhotovitele listiny
+IV. Listy formuláře
+Počet samostatných listů formuláře:
+Část I. Údaje o účastnících řízení – fyzických osobách – pokračování
+Část I. Údaje o účastnících řízení – právnických osobách – pokračování
+Část II.A – Označení práv, která mají být zapsána ke stavbám a pozemkům
+Část II.B – Označení práv, která mají být zapsána k jednotkám vymezeným podle zákona o vlastnictví bytů
+Část II.C – Označení práv, která mají být zapsána k jednotkám vymezeným podle občanského zákoníku
+V. Přílohy návrhu na vklad
+Stručný název přílohy: v počtu:

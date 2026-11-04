@@ -1,0 +1,391 @@
+=== SLIDE 1 ===
+Relativní majetkové právo - Závazkové vztahyZáklady právních nauk Přednáška č. 6
+JUDr. Ing. Eva Daniela Cvik, Ph.D. et. Ph.D. 
+=== SLIDE 2 ===
+Obsah přednášky 
+Pojem a charakteristika relativních majetkových vztahů :
+
+Rozdělení relativních majetkových práv
+Zásady uplatňování závazkového práva
+Závazkový vztah ( subjekt, předmět, obsah )  
+ Vznik, změna a zánik závazků
+ Zajištění závazků
+=== SLIDE 3 ===
+Závazkové právo – pojem  
+Závazkové právo ( = obligační ) je část občanského, resp. soukromého práva, kterou tvoří soubor právních norem o závazcích - vztazích mezi věřiteli a dlužníky. Právní úprava: Občanský zákoník č. 89/2012 Sb.,  část čtvrtá – Relativní majetková práva (§1721 - §3014)
+sjednocení úpravy jednotlivých smluvních typů do jediného právního předpisu ( platí pro občanské i obchodní právo–ÚPRAVA PRO OSOBY PODNIKAJÍCÍ  ) 
+Ústředním pojmem závazkového práva je 
+ZÁVAZEK = OBLIGACE 
+Základní pojmy: závazek x pohledávka x dluh 
+  
+
+=== SLIDE 4 ===
+Závazkové právo - členění
+Všeobecná ustanovení o závazcích – §§ 1721–2054
+Závazky z právních jednání §§ 2055 – 2893
+Závazky z deliktů §§ 2894 - 2990
+Závazky z jiných právních důvodů §§ 2991 - 3014
+=== SLIDE 5 ===
+Závazkový vztah 
+=== SLIDE 6 ===
+ Subjekty závazkového práva - Věřitel x Dlužník
+Věřitel je tím, kdo má právo – pohledávku - od dlužníka požadovat, aby pro něj (či pro jiného) např. něco vykonal.
+Dlužník je k tomuto povinen pouze vůči věřiteli – k němuž jej tíží dluh. 
+
+
+
+
+=== SLIDE 7 ===
+Funkce  a vznik závazkového práva 
+=== SLIDE 8 ===
+=== SLIDE 9 ===
+Systém závazkového práva v NOZ
+Právní úprava závazků  je obsažena v OZ části čtvrté Relativní majetková práva ( § 1721 - § 3014 )- sjednocení úpravy jednotlivých smluvních typů do jediného právního předpisu ( občanského a obchodního práva) 
+HLAVA I - Všeobecná ustanovení o závazcích:
+vznik závazků,
+ smlouva obsah závazků, 
+závazky ze smluv uzavíraných se spotřebitelem, 
+společné dluhy a pohledávky, 
+změny závazků, 
+zánik závazků,
+ zajištění a utvrzení dluhů
+
+=== SLIDE 10 ===
+Systém závazkového práva v NOZ
+=== SLIDE 11 ===
+Systém závazkového práva v NOZ
+HLAVA III - Závazky z deliktů:
+Náhrada majetkové a nemajetkové újmy
+Zneužití a omezení soutěže
+ 
+HLAVA IV - Závazky z jiných právních důvodů:
+Bezdůvodné obohacení
+Nepřikázané jednatelství a upotřebení cizí věci k prospěchu jiného
+
+
+=== SLIDE 12 ===
+Závazkový právní vztah 
+je vztahem mezi dvěma či více individuálně určenými subjekty, jejichž majetkové zájmy jsou stejné povahy, ale opačné orientace.
+
+ majetkovou povahu závazku,  ust. § 1722 stanoví, že „Plnění, které je předmětem závazku, musí být majetkové povahy a odpovídat zájmu věřitele, i když tento zájem není jen majetkový.“
+
+Relativní povaha závazkového vztahu určuje, že věřitel je z tohoto vztahu oprávněn požadovat příslušné chování vůči dlužníku z tohoto vztahu a nikoli vůči třetím osobám (závazkový vztah je vztahem jen mezi individuálně určenými subjekty).
+
+Z této zásady nicméně existují výjimky – smlouva ve prospěch třetího  (§ 1767 a násl.), relativní neúčinnost/odporovatelnost (§ 589 a násl.), poukázka (§ 1939 a násl.) aj..
+=== SLIDE 13 ===
+Druhy závazkových vztahů 
+=== SLIDE 14 ===
+Druhy závazkových vztahů 
+=== SLIDE 15 ===
+Druhy závazkových vztahů 
+=== SLIDE 16 ===
+Druhy závazkových vztahů 
+=== SLIDE 17 ===
+Druhy závazkových vztahů 
+=== SLIDE 18 ===
+Závazkové právo smluvní a deliktní
+=== SLIDE 19 ===
+Závazkové právo deliktní a kvazideliktní
+důsledkem deliktu je nepříznivý právní následek (povinnost), který vznikl porušením původní primární povinnosti, tedy protiprávním jednáním; tento následek je předpokládán v sankční složce normy občanského práva
+vzniká nová právní povinnost, kterou subjekt dosud neměl (sekundární povinnost)
+
+=== SLIDE 20 ===
+Závazkové právo deliktní a kvazideliktní 
+dojde  ke změně původního závazkového právního vztahu, která může mít následující podobu:
+vznik nové právní povinnosti (povinnost nahradit škodu)
+k původní právní povinnosti přistoupily nové právní povinnosti (povinnosti z prodlení),
+původní právní povinnost se v důsledku jejího porušení přeměnila na novou právní povinnost (povinnosti z vadného plnění)
+
+=== SLIDE 21 ===
+Závazkové právo deliktní a kvazideliktní 
+kumulace povinností z deliktu
+porušením jedné povinnosti může souběžně vzniknout více povinností 
+může k tomu přibýt i trestněprávní nebo správněprávní odpovědnost 
+cílem veřejnoprávní odpovědnosti je náprava společenských vztahů a postih pachatele
+cílem občanskoprávní sekundární povinnosti je náprava újmy poškozeného v soukromém právu 
+
+=== SLIDE 22 ===
+Závazkové právo smluvní 
+nejčastějším důvodem vzniku závazku jsou právní jednání
+dvou a vícestranné právní jednání = smlouva
+méně častým důvodem vzniku je jednostranné pr. jednání – veřejný příslib a slib odškodnění
+kvazikontrakt  (podobá se, ale chybí souhlas druhé strany)  nepřikázané jednatelství, upotřebení cizí věci k prospěchu jiného
+
+=== SLIDE 23 ===
+Smlouva 
+smlouva (§ 1724) = dvoustranné či vícestranné právní jednání, jímž strany projevují vůli zřídit mezi sebou závazek – je uzavřena, jakmile si strany ujednají její obsah
+úpravu smluv nalezneme i v jiných částech NOZ, nejen v rámci třetí části (např. zástavní sml., dědická sml.)
+smlouva je nejtypičtějším „právním jednáním“  soukromého práva, je nejčastějším důvodem vzniku závazkového právního vztahu 
+§ 1725 Smlouva je uzavřena, jakmile si strany ujednaly její obsah. 
+v mezích právního řádu je stranám ponecháno na vůli svobodně si smlouvu ujednat a určit její obsah (zásada autonomie vůle zakotvena v § 1 odst. 2) 
+
+
+
+=== SLIDE 24 ===
+Principy v oblasti smluvního práva
+pacta sunt servanda – základní zásada, bez které by nemělo uzavírání smluv smysl - § 3/2/d
+zásada dobré víry - § 7
+povinnost jednat poctivě, nikdo se nemůže dovolávat své vlastní nepoctivosti - § 6autonomie vůle – dispozitivnost posílení principu zásadně všech ustanovení (§ 1/2 – pouze pokud to není zákonem zakázáno a neporušuje to dobré mravy, veřejný pořádek, postavení osob (pr. na ochranu osobnosti) 
+dispozitivnost i v oblasti kontraktace – smlouva nemusí vzniknout jen způsobem předvídaným v NOZ, ale i třeba faktickou akceptací návrhu…
+ svoboda uzavření smlouvy (×některé smlouvy povinně uzavírané), volby kontrahenda, obsahu smlouvy (výčet smluvních typů není numerus clausus, možnost uzavírat inominátní smlouvy § 1746/2)
+podrobnější úprava smluv a jejich uzavírání – smluvnímu právu se věnuje více než 1000 paragrafů 
+
+=== SLIDE 25 ===
+Principy smluvního práva 
+výslovná úprava předsmluvní odpovědnosti - § 1728 an
+sjednocení smluvního práva – konec dvojkolejnosti občanskopr. a obch. závazků
+do NOZ zařazena nově i pojistná smlouva, pracovní sml. však zůstala v ZP
+systematicky – předřazení smluvního práva před deliktní
+zásada bezformálnosti smluv - § 559 – libovolná forma, pokud to zákon nebo druhá strana neomezuje
+týká se i úprav obsahu smluv! přestože byla smlouva uzavřena písemně, lze ji změnit ústně; pokud chtějí pouze určitou formu pro změny, musí si to vyjednat
+× novace, narovnání – vždy písemná forma, pokud byl závazek zřízen písemnou formou nebo se činí o promlčeném právu
+in dubio pro validate; favor contractus – na právní jednání je v pochybnostech třeba nahlížet jako na platné, „v pochybnostech ve prospěch platnosti smlouvy“
+ochrana slabší smluvní strany – pro některé případy má NOZ ochranná kogentní ustanovení
+§ 433 – zákaz zneužití hospodářského postavení podnikatele vůči osobě, která jedná mimo souvislost s vlastním podnikáním
+§ 1793 an – neúměrné zkrácení, lichva
+§ 1789 – ochrana při uzavírání tzv. adhezních smluv (take it or leave it)
+§ 1810 – ochrana spotřebitele  viz spotřebitelské smlouvy
+ 
+
+=== SLIDE 26 ===
+Smlouva 
+smlouva je nejtypičtějším„právním jednáním“ soukromého práva, je nejčastějším důvodem vzniku závazkového právního vztahu 
+§ 1724 NOZ vymezuje smlouvu jako dvou nebo vícestranné právní jednání, jehož cílem je zřízení vzájemných závazků stran; odst. 2 dále zakotvuje, že úprava smluv se rovněž použije při absenci speciální úpravy na projevy vůle učiněné vůči třetím osobám.
+
+=== SLIDE 27 ===
+Vznik (uzavření) smlouvy 
+§ 1725 Smlouva je uzavřena, jakmile si strany ujednaly její obsah. 
+v mezích právního řádu je stranám ponecháno na vůli svobodně si smlouvu ujednat a určit její obsah (zásada autonomie vůle zakotvena v § 1 odst. 2) 
+
+=== SLIDE 28 ===
+Neúplná smlouva 
+§ 1726
+Považují-li strany smlouvu za uzavřenou, ač si neujednaly všechny náležitosti, hledí se na smlouvu jako na uzavřenou, za podmínek:
+a) lze-li předpokládat, že by smlouvu uzavřely i bez dohody o této náležitosti.
+b) přihlédne se k následnému chování stran.
+Nevztahuje se na podstatné náležitosti smlouvy (osobní názor).
+
+=== SLIDE 29 ===
+Shoda o určité náležitosti 
+ ust. § 1726 OZ
+Jedna ze stran může při jednání učinit dojednání určité náležitosti podmínkou vzniku smlouvy, pak se ustanovení o neúplné smlouvě nepoužije.
+Tzv. punktace (zápis stran o hlavních rysech smlouvy) nezavazuje.
+
+
+=== SLIDE 30 ===
+Závislé smlouvy 
+ust. § 1727 OZ
+Každá ze smluv zahrnutých v jedné listině se posuzuje samostatně.
+Jedná-li se o závislé smlouvy, existence každé z nich je podminkou existence ostatních.
+Závislost smluv se posuzuje podle jejich povahy a stranám známého účelu.
+
+
+=== SLIDE 31 ===
+Informační povinnost  
+ust. § 1728- 1729 OZ
+při dodržení dobré víry je každý oprávněn vést smluvní jednání bez vzniku povinnosti k uzavření smlouvy a neodpovídá za její neuzavření.
+Zákaz předstíraného jednání o smlouvě.
+Strany si sdělí všechny skutkové a právní okolnosti ( informační povinnost) 
+
+=== SLIDE 32 ===
+Předsmluvní odpovědnost 
+ust. § 1729 OZ
+Bezdůvodné ukončení jednání o smlouvě je nepoctivé.
+Nepoctivá strana nahradí druhé straně škodu – i zisk ušlý v obdobných případech.
+“Ztráta” je pojem jinde v zákoně neupravený.
+
+
+=== SLIDE 33 ===
+Důvěrnost 
+ust. § 1730 OZ
+Důvěrné údaje jedné strany má druhá strana bránit před zneužitím a prozrazením.
+Porušení povinnosti jednou ze stran zakládá odpovědnost za její vlastní obohacení.
+Zakládá také odpovědnost za škodu? 
+
+
+=== SLIDE 34 ===
+Uzavření smlouvy 
+OFERTA – AKCEPTACE 
+
+Oferta – nabídka k uzavření smlouvy 
+ust. § 1732 OZ : Oferta (aby byla ofertou) musí obsahovat všechny náležitosti smlouvy, aby ji bylo možno jednoduše akceptovat, a musí vyjadřovat vůli být vázán akceptací.
+Reklama, katalog a vystavení zboží s cenou je ofertou.
+
+=== SLIDE 35 ===
+Uzavření smlouvy 
+ofertou není :negativní vymezení nabídky (§ 1733) - nabídkou není:
+projev vůle, který nevyhovuje výše uvedeným podmínkám § 1732 (1) Právní jednání směřující k uzavření smlouvy je nabídkou, pokud obsahuje podstatné náležitosti smlouvy tak, aby smlouva mohla být uzavřena jeho jednoduchým a nepodmíněným přijetím, a pokud z něho plyne vůle navrhovatele být smlouvou vázán, bude-li nabídka přijata.(2) Má se za to, že návrh dodat zboží nebo poskytnout službu za určenou cenu učiněný při podnikatelské činnosti reklamou, v katalogu nebo vystavením zboží je nabídkou s výhradou vyčerpání zásob nebo ztráty schopnosti podnikatele plnit.;
+veřejný příslib, jehož základem je příslib plnění za určitý výkon nebo výsledek; pokud nejde o veřejný příslib, má takové jednání charakter pouze jednání o uzavření
+výzvy k podání nabídek
+jednání, z něhož nelze ani obecně určit, ke komu směřuje, pokud z něho jasně neplyne něco jiného
+
+=== SLIDE 36 ===
+Uzavření smlouva 
+ust. § 1734 a § 1735 OZ : Akceptace – přijetí nabídky 
+Oferta přítomné osobě musí být akceptována bezodkladně.
+Oferta nepřítomné osobě musí být přijata v uvedené lhůtě, nebo ve lhůtě přiměřené ( 7 dnů) 
+§ 1739 Oferta zaniká odmítnutím.
+Akceptace s dodatky, výhradami, omezením a změnami je novou nabídkou.
+Akceptace s nepodstatnou odchylkou je přijetím nabídky, pokud ji oferent neodmítne.
+Smlouva je uzavřena ve znění s odchylkou
+=== SLIDE 37 ===
+Uzavření smlouvy konkludentním jednáním
+ust. § 1744  OZ Akceptace plněním  nebo přijetím plnění
+Osoba, které je nabídka určena, nabídku přijme také tak, že se podle ní zachová 
+S přihlédnutím k obsahu nabídky
+S přihlédnutím k zavedené praxi mezi stranami
+Je-li to obvyklé
+§ 546 “Právně lze jednat … jiným způsobem nevzbuzujícím pochybnost o tom, co jednající osoba chtěla projevit.”
+
+
+=== SLIDE 38 ===
+Inominátní smlouva 
+=== SLIDE 39 ===
+Forma smlouvy 
+§ 1756 – konkludentní uzavření smlouvy
+§ 1757 – písemné potvrzení o uzavření ústní smlouvy může nepodstatně změnit smlouvu, pokud druhá strana mlčí
+
+
+=== SLIDE 40 ===
+Zvláštní způsoby uzavírání smluv 
+§ 1771 Dražba - – smlouva je uzavřena příklepem
+§ 1772 Veřejná soutěž - vyhlašovatel soutěže činí výzvu k podávání nabídek tím, že vyhlásí neurčitým osobám soutěž o nejvhodnější nabídku; 
+§ 1780 Veřejná nabídka – projev vůle navrhovatele, kterým se obrací na neurčité osoby s návrhem na plnění 
+=== SLIDE 41 ===
+Smlouva o smlouvě budoucí 
+ Smlouva o smlouvě budoucí - touto smlouvou se nejméně jedna strana zavazuje uzavřít po vyzvání v ujednané lhůtě (jinak do 1 roku; nevyzve-li oprávněná strana závaznou stranu včas, povinnost uzavřít budoucí smlouvu zaniká) budoucí smlouvu, jejíž obsah je ujednán alespoň obecným způsobem 
+
+=== SLIDE 42 ===
+Předsmluvní odpovědnost 
+Výslovné ujednání o předsmluvní odpovědnosti: 
+Právní úprava § 1728, §1729, § 2910
+Ten, kdo z vlastní iniciativy zahájil jednání o smlouvě, nebo v takovém jednání pokračuje, aniž má skutečně v úmyslu smlouvu uzavřít, je odpovědný za škodu vzniklou v důsledku toho, že ke vzniku závazku nedošlo.
+Ust. § 1729 zakládá nárok na náhradu škody straně poškozené v důsledku bezdůvodného neuzavření smlouvy. 
+Nárok vznikne za předpokladu, že již jednání stran dospělo do takové fáze, kdy se uzavření smlouvy jevilo jako vysoce pravděpodobné. 
+Výše náhrady je v tomto případě omezená částkou, která odpovídá ztrátě z neuzavřené smlouvy v obdobných případech. 
+Přitom není nutné prokázat ztrátu z neuzavření konkrétní smlouvy. 
+Přiznává se  nárok na náhradu nákladů a ušlého zisku .
+
+=== SLIDE 43 ===
+Obsah závazků 
+Ze závazků je dlužník povinen:
+ něco dát,
+ něco kona
+, něčeho se zdržet
+ nebo něco strpět 
+věřitel je oprávněn to od něho požadovat. 
+
+=== SLIDE 44 ===
+Neúměrné krácení 
+zásada ekvivalence (vyváženosti) plnění, tj. že plnění a protiplnění nemají být v příkrém rozporu a mají odpovídat zásadám spravedlnosti. 
+
+=== SLIDE 45 ===
+Relativní majetková práva
+=== SLIDE 46 ===
+Vzájemné plnění 
+je-li plnění jedné ze stran v hrubém nepoměru k tomu, co poskytla druhá strana, může zkrácená strana požadovat zrušení smlouvy a navrácení všeho do původního stavu, ledaže jí druhá strana doplní, oč byla zkrácena, se zřetelem k ceně obvyklé v době a místě uzavření smlouvy. To neplatí, pokud se nepoměr vzájemných plnění zakládá na skutečnosti, o které druhá strana nevěděla ani vědět nemusela
+
+=== SLIDE 47 ===
+Relativní majetková práva
+=== SLIDE 48 ===
+Společné dluhy a pohledávky 
+=== SLIDE 49 ===
+Společné dluhy a pohledávky 
+=== SLIDE 50 ===
+Společné dluhy a pohledávky 
+=== SLIDE 51 ===
+Změny závazků 
+=== SLIDE 52 ===
+Změna závazkových vztahů 
+=== SLIDE 53 ===
+Změna závazkových vhtahů 
+=== SLIDE 54 ===
+Změna závazkových vztahů 
+=== SLIDE 55 ===
+ Změna závazkových vztahů 
+§ 1895 a násl. NOZ nově připouští, aby si jedna ze stran smlouvy vyměnila své postavení s třetí osobou, pokud s tím ovšem smluvní partner souhlasí. 
+Tato záměna osob je možná jen, pokud zatím nedošlo ke splnění závazku.
+Příklad:
+Kupující se po uzavření kupní smlouvy dozví o výhodnější nabídce, protože však nemá možnost smlouvu z nějakého právního důvodu zrušit, dohodne se s kamarádem, že věc koupí místo něj. Prodávající s tím souhlasí. Kamarád je tedy povinen zaplatit kupní cenu a zároveň může po prodávajícím nárokovat vydání koupené věci.
+=== SLIDE 56 ===
+Změna obsahu závazku 
+=== SLIDE 57 ===
+Relativní majetková práva
+=== SLIDE 58 ===
+ Zánik závazku
+=== SLIDE 59 ===
+Zánik závazku 
+Jiné způsoby zániku závazku: 
+Dohoda - Stranám je na vůli ujednat si zánik závazku, aniž bude zřízen závazek nový.
+Započtení 
+Mají-li strany vůči sobě vzájemné pohledávky stejného druhu, je praktickým řešením jejich započtení. 
+NOZ vymezuje podmínky, postup a následky započtení v ustanoveních § 1982 – 1991, 
+NOZ setrvává u dvou způsobů započtení, a sice započtení jednostranným prohlášením nebo dohodou.
+K jednostrannému započtení lze přistoupit tehdy, když má započítávající strana splatnou pohledávku vůči druhé straně a zároveň je již oprávněna poskytnout své plnění, tj. její dluh je splnitelný (nemusí být splatný). 
+Ne všechny pohledávky jsou k jednostrannému započtení způsobilé, NOZ zejména zakazuje započtení proti pohledávce na výživné pro nezletilého, který není plně svéprávný (§ 1988); od tohoto zákazu není možné se odchýlit dohodou stran (§ 1991). 
+
+=== SLIDE 60 ===
+ Zánik závazku 
+Z jednostranného započtení NOZ nově výslovně vylučuje i pohledávky nejisté či neurčité (§ 1987). 
+Odstupné - jedná se však pouze o dispozitivní úpravu, od níž se strany mohou odchýlit. (podmíněno úhradou odstupného)
+Splynutí - Splyne-li jakýmkoli způsobem právo s povinností v jedné osobě, zaniknou právo i povinnost
+Výpověď - Závazek lze vypovědět, ujednají-li si to strany nebo stanoví-li tak zákon
+Odstoupení od smlouvy - Od smlouvy lze odstoupit, ujednají-li si to strany, nebo stanoví-li tak zákon. Možnost aplikace v případě porušení smlouvy podstatný´m způsobem.
+=== SLIDE 61 ===
+Zánik závazku 
+Následná nemožnost plnění - stane-li se dluh po vzniku závazku nesplnitelným, zaniká závazek pro nemožnost plnění. Plnění není nemožné, lze-li dluh splnit za ztížených podmínek, s většími náklady, s pomocí jiné osoby nebo až po určené době.
+Smrt dlužníka nebo věřitele - Smrtí dlužníka povinnost nezanikne, ledaže jejím obsahem bylo plnění, které mělo být provedeno osobně dlužníkem.
+Prominutí dluhu- NOZ odstraňuje striktní požadavek písemné formy prominutí dluhu. 
+prominutí dluhu za situace, kdy je z dluhu solidárně zavázáno více dlužníků – zásadně nedochází k zániku celého dluhu, ale pouze do výše podílu toho dlužníka, jemuž věřitel dluh prominul.
+Totéž platí i v opačné situaci, kdy je dlužník povinen plnit dluh více věřitelům (§ 1996). 
+Z praktických důvodů NOZ stanoví domněnku, že dlužník s prominutím dluhu souhlasí (§ 1995), neboť tomu tak ve skutečnosti zpravidla bude. Jak již bylo výše uvedeno, vydá-li věřitel dlužníkovi potvrzení o splnění dluhu (či jeho části), aniž by dlužník skutečně plnil, má kvitance účinky splnění (§ 1995).
+
+=== SLIDE 62 ===
+Zánik závazku 
+=== SLIDE 63 ===
+Prodlení dlužníka a věřitele 
+Dlužník, který svůj dluh řádně a včas neplní, je v prodlení. Není však za prodlení odpovědný, nemůže-li plnit v důsledku prodlení věřitele. 
+Po dlužníkovi v prodlení, může věřitel vymáhat splnění dluhu, anebo může od smlouvy odstoupit za podmínek ujednaných ve smlouvě nebo stanovených zákonem. 
+
+=== SLIDE 64 ===
+Prodlení dlužníka a věřitele 
+Po dlužníkovi, který je v prodlení se splácením peněžitého dluhu, může věřitel, který řádně splnil své smluvní a zákonné povinnosti, požadovat zaplacení úroku z prodlení
+Věřitel je v prodlení, nepřijal-li řádně nabídnuté plnění nebo neposkytl-li dlužníku součinnost potřebnou ke splnění dluhu. 
+
+=== SLIDE 65 ===
+Další způsob zániku závazku
+Přehled:
+Dohoda
+Započtení (kompenzace)
+Zaplacení odstupného 
+Splynutí 
+Prominutí dluhu 
+Výpověď
+Odstoupení od smlouvy 
+Následná nemožnost plnění
+Smrt dlužníka nebo věřitele
+
+
+=== SLIDE 66 ===
+Zajištění a  utvrzení dluhu 
+=== SLIDE 67 ===
+Zajištění dluhu
+=== SLIDE 68 ===
+Zajištění dluhu 
+Zajišťující převod práva:
+Smlouvou o zajišťovacím převodu práva zajišťuje dlužník nebo třetí osoba dluh tím, že věřiteli dočasně převede své právo.
+Týká-li se zajišťovací převod práva věci zapsané ve veřejném seznamu, vzniká zajištění zápisem do tohoto seznamu; do veřejného seznamu se zapíše i dočasná povaha zajišťovacího převodu práva.
+
+Dohoda o srážkách ze mzdy nebo jiných příjmů:
+Dluh lze zajistit dohodou věřitele a dlužníka o srážkách ze mzdy nebo platu, z odměny ze smlouvy o výkonu závislé práce zakládající mezi zaměstnancem a zaměstnavatelem obdobný závazek nebo z náhrady mzdy nebo platu ve výši nepřesahující jejich polovinu. Proti zaměstnavateli nabývá věřitel práva na výplatu srážek okamžikem, kdy byla zaměstnavateli dohoda předložena. 
+
+=== SLIDE 69 ===
+Utvrzení dluhu 
+Smluvní pokuta:  nemusí mít  povinně písemnou formu,  § 2051 zakotvuje právo dlužníka požadovat u soudu snížení nepřiměřeně vysoké smluvní pokuty. Ujednají-li strany pro případ porušení smluvené povinnosti smluvní pokutu v určité výši nebo způsob, jak se výše smluvní pokuty určí, může věřitel požadovat smluvní pokutu bez zřetele k tomu, zda mu porušením smluvené povinnosti vznikla škoda. Smluvní pokuta může být ujednána i v naturálním plnění. 
+Zaplacení smluvní pokuty nezbavuje dlužníka povinnosti splnit dluh ze smlouvy, ale může být sjednána tzv. nepravá smluvní pokuta, kdy zaplacením smluvní pokuty smluvní povinnost zanikne. 
+Je-li ujednána smluvní pokuta, nemá věřitel právo na náhradu škody vzniklé z porušení povinnosti, ke kterému se smluvní pokuta vztahuje. 
+
+=== SLIDE 70 ===
+Utvrzení dluhu 
+=== SLIDE 71 ===
+

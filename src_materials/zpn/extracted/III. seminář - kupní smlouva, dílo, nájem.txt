@@ -1,0 +1,365 @@
+=== SLIDE 1 ===
+Občanské právozákon č. 89/2012 Sb., Nový Občanský zákoníkRelativní majetková práva – smluvní dokumenty
+JUDr. Ing. Eva Daniela Cvik
+email: Cvik@pef.czu.cz
+=== SLIDE 2 ===
+Vlastnické právo
+Vlastník má právo se svým vlastnictvím v mezích právního řádu libovolně nakládat a jiné osoby z toho vyloučit. 
+Vlastníku se zakazuje nad míru přiměřenou poměrům závažně rušit práva jiných osob, jakož i vykonávat takové činy, jejichž hlavním účelem je jiné osoby obtěžovat nebo poškodit. 
+Omezení vlastnického práva: 
+Vlastník se zdrží všeho, co působí, že odpad, voda, kouř, prach, plyn, pach, světlo, stín, hluk, otřesy a jiné podobné účinky (imise) vnikají na pozemek jiného vlastníka (souseda) v míře nepřiměřené místním poměrům a podstatně omezují obvyklé užívání pozemku; to platí i o vnikání zvířat
+Zakazuje se přímo přivádět imise na pozemek jiného vlastníka bez ohledu na míru takových vlivů a na stupeň obtěžování souseda, ledaže se to opírá o zvláštní právní důvod.
+Jsou-li imise důsledkem provozu závodu nebo podobného zařízení, který byl úředně schválen, má soused právo jen na náhradu újmy v penězích, i když byla újma způsobena okolnostmi, k nimž se při úředním projednávání nepřihlédlo. 
+=== SLIDE 3 ===
+Vlastnické právo
+Cizí věci na pozemku:
+Ocitne-li se na pozemku cizí movitá věc, vydá ji vlastník pozemku bez zbytečného odkladu jejímu vlastníku, popřípadě tomu, kdo ji měl u sebe; jinak mu umožní vstoupit na svůj pozemek a věc si vyhledat a odnést.
+Stejně tak může vlastník stíhat na cizím pozemku chované zvíře nebo roj včel; vletí-li však roj včel do cizího obsazeného úlu, nabývá vlastník úlu vlastnické právo k roji, aniž je povinen k náhradě.
+Způsobí-li věc, zvíře, roj včel nebo výkon práva na pozemku škodu, má vlastník pozemku právo na její náhradu.
+Ochrana vlastnického práva: 
+Upravuje § 1040 – 1044
+Prostřednictvím 4 žalob:
+  žaloba vindikační - § 1040 – 1041
+  žaloba zápurčí, vindikační § 1042
+   publiciánská žaloba § 1044
+  § 80 o. s. ř. – slouží také k ochraně vlastnického práva
+
+=== SLIDE 4 ===
+Katastr nemovitostí
+Vymezení
+veřejný seznam sloužící k evidenci nemovitých věcí na území ČR a právních vztahů k nim
+evidované údaje spočívají v soupisu, popisu, geometrickém zobrazení a označení polohy nemovitostí podle katastrálních území včetně právních vztahů
+veden správními orgány
+Struktura orgánů vedoucích katastr
+Český úřad zeměměřický a katastrální (ústřední správní úřad zeměměřictví a katastru nemovitostí ČR se sídlem v Praze)
+zeměměřický úřad (jiný správní úřad zeměměřictví s celostátní působností)
+zeměměřické a katastrální inspektoráty a katastrální úřady (jiné správní úřady pro zeměměřictví a katastr nemovitostí ČR)
+=== SLIDE 5 ===
+PŘEHLED PRÁVNÍ ÚPRAVY
+zákon č. 265/1992 Sb., o zápisech vlastnických a jiných věcných práv k nemovitostem
+zákon č. 344/1992 Sb., o katastru nemovitostí České republiky
+zákon č. 359/1992 Sb., o zeměměřických a katastrálních orgánech
+vyhláška ČÚZK č. 26/2007 Sb., kterou se provádí zákon č. 265/1992 Sb. a zákon č. 344/1992 Sb.
+vyhláška ČÚZK č. 162/2001 Sb., o poskytování údajů z katastru nemovitostí ČR
+nařízení vlády č. 111/2001 Sb., o porovnávání a přejímání údajů katastru nemovitostí ČR a evidence obyvatel
+nový katastrální zákon (v přípravě) – nahrazení zákona č. 265/1992 Sb. a č. 344/1992 Sb. – zákon č. 256/2013 Sb., o katastru nemovitostí 
+Zákon č. 304/2013 – zápis o veřejných rejstřících 
+=== SLIDE 6 ===
+Zásady katastru nemovitostí
+Zásada materiální publicity – Zásada dobré víry, kdo chce mít k právu věcné právo, musí být zapsáno v katastru nemovitostí, kdo je zapsán v katastru nemovitostí, ten je vlastník (možnost obrany – poznámka spornosti viz dále), přechodné období – platí až od 1.1.2015, do 31.12.2013 žaloba na určení vlastnického práva bez poznámky spornosti
+Zásada intabulační – vkladová nutnost, zápisové řízení se rozšiřuje, vklad 1.000,- Kč, omezení možnosti záznamů
+Zásada priority – dodržení pořadí zápisů, kdo nechá dříve zapsat ten má lepší pořadí na LV, právní účinky ke dni podání návrhu, nově se poznamenává hodina a minuta, co je zapsáno má silnější pořadí
+Zásada dispoziční – zásada návrhová, není možné zahájit řízení bez návrhu, nově možnost podávat návrh datovými schránkami
+Zásada legality– zákonnosti, katastr nemá právo prošetřovat nad rámec katastrálního zákona 
+Zásada formální publicity – co je veřejně přístupné, nově informace o cenách za nemovitosti, pouze tržní ceny, dotaz ke konkrétnímu řízení
+
+=== SLIDE 7 ===
+Zásady katastru nemovitostí
+Zásada superficies solo credit – povrch ustupuje půdě
+Povrch ustupuje půdě
+Upravuje § 506, zákona č. 89/2012 Sb., nový občanský zákoník
+„součástí pozemku je prostor nad povrchem i pod povrchem, stavby zřízené na pozemku a jiné zařízení s výjimkou staveb dočasných, včetně toho, co je zapuštěno v pozemku nebo upevněno ve zdech.“
+Tato zásada se neuplatňuje u dočasných staveb – neplatí tedy, že stavba je součástí pozemku, o dočasné stavby se nejedná:
+Pouťové atrakce, vila vyvolených,
+Inženýrské sítě,
+Stroj není součástí pozemku – montážní linka – nutnost sjednat výhradu smlouvou – podléhá vložení do katastru nemovitostí, 
+Budova definována jako obyvatelná, uzavřena obvodovými zdmi, a má střechu – katastr nemovitostí zapíše
+Nezapisuje – podzemní stavby, dočasné (vinné sklepy, rodinný dům přes který je val ze země – jedná se o podzemí stavbu)
+
+
+=== SLIDE 8 ===
+Relativní majetková práva
+Základní koncepční změnou v novém občanském zákoníku oproti stávajícímu právnímu stavu je sjednocení úpravy jednotlivých smluvních typů do jediného právního předpisu. 
+Tato duplicita se týkala nejenom úpravy jednotlivých smluvních typů (např. kupní smlouva, smlouva o dílo a další), ale také ustanovení obecného závazkového práva (příkladem může být zdvojená úprava prodlení, odpovědnosti, promlčení atd.).
+Hlavní zásady dle Nového Občanského zákoníku: 
+Ustanovení o smluvním právu jsou zásadně dispozitivní - Zákonné znění jim slouží pouze jako inspirační zdroj
+Méně přísná pravidla pro vznik, změnu i zánik závazku - Smluvní partneři se např. vůbec nemusí striktně držet modelu vzniku smluvního závazku postupem 
+Zásada bezformálnosti - každý má právo si pro právní jednání zvolit libovolnou formu, pokud jej v tomto směru neomezuje zákon
+Právní jednání je třeba v pochybnostech pokládat spíše za platné než neplatné
+
+
+
+
+
+=== SLIDE 9 ===
+Relativní majetková práva
+Tato zásada, která je výslovně zakotvena v § 574, se prakticky promítá např. v následujících ustanoveních:
+Je-li důvod neplatnosti jen v nezákonném určení množstevního, časového, územního nebo jiného rozsahu, může soud rozsah změnit tak, aby odpovídal spravedlivému uspořádání práv a povinností stran, a tím důvod neplatnosti odstranit (§ 577). 
+Ust. § 582 nově umožňuje zhojení neplatnosti právního jednání. 
+Pokud již došlo k plnění na základě smlouvy, která není uzavřena ve formě ujednané stranami, nemůže být jednou z těchto stran namítáno, že je smlouva kvůli tomu neplatná. 
+Aby smlouva vyvolávala účinky zamýšlené stranami, musí být dostatečně určitá a srozumitelná. Ustanovení § 553 však stanoví, že byl-li projev vůle (zejména nabídka či její přijetí) mezi stranami dodatečně vyjasněn, nepřihlíží se k jeho vadě a hledí se, jako by tu bylo právní jednání od počátku.
+
+=== SLIDE 10 ===
+Relativní majetková práva
+Ochrana slabší smluvní strany - Kdo slabší stranou je, bude nutné odvodit z okolností konkrétního smluvního vztahu. Vodítkem je např. možnost strany možnost ovlivnit obsah závazku, nebo její osobní znalosti a zkušenosti. Především je třeba vyzdvihnout ochranu nájemce bytu či domu, zákazníka ze smlouvy o zájezdu či zaměstnance. 
+Ochrana spotřebitele - V § 1810 a násl. jsou přehledně a srozumitelně regulována pravidla postupu uzavírání smluv mezi podnikatelem (§ 420 a 421) a spotřebitelem (§ 419), jejich náležitosti a obsah. 
+ 	-  Podnikateli se zejména ukládají široké informační povinnosti (§ 1811),  
+         na které musí podnikatel pamatovat v dostatečném předstihu před 
+         uzavřením smlouvy.
+	-  V zákoně nechybí ani příkladný výčet zakázaných ujednání, která 
+         zakládají významnou nerovnováhu práv či povinností stran v neprospěch 
+         spotřebitele. 
+	- Ochranu spotřebitele sledují i ustanovení § 1838 a 1851 obsahující   
+        pravidla o neobjednaném plnění. (nově není povinnost zboží hradit,    
+        vracet na své náklady apod.)
+
+
+=== SLIDE 11 ===
+Relativní majetková práva
+Kupní smlouva:
+Kupní smlouvou se prodávající zavazuje, že kupujícímu odevzdá věc, která je předmětem koupě, a umožní mu nabýt vlastnické právo k ní, a kupující se zavazuje, že věc převezme a zaplatí prodávajícímu kupní cenu.
+Neplyne-li ze smlouvy nebo zvyklostí něco jiného, jsou prodávající a kupující zavázáni splnit své povinnosti současně.
+kupní cena je ujednána dostatečně určitě, je-li ujednán alespoň způsob jejího určení.
+Na kupujícího přechází nebezpečí škody na věci současně s nabytím vlastnického práva. Nabude-li kupující vlastnické právo před odevzdáním věci, má prodávající až do odevzdání věci práva a povinnosti schovatele.
+Prodávající upozorní kupujícího při ujednávání kupní smlouvy na vady věci, o nichž ví.
+=== SLIDE 12 ===
+Relativní majetková práva
+Koupě movité věci
+Jako koupě movité věci se posoudí každá koupě, jejímž předmětem není nemovitá věc, jakož i koupě součásti nemovité věci, má-li kupující podle smlouvy nabýt součást po oddělení jako věc movitou
+Za kupní smlouvu se vždy považuje smlouva o dodání spotřebního zboží, které je nutné sestavit nebo vytvořit.
+Mají-li strany vůli uzavřít kupní smlouvu bez určení kupní ceny, platí za ujednanou kupní cena, za niž se týž nebo srovnatelný předmět v době uzavření smlouvy a za obdobných smluvních podmínek obvykle prodává.
+Prodávající kupujícímu odevzdá věc, jakož i doklady, které se k věci vztahují, a umožní kupujícímu nabýt vlastnického práva k věci v souladu se smlouvou.
+Prodávající splní povinnost odevzdat věc kupujícímu, umožní-li mu nakládat s věcí v místě plnění a včas mu to oznámí.
+=== SLIDE 13 ===
+Relativní majetková práva
+Prodávající odevzdá kupujícímu předmět koupě v ujednaném množství, jakosti a provedení. 
+Nejsou-li jakost a provedení ujednány, plní prodávající v jakosti a provedení vhodných pro účel patrný ze smlouvy; jinak pro účel obvyklý.
+Při určení jakosti nebo provedení podle smluveného vzorku nebo předlohy musí věc jakostí nebo provedením odpovídat vzorku nebo předloze. 
+Není-li ujednáno, jak má být věc zabalena, zabalí prodávající věc podle zvyklostí; nejsou-li, pak způsobem potřebným pro uchování věci a její ochranu. 
+Vyplývá-li ze smlouvy nebo z povahy předmětu koupě, že množství je určeno jen přibližně, určí přesné množství prodávající. Má se za to, že odchylka nesmí přesáhnout pět procent množství určeného ve smlouvě.
+=== SLIDE 14 ===
+Relativní majetková práva
+Koupě nemovité věci
+Při prodeji a koupi nemovité věci vyžaduje kupní smlouva písemnou formu
+Pro ujednání o výhradě vlastnického práva, o právu zpětné koupě, o zákazu zcizení nebo zatížení, o výhradě předkupního práva nebo lepšího kupce, jakož i pro ujednání o koupi na zkoušku však postačí i jiná forma, nemá-li být takovým ujednáním k nemovité věci zřízeno věcné právo. 
+Kupující má právo na přiměřenou slevu z kupní ceny, nemá-li pozemek výměru určenou v kupní smlouvě. 
+Nemá-li však pozemek výměru zapsanou ve veřejném seznamu, má kupující právo na přiměřenou slevu z kupní ceny, jen bylo-li to ujednáno.
+Neoznámil-li kupující prodávajícímu skrytou vadu stavby spojené se zemí pevným základem do pěti let od nabytí, soud kupujícímu právo z vadného plnění nepřizná, namítne-li prodávající, že vada nebyla včas oznámena
+=== SLIDE 15 ===
+Relativní majetková práva
+Vedlejší ujednání při kupní smlouvě
+Strany si mohou v kupní smlouvě sjednat tato vedlejší ujednání:
+Výhradu vlastnického práva (§ 2132 – 2134 NOZ)
+Výhradu zpětné koupě (§ 2135 – 2138 NOZ)
+Výhradu zpětného prodeje (§ 2139 NOZ)
+Předkupní právo (§ 2140 – 2149 NOZ)
+Koupi na zkoušku (§ 2150 – 2151 NOZ)
+Výhradu lepšího kupce (§ 2152 – 2153 NOZ)
+Cenovou doložku (§ 2154 – 2156 NOZ)
+Jiná vedlejší ujednání (§ 2157 NOZ)
+
+=== SLIDE 16 ===
+Relativní majetková práva
+Výhrada vlastnického práva
+Vyhradí-li si prodávající k věci vlastnické právo, má se za to, že se kupující stane vlastníkem teprve úplným zaplacením kupní ceny. 
+Výhrada vlastnického práva působí vůči věřitelům kupujícího jen tehdy, bylo-li ujednání pořízeno ve formě veřejné listiny, popřípadě bylo-li pořízeno v písemné formě a podpisy stran úředně ověřeny, leč tehdy až ode dne úředního ověření podpisů. 
+Je-li však výhrada vlastnického práva ujednána ohledně věci zapsané do veřejného seznamu, působí vůči třetím osobám, jen byla-li do tohoto seznamu zapsána.
+Výhrada zpětné koupě
+Z ujednání o výhradě zpětné koupě vzniká kupujícímu povinnost převést na požádání věc prodávajícímu za úplatu zpět.
+Kupující vrátí prodávajícímu věc v nezhoršeném stavu a prodávající vrátí kupujícímu kupní cenu; tím jsou vyrovnány i užitky z peněz a plody z věci snad vytěžené.
+
+
+=== SLIDE 17 ===
+Relativní majetková práva
+Koupě na zkoušku
+Kdo koupí věc na zkoušku, kupuje s podmínkou, že věc ve zkušební lhůtě schválí.
+Neujednají-li strany zkušební lhůtu, činí u movitých věcí tři dny a u nemovitých věcí jeden rok od uzavření smlouvy. 
+Výhrada lepšího kupce
+Uzavřením kupní smlouvy s výhradou lepšího kupce nabývá prodávající právo dát přednost lepšímu kupci, přihlásí-li se v určené lhůtě. 
+Tato lhůta činí u movitých věcí tři dny a u nemovitých věcí jeden rok od uzavření smlouvy.
+obdobně jako u koupě na zkoušku se posoudí, ve kterých případech má výhrada lepšího kupce povahu podmínky odkládací a v kterých povahu podmínky rozvazovací.
+=== SLIDE 18 ===
+Relativní majetková práva
+Předkupní právo
+Ujedná-li si předkupník k věci předkupní právo, vzniká dlužníku povinnost nabídnout věc předkupníkovi ke koupi, pokud by ji chtěl prodat třetí osobě (koupěchtivému). 
+výhrada předkupního práva zavazuje dědice a předkupní právo lze zcizit, je-li to výslovně ujednáno.
+Věděl-li koupěchtivý o předkupním právu nebo musel-li o něm vědět, platí, že smlouva je uzavřena s rozvazovací podmínkou uplatnění předkupního práva.
+nabídku učiní prodávající předkupníkovi ohlášením všech podmínek.
+Přijme-li předkupník nabídku, uskuteční se koupě mezi prodávajícím a předkupníkem za týchž podmínek, jaké prodávající dohodl s koupěchtivým.
+Předkupník zaplatí kupní cenu v ujednané lhůtě, jinak do osmi dnů po nabídce u věci movité a u nemovité věci do tří měsíců po nabídce. Neučiní-li to, předkupní právo zanikne.(
+=== SLIDE 19 ===
+Kupní smlouva
+=== SLIDE 20 ===
+Kupní smlouva
+=== SLIDE 21 ===
+=== SLIDE 22 ===
+DUPLICITNÍ ZÁPIS VLASTNICTVÍ
+=== SLIDE 23 ===
+NEZNÁMÝ VLASTNÍK
+=== SLIDE 24 ===
+KATASTRÁLNÍ MAPA ANALOGOVÁ
+=== SLIDE 25 ===
+KATASTRÁLNÍ MAPA DIGITÁLNÍ
+=== SLIDE 26 ===
+POZEMKOVÁ KNIHA
+=== SLIDE 27 ===
+POZEMKOVÁ KNIHA
+=== SLIDE 28 ===
+Nájem
+Nájemní právo:
+Předmětem nájmu mohou být stavby, budovy, pozemky, byt a nebytové prostory.
+Dříve bylo nutné rozlišovat mezi předmětem nájmu a podle určení aplikovat příslušnou právní normu.
+Stavby, pozemky, budovy – dříve zákon č.40/1964 Sb., občanský zákoník – dnes zákon č. 89/2012 Sb., nový občanský zákoník, ustanovení § 2201 - § 2234
+Byty – zvlášť chráněný nájem – dříve zákon č. 40/1941 Sb., občanský zákoník – dnes zákon č. 89/2012 Sb., nový občanský zákoník, ustanovení § 2235 - §2301
+Nebytové prostory – dříve zákon č. 116/1990 Sb., zákon o nájmu a podnájmu nebytových prostor, dnes ustanovení o nájmu prostoru sloužícího k podnikání § 2302 - 2315
+
+=== SLIDE 29 ===
+Nájem
+Novinky nové právní úpravy:
+Pronajmout lze i věc, která v budoucnu teprve vznikne, je-li ji možné dostatečně přesně určit při uzavření nájemní smlouvy.
+Nájem se bude od 1. ledna 2014 řídit ustanoveními NOZ, i když ke vzniku nájmu dojde před tímto dnem. 
+Vznik nájmu, jakož i práva a povinnosti vzniklé před 1. lednem 2014 se však budou posuzovat podle dosavadních právních předpisů.
+NOZ přináší novinku v uzavírání nájemní smlouvy k bytu. Pokud nájemce užívá byt po dobu tří let v dobré víře, že nájem je po právu, považuje se nájemní smlouva za řádně uzavřenou (§ 2238 NOZ).
+pokud nájemce bude v bytě sám trvale bydlet, není třeba pro podnájem souhlas pronajímatele (§ 2274 NOZ).
+NOZ ruší bytové náhrady
+NOZ nevyžaduje nutnost souhlasu pronajímatele s domácím zvířetem nájemce.
+
+=== SLIDE 30 ===
+Nájem staveb, budov a pozemků
+Nájemní smlouvou se pronajímatel zavazuje přenechat nájemci věc k dočasnému užívání a nájemce se zavazuje platit za to pronajímateli nájemné.
+Pronajmout lze věc nemovitou i nezuživatelnou věc movitou. Pronajmout lze i část nemovité věci; co se dále stanoví o věci, použije se i pro nájem její části.
+Pronajmout lze i věc, která v budoucnu teprve vznikne, je-li ji možné dostatečně přesně určit při uzavření nájemní smlouvy.
+Je-li pronajatá věc zapsána do veřejného seznamu, zapíše se do veřejného seznamu i nájemní právo, pokud to navrhne vlastník věci nebo s jeho souhlasem nájemce.
+Neujednají-li strany dobu trvání nebo den skončení nájmu, platí, že se jedná o nájem na dobu neurčitou.
+Ujednají-li strany nájem na dobu určitou delší než padesát let, má se za to, že byl nájem ujednán na dobu neurčitou s tím, že v prvních padesáti letech lze nájem vypovědět jen z ujednaných výpovědních důvodů a v ujednané výpovědní době.
+
+=== SLIDE 31 ===
+Nájem staveb, budov a pozemků
+Nájemní smlouva pronajímatele zavazujea) přenechat věc nájemci tak, aby ji mohl užívat k ujednanému nebo   
+           obvyklému účelu,b) udržovat věc v takovém stavu, aby mohla sloužit tomu užívání, pro 
+          které byla pronajata,c) zajistit nájemci nerušené užívání věci po dobu nájmu.
+Pronajímatel odevzdá nájemci věc v ujednané době, jinak v den následující poté, co jej o to nájemce požádá.
+Pronajímatel odevzdá nájemci věc se vším, co je třeba k řádnému užívání     věci.
+Po dobu nájmu provádí běžnou údržbu věci nájemce, ledaže se k ní zavázal pronajímatel. 
+Ostatní údržbu věci a její nezbytné opravy provádí pronajímatel, ledaže se k některému způsobu nebo druhu údržby a k opravě některých vad zavázal nájemce.
+Pronajímatel neodpovídá za vadu, o které v době uzavření nájemní smlouvy strany věděly a která nebrání užívání věci.
+=== SLIDE 32 ===
+Nájem staveb, budov a pozemků
+Nájemce je i bez zvláštního ujednání povinen užívat věc jako řádný hospodář k ujednanému účelu, nebo není-li ujednán, k účelu obvyklému, a platit nájemné.
+Nájemce oznámí pronajímateli, že věc má vadu, kterou má odstranit pronajímatel, hned poté, kdy ji zjistí nebo kdy ji při pečlivém užívání věci zjistit mohl.
+Souhlasí-li pronajímatel, může nájemce zřídit třetí osobě k věci užívací právo; byla-li nájemní smlouva uzavřena v písemné formě, vyžaduje i souhlas pronajímatele písemnou formu.
+ Zřídí-li nájemce třetí osobě užívací právo k věci bez souhlasu pronajímatele, považuje se to za hrubé porušení nájemcových povinností způsobující pronajímateli vážnější újmu.
+Užívací právo lze třetí osobě zřídit jen na dobu nájmu věci; k odchylnému ujednání se nepřihlíží.
+Umožní-li nájemce užívat věc třetí osobě, odpovídá pronajímateli za jednání této osoby stejně, jako kdyby věc užíval sám.
+=== SLIDE 33 ===
+Nájem staveb, budov a pozemků
+Skončení nájmu:
+Změní-li se vlastník věci, přejdou práva a povinnosti z nájmu na nového vlastníka.
+Převedl-li pronajímatel vlastnické právo k věci, nejsou pro nového vlastníka závazná ujednání o pronajímatelových povinnostech, které zákon nestanoví. 
+Strana nemá právo vypovědět nájem jen proto, že se změnil vlastník věci.
+Při opačném ujednání má pronajímatel právo nájem vypovědět do tří měsíců poté, co se dozvěděl nebo musel dozvědět, kdo je nájemcem, a nájemce do tří měsíců poté, co se o změně vlastníka dozvěděl.
+Jedná-li se o nemovitou věc, je výpovědní doba tříměsíční. Jedná-li se o movitou věc, je výpovědní doba jednoměsíční
+Strana, která nájem vypoví, poskytne druhé straně přiměřené odstupné.
+=== SLIDE 34 ===
+Nájem staveb, budov a pozemků
+Skončení nájmu
+Při skončení nájmu odevzdá nájemce pronajímateli věc v místě, kde ji převzal, a v takovém stavu, v jakém byla v době, kdy ji převzal, s přihlédnutím k obvyklému opotřebení při řádném užívání, ledaže věc zanikla nebo se znehodnotila; odevzdáním se rozumí i předání vyklizené nemovité věci. 
+Při odevzdání věci si nájemce oddělí a vezme vše, co do věci vložil nebo na ni vnesl vlastním nákladem, je-li to možné a nezhorší-li se tím podstata věci nebo neztíží-li se tím nepřiměřeně její užívání.
+Zanikne-li věc během doby nájmu, nájem skončí.
+Zanikne-li věc během doby nájmu zčásti, má nájemce právo buď na přiměřenou slevu z nájemného, anebo může nájem vypovědět bez výpovědní doby.
+Stane-li se věc nepoužitelnou k ujednanému účelu, nebo není-li ujednán, k účelu obvyklému, a to z důvodů, které nejsou na straně nájemce, má nájemce právo nájem vypovědět bez výpovědní doby.
+=== SLIDE 35 ===
+Nájem staveb, budov a pozemků
+Užívá-li nájemce věc i po uplynutí nájemní doby a pronajímatel ho do jednoho měsíce nevyzve, aby mu věc odevzdal, platí, že nájemní smlouva byla znovu uzavřena za podmínek ujednaných původně.
+Byla-li původně nájemní doba delší než jeden rok, platí, že nyní byla uzavřena na jeden rok; byla-li kratší než jeden rok, platí, že nyní byla uzavřena na tuto dobu.
+Nájem ujednaný na dobu neurčitou skončí výpovědí jednou ze stran. Jedná-li se o věc movitou, je výpovědní doba jednoměsíční, jedná-li se o věc nemovitou, je tříměsíční.
+Výpověď nemusí být odůvodněna; to neplatí, má-li strana právo vypovědět nájem bez výpovědní doby.
+V době tří měsíců před skončením nájmu, je-li stranám den skončení nájmu znám, umožní nájemce věci, která má být znovu pronajata, zájemci o nájem přístup k věci v nezbytném rozsahu za účelem prohlídky v přítomnosti nájemce a pronajímatele; pronajímatel oznámí nájemci návštěvu v přiměřené době předem.
+=== SLIDE 36 ===
+Nájem bytu
+Nájem bytu:
+Bytem se rozumí místnost nebo soubor místností, které jsou částí domu, tvoří obytný prostor a jsou určeny a užívány k účelu bydlení. 
+Ujednají-li si pronajímatel s nájemcem, že k obývání bude pronajat jiný než obytný prostor, jsou strany zavázány stejně, jako by byl pronajat obytný prostor
+Skutečnost, že pronajatý prostor není určen k bydlení, nemůže být na újmu nájemci.
+Smlouva vyžaduje písemnou formu; pronajímatel však nemá právo namítnout vůči nájemci neplatnost smlouvy pro nedostatek formy.
+Užívá-li nájemce byt po dobu tří let v dobré víře, že nájem je po právu, považuje se nájemní smlouva za řádně uzavřenou.
+Nepřihlíží se k ujednání ukládajícímu nájemci povinnost zaplatit pronajímateli smluvní pokutu, ani k ujednání ukládajícímu nájemci povinnost, která je vzhledem k okolnostem zjevně nepřiměřená.
+Nově je nutné v nájemní smlouvě stanovit okamžik zpřístupnění bytu
+=== SLIDE 37 ===
+Nájem bytu
+Nájemné:
+Strany ujednají nájemné pevnou částkou. Má se za to, že se nájemné sjednává za jeden měsíc.
+Neujednají-li strany výši nájemného, vznikne pronajímateli právo na nájemné v takové výši, jaká je v den uzavření smlouvy v místě obvyklá pro nový nájem obdobného bytu za obdobných smluvních podmínek.
+Pronajímatel zajistí po dobu nájmu nezbytné služby. 
+Má se za to, že nezbytnými službami jsou dodávky vody, odvoz a odvádění odpadních vod včetně čištění jímek, dodávky tepla, odvoz komunálního odpadu, osvětlení a úklid společných částí domu, zajištění příjmu rozhlasového a televizního vysílání, provoz a čištění komínů, případně provoz výtahu.
+Nájemce platí nájemné předem na každý měsíc nebo na jiné ujednané platební období, nejpozději do pátého dne příslušného platebního období, nebyl-li ujednán den pozdější. 
+=== SLIDE 38 ===
+Nájem bytu
+Provedení úprav:
+Nájemce je povinen strpět úpravu bytu nebo domu, popřípadě jeho přestavbu nebo jinou změnu, jen nesníží-li hodnotu bydlení a lze-li ji provést bez většího nepohodlí pro nájemce, nebo provádí-li ji pronajímatel na příkaz orgánu veřejné moci, anebo hrozí-li přímo zvlášť závažná újma. 
+V ostatních případech lze změnu provést jen se souhlasem nájemce.
+Nevyžaduje-li se nájemcův souhlas k provedení úpravy, přestavby nebo jiné změny bytu nebo domu vyžadující vyklizení bytu, má pronajímatel právo započít s prováděním prací až poté, co se vůči nájemci zaváže poskytnout přiměřenou náhradu účelných nákladů, které nájemci vzniknou v souvislosti s vyklizením bytu, a zaplatí nájemci na tyto náklady přiměřenou zálohu.
+Nevylučují-li to okolnosti případu, sdělí pronajímatel nájemci nejméně tři měsíce před zahájením prací alespoň povahu těchto prací, předpokládaný den jejich zahájení, odhad jejich trvání, nezbytnou dobu, po kterou musí být byt vyklizen a poučení o následcích odmítnutí vyklizení
+=== SLIDE 39 ===
+Nájem bytu
+Přechod nájmu bytu:
+Zemře-li nájemce a nejde-li o společný nájem bytu, přejde nájem na člena nájemcovy domácnosti, který v bytě žil ke dni smrti nájemce a nemá vlastní byt.
+ Je-li touto osobou někdo jiný než nájemcův manžel, partner, rodič, sourozenec, zeť, snacha, dítě nebo vnuk, přejde na ni nájem, jen pokud pronajímatel souhlasil s přechodem nájmu na tuto osobu.
+Nájem bytu po jeho přechodu skončí nejpozději uplynutím dvou let ode dne, kdy nájem přešel.
+To neplatí v případě, že osoba, na kterou nájem přešel, dosáhla ke dni přechodu nájmu věku sedmdesáti let. 
+Stejně tak to neplatí v případě, že osoba, na kterou nájem přešel, nedosáhla ke dni přechodu nájmu věku osmnácti let; v tomto případě skončí nájem nejpozději dnem, kdy tato osoba dosáhne věku dvaceti let, pokud se pronajímatel s nájemcem nedohodnou jinak.
+Splňuje-li více členů nájemcovy domácnosti podmínky pro přechod nájmu, přejdou práva a povinnosti z nájmu na všechny společně a nerozdílně
+
+=== SLIDE 40 ===
+Nájem bytu
+Skončení nájmu: 
+Pokračuje-li nájemce v užívání bytu po dobu alespoň tří měsíců po dni, kdy měl nájem bytu skončit, a pronajímatel nevyzve v této době nájemce, aby byt opustil, platí, že je nájem znovu ujednán na tutéž dobu, na jakou byl ujednán dříve, nejvýše ale na dobu dvou let; to neplatí, ujednají-li si strany něco jiného. Výzva vyžaduje písemnou formu
+Výpověď nájmu vyžaduje písemnou formu a musí dojít druhé straně. Výpovědní doba běží od prvního dne kalendářního měsíce následujícího poté, co výpověď došla druhé straně.
+Vypoví-li nájem pronajímatel, poučí nájemce o jeho právu vznést proti výpovědi námitky a navrhnout přezkoumání oprávněnosti výpovědi soudem, jinak je výpověď neplatná.
+Nájemce může vypovědět nájem na dobu určitou, změní-li se okolnosti, z nichž strany při vzniku závazku ze smlouvy o nájmu zřejmě vycházely, do té míry, že po nájemci nelze rozumně požadovat, aby v nájmu pokračoval.
+=== SLIDE 41 ===
+Nájem bytu
+Důvody výpovědi z nájmu bytu:
+Pronajímatel může vypovědět nájem na dobu určitou nebo neurčitou v tříměsíční výpovědní době,
+	a) poruší-li nájemce hrubě svou povinnost vyplývající z nájmu,b) je-li nájemce odsouzen pro úmyslný trestný čin spáchaný na 
+	     pronajímateli nebo členu jeho domácnosti nebo na osobě, která bydlí v 
+          domě, kde je nájemcův byt, nebo proti cizímu majetku, který se v tomto 
+          domě nachází,c) má-li být byt vyklizen, protože je z důvodu veřejného zájmu potřebné s 
+          bytem nebo domem, ve kterém se byt nachází, naložit tak, že byt 
+          nebude možné vůbec užívat, nebod) je-li tu jiný obdobně závažný důvod pro vypovězení nájmu
+Pronajímatel může vypovědět nájem na dobu neurčitou v tříměsíční výpovědní době i v případě, že
+	a) má být byt užíván pronajímatelem, nebo jeho manželem, který hodlá 
+           opustit rodinnou domácnost a byl podán návrh na rozvod manželství, 
+           nebo manželství bylo již rozvedeno,b) potřebuje pronajímatel byt pro svého příbuzného nebo pro příbuzného 
+           svého manžela v přímé linii nebo ve vedlejší linii v druhém stupni.
+=== SLIDE 42 ===
+Nájem bytu
+Poruší-li nájemce svou povinnost zvlášť závažným způsobem, má pronajímatel právo vypovědět nájem bez výpovědní doby a požadovat, aby mu nájemce bez zbytečného odkladu byt odevzdal, nejpozději však do jednoho měsíce od skončení nájmu.
+Nájemce porušuje svou povinnost zvlášť závažným způsobem, zejména nezaplatil-li nájemné a náklady na služby za dobu alespoň tří měsíců, poškozuje-li byt nebo dům závažným nebo nenapravitelným způsobem, způsobuje-li jinak závažné škody nebo obtíže pronajímateli nebo osobám, které v domě bydlí nebo užívá-li neoprávněně byt jiným způsobem nebo k jinému účelu, než bylo ujednáno.
+Neuvede-li pronajímatel ve výpovědi, v čem spatřuje zvlášť závažné porušení nájemcovy povinnosti, nebo nevyzve-li před doručením výpovědi nájemce, aby v přiměřené době odstranil své závadné chování, popřípadě odstranil protiprávní stav, k výpovědi se nepřihlíží.
+Nájemce odevzdá byt pronajímateli v den, kdy nájem končí. Byt je odevzdán, obdrží-li pronajímatel klíče a jinak mu nic nebrání v přístupu do bytu a v jeho užívání. Opustí-li nájemce byt takovým způsobem, že nájem lze bez jakýchkoli pochybností považovat za skončený, má se byt za odevzdaný ihned.
+=== SLIDE 43 ===
+Nájem prostoru sloužícího k podnikání
+Obecně o nájemní smlouvě:
+se vztahuje na nájem prostoru nebo místnosti, je-li účelem nájmu provozování podnikatelské činnosti v tomto prostoru nebo v této místnosti a slouží-li pak prostor nebo místnost alespoň převážně podnikání, bez ohledu na to, zda je účel nájmu v nájemní smlouvě vyjádřen (dále jen "prostor sloužící podnikání"). N
+není-li dále stanoveno jinak, použijí se pro nájem prostoru sloužícího podnikání obecná ustanovení o nájmu.
+Skončení nájmu:
+Nájem na dobu určitou může nájemce vypovědět i před uplynutím ujednané doby,
+ztratí-li způsobilost k činnosti, k jejímuž výkonu je prostor sloužící podnikání určen,
+přestane-li být najatý prostor z objektivních důvodů způsobilý k výkonu činnosti, k němuž byl určen, a pronajímatel nezajistí nájemci odpovídající náhradní prostor, nebo
+porušuje-li pronajímatel hrubě své povinnosti vůči nájemci.
+
+=== SLIDE 44 ===
+Nájem prostoru sloužícího k podnikání
+Jedná-li se o nájem na dobu určitou, má pronajímatel právo nájem vypovědět i před uplynutím ujednané doby
+má-li být nemovitá věc, v níž se prostor sloužící podnikání nachází, odstraněna, anebo přestavována tak, že to brání dalšímu užívání prostoru, a pronajímatel to při uzavření smlouvy nemusel ani nemohl předvídat, nebo
+porušuje-li nájemce hrubě své povinnosti vůči pronajímateli, zejména tím, že přestože jej pronajímatel vyzval k nápravě, chová se nájemce v rozporu s ustanovením § 2305, (opatření vývěsními štíty bez souhlasu pronajímatele), nebo je po dobu delší než jeden měsíc v prodlení s placením nájemného nebo služeb spojených s užíváním prostoru sloužícího podnikání.
+Ve výpovědi musí být uveden její důvod; výpověď, v níž není uveden její důvod, je neplatná
+Výpovědní doba je tříměsíční.
+=== SLIDE 45 ===
+Pacht
+Pachtovní smlouvou se propachtovatel zavazuje přenechat pachtýři věc k dočasnému užívání a požívání a pachtýř se zavazuje platit za to propachtovateli pachtovné nebo poskytnout poměrnou část výnosu z věci
+Přenechá-li strana druhé smluvní straně jednou smlouvou více věcí, z nichž některé slouží k užívání a jiné k požívání, posoudí se smlouva podle povahy hlavní věci.
+Je-li propachtovaná věc zapsána do veřejného seznamu, zapíše se do veřejného seznamu i pachtovní právo, pokud to navrhne vlastník věci nebo s jeho souhlasem pachtýř. To platí i v případě, že je do veřejného seznamu zapsána jednotlivá věc náležející k propachtované hromadné věci.
+Propachtuje-li pachtýř propachtovanou věc jinému, přenechá-li ji jinému k užívání nebo změní-li hospodářské určení věci, anebo způsob jejího užívání nebo požívání bez propachtovatelova předchozího souhlasu, může propachtovatel vypovědět pacht bez výpovědní doby.
+=== SLIDE 46 ===
+Pacht
+Doba pachtu:
+Je-li pacht ujednán alespoň na dobu tří let, může strana vyzvat v době ne kratší než šest měsíců před uplynutím ujednané doby druhou stranu, aby sdělila, zda hodlá v pachtu pokračovat, s tím, že vysloví-li druhá strana do tří měsíců od doručení výzvy svůj souhlas, prodlouží se pacht o dobu, na kterou byl původně ujednán; jinak pacht skončí v původně ujednané době
+Pacht ujednaný na dobu neurčitou lze vypovědět v šestiměsíční výpovědní době tak, aby skončil koncem pachtovního roku. 
+Byla-li smlouva uzavřena v písemné formě, vyžaduje i výpověď písemnou formu.
+Má se za to, že u zemědělského pachtu je pachtovní rok období od 1. října do 30. září následujícího roku, u ostatních pachtů jde o kalendářní rok.
+Nevrátí-li pachtýř propachtovanou věc při skončení pachtu propachtovateli, náleží propachtovateli pachtovné, jako by pacht trval; plody a užitky vytěžené pachtýřem v té době se počítají jako užitky za celý rok.
+=== SLIDE 47 ===
+Děkuji za pozornost …..
+

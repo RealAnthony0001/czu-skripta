@@ -1,0 +1,649 @@
+=== SLIDE 1 ===
+
+Základy právních nauk
+3. seminář
+
+04/11/24
+Vybrané druhy smluv
+
+=== SLIDE 2 ===
+
+Obsah 3. semináře
+Úvod
+Kupní smlouva
+Smlouva o dílo
+Nájemní smlouva
+Darovací smlouva 
+2
+
+=== SLIDE 3 ===
+
+Úvod
+Závazkové právo - jedna z nejdůležitějších částí občanského práva  je úprava smlouvy jako dvoustranného právního jednání. 
+obecná úprava smlouvy obsažena v §§ 1724 až 1788 OZ
+V právní úpravě smluvního práva se uplatňuje zásada smluvní volnosti při dodržení  staré římské právní zásady pacta sund servanda, (smlouvy mají být dodržovány) 
+
+3
+
+=== SLIDE 4 ===
+
+Úvod
+OZ vymezuje případy absolutní a relativní neplatnosti:
+
+Relativní neplatnost: Např. § 1726 OZ předpokládá, že „smlouva byla uzavřena, ačkoli mezi stranami nebyly ujednány všechny náležitosti, lze-li s přihlédnutím k následnému chování stran předpokládat, že by smlouva byla uzavřena i bez takovéhoto ujednání.“
+Absolutní neplatnost: např. nedodržení formy (písemné), nedostatek svéprávnosti
+
+4
+
+=== SLIDE 5 ===
+
+Úvod
+V rámci kontraktačního procesu OZ upravuje  tzv. předsmluvní odpovědnost. Dospějí-li strany při jednání tak daleko, že uzavření smlouvy se jeví jako velice pravděpodobné a jedna ze stran i přes důvodné očekávání druhé strany zmaří uzavření smlouvy bez spravedlivého důvodu, jedná tato strana nepoctivě a odpovídá druhé straně za vzniklou škodu, resp. do výše ztráty v obdobných případech. 
+
+předsmluvní odpovědnost za vyzrazení důvěrných informací poskytnutých jednou ze smluvních stran. 
+
+povinnost poskytnout druhé straně všechny skutkové a právní okolnosti, ze kterých druhá strana může usuzovat na zřejmý zájem uzavřít smlouvu. Tímto je chráněna dobrá víra druhé strany, že úmysl uzavřít smlouvu je skutečně vážný.
+
+5
+
+=== SLIDE 6 ===
+
+Úvod
+OZ rovněž pamatuje na změnu okolností dle § 1764 a násl. 
+V případě podstatné změny, která je charakterizována tím, že založí hrubý nepoměr v právech a povinnostech mezi smluvními stranami, neúměrně jedné ze stran zvýší náklady plnění nebo naopak neúměrně sníží hodnotu předmětu plnění, má dotčená strana právo domáhat se obnovení jednání o smlouvě, prokáže-li, že takovou změnu okolností, která nastala až po uzavření smlouvy, nebylo možno předpokládat ani ovlivnit. 
+Takovéhoto případu bude však možné se vyvarovat doložkou o převzetí nebezpečí změny okolností. 
+
+6
+
+=== SLIDE 7 ===
+
+Kupní smlouva
+Na podnikatele i nepodnikatele vztahuje jedna právní úprava kupní smlouvy, která je  obsažená v ust. § 2079 – 2183 OZ:
+
+ Rozsah úpravy : 
+Obecná ustanovení o koupi 
+Koupě movité věci 
+Koupě nemovité věci 
+Vedlejší ujedná v kupní smlouvě 
+Zvláštní ustanovení o prodeji zboží v obchodě
+Zvláštní ustanovení o koupi závodu
+7
+
+=== SLIDE 8 ===
+
+Kupní smlouva
+Subjekty – kupující a prodávající 
+
+Kupní smlouvou se:
+prodávající zavazuje, že 
+    - kupujícímu odevzdá věc, která je předmětem koupě
+    - a umožní mu nabýt vlastnické právo k ní, 
+Kupující se zavazuje, že 
+    - věc převezme 
+    - a zaplatí prodávajícímu kupní cenu
+
+Neplyne-li  ze smlouvy nebo zvyklostí něco jiného, jsou prodávající  a kupující zavázáni splnit své povinnosti současně. 
+
+8
+
+=== SLIDE 9 ===
+
+Kupní smlouva
+Předmětem plnění dle kupní smlouvy je věc (vlastnické právo k věci) nikoli činnost. Pokud by šlo o úplatné poskytování činnosti, (v závislosti na poskytované činnosti) lze hovořit o smlouvě příkazního typu, kontrolní činnosti, pracovní smlouvě atd.
+
+Prodávající odevzdá kupujícímu předmět koupě v: 
+ujednaném množství 
+jakosti
+a provedení 
+
+Předmět koupě může být věc movitá, nemovitá i závod. případně prodej zboží v obchodě a vedlejší ujednání ke kupní smlouvě.
+
+9
+
+=== SLIDE 10 ===
+
+Kupní smlouva
+Ujednání o jakosti 
+Nejsou-li jakost a provedení ujednány, plní prodávající v jakosti a provedení vhodných pro účel patrný ze smlouvy, jinak pro účel obvyklý.
+Při určení jakosti provedení lze postupovat dle smluveného vzorku nebo předlohy.   
+
+10
+
+=== SLIDE 11 ===
+
+Kupní smlouva
+Převod vlastnického práva obecně upravuje OZ v § 1099 a násl., rozlišuje se pro věci movité a nemovité
+koupě samotná je upravena v § 2079 a násl. 
+
+Zákon u kupní smlouvy vyžaduje písemnou formu jen při převodu věcí nemovitých, u ostatních věcí není na překážku smlouva ústní, ale pro zachování právní jistoty smluvních stran je vhodné smlouvu sepsat písemně (což mohou strany pro potvrzení svých ujednání učinit i po uzavření původní kupní smlouvy ústní).
+
+11
+
+=== SLIDE 12 ===
+
+Kupní smlouva - nemovitost
+Okamžik převodu vlastnického práva dle OZ-u věcí nemovitých a těch, které se zapisují do veřejného seznamu :  Vlastnické právo vyplývající z kupní smlouvy přechází na kupujícího okamžikem zápisu do veřejného seznamu nebo katastru nemovitostí, 
+Smlouva o prodeji nebo koupi nemovité věci musí mít písemnou formu. V případě, že do právního vztahu vstupuje více osob, vyžaduje se, aby jejich projevy ( podpisy ) byly na téže listině. Písemná forma je vyžadována i pro změnu nebo zrušení kupní smlouvy. 
+Pro zápis do KN – úředně ověřené podpisy na smlouvě!
+
+12
+
+=== SLIDE 13 ===
+
+Kupní smlouva – movité věci
+Za koupi movité věci se považuje:
+koupě, jejímž předmětem není nemovitá věc, 
+koupě součásti nemovité věci (plody, materiál ze stavby, plot aj.), pokud ji kupující nabude odděleně od nemovitosti, 
+smlouva o dodání spotřebního zboží, které je nutné sestavit nebo vytvořit, 
+smlouva o dodání věci, která má být teprve vyrobena, pokud nedodal podstatnou část materiálu ten, komu má být věc dodána, 
+smlouva o dodání věci, pokud nespočívá převážná část plnění dodavatele ve výkonu činnosti. 
+Pro nabytí movité věci není rozhodující výchozí stav, ale stav v jakém má kupující věc nabýt.
+Převod vlastnického práva u věcí
+ jednotlivě určených – účinností smlouvy
+genericky určených – dostatečným odlišením od jiných věcí téhož druhu
+zapsaných do veřejného seznamu – zápisem do takového seznamu 
+13
+
+=== SLIDE 14 ===
+
+Kupní smlouva
+Práva a povinnosti prodávajícího
+Prodávající je povinen odevzdat věc kupujícímu společně i s doklady vztahující se (potřebných k převzetí a užívání) se k věci a umožnit kupujícímu nabýt vlastnické právo k věci v souladu se smlouvou. Předává-li je prodávající při zaplacení kupní ceny, předá prodávající doklady v místě placení. 
+Prodávající splní povinnost odevzdat věc kupujícímu, umožní-li mu nakládat  věcí v místě plnění a včas mu to oznámí.  
+
+14
+
+=== SLIDE 15 ===
+
+Kupní smlouva
+Práva a povinnosti kupujícího:
+Kupující je povinen zaplatit kupní cenu a převzít věc. 
+Kupující nemusí kupní cenu zaplatit, dokud nemá možnost si věci prohlédnout. To neplatí, byl-li ujednán takový způsob předání věci, který možnost prohlídky vylučuje. 
+Dostane-li se kupující do prodlení s převzetím věci nebo placením kupní ceny má prodávající povinnost k uchování věci a zároveň mu vzniká právo věc zadržovat, dokud nebudou uhrazeny účelně vynaložené náklady spojené s uchováním věci protistranou. 
+15
+
+=== SLIDE 16 ===
+
+Kupní smlouva
+Kupní cena
+
+Smluvní strany si ani nemusí předem sjednat kupní cenu. Postačí, když si dohodnou způsob jejího určení (např. ocenění znaleckým posudkem, nebo jako cenu obvyklou v době její úhrady, ale v tomto ohledu nový občanský zákon žádná omezení nezná). 
+U kupní smlouvy dle nového občanského zákoníku lze sjednat i prodej zboží, které ještě ani nebylo vyrobeno. 
+
+Je ujednána dostatečně určitě, je-li ujednán alespoň způsob jejího určení. 
+Náklady spojené  s odevzdáním věci v místě plnění nese prodávající 
+Náklady spojené s převzetím věci nese kupující.
+
+16
+
+=== SLIDE 17 ===
+
+Kupní smlouva
+Doba plnění a přechod nebezpečí škody na věci
+Doba plnění = doba, v níž má prodávající plnit, běží ode dne účinnosti smlouvy. Má-li však kupující splnit určitou povinnost ještě před odevzdáním věci, začíná doba, v niž má prodávající plnit, běžet ode dne  splnění toto povinnosti.
+Dodá- li prodávající větší množství věcí, než bylo ujednáno, je kupní smlouva uzavřena i na přebytečné množství,
+ledaže je kupující bez zbytečného odkladu odmítl.   
+ Přechod nebezpečí škody na věci 
+Na kupujícího přechází nebezpečí škody na věci současně s nabytím vlastnického práva. 
+Nabude-li kupující vlastnické právo před odevzdáním věci, má prodávající až do odevzdání věci práva a povinnosti schovatele. 
+
+17
+
+=== SLIDE 18 ===
+
+Kupní smlouva
+Záruka za jakost
+
+Zárukou za jakost se prodávající zavazuje, že věc bude po určitou dobu způsobilá k použití pro obvyklý účel nebo že si zachová obvyklé vlastnosti.  
+Tyto účinky má i :
+ uvedení záruční doby  
+  nebo doby použitelnosti věci na obalu nebo v reklamě.
+Záruka může být poskytnuta i na jednotlivou součást věci.
+18
+
+=== SLIDE 19 ===
+
+Kupní smlouva
+Porušení kupní smlouvy
+
+Bude-li mít věc vadu, která je považována za podstatné porušení smlouvy, má kupující právo si vybrat z: 
+práva na výměnu věci, 
+práva na opravu věci, 
+práva na přiměřenou slevu z kupní ceny nebo 
+práva odstoupit od smlouvy. 
+Kupující musí sdělit volbu práva prodávajícímu při oznámení vady nebo bez zbytečného odkladu po oznámení vady a tuto volbu již nebude moci bez souhlasu prodávajícího měnit. 
+
+19
+
+=== SLIDE 20 ===
+
+Kupní smlouva
+Porušení kupní smlouvy
+
+Bude-li vadné plnění považováno za nepodstatné porušení smlouvy, má kupující právo na:
+
+odstranění vady nebo na 
+přiměřenou slevu z kupní ceny.
+ 
+Pokud prodávající vadu včas neodstraní nebo ji odmítne odstranit, vzniká kupujícímu právo:
+ na slevu z kupní ceny 
+nebo odstoupit od smlouvy. 
+
+Jednou provedenou volbu nemůže kupující již bez souhlasu prodávajícího měnit. Do odstranění vady kupující nemusí platit část kupní ceny, která odhadem přiměřeně odpovídá jeho právu na slevu. 
+
+20
+
+=== SLIDE 21 ===
+
+Kupní smlouva
+Práva z vadného plnění 
+Věc je vadná, nemá-li vlastnosti stanovené v § 2095,2096 (jakost, množství, provedení). Za vadu se považuje i plnění jiné věci. 
+Plyne-li z prohlášení prodávajícího nebo z dokladu o předání, že prodávající dodal menší množství věcí, nevztahují se na chybějící věci ustanovení o  vadách. 
+Právo kupujícího  z vadného plnění zakládá vada, kterou má věc při přechodu nebezpečí škody na kupujícího, byť se projeví až později.
+Povinnosti prodávajícího ze záruky za jakost tím nejsou dotčeny.  
+
+21
+
+=== SLIDE 22 ===
+
+Kupní smlouva 
+
+Strany si mohou v kupní smlouvě sjednat tato vedlejší ujednání: § 2132 – 2157 OZ
+výhradu vlastnického práva, 
+výhradu zpětné koupě, 
+výhradu zpětného prodeje, 
+předkupní právo, 
+koupi na zkoušku, 
+výhradu lepšího kupce, 
+cenovou doložku. 
+
+22
+
+=== SLIDE 23 ===
+
+Kupní smlouva
+Výhrada vlastnického práva
+Pokud si prodávající vyhradí k věci vlastnické právo, má se za to, že se kupující stane vlastníkem teprve úplným zaplacením kupní ceny.
+Nebezpečí škody na věci však na kupujícího přechází již jejím převzetím. 
+Je-li výhrada ujednána  ohledně věci zapsané do veřejného seznamu ( katastr nemovitostí ), působí vůči třetím osobám, jen byla-li do tohoto seznam zapsána.  
+
+23
+
+=== SLIDE 24 ===
+
+Kupní smlouva
+Výhrada zpětné koupě a zpětného prodeje
+Z ujednání o výhradě zpětné koupě vzniká kupujícímu povinnost převést na požádání věc prodávajícímu za úplatu zpět. Kupující vrátí prodávajícímu věc v nezhoršeném stavu a prodávající vrátí kupujícímu kupní cenu. Tuto výhradu lze uplatnit jak na věc movitou, tak na věc nemovitou. Podle dnešního stavu je možné si vyhradit zpětnou koupi jen na věci movité. Oproti současné právní úpravě není vyžadována písemná forma( pokud nejde o nemovitost ) . Výhrada zpětné koupě zavazuje dědice. 
+Nebyla-li ujednána lhůta, ve které má prodávající právo žádat vrácení věci, platí vzhledem k movité věci za ujednanou tříletá lhůta a vzhledem k nemovité věci desetiletá lhůta. 
+Pro výhradu zpětného prodeje se obdobně použijí ustanovení o zpětné koupi. 
+
+24
+
+=== SLIDE 25 ===
+
+Kupní smlouva
+Předkupní právo
+U předkupního práva jsou stranami předkupník a koupěchtivý. Ujedná-li si předkupník k věci předkupní právo, vzniká dlužníku povinnost nabídnout věc předkupníkovi ke koupi, pokud by ji chtěl prodat koupěchtivému. Předkupník zaplatí kupní cenu v ujednané lhůtě, jinak do osmi dnů po nabídce u věci movité a u nemovité věci do tří měsíců po nabídce. Neučiní-li to, předkupní právo zanikne. Nabídka ke koupi nemovité věci vyžaduje písemnou formu. 
+Tuto výhradu předkupního práva lze sjednat jako právo věcné. 
+výhrada předkupního práva zavazuje dědice. 
+
+25
+
+=== SLIDE 26 ===
+
+Kupní smlouva
+Koupě na zkoušku 
+Kdo koupí věc na zkoušku, kupuje ji s podmínkou, že věc ve zkušební lhůtě schválí. 
+Zkušební lhůta u movitých věcí 3 dny, u nemovitostí 1 rok .
+Kupující nemá právo věc odmítnout, nemůže-li ji vrátit ve stavu, v jakém ji převzal. Ke změnám vyvolaným zkoušením se nepřihlíží. 
+
+26
+
+=== SLIDE 27 ===
+
+Kupní smlouva
+Výhrada lepšího kupce 
+Uzavřením  kupní smlouvy s výhradou lepšího kupce má prodávající  právo dát přednost lepšímu kupci přihlásí-li se v určené lhůtě: 
+Lhůta u movitých věcí činí 3 dny, u nemovitosti 1 rok od uzavření smlouvy
+Zda je nový kupec lepší, rozhoduje prodávající, může dát přednost novému kupci i když nabízí nižší cenu 
+Cenová doložka  - je-li uzavřena, stanoví se kupní cena dodatečně s přihlédnutím k výrobním nákladům. Práva a povinnosti  stran z cenové doložky zaniknou, , neuplatní-li oprávněná strana svá práva u druhé strany bez zbytečného odkladu po dodání věci.  
+
+27
+
+=== SLIDE 28 ===
+
+Kupní smlouva
+Prodej zboží v obchodě
+Definice:
+Dodá-li prodávající věc na místo určené kupujícím, převezme kupující věc při dodání, v ostatních případech převezme kupující věc při prodeji. 
+Převzetím  koupené věci nabývá kupující k věci vlastnické právo.
+Při samoobslužném prodeji nabývá kupující vlastnické právo k věci zaplacením kupní ceny. Do té doby může kupující vrátit věci na původní místo. 
+Vznikne-li škoda před zaplacením kupní ceny, nahradí se podle obecných ustanovení.    
+
+28
+
+=== SLIDE 29 ===
+
+Kupní smlouva
+Jakost při převzetí 
+Prodávající odpovídá kupujícímu, že při převzetí nemá vady. Zejména, že v době kdy kupující věc převzal:  
+Má věc vlastnosti, které si strany ujednaly, a chybí-li ujednání, takové vlastnosti, které prodávající nebo výrobce popal nebo které kupující očekával s ohledem na povahu zboží a na základě reklamy jimi prováděné,
+Věc se hodí k účelu, který pro její použití prodávající uvádí, nebo ke kterému se věci tohoto druhu obvykle používá,
+Věc odpovídá jakostí nebo provedením smluvenému vzorku, nebo předloze, byla-li jakost nebo provedení určeno podle smluveného vzorku či předlohy
+Věc je v odpovídajícím množství, míře nebo hmotnosti   
+
+29
+
+=== SLIDE 30 ===
+
+Kupní smlouva
+Odpovědnost za vady 
+Projeví- li se vada v průběhu 6 měsíců od převzetí, má se za to, že věc byla vadná již při převzetí. Připouští-li to povaha koupě má kupující právo, aby byla věc před ním překontrolována nebo aby byly předvedeny její funkce.
+U zuživatelných věcí se vyznačí doba nejkratší trvanlivosti, popřípadě, u věcí podléhajících rychlé zkáze, doba , po kterou lze věc používat  
+Má-li věc vadu, která nebrání užívat věc k určenému účelu, lze ji prodat jen za nižší cenu, lze ji prodat jen za nižší cenu, než je obvyklá cena bezvadné věci. Prodávající kupujícího upozorní, že věc má vadu a o jakou vědu e jedná není-li to zřejmé již z povahy prodeje. 
+
+30
+
+=== SLIDE 31 ===
+
+Kupní smlouva
+Práva z vadného plnění 
+Kupující je oprávněn uplatnit právo z vady, která se vyskytne u spotřebního zboží v době 24 měsíců od převzetí.  
+Je-li na prodávané věci, na jejím obalu, v návodu připojenému k věci nebo v reklamě v souladu s jinými právními předpisy uvedena doba, po kterou lze věc použít, použijí se 
+ustanovení o záruce za jakost.
+31
+
+=== SLIDE 32 ===
+
+Kupní smlouva
+Vady koupené věci 
+Nemá-li věc vlastnosti stanovené, může kupující požadovat:
+a) Dodání nové věci bez vad, pokud to není vzhledem  k povaze vady nepřiměřené
+b) je-li to však vzhledem k povaze věci neúměrné, zejména lze-li vadu odstranit bez zbytečného odkladu, má kupující právo na bezplatné odstranění vady.  
+Právo na dodání nové věci, nebo výměnu součásti má kupující i v případě odstranitelné vady, pokud nemůže věc řádně užívat pro opakovaný výskyt vady po opravě nebo pro větší počet vad. V takovém případě má kupující i právo od smlouvy odstoupit. 
+
+32
+
+=== SLIDE 33 ===
+
+Kupní smlouva
+Vady koupené věci
+Neodstoupí-li kupující od smlouvy nebo neuplatní-li právo na dodání nové věci bez vad, na výměnu její součásti nebo opravu věci, může požadovat přiměřenou slevu.   
+Kupující má právo na přiměřenou slevu i v případě, že mu prodávající nemůže dodat novou věc bez vad, vyměnit její součást nebo věc opravit, jakož i v případě, že prodávající nezjedná nápravu v přiměřené době nebo že by zjednání nápravy spotřebiteli působilo značné obtíže. 
+ 
+33
+
+=== SLIDE 34 ===
+
+Smlouva o dílo
+Smlouvou o dílo se zhotovitel zavazuje na svůj náklad a nebezpečí provést pro objednatele dílo a objednatel se zavazuje dílo převzít a zaplatit cenu (§ 2586 odst. 1 NOZ).
+Subjekty : Objednatel, zhotovitel
+Zhotovitel je nově oprávněn zhotovenou věc prodat, jestliže ji objednatel včas nepřevezme.
+
+34
+
+=== SLIDE 35 ===
+
+Smlouva o dílo
+Dílem se rozumí zhotovení určité věci, nespadá-li pod kupní smlouvu, a dále údržba, oprava nebo úprava věci, nebo činnost s jiným výsledkem (§ 2587 OZ).
+Cena může být určena pevnou částkou, odkazem na rozpočet nebo i odhadem (§ 2586 odst. 2 OZ). 
+Pokud je cena sjednána pevnou částkou, nebo odkazem na rozpočet, nemůže ani objednatel ani zhotovitel žádat změnu ceny proto, že si dílo vyžádalo jiné úsilí nebo jiné náklady, než bylo předpokládáno (§ 2620 odst. 1 OZ).
+
+35
+
+=== SLIDE 36 ===
+
+Smlouva o dílo
+Nastane-li však zcela mimořádná nepředvídatelná okolnost, která dokončení díla podstatně ztěžuje, může soud podle svého uvážení rozhodnout o spravedlivém zvýšení ceny za dílo, anebo o zrušení smlouvy a o tom, jak se strany vypořádají (§ 2620 odst. 2 OZ). 
+36
+
+=== SLIDE 37 ===
+
+Smlouva o dílo
+Objednatel může bez zbytečného odkladu odstoupit od smlouvy, požaduje-li zhotovitel zvýšení o více než 10 % ceny podle rozpočtu. V tomto případě je objednatel povinen nahradit zhotoviteli část ceny odpovídající rozsahu částečného provedení díla podle rozpočtu (§ 2622 odst. 3 OZ). 
+
+37
+
+=== SLIDE 38 ===
+
+Smlouva o dílo
+Zhotovitel při provádění díla příkazům objednatele nepodléhá, proto zákon vyhrazuje objednateli právo kontroly nad prováděním díla.
+Dílo je provedeno, je-li dokončeno a předáno (§  2604 OZ). 
+Dílo je dokončeno, je-li předvedena jeho způsobilost sloužit svému účelu.
+
+38
+
+=== SLIDE 39 ===
+
+Smlouva o dílo
+Objednatel převezme dokončené dílo s výhradami, nebo bez výhrad (§ 2605 odst. 1 OZ) – musí převzít, pokud je dokončeno – má tedy sloužit svému účelu 
+Pokud dílo neodpovídá smlouvě, má vadu (§ 2615 odst. 1 OZ). 
+
+39
+Notes:
+
+39
+
+=== SLIDE 40 ===
+
+Smlouva o dílo
+Stavba jako předmět smlouvy o dílo
+OZ samostatně upravuje určitá specifika týkající se děl prováděných jako stavební práce. Těmito specifiky jsou například provádění kontroly stavebních prací či odpovědnost za vady.
+Objednatel nemá právo odmítnout převzetí stavby pro ojedinělé drobné vady, které samy o sobě, ani ve spojení s jinými, nebrání užívání stavby funkčně nebo esteticky, ani její užívání podstatným způsobem neomezují (§ 2628 OZ).
+
+40
+
+=== SLIDE 41 ===
+
+Smlouva o dílo
+Skryté vady bude možné namítat pět let po převzetí stavby. Totéž platí o skryté vadě projektové dokumentace a o jiných obdobných plněních (§  2629 odst. 1 OZ).
+Zhotovitel se zprostí povinnosti z vady stavby, prokáže-li, že vadu způsobila jen chyba ve stavební dokumentaci dodané osobou, kterou si zvolil objednatel (§ 2630 odst. 2 OZ).
+
+41
+
+=== SLIDE 42 ===
+
+Nájemní smlouva
+Nájemní smlouvou se pronajímatel zavazuje přenechat nájemci věc k dočasnému užívání a nájemce se zavazuje platit za to pronajímateli nájemné (§ 2201 OZ). 
+Úprava OZ odstraňuje pochyby v případě nájmu věci, která v budoucnu teprve vznikne (§ 2202 odst. 2 OZ) tím, že tuto možnost výslovně stanoví. 
+Pronajmout lze i část nemovité věci (§ 2202 odst. 1 OZ). 
+
+42
+
+=== SLIDE 43 ===
+
+Nájemní smlouva
+Pokud je pronajatá věc zapsána do veřejného seznamu, může vlastník věci (nebo s jeho souhlasem nájemce) navrhnout zápis nájemního práva do veřejného seznamu (§ 2203 OZ). 
+Strana smluvního vztahu nemá právo vypovědět nájem jen proto, že se změnil vlastník věci (§ 2222 odst. 1 OZ). 
+43
+
+=== SLIDE 44 ===
+
+Nájemní smlouva
+Strana má možnost využít výjimečné opatření v případě, že druhá strana porušuje zvlášť závažným způsobem své povinnosti, a tím působí značnou újmu druhé straně. 
+Za těchto okolností má dotčená strana právo vypovědět nájem bez výpovědní doby (§ 2232 OZ). 
+
+44
+
+=== SLIDE 45 ===
+
+Nájemní smlouva
+Nejvyšší soud zaujal v rozsudku ze dne 28. března 2007, 28 Cdo 2747/2004, stanovisko, že nájem ujednaný na dobu přesahující dobu průměrného lidského života (v posuzovaném případě šlo o nájem ujednaný na 100 let k podnikatelským účelům provozovaných individuálními podnikateli), platí za nájem ujednaný na dobu neurčitou.
+Tímto rozsudkem Nejvyšší soud zasáhl do základní zásady smluvního práva, a to autonomie vůle stran. 
+
+45
+
+=== SLIDE 46 ===
+
+Nájem bytu
+Smlouva o nájmu bytu nemusí obsahovat přesné označení bytu, jeho příslušenství, rozsah jeho užívání, způsob výpočtu nájemného a úhrady za plnění spojená s užíváním bytu nebo jejich výši.
+OZ nebrání pronájmu bytu, který sice není rozhodnutím stavebního úřadu určen k bydlení, ale je fakticky k bydlení vhodný a zdravotně způsobilý.
+Dle úpravy OZ postačuje, je-li mezi stranami shoda na předmětu nájmu a na tom, že za jeho užívání náleží pronajímateli úplata. 
+
+46
+
+=== SLIDE 47 ===
+
+Nájem bytu
+Byt je v OZ (§ 2236 odst. 1) definován jako místnost nebo soubor místností, které jsou částí domu, tvoří obytný prostor a jsou určeny a užívány k účelu bydlení (původně: místnost nebo soubor místností, které jsou podle rozhodnutí stavebního úřadu určeny k bydlení). 
+Pronajme-li pronajímatel byt k bydlení vhodný a zdravotně způsobilý, i přestože není rozhodnutím stavebního úřadu určen k bydlení, půjde přesto dle ustanovení OZ o platný nájem bytu. 
+
+47
+
+=== SLIDE 48 ===
+
+Nájem bytu
+Lze pronajmout i celý dům, houseboat, dostatečně vybavený obytný vůz apod. 
+Pro krátkodobé účely ubytování se nepoužijí ustanovení o nájmu bytu nebo domu (např. ubytování v letním domě, dočasné ubytování studentů v univerzitním městě apod.). 
+
+48
+
+=== SLIDE 49 ===
+
+Nájem bytu
+Pokud nájemce užívá byt po dobu tří let v dobré víře, že nájem je po právu, považuje se nájemní smlouva za řádně uzavřenou (§ 2238 OZ). 
+Jedná se o tzv. faktický nájem. 
+Zabraňuje se tak jednání pronajímatelů, kteří neuzavřou s nájemci nájemní smlouvu písemně, a poté není nájemce chráněn, když se pronajímatel rozhodne nájem ukončit. 
+
+49
+
+=== SLIDE 50 ===
+
+Nájem bytu
+I když zákon vyžaduje, aby smlouva o nájmu bytu byla uzavřena v písemné formě, nemůže nedostatek formy namítnout pronajímatel vůči nájemci (§ 2237 OZ). 
+Prvek respektu nejen ke svobodné vůli stran, ale také o prvek ochrany poctivého nájemce. Dodržení písemné formy tím OZ činí odpovědným pronajímatele.
+50
+
+=== SLIDE 51 ===
+
+Podnájem bytu
+V případě, že nájemce v bytě sám trvale bydlet nebude, může dát třetí osobě do podnájmu byt nebo jeho část pouze se souhlasem pronajímatele (§ 2275 odst. 1 OZ).
+Žádost o udělení souhlasu k podnájmu i souhlas s podnájmem vyžadují písemnou formu. Souhlas je dán, pokud se pronajímatel k žádosti nevyjádří ve lhůtě jednoho měsíce.
+
+51
+
+=== SLIDE 52 ===
+
+Nájem bytu
+Pokud nájemce přijme nového člena své domácnosti, má povinnost to pronajímateli oznámit. 
+Neoznámení v zákonem stanovené lhůtě (nejpozději do dvou měsíců od změny počtu osob) tak může mít za následek výpověď z nájmu bytu (§ 2288 odst. 1 d) OZ).
+Strany si mohou ujednat každoroční zvyšování nájemného (§ 2248 OZ). Reaguje se tak na požadavek zjednodušení dohodovacího procesu mezi stranami nájemní smlouvy a navozuje se stav určité právní jistoty v případě využití této zákonem dané možnosti.
+
+52
+
+=== SLIDE 53 ===
+
+Nájem bytu
+Nájem bytu může zaniknout:
+Uplynutím doby (prolongací) 
+Odstoupením od smlouvy 
+Výpovědí 
+
+53
+
+=== SLIDE 54 ===
+
+Nájem bytu
+Výpověď nájmu bytu
+U nájmu na dobu neurčitou se rozlišují výpovědi s výpovědní dobou a bez výpovědní doby:
+a) Možnost skončení nájmu bez výpovědní doby v případě porušení povinností zvlášť závažným způsobem (§ 2291 OZ).
+
+54
+
+=== SLIDE 55 ===
+
+Nájem bytu
+b) Možnost výpovědi s tříměsíční výpovědní dobou ze stanovených důvodů 
+     (§ 2288 OZ):
+Poruší-li nájemce hrubě svou povinnost vyplývající z nájmu. 
+Je-li nájemce odsouzen za úmyslný trestný čin spáchaný na pronajímateli nebo členu jeho domácnosti nebo na osobě, která bydlí v domě, kde je nájemcův byt, nebo proti cizímu majetku, který se v tomto domě nachází. 
+Má-li být byt vyklizen, protože je z důvodu veřejného zájmu potřebné s bytem nebo domem, ve kterém se byt nachází, naložit tak, že byt nebude možné vůbec užívat. 
+Je-li tu jiný obdobně závažný důvod pro vypovězení nájmu. 
+
+55
+
+=== SLIDE 56 ===
+
+Nájem bytu
+Pronajímatel může vypovědět nájem na dobu neurčitou v tříměsíční výpovědní době      i v případě, že:
+Má být byt užíván pronajímatelem, nebo jeho manželem, který hodlá opustit rodinnou domácnost a byl podán návrh na rozvod manželství, nebo manželství bylo již rozvedeno.    
+Potřebuje pronajímatel byt pro svého příbuzného nebo pro příbuzného svého manžela v přímé linii nebo ve vedlejší linii v druhém stupni (§ 2288 odst. 2 a) a b) OZ).
+
+56
+
+=== SLIDE 57 ===
+
+Nájem bytu
+Přechod nájmu bytu
+Podle současné úpravy přechází nájem pouze v případě smrti nájemce, a to automaticky, na osobu, která žila s nájemcem ve společné domácnosti, a která nemá vlastní byt.
+Pokud je touto osobou někdo jiný než nájemcův manžel, partner, rodič, sourozenec, zeť, snacha, dítě nebo vnuk, přejde na ni nájem pouze v případě písemného souhlasu pronajímatele (§ 706 OZ).
+57
+
+=== SLIDE 58 ===
+
+Darovací smlouva
+Darovací smlouvou projevuje dárce štědrost vůči obdarovanému a obdarovaný není vůči dárci vázán k protiplnění. 
+Dárce může darovat třeba i všechen svůj současný majetek. 
+ V případě budoucího majetku by mohl darovat maximálně jeho polovinu (§ 2058 odst. 1 OZ). 
+Pokud se dárce rozhodne darovat věc, kterou ještě nemá, pak je pro splnění platnosti smlouvy třeba zavázat se v ní, že dárce věc nabude (§ 2058 odst. 2 OZ). 
+58
+
+=== SLIDE 59 ===
+
+Darovací smlouva
+Pokud se dárce rozhodne darovat věc zapsanou do veřejného seznamu, pak bude darovací smlouva vyžadovat písemnou formu (§ 2057 odst. 1 OZ). 
+Zpravidla se tak bude jednat o darování věcí nemovitých podléhající zápisu do katastru nemovitostí. 
+Písemnou formu bude vyžadovat darovací smlouva i tehdy, nedojde-li k odevzdání věci zároveň s projevem vůle darovat a přijmout dar (§ 2057 odst. 2 OZ). 
+
+59
+
+=== SLIDE 60 ===
+
+Darovací smlouva
+Za darování se nepovažuje plnění z pouhé společenské úsluhy (§ 2055 odst. 2 OZ). U společenské úsluhy totiž není úmyslem stran se právně zavázat. (vnuk vynáší odpadky pro svou babičku, přestane – nelze to vynutit) 
+
+Dárce se může vyvázat z povinnosti dát dar, který ještě neodevzdal (závaznost slibu)  jen v případě, že dojde po uzavření smlouvy k nepředvídatelné události (§ 2059 OZ), která má za následek na straně dárce změnu životních podmínek do takové míry, že není nadále spravedlivé požadovat po něm splnění slibu obohatit obdarovaného. 
+Ale pouhý slib daru (ústní) nelze vymáhat !
+
+60
+
+=== SLIDE 61 ===
+
+Darovací smlouva
+Darování podpory
+§ 2062 OZ :
+ dárce se  zaváže obdarovaného pravidelně podporovat. Právo na podporu 
+      i povinnost k podpoře může (pokud to bylo výslovně ujednáno) přejít na dědice
+       dárce a obdarovaného (§ 2062 OZ). 
+
+61
+
+=== SLIDE 62 ===
+
+Darovací smlouva
+Dar lze odvolat v těchto dvou případech:
+1. Pro hrubý nevděk obdarovaného vůči dárci
+Lhůta pro odvolání daru je jeden rok. 
+NOZ rovněž řeší situace, za jakých podmínek mohou dar odvolat i dědici dárce. Odstraňuje tak nespravedlnost, k níž se uchýlil výklad platné právní úpravy, dle něhož dokonce ani zavraždění dárce obdarovaným nezakládá dárcovým dědicům oprávnění dar odvolat.
+
+62
+
+=== SLIDE 63 ===
+
+Darovací smlouva
+2. Pro nezaviněné upadnutí dárce do nouze
+Upadl-li dárce po odevzdání daru nezaviněně do takové nouze, že nemá na vlastní nutnou výživu nebo na nutnou výživu osob, k nimž má zákonnou vyživovací povinnost, pak může dar odvolat. 
+Toto právo je osobním oprávněním dárce, které trvá po dobu jeho života a jeho smrtí zaniká. Uplatní-li je, mohou je za stanovených podmínek uplatnit i ti, k nimž je dárce vyživovací povinností zavázán.
+
+63
+
+=== SLIDE 64 ===
+
+Darovací smlouva
+Specifickým darováním je darování pro případ smrti. Darování závislé na podmínce, že obdarovaný dárce přežije, se posuzuje zpravidla jako odkaz (§ 2063 OZ). Odkaz je odvolatelný, zatímco při darování pro případ smrti dar odvolat nelze (§ 2063 OZ).
+
+64
+
+=== SLIDE 65 ===
+
+65

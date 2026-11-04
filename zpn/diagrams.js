@@ -182,5 +182,37 @@ const ZPN = (() => {
       line(30, 140, 730, 140, 'ln', 'end') + text(380, 160, 'čte se od nejmenší jednotky k předpisu, v němž leží', 'c sm mu'));
   };
 
-  return { lawPage, citation, legislativeProcess, publicPrivate, absRel, normDiagram, validityTimeline, powersDiagram, relationDiagram, factsDiagram, defectsDiagram, calendarDiagram, promlceniDiagram, nozBar, rulesOrder };
+  // 14) uzavření smlouvy: jednání → oferta → akceptace → smlouva, varianty přijetí
+  const kontrakt = () => svg(760, 262,
+    box(20, 30, 150, 56, 'b', 'Jednání', '§ 1728–1730') + box(225, 30, 150, 56, 'fW', 'Oferta (nabídka)', '§ 1732–1733') +
+    box(430, 30, 140, 56, 'fA', 'Akceptace', '§ 1734–1735') + box(615, 30, 125, 56, 'fD', 'Smlouva', 'uzavřena (§ 1725)') +
+    line(170, 58, 225, 58, 'ln', 'end') + line(375, 58, 430, 58, 'ln', 'end') + line(570, 58, 615, 58, 'ln', 'end') +
+    text(98, 106, 'poctivost, informace, důvěrnost', 'c sm mu') +
+    line(500, 86, 500, 120, 'ln') + line(120, 120, 620, 120, 'ln') + text(512, 108, 'jak může přijetí vypadat', 'sm mu') +
+    line(120, 120, 120, 152, 'ln', 'end') + line(360, 120, 360, 152, 'ln', 'end') + line(620, 120, 620, 152, 'ln', 'end') +
+    box(20, 152, 200, 56, 'fE', 'S dodatkem, výhradou', '= odmítnutí + nová nabídka') +
+    box(250, 152, 220, 56, 'b', 'S nepodstatnou odchylkou', 'platí, pokud oferent neodmítne') +
+    box(500, 152, 240, 56, 'b', 'Konkludentně (§ 1744)', 'plněním podle nabídky') +
+    text(380, 238, 'Zvláštní způsoby: dražba (příklep, § 1771) · veřejná soutěž (§ 1772) · veřejná nabídka (§ 1780)', 'c sm mu'));
+
+  // 15) koupě nemovitosti krok za krokem
+  const koupeNemovitosti = () => {
+    const st = [
+      ['b', '1 Prověření', ['výpis z katastru', 'zástava, břemena,', 'plomba, nájemce']],
+      ['fW', '2 Smlouva', ['písemná forma', 'podpisy na jedné', 'listině, ověřené']],
+      ['fE', '3 Úschova', ['cena do úschovy', 'advokát/notář/banka', 'podle smlouvy']],
+      ['fA', '4 Návrh', ['formulář KÚ', 'poplatek 2 000 Kč', 'i datovou schránkou']],
+      ['fA', '5 Rozhodnutí', ['KÚ povolí vklad', 'účinky zpětně ke', 'dni podání návrhu']],
+      ['fD', '6 Vlastník', ['kupující je', 'vlastníkem', 'cena se uvolní']]
+    ];
+    let o = '';
+    st.forEach(([c, h, d], i) => {
+      const x = 15 + i * 123;
+      o += box(x, 20, 105, 40, c, h) + d.map((t, k) => text(x + 52, 82 + k * 16, t, 'c sm mu')).join('');
+      if (i < st.length - 1) o += line(x + 105, 40, x + 123, 40, 'ln', 'end');
+    });
+    return svg(760, 150, o + text(380, 142, 'Vlastnictví nemovitosti vzniká až zápisem (vkladem) do katastru – ne podpisem smlouvy.', 'c sm bd'));
+  };
+
+  return { kontrakt, koupeNemovitosti, lawPage, citation, legislativeProcess, publicPrivate, absRel, normDiagram, validityTimeline, powersDiagram, relationDiagram, factsDiagram, defectsDiagram, calendarDiagram, promlceniDiagram, nozBar, rulesOrder };
 })();

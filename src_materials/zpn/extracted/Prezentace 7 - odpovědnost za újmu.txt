@@ -1,0 +1,293 @@
+=== SLIDE 1 ===
+
+Základy právních nauk
+30/10/24
+Přednáška č. 5: 
+Odpovědnost v občanském právu - škoda, nemajetková újma, bezdůvodné bohacení
+
+=== SLIDE 2 ===
+
+Obsah přednášky
+Obsah přednášky
+Odpovědnost za majetkovou a nemajetkovou újmu v režimu občanského zákoníku (§ 2894 – § 2990 OZ)
+Bezdůvodné obohacení (§ 2991 – 3005 OZ)
+
+=== SLIDE 3 ===
+
+Předpoklady vzniku odpovědnosti za újmu  
+Předpoklady odpovědnosti
+K naplnění odpovědnosti za újmu dochází pouze v případě splnění zákonem stanovených předpokladů:
+Povinnost nahradit újmu vznikne tehdy, 1) byla-li porušena povinnost, a  v 2) příčinné souvislosti s porušením povinnosti 3) vznikla újma, a současně nenastala situace, která vylučuje povinnost újmu nahradit.
+Situace, která vylučuje povinnost újmu nahradit = okolnost vylučující protiprávnost
+
+=== SLIDE 4 ===
+
+Předpoklady odpovědnosti
+Vznik povinnosti nahradit škodu
+
+=== SLIDE 5 ===
+
+Konstrukce odpovědnosti za újmu
+Předpoklady odpovědnosti
+Základní schéma:
+Objektivní odpovědnost
+Subjektivní odpovědnost 
+(+ zavinění)
+
+=== SLIDE 6 ===
+
+Předpoklady vzniku odpovědnosti za újmu
+Předpoklady odpovědnosti
+Protiprávnost porušení právní povinnosti (protiprávní jednání či protiprávní stav)
+Vznik újmy (ať již v majetkové či nemajetkové sféře poškozeného)
+Příčinná souvislost (kauzální nexus) mezi porušením povinnosti  a vznikem újmy
+Zpravidla i zavinění
+Splnění předpokladů 1- 3 = objektivní odpovědnost
+Splnění všech 4 předpokladů = subjektivní odpovědnost
+
+=== SLIDE 7 ===
+
+Protiprávnost = jednání škůdce v rozporu
+se zákonem (deliktní odpovědnost)
+se smlouvou (kontraktní odpovědnost)
+s předpokladem uvedeným v zákoně, se kterým je spojena povinnost nahradit újmu, aniž by došlo k porušení povinnosti  (mimoodpovědnostní náhrada škody)
+
+Předpoklady odpovědbnosti - protiprávnost
+Protiprávnost
+
+=== SLIDE 8 ===
+
+Majetková, nemajetková újma
+Předpoklady odpovědnosti - újma
+Pozor na pojmosloví - ÚJMA
+
+=== SLIDE 9 ===
+
+Předpoklady odpovědnosti - újma
+újma, která vznikla v majetkové sféře poškozeného a je objektivně vyjádřitelná obecným ekvivalentem, tj. penězi.
+skutečná škoda (výše o kterou se hodnota majetku snížila), ale i ušlý zisk (výše o kterou se hodnota majetku nezvýšila, ačkoli měla)
+OZ rozlišuje podmínky náhrady škody s ohledem na skutečnost, zda škůdce porušil povinnost ze zákona, ze smlouvy či dobrých mravů
+
+Majetková újma (škoda)
+
+=== SLIDE 10 ===
+
+Nemajetková újma
+Předpoklady odpovědnosti - újma
+jakákoli újma, která pro poškozeného neznamená přímou ztrátu na majetku
+
+typicky se jedná např. o zásah do zdraví, cti, důstojnosti, soukromí
+následky nemajetkové újmy bývají zpravidla velice závažné, v konečném důsledku se mohou (nepřímo) projevit  i v majetkových poměrech poškozeného
+nemajetková újma se jednoduše měřit nedá a nezpůsobuje konkrétní ztrátu na majetku
+povinnost nahradit nemajetkovou újmu vzniká v případech zvlášť stanovených – jde o zvláštní ujednání či zákonné ustanovení (§ 2894)
+
+=== SLIDE 11 ===
+
+Okolnosti vylučující protiprávnost
+Okolnosti vylučující protiprávnost
+Nutná obrana (§ 2905 OZ)
+protiprávní trvající útok
+aktivní konání fyzické osoby 
+újma poškozeného je nepatrná
+obrana zcela zjevně nepřiměřená 
+
+V některých případech dochází k situacím, kdy sice určitá osoba škodu prokazatelně způsobila, nicméně bylo by zcela nevhodné po ní požadovat její náhradu. Typickým příkladem je škoda způsobená při nutné obraně
+
+Příklad: Pokud někdo někoho fyzicky napadne a ten mu v přiměřené obraně rozbije hodinky, útočník nemá právo požadovat náhradu škody
+
+=== SLIDE 12 ===
+
+Okolnosti vylučující protiprávnost
+Krajní nouze
+stav hrozícího nebezpečí
+ohrožená osoba sama nevyvolala
+není způsoben následek shodné intenzity či vážnější 
+vyloučení krajní nouze – osoba nebezpečí sama vyvolala, lze odvrátit jinak, způsobený následek je vážnější nebo stejně závažný než hrozil  
+Příklad: Někdo způsobí škodu v krajní nouzi (za mimořádné situace, při kterých dochází k přímému ohrožení života či majetku). Pokud například někdo při hašení požáru ve svém bytě vytopí i sousední byty, nebude pravděpodobně povinen hradit takto způsobenou škodu. (Ani toto pravidlo však neplatí beze zbytku. Neuplatní se například, pokud by uvedená osoba vyvolala požár sama nebo měla zjevně možnost nebezpečí zažehnat šetrnějšími způsoby.)
+
+=== SLIDE 13 ===
+
+Prevenční povinnost
+každý má povinnost si při svém jednání počínat tak, aby nedocházelo k nedůvodným újmám
+
+=== SLIDE 14 ===
+
+Zvláštní případy vzniku škody dle OZ
+Zvláštní případy odpovědnosti za škodu
+Proč rozlišujeme tzv. zvláštní druhy odpovědnosti?
+skutkově užší okruhy případů specifikovaných zpravidla podle toho, kým nebo čím byla škoda způsobena (např. škoda způsobená zvířetem), popř. na čem byla způsobena (např. škoda na odnesené věci)
+jednotlivé okruhy případů, pro které byla zvláštní úprava zvolena, jsou vybrány tak, aby byly upraveny situace, které se v praxi vyskytují nejčastěji (např. škoda způsobená dopravním prostředkem), nebo které vzbuzují aplikační potíže (např. škoda způsobená několika osobami najednou)
+
+=== SLIDE 15 ===
+
+Zvláštní případy odpovědnosti za škodu
+zvláštní případy odpovědnosti za škodu I.
+
+=== SLIDE 16 ===
+
+Zvláštní případy odpovědnosti za škodu
+zvláštní případy odpovědnosti za škodu II.
+
+=== SLIDE 17 ===
+
+Jednotlivé druhy ze zvláštní odpovědnosti za škodu
+
+Zvláštní případy odpovědnosti za škodu
+
+Škoda způsobená tím, kdo nemůže posoudit následky svého jednání
+
+Nezletilý, který nenabyl plné svéprávnosti, nebo ten, kdo je stižen duševní poruchou, nahradí způsobenou škodu, pokud byl způsobilý ovládnout své jednání a posoudit jeho následky
+Nebyl-li nezletilý, který nenabyl plné svéprávnosti, nebo ten, kdo je stižen duševní poruchou, způsobilý ovládnout své jednání a posoudit jeho následky, má poškozený právo na náhradu, je-li to spravedlivé se zřetelem k majetkovým poměrům škůdce a poškozeného.
+Společně a nerozdílně se škůdcem nahradí škodu i ten, kdo nad ním zanedbal náležitý dohled. Není-li škůdce povinen k náhradě, nahradí poškozenému škodu ten, kdo nad škůdcem zanedbal dohled.
+Kdo se uvede vlastní vinou do takového stavu, že není s to ovládnout své jednání nebo posoudit jeho následky, nahradí škodu v tomto stavu způsobenou. 
+
+=== SLIDE 18 ===
+
+Zvláštní případy odpovědnosti za škodu
+
+Škoda způsobená osobou s nebezpečnými vlastnostmi
+
+Kdo se vědomě ujme osoby nebezpečných vlastností tak, že jí bez její nutné potřeby poskytne útulek nebo jí svěří určitou činnost, ať již v domácnosti, provozovně či na jiném podobném místě, nahradí společně a nerozdílně s ní škodu způsobenou v takovém místě nebo při této činnosti někomu jinému nebezpečnou povahou takové osoby.
+ Škoda z provozní činnosti
+Kdo provozuje závod nebo jiné zařízení sloužící k výdělečné činnosti, nahradí škodu vzniklou z provozu, ať již byla způsobena vlastní provozní činností, věcí při ní použitou nebo vlivem činnosti na okolí. Povinnosti se zprostí, prokáže-li, že vynaložil veškerou péči, kterou lze rozumně požadovat, aby ke škodě nedošlo.
+
+=== SLIDE 19 ===
+
+Zvláštní případy odpovědnosti za škodu
+
+Škoda způsobená provozem zvlášť nebezpečným
+
+Kdo provozuje závod nebo jiné zařízení zvláště nebezpečné, nahradí škodu způsobenou zdrojem zvýšeného nebezpečí; provoz je zvlášť nebezpečný, nelze-li předem rozumně vyloučit možnost vzniku závažné škody ani při vynaložení řádné péče. 
+Jinak se povinnosti zprostí, prokáže-li, že škodu způsobila vyšší moc nebo že ji způsobilo vlastní jednání poškozeného nebo neodvratitelné jednání třetí osob
+Je-li z okolností zřejmé, že provoz významně zvýšil nebezpečí vzniku škody, ačkoli lze důvodně poukázat i na jiné možné příčiny, soud zaváže provozovatele k náhradě škody v rozsahu, který odpovídá pravděpodobnosti způsobení škody provozem.
+Má se za to, že provoz je zvláště nebezpečný, pokud se provozuje továrním způsobem nebo pokud se při něm výbušná nebo podobně nebezpečná látka používá nebo se s ní nakládá.
+
+=== SLIDE 20 ===
+
+Zvláštní případy odpovědnosti za škodu
+
+Škoda z provozu dopravních prostředků
+
+Kdo provozuje dopravu, nahradí škodu vyvolanou zvláštní povahou tohoto provozu. 
+Stejnou povinnost má i jiný provozovatel vozidla, plavidla nebo letadla, ledaže je takový dopravní prostředek poháněn lidskou silou.
+Povinnosti nahradit škodu se nemůže provozovatel zprostit, byla-li škoda způsobena okolnostmi, které mají původ v provozu. Jinak se zprostí, prokáže-li, že škodě nemohl zabránit ani při vynaložení veškerého úsilí, které lze požadovat.
+místo provozovatele nahradí škodu ten, kdo použije dopravního prostředku bez vědomí nebo proti vůli provozovatele. 
+Provozovatel nahradí škodu společně a nerozdílně s ním, pokud mu takové užití dopravního prostředku z nedbalosti umožnil.
+
+=== SLIDE 21 ===
+
+Zvláštní případy odpovědnosti za škodu
+
+Škoda způsobená zvířetem
+
+způsobí-li škodu zvíře, nahradí ji jeho vlastník, ať již bylo pod jeho dohledem nebo pod dohledem osoby, které vlastník zvíře svěřil, anebo se zatoulalo nebo uprchlo. 
+Osoba, které zvíře bylo svěřeno nebo která zvíře chová nebo jinak používá, nahradí škodu způsobenou zvířetem společně a nerozdílně s vlastníkem.
+Slouží-li domácí zvíře vlastníku k výkonu povolání či k jiné výdělečné činnosti nebo k obživě, anebo slouží-li jako pomocník pro osobu se zdravotním postižením, zprostí se vlastník povinnosti k náhradě, prokáže-li, že při dozoru nad zvířetem nezanedbal potřebnou pečlivost, anebo že by škoda vznikla i při vynaložení potřebné pečlivosti. 
+
+=== SLIDE 22 ===
+
+Zvláštní případy odpovědnosti za škodu
+
+Škoda na vnesené věci
+Kdo provozuje pravidelně ubytovací služby, nahradí škodu na věci, kterou ubytovaný vnesl do prostor vyhrazených k ubytování nebo k uložení věcí, popřípadě na věci, která tam byla pro ubytovaného vnesena.
+Prokáže-li ubytovatel, že by ke škodě došlo i jinak, nebo že škodu způsobil ubytovaný nebo osoba, která ubytovaného z jeho vůle provází, povinnosti k náhradě škody se zprostí. K ujednáním o jiných důvodech zproštění se nepřihlíží.
+Škoda se hradí do výše odpovídající stonásobku ceny ubytování za jeden den.
+Byla-li věc převzata do úschovy, odmítl-li ubytovatel úschovu věci v rozporu se zákonem nebo byla-li škoda způsobena ubytovatelem nebo tím, kdo v provozu pracuje, hradí se škoda bez omezení.
+
+=== SLIDE 23 ===
+
+Způsob a rozsah náhrady újmy
+Náhrada újmy
+Majetková újma (škoda)
+nahrazuje se uvedením do předešlého stavu. Není-li to dobře možné, anebo žádá-li to poškozený, hradí se škoda v penězích
+Nemajetková újma 
+odčiní se přiměřeným zadostiučiněním
+zadostiučinění musí být poskytnuto v penězích, nezajistí-li jeho jiný způsob skutečné a dostatečně účinné odčinění způsobené újmy
+hradí se skutečná škoda a to, co poškozenému ušlo (ušlý zisk)
+záleží-li skutečná škoda ve vzniku dluhu, má poškozený právo, aby ho škůdce dluhu zprostil nebo mu poskytl náhradu
+
+=== SLIDE 24 ===
+
+Náhrada při újmě na přirozených právech člověka 
+
+Vznikne-li škůdci povinnost nahradit člověku újmu na jeho přirozených právech, nahradí škodu i nemajetkovou újmu, kterou tím způsobil. 
+
+přirozená práva člověka (ochrana osobnosti)
+
+=== SLIDE 25 ===
+
+Náhrada za ublížení na zdraví a usmrcení:
+
+kdo způsobí jinému ublížení na zdraví (zlomeninu, zranění vedoucí k amputaci končetiny, ochrnutí apod.) je povinen poskytnout (peněžitou) náhradu
+ten, kdo usmrtí člověka, je povinen (peněžně) odškodnit pozůstalé (manžela, děti, rodiče a další osoby, které byly usmrcenému blízké)
+Dle OZ je možné lépe přizpůsobit výši náhrady relevantním okolnostem a rozlišovat např. zda k amputaci končetiny došlo u vědce, anebo talentovaného sportovce; zda pozůstalý manžel, který má být odškodněn, s manželkou již nežil patnáct let, anebo s ní naopak měl velmi blízký celoživotní vztah apod.
+
+=== SLIDE 26 ===
+
+Náhrady při ublížení na zdraví a při usmrcení
+
+Při ublížení na zdraví odčiní škůdce újmu poškozeného peněžitou náhradou, vyvažující plně vytrpěné bolesti a další nemajetkové újmy; vznikla-li poškozením zdraví překážka lepší budoucnosti poškozeného, nahradí mu škůdce i ztížení společenského uplatnění. 
+Při usmrcení nebo zvlášť závažném ublížení na zdraví odčiní škůdce duševní útrapy manželu, rodiči, dítěti nebo jiné osobě blízké peněžitou náhradou vyvažující plně jejich utrpení. Nelze-li výši náhrady takto určit, stanoví se podle zásad slušnosti.
+
+=== SLIDE 27 ===
+
+Náklady spojené s péčí o zdraví
+
+Škůdce hradí též účelně vynaložené náklady spojené s péčí o zdraví poškozeného, s péčí o jeho osobu nebo jeho domácnost tomu, kdo je vynaložil
+Náklady pohřbu
+Škůdce nahradí tomu, kdo je vynaložil, přiměřené náklady spojené s pohřbem v rozsahu, v jakém nebyly uhrazeny veřejnou dávkou podle jiného právního předpisu. 
+
+=== SLIDE 28 ===
+
+Náhrada újmy – peněžité dávky
+Peněžité dávky
+Náhrada za ztrátu na výdělku po dobu pracovní neschopnosti 
+Po skončení pracovní neschopnosti, příp. invaliditě 
+Náhrada za ztrátu na důchodu
+náhrada za ztrátu na výdělku po dobu pracovní neschopnosti poškozeného se hradí peněžitým důchodem ve výši rozdílu mezi průměrným výdělkem poškozeného před vznikem újmy a náhradou toho, co poškozenému bylo vyplaceno v důsledku nemoci či úrazu podle jiného právního předpisu
+
+=== SLIDE 29 ===
+
+Náhrada újmy – peněžité dávky
+Žáku nebo studentu náleží náhrada za ztrátu na výdělku ode dne, kdy měla skončit jeho povinná školní docházka, studium nebo příprava na povolání, po dobu:
+
+o kterou se jeho povinná školní docházka, studium nebo příprava na povolání prodloužily následkem újmy na zdraví,
+neschopnosti následkem újmy na zdraví,
+trvání zdravotního postižení vzniklého následkem újmy na zdraví, které zpravidla brání úplnému zapojení do výdělečné činnosti, nebo
+trvání zdravotního postižení vzniklého následkem újmy na zdraví, které částečně brání zapojení do výdělečné činnosti, pokud nezameškává vlastní vinou příležitost k výdělku výkonem práce pro něho vhodné.
+
+=== SLIDE 30 ===
+
+Bezdůvodné obohacení
+
+= pokud se někdo bez řádného a zákonného důvodu obohatí na úkor druhého
+získá majetkový prospěch
+právní úprava: § 2991 – 3005 OZ
+pozn. k obohacení nemusí dojít v důsledku protiprávního jednání (jako např. u odpovědnosti za škodu) 
+
+=== SLIDE 31 ===
+
+Bezdůvodné obohacení
+Bezdůvodné obohacení:
+plnění bez právního důvodu
+plnění z práv. důvodu, který odpadl
+protiprávním užitím cizí hodnoty
+za něho bylo plněno, co měl plnit sám
+plnění jiného bez platného závazku   
+
+=== SLIDE 32 ===
+
+Bezdůvodné obohacení
+Vydání bezdůvodného obohacení nepodléhá:
+OZ stanoví, ve kterých případech vydání bezdůvodného obohacení nepodléhá, resp. kdy obohacení není bezdůvodné (§ 2992 OZ)
+-->
+
+=== SLIDE 33 ===
+
+Promlčení u náhrady škody a bezdůvodného obohacení
+Promlčení
+Lhůty:
+Subjektivní tříletá lhůta
+Objektivní desetiletá lhůta
+
+=== SLIDE 34 ===

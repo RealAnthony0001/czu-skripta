@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'dedictvi', order: 17, icon: '⚰️', title: 'Dědictví', src: 'doplneno', where: 'Seminář 5 (NOZ § 1475 an.; zákon o zvláštních řízeních soudních 292/2013 Sb.) – psáno ze znalostí, bez podkladů',
+  id: 'dedictvi', order: 18, icon: '⚰️', title: 'Dědictví', src: 'doplneno', where: 'Seminář 5 (NOZ § 1475 an.; zákon o zvláštních řízeních soudních 292/2013 Sb.) – psáno ze znalostí, bez podkladů',
   summary: 'Dědické právo podle občanského zákoníku: pojmy, tři dědické tituly (zákon, závěť, dědická smlouva), šest dědických tříd, formy závěti, odkaz, nepominutelný dědic, vydědění, dědická nezpůsobilost, přijetí a odmítnutí dědictví a řízení o pozůstalosti.',
   vocab: [
     { w: 'NOZ / OZ, §', x: 'Nový občanský zákoník (zákon č. 89/2012 Sb., účinný od 2014); § je paragraf, číslovaná jednotka zákona.' },

@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'odpovednost', order: 9, icon: '⚖️', title: 'Odpovědnost za újmu a bezdůvodné obohacení', src: 'doplneno', lec: [5], where: 'Sylabus – přednáška 5 (odpovědnost za újmu)',
+  id: 'odpovednost', order: 9, icon: '⚖️', title: 'Odpovědnost za újmu a bezdůvodné obohacení', src: 'podklady', lec: [5], where: 'Přednáška 5 (30. 10. 2024) – Odpovědnost v občanském právu: škoda, nemajetková újma, bezdůvodné obohacení (§ 2894–3005)',
   summary: 'Soukromoprávní odpovědnost za újmu dle NOZ (předpoklady, škoda × nemajetková újma, liberace, odpovědnost za jiného, zvláštní případy), bezdůvodné obohacení a základy veřejnoprávní odpovědnosti (přestupky, správní delikty, odpovědnost státu).',
   vocab: [
     {w:'Škůdce × poškozený',x:'Škůdce je ten, kdo újmu způsobil, poškozený ten, kdo ji utrpěl a má nárok na náhradu.'},
@@ -19,7 +19,7 @@ registerTopic({
     'Odpovědnost <b>smluvní</b> (porušení závazku ze smlouvy) × <b>mimosmluvní</b> (porušení obecné povinnosti, absolutního práva, dobrých mravů).',
     '<b>Bezdůvodné obohacení</b> (§ 2991 an.): kdo se na úkor jiného obohatí bez právního důvodu, musí obohacení <b>vydat</b>; nejde o náhradu škody, nepotřebuje zavinění.',
     '<b>Veřejnoprávní odpovědnost</b>: přestupky, jiné správní delikty, trestné činy – ukládá orgán veřejné moci (sankce), × odpovědnost státu za újmu při výkonu veřejné moci (zák. 82/1998 Sb., objektivní).',
-    'Nezletilý do 3 let a osoba neschopná ovládat jednání a posoudit následky neodpovídá; za nezletilého může odpovídat ten, kdo měl vykonávat dohled.'
+    'Nezletilý a osoba stižená duševní poruchou odpovídají, jen pokud byli <b>způsobilí ovládnout své jednání a posoudit následky</b>; společně a nerozdílně s nimi odpovídá ten, kdo nad nimi zanedbal dohled.'
   ],
   sections: [
     { title: 'Pojem a druhy odpovědnosti', blocks: [
@@ -56,7 +56,19 @@ registerTopic({
         ['Nevědomá nedbalost', 'neví, ač vědět měl a mohl', 'nechtěl, nebyl srozuměn']
       ] },
       { t: 'warn', x: 'Příčinná souvislost musí být <b>přímá a adekvátní</b>. Stav, kdy by škoda vznikla i bez jednání škůdce, příčinnou souvislost nezakládá. Zaviní-li škodu <b>částečně i poškozený</b>, nese ji poměrně (podíl se krátí).' },
+      { t: 'p', x: 'Splnění předpokladů 1–3 (protiprávnost, újma, příčinná souvislost) = <b>objektivní odpovědnost</b>; splnění všech čtyř (včetně zavinění) = <b>subjektivní odpovědnost</b>. Situace, která povinnost nahradit újmu vylučuje, je <b>okolnost vylučující protiprávnost</b>.' },
+      { t: 'p', x: '<b>Protiprávnost</b> je jednání škůdce v rozporu se zákonem (<b>deliktní</b> odpovědnost), se smlouvou (<b>kontraktní</b>) nebo s předpokladem uvedeným v zákoně, se kterým je spojena povinnost nahradit újmu, aniž došlo k porušení povinnosti (<b>mimoodpovědnostní</b> náhrada škody).' },
       { t: 'ex', x: 'Pepa nechal puštěnou vodu v bytě a vytopil souseda. Protiprávní jednání (porušení prevenční povinnosti), škoda (zničená podlaha), příčinná souvislost (voda z jeho bytu), nedbalost (zapomněl) → odpovídá. Pojistka domácnosti kryje jeho odpovědnost.' }
+    ] },
+    { title: 'Okolnosti vylučující protiprávnost a prevence', blocks: [
+      { t: 'p', x: 'Někdy osoba škodu prokazatelně způsobí, ale po ní by bylo nevhodné náhradu požadovat. Jde o <b>okolnosti vylučující protiprávnost</b>.' },
+      { t: 'table', head: ['Okolnost', 'Podmínky a příklad'], rows: [
+        ['<b>Nutná obrana</b> (§ 2905)', 'odvracení protiprávního trvajícího útoku (aktivní konání fyzické osoby); obrana nesmí být zcela zjevně nepřiměřená. Příklad: napadený v přiměřené obraně rozbije útočníkovi hodinky – útočník nemá právo na náhradu'],
+        ['<b>Krajní nouze</b>', 'stav hrozícího nebezpečí, které ohrožená osoba sama nevyvolala; způsobený následek není shodné intenzity ani vážnější než hrozící. Příklad: při hašení požáru v bytě je vytopen soused – zpravidla se nehradí'],
+        ['Vyloučení krajní nouze', 'osoba nebezpečí sama vyvolala, šlo ho odvrátit jinak, nebo je způsobený následek vážnější či stejně závažný než hrozící']
+      ] },
+      { t: 'warn', x: 'Slajd uvádí u nutné obrany i podmínku „újma poškozeného je nepatrná“ – bez vysvětlení to nedává smysl. Ověř přesné znění podmínek v § 2905 OZ; pro zkoušku si pamatuj: útok musí být protiprávní a obrana nesmí být zcela zjevně nepřiměřená.' },
+      { t: 'def', term: 'Prevenční povinnost', x: 'Každý je povinen počínat si při svém jednání tak, aby nedocházelo k nedůvodným újmám.', items: ['základ deliktní odpovědnosti i bez porušení konkrétního zákazu', 'viz též obecná prevenční povinnost v předpokladech odpovědnosti'] }
     ] },
     { title: 'Škoda, újma a způsob náhrady', blocks: [
       { t: 'table', head: ['Pojem', 'Význam', 'Příklad'], rows: [
@@ -76,6 +88,19 @@ registerTopic({
       { t: 'tip', x: 'Mnemotechnika: <b>škoda = skutečná škoda + ušlý zisk</b>. Nemajetková újma se nahrazuje <b>jen v případech stanovených zákonem</b> (zásah do přirozených práv – § 2956), vždy v přiměřené výši.' },
       { t: 'warn', x: 'Škoda <b>musí být prokázána a vyčíslena</b> poškozeným (ten nese důkazní břemeno). Hypotetická, zcela nejistá ztráta (např. ušlý zisk bez dokladů) nestačí. <b>Promlčení</b> práva na náhradu: obecně 3 roky od vědomosti o škodě a škůdci, nejdéle 10 let od vzniku (u úmyslně způsobené škody 15 let).' }
     ] },
+    { title: 'Náhrada při újmě na zdraví, usmrcení a peněžité dávky', blocks: [
+      { t: 'ul', items: [
+        '<b>Újma na přirozených právech člověka:</b> vznikne-li povinnost nahradit újmu na přirozených právech (ochrana osobnosti), nahradí škůdce škodu i nemajetkovou újmu, kterou tím způsobil.',
+        '<b>Ublížení na zdraví</b> (zlomenina, amputace, ochrnutí…): škůdce odčiní újmu peněžitou náhradou, která plně vyvažuje vytrpěné bolesti a další nemajetkové újmy; je-li překážkou lepší budoucnosti, nahradí i <b>ztížení společenského uplatnění</b>.',
+        '<b>Usmrcení nebo zvlášť závažné ublížení na zdraví:</b> škůdce odčiní duševní útrapy manželu, rodiči, dítěti nebo jiné osobě blízké peněžitou náhradou vyvažující plně jejich utrpení; nelze-li výši určit, stanoví se podle zásad slušnosti. Zákon umožňuje přizpůsobit výši okolnostem (talentovaný sportovec × vědec; manželé, kteří spolu patnáct let nežili × blízký celoživotní vztah).',
+        '<b>Náklady:</b> škůdce hradí účelně vynaložené náklady spojené s péčí o zdraví poškozeného, jeho osobu nebo domácnost tomu, kdo je vynaložil; přiměřené náklady <b>pohřbu</b>, pokud je nehradí veřejná dávka.'
+      ] },
+      { t: 'table', head: ['Peněžitá dávka', 'Obsah'], rows: [
+        ['Ztráta na výdělku po dobu pracovní neschopnosti', 'peněžitý důchod ve výši rozdílu mezi průměrným výdělkem před újmou a tím, co poškozený dostal podle jiného předpisu při nemoci či úrazu'],
+        ['Po skončení neschopnosti, příp. při invaliditě', 'náhrada za ztrátu na výdělku, později na důchodu'],
+        ['Žák nebo student', 'náhrada ztráty na výdělku ode dne, kdy měla skončit povinná školní docházka, studium či příprava na povolání, po dobu, o niž se prodloužily následkem újmy na zdraví, nebo po dobu zdravotního postižení, které brání (úplně či zčásti) zapojení do výdělečné činnosti']
+      ] }
+    ] },
     { title: 'Objektivní × subjektivní odpovědnost, liberace, odpovědnost za jiného', blocks: [
       { t: 'table', head: ['', 'Subjektivní', 'Objektivní'], rows: [
         ['Podmínka', 'zavinění (úmysl nebo nedbalost)', 'výsledek – vznik škody; zavinění se nezkoumá'],
@@ -84,18 +109,28 @@ registerTopic({
         ['Příklady', 'špatný šachový tah, dopravní nehoda z nepozornosti', 'zvlášť nebezpečný provoz, vada výrobku, zvíře, vada věci při úplatném plnění']
       ] },
       { t: 'def', term: 'Liberace (zproštění odpovědnosti)', x: 'Možnost odpovědné osoby <b>zprostit se</b> povinnosti k náhradě prokázáním zákonných okolností.', items: ['<b>liberační důvody</b> se liší podle skutkové podstaty', 'u smluvní odpovědnosti (§ 2913) zprostí škůdce <b>mimořádná, nepředvídatelná a nepřekonatelná překážka vzniklá nezávisle na vůli</b>', 'příklad vyšší moci: povodeň, válka'] },
-      { t: 'table', head: ['Zvláštní případ', 'Odpovědná osoba', 'Typ / zproštění'], rows: [
-        ['<b>Provozní činnost</b> (§ 2924 an.)', 'provozovatel zvlášť nebezpečného provozu (doprava, energetika, těžba…)', 'objektivní; zprostí se jen prokáže-li, že škodu nebylo možné odvrátit ani při vynaložení veškerého úsilí, které lze požadovat'],
-        ['<b>Zvíře</b> (§ 2933 an.)', 'chovatel (ne jen vlastník)', 'odpovědnost chovatele; zprostí se, prokáže-li, že vynaložil péči, kterou lze po něm požadovat (dohled řádného hospodáře)'],
-        ['<b>Vada výrobku</b> (§ 2939 an.)', 'výrobce (též dovozce a označený výrobce)', 'objektivní; zprostí se např. nedostatkem poznatků v době uvedení do oběhu'],
-        ['<b>Škoda způsobená věcí</b>, vadou věci při úplatném plnění', 'ten, kdo věc za úplatu poskytl', 'objektivní vůči příjemci při vadě věci'],
-        ['<b>Pomocník</b> při plnění závazku (§ 2914)', 'dlužník – odpovídá, jako by plnil sám', 'jinak by se věřitel nemohl domoci náhrady'],
-        ['<b>Nezletilý / nesvéprávný</b> (§ 2920 an.)', 'sám škůdce, má-li <b>rozumovou a volní vyspělost</b>; jinak ten, kdo měl vykonávat dohled', 'dítě do 3 let neodpovídá; dohled – rodiče, škola (mají s péčí řádného hospodáře)'],
-        ['<b>Zaměstnanec</b> při výkonu práce', 'zaměstnavatel (zákoník práce, § 265)', 'objektivní; regres po zaměstnanci omezen 4,5násobkem výdělku']
+      { t: 'table', head: ['Další případy (doplněno)', 'Odpovědná osoba', 'Typ / zproštění'], rows: [
+        ['<b>Vada výrobku</b>', 'výrobce (též dovozce a označený výrobce)', 'objektivní; zprostí se např. nedostatkem poznatků v době uvedení do oběhu'],
+        ['<b>Pomocník</b> při plnění závazku', 'dlužník – odpovídá, jako by plnil sám', 'jinak by se věřitel nemohl domoci náhrady'],
+        ['<b>Zaměstnanec</b> při výkonu práce', 'zaměstnavatel (zákoník práce)', 'objektivní; regres po zaměstnanci omezen']
       ] },
+      { t: 'p', x: 'Zvláštní případy odpovědnosti (škoda způsobená tím, kdo nemůže posoudit následky, osobou nebezpečných vlastností, z provozní činnosti, provozem zvlášť nebezpečným, dopravou, zvířetem, na vnesené věci) jsou samostatně v další sekci.' },
       { t: 'warn', x: '<b>Nezletilý a nesvéprávný</b>: odpovídá jen tehdy, je-li schopen ovládat své jednání a posoudit jeho následky. Bylo-li dítě zjevně nevyspělé, odpovídá dohlížející osoba; pokud dohled neselhal (osoba prokáže, že dohlížela s péčí), může se zprostit. Rodiče neručí za své děti automaticky.' },
-      { t: 'ex', x: 'Šestiletý Tomáš rozbije míčem sousedovo okno. Nese odpovědnost sám? Nejspíš ne (nedosahuje rozumové a volní vyspělosti). Škodu hradí rodiče, jestliže neprokáží, že dohlíželi řádně. Rodiče pak mohou použít pojištění odpovědnosti.' },
+      { t: 'ex', x: 'Šestiletý Tomáš rozbije míčem sousedovo okno. Nese odpovědnost sám? Nejspíš ne (není způsobilý posoudit následky). Škodu hradí ten, kdo nad ním zanedbal dohled, tedy rodiče, jestliže neprokáží řádný dohled. Rodiče pak mohou použít pojištění odpovědnosti.' },
       { t: 'p', x: '<b>Solidarita</b>: způsobí-li škodu více osob společně, odpovídají společně a nerozdílně; poškozenému stačí žalovat kteréhokoli, ten se pak domáhá <b>regresu</b> (vyrovnání) po ostatních.' }
+    ] },
+    { title: 'Zvláštní případy odpovědnosti za škodu', blocks: [
+      { t: 'p', x: 'Zvláštní případy jsou skutkově užší okruhy (podle toho, <b>kým</b> nebo <b>čím</b> byla škoda způsobena, popř. <b>na čem</b>). Zákon je upravil proto, že se v praxi vyskytují nejčastěji (doprava), nebo vzbuzují aplikační potíže (škoda způsobená několika osobami).' },
+      { t: 'table', head: ['Případ', 'Pravidlo', 'Zproštění'], rows: [
+        ['<b>Škoda způsobená tím, kdo nemůže posoudit následky</b> (nezletilý, duševní porucha)', 'nahradí ji, byl-li způsobilý ovládnout jednání a posoudit následky; jinak má poškozený právo na náhradu, je-li to spravedlivé s ohledem na majetkové poměry. Společně a nerozdílně nahradí ten, kdo nad ním zanedbal dohled (je-li škůdce zproštěn, hradí jen dohlížející). Kdo se sám uvede do takového stavu, škodu nahradí', '–'],
+        ['<b>Osoba s nebezpečnými vlastnostmi</b>', 'kdo se jí vědomě ujme (poskytne útulek nebo svěří činnost bez nutné potřeby), nahradí škodu společně a nerozdílně s ní', '–'],
+        ['<b>Provozní činnost</b>', 'provozovatel závodu či zařízení sloužícího k výdělečné činnosti hradí škodu z provozu (vlastní činností, věcí, vlivem na okolí)', 'prokáže, že vynaložil veškerou péči, kterou lze rozumně požadovat'],
+        ['<b>Provoz zvlášť nebezpečný</b>', 'provoz, u něhož nelze předem rozumně vyloučit možnost závažné škody ani při řádné péči (zpravidla továrním způsobem, s výbušnou či obdobně nebezpečnou látkou); zdroj zvýšeného nebezpečí', 'vyšší moc, vlastní jednání poškozeného nebo neodvratitelné jednání třetí osoby'],
+        ['<b>Provoz dopravních prostředků</b>', 'kdo provozuje dopravu, hradí škodu z její zvláštní povahy; i provozovatel vozidla, plavidla, letadla (ne poháněných lidskou silou). Kdo dopravní prostředek použije bez vědomí či proti vůli provozovatele, hradí místo něj; provozovatel společně s ním, umožnil-li užití z nedbalosti', 'nezprostí se u škody z okolností, které mají původ v provozu; jinak když prokáže, že škodě nemohl zabránit ani při veškerém úsilí'],
+        ['<b>Škoda způsobená zvířetem</b>', 'nahradí ji vlastník (i když zvíře bylo pod dohledem jiného, zatoulalo se nebo uprchlo); společně a nerozdílně s ním ten, komu bylo svěřeno nebo kdo je chová či používá', 'jen u zvířete sloužícího k povolání, výdělku, obživě nebo jako pomocník osoby se zdravotním postižením: prokáže potřebnou pečlivost při dozoru'],
+        ['<b>Škoda na vnesené věci</b>', 'ubytovatel nahradí škodu na věci, kterou ubytovaný vnesl do prostor vyhrazených k ubytování či uložení; hradí se do výše <b>stonásobku ceny ubytování za den</b>; bez omezení při převzetí do úschovy, nezákonném odmítnutí úschovy nebo zavinění ubytovatelem či pracovníkem', 'prokáže, že by škoda vznikla i jinak, nebo ji způsobil ubytovaný či osoba, která ho z jeho vůle provází']
+      ] },
+      { t: 'ex', x: 'Pepa se ubytuje v hotelu za 2 000 Kč na noc a z pokoje mu zmizí fotoaparát za 50 000 Kč. Hotel hradí škodu jen do <b>200 000 Kč</b> (stonásobek 2 000 Kč) – to pokryje celou škodu. Při škodě 300 000 Kč by hradil max. 200 000 Kč, ledaže Pepa věc dal do úschovy nebo škodu zavinil hotel či jeho pracovník.' }
     ] },
     { title: 'Smluvní × mimosmluvní odpovědnost, předpisy', blocks: [
       { t: 'table', head: ['', 'Smluvní', 'Mimosmluvní (deliktní)'], rows: [
@@ -116,14 +151,16 @@ registerTopic({
     ] },
     { title: 'Bezdůvodné obohacení (§ 2991 an.)', blocks: [
       { t: 'def', term: 'Bezdůvodné obohacení', x: 'Kdo se <b>obohatí</b> majetkovým prospěchem <b>na úkor jiného</b> bez spravedlivého důvodu, musí obohacení vydat (§ 2991 odst. 1).', items: ['věřitelem je ochuzený', 'dlužníkem je obohacený'] },
-      { t: 'p', x: 'Typické případy dle odst. 2 (příkladmo, <b>nejde o výčet uzavřený</b>):' },
+      { t: 'p', x: 'Podle přednášky jde o: plnění bez právního důvodu, plnění z právního důvodu, který odpadl, protiprávní užití cizí hodnoty, plnění za někoho, kdo měl plnit sám, a plnění jiného bez platného závazku. Obohacení nemusí vzniknout protiprávním jednáním (na rozdíl od odpovědnosti za škodu). Které případy vydání nepodléhají, stanoví § 2992. Promlčení: subjektivní 3letá a objektivní 10letá lhůta. Další typy <i>(doplněno)</i>:' },
       { t: 'table', head: ['Případ', 'Význam', 'Příklad'], rows: [
         ['Plnění <b>bez právního důvodu</b>', 'plnil bez dluhu', 'zaplatil fakturu dvakrát; omylem poslal peníze na jiný účet'],
-        ['Z <b>neplatného právního jednání</b>', 'smlouva byla neplatná (od počátku)', 'platba kupní ceny z neplatné kupní smlouvy → vrací se vzájemně'],
+        ['Za něho bylo plněno, co měl plnit sám', 'třetí osoba splnila cizí dluh bez pověření', 'cizí plátce uhradí dluh jiného, který tím je obohacen'],
+        ['Plnění jiného bez platného závazku', 'plnění bez závazku, který by k tomu zavazoval', 'zaplacení dluhu, který neexistuje'],
+        ['<i>(doplněno)</i> Z <b>neplatného právního jednání</b>', 'smlouva byla neplatná (od počátku)', 'platba kupní ceny z neplatné kupní smlouvy → vrací se vzájemně'],
         ['Z právního důvodu, který <b>odpadl</b>', 'smlouva zanikla (např. odstoupením)', 'po odstoupení od smlouvy se vrací zaplacená cena'],
-        ['Z <b>nedosažení účelu</b>', 'plnění za účelem, který se nedostavil', 'záloha na plánovanou koupi, která se nekonala'],
-        ['Z <b>protiprávního odběru</b>', 'bez právního důvodu (zneužití cizí věci)', 'neoprávněný odběr elektřiny, vody; užívání cizího bytu bez nájemní smlouvy'],
-        ['Z <b>nepoctivých zdrojů</b>', 'zisk z protiprávního jednání nebo ze zakázané činnosti', 'zisk z prodeje cizí věci']
+        ['<i>(doplněno)</i> Z <b>nedosažení účelu</b>', 'plnění za účelem, který se nedostavil', 'záloha na plánovanou koupi, která se nekonala'],
+        ['<b>Protiprávní užití cizí hodnoty</b>', 'bez právního důvodu (zneužití cizí věci)', 'neoprávněný odběr elektřiny, vody; užívání cizího bytu bez nájemní smlouvy'],
+        ['<i>(doplněno)</i> Z <b>nepoctivých zdrojů</b>', 'zisk z protiprávního jednání nebo ze zakázané činnosti', 'zisk z prodeje cizí věci']
       ] },
       { t: 'table', head: ['Hledisko', 'Poctivý (dobrá víra)', 'Nepoctivý'], rows: [
         ['Vydání', 'jen to, co ještě má / o co je obohacen', 'vše + užitky a vynaložené náklady; vrací, co by mohl získat'],
@@ -133,7 +170,7 @@ registerTopic({
       { t: 'warn', x: 'Bezdůvodné obohacení × náhrada škody: u obohacení se zkoumá <b>zisk obohaceného</b> (nikoli újma poškozeného) a <b>nepotřebuje se zavinění</b>. Vydat se má plnění „v naturální podobě“, nelze-li, v penězích. Nevrací se plnění poskytnuté <b>vědomě</b> na cizí/neexistující dluh nebo na dluh promlčený.' },
       { t: 'ex', x: 'Anna zaplatí kupní cenu za auto, avšak smlouva se ukáže jako neplatná pro nedostatek formy. Nárok na vrácení: ze smlouvy žádný (smlouva neplatná), ale z bezdůvodného obohacení ano; kupující vrací auto, prodávající peníze. Pozor – obecná promlčecí lhůta běží i pro nárok z obohacení.' }
     ] },
-    { title: 'Veřejnoprávní odpovědnost', blocks: [
+    { title: 'Veřejnoprávní odpovědnost (doplněno)', blocks: [
       { t: 'table', head: ['Druh', 'Kdo odpovídá', 'Základ', 'Sankce'], rows: [
         ['<b>Trestný čin</b>', 'FO od 15 let; PO (zák. 418/2011 Sb.)', 'trestní zákoník 40/2009 Sb.', 'odnětí svobody, peněžitý trest, zákaz činnosti, propadnutí věci, zrušení PO'],
         ['<b>Přestupek</b>', 'FO od 15 let; PO; podnikající FO', 'zák. 250/2016 Sb. + zvláštní zákony', 'napomenutí, pokuta, zákaz činnosti, propadnutí věci, zveřejnění rozhodnutí'],
@@ -171,7 +208,7 @@ registerTopic({
     { q: 'Jaký je způsob náhrady škody?', a: 'Primárně <b>naturální</b> (uvedení do předešlého stavu), jinak <b>peněžitá</b>; v penězích také na žádost poškozeného (§ 2951). Nemajetková újma zpravidla v penězích či jiným způsobem (omluva).' },
     { q: 'Co je liberace a kdy se uplatní?', a: 'Možnost <b>zprostit se odpovědnosti</b> prokázáním zákonných důvodů. Při objektivní odpovědnosti jedině tímto způsobem, např. vyšší moc či zavinění poškozeného. Ve smluvní odpovědnosti: mimořádná, nepředvídatelná a nepřekonatelná překážka (§ 2913 odst. 2).' },
     { q: 'Čím se liší objektivní a subjektivní odpovědnost? Uveď příklady.', a: 'Subjektivní = zavinění je podmínkou (obecné pravidlo, nedbalost se předpokládá). Objektivní = zavinění se neposuzuje, jen výsledek; zákonné případy: zvlášť nebezpečný provoz, vada výrobku, zvíře, vada věci při úplatném plnění, odpovědnost zaměstnavatele.' },
-    { q: 'Šestiletý Tomáš rozbil míčem okno sousedovi. Kdo odpovídá?', a: 'Škůdce sám jen při dostatečné rozumové a volní vyspělosti; šestileté dítě zpravidla nikoli (do 3 let neodpovídá vůbec). Odpovídá <b>ten, kdo měl dohled</b> (rodiče, škola), pokud se nezprostí důkazem řádného dohledu (§ 2920 an.).' },
+    { q: 'Šestiletý Tomáš rozbil míčem okno sousedovi. Kdo odpovídá?', a: 'Škůdce sám jen tehdy, byl-li způsobilý ovládnout své jednání a posoudit následky; šestileté dítě zpravidla nikoli. Společně a nerozdílně s ním (nebo místo něj, není-li povinen) hradí škodu <b>ten, kdo nad ním zanedbal dohled</b> (rodiče, škola). Nebyl-li schopen, může soud přiznat náhradu, je-li to spravedlivé s ohledem na majetkové poměry.' },
     { q: 'Co je obecná prevenční povinnost?', a: '§ 2900: povinnost počínat si tak, aby nedocházelo ke škodě na svobodě, životě, zdraví, majetku a přírodě, vyžadují-li to okolnosti nebo poměry. Slouží jako základ deliktní odpovědnosti i bez konkrétního zákazu.' },
     { q: 'Smluvní × mimosmluvní odpovědnost – rozdíl a příklad.', a: 'Smluvní: porušení smluvní povinnosti (zhotovitel dodá vadné dílo). Mimosmluvní: porušení zákonné povinnosti nebo absolutního práva, kde mezi stranami smlouva není (nehoda dvou řidičů). Liší se i zproštěním a předvídatelností škody.' },
     { q: 'Co je bezdůvodné obohacení a jaké jsou jeho typy?', a: 'Majetkový prospěch získaný <b>na úkor jiného bez právního důvodu</b>; vydání obohacení (§ 2991). Typy: plnění <b>bez právního důvodu</b>, z <b>neplatného úkonu</b>, z právního důvodu, který <b>odpadl</b>, z <b>nedosažení účelu</b>, z <b>protiprávního odběru</b>, z nepoctivých zdrojů.' },

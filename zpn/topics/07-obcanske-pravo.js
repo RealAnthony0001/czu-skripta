@@ -1,6 +1,6 @@
 registerTopic({
-  id: 'obcanske-pravo', order: 8, icon: '📕', title: 'Občanský zákoník: zásady a absolutní majetková práva', src: 'podklady', lec: [2,4], where: 'Přednáška 2 (úvod do NOZ) + sylabus přednášky 4 (doplněno)',
-  summary: 'Cíle, struktura a zásady nového občanského zákoníku (89/2012 Sb.), nové termíny, zrušené a nově přijaté předpisy; doplňkově vlastnictví, věcná práva, držba a ochrana vlastnictví.',
+  id: 'obcanske-pravo', order: 8, icon: '📕', title: 'Občanský zákoník: zásady a absolutní majetková práva', src: 'podklady', lec: [2,4], where: 'Přednáška 2 (úvod do NOZ) + Přednáška 4 (absolutní majetková práva, 23. 10. 2024)',
+  summary: 'Cíle, struktura a zásady nového občanského zákoníku (89/2012 Sb.), nové termíny, zrušené a nově přijaté předpisy; věcná práva: vlastnictví a jeho omezení, nabytí a zánik, držba, věcná práva k věci cizí a ochrana vlastnictví.',
   vocab: [
     {w:'Sb.',x:'Sbírka zákonů – oficiální věstník, ve kterém se zákony vyhlašují; „89/2012 Sb.“ = zákon č. 89 z roku 2012.'},
     {w:'§ a odst.',x:'Paragraf (§) je základní jednotka zákona, odstavec (odst.) jeho část; „§ 1 odst. 2“ = druhý odstavec prvního paragrafu.'},
@@ -9,7 +9,9 @@ registerTopic({
     {w:'Fyzická a právnická osoba',x:'Fyzická osoba (FO) je člověk, právnická osoba (PO) je organizace s vlastní právní subjektivitou (firma, spolek, obec).'},
     {w:'Svéprávnost',x:'Způsobilost osoby sama svými úkony nabývat práva a brát na sebe povinnosti; plná od 18 let.'},
     {w:'Věc movitá × nemovitá',x:'Nemovitá je pozemek, stavba a právo stavby (zapisují se do katastru); movitá je vše ostatní (auto, kolo, telefon).'},
-    {w:'Dispozitivní × kogentní norma',x:'Dispozitivní pravidlo platí jen tehdy, když se strany nedohodnou jinak; kogentní platí vždy a odchýlit se nelze.'}
+    {w:'Dispozitivní × kogentní norma',x:'Dispozitivní pravidlo platí jen tehdy, když se strany nedohodnou jinak; kogentní platí vždy a odchýlit se nelze.'},
+    {w:'Erga omnes',x:'„Vůči všem“ – absolutní práva (vlastnictví) musí respektovat každý.'},
+    {w:'Vklad × záznam',x:'Vklad je zápis práva do katastru na návrh z vůle vlastníka (poplatek); záznam se provádí u přechodu práva ze zákona či z rozhodnutí.'}
   ],
   key: [
     '<b>NOZ = zákon č. 89/2012 Sb., účinnost 1. 1. 2014</b>, nahradil OZ 40/1964 Sb.; 3081 paragrafů, 5 částí. Současně přijaty <b>90/2012 Sb.</b> (o obchodních korporacích) a <b>91/2012 Sb.</b> (o mezinárodním právu soukromém).',
@@ -17,8 +19,10 @@ registerTopic({
     '<b>Zásady:</b> autonomie vůle (§ 1 odst. 2 – dispozitivnost), poctivost a dobrá víra (§ 6–7), zákaz zneužití práva (§ 8), ochrana slabší strany, právní jistota, ochrana osobnosti, pacta sunt servanda, zákaz těžit z vlastního bezpráví.',
     '<b>§ 4:</b> každý svéprávný má rozum <b>průměrného člověka</b> a schopnost jej užívat s běžnou péčí. <b>§ 5:</b> kdo se hlásí k odbornému výkonu, jedná s <b>odbornou péčí</b>.',
     '<b>Nové pojmy:</b> rozhrady, přivlastnění, přestavek, právo stavby, služebnost, beneficient, svěřenský fond, obmyšlený, závdavek (není záloha), výprosa, pacht, výměnek, odvážné smlouvy.',
-    '<b>Vlastnictví</b> (doplněno): nabývá se originárně (vydržení, přivlastnění) či odvozeně; k nemovitosti zápisem do katastru. <b>Věcná práva:</b> zástavní, věcné břemeno, předkupní právo, právo stavby. <b>Držba</b> ≠ vlastnictví.',
-    '<b>Ochrana vlastnictví</b> (doplněno): <b>vlastnická (vindikační) žaloba</b> – o vydání věci; <b>negatorní</b> – o zdržení se rušení jiným způsobem než odnětím.'
+    '<b>Věcná práva</b> (§ 976 an.) působí proti všem (erga omnes), nepromlčují se a jejich výčet určuje jen zákon. <b>Vlastnictví</b> (§ 1011) je nejsilnější z nich; omezuje ho zákon (sousedská práva, imise, vyvlastnění za náhradu) – <b>vlastnictví zavazuje</b>.',
+    '<b>Nabytí</b>: originární × derivativní; <b>převod</b> (z vůle vlastníka, vklad do katastru 2 000 Kč) × <b>přechod</b> (dědění, rozhodnutí, záznam zdarma). <b>Vydržení</b>: movitá 3 roky, nemovitá 10 let (mimořádné 6 / 20); opuštění movité věci 3 roky, nemovité 10.',
+    '<b>Věcná práva k věci cizí</b>: právo stavby, věcná břemena (služebnost × reálné břemeno), zástavní právo, zadržovací právo. <b>Držba</b> = faktická moc + vůle vykonávat právo pro sebe (řádná, poctivá, pravá – domněnka).',
+    '<b>Ochrana vlastnictví</b>: vlastnická (reivindikační) žaloba o vydání věci (§ 1040), zápůrčí o zdržení se rušení (§ 1042), publiciánská (§ 1044), určovací (§ 80 o. s. ř.).'
   ],
   sections: [
     { title: 'Cíle, struktura a rekodifikace', blocks: [
@@ -122,77 +126,150 @@ registerTopic({
         { h: 'Záloha', items: ['Předčasné plnění části ceny', 'Platba na účet ceny, není zajištění'] }
       ] },
     ] },
-    { title: 'Vlastnictví a jeho nabytí (doplněno)', blocks: [
-      { t: 'p', x: '<b>(doplněno)</b> Třetí část NOZ (věcná práva, § 976 an.) upravuje <b>absolutní majetková práva</b>: působí <b>vůči všem</b> (erga omnes). Relativní práva (závazky) působí jen mezi stranami.' },
-      { t: 'def', term: 'Vlastnické právo (doplněno)', x: 'Nejširší věcné právo k věci.', items: ['vlastník je oprávněn věc držet, užívat, požívat plody a užitky, nakládat s ní a vyloučit kohokoli jiného – vše v mezích zákona', 'právo trvalé a nepromlčitelné', 'předmětem je věc (i nehmotná)', 'lze spoluvlastnictví (podílové, SJM) a vlastnictví bytových jednotek'] },
-      { t: 'icons', title: 'Co smí vlastník', items: [
-        { i: '✋', h: 'Držet', x: 'mít věc ve své moci' },
-        { i: '🔧', h: 'Užívat', x: 'využívat věc' },
-        { i: '🍎', h: 'Požívat plody a užitky', x: 'brát výnosy věci' },
-        { i: '✍️', h: 'Nakládat', x: 'disponovat – prodat, darovat, zatížit' },
-        { i: '⛔', h: 'Vylučovat ostatní', x: 'kohokoli jiného z těchto oprávnění' }
-      ] },
-      { t: 'tree', title: 'Nabytí vlastnictví', root: { h: 'Nabytí vlastnictví', kids: [
-        { h: 'Originární (původní)', kids: [
-          { h: 'Přivlastnění', x: 'věc nikoho' },
-          { h: 'Nález', x: '' },
-          { h: 'Zhotovení nové věci', x: '' },
-          { h: 'Vydržení', x: 'řádný držitel v dobré víře' },
-          { h: 'Přírůstek', x: '' }
+    { title: 'Věcná práva a vlastnické právo', blocks: [
+      { t: 'def', term: 'Věcná práva (absolutní majetková práva)', x: 'Práva k věci, která dávají úplné nebo částečné právní panství nad určitou věcí.', items: ['úprava v OZ (§ 976–1720); předmětem je věc (hmotná, nehmotná i věcná práva, pokud to jejich povaha připouští), určená individuálně', 'působí <b>proti všem</b> (erga omnes) – ostatní se musí zdržet zásahu nebo strpět výkon práva', 'které právo k majetku je absolutní, určuje jen zákon (taxativní výčet)', 'nepromlčují se; rozhoduje osud věci, nikoli osoby, která k ní právo má'] },
+      { t: 'tree', title: 'Struktura věcných práv v OZ', root: { h: 'Věcná práva', x: '§ 976 an.', kids: [
+        { h: 'Obecná ustanovení', x: '§ 976–986' },
+        { h: 'Držba', x: '§ 987–1010' },
+        { h: 'Vlastnictví', x: '§ 1011–1114' },
+        { h: 'Spoluvlastnictví', x: '§ 1115–1157; bytové § 1158–1222; přídatné § 1223–1235' },
+        { h: 'Věcná práva k cizím věcem', kids: [
+          { h: 'Právo stavby', x: '§ 1240–1256' },
+          { h: 'Věcná břemena', x: '§ 1257–1308 (služebnosti, reálná břemena)' },
+          { h: 'Zástavní právo', x: '§ 1309–1394' },
+          { h: 'Zadržovací právo', x: '§ 1395–1399' }
         ] },
-        { h: 'Odvozené (derivativní)', x: 'právní důvod (smlouva kupní, darovací, směna) + způsob nabytí', kids: [
-          { h: 'Movitá věc', x: 'předání / převzetí' },
-          { h: 'Nemovitá věc', x: 'zápis do katastru (účinky zpětně ke dni podání návrhu)' },
-          { h: 'Dědění, rozhodnutí OVM', x: '' }
-        ] }
+        { h: 'Správa cizího majetku', x: '§ 1400–1474' }
       ] } },
-      { t: 'nums', title: 'Vydržení (doplněno)', items: [
-        { n: '3', u: 'roky', x: 'movitá věc' },
-        { n: '10', u: 'let', x: 'nemovitá věc' }
+      { t: 'p', x: 'Věc a její třídění (hmotná × nehmotná, movitá × nemovitá, součást × příslušenství) je v tématu <b>Právní vztahy, subjekty a objekty</b>.' },
+      { t: 'law', ref: 'Čl. 11 Listiny', x: '„Každý má právo vlastnit majetek. Vlastnické právo všech vlastníků má stejný zákonný obsah a ochranu. Dědění se zaručuje.“ Vyvlastnění nebo nucené omezení vlastnického práva je možné ve veřejném zájmu, na základě zákona a za náhradu. Vlastnictví zavazuje – nesmí být zneužito na újmu práv druhých ani v rozporu se zákonem chráněnými obecnými zájmy.' },
+      { t: 'def', term: 'Vlastnické právo (§ 1011)', x: 'Přímé a výlučné právní panství individuálně určené osoby nad konkrétní věcí – nejsilnější a nejrozsáhlejší věcné právo.', items: ['vlastnictvím osoby je vše, co jí patří – věci hmotné i nehmotné, pokud to jejich povaha připouští', 'vlastník může se svým vlastnictvím v mezích právního řádu libovolně nakládat a vyloučit jiné osoby', 'všichni ostatní jsou povinni vlastníka nerušit'] },
+      { t: 'table', head: ['Druh', 'Obsah'], rows: [
+        ['Výlučné', 'všechna práva vykonává jeden vlastník'],
+        ['Podílové spoluvlastnictví', 'více vlastníků, podíl se určuje zlomkem či procentem; správa společné věci se rozhoduje většinou podle velikosti podílů; zrušení dohodou nebo rozhodnutím soudu; předkupní právo mezi spoluvlastníky je značně omezeno; zvláštní úprava bytového spoluvlastnictví a společenství vlastníků jednotek'],
+        ['Společné jmění manželů', 'jediné bezpodílové spoluvlastnictví; vzniká uzavřením manželství a končí jeho zánikem']
       ] },
-      { t: 'ul', items: [
-        '<b>Sousedská práva:</b> vlastník se musí zdržet imisí (hluk, prach, kouř, pach, stín, světlo…), které nad míru přiměřenou poměrům ruší sousední pozemek; přestavek, rozhrady.',
-        '<b>Superficies solo cedit:</b> stavba je zpravidla součástí pozemku (viz téma Právní vztahy).'
-      ] },
-      { t: 'warn', x: 'Čísla paragrafů v části „doplněno“ jsou orientační (např. § 976 an. věcná práva); u zkoušky se ptají hlavně na pojmy a rozlišení, ne na přesná čísla.' }
+      { t: 'tip', x: 'Vlastnictví = právo k věci (věc ti patří), absolutní. Pohledávka z kupní smlouvy je naopak relativní – působí jen vůči prodávajícímu. Proto se vlastnictví hájí vůči komukoli, pohledávka jen vůči dlužníkovi.' }
     ] },
-    { title: 'Věcná práva k věci cizí a držba (doplněno)', blocks: [
-      { t: 'tree', title: 'Věcná práva k věci cizí', root: { h: 'Věcná práva k věci cizí', kids: [
-        { h: 'Zástavní právo', x: 'zajišťuje pohledávku; věřitel se uspokojí z hodnoty zástavy. Zastavit lze movitou i nemovitou věc, pohledávku, právo. Vzniká smlouvou + zápisem (katastr / Rejstřík zástav) nebo předáním' },
-        { h: 'Věcné břemeno', x: 'zřizuje se smlouvou, rozhodnutím nebo vydržením; u nemovitosti zápisem', kids: [
-          { h: 'Služebnost', x: 'zatížený vlastník něco strpí či se zdrží (cesta, vodovod)' },
-          { h: 'Reálné břemeno', x: 'povinnost pravidelně něco plnit (naturálie)' }
-        ] },
-        { h: 'Předkupní právo', x: 'přednostně koupit prodávanou věc; u nemovitosti může být <b>věcně působící</b> (zapsáno v katastru)' },
-        { h: 'Právo stavby', x: 'stavba na cizím pozemku; nemovitá věc; zřizuje se smlouvou, zapisuje do katastru' },
-        { h: 'Zadržovací právo', x: 'věřitel zadrží cizí věc, dokud mu dlužník nezaplatí' }
-      ] } },
-      { t: 'versus', title: 'Vlastnictví × držba × detence', x: 'Tři pojmy popisují tři různé vztahy k věci. Vlastnictví je právo: věc ti patří, i když ji právě nemáš u sebe, třeba když jsi kolo půjčil. Držba je faktický stav, kdy někdo vykonává právo pro sebe, jako by mu věc patřila – i ten, kdo kolo koupil od zloděje, je držitel, přestože vlastníkem není; poctivý řádný držitel se může stát vlastníkem vydržením. Detence je držení věci pro někoho jiného: kamarád, kterému jsi kolo půjčil, je detentor – kolo má u sebe, ale ví, že je tvoje, a proto ho nikdy nevydrží.', cols: [
-        { h: 'Vlastnictví', items: ['Právo k věci', 'Věc patří vlastníkovi', 'Nejširší věcné právo'] },
-        { h: 'Držba', items: ['Skutečný stav – výkon práva pro sebe', 'Držitel drží jako vlastník či jiný oprávněný', 'Řádná držba vede k vydržení'] },
-        { h: 'Detence', items: ['Držení věci pro někoho jiného', 'Detentor (nájemce, vypůjčitel) nedrží pro sebe', 'Bez vydržení'] }
-      ] },
+    { title: 'Omezení vlastnického práva a sousedská práva', blocks: [
       { t: 'ul', items: [
-        '<b>Držba (doplněno):</b> oprávněná × neoprávněná; poctivá (v dobré víře) × nepoctivá; <b>řádná držba</b> = předpoklad vydržení.',
-        'Ochrana držby: svépomoc proti svémocnému zásahu, držebná žaloba v krátké prekluzivní lhůtě; platí vyvratitelná domněnka, že držitel je oprávněný (vlastník).'
+        '<b>Se souhlasem vlastníka:</b> věc přenechá na přechodnou dobu jinému nebo k ní zřídí věcné břemeno.',
+        '<b>Ze zákona:</b> jen ve veřejném zájmu, který nelze uspokojit jinak, na nezbytnou dobu a v nezbytné míře, za <b>plnou náhradu</b> odpovídající míře dotčení (zpravidla v penězích, lze i jinak, ujednají-li strany). Ve stavu nouze či naléhavého veřejného zájmu lze vlastníkovu věc použít, nelze-li cíle dosáhnout jinak.',
+        '<b>Vlastnictví zavazuje:</b> zákaz zneužití práva, zákaz rozporu se zákonem chráněnými obecnými zájmy, zákaz obtěžování jiného nad míru přiměřenou poměrům a činů, jejichž hlavním účelem je jiného obtěžovat či poškodit (generální klauzule).'
+      ] },
+      { t: 'table', head: ['Sousedské omezení', 'Pravidlo'], rows: [
+        ['<b>Imise</b>', 'vlastník se zdrží všeho, co působí, že odpad, voda, kouř, prach, plyn, pach, světlo, stín, hluk, otřesy (i zvířata) vnikají na sousední pozemek v míře nepřiměřené místním poměrům a podstatně omezují obvyklé užívání. Přímo přivádět imise je zakázáno bez ohledu na míru. U úředně schváleného provozu má soused jen nárok na náhradu újmy v penězích'],
+        ['Cizí věc na pozemku', 'vlastník pozemku ji bez zbytečného odkladu vydá vlastníku nebo mu umožní ji vyhledat a odnést; vlastník smí stíhat na cizím pozemku zvíře nebo roj včel; vletí-li roj do cizího obsazeného úlu, nabývá vlastník úlu roj bez náhrady. Škodu způsobenou věcí, zvířetem či rojem může vlastník pozemku požadovat'],
+        ['Plody ze sousedního pozemku', 'plody spadlé na zem ze stromů a keřů na sousední pozemek náleží jeho vlastníku (ne na veřejný statek)'],
+        ['Ohrožení stavby nebo pozemku', 'nelze zbavit sousedovu stavbu opory zbouráním vlastní zdi ani dělat výkopy vyvolávající sesuv. Soused se může domáhat, aby se vlastník zdržel sázení stromů v těsné blízkosti hranice; není-li jinak, platí vzdálenost <b>3 m</b> u stromů dorůstajících obvykle výšky přes 3 m a <b>1,5 m</b> u ostatních'],
+        ['Vstup na pozemek', 'vlastník umožní sousedovi vstup v době, rozsahu a způsobem nezbytným k údržbě nebo hospodaření, nelze-li cíle dosáhnout jinak; soused nahradí újmu'],
+        ['Rozhrady', 'ploty, zdi, meze apod. mezi sousedními pozemky se považují za společné; společnou zeď každý užívá na své straně do poloviny tloušťky a nesmí ji ohrozit'],
+        ['Nezbytná cesta', 'nemá-li nemovitost dostatečné spojení s veřejnou cestou, může vlastník žádat, aby mu soused za náhradu povolil cestu přes svůj pozemek; soud ji povolí v rozsahu nezbytném s co nejmenším zatížením souseda, i jako služebnost']
       ] }
     ] },
-    { title: 'Ochrana vlastnictví (doplněno)', blocks: [
-      { t: 'tree', title: 'Čím se bránit', root: { h: 'Zásah do vlastnictví', kids: [
-        { h: 'Věc neprávem zadržena', x: 'neoprávněný držitel / detentor', kids: [
-          { h: 'Vlastnická (vindikační) žaloba', x: '§ 1040 – vydání věci' }
+    { title: 'Nabytí a zánik vlastnictví', blocks: [
+      { t: 'versus', title: 'Originární × derivativní nabytí', x: 'Rozdíl je v tom, odkud nabyvatel své právo má. Při originárním (původním) nabytí vlastnictví vzniká poprvé nebo nezávisle na předchůdci – třeba když vyrobíte novou věc nebo ji někdo zkonfiskuje, protože nikdo jiný ji dříve nevlastnil. Při derivativním (odvozeném) nabytí své právo odvozujete od předchozího vlastníka: koupíte kolo, zdědíte dům.', cols: [
+        { h: 'Originární (původní)', items: ['právo vzniká poprvé nebo nezávisle na předchůdci', 'nově vyrobená věc, zkonfiskovaná věc', 'přivlastnění, přírůstek, vydržení'] },
+        { h: 'Derivativní (odvozené)', items: ['nabyvatel odvozuje právo od předchůdce', 'kupní či darovací smlouva, dědění', 'převod × přechod'] }
+      ] },
+      { t: 'table', head: ['', 'Převod', 'Přechod'], rows: [
+        ['Podstata', 'nabytí na základě <b>projevu vůle vlastníka</b>', 'nabytí na základě jiných skutečností (dědění, příklep v dražbě, rozhodnutí orgánu)'],
+        ['Příklad', 'kupní či darovací smlouva', 'dědictví, rozhodnutí soudu'],
+        ['Nemovitost v katastru', '<b>vklad</b> vlastnického práva, poplatek 2 000 Kč', '<b>záznam</b>, zdarma']
+      ] },
+      { t: 'tree', title: 'Nabývací tituly (právní skutečnosti, z jejichž účinků se nabývá)', root: { h: 'Nabytí vlastnictví', kids: [
+        { h: 'Smlouva', kids: [
+          { h: 'Movitá věc', x: 'převzetím věci, účinností smlouvy' },
+          { h: 'Nemovitá věc', x: 'účinnost smlouvy + vklad do katastru (účinky zpětně ke dni podání návrhu)' }
         ] },
-        { h: 'Rušení jinak než zadržením', x: 'imise, přístup přes pozemek, stavba', kids: [
-          { h: 'Negatorní žaloba', x: '§ 1042 – zdržení se rušení, odstranění následků' }
-        ] },
-        { h: 'Bezprostřední hrozba zásahu', kids: [
-          { h: 'Svépomoc', x: 'přiměřeně a bezodkladně; zastavení zásahu' }
-        ] },
-        { h: 'Svémocné rušení / odnětí držby', kids: [
-          { h: 'Ochrana držby', x: 'navrácení původního stavu u soudu v krátké lhůtě' }
+        { h: 'Dědictví', x: 'okamžikem smrti zůstavitele' },
+        { h: 'Rozhodnutí orgánu veřejné moci', x: 'dnem určeným v rozhodnutí, jinak dnem právní moci (nutná právní moc a vykonatelnost)' },
+        { h: 'Jiné skutečnosti stanovené zákonem', kids: [
+          { h: 'Přivlastnění a nález' }, { h: 'Přírůstek', x: 'přirozený, umělý, smíšený' }, { h: 'Vydržení' }, { h: 'Nabytí od neoprávněného' }
         ] }
       ] } },
-      { t: 'ex', x: 'Soused Pepa si na tvém pozemku nechal postavit garáž (přestavek je velký) a dlouhodobě na tvém pozemku parkuje. Proti parkování a zásahu bráníš negatorní žalobou. Pokud by ti navíc zadržoval ukradené kolo, žádáš jeho vydání vlastnickou (vindikační) žalobou.' }
+      { t: 'p', x: '<b>Přivlastnění a nález:</b> věc, která nikomu nepatří, si může každý přivlastnit (zásada okupační volnosti), nebrání-li tomu zákon nebo právo jiného. Movitá věc opuštěná vlastníkem nikomu nepatří; opuštěná nemovitost připadá státu. Nalezenou věc je třeba vrátit vlastníkovi nebo odevzdat obci; nálezné činí 1/10 ceny.' },
+      { t: 'nums', title: 'Opuštění a vydržení', items: [
+        { n: '3', u: 'roky', x: 'nevykonává-li vlastník právo k movité věci, má se za to, že ji opustil; vydržení movité věci' },
+        { n: '10', u: 'let', x: 'opuštění a vydržení nemovité věci' },
+        { n: '6 / 20', u: 'let', x: 'mimořádné vydržení (bez prokázání řádné a poctivé držby) – movitá / nemovitá' },
+        { n: '1', u: 'rok', x: 'držba se přeruší, není-li vykonávána' }
+      ] },
+      { t: 'ul', items: [
+        'Movitá věc zjevně nepatrné hodnoty zanechaná na místě přístupném veřejnosti se považuje za opuštěnou bez dalšího.',
+        '<b>Vydržení:</b> drží-li poctivý držitel právo nepřetržitě po stanovenou dobu, vydrží je a věc nabude do vlastnictví; do doby se započte i řádná a poctivá držba předchůdce.'
+      ] },
+      { t: 'tree', title: 'Zánik vlastnictví', root: { h: 'Zánik vlastnického práva', kids: [
+        { h: 'Absolutní', x: 'vlastnictví zaniká a nikdo jiný ho nenabývá', kids: [
+          { h: 'Z vůle vlastníka', x: 'opuštění věci, spotřebování, zničení' },
+          { h: 'Nezávisle na vůli', x: 'zánik věci (povodeň, zemětřesení)' }
+        ] },
+        { h: 'Relativní', x: 'právo nabývá jiný subjekt', kids: [
+          { h: 'Z vůle vlastníka', x: 'smlouva (prodej)' },
+          { h: 'Nezávisle na vůli', x: 'smrt (dědění), vydržení, rozhodnutí státního orgánu, ztráta věci' }
+        ] }
+      ] } }
+    ] },
+    { title: 'Držba', blocks: [
+      { t: 'def', term: 'Držba', x: 'Faktická vláda nad věcí, kterou držitel ovládá a má vůli být jejím vlastníkem.', items: ['dva prvky: faktická moc nad věcí + vůle vykonávat právo pro sebe', 'držitelem je ten, kdo vykonává právo pro sebe', 'objektem je právo, které lze právním jednáním převést a které připouští trvalý nebo opakovaný výkon; osobní právo předmětem držby ani vydržení není'] },
+      { t: 'table', head: ['Znak držby', 'Obsah'], rows: [
+        ['<b>Řádná</b>', 'zakládá se na platném právním důvodu; kdo se ujme držby bezprostředně bez rušení cizí držby, z vůle předchozího držitele nebo na základě výroku orgánu veřejné moci'],
+        ['<b>Poctivá</b>', 'držitel má z přesvědčivého důvodu za to, že mu právo náleží; nepoctivě drží ten, kdo ví nebo musí z okolností zjevně vědět, že mu právo nenáleží'],
+        ['<b>Pravá</b>', 'nezískaná svémocně, potají nebo lstí, ani neproměňuje v trvalé právo to, co bylo jen vyprošeno']
+      ] },
+      { t: 'tip', x: 'Má se za to, že držba je <b>řádná, poctivá a pravá</b> – opak je třeba prokázat.' },
+      { t: 'versus', title: 'Poctivý × nepoctivý držitel', x: 'Poctivý držitel věří, že mu věc právem náleží, například když koupil kolo od někoho, kdo se tvářil jako vlastník. Zákon ho chrání: smí věc užívat, brát plody a není nikomu odpovědný, a dokonce má nárok na úhradu nákladů, které na věc účelně vynaložil. Nepoctivý držitel ví (nebo musí vědět), že mu věc nepatří, a proto musí vydat vše, co z držby získal, a nahradit škodu. Nárok na úhradu nutných nákladů potřebných k zachování podstaty věci ale má i on.', cols: [
+        { h: 'Poctivý držitel', items: ['smí věc držet, užívat, zničit i jinak s ní nakládat v mezích právního řádu a není nikomu odpovědný', 'náleží mu plody po oddělení a vybrané užitky', 'hradí se mu nutné a účelně vynaložené náklady (do výše přítomné hodnoty); běžné udržovací náklady ne'] },
+        { h: 'Nepoctivý držitel', items: ['vydá veškerý užitek z držby a nahradí i ten, který by získala zkrácená osoba', 'nahradí veškerou škodu z držby', 'je mu uhrazena náhrada nutných nákladů na zachování podstaty věci'] }
+      ] },
+      { t: 'versus', title: 'Vlastnictví × držba × detence (detence doplněno)', x: 'Tři pojmy popisují tři různé vztahy k věci. Vlastnictví je právo: věc ti patří, i když ji právě nemáš u sebe, třeba když jsi kolo půjčil. Držba je faktický stav, kdy někdo vykonává právo pro sebe, jako by mu věc patřila – i ten, kdo kolo koupil od zloděje, je držitel, přestože vlastníkem není; poctivý řádný držitel se může stát vlastníkem vydržením. Detence je držení věci pro někoho jiného: kamarád, kterému jsi kolo půjčil, je detentor – kolo má u sebe, ale ví, že je tvoje, a proto ho nikdy nevydrží.', cols: [
+        { h: 'Vlastnictví', items: ['Právo k věci', 'Věc patří vlastníkovi', 'Nejširší věcné právo'] },
+        { h: 'Držba', items: ['Skutečný stav – výkon práva pro sebe', 'Držitel drží jako vlastník či jiný oprávněný', 'Řádná a poctivá držba vede k vydržení'] },
+        { h: 'Detence', items: ['Držení věci pro někoho jiného', 'Detentor (nájemce, vypůjčitel) nedrží pro sebe', 'Bez vydržení'] }
+      ] }
+    ] },
+    { title: 'Věcná práva k věci cizí', blocks: [
+      { t: 'tree', title: 'Čtyři věcná práva k věci cizí', root: { h: 'Věcná práva k věci cizí', kids: [
+        { h: 'Právo stavby', x: 'pozemek je zatížen právem stavebníka mít na povrchu nebo pod povrchem stavbu (i dosud nezřízenou); samo je věcí nemovitou; nelze zřídit na pozemku zatíženém právem příčícím se účelu stavby; u zastaveného pozemku jen se souhlasem zástavního věřitele' },
+        { h: 'Věcná břemena', x: 'omezují vlastníka nemovité věci ve prospěch oprávněného: něco strpět, něčeho se zdržet, něco vykonat', kids: [
+          { h: 'Služebnost', x: 'zatížený vlastník je pasivní – musí něco trpět nebo se zdržet; působí k osobě (in personam)' },
+          { h: 'Reálné břemeno', x: 'vyžaduje aktivní chování vlastníka; věc zapsaná ve veřejném seznamu; působí k věci (in rem)' }
+        ] },
+        { h: 'Zástavní právo', x: 'zajišťuje dluh – věřitel se při neplnění uspokojí z výtěžku zástavy' },
+        { h: 'Zadržovací právo', x: 'věřitel zadrží cizí movitou věc k zajištění dluhu' }
+      ] } },
+      { t: 'p', x: 'Věcná břemena se dělí také podle obsahu: <b>facere</b> (konat), <b>pati</b> (trpět), <b>omittere</b> (zdržet se).' },
+      { t: 'table', head: ['Služebnost', 'Pravidlo'], rows: [
+        ['Nabytí', 'smlouvou, pořízením pro případ smrti (závěť), vydržením, ze zákona, rozhodnutím orgánu veřejné moci'],
+        ['Zánik', 'trvalou změnou (služebná věc už nemůže sloužit), dohodou, uplynutím doby; u osobní služebnosti úmrtím oprávněného'],
+        ['Druhy upravené OZ', 'nezbytná cesta (šířka 3 m, geometrický plán, zápis do KN), inženýrské sítě, opora cizí stavby, okapu (svod dešťové vody na sousední pozemek), rozlivu, pastvy, na vodu, průhonu dobytka, stezky (60 cm – kolo, ne vozidla), cesty (3 m)'],
+        ['Příklady', 'pozemková služebnost, užívací právo, služebnost bytu']
+      ] },
+      { t: 'ul', items: [
+        '<b>Zástavní právo:</b> nesplní-li dlužník řádně a včas, věřitel se uspokojí z výtěžku zpeněžení zástavy do ujednané výše (jinak do výše pohledávky s příslušenstvím). Zástavou může být každá věc, s níž lze obchodovat, i věc, k níž dlužník vlastnictví teprve nabude.',
+        'Zřizuje se <b>zástavní smlouvou</b>; zástava může být určena jednotlivě nebo tak, aby ji šlo určit kdykoli. Zajišťuje dluh a příslušenství, smluvní pokutu jen při zvláštním ujednání. Pokud movitá zástava není odevzdána věřiteli nebo třetí osobě, je potřeba písemná forma. Zástavní právo k nemovitosti je nemovitost a zapisuje se do katastru.',
+        '<b>Zánik zástavního práva:</b> zánikem zajištěného dluhu; při trvající pohledávce zánikem zástavy, vzdáním se, vrácením zástavy zástavci, složením ceny zástavy nebo uplynutím doby.',
+        '<b>Zadržovací právo:</b> kdo má povinnost vydat cizí movitou věc, kterou má u sebe, může ji zadržet k zajištění splatného (i nesplatného) dluhu; nesmí zadržet ten, kdo ji má neprávem (násilí, lest). Zadržení oznámí dlužníku, při písemné smlouvě písemně; pečuje o věc jako řádný hospodář. Zaniká zánikem dluhu nebo věci, vzdáním se, trvalým odchodem věci z moci věřitele nebo poskytnutím dostatečné jistoty.'
+      ] },
+      { t: 'p', x: '<b>(doplněno)</b> Předkupní právo může být u nemovitosti sjednáno jako věcné (zapsané v katastru) – viz téma Vybrané smlouvy.' }
+    ] },
+    { title: 'Ochrana vlastnictví', blocks: [
+      { t: 'tree', title: 'Čím se bránit', root: { h: 'Ochrana vlastnického práva', x: '§ 1040–1044; prevence a obecné prostředky ochrany subjektivních práv', kids: [
+        { h: 'Věc neprávem zadržena', kids: [
+          { h: 'Vlastnická (reivindikační, vindikační) žaloba', x: '§ 1040–1041 – vydání věci, vyklizení bytu; nutná identifikace věci' }
+        ] },
+        { h: 'Rušení jinak než zadržením', kids: [
+          { h: 'Zápůrčí (negatorní) žaloba', x: '§ 1042 – zdržet se protiprávního jednání či obnovit původní stav (zákaz imisí, upuštění od stavby na cizím pozemku)' }
+        ] },
+        { h: 'Zlepšená pozice držitele', kids: [
+          { h: 'Publiciánská žaloba', x: '§ 1044' }
+        ] },
+        { h: 'Nejistota o právu', kids: [
+          { h: 'Žaloba na určení vlastnického práva', x: '§ 80 o. s. ř. – deklaruje existenci nebo neexistenci práva' }
+        ] }
+      ] } },
+      { t: 'ex', x: 'Soused ti na tvém pozemku postavil garáž a navíc ti zadržuje ukradené kolo. Proti garáži a parkování se bráníš <b>zápůrčí žalobou</b> (zdržet se rušení, odstranit stav); kolo vyžaduješ <b>vlastnickou (vindikační) žalobou</b>.' },
+      { t: 'p', x: '<b>(doplněno)</b> Svépomoc proti bezprostřední hrozbě zásahu a ochrana držby v krátké lhůtě u soudu jsou v podkladech jen zmíněny jako obecné prostředky – podrobnosti si ověř v zákoně.' }
     ] }
   ],
   mistakes: [
@@ -214,10 +291,13 @@ registerTopic({
     { q: 'Co říká § 4 a § 5 NOZ?', a: '§ 4: každá svéprávná osoba má rozum průměrného člověka i schopnost jej užívat s běžnou péčí a opatrností – lze to od ní očekávat. § 5: kdo se přihlásí k odbornému výkonu (profesi), dává najevo, že jedná se znalostí a pečlivostí, která je s povoláním spojena (odborná péče, významné pro náhradu škody).' },
     { q: 'Jaký je rozdíl mezi závdavkem a zálohou?', a: 'Závdavek potvrzuje uzavření smlouvy a je jistotou, že závazek bude splněn (nesplní-li ten, kdo jej dal, ztrácí ho; nesplní-li příjemce, vrací dvojnásobek). Záloha je předem poskytnutá část plnění (ceny) – není to zajištění.' },
     { q: 'Vysvětlete pojmy beneficient a obmyšlený.', a: 'Svěřenský fond: majetek je trvale vyčleněn a spravuje jej správce k určitému účelu. Beneficient je osoba, v jejíž prospěch je majetek spravován; obmyšlený je možný příjemce plnění z fondu.' },
-    { q: 'Co je vlastnictví a jak se nabývá? (doplněno)', a: 'Vlastník může věc držet, užívat, požívat plody a užitky a nakládat s ní a vylučovat ostatní. Nabytí originární (přivlastnění, nález, vydržení, zhotovení) nebo odvozené (smlouva, dědění, rozhodnutí). U nemovitosti zápisem do katastru nemovitostí; u movité převzetím věci.' },
-    { q: 'Vyjmenujte věcná práva k věci cizí a stručně je charakterizujte. (doplněno)', a: 'Zástavní právo (zajištění pohledávky), věcné břemeno (služebnost – strpět/zdržet se; reálné břemeno – opakované plnění), právo stavby (stavba na cizím pozemku), předkupní právo (věcně působící u nemovitosti), zadržovací právo.' },
-    { q: 'Čím se liší držba od vlastnictví a držitel od detentora? (doplněno)', a: 'Držba je skutečný stav – výkon práva pro sebe; vlastnictví je právo. Držitel drží věc jako vlastník či jiný oprávněný; detentor (nájemce, vypůjčitel) drží věc pro jiného. Dlouhodobá řádná držba může vést k vydržení.' },
-    { q: 'Pepovi někdo zadržuje jeho jízdní kolo a jinému Pepovu sousedovi zasahuje do pozemku sousední stavba. Jakou žalobou se budou bránit? (doplněno)', a: 'Při neprávě zadržované věci vlastnickou (vindikační) žalobou – o vydání kola. Při zásahu stavby, imisí a podobně negatorní žalobou – o zdržení se rušení a odstranění následků.' },
+    { q: 'Co je vlastnictví a jak se nabývá?', a: 'Vlastnictví (§ 1011) je přímé a výlučné právní panství nad věcí, nejsilnější věcné právo; vlastník s věcí v mezích práva libovolně nakládá a vylučuje ostatní. Nabytí <b>originární</b> (přivlastnění, nález, přírůstek, vydržení, nová věc) nebo <b>derivativní</b> (smlouva, dědění, rozhodnutí orgánu). U nemovitosti vkladem do katastru (smlouva) nebo záznamem (přechod); u movité převzetím.' },
+    { q: 'Vyjmenujte věcná práva k věci cizí a stručně je charakterizujte.', a: 'Právo stavby (stavba na cizím pozemku, je nemovitost), věcná břemena (služebnost – vlastník trpí nebo se zdržuje; reálné břemeno – vlastník aktivně plní), zástavní právo (zajištění dluhu, uspokojení z výtěžku zástavy) a zadržovací právo (zadržení cizí movité věci k zajištění dluhu).' },
+    { q: 'Čím se liší držba od vlastnictví a držitel od detentora?', a: 'Držba je faktická vláda nad věcí s vůlí být jejím vlastníkem (faktická moc + vůle vykonávat právo pro sebe); vlastnictví je právo. Má se za to, že držba je řádná, poctivá a pravá. Detentor (nájemce, vypůjčitel) drží věc pro jiného, <i>(doplněno)</i> a proto nevydrží. Řádná poctivá držba po 3 / 10 letech vede k vydržení.' },
+    { q: 'Pepovi někdo zadržuje jeho jízdní kolo a Pepovu sousedovi zasahuje do pozemku sousední stavba. Jakou žalobou se budou bránit?', a: 'Při neprávě zadržované věci vlastnickou (reivindikační) žalobou – o vydání kola. Při zásahu stavby, imisí a podobně zápůrčí (negatorní) žalobou – o zdržení se rušení a odstranění následků.' },
+    { q: 'Jaké jsou lhůty pro vydržení a opuštění věci?', a: 'Vydržení: nepřetržitá poctivá držba 3 roky (movitá) / 10 let (nemovitá); mimořádné vydržení 6 / 20 let. Držba se přeruší, není-li vykonávána 1 rok. Opuštění: vlastník nevykonává právo k movité věci 3 roky, k nemovité 10 let – má se za to, že ji opustil.' },
+    { q: 'Rozdíl mezi převodem a přechodem vlastnického práva.', a: '<b>Převod</b> = nabytí z vůle vlastníka (kupní, darovací smlouva), do katastru se zapisuje vklad (2 000 Kč). <b>Přechod</b> = nabytí na základě jiných skutečností (dědění, příklep v dražbě, rozhodnutí orgánu), do katastru se provede záznam zdarma.' },
+    { q: 'Jak lze omezit vlastnické právo a co je imise?', a: 'Se souhlasem vlastníka (přenechání věci, věcné břemeno) nebo ze zákona – ve veřejném zájmu, jen na nezbytnou dobu a v nezbytné míře, za plnou náhradu. Imise jsou odpad, kouř, prach, pach, hluk, otřesy apod. vnikající na sousední pozemek v míře nepřiměřené místním poměrům.' },
     { q: 'Pepa má na pozemku souseda přestavek. Co to znamená a jak se s tím naloží?', a: 'Přestavek je stavba, která malou částí přesahuje na cizí pozemek. Zákon umožňuje stavbu neodstraňovat (ochrana před zbouráním) – rozhoduje se podle dobré víry stavebníka, toho, zda vlastník pozemku včas namítal, a podle přiměřené náhrady vlastníku pozemku. (doplněno; podmínky si ověřte přímo v zákoně)' }
   ]
 });
