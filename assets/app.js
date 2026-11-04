@@ -92,17 +92,16 @@ function home() {
 // myšlenková mapa (#/mapa): widget 'mapa' z <předmět>/map.js – kostra předmětu + sekce a pojmy z témat
 const mapHTML = () => `<div class="crumb"><a href="#/">${SUBJECT.name}</a> / Mapa</div><header class="hero"><div><h2>Myšlenková mapa</h2><p>Klikni na uzel – rozbalí se a vpravo dole uvidíš vysvětlení a odkaz do kapitoly. Najetím myší se ukáže krátký popis.</p></div></header>${block({ t: 'widget', name: 'mapa' })}`;
 function search(q) {
+  const flat = v => typeof v === 'string' || typeof v === 'number' ? v : v && typeof v === 'object' ? Object.values(v).map(flat).join(' ') : ''; // rekurzivně: bloky mají vnořené objekty (cols, steps, kids …)
   const re = new RegExp(reEsc(q), 'i'), strip = x => x.replace(/<[^>]+>/g, ' ');
-  const hits = topics.filter(t => !locked(t)).map(t => ({ t, parts: [...t.sections.flatMap(s => s.blocks.map(b => [s.title, strip(Object.values(b).flat(2).join(' '))])), ...(t.vocab || []).map(v => ['Slovníček', strip(v.w + ' ' + v.x)]), ...(t.qa || []).map(x => ['Otázky', strip(x.q + ' ' + x.a)])].filter(([, x]) => re.test(x)) })).filter(h => h.parts.length);
+  const hits = topics.filter(t => !locked(t)).map(t => ({ t, parts: [...t.sections.flatMap(s => s.blocks.map(b => [s.title, strip(flat(b))])), ...(t.vocab || []).map(v => ['Slovníček', strip(v.w + ' ' + v.x)]), ...(t.qa || []).map(x => ['Otázky', strip(x.q + ' ' + x.a)])].filter(([, x]) => re.test(x)) })).filter(h => h.parts.length);
   return `<h2 style="margin-top:0">Hledání: „${esc(q)}“</h2>` + (hits.map(({ t, parts }) => `<div class="card"><a href="#/${t.id}"><b>${t.title}</b></a>${parts.slice(0, 3).map(([s, x]) => { const m = x.search(re); return `<div class="hit"><b>${s}</b>: …${esc(x.slice(Math.max(0, m - 50), m + 90)).replace(new RegExp(reEsc(esc(q)), 'ig'), '<mark>$&</mark>')}…</div>`; }).join('')}</div>`).join('') || '<p>Nic nenalezeno.</p>');
 }
 function nav() {
   const nd = topics.filter(t => !locked(t) && inG(t));
-  $('#side').innerHTML = `<input id="q" type="search" placeholder="Hledat v celém skriptu…" value="${esc(window._q || '')}">
-  ${gTabs()}<div class="prog"><i style="width:${nd.length ? nd.filter(t => done.has(t.id)).length / nd.length * 100 : 0}%"></i></div>
+  $('#side').innerHTML = `${gTabs()}<div class="prog"><i style="width:${nd.length ? nd.filter(t => done.has(t.id)).length / nd.length * 100 : 0}%"></i></div>
   <a href="#/" class="${!location.hash.slice(2) ? 'cur' : ''}"><span class="n">⌂</span>Přehled</a>${window.WIDGETS?.mapa ? `<a href="#/mapa" class="${location.hash === '#/mapa' ? 'cur' : ''}"><span class="n">🗺</span>Myšlenková mapa</a>` : ''}<div class="grp">Témata</div>
   ${topics.map((t, i) => !inG(t) ? '' : locked(t) ? `<a class="lock" title="Nedodělané – chybí podklady"><span class="n">${num(i)}</span>${t.title}</a>` : `<a href="#/${t.id}" class="${location.hash === '#/' + t.id ? 'cur' : ''}"><span class="n">${num(i)}</span>${t.title}${lecPills(t)}${done.has(t.id) ? '<span class="ok">✔</span>' : ''}</a>`).join('')}`;
-  $('#q').oninput = e => { window._q = e.target.value.trim(); location.hash = window._q.length > 1 ? '#/?q=' + encodeURIComponent(window._q) : '#/'; };
 }
 // kartičky: náhodné pořadí, sebehodnocení Vím / Nevím, na konci opakování nezvládnutých
 let fc;
@@ -187,7 +186,7 @@ function route() {
   $$('.wg').forEach(el => { const b = WGB[+el.dataset.wi]; window.WIDGETS?.[b.name]?.(el, b); });
   document.title = (i >= 0 ? topics[i].title + ' – ' : '') + SUBJECT.name;
   if (!q) window._q = '';
-  nav(); if (q) { $('#q').value = window._q = h.slice(3); $('#q').focus(); }
+  nav(); $('#q').value = q ? window._q = h.slice(3) : '';
   scrollTo(0, 0);
   if (i >= 0) { // zvýraznění aktuální sekce v obsahu
     const links = $$('.toc a');
@@ -221,6 +220,10 @@ addEventListener('DOMContentLoaded', () => {
   $('#theme').onclick = () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
   $('#recall').onclick = () => setRecall(!document.body.classList.contains('recall'));
   if (window.QUIZZES) { const b = document.createElement('button'); b.id = 'quizbtn'; b.onclick = () => location.hash = location.hash.startsWith('#/kviz') ? '#/' : '#/kviz'; $('#recall').before(b); }
+  // hledání v liště (jedno pole, nepřekresluje se při psaní); na mobilu se otevírá tlačítkem 🔍
+  { const i = Object.assign(document.createElement('input'), { id: 'q', type: 'search', placeholder: 'Hledat v celém skriptu…', oninput: e => { window._q = e.target.value.trim(); location.hash = window._q.length > 1 ? '#/?q=' + encodeURIComponent(window._q) : '#/'; } });
+    const b = Object.assign(document.createElement('button'), { id: 'sbtn', textContent: '🔍', title: 'Hledat', onclick: () => { document.body.classList.toggle('srch'); i.focus(); } });
+    $('.top h1').after(i); i.before(b); }
   $('#burger').onclick = () => document.body.classList.toggle('nav');
   setTheme(store.get('theme', 'dark')); setRecall(store.get('recall', false)); route();
 });
