@@ -1,0 +1,29 @@
+=== PAGE 1 ===
+Algoritmizace - Strukturogramy
+Strukturogramy
+Řešené příklady - Zadání
+Příklad 1:
+Kolikrát algoritmus zapsaný následujícím strukturogramem vypíše znak hvězdičky.
+Příklad 2:
+Jaký výstup vypíše následující algoritmus:
+Příklad 3:
+Vstupem pro algoritmus zadaný strukturogramem je řada čísel:
+3, 7, 1, 0, 4, 2, 5, 6, 6, 0, 3, 0, 5, 2, 0, 8, 4
+Jaký bude výstup?
+=== PAGE 2 ===
+Algoritmizace - Strukturogramy
+Příklad 4:
+Jaký výstup vypíše následující algoritmus:
+Příklad 5:
+čísel:
+3, 1, 7, 6, 8, 4, 2, 5, 0
+Jaký bude jeho výstup?
+Uvedený algoritmus, která využívá sekundární funkci F dostane jako vstup následující řadu
+
+=== PŘEPIS STRUKTUROGRAMŮ Z OBRÁZKŮ ===
+Př. 1: a = 1; b = 10; cyklus a < b { a = a + 2; b = b - 1; piš "*" }
+Př. 2: a = 1; cyklus a <= 10 { b = 20 - 2a; selekce a > b: - piš "O" | + piš "X"; a = a + 1 }
+Př. 3: a = načti; cyklus a > 0 { a = načti; piš a; a = načti }
+Př. 4: a = 10; cyklus a > 1 { b = 10; cyklus b > a { selekce a mod 2 == 0: - piš "B" | + piš "A"; b = b - 1 }; a = a - 1 }
+Př. 5: Hlavní program: x = načti; cyklus F(x) > 0 { selekce x > 5: - piš F(x)+1 | + piš F(x+1); x = načti }
+       F(x): selekce x mod 2 == 0: - vrať 1 | + (selekce x == 2: - vrať x | + vrať 0)

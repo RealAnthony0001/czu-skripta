@@ -1,0 +1,10 @@
+(Ruční přepis ručně psaných poznámek z přednášky 3 – Xournal, jen tahy pera.)
+=== PAGE 1 ===
+Svět se dělí do 10 skupin: 1) kdo zná, 2) kdo nezná dvojkovou soustavu. 31 OCT = 25 DEC
+=== PAGE 2 ===
+Vennovy diagramy a, b (or, and, xor); 0+1=1, 1+0=1, 0+0=0, 1+1=1; 0·1=0, 1·0=0, 0·0=0, 1·1=1; c = a xor b → c xor b = a
+=== PAGE 3 ===
+a = b>5; b<>0 and a/b=4 (F … nevyhodnocuje se); hledany=7, řada 2→F, 3→F, 7→T, 8, 1, 4; nalezeno=false; nalezeno = nalezeno or (prvek = hledany); 10110 xor 11100 = 01010
+=== PAGE 4 ===
+1) a>=3; 2) a>=2 and a<=4; 3) a<=3 or a>=6 (xor ano, and ne); 4) a>=1 and a<=3 or a>=5; a>=1 xor (a>3 and a<5); 5) (a>=1 and a<=2) or (a>=3 and a<=4) or (a>=5 and a<=6)
+(další stránky: pokračování obdobných úloh 6–15 jako v P3-2025)

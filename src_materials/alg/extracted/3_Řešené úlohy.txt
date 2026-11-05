@@ -1,0 +1,34 @@
+=== PAGE 1 ===
+19/10/2018 3_Řešené úlohy - Dokumenty Google
+Algoritmizace ­ Grafický programovací jazyk Snap! ­ Řešené příklady
+Grafický programovací jazyk Snap!
+Řešené příklady
+Zadání:
+1. kroků.
+a. b. Vytvořte skript v jazyce Snap!, který na scénu nakreslí čtverec o velikosti hrany 100
+S využitím mimojiné bloků: posuň (move) a otoč (turn).
+S využitím mimojiné bloků: posuň (move), otoč (turn) a repeat while v čem
+je toto řešení lepší oproti předchozímu?
+Pozn.: blok cyklu je nutné importovat.
+c. Zkopírujte předchozí skript a cyklus while změňte za for .
+Pozn.: jednotlivé vytvořené skrypty si průběžně ukládejte a zálohujte.
+2. Spojte a upravte skripty (1b, 1c), tak aby byl vykreslen šestiúhelník a kružnice .
+Vhodně upravte velikost hran, tak aby se celý obrazec vešel na scénu.
+Typ.: při vykreslení kružnice použijte “Turbo mód”
+. .
+3. a)
+a. Nakreslete dvě kružnice dle vzoru. První má poloviční obvodem než druhá.
+https://docs.google.com/document/d/1JJxd0kttAVXh9tP5yxo1l8ogENj7LVO3Bn3wuhrjt68/edit# 1/2
+=== PAGE 2 ===
+19/10/2018 3_Řešené úlohy - Dokumenty Google
+Algoritmizace ­ Grafický programovací jazyk Snap! ­ Řešené příklady
+b. Upravte předchozí skript (3), tak aby středy kružnic byly v jednom bodě, viz
+vzor..
+4. Pomocí cyklů (cyklus v cyklu) vytvořte následující obrazec. Smíte použít pouze
+maximálně 2x blok cyklu (for nebo while), 2x blok otoč a 1x blok posuň .
+Typ.: obrazec je vykreslen jako čtyři čtverce.
+5. Vytvořte skript, který získá od uživatele dvě čísla (dělenec a dělitel) a vrátí jejich
+podíl. Pro získávání dat od uživatele slouží bloky zeptej se (ask) a odpověď
+(answer) .
+Pozn.: nulou nelze dělit.
+https://docs.google.com/document/d/1JJxd0kttAVXh9tP5yxo1l8ogENj7LVO3Bn3wuhrjt68/edit# 2/2

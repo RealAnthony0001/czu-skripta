@@ -1,0 +1,26 @@
+=== PAGE 1 ===
+Algoritmizace - Algoritmy
+Algoritmy
+Řešené příklady - Zadání
+Příklad 1:
+Vytvořte algoritmus pro vyřešení zvolené každodenní činnosti. Algoritmus zapište slovně v
+bodech. Identifikujte, jestli a kde váš algoritmus obsahuje selekci (větvení / podmínky) a
+iteraci (opakování / cyklení). Pokud neobsahuje, zvažte zda je možné tyto prvky do vašeho
+algoritmu vhodně zakomponovat, nebo jestli se tyto prvky “neukáží” při zdrobnění algoritmu
+(viz řešení příkladu).
+Příklad 2:
+Vytvořte algoritmus, který seřadí tři čísla podle velikosti od nejmenšího po největší. Ověřte,
+zda funguje správně (tři čísla lze zadat celkem šesti různými způsoby, ověřte všech šest
+možností). Analyzujte složitost algoritmu (počet porovnání). V případě, že váš algoritmus
+vyžaduje více jak tři porovnání, pokuste se ho lépe navrhnout / optimalizovat.
+Příklad 3:
+Navrhněte algoritmus, který zadanou částku v korunách rozdělí tak, aby byl použit co
+nejnižší počet bankovek a mincí. Zamyslete se, jestli je možné tento algoritmus navrhnout
+tak, aby neobsahoval žádné cykly.
+Příklad 4:
+Navrhněte algoritmus, který ze zadané řady čísel najde a vypíše to nejmenší číslo.
+Algoritmus zapište nejprve slovně, pak zakreslete pomocí vývojového diagramu.
+Příklad 5:
+Vytvořte a pomocí vývojového diagramu zakreslete algoritmus, který pro zadané číslo zjistí,
+jestli se jedná o prvočíslo nebo nikoliv. Ve vývojového diagramu využijte zápisu operací
+pomocí vhodně navržených proměnných.

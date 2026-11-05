@@ -1,0 +1,33 @@
+=== PAGE 1 ===
+Algoritmizace - Strukturogramy
+Strukturogramy
+Neřešené příklady
+Příklad 1:
+Kolikrát následující algoritmus vypíše znak hvězdičky?
+Příklad 2:
+Co je potřeba doplnit místo ???, aby následující algoritmus vypsal řadu čísel od deseti do
+jedné (10, 9, 8, 7, 6, 5, 4, 3, 2, 1)?
+Příklad 3:
+Navrhněte algoritmus (a zakreslete pomocí strukturogramu), který načte dvě čísla a poté
+napíše tolik hvězdiček, kolik je rozdíl je zadaných čísel.
+Příklad 4:
+Navrhněte algoritmus (a zakreslete pomocí strukturogramu), který bude postupně procházet
+řadu čísel, zastaví se když dvakrát po sobě načte nulu, a vypíše všechny čísla, která
+sousedí s nějakou nulou.
+Algoritmus můžete otestovat například na řadě čísel:
+5, 1, 0, 7, 2, 3, 3, 0, 1, 0, 4, 0, 0
+pro kterou by měl vrátit:
+1, 7, 3, 1, 4, 0 (i když jednička sousedí se dvěma nulami, mělo by jí to vypsat jen jednou)
+=== PAGE 2 ===
+Algoritmizace - Strukturogramy
+Pozn.: Můžete předpokládat, že řada má alespoň jedno číslo a pak dvě nuly, čili že bude mít
+minimálně tři čísla.
+Příklad 5:
+Napište algoritmus (a zakreslete strukturogramem), který pro dvě zadaná vrátí jejich
+největšího společného dělitele.
+Pozn.: Jedna z možných variant je použít tzv. Euklidův algoritmus, který se dá napsat velice
+snadno pomocí rekurze.
+
+=== PŘEPIS STRUKTUROGRAMŮ Z OBRÁZKŮ ===
+Př. 1: a = 1; b = 3; cyklus a < b { piš "*"; selekce a == 2: - (nic) | + b = b + 1; a = a + 1 }
+Př. 2: a = 1; cyklus a <= 10 { piš ???; a = a + 1 }

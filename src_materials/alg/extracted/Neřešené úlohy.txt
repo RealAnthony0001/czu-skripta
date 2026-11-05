@@ -1,0 +1,33 @@
+=== PAGE 1 ===
+Algoritmizace - Algoritmy
+Algoritmy
+Neřešené příklady
+Příklad 1:
+Navrhněte algoritmus, který bude načítat řadu čísel, a vypisovat pouze ta, která jsou sudá.
+Algoritmus zapište slovně, nebo pomocí vývojového diagramu.
+Příklad 2:
+Vytvořte algoritmus, který dostane zadána dvě čísla (min a max) a řadu čísel. Algoritmus má
+za úkol spočítat, kolik čísel v řadě je z intervalu <min, max>
+. Algoritmus zapište pomocí
+vývojového diagramu.
+Příklad 3:
+Modifikujte řešený příklad číslo 2 (setřídění tří čísel podle velikosti), tak aby dokázal seřadit
+čtyři čísla. Pokuste se algoritmus navrhnout tak, aby byl použit co nejmenší počet porovnání.
+Pozn. Nejmenší možný počet porovnání je 5.
+Příklad 4:
+Do následujícího vývojového diagramu doplňte do prázdných políček následující výrazy:
+- načti x
+- piš max
+- x > max
+- max = x
+- x == 0
+tak aby algoritmus vypsal největší číslo v řadě (řada je ukončená číslem nula).
+Pozn. Příkazy se mohou opakovat (je pět příkazů, ale sedm “okýnek”).
+=== PAGE 2 ===
+Algoritmizace - Algoritmy
+Příklad 5:
+Vytvořtě algoritmus, který dostane zadané jedno číslo a vypočítá jeho faktoriál. Algoritmus
+zapište pomocí vývojového diagramu za použití vhodně zvolených proměnných.
+
+=== PŘEPIS VÝVOJOVÉHO DIAGRAMU (Př. 4) ===
+šipka → okno 1 (obdélník) → okno 2 (obdélník) → kosočtverec A (sem se vrací smyčka); A „-“ vlevo → okno (obdélník, konec); A „+“ vpravo → kosočtverec B; B „+“ → obdélník → obdélník → zpět nad A; B „-“ obchází první z těchto obdélníků rovnou do posledního.

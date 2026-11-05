@@ -1,0 +1,56 @@
+=== PAGE 1 ===
+19/10/2018 3_Studijní opora - Dokumenty Google
+Algoritmizace ­ Grafický programovací jazyk Snap! ­ Studijní opora
+|
+Grafický programovací jazyk Snap!
+Studijní opora
+● Seznámení s prostředím grafického programovacího jazyku Snap! Build Your Own
+Block (BYOB).
+● Sestavování skriptů využívající iterace ­ pohyb po scéně, tvorba geometrických
+obrazců.
+● Sestavování skriptů využívající selekce ­ uživatelské vstupy a výstupy, základní
+výpočty.
+Snap!
+Prostředí
+Vytvořené skripty jsou vázané na objekty., Objekty se zobrazují na scéně a lze je graficky
+upravit pomocí kostýmů (viz. karta kostýmy) na objekty jsou dále vázány zvuky. Scéna je
+speciálním případem objektu, může mít své vlastní skripty pozadí a zvuky.
+1
+https://docs.google.com/document/d/1IrUetGVMpoPBrKbwrbiCw5ra5kdU9HUQ1rwe1wQUy9g/edit# 1/3
+=== PAGE 2 ===
+19/10/2018 Algoritmizace
+3_Studijní opora - Dokumenty Google
+Nastavení
+● Volba jazyka
+● Trubo mód: zrychlí běh programu vhodné například pro vykreslení obrazců
+● Volba velikosti bloků
+Ukládání projektů a bloků
+Možnost uložení:
+● Do prohlížeče (na učebnách se po odhlášení vymaže).
+● Exportování do XML souboru.
+● Uložení do cloudové služby.
+● Uložením skriptu jako obrázek pomocí voleby po zmáčkutí pravého tlačítka myši na
+daném skryptu
+Import knihoven bloků
+Bloky, které se nacházejí v prostřední znap lze obohatit o další, pro práci s cykly budeme
+používat knohovnu “Iteration, composition” která obsahuje While cyklus a For cyklus.
+Typy bloků
+Bloky tvarů se dělí do následujících skupin:
+● příkaz (nevrací hodnotu a něco vykonává)
+● funkce (vrací hodnotu) např. fucne pro výpočet odmocniny
+● podmínka (vrací pouze 0 nebo 1 / TRUE nebo FALSE) podmínky se využívají v
+selekcích (if) nebo v iteracích (while cyklus)
+2
+https://docs.google.com/document/d/1IrUetGVMpoPBrKbwrbiCw5ra5kdU9HUQ1rwe1wQUy9g/edit# 2/3
+=== PAGE 3 ===
+19/10/2018 Algoritmizace
+3_Studijní opora - Dokumenty Google
+Tvorba skriptů
+Skripty jsou na skládání z bloků, které mají zámky a zapadají do sebe jako puzzle. Bloky
+jsou rozděleny do jednotlivých kategorií.
+Skript začínáme pomocí bloků ze skupiny ovládání, nad tyto bloky nelze umístit jiné bloky a
+umožňují spouštění skriptů.
+Pomocí voleb po zmáčknutí pravého tlačítka nad blokem lze bloky kopírovat mazat a pod.
+Ve sklupině bloků proměnné lze vytvářet nové proměnné.
+3
+https://docs.google.com/document/d/1IrUetGVMpoPBrKbwrbiCw5ra5kdU9HUQ1rwe1wQUy9g/edit# 3/3

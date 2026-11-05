@@ -1,0 +1,364 @@
+=== SLIDE 1 ===
+
+Algoritmizace
+Grafický programovací jazyk Snap! - úvod
+Michal Stočes
+
+=== SLIDE 2 ===
+
+Obsah
+Želví grafika
+Snap! 
+Úvod
+Představení prostředí SNAP!
+Práce s bloky
+Nastavení
+Příklady 
+Pohyb po scéně
+Struktirogramy a snap
+
+=== SLIDE 3 ===
+
+Princip “želví grafiky”
+Princip představen 1967 – Jazyk Logo
+Návrh Wally Feurzeig, Seymour Papert, and Cynthia Solomon, MIT, Cambridge, Massachusetts
+Vyvinut 1967 at Bolt, Beranek and Newman (BBN), Cambridge, Massachusetts
+Turtle/Ghost/Sprite/Cursor/Robot
+Kartézská soustava souřadnic
+Záznam pohybu
+Implementace: Apple II Plus, Apple Iie  (Apple Log)
+https://www.youtube.com/watch?v=pGPu2HSSAco
+
+3
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 4 ===
+
+Apple Logo 80‘s
+
+Grafický programovací jazyk Snap!
+4
+Michal Stočes
+
+=== SLIDE 5 ===
+
+Další: Karel (Čapek, Robot), Baltík
+
+Grafický programovací jazyk Snap!
+5
+Michal Stočes
+
+=== SLIDE 6 ===
+
+SNAP! 
+Vychází z projektu Scratch
+MIT Media Lab, Stanford Artificial Intelligence Labs 
+Dříve nazíváno: BYOB - Build Your Own Blocks
+Visual, drag-and-drop programming language
+Webový prohlížeč – HTML, CSS, JavaScript
+
+https://snap.berkeley.edu/
+https://snap.berkeley.edu/snap/help/SnapManual.pdf
+
+6
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 7 ===
+
+SNAP! 
+Funkce
+Rekurze
+Objektový přístup
+Try Catch
+List
+MQTT , mapy …..
+
+7
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 8 ===
+
+Snap rozložení
+8
+Michal Stočes
+Grafický programovací jazyk Snap!
+Scéna (Stage)
+Sprite Corral 
+(Ohrada pro skřítky)
+Scripting Area
+(Oblast Skriptů)
+Palette
+(Bloky)
+Tool Bar
+
+=== SLIDE 9 ===
+
+Bloky, Scripty, Puzzle
+9
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 10 ===
+
+Kategorie bloků
+10
+Michal Stočes
+Grafický programovací jazyk Snap!
+Kategorie		Popis	Kategorie		Popis
+	Motion Pohyb	Pohyby a otáčení sprity po scéně		Control Ovládání	Selekce, události, iterátory, scény
+	Looks Vhled	Ovládání viditelnosti, kostýmů a výstupu		Sensing Vnímání	Detekce všech zásahů sprite a uživatelský vstup (myš, klávesnice)
+	Sound Zvuk	Přehrává zvukové soubory a programovatelný sekvenční zvuk		Operators Operátory	Matematické, textové a logické operátory; lambda
+	Pen Pero	Psát, kreslit nebo razítkovat na scéně		Variables Proměnné	Proměnné, seznamy, včetně seznamů seznamů, seznamů bloků atd.
+
+=== SLIDE 11 ===
+
+Typy bloků
+11
+Michal Stočes
+Grafický programovací jazyk Snap!
+Head block -  začátek
+
+Cap Block - ukončení
+
+=== SLIDE 12 ===
+
+Skřítek, scéna, 
+12
+Objekty
+Vlastní skripty
+Kostýmy
+Klonování
+….
+
+Grafický programovací jazyk Snap!
+Michal Stočes
+
+=== SLIDE 13 ===
+
+Krokování aplikace
+
+Start
+Stop
+Pause
+
+Kliknutím na daný blok jej vlze spustit
+
+Ovládací prvky
+13
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 14 ===
+
+Nastavení
+14
+Michal Stočes
+Grafický programovací jazyk Snap!
+Jazyk
+Velikost bloků
+Turbo mód
+….
+
+=== SLIDE 15 ===
+
+Knihovny
+15
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 16 ===
+
+Ukládání projektu
+Cloud
+Export XML
+Lokálně – v prohlížeči
+Generování obrázků
+16
+Grafický programovací jazyk Snap!
+Michal Stočes
+
+=== SLIDE 17 ===
+
+Ukládání / export projektů
+17
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 18 ===
+
+Proměnné
+18
+Michal Stočes
+Grafický programovací jazyk Snap!
+Globální – platnost na ve všech skriptech
+
+Lokální – platnost v rámci bloku/skriptu/funkce
+
+=== SLIDE 19 ===
+
+Práce s proměnnými
+19
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+Proměnná VS  text/řetězec
+
+Při práci s proměnnými je je třeba přetáhnout z bloků
+
+jmeno = “Michal“
+cislo = 10
+cislo = cislo + 1
+PIŠ cislo
+PIŠ “cislo“
+cislo < 10
+“cislo“ < 10
+Notes:
+
+19
+
+=== SLIDE 20 ===
+
+Selekce
+20
+Michal Stočes
+Grafický programovací jazyk Snap!
+	if, if-else, else-if /
+	když, když-jinak, 
+
+=== SLIDE 21 ===
+
+Iterace
+21
+Michal Stočes
+Grafický programovací jazyk Snap!
+WHILE
+Importovat z knihovny „  Iteration, Composition“
+
+=== SLIDE 22 ===
+
+Iterace
+22
+Michal Stočes
+Grafický programovací jazyk Snap!
+WHILE vs DO-WHILE
+Importovat z knihovny „  Iteration, Composition“
+
+Jsou algoritmy stejné?
+
+=== SLIDE 23 ===
+
+Iterace
+23
+Michal Stočes
+Grafický programovací jazyk Snap!
+WHILE vs DO-WHILE
+Importovat z knihovny „  Iteration, Composition“
+
+1,2,3,4,5,6,7,8,9
+1,2,3,4,5,6,7,8,9
+
+=== SLIDE 24 ===
+
+Iterace
+24
+Michal Stočes
+Grafický programovací jazyk Snap!
+FOR
+Importovat z knihovny „  Iteration, Composition“
+
+=== SLIDE 25 ===
+
+Skládání Puzzle
+25
+Michal Stočes
+Grafický programovací jazyk Snap!
+1.
+3.
+2.
+4.
+
+=== SLIDE 26 ===
+
+Vstup/Výstup
+26
+Grafický programovací jazyk Snap!
+Michal Stočes
+
+=== SLIDE 27 ===
+
+Praktická ukázka
+
+Sekvence, čtverec, spuštění
+Proměnná/ konstanta / skládání bloků
+Selekce 
+Iterace, krokování, turbo mód
+Vnímání – kreslení
+
+27
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 28 ===
+
+Přepis strukturogramů 1
+
+28
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 29 ===
+
+Přepis strukturogramů 1
+
+29
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 30 ===
+
+Přepis strukturogramů 2
+
+30
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 31 ===
+
+Přepis strukturogramů 2
+
+31
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 32 ===
+
+Přepis strukturogramů 3
+
+32
+Michal Stočes
+Grafický programovací jazyk Snap!
+
+=== SLIDE 33 ===
+
+Přepis strukturogramů 3
+
+33
+Michal Stočes
+Grafický programovací jazyk Snap!
+Napověda: knihovna “APL primitives“
+
+=== SLIDE 34 ===
+
+Další materiály
+https://snap.berkeley.edu/snap/help/SnapManual.pdf
+https://www.root.cz/clanky/snap-dustojny-nastupce-programovaciho-jazyka-scratch/
+https://bjc.edc.org/Sept2015/bjc-r/topic/topic.html?topic=nyc_bjc/1-intro-loops.topic
+https://www.umimeinformatiku.cz/zelvi-grafika
+https://www.jarosovi.cz/turbo-karel/
+
+34
+Grafický programovací jazyk Snap!
+Michal Stočes

@@ -1,0 +1,21 @@
+(Ruční přepis – PDF obsahuje jen obrázky slajdů.)
+=== PAGE 1 ===
+Strukturogramy: Přechod od vývojových diagramů ke strukturogramům | Pravidla pro strukturogramy | Čtení strukturogramů | Přechod od strukturogramů k programování
+=== PAGE 2 ===
+Od vývojových diagramů ke strukturogramům: Sekvence | Selekce | Iterace | Problematické přechody
+=== PAGE 3 ===
+Sekvence (obrázek): vývojový diagram Příkaz 1 → Příkaz 2 → Příkaz 2 (sic, má být Příkaz 3) | strukturogram: tři obdélníky pod sebou Příkaz 1, Příkaz 2, Příkaz 3
+=== PAGE 4 ===
+Selekce (obrázek): vývojový diagram – kosočtverec Podmínka, větev „-“ vlevo do Příkaz 1, větev „+“ vpravo do Příkaz 2, obě se spojí | strukturogram: hlavička s trojúhelníkem „Podmínka“, vlevo „+“, vpravo „-“, pod ní sloupce Příkaz 1 | Příkaz 2
+=== PAGE 5 ===
+Iterace (obrázek): (1) cyklus s podmínkou na začátku – kosočtverec Podmínka, „+“ dolů do Příkaz 1 a zpět na podmínku, „-“ ven; strukturogram: řádek „Podmínka“ nahoře, Příkaz 1 odsazený vpravo pod ním (levý pruh). (2) cyklus s podmínkou na konci – Příkaz 1, pak kosočtverec Podmínka, „+“ zpět před Příkaz 1, „-“ ven; strukturogram: Příkaz 1 odsazený nahoře, řádek „Podmínka“ dole.
+=== PAGE 6 ===
+Problematické přechody (obrázek): vývojový diagram – Příkaz 1, Podmínka; při „+“ Příkaz 2 a skok zpět před Příkaz 1; při „-“ konec. Vpravo velký otazník (strukturogram nelze přímo nakreslit).
+=== PAGE 8 ===
+Pravidla pro strukturogramy (obrázek, shora dolů): Příkaz 1; Příkaz 2; selekce Podmínka (+ vlevo, - vpravo); větev +: Příkaz 3, pak cyklus „Podmínka“ s tělem Příkaz 7 (červené šipky: + do těla, - pod cyklus, po Příkaz 7 zpět na podmínku); větev -: vnořená selekce (+ vlevo Příkaz 4, - vpravo Příkaz 5, Příkaz 6); Příkaz 8; cyklus s podmínkou na konci: tělo Příkaz 9, dole „Podmínka“ (+ zpět na Příkaz 9, - ven).
+=== PAGE 10 ===
+Čtení strukturogramů (prázdný slajd – řešeno na tabuli)
+=== PAGE 12 ===
+Přechod od strukturogramů k programování (stejný strukturogram jako na str. 8, červeně doplněný kód):
+{ Příkaz 1; Příkaz 2; if (Podmínka) { Příkaz 3; while (Podmínka) { Příkaz 7; } } else { if (Podmínka) { Příkaz 4; } else { Příkaz 5; Příkaz 6; } } Příkaz 8; do { Příkaz 9; } while (Podmínka) }
+(stránky 7, 9, 11, 13 = opakovaný titulní slajd)

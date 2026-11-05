@@ -1,0 +1,24 @@
+(Ruční přepis ručně psaných poznámek z přednášky 3 – Xournal, jen tahy pera.)
+=== PAGE 1 ===
+Pravdivostní tabulka: a b | or and xor: 0 0 | 0 0 0; 0 1 | 1 0 1; 1 0 | 1 0 1; 1 1 | 1 1 0; Vennovy diagramy or/and/xor
+100111 xor 000010 = 100101; 100101 xor 000010 = 100111; (((a>b)))
+=== PAGE 2 ===
+když b<>0 and a/b>3 (a=3, b=1, b=0); if openFile("…") or die(); a = (b>10) ? 3 : 4 → když b>10 pak a=3, jinak a=4
+=== PAGE 3 ===
+1) a>3; 2) a>2 and a<4; 3) a<3 or a>6; a>=3 xor a<=6 (číselná osa 3, 6)
+=== PAGE 4 ===
+4) (a>1 and a<3) or a>5; 5) (a>1 and a<2) or (a>3 and a<4) or (a>5 and a<6); 6) a<1 and a>2; a>a; 1>3
+=== PAGE 5 ===
+7) x=3; 8) x>2 and x<6 and y=2; 9) x>2 and y=3
+=== PAGE 6 ===
+10) x=y/2 škrtnuto, y=x/2 (tabulka x 2 4, y 1 2); 11) x=4 xor y=5; not(x=4 and y=5); (x<4 or x>4) and (y<5 or y>5)
+=== PAGE 7 ===
+11) x<>4 and y<>5; (x=4 or y=5) and not(x=4 and y=5); (x<>4 or y<>5)
+=== PAGE 8 ===
+12) x>2 and x<7 and y>5 and y<7
+=== PAGE 9 ===
+13) x>1 and x<3 and y>4 and y<8 and (x+5 > y·2) …; body (3,4),(1,8): y=kx+q, 8=k·1+q, 4=3k+q → 4=-2k?? → k=-2, q=10; y=-2x+10; výsledek (zarámováno): (y<-2x+10) and (x>1) and (y>4)
+=== PAGE 10 ===
+14) (x>2 and x<7 and y>1 and y<6) xor (x>4 and x<6 and y>2 and y<5)
+=== PAGE 11 ===
+15) dva překrývající se obdélníky (xor)

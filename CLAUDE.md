@@ -20,7 +20,7 @@ tools/shot.swift        render HTML → PNG (WebKit) pro kontrolu diagramů
 tools/ppt2txt.py        textová extrakce starých .ppt (bez závislostí)
 ```
 
-Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení), `mlg` (Matematická logika a grafy – logika, množiny a relace, grafy, konečné automaty; přednášky P1–P12; číslování je správně, neoznačovat ho jako nejisté), `ang` (Angličtina podle učebnice Lifestyle Intermediate: gramatika z lekcí 1–12 a Grammar reference (témata 1–25), ke každé lekci téma s Word Focus, Communication strategies a Interaction (26–37) a Review 1–3, 4–6, 7–9, 10–12 (38–41); učebnice je jen sken, text se získal OCR – ověř při pochybnostech ve zdrojovém PDF).
+Předměty: `upp` (B-UPP, Úvod do principu počítačů), `zpn` (Základy právních nauk), `tros` (Teorie řízení organizačních systémů / Základy řízení), `mlg` (Matematická logika a grafy – logika, množiny a relace, grafy, konečné automaty; přednášky P1–P12; číslování je správně, neoznačovat ho jako nejisté), `ang` (Angličtina podle učebnice Lifestyle Intermediate: gramatika z lekcí 1–12 a Grammar reference (témata 1–25), ke každé lekci téma s Word Focus, Communication strategies a Interaction (26–37) a Review 1–3, 4–6, 7–9, 10–12 (38–41); učebnice je jen sken, text se získal OCR – ověř při pochybnostech ve zdrojovém PDF), `alg` (Algoritmizace – vlastnosti a zápis algoritmů, strukturogramy, logika v podmínkách, funkce, Snap!; přednášky P1–P3 a P5 + cvičení; poznámky z tabule P3/P5 jsou ručně psané `.xoj`/`.xopp` (Xournal, gzip XML s tahy pera) – přepsané ručně do `extracted/`; widget `strukt` krokuje strukturogramy z `ALG.P`).
 
 ## Podklady (`src_materials/`)
 

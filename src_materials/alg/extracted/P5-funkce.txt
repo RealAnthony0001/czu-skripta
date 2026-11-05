@@ -1,0 +1,12 @@
+(Ruční přepis ručně psaných poznámek z přednášky 5 – Funkce, Xournal, jen tahy pera.)
+=== PAGE 1 ===
+25 DEC = 31 OCT; 2×10 + 5×1 = 25; 3×8 + 1 = 25
+=== PAGE 2 ===
+Dekompozice: Hlavní program: Dovolená (1). Dovolená: Kam (2), Jak (3), Dovolená/Odjezd (4). Kam: Termín (5), Destinace (6), Platba (7). Jak: Způsob (8), Platba (9). Odjezd (10). Platba(kolik): Banka (11), Úhrada (12). Termín: Výběr termínu (13). Destinace: Výběr (14).
+Vpravo zásobník návratových adres (postupně přeškrtávané): 4, 2, 5 (1.11.–3.11.), 6 Island, 7 (492 EUR), 3, 9 (67 EUR)
+=== PAGE 3 ===
+Hlavní program: piš FA(3) [1]; piš FA(FB(3)) [2]. Výstup červeně: 6, 1.
+FA(x): vysledek = 0; cyklus x>0: { vysledek = vysledek + x; x = x - 1 }; vrať vysledek.
+FB(x): selekce x<4: + vrať FA(x-2), - vrať 5.
+Tabulka FA(1): x | vysledek: 1 | 0; 0 | 1.
+Zásobník: sloupce adresa | param | návrat | prom: (1, 3, 6), (2, 3, …), (3, 4…), (4, 4, …); x = 3.

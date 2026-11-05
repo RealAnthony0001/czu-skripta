@@ -1,0 +1,22 @@
+=== PAGE 1 ===
+19/10/2018 3_Neřešené úlohy - Dokumenty Google
+Algoritmizace ­ Grafický programovací jazyk Snap! ­ Neřešené příklady
+Grafický programovací jazyk Snap!
+Neřešené příklady
+1. Vytvořte skript v jazyce Snap!, který na scénu nakreslí domeček.
+2. Vytvořte skript v jazyce Snap!, který na scénu nakreslí rovnostranný trojúhelník a k
+němu vepsanou a opsanou kružnici .
+3. Pomocí tří cyklů (cyklus v cyklu v cyklu) vytvořte následující obrazec. Smíte použít
+pouze maximálně 3x blok cyklu (for nebo while), 4x blok otoč a 2x blok posuň .
+Typ.: obrazec je vykreslen jako šestnáct čtverců.
+https://docs.google.com/document/d/1gHR7CFqtj9iQg0uVzZANDNhEhk280eVazbU7Y-nJUNs/edit#heading=h.ev37lgtura7l 1/2
+=== PAGE 2 ===
+19/10/2018 3_Neřešené úlohy - Dokumenty Google
+Algoritmizace ­ Grafický programovací jazyk Snap! ­ Neřešené příklady
+4. Vytvořte jednoduchou kalkulačku, která umí dvě operace: sčítat a odečítat
+dvě čísla.
+Uživatelské vstupy:
+Možnosti výstupů (výsledek):
+5. Vytvořte skript, který vypíše jednotlivé násobky čísla 3 a to od 3 do 30.g
+…….
+https://docs.google.com/document/d/1gHR7CFqtj9iQg0uVzZANDNhEhk280eVazbU7Y-nJUNs/edit#heading=h.ev37lgtura7l 2/2

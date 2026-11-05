@@ -1,0 +1,30 @@
+(Ruční přepis ručně psaných poznámek z přednášky 3 – Xournal++, jen tahy pera.)
+=== PAGE 1 ===
+1011 xor 0001 = 1010; 1010 xor 0001 = 1011 (dvojí xor stejným klíčem vrátí původní hodnotu)
+=== PAGE 2 ===
+Vennovy diagramy: or = obě množiny celé; and = jen průnik; xor = obě množiny bez průniku
+=== PAGE 3 ===
+0.1978.896 ...; (b<>0) and (a/b>2); 1+0=1, 0+1=1, 1+1=1
+=== PAGE 4 ===
+1) x>=3
+2) x>=2 and x<=4
+3) x<=3 or x>=6 (nand škrtnuto; or ✓, xor ✓); x>=3 xor x<=6 ~ x<3 or x>6; číselná osa s body 3 a 6
+=== PAGE 5 ===
+4) (x>=1 and x<=3) or x>=5
+5) (x>=1 and x<=2) or (x>=3 and x<=4) or (x>=5 and x<=6)
+6) 0 (prázdná množina): x>5 and x<3; x>x; 3>5; 7<>7
+=== PAGE 6 ===
+7) x=3 | x=3 and y>3 or x<5 (podtrženo)
+8) x>2 and x<6 and y=2 (náčrt: úsečka na přímce y=2 mezi x=2 a x=6)
+=== PAGE 7 ===
+9) x>2 and y=3
+10) y=2x škrtnuto, x=2y
+11) x=4 xor y=5; (x=4 or y=5) and not(x=4 and y=5); (x=4 or y=5) and (x<>4 or y<>5); náčrt přímek x=4 a y=5, průsečík vyloučen
+=== PAGE 8 ===
+12) x>2 and x<7 and y>5 and y<7
+=== PAGE 9 ===
+13) body (3,4) a (1,8); y=kx+q: 4=3k+q, 8=k+q → -4=2k → k=-2, q=8+2=10; přímka y=-2x+10; trojúhelník: y<-2x+10 and y>4 and x>1 (and y<8 and x<3 škrtnuto jako zbytečné)
+=== PAGE 10 ===
+14) (x>2 and x<7 and y>1 and y<6) xor (x>4 and x<6 and y>2 and y<5) – obdélník s vyříznutým menším obdélníkem; Venn: mezikruží
+=== PAGE 11 ===
+15) dva překrývající se obdélníky, vyšrafováno vše kromě překryvu (xor)
