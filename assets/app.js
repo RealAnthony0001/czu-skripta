@@ -93,19 +93,38 @@ function home() {
 const mapHTML = () => `<div class="crumb"><a href="#/">${SUBJECT.name}</a> / Mapa</div><header class="hero"><div><h2>Myšlenková mapa</h2><p>Klikni na uzel – rozbalí se a vpravo dole uvidíš vysvětlení a odkaz do kapitoly. Najetím myší se ukáže krátký popis.</p></div></header>${block({ t: 'widget', name: 'mapa' })}`;
 // hledání: bez ohledu na diakritiku a velikost písmen, víceslovný dotaz = všechna slova ve stejné části; fold() drží délku textu (kvůli zvýraznění)
 const fold = x => [...x].map(c => c.length > 1 ? c : c.normalize('NFD')[0].toLowerCase()).join('');
-function search(q) {
+// nálezy v tématech tohoto předmětu (volá se i z iframe ostatních předmětů, viz loadOthers)
+function findHits(q) {
   const flat = v => typeof v === 'string' || typeof v === 'number' ? v : v && typeof v === 'object' ? Object.entries(v).filter(([k]) => k !== 't').map(([, y]) => flat(y)).join(' ') : ''; // klíč t = typ bloku (def, svg …), ne text; // rekurzivně: bloky mají vnořené objekty (cols, steps, kids …)
   const strip = x => String(x).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(), ws = fold(q).split(/\s+/).filter(Boolean);
-  const re = new RegExp(ws.map(reEsc).join('|'), 'g'), ok = x => { const f = fold(x); return ws.every(w => f.includes(w)); };
-  const hits = topics.filter(t => !locked(t)).map(t => ({ t, parts: [
+  const ok = x => { const f = fold(x); return ws.every(w => f.includes(w)); };
+  return topics.filter(t => !locked(t)).map(t => ({ t, parts: [
     ...t.sections.flatMap((s, k) => s.blocks.map(b => [s.title, strip(flat(b)), sid(t, k)])),
     ...(t.vocab || []).map(v => ['Slovníček', strip(v.w + ' ' + v.x), t.id + '-vocab']),
     ['Rychlý přehled', strip(flat(t.key || [])), ''], ['Časté chyby', strip(flat(t.mistakes || [])), ''],
     ...(t.qa || []).map(x => ['Otázky', strip(x.q + ' ' + x.a), ''])
   ].filter(([, x]) => x && ok(x)) })).filter(h => h.parts.length || ok(strip(h.t.title))).map(h => ({ ...h, tm: ok(strip(h.t.title)) })).sort((a, b) => b.tm - a.tm || b.parts.length - a.parts.length); // nejdřív téma s dotazem v názvu, pak podle počtu nálezů
-  const mark = x => { const f = fold(x), m = f.search(re), st = Math.max(0, m - 50), seg = x.slice(st, m + 110), fs = f.slice(st, m + 110); let o = '', i = 0; for (const r of fs.matchAll(re)) { o += esc(seg.slice(i, r.index)) + '<mark>' + esc(seg.slice(r.index, r.index + r[0].length)) + '</mark>'; i = r.index + r[0].length; } return (st ? '…' : '') + o + esc(seg.slice(i)) + (x.length > m + 110 ? '…' : ''); };
-  const n = hits.reduce((a, h) => a + h.parts.length, 0);
-  return `<h2 style="margin-top:0">Hledání: „${esc(q)}“</h2><p class="mu">${hits.length ? `${n} nálezů v ${hits.length} tématech – klikni na nález a skočíš přímo do sekce.` : ''}</p>` + (hits.map(({ t, parts }) => `<div class="card"><a href="#/${t.id}"><b>${t.title}</b></a>${parts.length ? ` <span class="mu">· ${parts.length}×</span>` : ''}${parts.slice(0, 4).map(([sec, x, id]) => `<div class="hit"><a href="#/${t.id}" data-sec="${id}" class="hl"><b>${sec}</b>: ${mark(x)}</a></div>`).join('')}${parts.length > 4 ? `<div class="hit mu">… a dalších ${parts.length - 4}</div>` : ''}</div>`).join('') || '<p>Nic nenalezeno. Zkus kratší nebo jiné slovo (hledá se i bez diakritiky).</p>');
+}
+// ostatní předměty: seznam z kořenového index.html, každý se jednou načte do skrytého iframe (shortcut: nefunguje z file://, tam se hledá jen v tomto předmětu)
+let others;
+const loadOthers = () => others ||= fetch('../index.html').then(r => r.text())
+  .then(t => [...new DOMParser().parseFromString(t, 'text/html').querySelectorAll('a.scard')].map(a => a.getAttribute('href')).filter(h => !h.startsWith(SUBJECT.id + '/')))
+  .then(hs => Promise.all(hs.map(h => new Promise(res => { const f = Object.assign(document.createElement('iframe'), { hidden: true, src: '../' + h, onload: () => res({ win: f.contentWindow, base: '../' + h }), onerror: () => res(null) }); document.body.append(f); }))))
+  .then(r => r.filter(x => x?.win.SUBJECT && x.win.findHits)).catch(() => []);
+let othersDone;
+function search(q) {
+  const draw = (groups, loading) => {
+    const mark = (() => { const re = new RegExp(fold(q).split(/\s+/).filter(Boolean).map(reEsc).join('|'), 'g');
+      return x => { const f = fold(x), m = f.search(re), st = Math.max(0, m - 50), seg = x.slice(st, m + 110), fs = f.slice(st, m + 110); let o = '', i = 0; for (const r of fs.matchAll(re)) { o += esc(seg.slice(i, r.index)) + '<mark>' + esc(seg.slice(r.index, r.index + r[0].length)) + '</mark>'; i = r.index + r[0].length; } return (st ? '…' : '') + o + esc(seg.slice(i)) + (x.length > m + 110 ? '…' : ''); }; })();
+    const all = groups.flatMap(g => g.hits), n = all.reduce((a, h) => a + h.parts.length, 0);
+    return `<h2 style="margin-top:0">Hledání: „${esc(q)}“</h2><p class="mu">${all.length ? `${n} nálezů v ${all.length} tématech – klikni na nález a skočíš přímo do sekce.` : ''}</p>`
+      + groups.filter(g => g.hits.length).map(g => `<div class="gh">${g.name} <span class="mu">· ${g.hits.length}</span></div>` + g.hits.map(({ t, parts }) => `<div class="card"><a href="${g.base}#/${t.id}"><b>${t.title}</b></a>${parts.length ? ` <span class="mu">· ${parts.length}×</span>` : ''}${parts.slice(0, 4).map(([sec, x, id]) => `<div class="hit"><a href="${g.base}#/${t.id}" ${g.base ? '' : `data-sec="${id}" `}class="hl"><b>${sec}</b>: ${mark(x)}</a></div>`).join('')}${parts.length > 4 ? `<div class="hit mu">… a dalších ${parts.length - 4}</div>` : ''}</div>`).join('')).join('')
+      + (loading ? '<p class="mu">Načítám ostatní předměty…</p>' : all.length ? '' : '<p>Nic nenalezeno. Zkus kratší nebo jiné slovo (hledá se i bez diakritiky).</p>');
+  };
+  const mine = { name: SUBJECT.name, base: '', hits: findHits(q) }, withOthers = os => [mine, ...os.map(o => ({ name: o.win.SUBJECT.name, base: o.base, hits: o.win.findHits(q) }))];
+  if (othersDone) return draw(withOthers(othersDone), false);
+  loadOthers().then(os => { othersDone = os; if (window._q === q) $('#main').innerHTML = draw(withOthers(os), false); });
+  return draw([mine], true);
 }
 function nav() {
   const nd = topics.filter(t => !locked(t) && inG(t));

@@ -1,7 +1,7 @@
-// Widgety MLG nad grafy (blok { t: 'widget', name }): galg (Kruskal / Jarník / Dijkstra), tok, kc (kritická cesta), skore, barveni, pruchod.
+// Widgety MLG nad grafy (blok { t: 'widget', name }): galg (Kruskal / Jarník / Dijkstra), izo (izomorfismus), tok, kc (kritická cesta), skore, barveni, pruchod.
 // Grafy a data berou z MLG (diagrams.js), krokování staví na WG.app (assets/wg.js).
 (() => {
-  const { graf, circ, GV, GE, lo, TOK, KC, EXPR } = MLG, { svg, text, line } = DG;
+  const { graf, circ, GV, GE, lo, TOK, KC, EXPR, ISO } = MLG, { svg, text, line } = DG;
   const IDS = Object.keys(GV), N = IDS.length;
   const split = (a, b) => `<div class="qw-split"><div>${WG.svg(a)}</div><div>${b}</div></div>`;
   const other = (e, u) => (e[0] === u ? e[1] : e[1] === u ? e[0] : null);
@@ -163,6 +163,46 @@
         if (neg) { S.push({ title: '✗ Záporný stupeň → graf neexistuje', what: 'Některému vrcholu bychom měli odečíst z nuly.', why: 'Záporný počet zbývajících hran nedává smysl.', change: 'Graf s tímto skórem <b>neexistuje</b>.', view: view(items, 0, WG.note('Graf se zadaným skóre <b>neexistuje</b>.', 'bad')) }); break; }
       }
       return S;
+    }
+  }));
+
+  // ---------- izomorfismus: ruční přiřazení vrcholů + kontrola hran ----------
+  const key = (a, b) => (a < b ? a + ',' + b : b + ',' + a), LET = 'abcdef';
+  const perms = a => (a.length < 2 ? [a] : a.flatMap((x, i) => perms([...a.slice(0, i), ...a.slice(i + 1)]).map(q => [x, ...q])));
+  const score = (n, e) => Array.from({ length: n }, (_, v) => e.filter(x => x.includes(v)).length).sort((a, b) => b - a).join(' ');
+  WG.reg('izo', root => WG.app(root, {
+    state: { g: 'dum', m: [], sel: 0, auto: null },
+    top: ui => `${WG.lbl('Dvojice:')}${Object.entries(ISO).map(([k, g]) => WG.btn('g', g.l, ui.g === k, `data-k="${k}"`)).join('')}${WG.btn('clr', 'Vymazat přiřazení')}${WG.btn('auto', 'Najdi izomorfismus')}`,
+    act: (ui, a, d) => {
+      if (a === 'g') { ui.g = d.k; ui.m = []; ui.sel = 0; ui.auto = null; }
+      if (a === 'clr') { ui.m = []; ui.sel = 0; ui.auto = null; }
+      if (a === 'a') ui.sel = +d.i;
+      if (a === 'b' && ui.sel !== null) {
+        const j = +d.i, n = ISO[ui.g].p1.length;
+        ui.m = ui.m.map(x => (x === j ? null : x)); ui.m[ui.sel] = j; ui.auto = null;
+        const nx = [...Array(n).keys()].find(i => ui.m[i] == null); ui.sel = nx === undefined ? null : nx;
+      }
+      if (a === 'auto') { const g = ISO[ui.g], n = g.p1.length, S = new Set(g.e2.map(([x, y]) => key(Math.min(x, y), Math.max(x, y)))), f = g.e1.length === g.e2.length ? perms([...Array(n).keys()]).find(q => g.e1.every(([x, y]) => S.has(key(Math.min(q[x], q[y]), Math.max(q[x], q[y]))))) : null; ui.m = f || []; ui.sel = null; ui.auto = f ? 'ok' : 'none'; }
+    },
+    view: ui => {
+      const g = ISO[ui.g], n = g.p1.length, m = ui.m, E2 = new Set(g.e2.map(([x, y]) => key(Math.min(x, y), Math.max(x, y))));
+      const img = g.e1.map(([x, y]) => (m[x] != null && m[y] != null ? [Math.min(m[x], m[y]), Math.max(m[x], m[y])] : null));
+      const okE = img.map(q => (q ? E2.has(key(...q)) : null)), hit = new Set(img.filter(Boolean).map(q => key(...q)));
+      const full = m.filter(x => x != null).length === n, extra = full ? g.e2.filter(([x, y]) => !hit.has(key(Math.min(x, y), Math.max(x, y)))) : [];
+      const inv = []; m.forEach((j, i) => { if (j != null) inv[j] = i; });
+      const V1 = Object.fromEntries(g.p1.map(([x, y], i) => [i, [x, y, ui.sel === i ? 'fA' : m[i] != null ? 'fD' : 'b', String(i + 1)]]));
+      const V2 = Object.fromEntries(g.p2.map(([x, y], j) => [j, [x, y, inv[j] != null ? 'fD' : 'b', LET[j]]]));
+      const hint = (p, f) => { const cx = p.reduce((t, q) => t + q[0], 0) / p.length, cy = p.reduce((t, q) => t + q[1], 0) / p.length; return p.map(([x, y], i) => { const d = Math.hypot(x - cx, y - cy) || 1; return f(i) ? text((x + (x - cx) / d * 32).toFixed(1), (y + (y - cy) / d * 32 + 4).toFixed(1), f(i), 'c sm mu') : ''; }).join(''); }; // popisek přiřazení leží ven od středu grafu, aby nepřekryl hrany
+      const click = (p, act) => p.map(([x, y], i) => `<circle data-act="${act}" data-i="${i}" cx="${x}" cy="${y}" r="20" fill="transparent" style="cursor:pointer"/>`).join('');
+      const body = svg(720, 300, graf(V1, g.e1.map((e, k) => [e[0], e[1], '', { cls: okE[k] === false ? 'lA' : okE[k] ? 'lD' : 'ln' }])) + graf(V2, g.e2.map(([x, y]) => [x, y, '', { cls: hit.has(key(Math.min(x, y), Math.max(x, y))) ? 'lD' : extra.some(q => q[0] === x && q[1] === y) ? 'lA' : 'ln' }]))
+        + text(160, 294, 'G₁', 'c bd') + text(540, 294, 'G₂', 'c bd') + hint(g.p1, i => (m[i] != null ? '→ ' + LET[m[i]] : '')) + hint(g.p2, j => (inv[j] != null ? '← ' + (inv[j] + 1) : '')) + click(g.p1, 'a') + click(g.p2, 'b'), 720);
+      const rows = g.e1.map(([x, y], k) => ({ cls: okE[k] === false ? 'skip' : okE[k] ? 'add' : '', cells: [`{${x + 1},${y + 1}}`, img[k] ? `{${LET[m[x]]},${LET[m[y]]}}` : '–', okE[k] == null ? '' : okE[k] ? '✓ je hranou' : '✗ není hranou'] }));
+      const bad = okE.filter(v => v === false).length;
+      const msg = ui.auto === 'none' ? WG.note(`Žádná z ${perms([...Array(n).keys()]).length} bijekcí hrany nezachová – grafy <b>nejsou izomorfní</b>.`, 'bad')
+        : !full ? WG.note(`Přiřazeno ${m.filter(x => x != null).length} z ${n}. Klikni na vrchol vlevo (červený = vybraný) a pak na vrchol vpravo, který mu odpovídá.`)
+        : bad || extra.length ? WG.note(`Tohle přiřazení izomorfismus <b>není</b>: ${bad ? `${bad} hran G₁ se nezobrazí na hranu G₂ (červeně)` : ''}${bad && extra.length ? ', ' : ''}${extra.length ? `${extra.length} hran G₂ nemá vzor` : ''}. Zkus jiné přiřazení, nebo si nech izomorfismus najít.`, 'bad')
+          : WG.note('<b>Izomorfismus!</b> Všechny hrany se zachovaly v obou směrech (⇔).', 'ok');
+      return split(WG.svg(body), `${msg}<div class="qw-kv"><span>vrcholů</span><span>${n} a ${g.p2.length}</span><span>hran</span><span>${g.e1.length} a ${g.e2.length}</span><span>skóre G₁</span><span>${score(n, g.e1)}</span><span>skóre G₂</span><span>${score(g.p2.length, g.e2)}</span></div>${WG.tbl(['hrana G₁', 'obraz v G₂', 'kontrola'], rows)}`);
     }
   }));
 

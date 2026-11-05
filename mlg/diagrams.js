@@ -254,6 +254,26 @@ const MLG = (() => {
     return svg(720, y + 46, o);
   };
 
+  // 24) izomorfismus: dva diagramy téhož grafu (domeček) a bijekce I; ISO = předvolby pro widget
+  const ISO = {
+    dum: { l: 'Domeček × obrácený domeček (izomorfní)', I: [2, 4, 0, 1, 3],
+      p1: [[60, 120], [200, 120], [200, 240], [60, 240], [130, 40]], e1: [[0, 1], [1, 2], [2, 3], [3, 0], [0, 4], [1, 4]],
+      p2: [[620, 60], [440, 40], [420, 140], [530, 230], [640, 160]], e2: [[2, 4], [4, 0], [0, 1], [1, 2], [2, 3], [4, 3]] },
+    c6: { l: 'C₆ × dva trojúhelníky (stejné skóre, neizomorfní)',
+      p1: [0, 1, 2, 3, 4, 5].map(i => [+(160 + 100 * Math.sin(i * Math.PI / 3)).toFixed(1), +(140 - 100 * Math.cos(i * Math.PI / 3)).toFixed(1)]), e1: [0, 1, 2, 3, 4, 5].map(i => [i, (i + 1) % 6]),
+      p2: [[470, 70], [420, 190], [520, 190], [620, 70], [570, 190], [670, 190]], e2: [[0, 1], [1, 2], [2, 0], [3, 4], [4, 5], [5, 3]] }
+  };
+  const izomorfismus = () => {
+    const { I, p1, e1, p2, e2 } = ISO.dum, L = 'abcde', cl = ['fA', 'fD', 'fW', 'fE', 'b'], inv = [];
+    I.forEach((j, i) => { inv[j] = i; });
+    const V1 = Object.fromEntries(p1.map(([x, y], i) => [i, [x, y, cl[i], String(i + 1)]])), V2 = Object.fromEntries(p2.map(([x, y], j) => [j, [x, y, cl[inv[j]], L[j]]]));
+    const row = (a, b) => `{${a + 1},${b + 1}} → {${[L[I[a]], L[I[b]]].sort().join(',')}}`, r = (k) => e1.slice(k, k + 3).map(([a, b]) => row(a, b)).join('      ');
+    return svg(720, 365, graf(V1, e1.map(([a, b]) => [a, b])) + graf(V2, e2.map(([a, b]) => [a, b])) +
+      text(130, 285, 'G₁', 'c bd') + text(530, 285, 'G₂', 'c bd') + line(300, 150, 400, 150, 'ln', 'end') + text(350, 140, 'I', 'c bd tA') + text(350, 172, 'bijekce', 'c sm mu') +
+      text(360, 304, 'I: ' + I.map((j, i) => `${i + 1} → ${L[j]}`).join('   '), 'c bd mo') +
+      text(360, 324, r(0), 'c sm mo') + text(360, 340, r(3), 'c sm mo') + text(360, 360, '✓ všech 6 hran G₁ se zobrazilo na hranu G₂ (a G₂ má také 6)', 'c sm bd tD'));
+  };
+
   const kruskal = E => { const p = {}, f = x => (p[x] ?? x) === x ? x : (p[x] = f(p[x])), T = []; [...E].sort((a, b) => a[2] - b[2]).forEach(e => { const a = f(e[0]), b = f(e[1]); if (a !== b) { p[a] = b; T.push(e); } }); return T; };
 
   const dijkstra = (E, s) => { const V = [...new Set(E.flatMap(e => [e[0], e[1]]))], d = Object.fromEntries(V.map(v => [v, Infinity])), pr = {}, done = []; d[s] = 0;
@@ -330,6 +350,6 @@ const MLG = (() => {
   };
 
   return { formuleStrom, vennFormule, dusledek, dntPostup, tabulkaUdnt, negace,
-    graf, circ, loop, GV, GE, lo, TOK, KC, EXPR, venn3, ciselneObory, komplexniRovina, relaceVlastnosti, hasseJidla, zobrazeniTypy, podgrafy,
+    graf, circ, loop, ISO, izomorfismus, GV, GE, lo, TOK, KC, EXPR, venn3, ciselneObory, komplexniRovina, relaceVlastnosti, hasseJidla, zobrazeniTypy, podgrafy,
     sledTahCesta, eulerDomecek, kostryK4, rovinne, automatMin, mnozinoveOperace, tridyEkvivalence, skoreRedukce, kostraKruskal, dijkstraStrom, vyrazStrom, tokSit, kritickaCesta, automatLiche, barveniPriklady };
 })();

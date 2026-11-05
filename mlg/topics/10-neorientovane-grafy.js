@@ -42,6 +42,10 @@ registerTopic({
         'Při hledání neizomorfních grafů proto nejdřív porovnej tyto tři údaje – liší-li se, izomorfní nejsou.',
         'Shodují-li se, hledej přiřazení vrcholů: vrchol stupně 3 musí jít na vrchol stupně 3, jeho sousedé na sousedy atd.'
       ] },
+      { t: 'p', x: 'Izomorfismus je <b>přejmenování vrcholů</b>: vezmeš první graf, každému vrcholu dáš nové jméno z druhého grafu a výsledek musí mít přesně stejné hrany. Dva různé obrázky tak mohou znázorňovat tentýž graf – liší se jen polohou a popisky vrcholů.' },
+      { t: 'widget', title: 'Hledání izomorfismu', fig: MLG.izomorfismus(), figcap: 'Dva diagramy téhož grafu („domeček“ a obrácený domeček se šikmou střechou). Stejně obarvené vrcholy si odpovídají při bijekci I; pod obrázkem je přehled, kam se zobrazila každá hrana G₁.', name: 'izo',
+        how: ['Vyber dvojici grafů. Klikni na vrchol vlevo (zčervená) a pak na vrchol vpravo – tím jim zadáš I(vlevo) = vpravo. Vrcholy se přiřazují postupně, přiřazení lze přepsat novým klikem.', 'Tabulka kontroluje každou hranu G₁: její obraz {I(a), I(b)} musí být hranou G₂. Modré hrany se zachovaly, červené ne; červená hrana v G₂ znamená hranu bez vzoru, tedy porušení implikace „⇐“.', 'Vpravo je počet vrcholů, hran a skóre obou grafů – nutné podmínky, které si zkontroluj jako první.', '„Najdi izomorfismus“ projde všechny bijekce; u dvojice C₆ × dva trojúhelníky žádnou nenajde, přestože skóre je stejné.'],
+        sol: 'Domeček: I: 1→c, 2→e, 3→a, 4→b, 5→d. Obrazy hran {1,2}→{c,e}, {2,3}→{e,a}, {3,4}→{a,b}, {4,1}→{b,c}, {1,5}→{c,d}, {2,5}→{e,d} jsou všechny hranami G₂ a G₂ má také 6 hran, proto je I izomorfismus. Izomorfismů je víc (domeček jde zrcadlit): druhý je 1→e, 2→c, 3→b, 4→a, 5→d.' },
       { t: 'warn', x: 'Stejné skóre je jen <b>nutná</b> podmínka. Například kružnice C₆ a dva oddělené trojúhelníky mají obě skóre (2, 2, 2, 2, 2, 2), ale první je souvislá a druhý ne – izomorfní nejsou.' }
     ] },
     { title: 'Existence grafu s daným skóre', blocks: [
@@ -100,6 +104,7 @@ registerTopic({
     { q: 'Kdy jde souvislý graf nakreslit jedním otevřeným tahem?', a: 'Když má právě dva vrcholy lichého stupně – v nich tah začíná a končí.' },
     { q: 'Jaký je rozdíl mezi tahem a cestou?', a: 'V tahu se neopakují hrany, v cestě se neopakují ani vrcholy.' },
     { q: 'Kolik vizitek ztratil pan Zbyšek?', a: '4 – jiná hodnota nevede na existující graf.' },
-    { q: 'Které tři údaje musí izomorfní grafy sdílet?', a: 'Počet vrcholů, počet hran a skóre.' }
+    { q: 'Které tři údaje musí izomorfní grafy sdílet?', a: 'Počet vrcholů, počet hran a skóre.' },
+    { q: 'Jak dokážeš, že dva grafy jsou izomorfní, a jak že nejsou?', a: 'Izomorfní: najdeš bijekci vrcholů a ověříš, že každá hrana se zobrazí na hranu (a hran je stejně mnoho). Neizomorfní: najdeš údaj, v němž se liší – počet vrcholů, hran, skóre nebo např. souvislost (C₆ × dva trojúhelníky).' }
   ]
 });
