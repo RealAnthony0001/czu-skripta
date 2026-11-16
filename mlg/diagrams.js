@@ -179,14 +179,16 @@ const MLG = (() => {
   // tabulka relace v SVG; mode 'dopln' = barvy podle původu dvojice, 'hasse' = škrtnutá diagonála a tranzitivní dvojice
   const relMatice = (P, mode, x0, y0, c = 32) => {
     const cell = (i, j) => {
-      const x = x0 + c + j * c, y = y0 + c + i * c, on = P.has(P.R, i, j);
+      const x = x0 + c + j * c, y = y0 + (P.n - 1 - i) * c, on = P.has(P.R, i, j);
       let cls = 'b', s = on ? '1' : '', tc = 'c mo';
       if (mode === 'dopln' && on) cls = P.has(P.base, i, j) ? 'fD' : i === j ? 'fW' : 'fA';
       if (mode === 'hasse' && on) { if (P.isCover(i, j)) { cls = 'fD'; tc += ' bd'; } else { cls = 'pd'; tc += ' mu'; } }
       return rect(x, y, c, c, cls) + (s ? text(x + c / 2, y + c / 2 + 5, s, tc) : '') + (mode === 'hasse' && on && !P.isCover(i, j) ? line(x + 6, y + c - 6, x + c - 6, y + 6, 'lA') : '');
     };
-    return text(x0 + c / 2, y0 + c / 2 + 5, 'x \\ y', 'c sm mu') +
-      P.el.map((e, j) => text(x0 + c + j * c + c / 2, y0 + c / 2 + 5, e, 'c bd')).join('') + P.el.map((e, i) => text(x0 + c / 2, y0 + c + i * c + c / 2 + 5, e, 'c bd')).join('') +
+    // jako na tabuli: první prvek vlevo dole, řádky rostou nahoru, popisky sloupců pod tabulkou
+    const yb = y0 + P.n * c;
+    return text(x0 + c / 2, yb + c / 2 + 5, 'x \\ y', 'c sm mu') +
+      P.el.map((e, j) => text(x0 + c + j * c + c / 2, yb + c / 2 + 5, e, 'c bd')).join('') + P.el.map((e, i) => text(x0 + c / 2, y0 + (P.n - 1 - i) * c + c / 2 + 5, e, 'c bd')).join('') +
       P.all.map(i => P.all.map(j => cell(i, j)).join('')).join('');
   };
   const P10 = k => poset(POSET_EX[k].el, POSET_EX[k].r);

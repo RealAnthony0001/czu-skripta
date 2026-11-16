@@ -85,7 +85,7 @@ registerTopic({
       ], x: 'Obě relace jsou reflexivní a tranzitivní, liší se jedinou vlastností. Ekvivalence je symetrická, takže říká „tyhle prvky patří k sobě“ a množinu rozkrájí na skupiny, ve kterých je každý s každým. Uspořádání je antisymetrické, takže dva různé prvky nikdy nejsou „menší“ jeden než druhý navzájem a vzniká pořadí. Třeba „být ve stejné třídě školy“ je ekvivalence, kdežto „být mladší nebo stejně starý“ (u lidí s různými daty narození) je uspořádání.' }
     ] },
     { title: 'Hasseho diagram z tabulky krok za krokem', blocks: [
-      { t: 'p', x: 'Relaci zapiš do <b>tabulky</b>: řádek x, sloupec y, jednička = (x, y) ∈ R, tedy x ≼ y – v diagramu bude <b>x pod y</b>. Z tabulky se pak dají všechny kroky dělat mechanicky.' },
+      { t: 'p', x: 'Relaci zapiš do <b>tabulky</b> (prvky zdola nahoru a zleva doprava, takže (k, k) je vlevo dole a diagonála jde šikmo nahoru): řádek x, sloupec y, jednička = (x, y) ∈ R, tedy x ≼ y – v diagramu bude <b>x pod y</b>. Z tabulky se pak dají všechny kroky dělat mechanicky.' },
       { t: 'ul', items: [
         '<b>diagonála</b> = reflexivita (musí být celá plná),',
         '<b>zrcadlo podle diagonály</b> = antisymetrie (pole (x, y) a (y, x) pro x ≠ y nesmí mít jedničku obě),',
