@@ -1,6 +1,6 @@
 // Generuje tools/version.sh při každém commitu – neupravovat ručně.
 (() => {
-  const V = { n: 41, h: '5985169', t: 1793909018 };
+  const V = { n: 44, h: 'f7011c6', t: 1794828621 };
   const d = new Date(V.t * 1000).toLocaleString('cs-CZ', { dateStyle: 'medium', timeStyle: 'short' });
   const el = Object.assign(document.createElement('span'), { className: 'ver', textContent: `v${V.n} · ${d}`, title: `Commit č. ${V.n} (po ${V.h}), ${d}` });
   document.querySelector('.top #theme').before(el);

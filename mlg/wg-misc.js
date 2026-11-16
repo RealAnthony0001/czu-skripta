@@ -104,7 +104,7 @@
     },
     steps: ui => {
       const el = REL[ui.k].el, n = el.length, has = (R, i, j) => R.has(i + ',' + j), base = new Set(ui.m), all = [...Array(n).keys()];
-      const matrix = (R, ed, added = new Set()) => `<div class="qw-cv"><table><tr><th>R</th>${el.map(e => `<th>${e}</th>`).join('')}</tr>${all.map(i => `<tr><th>${el[i]}</th>${all.map(j => `<td class="${added.has(i + ',' + j) ? 'ok' : ''}" ${ed ? `data-act="cell" data-i="${i}" data-j="${j}" style="cursor:pointer"` : ''}>${has(R, i, j) ? '1' : '·'}</td>`).join('')}</tr>`).join('')}</table></div>`;
+      const matrix = (R, ed, added = new Set()) => `<div class="qw-cv"><table>${[...all].reverse().map(i => `<tr><th>${el[i]}</th>${all.map(j => `<td class="${added.has(i + ',' + j) ? 'ok' : ''}" ${ed ? `data-act="cell" data-i="${i}" data-j="${j}" style="cursor:pointer"` : ''}>${has(R, i, j) ? '1' : '·'}</td>`).join('')}</tr>`).join('')}<tr><th>x \\ y</th>${el.map(e => `<th>${e}</th>`).join('')}</tr></table></div>`;
       const pr = (i, j) => `(${el[i]}, ${el[j]})`;
       const first = (arr) => arr[0];
       const refl = all.filter(i => !has(base, i, i)), sym = all.flatMap(i => all.filter(j => has(base, i, j) && !has(base, j, i)).map(j => [i, j])),
