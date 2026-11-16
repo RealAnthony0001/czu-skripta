@@ -125,6 +125,98 @@ const MLG = (() => {
       text(620, 60, 'nahoře „největší“', 'c sm mu') + text(620, 255, 'dole „nejmenší“', 'c sm mu') + line(620, 235, 620, 75, 'ds ln', 'end'));
   };
 
+  // 14b) doplnění relace na uspořádání a Hasseho diagram z tabulky (sdílí widget 'hasse' v wg-misc.js)
+  // tabulka (matice): řádek x, sloupec y, 1 = (x, y) ∈ R = „x ≼ y“ (x leží v diagramu pod y)
+  const POSET_EX = {
+    R: { l: 'Úloha 10a: R', el: ['k', 'l', 'm', 'n', 'o', 'p'], r: [['l', 'o'], ['o', 'k'], ['p', 'p'], ['o', 'p'], ['l', 'n']] },
+    S: { l: 'Úloha 10b: S', el: ['k', 'l', 'm', 'n', 'o', 'p'], r: [['n', 'l'], ['m', 'p'], ['o', 'k'], ['l', 'k'], ['m', 'm'], ['l', 'm'], ['n', 'o']] },
+    T: { l: 'Úloha 10c: T', el: ['k', 'l', 'm', 'n', 'o', 'p'], r: [['n', 'm'], ['l', 'p'], ['k', 'p'], ['o', 'k'], ['m', 'k'], ['o', 'n'], ['n', 'l']] },
+    J: { l: 'Jídla z přednášky', el: ['S', 'R', 'JK', 'SM', 'HK', 'RBS'], r: [['HK', 'SM'], ['HK', 'S'], ['R', 'R'], ['R', 'RBS'], ['SM', 'JK'], ['S', 'R'], ['HK', 'R'], ['SM', 'R']] }
+  };
+  // čistý výpočet: reflexivní doplnění, tranzitivita po kolech (s důvodem), antisymetrie, bezprostřední následnosti, úrovně
+  const poset = (el, pairs) => {
+    const n = el.length, all = [...Array(n).keys()], ix = Object.fromEntries(el.map((e, i) => [e, i])), K = (i, j) => i + ',' + j;
+    const base = new Set(pairs.map(([a, b]) => K(ix[a] ?? a, ix[b] ?? b))), has = (S, i, j) => S.has(K(i, j));
+    const refl = all.filter(i => !has(base, i, i)).map(i => [i, i]), R = new Set([...base, ...refl.map(p => K(...p))]), rounds = [];
+    for (let g = 0; g < n * n; g++) { // kolo: nové dvojice z toho, co bylo na začátku kola; why = přes který prvek z
+      const add = new Map();
+      all.forEach(i => all.forEach(z => all.forEach(j => { if (i !== z && z !== j && has(R, i, z) && has(R, z, j) && !has(R, i, j) && !add.has(K(i, j))) add.set(K(i, j), [i, j, z]); })));
+      if (!add.size) break;
+      rounds.push([...add.values()]); add.forEach((_, k) => R.add(k));
+    }
+    const lt = (i, j) => i !== j && has(R, i, j);
+    const anti = all.flatMap(i => all.filter(j => i < j && lt(i, j) && lt(j, i)).map(j => [i, j]));
+    const covers = all.flatMap(i => all.filter(j => lt(i, j) && !all.some(z => lt(i, z) && lt(z, j))).map(j => [i, j]));
+    const layers = []; let left = anti.length ? [] : all.slice(); // úrovně: opakovaně odeber minimální prvky (sloupec bez jiné 1)
+    while (left.length) { const mins = left.filter(j => !left.some(i => lt(i, j))); layers.push(mins); left = left.filter(j => !mins.includes(j)); }
+    const lev = []; layers.forEach((L, k) => L.forEach(j => { lev[j] = k; }));
+    const isCover = (i, j) => covers.some(([a, b]) => a === i && b === j);
+    return { el, n, all, base, refl, rounds, trans: rounds.flat(), R, has, lt, anti, covers, isCover, layers, lev, pr: (i, j) => `(${el[i]}, ${el[j]})` };
+  };
+  // rozmístění vrcholů: úroveň = výška, v úrovni pořadí podle průměru x prvků pod ním
+  const hasseLayout = (P, x0, w, yb, dy) => {
+    const X = [];
+    P.layers.forEach((L, k) => {
+      const tgt = j => { const lo = P.covers.filter(([, b]) => b === j).map(([a]) => X[a]); return lo.length ? lo.reduce((s, v) => s + v, 0) / lo.length : x0 + w / 2; };
+      const ord = k ? [...L].sort((a, b) => tgt(a) - tgt(b) || a - b) : L, gap = Math.min(70, w / ord.length);
+      if (!k) ord.forEach((j, q) => { X[j] = x0 + w / 2 + (q - (ord.length - 1) / 2) * gap; });
+      else {
+        const t = ord.map(tgt), x = t.slice();
+        for (let q = 1; q < x.length; q++) x[q] = Math.max(x[q], x[q - 1] + gap);
+        const sh = (t.reduce((s, v) => s + v, 0) - x.reduce((s, v) => s + v, 0)) / x.length; // posuň zpět ke středu cílů
+        ord.forEach((j, q) => { X[j] = Math.max(x0 + 16, Math.min(x0 + w - 16, x[q] + sh)); });
+      }
+    });
+    return P.all.map(j => [X[j], yb - P.lev[j] * dy]);
+  };
+  // Hasseho diagram; hi = { j: třída } zvýraznění vrcholů, lv = popisky úrovní vlevo
+  const hasseSvg = (P, { x0 = 0, w = 240, yb = 230, dy = 62, r = 16, hi = {}, lv = false, only = null } = {}) => {
+    const V = hasseLayout(P, x0, w, yb, dy), show = j => !only || only.includes(j);
+    return (lv ? P.layers.map((_, k) => text(x0 - 6, yb - k * dy + 4, `úroveň ${k}`, 'e sm mu')).join('') : '') +
+      P.covers.filter(([a, b]) => show(a) && show(b)).map(([a, b]) => line(V[a][0], V[a][1] - r, V[b][0], V[b][1] + r, 'ln')).join('') +
+      P.all.filter(show).map(j => circ(V[j][0], V[j][1], r, hi[j] || 'b') + text(V[j][0], V[j][1] + 5, P.el[j], 'c bd' + (P.el[j].length > 2 ? ' sm' : ''))).join('');
+  };
+  // tabulka relace v SVG; mode 'dopln' = barvy podle původu dvojice, 'hasse' = škrtnutá diagonála a tranzitivní dvojice
+  const relMatice = (P, mode, x0, y0, c = 32) => {
+    const cell = (i, j) => {
+      const x = x0 + c + j * c, y = y0 + c + i * c, on = P.has(P.R, i, j);
+      let cls = 'b', s = on ? '1' : '', tc = 'c mo';
+      if (mode === 'dopln' && on) cls = P.has(P.base, i, j) ? 'fD' : i === j ? 'fW' : 'fA';
+      if (mode === 'hasse' && on) { if (P.isCover(i, j)) { cls = 'fD'; tc += ' bd'; } else { cls = 'pd'; tc += ' mu'; } }
+      return rect(x, y, c, c, cls) + (s ? text(x + c / 2, y + c / 2 + 5, s, tc) : '') + (mode === 'hasse' && on && !P.isCover(i, j) ? line(x + 6, y + c - 6, x + c - 6, y + 6, 'lA') : '');
+    };
+    return text(x0 + c / 2, y0 + c / 2 + 5, 'x \\ y', 'c sm mu') +
+      P.el.map((e, j) => text(x0 + c + j * c + c / 2, y0 + c / 2 + 5, e, 'c bd')).join('') + P.el.map((e, i) => text(x0 + c / 2, y0 + c + i * c + c / 2 + 5, e, 'c bd')).join('') +
+      P.all.map(i => P.all.map(j => cell(i, j)).join('')).join('');
+  };
+  const P10 = k => poset(POSET_EX[k].el, POSET_EX[k].r);
+  // 14c) úloha 10b: tabulka doplněná na uspořádání (barvy = odkud se dvojice vzala)
+  const hasseMatice = (k = 'S') => {
+    const P = P10(k), f = ps => ps.map(([i, j]) => P.pr(i, j)).join(', ');
+    return svg(740, 270, relMatice(P, 'dopln', 10, 20) +
+      box(290, 24, 26, 22, 'fD', '') + text(326, 40, `zadané dvojice (${P.base.size})`, '') +
+      box(290, 58, 26, 22, 'fW', '') + text(326, 74, `reflexivita – doplněná diagonála (${P.refl.length})`, '') + text(326, 92, f(P.refl), 'sm mu mo') +
+      box(290, 108, 26, 22, 'fA', '') + text(326, 124, `tranzitivita (${P.trans.length})`, '') +
+      P.rounds.map((rd, q) => text(326, 144 + q * 36, `${q + 1}. kolo: ${f(rd)}`, 'sm mo') + text(326, 161 + q * 36, rd.map(([i, j, z]) => `${P.pr(i, j)} z ${P.pr(i, z)} a ${P.pr(z, j)}`).join(' · '), 'sm mu')).join('') +
+      text(326, 228, `celkem přidáno ${P.refl.length + P.trans.length} dvojic`, 'bd') + text(326, 246, `antisymetrie: ${P.anti.length ? 'porušena' : 'v pořádku – nikde 1 v obou zrcadlových polích'}`, 'sm mu') +
+      text(150, 262, 'řádek x, sloupec y: 1 = x ≼ y', 'c sm mu'));
+  };
+  // 14d) od tabulky k diagramu: škrtnout diagonálu a tranzitivní dvojice, zbytek = čáry; úrovně zdola
+  const hasseCteni = (k = 'S') => {
+    const P = P10(k), cv = P.covers.map(([i, j]) => P.pr(i, j)).join(', ');
+    return svg(740, 300, relMatice(P, 'hasse', 10, 20) +
+      text(150, 262, 'modře = čára v diagramu', 'c sm tD') + text(150, 280, 'škrtnuté = smyčka nebo plyne z tranzitivity', 'c sm mu') +
+      line(272, 130, 330, 130, 'ln', 'end') +
+      hasseSvg(P, { x0: 420, w: 300, yb: 250, dy: 68, lv: true }) +
+      text(570, 18, `čáry: ${cv}`, 'c sm mo'));
+  };
+  // 14e) výsledky úlohy 10 – tři Hasseho diagramy
+  const hasseUloha10 = () => svg(740, 290, ['R', 'S', 'T'].map((k, q) => {
+    const P = P10(k), x0 = 10 + q * 245;
+    return hasseSvg(P, { x0: x0 + 10, w: 210, yb: 240, dy: 52 }) + text(x0 + 115, 278, `(${'abc'[q]}) ${k}: přidáno ${P.refl.length + P.trans.length} dvojic`, 'c bd') +
+      (q ? line(x0 - 8, 20, x0 - 8, 280, 'ds ln') : '');
+  }).join(''));
+
   // 15) zobrazení: není zobrazení / prosté / na / bijekce
   const zobrazeniTypy = () => {
     const p = (i, name, A, B, M, c) => {
@@ -350,6 +442,6 @@ const MLG = (() => {
   };
 
   return { formuleStrom, vennFormule, dusledek, dntPostup, tabulkaUdnt, negace,
-    graf, circ, loop, ISO, izomorfismus, GV, GE, lo, TOK, KC, EXPR, venn3, ciselneObory, komplexniRovina, relaceVlastnosti, hasseJidla, zobrazeniTypy, podgrafy,
+    graf, circ, loop, ISO, izomorfismus, GV, GE, lo, TOK, KC, EXPR, venn3, ciselneObory, komplexniRovina, relaceVlastnosti, hasseJidla, POSET_EX, poset, hasseSvg, hasseMatice, hasseCteni, hasseUloha10, zobrazeniTypy, podgrafy,
     sledTahCesta, eulerDomecek, kostryK4, rovinne, automatMin, mnozinoveOperace, tridyEkvivalence, skoreRedukce, kostraKruskal, dijkstraStrom, vyrazStrom, tokSit, kritickaCesta, automatLiche, barveniPriklady };
 })();

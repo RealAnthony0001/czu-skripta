@@ -132,6 +132,45 @@
     }
   }));
 
+  // ---------- doplnění na uspořádání a Hasseho diagram z tabulky (výpočet MLG.poset v diagrams.js) ----------
+  const PEX = { ...MLG.POSET_EX, own: { l: 'vlastní (klikni do tabulky)', el: ['a', 'b', 'c', 'd', 'e'], r: [] } };
+  WG.reg('hasse', (root, b) => WG.app(root, {
+    state: { k: b.k || 'S', m: null },
+    top: ui => `${WG.lbl('Relace:')}${Object.entries(PEX).map(([k, g]) => WG.btn('k', g.l, ui.k === k, `data-k="${k}"`)).join('')}`,
+    act: (ui, a, d) => {
+      if (a === 'k') { ui.k = d.k; ui.m = null; ui.step = 0; }
+      if (a === 'cell') { const g = PEX[ui.k], cur = ui.m || g.r.map(([x, y]) => g.el.indexOf(x) + ',' + g.el.indexOf(y)), k = d.i + ',' + d.j; ui.m = cur.includes(k) ? cur.filter(x => x !== k) : [...cur, k]; ui.step = 0; }
+    },
+    steps: ui => {
+      const g = PEX[ui.k], pairs = ui.m ? ui.m.map(s => s.split(',').map(Number)) : g.r, P = MLG.poset(g.el, pairs), el = P.el;
+      const f = ps => ps.map(([i, j]) => P.pr(i, j)).join(', ') || 'nic';
+      // cls(i, j) → třída buňky; ed = klikací; gone = vyškrtnuté řádky/sloupce
+      const mat = (S, cls = () => '', ed = false, gone = []) => `<div class="qw-cv"><table><tr><th>x \\ y</th>${el.map((e, j) => `<th${gone.includes(j) ? ' style="opacity:.3"' : ''}>${e}</th>`).join('')}</tr>${P.all.map(i => `<tr><th${gone.includes(i) ? ' style="opacity:.3"' : ''}>${el[i]}</th>${P.all.map(j => `<td class="${cls(i, j)}"${gone.includes(i) || gone.includes(j) ? ' style="opacity:.25"' : ''} ${ed ? `data-act="cell" data-i="${i}" data-j="${j}" style="cursor:pointer"` : ''}>${P.has(S, i, j) ? '1' : '·'}</td>`).join('')}</tr>`).join('')}</table></div>`;
+      const inB = (i, j) => P.has(P.base, i, j), dg = (opts, w = 300, h = 60 * Math.max(P.layers.length, 1) + 30) => WG.svg(DG.svg(w, h, MLG.hasseSvg(P, { x0: 60, w: w - 70, yb: h - 26, dy: 60, ...opts }), w));
+      const S = [{ title: 'Zadaná relace jako tabulka', what: `Řádek x, sloupec y: jednička znamená (x, y) ∈ R, tedy „x ≼ y“ – v diagramu bude x <b>pod</b> y. Zadáno: ${f(pairs)}.`, why: 'Tabulka ukáže všechny vlastnosti najednou: diagonála = reflexivita, zrcadlo podle diagonály = (anti)symetrie, řádek x = co je nad x, sloupec y = co je pod y.', change: 'Klikáním do tabulky můžeš dvojice přidávat a ubírat (jen v tomto kroku).', view: mat(P.base, () => '', true) }];
+      let cur = new Set(P.base); P.refl.forEach(([i]) => cur.add(i + ',' + i));
+      S.push({ title: 'Reflexivita: doplň diagonálu', what: `Na diagonále musí být samé jedničky. Přidáme ${f(P.refl)}.`, why: 'Uspořádání je reflexivní – každý prvek je „menší nebo roven“ sám sobě.', change: `Přibylo ${P.refl.length} dvojic.`, view: mat(new Set(cur), (i, j) => P.refl.some(([a]) => a === i && i === j) ? 'ok' : '') });
+      P.rounds.forEach((rd, q) => {
+        rd.forEach(([i, j]) => cur.add(i + ',' + j));
+        S.push({ title: `Tranzitivita – ${q + 1}. kolo`, what: rd.map(([i, j, z]) => `${P.pr(i, j)}, protože ${P.pr(i, z)} a ${P.pr(z, j)}`).join('<br>'), why: q ? 'Nové dvojice z minulého kola mohly vytvořit další „dvoukrokové“ cesty – proto se kontrola opakuje, dokud něco přibývá.' : 'V tabulce: pro řádek x projdi jeho jedničky (sloupec z) a celý řádek z „okopíruj“ do řádku x – co je nad z, je i nad x.', change: `Přibylo ${rd.length} dvojic.`, view: mat(new Set(cur), (i, j) => rd.some(([a, c]) => a === i && c === j) ? 'ok' : '') });
+      });
+      const added = P.refl.length + P.trans.length;
+      if (P.anti.length) {
+        S.push({ title: 'Antisymetrie je porušena', what: `${f(P.anti)} i obráceně – dva různé prvky jsou „pod sebou“ navzájem.`, why: 'Doplňováním dvojic se to opravit nedá (ubírat nesmíme), takže relaci na uspořádání doplnit <b>nejde</b> a Hasseho diagram neexistuje.', change: 'Konec.', view: mat(P.R, (i, j) => P.anti.some(([a, c]) => (a === i && c === j) || (a === j && c === i)) ? 'no' : '') });
+        return S;
+      }
+      S.push({ title: 'Kontrola antisymetrie', what: P.rounds.length ? `Nic dalšího nepřibývá, tranzitivita je hotová. Žádná dvojice různých prvků nemá jedničku v obou zrcadlových polích (x, y) a (y, x).` : 'Tranzitivita už platila. Žádná dvojice různých prvků nemá jedničku v obou zrcadlových polích.', why: 'Antisymetrie se doplňováním nedá „opravit“ – kdyby se porušila, uspořádání by nešlo vytvořit.', change: `Je to uspořádání; celkem přidáno <b>${added}</b> dvojic.`, view: mat(P.R, (i, j) => P.has(P.R, i, j) && !inB(i, j) ? 'ok' : '') });
+      S.push({ title: 'Škrtni diagonálu a tranzitivní dvojice', what: `Zbudou jen bezprostřední následnosti – to budou čáry: ${f(P.covers)}.`, why: 'Dvojici (x, y) škrtni, když existuje z s x ≼ z ≼ y (v tabulce: řádek x i sloupec y mají jedničku ve stejném z). Smyčky se nekreslí.', change: `${P.covers.length} čar místo ${P.R.size} jedniček.`, view: mat(P.R, (i, j) => !P.has(P.R, i, j) ? '' : P.isCover(i, j) ? 'hi' : 'lt') });
+      const gone = [];
+      P.layers.forEach((L, k) => {
+        S.push({ title: `Úroveň ${k}: ${L.map(j => el[j]).join(', ')}`, what: `Mezi zbylými prvky má ${L.length > 1 ? 'sloupce' : 'sloupec'} <b>${L.map(j => el[j]).join(', ')}</b> jedničku jen na diagonále – pod ${L.length > 1 ? 'nimi' : 'ním'} už nic nezbylo.`, why: k ? 'Prvky, které už jsou nakreslené, se vyškrtnou (šedé) a hledají se další minimální.' : 'Sloupec y říká, co leží pod y. Prázdný sloupec = minimální prvek → patří úplně dolů.', change: k ? `Čáry dolů: ${f(P.covers.filter(([, c]) => L.includes(c)))}.` : 'Spodní řada diagramu.', view: `<div class="qw-split"><div>${mat(P.R, (i, j) => L.includes(j) && !gone.includes(i) ? 'hi' : '', false, [...gone])}</div><div>${dg({ only: P.layers.slice(0, k + 1).flat(), hi: Object.fromEntries(L.map(j => [j, 'fA'])), lv: true })}</div></div>` });
+        gone.push(...L);
+      });
+      S.push({ title: 'Hotový Hasseho diagram', what: `Čti zdola nahoru: x ≼ y právě když z x vede cesta <b>nahoru</b> do y. Minimální: ${P.layers[0].map(j => el[j]).join(', ')}; maximální: ${P.all.filter(i => !P.all.some(j => P.lt(i, j))).map(j => el[j]).join(', ')}.`, why: 'Smyčky a tranzitivní dvojice si čtenář domyslí – kreslí se jen bezprostřední následnosti.', change: `Doplněno ${added} dvojic, nakresleno ${P.covers.length} čar.`, view: dg({ lv: true }, 380) });
+      return S;
+    }
+  }));
+
   // ---------- Vennovy diagramy: operace a zákony ----------
   const OPS = [
     ['A ∩ B', (a, b) => a && b], ['A ∪ B', (a, b) => a || b], ['A ∖ B', (a, b) => a && !b], ['B ∖ A', (a, b) => b && !a], ['A′', a => !a], ['symetrický rozdíl (A ∖ B) ∪ (B ∖ A)', (a, b) => a !== b]
