@@ -214,5 +214,122 @@ const ZPN = (() => {
     return svg(760, 150, o + text(380, 142, 'Vlastnictví nemovitosti vzniká až zápisem (vkladem) do katastru – ne podpisem smlouvy.', 'c sm bd'));
   };
 
-  return { kontrakt, koupeNemovitosti, lawPage, citation, legislativeProcess, publicPrivate, absRel, normDiagram, validityTimeline, powersDiagram, relationDiagram, factsDiagram, defectsDiagram, calendarDiagram, promlceniDiagram, nozBar, rulesOrder };
+  // ---- Dědictví ----
+  const predpokladyDedeni = () => {
+    const st = [['b', '1 Smrt zůstavitele', 'či prohlášení za mrtvého'], ['b', '2 Pozůstalost', 'aktiva i pasiva'], ['b', '3 Způsobilý dědic', 'FO, PO, stát (odúmrť)'], ['b', '4 Dědický titul', 'smlouva · závěť · zákon']];
+    let o = '';
+    st.forEach(([c, h, s], i) => { const x = 10 + i * 149; o += box(x, 30, 140, 56, c, h, s); o += line(x + 140, 58, x + 149, 58, 'ln', 'end'); });
+    o += box(606, 30, 144, 56, 'fD', 'Dědic dědí', 'od smrti zůstavitele');
+    o += text(380, 18, 'VŠECHNY ČTYŘI PŘEDPOKLADY MUSÍ BÝT SPLNĚNY ZÁROVEŇ', 'c sm mu');
+    o += box(160, 112, 300, 50, 'fA', 'Dědická nezpůsobilost', 'úmyslný TČ proti zůstaviteli · čin proti poslední vůli') + line(310, 112, 310, 88, 'lA', 'end') + text(320, 104, 'vylučuje', 'sm tA');
+    o += box(480, 112, 265, 50, 'fW', 'Dědic může dědictví odmítnout', 'do 1 měsíce od vyrozumění soudem');
+    return svg(760, 176, o);
+  };
+  const dedickeTridy = () => {
+    const R = [
+      ['1.', '§ 1635', 'děti + manžel', 'každý stejným dílem; za nedědící dítě jeho děti'],
+      ['2.', '§ 1636', 'manžel, rodiče, spolužijící*', 'stejným dílem, manžel vždy nejméně ½'],
+      ['3.', '§ 1637', 'sourozenci, spolužijící*', 'stejným dílem; za nedědícího sourozence jeho děti'],
+      ['4.', '§ 1638', 'prarodiče', 'stejným dílem'],
+      ['5.', '§ 1639', 'prarodiče rodičů', 'otcova strana ½, matčina strana ½'],
+      ['6.', '§ 1640', 'děti dětí sourozenců, děti prarodičů', 'každý stejným dílem; za nedědící dítě prarodičů jeho děti']
+    ];
+    let o = text(20, 22, 'TŘÍDA', 'sm bd mu') + text(125, 22, 'KDO DĚDÍ', 'sm bd mu') + text(400, 22, 'JAK SE DĚLÍ', 'sm bd mu');
+    R.forEach(([n, p, who, how], i) => {
+      const y = 32 + i * 44;
+      o += box(20, y, 90, 34, i === 0 ? 'fD' : i === 1 ? 'fW' : 'b', n + ' třída', p) + box(120, y, 270, 34, 'b', who) + text(400, y + 22, how, 'sm');
+    });
+    o += text(20, 314, 'Nedědí-li nikdo ze třídy, nastupuje další – bližší třída vylučuje vzdálenější. Nedědí-li nikdo, připadne pozůstalost státu (odúmrť).', 'sm bd');
+    o += text(20, 334, '* spolužijící = žil se zůstavitelem nejméně 1 rok před smrtí ve společné domácnosti a pečoval o ni nebo byl odkázán výživou na zůstavitele', 'sm mu');
+    return svg(760, 346, o);
+  };
+  // pruhový graf podílů: parts = [[popisek, čitatel, jmenovatel, třída], …]
+  const podily = (title, parts) => {
+    let x = 20, o = text(20, 22, title, 'sm bd');
+    parts.forEach(([l, n, d, c]) => {
+      const w = 720 * n / d;
+      o += rect(x, 34, w, 44, c) + text(x + w / 2, 54, `${n}/${d}`, 'c bd') + text(x + w / 2, 70, l, 'c sm');
+      x += w;
+    });
+    return svg(760, 92, o);
+  };
+
+  // ---- Rodinné právo ----
+  const sjmVyporadani = () => svg(760, 268,
+    line(20, 70, 740, 70, 'ln', 'end') +
+    line(70, 58, 70, 82, 'lA') + text(70, 46, 'zánik SJM', 'c sm bd') + text(20, 100, 'rozvod (PM), smrt,', 'sm mu') + text(20, 116, 'zrušení, zúžení', 'sm mu') +
+    rect(90, 56, 380, 28, 'fD') + text(280, 75, '3 roky od právní moci rozsudku o rozvodu', 'c bd') +
+    line(470, 58, 470, 82, 'lA') + text(470, 46, 'uplynutí 3 let', 'c sm bd') +
+    box(150, 130, 150, 56, 'fD', 'a) dohoda manželů', 'o vypořádání SJM') + box(315, 130, 160, 56, 'fD', 'b) rozhodnutí soudu', 'na návrh manžela') +
+    rect(490, 110, 250, 128, 'fA') + text(615, 130, 'c) domněnka § 741 (nevyvratitelná)', 'c sm bd') +
+    text(500, 154, '• movité věci tomu, kdo je 3 roky', 'sm') + text(512, 170, 'účelně držel a užíval', 'sm') +
+    text(500, 192, '• ostatní věci: podílové spoluvlastnictví ½', 'sm') + text(500, 214, '• práva, dluhy, pohledávky: oběma', 'sm') + text(512, 230, 'společně, stejným dílem', 'sm') +
+    text(312, 214, 'po uplynutí 3 let se a), b) promlčí', 'c sm mu') +
+    text(20, 260, 'd) při smrti jednoho z manželů rozhodne o vypořádání SJM soud v dědickém řízení', 'sm mu'));
+  const sjmRezimy = () => svg(760, 210,
+    box(280, 14, 200, 50, 'fD', 'Společné jmění manželů', 'vzniká sňatkem, končí zánikem') +
+    line(380, 64, 380, 84, 'ln') + line(130, 84, 630, 84, 'ln') +
+    line(130, 84, 130, 100, 'ln', 'end') + line(380, 84, 380, 100, 'ln', 'end') + line(630, 84, 630, 100, 'ln', 'end') +
+    box(30, 100, 200, 50, 'b', 'Zákonný režim', 'vzniká ze zákona sňatkem') + box(280, 100, 200, 50, 'fW', 'Smluvený režim', 'manželé si ho upraví smlouvou') +
+    box(530, 100, 200, 50, 'fA', 'Režim založený soudem', 'na návrh manžela') +
+    text(630, 172, 'zrušení SJM · zúžení SJM', 'c sm') + text(630, 190, 'režim oddělených jmění', 'c sm') +
+    text(130, 172, 'majetek, dluhy, příjmy,', 'c sm mu') + text(130, 190, 'zisk z výlučného majetku', 'c sm mu'));
+
+  // ---- Podnikání ----
+  const zivnostiStrom = () => svg(760, 236,
+    box(280, 12, 200, 46, 'fD', 'Živnosti', 'zákon č. 455/1991 Sb.') +
+    line(380, 58, 380, 74, 'ln') + line(200, 74, 610, 74, 'ln') + line(200, 74, 200, 90, 'ln', 'end') + line(610, 74, 610, 90, 'ln', 'end') +
+    box(80, 90, 240, 46, 'b', 'OHLAŠOVACÍ', 'vznik dnem ohlášení') + box(490, 90, 240, 46, 'fA', 'KONCESOVANÉ – příloha č. 3', 'vznik právní mocí koncese') +
+    line(200, 136, 200, 150, 'ln') + line(60, 150, 340, 150, 'ln') +
+    line(60, 150, 60, 164, 'ln', 'end') + line(200, 150, 200, 164, 'ln', 'end') + line(340, 150, 340, 164, 'ln', 'end') +
+    box(10, 164, 110, 46, 'fW', 'Řemeslné', 'příloha č. 1') + box(145, 164, 110, 46, 'fW', 'Vázané', 'příloha č. 2') + box(280, 164, 120, 46, 'fD', 'Volné', 'příloha č. 4') +
+    text(130, 228, 'odborná způsobilost ano', 'c sm tW') + text(340, 228, 'bez odborné způsobilosti', 'c sm tD') +
+    text(610, 158, 'odborná způsobilost + povolení', 'c sm') + text(610, 176, 'státu (stanovisko orgánu do 30 dnů)', 'c sm') + text(610, 200, 'např. taxislužba, zbraně, ostraha', 'c sm mu'));
+  const zalozeniVznik = () => svg(760, 210,
+    line(20, 80, 740, 80, 'ln', 'end') +
+    line(80, 68, 80, 92, 'lD') + box(15, 14, 160, 46, 'fD', 'ZALOŽENÍ', 'společenská smlouva') +
+    rect(80, 76, 400, 8, 'fW') + text(290, 66, 'do 6 měsíců podat návrh na zápis', 'c sm bd') +
+    line(480, 68, 480, 92, 'lA') + box(405, 14, 150, 46, 'fA', 'VZNIK', 'zápis do OR') +
+    text(80, 118, 'kapitálová společnost: veřejná listina', 'sm') + text(80, 136, '(notářský zápis); jeden zakladatel =', 'sm') + text(80, 154, 'zakladatelská listina', 'sm') +
+    text(480, 118, 'společnost je PO od zápisu;', 'sm') + text(480, 136, 'do té doby jen smluvní vztah', 'sm') + text(480, 154, 'mezi zakladateli', 'sm') +
+    text(20, 196, 'Návrh nepodán do 6 měsíců → stejné účinky jako odstoupení od smlouvy. Zánik: zrušení (s likvidací / bez) → výmaz z OR.', 'sm mu'));
+  const zivnostUrady = () => svg(760, 210,
+    box(10, 20, 260, 52, 'fA', 'Ministerstvo průmyslu a obchodu', 'působnost Živnostenského úřadu ČR') +
+    box(10, 90, 260, 52, 'fW', 'Krajský živnostenský úřad', 'řídí, koordinuje, kontroluje') +
+    box(10, 160, 260, 46, 'fD', 'Obecní živnostenský úřad', 'ohlášení, kontroly, CRM') +
+    line(130, 160, 130, 142, 'ln', 'end') + line(130, 90, 130, 72, 'ln', 'end') +
+    text(140, 154, 'odvolání', 'sm mu') + text(140, 84, 'odvolání', 'sm mu') +
+    text(288, 44, 'správce živnostenského rejstříku; koncepce; odvolání proti krajským ŽÚ', 'sm') +
+    text(288, 114, 'rozhoduje o odvolání proti obecním ŽÚ; může nařídit kontrolu', 'sm') +
+    text(288, 180, 'provozuje rejstřík; centrální registrační místo (daně, sociální', 'sm') + text(288, 198, 'a zdravotní pojištění, volná pracovní místa)', 'sm'));
+  const formyPodnikani = () => {
+    const R = [['OSVČ', 'ne', 'celým svým majetkem', '—'], ['v.o.s.', 'ano', 'všichni společníci neomezeně', 'není stanoven'], ['k.s.', 'ano', 'komplementáři neomezeně, komanditisté do nesplaceného vkladu', 'není stanoven'], ['s.r.o.', 'ano', 'společnost majetkem, společníci omezeně', 'vklad min. 1 Kč'], ['a.s.', 'ano', 'společnost svým majetkem', '2 000 000 Kč / 80 000 EUR'], ['družstvo', 'ano', 'družstvo svým majetkem', 'není stanoven']];
+    let o = text(20, 20, 'FORMA', 'sm bd mu') + text(110, 20, 'PO', 'sm bd mu') + text(150, 20, 'RUČENÍ ZA DLUHY', 'sm bd mu') + text(560, 20, 'MIN. ZÁKLADNÍ KAPITÁL', 'sm bd mu');
+    R.forEach(([f, po, r, k], i) => {
+      const y = 30 + i * 38, c = i < 3 ? 'fA' : 'fD';
+      o += box(20, y, 80, 30, c, f) + text(118, y + 20, po, 'c sm') + text(150, y + 20, r, 'sm') + text(560, y + 20, k, 'sm bd');
+    });
+    o += text(20, 266, 'Osobní společnosti a OSVČ (červeně): ručí se osobně. Kapitálové (modře): za dluhy ručí společnost svým majetkem.', 'sm');
+    return svg(760, 278, o);
+  };
+
+  // ---- Pracovní právo ----
+  const zavislaPrace = () => svg(760, 262,
+    box(300, 92, 160, 60, 'fD', 'ZÁVISLÁ PRÁCE', '§ 2 zákoníku práce') +
+    text(10, 22, 'ZNAKY (§ 2 odst. 1)', 'sm bd tD') +
+    box(10, 32, 250, 40, 'b', 'nadřízenost × podřízenost') + box(10, 82, 250, 40, 'b', 'výlučně osobně', 'jménem zaměstnavatele') + box(10, 132, 250, 40, 'b', 'podle pokynů zaměstnavatele') +
+    line(260, 52, 300, 110, 'ln', 'end') + line(260, 102, 300, 122, 'ln', 'end') + line(260, 152, 300, 134, 'ln', 'end') +
+    text(750, 22, 'PODMÍNKY (§ 2 odst. 2)', 'e sm bd tW') +
+    box(500, 32, 250, 40, 'b', 'za mzdu, plat, odměnu') + box(500, 82, 250, 40, 'b', 'na náklady zaměstnavatele', 'a na jeho odpovědnost') + box(500, 132, 250, 40, 'b', 'v pracovní době', 'nebo jinak dohodnuté') + box(500, 182, 250, 40, 'b', 'na pracovišti zaměstnavatele', 'nebo dohodnutém místě') +
+    line(500, 52, 460, 110, 'ln', 'end') + line(500, 102, 460, 120, 'ln', 'end') + line(500, 152, 460, 132, 'ln', 'end') + line(500, 202, 460, 144, 'ln', 'end') +
+    text(380, 238, 'jen v základním pracovněprávním vztahu (§ 3)', 'c sm bd') + text(380, 256, 'práce „na IČO“ (švarcsystém) není pracovněprávní vztah', 'c sm tA'));
+  const pracVztahy = () => svg(760, 196,
+    box(250, 12, 260, 46, 'fD', 'Základní pracovněprávní vztahy', '§ 3 ZP') +
+    line(380, 58, 380, 72, 'ln') + line(190, 72, 570, 72, 'ln') + line(190, 72, 190, 86, 'ln', 'end') + line(570, 72, 570, 86, 'ln', 'end') +
+    box(80, 86, 220, 46, 'b', 'Pracovní poměr', 'vzniká (§ 33):') + box(440, 86, 260, 46, 'b', 'Dohody o pracích mimo PP', '') +
+    box(20, 146, 150, 40, 'fW', 'pracovní smlouvou') + box(190, 146, 120, 40, 'fW', 'jmenováním') +
+    box(420, 146, 140, 40, 'fE', 'DPP', 'provedení práce') + box(580, 146, 140, 40, 'fE', 'DPČ', 'pracovní činnosti') +
+    line(150, 132, 95, 146, 'ln', 'end') + line(230, 132, 250, 146, 'ln', 'end') + line(530, 132, 490, 146, 'ln', 'end') + line(610, 132, 650, 146, 'ln', 'end'));
+
+  return { predpokladyDedeni, dedickeTridy, podily, sjmVyporadani, sjmRezimy, zivnostiStrom, zalozeniVznik, zivnostUrady, formyPodnikani, zavislaPrace, pracVztahy, kontrakt, koupeNemovitosti, lawPage, citation, legislativeProcess, publicPrivate, absRel, normDiagram, validityTimeline, powersDiagram, relationDiagram, factsDiagram, defectsDiagram, calendarDiagram, promlceniDiagram, nozBar, rulesOrder };
 })();

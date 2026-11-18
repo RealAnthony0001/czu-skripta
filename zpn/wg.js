@@ -47,3 +47,52 @@
     }
   }));
 })();
+
+// Widget ZPN (blok { t: 'widget', name: 'dedeni' }): dědické podíly ze zákona, třídy 1–4 (§ 1635–1638 OZ) krok za krokem.
+(() => {
+  const gcd = (a, b) => (b ? gcd(b, a % b) : a);
+  const fr = (n, d) => { const g = gcd(n, d); return [n / g, d / g]; };
+  const F = ([n, d]) => (d === 1 ? String(n) : `${n}/${d}`);
+  const C = ['fD', 'fW', 'fE', 'fA', 'b'];
+  // čistý výpočet: vrací { cls, heirs: [[popisek, [čitatel, jmenovatel]]], note }
+  const spocti = ({ m, d, r, s, b, p }) => {
+    const list = (arr) => arr.flatMap(([l, k]) => Array.from({ length: k }, (_, i) => (k > 1 ? `${l} ${i + 1}` : l)));
+    if (d > 0) { const H = list([['manžel', m ? 1 : 0], ['dítě', d]]), n = H.length; return { cls: 1, heirs: H.map(h => [h, fr(1, n)]), note: `Dědí ${n} osob(y), každá stejným dílem 1/${n}.` }; }
+    if (m || r > 0) {
+      const O = list([['rodič', r], ['spolužijící', s]]), n = O.length + (m ? 1 : 0);
+      if (m && n > 2) return { cls: 2, heirs: [['manžel', [1, 2]], ...O.map(h => [h, fr(1, 2 * O.length)])], note: `Stejný díl by byl 1/${n}, tj. méně než polovina. Manžel proto dostane 1/2 a zbylou 1/2 si ${O.length} ostatní dědic(ové) rozdělí rovným dílem.` };
+      const H = [...(m ? ['manžel'] : []), ...O]; return { cls: 2, heirs: H.map(h => [h, fr(1, H.length)]), note: m ? `Stejný díl 1/${n} je nejméně polovina, pravidlo o manželovi nic nemění.` : 'Manžel nedědí, ostatní dědí stejným dílem.' };
+    }
+    if (b + s > 0) { const H = list([['sourozenec', b], ['spolužijící', s]]); return { cls: 3, heirs: H.map(h => [h, fr(1, H.length)]), note: `Stejným dílem 1/${H.length}.` }; }
+    if (p > 0) { const H = list([['prarodič', p]]); return { cls: 4, heirs: H.map(h => [h, fr(1, H.length)]), note: `Stejným dílem 1/${H.length}.` }; }
+    return { cls: 0, heirs: [], note: 'V třídách 1–4 nedědí nikdo: na řadu přijde 5. a 6. třída (§ 1639, 1640), a nedědí-li ani tam nikdo, připadne pozůstalost státu (odúmrť).' };
+  };
+  const bar = heirs => (heirs.length <= 6
+    ? WG.svg(ZPN.podily('Podíly na pozůstalosti', heirs.map(([l, f], i) => [l, f[0], f[1], C[i % C.length]])))
+    : WG.tbl(['Dědic', 'Podíl'], heirs.map(([l, f]) => [l, F(f)])));
+  const PRE = [
+    ['Paní E. – bezdětné, oba rodiče', { m: true, d: 0, r: 2, s: 0, b: 0, p: 0 }],
+    ['3 děti, 1 vyděděné (bez dětí)', { m: true, d: 2, r: 2, s: 0, b: 0, p: 0 }],
+    ['Bezdětné + tetička ze společné domácnosti', { m: true, d: 0, r: 2, s: 1, b: 0, p: 0 }],
+    ['Manžel + 3 děti', { m: true, d: 3, r: 0, s: 0, b: 0, p: 0 }]
+  ];
+  WG.reg('dedeni', root => WG.app(root, {
+    state: { ...PRE[0][1] },
+    top: ui => `<label style="font-size:13px"><input type="checkbox" data-in="m" ${ui.m ? 'checked' : ''}> manžel(ka)</label>${WG.lbl('dědící děti')}${WG.num('d', ui.d, 0, 9)}${WG.lbl('rodiče')}${WG.num('r', ui.r, 0, 2)}${WG.lbl('spolužijící*')}${WG.num('s', ui.s, 0, 5)}${WG.lbl('sourozenci')}${WG.num('b', ui.b, 0, 9)}${WG.lbl('prarodiče')}${WG.num('p', ui.p, 0, 4)}
+      <div class="qw-row" style="width:100%">${WG.lbl('Příklady ze semináře:')}${PRE.map(([l], i) => WG.btn('pre', l, false, `data-i="${i}"`)).join('')}</div>`,
+    act: (ui, a, d) => { if (a === 'pre') { Object.assign(ui, PRE[+d.i][1]); ui.step = 0; } },
+    input: ui => { ui.step = 0; },
+    steps: ui => {
+      const v = { m: !!ui.m, d: Math.max(0, Math.trunc(ui.d) || 0), r: Math.min(2, Math.max(0, Math.trunc(ui.r) || 0)), s: Math.max(0, Math.trunc(ui.s) || 0), b: Math.max(0, Math.trunc(ui.b) || 0), p: Math.min(4, Math.max(0, Math.trunc(ui.p) || 0)) };
+      const R = spocti(v), who = [v.m && 'manžel', v.d && `${v.d} dítě/děti`, v.r && `${v.r} rodič(e)`, v.s && `${v.s} spolužijící`, v.b && `${v.b} sourozenec/ci`, v.p && `${v.p} prarodič(e)`].filter(Boolean).join(', ') || 'nikdo';
+      const S = [{ title: 'Kdo zůstavitele přežil', what: `Zadaní pozůstalí: ${who}.`, why: 'Závěť ani dědická smlouva nejsou – dědí se ze zákona (§ 1635 an.).', change: 'Hledá se první třída, ve které někdo dědí.', view: WG.note('* spolužijící = žil se zůstavitelem nejméně 1 rok před smrtí ve společné domácnosti a pečoval o ni nebo byl odkázán výživou na zůstavitele.') }];
+      const T = [[1, 'děti a manžel (§ 1635)', v.d > 0], [2, 'manžel, rodiče, spolužijící (§ 1636) – jen když nedědí potomci', !v.d && (v.m || v.r > 0)], [3, 'sourozenci, spolužijící (§ 1637) – jen když nedědí manžel ani rodiče', !v.d && !v.m && !v.r && v.b + v.s > 0], [4, 'prarodiče (§ 1638)', !v.d && !v.m && !v.r && !v.b && !v.s && v.p > 0]];
+      for (const [k, h, ok] of T) {
+        if (k > (R.cls || 4)) break;
+        S.push({ title: `${k}. třída?`, what: `${k}. třída: ${h}. ${ok ? '<b>Někdo z ní dědí → dědí se v této třídě.</b>' : 'Nikdo z ní nedědí → pokračuje se další třídou.'}`, why: 'Třídy se navzájem vylučují: bližší třída vylučuje vzdálenější.' + (k === 1 && !ok && v.s ? ' Spolužijící osoby v 1. třídě nedědí.' : ''), change: ok ? `Dědí ${k}. třída.` : `${k}. třída přeskočena.`, view: `<div class="qw-big">${k}. třída: ${ok ? 'ANO' : 'ne'}</div>` });
+      }
+      S.push({ title: R.cls ? 'Rozdělení podílů' : 'Nikdo v třídách 1–4', what: R.note, why: R.cls === 2 ? '§ 1636 odst. 2: dědici druhé třídy dědí stejným dílem, manžel však vždy nejméně polovinu.' : R.cls ? 'Dědici téže třídy dědí stejným dílem.' : 'Kalkulačka počítá jen třídy 1–4.', change: R.heirs.map(([l, f]) => `${l}: <b>${F(f)}</b>`).join(' · ') || '—', view: R.cls ? bar(R.heirs) : WG.note(R.note) });
+      return S;
+    }
+  }));
+})();

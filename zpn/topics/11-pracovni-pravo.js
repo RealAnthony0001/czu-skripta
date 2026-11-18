@@ -1,56 +1,68 @@
 registerTopic({
-  id: 'pracovni-pravo', order: 13, icon: '👷', title: 'Pracovní právo', src: 'doplneno', lec: [8], where: 'Sylabus – přednáška 8',
-  summary: 'Zákoník práce 262/2006 Sb.: zásady, pracovněprávní vztahy, vznik a skončení pracovního poměru, dohody o pracích mimo pracovní poměr, pracovní doba, dovolená, mzda, odpovědnost za škodu, BOZP a zákaz diskriminace.',
+  id: 'pracovni-pravo', order: 13, icon: '👷', title: 'Pracovní právo', src: 'podklady', lec: [8], where: 'Přednáška Pracovní právo I. (JUDr. Cvik, 10. 12. 2025); sekce označené „doplněno“ jsou mimo podklady',
+  summary: 'Pojem, funkce a prameny pracovního práva, vztah k občanskému právu, pracovněprávní vztahy a jejich účastníci, závislá práce, základní pracovněprávní vztahy, vznik pracovního poměru, pracovní smlouva a zkušební doba; doplněno: dohody, skončení PP, pracovní doba, dovolená, mzda, odpovědnost za škodu, BOZP a diskriminace.',
   vocab: [
-    {w:'Subsidiární použití',x:'Obecný předpis (zde NOZ) se použije jen tam, kde zvláštní předpis (zákoník práce) nic neurčuje.'},
+    {w:'ZP',x:'Zákoník práce – zákon č. 262/2006 Sb., základní předpis pracovního práva.'},
+    {w:'Subsidiarita',x:'Obecný předpis (občanský zákoník) se použije jen tam, kde zvláštní předpis (zákoník práce) nic neurčuje (§ 4 ZP).'},
     {w:'Kogentní × dispozitivní norma',x:'Kogentní norma platí vždy a nelze ji smlouvou obejít; od dispozitivní se lze dohodou odchýlit.'},
-    {w:'OSVČ',x:'Osoba samostatně výdělečně činná – podnikající fyzická osoba (živnostník), nikoli zaměstnanec.'},
+    {w:'OSVČ, „práce na IČO“',x:'Podnikající fyzická osoba; pokud ve skutečnosti vykonává závislou práci, jde o tzv. švarcsystém.'},
+    {w:'Esenciální náležitost',x:'Podstatná část smlouvy, bez které smlouva nevznikne (u pracovní smlouvy druh práce, místo, den nástupu).'},
+    {w:'Kolektivní smlouva',x:'Dohoda odborů se zaměstnavatelem o podmínkách platných pro zaměstnance; je pramenem pracovního práva.'},
     {w:'Průměrný výdělek',x:'Průměr mzdy zaměstnance za předchozí čtvrtletí; základ pro odstupné, náhrady a limit odpovědnosti za škodu.'},
-    {w:'Odbory a kolektivní smlouva',x:'Odbory zastupují zaměstnance a s vedením sjednávají kolektivní smlouvu – dohodu o podmínkách platnou pro celý podnik.'},
-    {w:'Pracovní neschopnost',x:'Stav, kdy lékař zaměstnance uzná za nemocného a ten nemůže pracovat; pobírá nemocenské.'},
-    {w:'BOZP',x:'Bezpečnost a ochrana zdraví při práci – pravidla, jak předcházet pracovním úrazům a nemocem.'},
-    {w:'Doručení písemnosti',x:'Písemnost (např. výpověď) je účinná, až když ji adresát obdrží (osobně, poštou, do datové schránky).'}
+    {w:'BOZP',x:'Bezpečnost a ochrana zdraví při práci – pravidla, jak předcházet pracovním úrazům a nemocem.'}
   ],
   key: [
-    '<b>Zákoník práce (ZP) 262/2006 Sb.</b> – základní pramen; <b>NOZ se použije subsidiárně</b> (jen když ZP výslovně neurčuje; § 4 ZP).',
-    '<b>Závislá práce</b>: osobně, ve vztahu nadřízenosti a podřízenosti, jménem zaměstnavatele, podle pokynů, za mzdu, v pracovní době, na náklady a odpovědnost zaměstnavatele.',
-    '<b>Pracovní poměr</b> vzniká <b>pracovní smlouvou</b> (písemně): povinně <b>druh práce, místo výkonu práce, den nástupu</b>; zkušební doba max. 3 měsíce (vedoucí 6).',
-    '<b>Dohody mimo pracovní poměr</b>: DPP do <b>300 hodin ročně</b>, DPČ nejvýše <b>polovina týdenní pracovní doby</b> (v průměru).',
-    '<b>Skončení PP</b>: dohoda, výpověď, okamžité zrušení, zrušení ve zkušební době, uplynutí doby; výpovědní doba <b>min. 2 měsíce</b>; <b>odstupné</b> 1–3násobek průměrného výdělku.',
-    '<b>Pracovní doba</b> max. 40 h týdně; <b>odpočinek</b> mezi směnami min. 11 h; <b>dovolená</b> min. 4 týdny (5 týdnů ve veřejné sféře).',
-    '<b>Odpovědnost zaměstnance za škodu</b>: z nedbalosti max. <b>4,5násobek průměrného měsíčního výdělku</b>; úmysl / pod vlivem alkoholu = bez limitu; <b>zaměstnavatel</b> odpovídá objektivně.',
-    '<b>Zaměstnanec od 15 let</b> a po ukončení povinné školní docházky; zaměstnavatel může být FO i PO; zákaz diskriminace.'
+    '<b>Pracovní právo</b>: soubor právních norem upravujících vztahy vznikající nebo související s výkonem <b>závislé práce</b>; samostatné odvětví řazené k „sociálním právům“ – individuální, kolektivní pracovní právo a úprava zaměstnanosti.',
+    '<b>Funkce</b>: <b>ochranná</b> (nejdůležitější), organizační, výchovná. <b>Prameny</b>: Ústava a LZPS, mezinárodní smlouvy, zákony (ZP 262/2006 Sb.), vyhlášky a nařízení, <b>kolektivní smlouvy</b>, právo EU.',
+    '<b>Vztah k OZ</b>: princip <b>subsidiarity</b> (§ 4 ZP); odchýlení od ZP upravuje § 4a.',
+    '<b>Zaměstnavatel</b> = FO nebo PO; <b>zaměstnanec</b> = jen FO. ZP se nevztahuje na OSVČ, výkon veřejné funkce ani „práci na IČO“.',
+    '<b>Závislá práce</b> (§ 2): nadřízenost a podřízenost, výlučně osobně jménem zaměstnavatele, podle pokynů; za mzdu, na náklady a odpovědnost zaměstnavatele, v pracovní době, na pracovišti.',
+    '<b>Základní pracovněprávní vztahy</b> (§ 3): <b>pracovní poměr</b> a <b>dohody</b> o pracích mimo PP (DPP, DPČ). PP vzniká <b>pracovní smlouvou</b> nebo <b>jmenováním</b> (§ 33).',
+    '<b>Pracovní smlouva</b> (§ 34): povinně <b>druh práce, místo výkonu práce, den nástupu</b>. Bez sjednané doby = <b>doba neurčitá</b> (§ 39). Chybějící údaje sdělí zaměstnavatel písemně do <b>1 měsíce</b>.',
+    '<b>Zkušební doba</b>: písemně; podle slajdu max. 3 měsíce (vedoucí 6) – od novely 2025 <b>4 měsíce (vedoucí 8)</b>.'
   ],
   sections: [
-    { title: 'Základní pojmy, zásady a vztahy', blocks: [
-      { t: 'table', head: ['Pojem', 'Obsah'], rows: [
-        ['<b>Zaměstnanec</b>', 'fyzická osoba, která pro zaměstnavatele vykonává <b>závislou práci</b> v základním pracovněprávním vztahu (§ 6); způsobilost od <b>15 let</b> po ukončení povinné školní docházky'],
-        ['<b>Zaměstnavatel</b>', 'osoba, pro kterou se závislá práce vykonává; fyzická (OSVČ) nebo právnická osoba; zaměstnavatel-FO musí být plně svéprávná'],
-        ['<b>Závislá práce</b> (§ 2)', 'osobně, nadřízenost / podřízenost, jménem zaměstnavatele, podle pokynů, za mzdu / plat, v pracovní době, na náklady a odpovědnost zaměstnavatele, na pracovišti'],
-        ['<b>Základní pracovněprávní vztahy</b>', 'pracovní poměr; právní vztahy z dohod o pracích konaných mimo pracovní poměr (DPP, DPČ)'],
-        ['<b>Individuální × kolektivní</b>', '<b>individuální</b>: zaměstnanec × zaměstnavatel (pracovní smlouva); <b>kolektivní</b>: odbory, zástupci zaměstnanců, kolektivní smlouvy, zaměstnavatelé (dohody, informování, projednání)'],
-        ['<b>Zákaz nelegální práce</b>', 'vykonávání závislé práce mimo pracovněprávní vztah (zák. 435/2004 Sb.) – tzv. „švarcsystém“ (pozor: OSVČ jen skutečně nezávislá)']
+    { title: 'Pojem, funkce a prameny pracovního práva', blocks: [
+      { t: 'def', term: 'Pracovní právo', x: 'Soubor právních norem upravujících společenské vztahy vznikající nebo související s <b>výkonem závislé práce</b>.', items: ['samostatné právní odvětví, řazené k tzv. „sociálním právům“', 'upravuje tři oblasti: <b>individuální</b> pracovní právo, <b>kolektivní</b> pracovní právo a <b>právní úpravu zaměstnanosti</b>'] },
+      { t: 'icons', title: 'Funkce pracovního práva', items: [
+        { i: '🛡️', h: 'Ochranná', x: 'nejdůležitější a převažující – chrání zaměstnance' },
+        { i: '🗂️', h: 'Organizační', x: 'rámec a podmínky pracovního procesu: míra práce, odměny, pravidla trhu práce' },
+        { i: '🎓', h: 'Výchovná', x: 'přispívá ke zvyšování kultury výkonu práce' }
       ] },
-      { t: 'p', x: '<b>Zásady</b> pracovněprávních vztahů (§ 1a): zvláštní ochrana zaměstnance; uspokojivé a bezpečné pracovní podmínky; spravedlivé odměňování; rovné zacházení; zákaz diskriminace; ochrana dobré víry; <b>zásada „co není zakázáno, je dovoleno“</b> pro soukromoprávní složku (kogentní ustanovení ZP se nesmí dohodou porušit v neprospěch zaměstnance); <b>zásada výhodnosti</b> pro zaměstnance (smlouva nemůže zhoršit nároky).' },
-      { t: 'table', head: ['Pramen', 'Použití'], rows: [
-        ['Ústava, LZPS (čl. 26–32)', 'právo na svobodnou volbu povolání, spravedlivou odměnu, bezpečné podmínky, ochranu mládeže, žen a zdravotně postižených'],
-        ['Zákoník práce 262/2006 Sb.', 'hlavní předpis individuálních i kolektivních vztahů'],
-        ['Zákon o zaměstnanosti 435/2004 Sb.', 'úřad práce, evidence, nelegální práce'],
-        ['Antidiskriminační zákon 198/2009 Sb.', 'zákaz diskriminace'],
-        ['Nařízení vlády 567/2006 Sb.', 'minimální mzda a zaručená mzda'],
-        ['Zák. 309/2006 Sb. a zák. 251/2005 Sb.', 'BOZP, inspekce práce (Státní úřad inspekce práce)']
+      { t: 'table', head: ['Pramen pracovního práva', 'Poznámka'], rows: [
+        ['Ústava a Listina základních práv a svobod', 'ústavní základ'],
+        ['Mezinárodní smlouvy', ''],
+        ['Zákony, vyhlášky, nařízení vlády', 'zejm. zákon č. 262/2006 Sb., zákoník práce'],
+        ['<b>Kolektivní smlouvy</b>', 'specifický pramen pracovního práva'],
+        ['Evropské (komunitární) právo', '']
       ] },
-      { t: 'tip', x: 'ZP je „soukromé právo se silnou veřejnoprávní ochranou“: strany nesmí zhoršit zákonné minimum (kogentní normy). Uvnitř můžeš sjednat výhodnější podmínky (delší dovolená, vyšší odstupné).' }
+      { t: 'ul', items: [
+        '<b>Základní předpisy</b>: zákon č. 262/2006 Sb., zákoník práce; zákon č. 2/1991 Sb., o kolektivním vyjednávání; zákon č. 198/2009 Sb., antidiskriminační zákon; zákon č. 89/2012 Sb., občanský zákoník (účinnost 1. 1. 2014); zákon č. 373/2011 Sb., o specifických zdravotních službách; zákon č. 309/2006 Sb., o zajištění dalších podmínek BOZP; nařízení vlády č. 590/2006 Sb. (jiné důležité osobní překážky v práci).',
+        '<b>Vztah k občanskému právu</b>: princip <b>subsidiarity</b> vyjádřený v <b>§ 4 ZP</b> – občanský zákoník se použije, neupravuje-li věc zákoník práce. Možnosti <b>odchýlit se</b> od ZP upravuje <b>§ 4a ZP</b>.'
+      ] }
     ] },
-    { title: 'Vznik, změna a skončení pracovního poměru', blocks: [
-      { t: 'table', head: ['Vznik PP', 'Pravidlo'], rows: [
-        ['<b>Pracovní smlouva</b> (§ 33–34)', 'nejběžnější způsob; musí být <b>písemná</b> (nedodržení formy samo o sobě neplatnost nezpůsobí, pokud zaměstnanec již nastoupil); PP vzniká <b>dnem nástupu do práce</b>'],
-        ['<b>Povinné náležitosti</b>', '<b>druh práce</b>, <b>místo nebo místa výkonu práce</b>, <b>den nástupu</b> do práce (bez dohodnutého dne nástupu je podstatné)'],
-        ['<b>Jmenování</b>', 'vedoucí zaměstnanci (např. ředitel příspěvkové org.) – jmenování, volba; nebo pracovní smlouva'],
-        ['<b>Volba</b>', 'zřídka – zaměstnanec zvolený kolektivním orgánem; PP vzniká přijetím volby'],
-        ['Zkušební doba (§ 35)', 'sjednaná <b>písemně před vznikem PP</b>; max. <b>3 měsíce</b> (vedoucí 6 měsíců); u PP na dobu určitou nejvýše polovina sjednané doby'],
-        ['Den nástupu', 'zaměstnanec nastoupí; nenastoupí-li bez omluvy do týdne, zaměstnavatel může od smlouvy odstoupit']
+    { title: 'Pracovněprávní vztahy a závislá práce', blocks: [
+      { t: 'p', x: '<b>Pracovněprávní vztahy</b> (§ 1 ZP) vznikají při výkonu závislé práce mezi <b>zaměstnanci</b> (fyzickými osobami) a <b>zaměstnavateli</b> (fyzickými nebo právnickými osobami). Zákoník práce se <b>nevztahuje</b> na vztahy při výkonu jiné než závislé práce – např. vztahy OSVČ nebo výkon veřejné funkce.' },
+      { t: 'versus', title: 'Zaměstnavatel × zaměstnanec', x: 'Subjekty individuálních pracovněprávních vztahů jsou osoby fyzické a právnické, ale ne v obou rolích stejně. Zaměstnavatelem může být firma (s.r.o., a.s.) i člověk, například živnostník, který si najme pomocníka. Zaměstnancem může být jen fyzická osoba, protože závislou práci vykonává výlučně osobně – firma nemůže být „zaměstnancem“ jiné firmy; když spolu firmy spolupracují, jde o obchodní vztah mezi podnikateli, ne o pracovní poměr.', cols: [
+        { h: 'Zaměstnavatel', items: ['právnická osoba', 'fyzická osoba', 'zaměstnává FO v pracovněprávním vztahu'] },
+        { h: 'Zaměstnanec', items: ['<b>pouze fyzická osoba</b>', 'vykonává závislou práci osobně'] }
       ] },
+      { t: 'svg', title: 'Znaky a podmínky závislé práce', x: ZPN.zavislaPrace(), cap: 'Uprostřed pojem závislé práce. Vlevo modře tři znaky podle § 2 odst. 1, vpravo oranžově čtyři podmínky výkonu podle § 2 odst. 2; teprve všechny dohromady tvoří závislou práci. Dole: závislou práci lze konat jen v základním pracovněprávním vztahu.' },
+      { t: 'warn', x: '<b>Jiné způsoby výkonu práce</b> – tzv. <b>práce na IČO (švarcsystém)</b> a výkon práce na základě vztahu mezi podnikateli (FO nebo PO) – <b>nespadají pod zákoník práce</b>, nejde o pracovněprávní vztah. Závislou práci lze konat <b>výlučně v základním pracovněprávním vztahu</b>, není-li upravena zvláštními předpisy (§ 3 ZP).' },
+      { t: 'svg', title: 'Základní pracovněprávní vztahy', x: ZPN.pracVztahy(), cap: 'Strom § 3 ZP: základní pracovněprávní vztahy jsou pracovní poměr (vzniká pracovní smlouvou nebo jmenováním, § 33) a právní vztahy z dohod o pracích konaných mimo pracovní poměr – dohoda o provedení práce (DPP) a dohoda o pracovní činnosti (DPČ).' }
+    ] },
+    { title: 'Vznik pracovního poměru a pracovní smlouva', blocks: [
+      { t: 'p', x: 'Platná úprava v <b>§ 33 ZP</b> rozlišuje dva základní způsoby vzniku pracovního poměru: <b>pracovní smlouvou</b> a <b>jmenováním</b>.' },
+      { t: 'def', term: 'Pracovní smlouva', x: 'Dvoustranné právní jednání mezi zaměstnancem a zaměstnavatelem, na jehož základě vzniká pracovní poměr.', items: ['obsah a náležitosti: <b>§ 34 ZP</b>', 'povinné (podstatné, esenciální) náležitosti: <b>a) druh práce, b) místo výkonu práce, c) den nástupu do práce</b>'] },
+      { t: 'table', head: ['Téma', 'Pravidlo podle přednášky'], rows: [
+        ['<b>Zkušební doba</b>', 'nesmí být delší než <b>3 měsíce</b> po sobě jdoucí ode dne vzniku PP, u vedoucího zaměstnance <b>6 měsíců</b>; musí být sjednána <b>písemně</b>'],
+        ['<b>Doba trvání</b> (§ 39)', 'sjednává se v pracovní smlouvě; není-li o ní nic uvedeno, PP trvá po <b>dobu neurčitou</b>'],
+        ['<b>Informace o právech a povinnostech</b>', 'neobsahuje-li je smlouva, zaměstnavatel o nich zaměstnance <b>písemně informuje do 1 měsíce</b> od vzniku PP']
+      ] },
+      { t: 'warn', x: 'Slajd uvádí zkušební dobu nejvýše 3 měsíce (vedoucí 6). Novela zákoníku práce účinná od <b>1. 6. 2025</b> (zákon č. 120/2025 Sb.) prodloužila maximum na <b>4 měsíce</b>, u vedoucího zaměstnance na <b>8 měsíců</b>. U zkoušky si ověř, kterou verzi vyučující požaduje.' },
+      { t: 'ex', x: 'Pepa podepíše smlouvu „programátor, Praha, nástup 1. 3.“ a o době trvání v ní nic není. Smlouva má všechny tři podstatné náležitosti, takže PP vznikne 1. 3., a protože doba není sjednána, je na <b>dobu neurčitou</b>. Zkušební doba platí, jen pokud je sjednána písemně. Údaje o dovolené či pracovní době, které smlouva neobsahuje, mu zaměstnavatel písemně sdělí do měsíce.' }
+    ] },
+    { title: 'Dohody, druhy a skončení pracovního poměru (doplněno)', blocks: [
       { t: 'table', head: ['Druh PP', 'Pravidlo'], rows: [
         ['Na <b>dobu neurčitou</b>', 'výchozí varianta'],
         ['Na <b>dobu určitou</b> (§ 39)', 'nejdéle <b>3 roky</b> od vzniku prvního PP; opakovat (navazovat) lze max. <b>dvakrát</b>; výjimky: vážné provozní důvody, zastupování, sjednání v kolektivní smlouvě (ověřit aktuální § 39)'],
@@ -66,7 +78,7 @@ registerTopic({
       { t: 'p', x: '<b>Změny PP</b>: dohoda o změně; <b>převedení na jinou práci</b> (jednostranně, jen z důvodů podle ZP – dočasně / trvale); <b>přeložení</b> na jiné pracoviště (jen se souhlasem); dočasné přidělení; přechod práv a povinností při převodu podniku (§ 338). Formou změny je dodatek.' },
       { t: 'table', head: ['Způsob skončení', 'Kdo / jak', 'Poznámky'], rows: [
         ['<b>Dohoda</b> (§ 49)', 'oboustranně, písemně', 'lze kdykoli; může obsahovat podmínky odstupného'],
-        ['<b>Výpověď</b> (§ 50)', 'zaměstnavatel (jen z <b>důvodů v § 52</b>) i zaměstnanec (<b>bez udání důvodu</b>); písemně, doručena', 'výpovědní doba <b>min. 2 měsíce</b>, začíná 1. dnem měsíce následujícího po doručení'],
+        ['<b>Výpověď</b> (§ 50)', 'zaměstnavatel (jen z <b>důvodů v § 52</b>) i zaměstnanec (<b>bez udání důvodu</b>); písemně, doručena', 'výpovědní doba <b>min. 2 měsíce</b>; od novely 2025 běží <b>ode dne doručení</b> výpovědi (dříve od 1. dne následujícího měsíce)'],
         ['<b>Okamžité zrušení</b> (§ 55 zaměstnavatel, § 56 zaměstnanec)', 'písemně, jen z <b>zákonných důvodů</b>', 'subjektivní lhůta 2 měsíce od zjištění, objektivní 1 rok od vzniku důvodu'],
         ['<b>Zrušení ve zkušební době</b> (§ 66)', 'obě strany, písemně, bez udání důvodu', 'musí být písemné a doručené před koncem zkušební doby; rušení z diskriminačního důvodu je neplatné'],
         ['<b>Uplynutí doby</b>', 'PP na dobu určitou', 'pokračování po uplynutí = přechod na dobu neurčitou'],
@@ -83,7 +95,7 @@ registerTopic({
       { t: 'warn', x: '<b>Ochranná doba</b> (§ 53): zaměstnavatel nesmí dát výpověď těhotné ženě, matce na mateřské dovolené, zaměstnanci v době dočasné pracovní neschopnosti, při výkonu vojenské služby; výjimka: zrušení / přemístění zaměstnavatele a hrubé porušení povinností. <b>Zaměstnanec výpověď dát může kdykoli.</b>' },
       { t: 'ex', x: 'Pepa pracuje u firmy 3 roky, firma kvůli reorganizaci zruší jeho pozici. Dostane výpověď z důvodu nadbytečnosti (§ 52 písm. c). Výpovědní doba 2 měsíce, odstupné 3násobek průměrného výdělku. Kdyby Pepa byl v době podání výpovědi nemocný, výpověď by byla neplatná (ochranná doba), pokud se nejedná o organizační změnu.' }
     ] },
-    { title: 'Pracovní doba, odpočinek, dovolená, mzda', blocks: [
+    { title: 'Pracovní doba, odpočinek, dovolená, mzda (doplněno)', blocks: [
       { t: 'table', head: ['Téma', 'Pravidlo'], rows: [
         ['<b>Stanovená týdenní pracovní doba</b> (§ 79)', 'max. <b>40 hodin týdně</b>; při třísměnném provozu 38,75, nepřetržitém 37,5 hodiny'],
         ['<b>Maximální týdenní</b> doba vč. přesčasu', 'průměrně max. <b>48 hodin</b> týdně vč. přesčasu za 26 týdnů (v kolektivní smlouvě až 52 týdnů)'],
@@ -91,7 +103,7 @@ registerTopic({
         ['<b>Noční práce</b>', '22:00–6:00; příplatek min. 10 % průměrného výdělku; zdravotní prohlídky'],
         ['<b>Doba odpočinku</b>', 'mezi směnami min. <b>11 hodin</b> (§ 90); týdenní nepřetržitý odpočinek min. <b>35 hodin</b> (§ 92); přestávka na jídlo a oddech <b>30 min</b> po max. 6 hodinách (§ 88)'],
         ['<b>Práce ve svátek</b>', 'příplatek min. 100 % průměrného výdělku (nebo náhradní volno)'],
-        ['<b>Dovolená</b> (§ 211 an.)', 'min. <b>4 týdny</b>; 5 týdnů u zaměstnavatelů ve <b>veřejné sféře</b>; pedagogové až 8 týdnů; poměrně za odpracované týdny (nárok po odpracování 60 dnů); <b>proplácení</b> dovolené jen při skončení PP'],
+        ['<b>Dovolená</b> (§ 211 an.)', 'min. <b>4 týdny</b>; 5 týdnů u zaměstnavatelů ve <b>veřejné sféře</b>; pedagogové až 8 týdnů; poměrně podle odpracované doby; <b>proplácení</b> dovolené jen při skončení PP'],
         ['Pracovní volno', 'překážky v práci (návštěva lékaře, svatba, pohřeb, očekávaný porod)'],
         ['<b>Práce z domova</b>', '§ 317 ZP – dohodou nebo na pokyn zaměstnavatele; náhrada nákladů dle dohody']
       ] },
@@ -101,10 +113,10 @@ registerTopic({
         ['Splatnost', 'nejpozději do konce kalendářního měsíce následujícího po vzniku nároku', 'po vykonání práce, v pravidelném výplatním termínu'],
         ['Dolní hranice', 'minimální mzda (nařízení vlády 567/2006 Sb., každoročně valorizovaná)', 'platové tarify a tabulky; zaručený plat']
       ] },
-      { t: 'p', x: '<b>Minimální mzda</b>: stanovena nařízením vlády (2025: 20 800 Kč měsíčně / 124,40 Kč za hodinu – ověřit aktuální výši; v předchozích letech opakovaně navyšována). <b>Splatnost mzdy</b>: nejpozději do konce kalendářního měsíce následujícího po měsíci, ve kterém vznikl nárok. Srážky ze mzdy: přednostní (daň, pojištění), nepřednostní (exekuce) – zákon chrání <b>nezabavitelnou částku</b>.' },
+      { t: 'p', x: '<b>Minimální mzda</b>: stanovena nařízením vlády a každoročně upravována (aktuální výši si ověř). <b>Splatnost mzdy</b>: nejpozději do konce kalendářního měsíce následujícího po měsíci, ve kterém vznikl nárok. Srážky ze mzdy: přednostní (daň, pojištění), nepřednostní (exekuce) – zákon chrání <b>nezabavitelnou částku</b>.' },
       { t: 'tip', x: 'Přesčasová práce = práce nad stanovenou týdenní dobu nařízená / dohodnutá; příplatek 25 % nebo volno. Rozdíl od <b>práce přes čas</b> (u zaměstnanců s pružným rozvržením).' }
     ] },
-    { title: 'Odpovědnost za škodu v pracovním právu', blocks: [
+    { title: 'Odpovědnost za škodu v pracovním právu (doplněno)', blocks: [
       { t: 'p', x: 'Odpovědnostní vztahy upravuje ZP (§ 248 an.), NOZ jen subsidiárně. <b>Předpoklady</b> odpovědnosti (stejně jako v občanském právu): porušení povinnosti, škoda, příčinná souvislost, zavinění (zaměstnanec); u zaměstnavatele i bez zavinění.' },
       { t: 'table', head: ['', 'Zaměstnanec', 'Zaměstnavatel'], rows: [
         ['<b>Obecná odpovědnost</b>', 'za <b>zaviněné porušení povinností</b> při plnění pracovních úkolů nebo v přímé souvislosti (§ 250)', '<b>objektivní</b> – za škodu při plnění pracovních úkolů nebo v přímé souvislosti (§ 265)'],
@@ -122,7 +134,7 @@ registerTopic({
         ['Regres po zaměstnanci', 'zaměstnavatel, který nahradil škodu třetí osobě, ji může po zaměstnanci vymáhat jen v rámci limitu']
       ] }
     ] },
-    { title: 'BOZP, diskriminace, věk, ochrana zvláštních skupin', blocks: [
+    { title: 'BOZP, diskriminace, věk, ochrana zvláštních skupin (doplněno)', blocks: [
       { t: 'p', x: '<b>BOZP</b> (§ 101 an. ZP a zák. 309/2006 Sb.): zaměstnavatel je povinen zajistit bezpečné pracoviště, školení, vyhodnocovat rizika, poskytovat OOPP (ochranné pomůcky), pracovní lékařské prohlídky, evidovat pracovní úrazy; zaměstnanec dodržovat předpisy a spolupracovat. Inspekce: Státní úřad inspekce práce (SÚIP), oblastní inspektoráty.' },
       { t: 'table', head: ['Diskriminace (zák. 198/2009 Sb., § 16 ZP)', 'Popis'], rows: [
         ['<b>Přímá</b>', 'méně příznivé zacházení z důvodu pohlaví, rasy, věku, zdravotního postižení, náboženství, sexuální orientace apod.'],
@@ -144,20 +156,29 @@ registerTopic({
   mistakes: [
     'Odpovědnost zaměstnance: limit <b>4,5násobek</b> průměrného měsíčního výdělku platí pro nedbalost – ne pro úmysl, alkohol, schodek, ztrátu svěřených předmětů.',
     'DPP: <b>300 hodin ročně</b> u jednoho zaměstnavatele; DPČ: max. polovina týdenní pracovní doby. DPP = není nárok na dovolenou ani výpověď.',
-    'Výpovědní doba min. <b>2 měsíce</b>, začíná první den měsíce po doručení – ne od doručení.',
+    'Zaměstnancem může být <b>jen fyzická osoba</b>; zaměstnavatelem FO i PO.',
+    'Práce „na IČO“ (švarcsystém) <b>není pracovněprávní vztah</b> – závislou práci lze konat jen v základním pracovněprávním vztahu (§ 3).',
+    'Není-li ve smlouvě sjednána doba trvání, je PP na <b>dobu neurčitou</b> (§ 39).',
+    '(doplněno) Výpovědní doba min. <b>2 měsíce</b>; od novely 2025 běží ode dne doručení výpovědi.',
     'Pracovní smlouva: povinně druh práce, místo výkonu, den nástupu (mzda nemusí být v pracovní smlouvě; zkušební doba nepovinná).',
-    'Zkušební dobu nelze sjednat až po vzniku PP; ve zkušební době lze skončit PP bez udání důvodu.',
+    'Zkušební doba musí být sjednána <b>písemně</b>; slajd: max. 3 měsíce (vedoucí 6), od novely 2025: 4 měsíce (vedoucí 8).',
     'Okamžité zrušení = výjimečné, jen z důvodů zákona, do 2 měsíců od zjištění (max. 1 rok).',
     'Mzda × plat: mzda v soukromé sféře, plat ve veřejné. Dovolená se proplácí jen při skončení PP.',
     'Zaměstnavatel odpovídá objektivně za pracovní úraz; zaměstnanec subjektivně (zavinění se neprezumuje).'
   ],
   qa: [
+    { q: 'Co je pracovní právo a jaké oblasti upravuje?', a: 'Soubor právních norem upravujících vztahy vznikající nebo související s výkonem závislé práce; samostatné odvětví řazené k sociálním právům. Oblasti: individuální pracovní právo, kolektivní pracovní právo a právní úprava zaměstnanosti.' },
+    { q: 'Jaké jsou funkce pracovního práva?', a: 'Ochranná (nejdůležitější, převažující), organizační (rámec pracovního procesu, míra práce, odměny, pravidla trhu práce) a výchovná (kultura výkonu práce).' },
+    { q: 'Jaké jsou prameny pracovního práva?', a: 'Ústava a LZPS, mezinárodní smlouvy, zákony, vyhlášky a nařízení vlády (zejm. zákoník práce 262/2006 Sb.), kolektivní smlouvy a evropské právo.' },
+    { q: 'Jaký je vztah zákoníku práce a občanského zákoníku?', a: 'Princip subsidiarity (§ 4 ZP): občanský zákoník se použije, neupravuje-li věc zákoník práce. Možnosti odchýlit se od ZP upravuje § 4a.' },
+    { q: 'Kdo může být zaměstnavatelem a kdo zaměstnancem?', a: 'Zaměstnavatelem fyzická i právnická osoba; zaměstnancem pouze fyzická osoba.' },
+    { q: 'Jaké jsou základní pracovněprávní vztahy a jak vzniká pracovní poměr?', a: 'Pracovní poměr a právní vztahy z dohod o pracích konaných mimo pracovní poměr – DPP a DPČ (§ 3). Pracovní poměr vzniká pracovní smlouvou nebo jmenováním (§ 33).' },
     { q: 'Co je závislá práce a jak se liší od podnikání?', a: 'Závislá práce (§ 2 ZP): osobně, ve vztahu nadřízenosti a podřízenosti, jménem zaměstnavatele, podle pokynů, za mzdu, v pracovní době, na náklady a odpovědnost zaměstnavatele. Podnikatel pracuje samostatně, vlastním jménem a na vlastní odpovědnost.' },
-    { q: 'Povinné náležitosti pracovní smlouvy.', a: 'Druh práce, místo (místa) výkonu práce, den nástupu. Dále se dohaduje mzda, doba trvání, zkušební doba, pracovní doba apod. Smlouva je písemná.' },
-    { q: 'Jak dlouhá může být zkušební doba?', a: 'Nejvýše 3 měsíce, u vedoucích 6 měsíců, u PP na dobu určitou nejvýše polovina sjednané doby. Sjednává se písemně nejpozději v den vzniku PP; později ji sjednat nelze.' },
+    { q: 'Povinné náležitosti pracovní smlouvy.', a: 'Druh práce, místo výkonu práce a den nástupu do práce (§ 34). Neobsahuje-li smlouva údaje o právech a povinnostech, zaměstnavatel o nich zaměstnance písemně informuje do 1 měsíce od vzniku PP.' },
+    { q: 'Jak dlouhá může být zkušební doba?', a: 'Podle přednášky nejvýše 3 měsíce po sobě jdoucí od vzniku PP, u vedoucího zaměstnance 6 měsíců; musí být sjednána písemně. Novela účinná od 1. 6. 2025 prodloužila maximum na 4 měsíce (vedoucí 8).' },
     { q: 'Rozdíl mezi DPP a DPČ.', a: 'DPP: max. 300 hodin za rok u jednoho zaměstnavatele, bez nároku na dovolenou. DPČ: max. polovina týdenní pracovní doby (v průměru za 52 týdnů), s nároky na dovolenou a výpověď 15 dnů. Obě písemně.' },
     { q: 'Jak lze ukončit pracovní poměr?', a: 'Dohodou, výpovědí (zaměstnavatel jen z důvodů § 52; zaměstnanec bez důvodu), okamžitým zrušením, zrušením ve zkušební době, uplynutím doby (u určité doby), smrtí zaměstnance.' },
-    { q: 'Jaká je výpovědní doba a kdy začíná?', a: 'Nejméně 2 měsíce; začíná prvním dnem kalendářního měsíce následujícího po doručení výpovědi.' },
+    { q: 'Jaká je výpovědní doba a kdy začíná? (doplněno)', a: 'Nejméně 2 měsíce; od novely 2025 běží ode dne doručení výpovědi (dříve od prvního dne následujícího měsíce).' },
     { q: 'Kdy má zaměstnanec nárok na odstupné a v jaké výši?', a: 'Při výpovědi z organizačních důvodů (zrušení, nadbytečnost) nebo zdravotních: 1násobek průměrného výdělku do 1 roku, 2násobek 1–2 roky, 3násobek nad 2 roky. Při pracovním úrazu / nemoci z povolání 12násobek.' },
     { q: 'Kdy nelze dát zaměstnanci výpověď?', a: 'V ochranné době (těhotenství, mateřská / rodičovská dovolená, pracovní neschopnost, výkon vojenské služby); výjimky: zrušení zaměstnavatele, hrubé porušení povinností.' },
     { q: 'Jaká je maximální pracovní doba a doba odpočinku?', a: 'Stanovená týdenní doba max. 40 h; průměrně max. 48 h vč. přesčasu; mezi směnami min. 11 h odpočinku, týdenní 35 h, přestávka 30 min po 6 hodinách.' },
