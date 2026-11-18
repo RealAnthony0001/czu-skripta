@@ -1,0 +1,255 @@
+=== SLIDE 1 ===
+*
+=== SLIDE 2 ===
+PRÁVNÍ ÚPRAVA PODNIKÁNÍ
+zákon č. 89/2012 Sb., občanský zákoník
+zákon č. 90/2012 Sb., o obchodních korporacích
+zákon č. 455/1991 Sb., o živnostenském podnikání (živnostenský zákon)
+zákon č. 304/2013 Sb., o veřejných rejstřících
+
+
+=== SLIDE 3 ===
+ZÁKLADNÍ POJMY
+Podnikání – činnost vykonávaná samostatně, na vlastní účet  a odpovědnost, soustavně, za účelem dosažení zisku (§ 420 odst. 1 OZ)
+Podnikatel – osoba, která podnikání vykonává. Může jít o:
+fyzickou osobu (OSVČ, živnostník),
+právnickou osobu (např. s.r.o., a.s.).
+Podnik – organizovaný soubor jmění, který podnikatel vytvořil a který slouží k provozování jeho činnosti.
+
+*
+=== SLIDE 4 ===
+ZÁKLADNÍ POJMY
+Obchodní firma – jméno, pod kterým je podnikatel zapsán do veřejného rejstříku a pod kterým vystupuje v právních vztazích (např. „xxx, s.r.o.“). U OSVČ bývá obchodní firmou zpravidla jméno a příjmení podnikatele.
+Živnost – Soustavná činnost provozovaná samostatně, vlastním jménem, na vlastní odpovědnost za účelem dosažení zisku za podmínek stanovených živnostenským zákonem.
+Živnostník (OSVČ) – Fyzická osoba podnikající na základě živnostenského oprávnění.
+
+*
+=== SLIDE 5 ===
+ZÁKLADNÍ POJMY
+Spotřebitel – každý člověk, který mimo rámec své podnikatelské činnosti uzavírá smlouvu s podnikatelem nebo s ním jinak jedná.
+Provozovna – prostor, ve kterém je podnikatelská činnost vykonávána (prodejna, kancelář, dílna, restaurace apod.).
+Obchodní rejstřík – veřejný rejstřík vedený soudy, do kterého se zapisují zejména obchodní společnosti a některé další osoby.
+IČO (identifikační číslo osoby) – jedinečný identifikátor podnikatele nebo jiné právnické osoby.
+
+*
+=== SLIDE 6 ===
+ZÁKLADNÍ POJMY
+Obchodní korporace – právnické osoby založené za účelem podnikání:
+veřejná obchodní společnost (v.o.s.),
+komanditní společnost (k.s.),
+společnost s ručením omezeným (s.r.o.),
+akciová společnost (a.s.),
+družstvo.
+
+*
+=== SLIDE 7 ===
+FORMY PODNIKÁNÍ V ČR
+Forma podnikání 
+Právní subjektivita 
+Ručení za dluhy 
+Statutární orgán 
+Nejvyšší orgán 
+Kontrolní orgán 
+Fakultativní orgány 
+Minimální základní kapitál 
+OSVČ 
+živnostník 
+Ne 
+Celým svým majetkem 
+Podnikatel 
+Podnikatel 
+Není 
+Není 
+Není stanoven 
+v.o.s. 
+Ano 
+Všichni společníci neomezeně 
+Každý společník 
+Společníci 
+Není 
+Lze sjednat ve SS 
+Není stanoven 
+k.s. 
+Ano 
+Komplementáři neomezeně 
+komanditisté do výše nesplaceného vkladu 
+Komplementář(i) 
+Společníci 
+Není 
+Lze sjednat ve SS 
+min. 5 000 Kč 
+s.r.o. 
+Ano 
+Společnost svým majetkem, společníci omezeně 
+Jednatel(é) 
+Valná hromada 
+Dozorčí rada (není povinná) 
+Dozorčí rada, poradní orgány 
+1 Kč 
+a.s. 
+Ano 
+Společnost svým majetkem 
+Představenstvo / správní rada 
+Valná hromada 
+Dozorčí rada (dualistický systém) 
+Auditní výbor a další výbory 
+2 000 000 Kč nebo 80 000 EUR 
+Družstvo 
+Ano 
+Družstvo svým majetkem 
+Představenstvo (příp. předseda) 
+Členská schůze 
+Kontrolní komise 
+Další orgány dle stanov 
+Není stanovena 
+*
+=== SLIDE 8 ===
+	SPRÁVA ŽIVNOSTÍ
+LZPS čl. 26 („Každý má právo na svobodnou volbu povolání a přípravu k němu, jakož i právo podnikat a provozovat jinou hospodářskou činnost.“)
+zákon č. 455/1991 Sb., o živnostenském podnikání
+zákon č. 570/1991 Sb., o živnostenských úřadech
+zákon č. 18/2004 Sb., o uznávání odborné kvalifikace
+nařízení vlády č. 278/2008 Sb., kterým se stanoví obsahové náplně jednotlivých živností
+
+zákon č. 500/2004 Sb., správní řád
+zákon č. 250/2016 Sb., o odpovědnosti za přestupky a řízení o nich
+zákon č. 89/2012 Sb., občanský zákoník
+*
+=== SLIDE 9 ===
+	ZÁKLADNÍ POJMY
+předmětem živnostenského zákona je právní úprava podmínek provozování živnostenského podnikání a kontroly nad jejich dodržováním
+živnost – soustavná činnost provozovaná podnikatelem samostatně, jeho vlastním jménem, na jeho vlastní odpovědnost a za účelem dosažení zisku
+živností není např. činnost: lékařů, advokátů, soudních exekutorů aj.
+podnikatel dle ŽZ: FO nebo PO, která provozuje živnost a splnila podmínky dle ŽZ
+*
+=== SLIDE 10 ===
+VŠEOBECNÉ A ZVLÁŠTNÍ PODMÍNKY PROVOZOVÁNÍ ŽIVNOSTÍ
+VŠEOBECNÉ:
+plná svéprávnost
+bezúhonnost
+ZVLÁŠTNÍ:
+odborná či jiná způsobilost –  pokud je zákon vyžaduje – jedná se o specifické podmínky stanovené pro provozování řemeslných, vázaných nebo koncesovaných živností
+odborná způsobilost – spočívá v odborných znalostech a dovednostech získaných absolvovaným vzděláním nebo praxí nebo kombinací nebo složením zkoušky
+jiná způsobilost – splnění jiných než všeobecných podmínek provozování živnosti nebo odborné způsobilosti
+
+*
+=== SLIDE 11 ===
+ROZDĚLENÍ ŽIVNOSTÍ
+KONCESOVANÉ – mohou být provozovány na základě koncese
+OHLAŠOVACÍ – mohou být provozovány na základě ohlášení
+řemeslné 
+vázané
+volné
+
+*
+=== SLIDE 12 ===
+OHLAŠOVACÍ ŽIVNOSTI
+řemeslné – uvedeny v Příloze č. 1 ŽZ, podmínka odborné způsobilosti (doklad o řádném ukončení středního vzdělání s výučním listem v příslušném oboru, doklady o uznání odborné kvalifikace..), např. řeznictví, uzenářství, pekařství, cukrářství.
+vázané – taxativní výčet v Příloze č. 2 ŽZ, stanovena odborná způsobilost, např. geologické práce, zpracování tabáku a výroba tabákových výrobků, provádění staveb, projektová činnost ve výstavbě.
+volné – vymezeny v Příloze č. 4 ŽZ , nevyžaduje se prokazování odborné ani jiné způsobilosti (předmět podnikání je výroba, obchod a služby neuvedené v Příloze č. 1-3 ŽZ), např. zprostředkování obchodu a služeb, velkoobchod, maloobchod.
+
+*
+=== SLIDE 13 ===
+KONCESOVANÉ ŽIVNOSTI
+živnosti taxativně vymezené v Příloze č. 3 ŽZ
+např. výroba a zpracování paliv a maziv, distribuce pohonných hmot vnitrozemská vodní doprava, ostraha majetku a osob, provozování střelnic
+stanovena odborná způsobilost
+*
+=== SLIDE 14 ===
+VZNIK A ZÁNIK ŽIVNOSTENSKÉHO OPRÁVNĚNÍ
+živnostenské oprávnění vzniká u ohlašovacích živností dnem ohlášení a u koncesovaných dnem nabytí právní moci rozhodnutí o udělení koncese
+živnostenský zákon umožňuje:
+pozastavení provozování živnosti
+pozastavení provozování živnosti v provozovně 
+zrušení živnostenského oprávnění (např. pokud podnikatel závažným způsobem porušil podmínky stanovené rozhodnutí o udělení koncese)
+živnostenské oprávnění zaniká:
+smrtí podnikatele
+zánikem PO
+uplynutím doby, pokud bylo živnostenské oprávnění omezeno na určitou dobu
+výmazem zahraniční osoby nebo jejího předmětu podnikání v OR
+pokud tak stanoví zvláštní právní předpis
+rozhodnutím ŽÚ o zrušení živnostenského oprávnění (ve správním řízení)
+=== SLIDE 15 ===
+VZNIK A ZÁNIK ŽIVNOSTENSKÉHO OPRÁVNĚNÍ – OHLAŠOVACÍ ŽIVNOSTI
+FO nebo PO, která hodlá provozovat ohlašovací živnost, tj. ohlašovatel, je povinna to ohlásit ŽÚ a vymezit předmět podnikání dostatečně určitě
+u ohlášení živnosti volné je povinen uvést obory činnosti, které bude v rámci svého podnikání vykonávat
+předmět podnikání živnosti řemeslné a vázané musí být ohlášen v souladu s přílohami č. 1 a 2 k ŽZ
+ohlášení živnosti se předkládá na Jednotném registračním formuláři
+pokud ohlašovatel všechny podmínky stanovené ŽZ splní, provede ŽÚ zápis podnikatele do ŽR do 5 pracovních dnů a vydá podnikateli výpis z živnostenského rejstříku, kterým podnikatel prokazuje svoje živnostenské oprávnění
+
+=== SLIDE 16 ===
+VZNIK A ZÁNIK ŽIVNOSTENSKÉHO OPRÁVNĚNÍ – KONCESOVANÉ ŽIVNOSTI
+osoba, která hodlá provozovat koncesovanou živnost, tj. žadatel, podá ú ŽÚ žádost o vydání koncese
+pokud je k provozování koncesované živnosti nutné oprávnění, souhlas, povolení nebo vyjádření orgánu státní správy – ŽÚ mu předloží žádost o koncesi spolu se všemi doklady předloženými žadatelem – příslušný orgán státní správy je povinen zaujmout stanovisko do 30 dnů od doručení žádosti – stanoviskem tohoto orgánu je ŽÚ vázán
+pokud žadatel všechny podmínky stanovené zákonem splní – ŽÚ vydá rozhodnutí o udělení koncese a do 5 pracovních dnů ode dne nabytí právní moci provede zápis podnikatele do ŽR
+=== SLIDE 17 ===
+ROZSAH ŽIVNOSTENSKÉHO OPRÁVNĚNÍ
+Rozsah živnostenského oprávnění je pro každou živnost vymezen souborem činností, které jsou dané živnosti vlastní z hlediska jejího charakteru (předmětu podnikání – např. pekařství, cukrářství aj.)
+rozsah živnostenského oprávnění pro jednotlivé živnosti je vymezen v nařízení vlády o obsahových náplních jednotlivých živností
+překročení rozsahu živnostenského oprávnění je přestupkem podle ŽZ+
+
+
+=== SLIDE 18 ===
+ŽIVNOSTENSKÁ KONTROLA
+živnostenskou kontrolu provádějí živnostenské úřady (ŽÚ)
+výkon živnostenské kontroly (ŽK) se řídí zákonem č. 255/2012 Sb., o kontrole
+faktický výkon ŽK zpravidla provádějí obecní ŽÚ, resp. jejich zaměstnanci, kteří musí kontrolované osobě prokázat oprávnění k provedení kontroly (písemným pověřením nebo průkazem)
+ŽÚ jsou v rámci ŽK oprávněny kontrolovat jak plnění povinností stanovených živnostenským zákonem, tak i jinými právními předpisy, které se vztahují na živnostenské podnikání
+ŽÚ kontrolují podnikatele, osoby, které neoprávněně, tj. bez příslušného živnostenského oprávnění, podnikají v činnosti, která je živností
+na výkon ŽK navazuje oprávnění ŽÚ uložit podnikateli rozhodnutím povinnost odstranit nedostatky zjištěné při kontrole.
+
+
+*
+=== SLIDE 19 ===
+SPRÁVNÍ TRESTÁNÍ
+povinnostem stanoveným ŽZ odpovídá vymezení skutkových podstat přestupků FO, FO podnikajících a PO, které spočívají v porušení těchto povinností
+např. přestupku podle ŽZ se dopustí FO nebo PO, pokud bez příslušného oprávnění provozuje činnost, která je živností
+sankcí za některé přestupky může být pozastavení práva provozovat živnost nebo zrušení živnostenského oprávnění
+*
+=== SLIDE 20 ===
+ORGANIZACE VEŘEJNÉ SPRÁVY
+státní správu na úseku živností vykonávají živnostenské úřady:
+obecní živnostenské úřady – výkon státní správy v přenesené působnosti, 
+krajské živnostenské úřady – výkon státní správy v přenesené působnosti
+Živnostenský úřad ČR – doposud nebyl zřízen – jeho působnost vykonává Odbor  živností Ministerstva průmyslu a obchodu
+*
+=== SLIDE 21 ===
+OBECNÍ ŽIVNOSTENSKÉ ÚŘADY
+jsou provozovatelem živnostenského rejstříku
+plní funkci tzv. centrálního registračního místa:
+přijímá přihlášky k registraci nebo oznámení určené správci daně od živnostníků
+přijímá oznámení a hlášení v oblasti sociálního zabezpečení od FO živnostníků
+přijímá oznámení živnostníků o vzniku volných pracovních míst nebo jejich obsazení
+přijímá oznámení a hlášení FO živnostníků vůči zdravotním pojišťovnám
+*
+=== SLIDE 22 ===
+KRAJSKÝ ŽIVNOSTENSKÝ ÚŘAD
+vykonává řídící, koordinační, kontrolní a metodickou činnost
+vůči obecním živnostenským úřadům ve svém správním obvodu může nařídit provedení živnostenské kontroly
+rozhoduje o odvolání proti rozhodnutím obecních živnostenských úřadů ve svém správním obvodu
+spolupracuje na úseku živnostenského podnikání s příslušnými správními úřady, v jejichž působnosti jsou odvětví, ve kterých se provozuje živnostenské podnikání, s hospodářskými komorami, podnikatelskými svazy a sdruženími
+je také provozovatelem živnostenského rejstříku
+*
+=== SLIDE 23 ===
+MINISTERSTVO PRŮMYSLU A OBCHODU
+zpracovává koncepce v oblasti živnostenského podnikání
+vykonává řídící, koordinační, kontrolní a metodickou činnost vůči krajským živnostenským úřadům
+rozhoduje o odvolání proti rozhodnutím krajských živnostenských úřadů
+v případech stanovených zákonem rozhoduje jako správní orgán první instance
+spolupracuje na úseku živnostenského podnikání s příslušnými správními úřady, v jejichž působnosti jsou odvětví, ve kterých se provozuje živnostenské podnikání, s hospodářskými komorami, podnikatelskými svazy a sdruženími
+je správcem živnostenského rejstříku
+
+*
+=== SLIDE 24 ===
+ŽIVNOSTENSKÝ REJSTŘÍK
+informačním systémem veřejné správy (zákon č. 365/2000Sb.)
+správcem je Živnostenský úřad ČR, jehož působnost vykonává Ministerstvo průmyslu a obchodu
+provozovateli jsou obecní a krajské živnostenské úřady
+je veden v elektronické podobě a je z velké většiny veřejným seznamem (neveřejným je pouze ohledně sankcí a pokut udělených podnikatelům,  adres pro doručovaní a rodných čísel FO) – umožněn je dálkový přístup na adrese: www.rzp.cz
+
+*
+=== SLIDE 25 ===
+
+
+
+

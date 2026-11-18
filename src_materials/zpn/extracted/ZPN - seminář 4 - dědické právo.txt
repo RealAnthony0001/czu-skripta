@@ -1,0 +1,274 @@
+=== SLIDE 1 ===
+
+Základy právních nauk
+4. seminář
+30/10/24
+Dědické právo
+
+=== SLIDE 2 ===
+
+Otázky k diskuzi
+Co je předmětem dědického práva?
+Z jakých právních důvodů se můžete stát dědicem?
+Jaký právní předpis se aplikuje v případě projednání pozůstalosti?
+Lze zdědit i dluhy?
+
+=== SLIDE 3 ===
+
+Pojmy a zásady dědického práva
+
+Základní pojmy:
+zůstavitel
+pozůstalost
+dědictví
+dědic
+odkazovník
+
+=== SLIDE 4 ===
+
+Zásady dědického práva:
+zásada zachování hodnot
+zásada přechodu majetku na jednotlivce
+zásada rovnosti dědiců
+zásada univerzální sukcese
+zásada volnosti zůstavitele při volbě dědice
+zásada omezení v případě neopomenutelných dědiců
+zásada volnosti dědice dědictví přijmout nebo odmítnout
+zásada ingerence veřejné moci při nabytí dědictví
+
+=== SLIDE 5 ===
+
+Předpoklady dědění
+smrt zůstavitele
+existence pozůstalosti
+způsobilý dědic
+dědický titul
+
+=== SLIDE 6 ===
+
+1) Smrt zůstavitele
+Smrt zůstavitele
+
+Smrtí zůstavitele vzniká dědici dědické právo.
+Po smrti zůstavitele:
+Lékař prohlédne zemřelého a konstatuje smrt.
+Oznámení lékaře nebo zdravotnického zařízení (v němž osoba zemřela) na obecní úřad pověřený vedením matrik. vystaví se úmrtní list.
+Oznámení obecního úřadu o smrti osoby pozůstalostnímu soudu.
+Pokud smrt nemůže lékař zjistit klasickým způsobem, rozhodne soud o prohlášení osoby za mrtvou.
+
+=== SLIDE 7 ===
+
+2) Existence pozůstalosti
+
+Aktiva i pasiva zůstavitele
+Soupis pozůstalosti – zjištění pozůstalostního jmění a určení čisté hodnoty majetku v době smrti zůstavitele.
+Dědic může uplatnit výhradu soupisu pozůstalosti → ochrana dědiců.
+
+=== SLIDE 8 ===
+
+3) Způsobilý dědic
+
+Fyzická osoba – člověk (dědic na základě závěti, dědické smlouvy, zákona)
+Právnická osoba (dědic na základě závěti)
+Stát (odúmrť)
+Způsobilost fyzické osoby stát se dědicem - právní osobnost
+
+=== SLIDE 9 ===
+
+Dědická nezpůsobilost:
+
+ten, kdo se dopustil:
+ 1) úmyslného trestného činu proti zůstaviteli, jeho předku, potomku nebo manželu nebo
+2) zavrženíhodného činu proti zůstavitelově poslední vůli, zejména tím, že zůstavitele k projevu poslední vůle donutil nebo lstivě svedl, projev poslední vůle zůstaviteli překazil nebo jeho poslední pořízení zatajil, zfalšoval, podvrhl nebo úmyslně zničil, ledaže mu zůstavitel tento čin výslovně prominul.
+
+=== SLIDE 10 ===
+
+4) Dědický titul
+
+Dědictví se nabývá na základě: 
+
+závěti
+dědické smlouvy § 1582 OZ
+zákona
+
+=== SLIDE 11 ===
+
+Závěť
+Dědický titul – závěť
+Odvolatelný projev vůle, kterým zůstavitel pro případ své smrti osobně zůstavuje jedné či více osobám podíl na pozůstalosti, případně i odkaz. 
+
+Písemná forma
+Neplatnost:
+není-li zřejmé, který den, měsíc a rok byla pořízena, 
+pořídil-li zůstavitel více závětí, které si odporují,
+v případě podstatného omylu zůstavitele (§ 1529 OZ)
+Pořizovací způsobilost: plná svéprávnost
+Neopomenutelní dědici
+
+=== SLIDE 12 ===
+
+Dědický titul – závěť
+Zůstavitel může ustanovit:
+
+vykonavatele závěti
+správce pozůstalosti (veřejnou listinou)
+
+=== SLIDE 13 ===
+
+Děický titul - závěť
+Závěť – forma soukromá
+
+závěť holografní, tzn. závěť psaná vlastní rukou zůstavitele, napsaná beze svědků, celá vlastní rukou a vlastní rukou i podepsána (§ 1533 OZ).
+závěť alografní obecná, kterou zůstavitel napíše jakkoli jen ne vlastní rukou, vlastní rukou podepíše a před dvěma současně přítomnými svědky prohlásí, že listina obsahuje jeho poslední vůli
+závěť alografní zvláštní, předepsána pro osoby s různým smyslovým postižením, podle jehož charakteru se liší způsob zaznamenání poslední vůle zůstavitele, počet a funkce svědků, způsob zapsání, či přečtení závěti a způsob jejího podepsání (§ 1535 a 1536 OZ). 
+
+Formy závěti
+
+=== SLIDE 14 ===
+
+Dědický titul - závěť
+Závěť – forma veřejná
+
+Touto formou může pořídit závěť kdokoli svéprávný. Bez souhlasu zákonného zástupce může ve formě veřejné listiny pořídit poslední vůli osoba starší patnácti let, která ještě nenabyla plné svéprávnosti. 
+Pouze ve formě veřejné listiny mohou závěť pořídit osoby omezené ve svéprávnosti, a to v rámci svého omezení.
+
+=== SLIDE 15 ===
+
+Dědický titul - závěť
+Privilegovaná závěť
+
+Závěť pořizovaná v případech:
+bezprostředního ohrožení života
+důvodné obavy smrti před sepsáním veřejné listiny
+vážného důvodu při cestě námořním plavidlem (pod vlajkou ČR), letadlem (letecký rejstřík ČR)
+účasti v ozbrojeném konfliktu.
+Tato závěť má podle typu případu úlevu na formě závěti, na svědcích a má časově omezenou platnost.
+
+=== SLIDE 16 ===
+
+Svědkové  závěti
+Svědkem je osoba, která nemá zájem na obsahu závěti.
+Svědkem závěti nemůže být:
+dědic, 
+odkazovník, 
+osoba dědici nebo odkazovníku blízká, 
+zaměstnanec dědice nebo odkazovníka.
+
+=== SLIDE 17 ===
+
+Vedlejší ustanovení v závěti
+
+podmínky (např. péče o zvíře zůstavitele)
+doložení času (např. nabytí práva na určitou dobu nebo později než v době smrti zůstavitele)
+příkaz (např. nakládat s majetkem určitým způsobem)
+
+=== SLIDE 18 ===
+
+Dědická smlouva
+Dědickou smlouvou povolává zůstavitel druhou smluvní stranu nebo třetí osobu za dědice nebo odkazovníka a druhá strana to přijímá (§1582 OZ).
+Forma veřejné listiny
+¼ pozůstalosti musí zůstat volná
+
+=== SLIDE 19 ===
+
+Dědění ze zákona
+
+Nejsou-li dědici ze závěti a na základě dědické smlouvy, nastupují dědici ze zákona.
+
+6 dědických tříd, které se postupně navzájem vylučují.
+Dědické třídy I. – VI. třída v § 1635 OZ a násl.
+
+=== SLIDE 20 ===
+
+Dědické třídy
+
+První třída dědiců
+
+§ 1635 OZ
+(1) V první třídě dědiců dědí zůstavitelovy děti a jeho manžel, každý z nich stejným dílem.
+(2) Nedědí-li některé dítě, nabývají jeho dědický podíl stejným dílem jeho děti; totéž platí o vzdálenějších potomcích téhož předka.
+
+=== SLIDE 21 ===
+
+Druhá třída dědiců
+
+§ 1636 OZ
+(1) Nedědí-li zůstavitelovi potomci, dědí ve druhé třídě manžel, zůstavitelovi rodiče a dále ti, kteří žili se zůstavitelem nejméně po dobu jednoho roku před jeho smrtí ve společné domácnosti a kteří z tohoto důvodu pečovali o společnou domácnost nebo byli odkázáni výživou na zůstavitele.
+(2) Dědici druhé třídy dědí stejným dílem, manžel však vždy nejméně polovinu pozůstalosti.
+
+=== SLIDE 22 ===
+
+Třetí třída dědiců
+
+§ 1637 OZ
+(1) Nedědí-li manžel ani žádný z rodičů, dědí ve třetí třídě stejným dílem zůstavitelovi sourozenci a ti, kteří žili se zůstavitelem nejméně po dobu jednoho roku před jeho smrtí ve společné domácnosti a kteří z tohoto důvodu pečovali o společnou domácnost nebo byli odkázáni výživou na zůstavitele.
+(2) Nedědí-li některý ze sourozenců zůstavitele, nabývají jeho dědický podíl stejným dílem jeho děti.
+
+=== SLIDE 23 ===
+
+Čtvrtá třída dědiců
+
+§ 1638  OZ 
+Nedědí-li žádný dědic ve třetí třídě, dědí ve čtvrté třídě stejným 
+dílem prarodiče zůstavitele.
+
+=== SLIDE 24 ===
+
+Pátá třída dědiců
+
+§ 1639  OZ 
+(1) Nedědí-li žádný z dědiců čtvrté třídy, dědí v páté třídě jen prarodiče rodičů zůstavitele. Prarodičům zůstavitelova otce připadá polovina dědictví, prarodičům zůstavitelovy matky druhá polovina. Obě dvojice prarodičů se dělí rovným dílem o polovinu, která na ně připadá.
+(2) Nedědí-li jednotlivý člen dvojice, připadne uvolněná osmina druhému členu. Nedědí-li dvojice, připadne tato čtvrtina druhé dvojici téže strany. Nedědí-li ani jedna dvojice téže strany, připadá dědictví dvojicím druhé strany ve stejném poměru, v jakém se dělí o polovinu dědictví, která jim připadá přímo.
+
+=== SLIDE 25 ===
+
+Šestá třída dědiců
+
+§ 1640  OZ 
+(1) Nedědí-li žádný z dědiců páté třídy, dědí v šesté třídě děti dětí sourozenců zůstavitele a děti prarodičů zůstavitele, každý stejným dílem.
+(2) Nedědí-li některé z dětí prarodičů zůstavitele, dědí jeho děti.
+
+=== SLIDE 26 ===
+
+Vydědění
+
+Projev vůle zůstavitele v případě, že: 
+
+neopominutelný dědic neposkytl zůstaviteli potřebnou pomoc v nouzi,
+o zůstavitele neprojevuje opravdový zájem, jaký by projevovat měl, 
+byl odsouzen pro trestný čin spáchaný za okolností svědčících o jeho zvrhlé povaze, 
+vede trvale nezřízený život.
+
+=== SLIDE 27 ===
+
+Odmítnutí dědictví
+
+Na dědice, který dědictví odmítl se hledí, jako by dědictví nikdy nenabyl. 
+Vyžaduje se → výslovné prohlášení vůči soudu ve lhůtě do jednoho měsíce ode dne, kdy soud dědice vyrozuměl o jeho dědickém právu a jeho právo dědictví odmítnout i o následcích odmítnutí (§ 1487 OZ).
+
+=== SLIDE 28 ===
+
+Odevzdání dědictví
+
+Dědic, který dědictví neodmítl, má právo se dědictví výslovně vzdát před soudem ve prospěch jiného dědice. 
+Jiný dědic musí s tímto nabytím dědictví souhlasit.
+
+=== SLIDE 29 ===
+
+Příklady:
+Odpovězte následující otázky:
+Jak uplatníte pohledávku za dlužníkem, který zemřel?
+Jaké jsou možnosti převodu nemovitosti na třetí osobu, aniž by vznikl podíl nepominutelnému dědicovi?
+Jak byste využili soupis pozůstalosti? Jaký má tento institut praktický dopad?
+
+=== SLIDE 30 ===
+
+Příklady:
+Zodpovězte následující otázky:
+Paní E. zemřel manžel. Manželství bylo bezdětné, manžel nesepsal závěť. Jak bude pozůstalost rozdělena? Kteří dědicové budou dědit a v jakém poměru?
+Změnila by se situace v okruhu dědiců, pokud by manželé měli 3 děti a jedno z dědí by bylo před datem úmrtí manžela vyděděno? 
+Změnila by se situace, pokud by s dětmi a manželi žila minimálně rok před smrtí zůstavitele tetička, která byla odkázána na péči a výživu zůstavitele?
+
+=== SLIDE 31 ===
+
+

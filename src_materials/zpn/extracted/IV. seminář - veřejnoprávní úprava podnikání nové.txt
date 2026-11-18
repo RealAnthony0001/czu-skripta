@@ -1,0 +1,424 @@
+=== SLIDE 1 ===
+*
+IV. SeminářVeřejnoprávní podnikání, živnostenské podnikání
+JUDr. Ing. Eva Daniela Cvik, Ph.D. et. Ph.D.
+=== SLIDE 2 ===
+Právní formy podnikání
+V ČR jsou běžné následující právní formy podnikání: 
+OSVČ - osoba samostatně výdělečně činná, tedy tzv. fyzická osoba podnikající na vlastní účet a zodpovědnost (živnostník, samostatně výdělečný umělec apod.)
+sdružení podnikatelů 
+sdružení několika OSVČ fakturujících pod jedním jménem, jinak převážně samostatných
+Zájmové sdružení právnických osob (evropské hospodářské zájmové sdružení na úrovni EU)
+obchodní společnost 
+v. o. s. - veřejná obchodní společnost, sdružení několika OSVČ vystupujících pod jedním jménem
+k. s. - komanditní společnost, dva druhy společníků (komandisté a komplementáři)
+s. r. o., někdy též spol. s r.o. - společnost s ručením omezeným, právnická osoba ručící určitou upsanou částkou
+a. s. - akciová společnost, je vedena správní radou, nejvyšším orgánem je valná hromada akcionářů (evropská (akciová) společnost
+*
+=== SLIDE 3 ===
+Právní formy podnikání
+družstvo - sdružení fyzických i právnických osob ručící členskými podíly a vystupující převážně jako právnická osoba, vedeno je předsednictvem, nejvyšším orgánem je členská schůze. (Evropská družstevní společnost na úrovni EU)
+nadace, neziskové organizace apod. - zvláštní typy podnikatelských subjektů, zpravidla definované zvláštními zákony, často plnící sociální a humanitární funkce.
+Definice právnických osob a jejich vztahů jsou uvedeny zejména v občanském zákoníku. Ne všechny právnické osoby musí být podnikatelským subjektem, ale mohou být například akcionáři, členy družstev atp. 
+
+
+*
+=== SLIDE 4 ===
+Živnostenské podnikání
+Živnostenské podnikání představuje specifickou oblast podnikání v oblasti výroby, obchodu a poskytování služeb. 
+Živností se rozumí soustavná činnost provozovaná samostatně, vlastním jménem, na vlastní odpovědnost, za účelem dosažení zisku a za podmínek stanovených živnostenským zákonem. 
+Provozovat živnost, lze pouze na základě živnostenského oprávnění.
+Základní právní předpis – zákon č. 455/1991 Sb., živnostenský zákon
+K tomu, aby mohla fyzická osoba provozovat živnost, je nutné, aby byla plně svéprávná a bezúhonná. 
+Živnosti jsou rozděleny do 2 základních skupin - koncesované a ohlašovací. 
+Skupina živností ohlašovacích je obsáhlejší a dělí se tak na 3 druhy (řemeslné, vázané a volné). 
+Živnosti volné, jsou u podnikatelů nejrozšířenějším druhem živností a není k jejich provozování nutná odborná způsobilost, tak jako u ostatních, které podléhají regulaci státu
+
+
+*
+=== SLIDE 5 ===
+Živnostenské podnikání
+Koncesované živnosti:
+Koncesované živnosti smějí být provozovány na základě koncese. 
+Je tedy nutné povolení k provozování vyjmenovaných činností (například provozování taxislužby, prodej zbraní a střeliva, pyrotechnika a podobně).Živnosti ohlašovací:
+Všechny živnosti, které spadají do skupiny takzvaně ohlašovacích jsou k provozování podmíněny odbornou způsobilostí (vyjma živností volných) a nepodléhají udělení povolení, resp. regulaci ze strany státu, jako koncesované, které se týkají například prodeje zbraní a střeliva či provozování taxislužby. 
+Ohlašovací živnosti dělíme na 3 druhy:
+živnosti řemeslné, podmínkou provozování živnosti je odborná způsobilost,
+živnosti vázané, podmínkou provozování živnosti je  odborná způsobilost,
+živnosti volné, podmínkou není odborná způsobilost k provozování živnosti stanovena.
+ 
+
+*
+=== SLIDE 6 ===
+Živnostenské podnikání
+Podmínky pro získání živnostenského oprávnění:
+Fyzická osoba, která chce získat živnostenské oprávnění, musí splnit všeobecné a někdy i zvláštní podmínky. Všeobecnými podmínkami jsou: 
+plná svéprávnost, kterou lze nahradit přivolením soudu k souhlasu zákonného zástupce nezletilého k samostatnému provozování podnikatelské činnosti, a
+bezúhonnost (za bezúhonnou se pro účely živnostenského zákona nepovažuje osoba, která byla pravomocně odsouzena pro trestný čin spáchaný úmyslně, jestliže byl tento trestný čin spáchán v souvislosti s podnikáním, anebo s předmětem podnikání, o který žádá nebo který ohlašuje, pokud se na ni nehledí, jako by nebyla odsouzena).
+Zvláštní podmínky představuje odborná a jiná způsobilost, vyžaduje-li to živnostenský zákon nebo zvláštní právní předpisy. 
+
+*
+=== SLIDE 7 ===
+Živnostenské podnikání
+Provozovat živnost nemůže fyzická nebo právnická osoba, na jejíž majetek byl prohlášen konkurz. 
+Živnost nemůže provozovat fyzická nebo právnická osoba, a to po dobu 3 let od právní moci rozhodnutí o zamítnutí insolvenčního návrhu proto, proto, že majetek dlužníka nepostačoval k úhradě nákladů insolvenčního řízení, nebo od právní moci rozhodnutí o zastavení insolvenčního řízení z důvodu, že pro uspokojení věřitelů byl majetek nedostačující. 
+Živnost dále nemůže provozovat fyzická nebo právnická osoba, a to po dobu 3 let od právní moci rozhodnutí o zrušení konkursu proto, že majetek dlužníka byl zcela nedostačující pro uspokojení věřitelů.
+Živnostenský úřad může prominout uvedené překážky, jestliže dlužník prokáže, že u něho jsou splněny předpoklady pro řádné plnění povinností při podnikání a pro řádné plnění finančních závazků.
+
+*
+=== SLIDE 8 ===
+Svobodná povolání
+Jako svobodné povolání je označováno podnikání fyzické osoby, pokud podniká na základě jiného než živnostenského zákona. 
+Nejčastěji to bývají osoby, které mají příjmy na základě autorského zákona nebo zvláštních předpisů. 
+Tato povolání mohou vykonávat pouze fyzické osoby, a to přímo. 
+Pokud chtějí vykonávat tato povolání formou právnických osob (což původně nebylo možné), pak pouze za stanovených podmínek, kdy řídící je vždy původní výkon fyzické osoby (např. výkon advokacie ve formě obchodní společnosti). 
+Zákony upravující tato povolání pak jsou ve věcech, jež se jich týkají, vždy upřednostněny a působí jako lex specialis vůči ostatním zákonům upravujících podnikání (např. živnostenský zákon). 
+Pro výkon většiny povolání, která jsou pojímána jako svobodná, jsou zákonem a na základě ústavního zmocnění (čl. 26 odst. 2 Listiny základních práv a svobod) zřízeny komory, jež jsou veřejnoprávními korporacemi,[1] podobně jako obce. 
+*
+=== SLIDE 9 ===
+Zemědělské podnikání
+Evidence zemědělských podnikatelů je vedena na základě ustanovení §2e až § 2ha zákona č. 252/1997 Sb., o zemědělství obecními úřady obcí s rozšířenou působností.
+Fyzická nebo právnická osoba, která hodlá podnikat v zemědělství, tedy která hodlá provozovat zemědělskou výrobu jako soustavnou a samostatnou činnost vlastním jménem, na vlastní odpovědnost, za účelem dosažení zisku, je povinna se zaevidovat jako zemědělský podnikatel na jakémkoliv obecním úřadu obce s rozšířenou působností.
+Ministerstvo zemědělství je správcem informačního systému evidence zemědělského podnikatele, provozovateli jsou obecní úřady obcí s rozšířenou působností.
+Evidence zemědělského podnikatele je veřejná v části, v níž se u fyzické osoby zapisuje osobní jméno a příjmení, popřípadě obchodní firma, trvalý pobyt nebo sídlo, u zahraniční fyzické osoby též bydliště mimo Českou republiku, identifikační číslo, datum zápisu do evidence zemědělského podnikatele, a v části, v níž se u právnické osoby zapisuje obchodní firma nebo název, sídlo, identifikační číslo a datum zápisu do evidence zemědělského podnikatele. 
+
+*
+=== SLIDE 10 ===
+Základní vymezení a prameny obchodního práva
+Zákon o obchodních korporacích je zkrácený název zákona č. 90/2012 Sb., o obchodních společnostech a družstvech (zákon o obchodních korporacích). Jde o zákon, který zčásti nahradil dosavadní obchodní zákoník. Věnuje se především úpravě obchodních společností a družstev, obchodní závazkové právo je obsaženo v novém občanském zákoníku. 
+Prameny obchodního práva: 
+prameny obchodního práva v českém právním systému a obecně i o celém kontinentálním právu lze říci, že se jedná o psané právo, protože za prameny práva považuje (na rozdíl od angloamerického právního systému) téměř výhradně psané právní normy – tedy obecně závazné právní normy (zákony), 
+Obchodní právo však za prameny práva považuje i normy vzniklé živelně, nezávisle na orgánech státu (obchodní zvyklosti, dobré mravy hospodářské soutěže). 
+*
+=== SLIDE 11 ===
+Základní vymezení a prameny obchodního práva
+Prameny obchodního práva: 
+Zákon o obchodních korporacích (90/2012 Sb.,), občanský zákoník (89/2012 Sb., )
+Další speciální právní předpisy doplňující obchodní zákoník
+Živnostenský zákon (č. 455/1991 Sb.) 
+Zákon o ochraně hospodářské soutěže (č. 143/2001 Sb. – nahradil původní č. 63/1991 Sb.) 
+Zákon o účetnictví (č. 563/1991 Sb.) 
+3) Obchodní zvyklosti a dobré mravy hospodářské soutěže 
+4) Obecné právní zásady – zásady na kterých spočívá Obchodní zákoník 
+5) Právo Evropských společenství – na základě vstupu do EU u nás bude evropské právo přímo aplikovatelné 
+*
+=== SLIDE 12 ===
+ZÁKON O OBCHODNÍCH KORPORACÍCH
+Zákon se člení na tři části s celkem osmi hlavami:
+  1. Obchodní korporace 
+hlava I – obecná ustanovení (např. založení korporace, vklady, základní kapitál, podíly, orgány korporace, koncerny, zrušení a zánik korporace)
+hlava II – veřejná obchodní společnost
+hlava III – komanditní společnost
+hlava IV – společnost s ručením omezeným
+hlava V – akciová společnost
+hlava VI – družstvo (obsahuje jak obecná ustanovení, tak zvláštní úpravu bytového družstva a tzv. sociálního družstva, zaměřeného na obecně prospěšnou činnost)
+2. Ustanovení závěrečná a přechodná 
+hlava I – odkaz na zapracované předpisy EU
+hlava II – ustanovení přechodná
+3. Účinnost
+
+
+*
+=== SLIDE 13 ===
+Úvod do obchodních korporacích
+obchodní zákoník byl přijat v roce 1991. 
+Jeho tvůrci se při práci inspirovali především zákoníkem mezinárodního obchodu, prvorepublikovou a německou právní úpravou, přičemž výsledkem byla nesourodá směsice pravidel, která si již záhy po své účinnosti vyžádala řadu novelizací.
+S častými změnami se zákoník potýkal v celé době své existence. Důvodem byly nejenom potřeby transformující se ekonomiky, ale i nutnost harmonizace s právem Evropské unie. 
+Vzhledem k tomu, že většina právních norem byla zastaralá, přistoupili zákonodárci k poměrně zásadnímu kroku, a to k rekodifikaci celého soukromého práva, která bude mít vliv nejen na Občanské právo, ale i právo Obchodní. 
+*
+=== SLIDE 14 ===
+Úvod do obchodních korporacích
+Na základě provedené rekodifikace vznikl zákon č. 89/2012 Sb., Občanský zákoník, který se stane s účinností od 1.1.2013 středobodem soukromého práva. 
+Na základě takto provedené rekodifikace dochází k tomu, že podstatná část ustanovení Obchodního zákona byla zrušena spolu s tímto předpisem, část ustanovení však byla přenesena do Nového Občanského zákoníku (např. obecná ustanovení o obchodním tajemství, firmě či ustanovení o některých smluvních typech a zajištění závazků). 
+Pouze pro právní úpravu obchodních společností a družstev, která je dnes obsažena v druhé části Obchodního zákoníku, bude vyhrazen nový zvláštní zákon, a sice zákon č. 90/2012 Sb. o obchodních korporacích. 
+Zákon o obchodních korporacích (ZOK) představuje druhou část rekodifikace soukromého práva, která úzce navazuje na Nový Občanský zákoník. Zákon o obchodních korporacích nebude tedy pokračovatelem Obchodního zákoníku, nýbrž pouze právním předpisem, který se bude zabývat obchodními korporacemi. 
+
+*
+=== SLIDE 15 ===
+Úvod do obchodních korporacích
+Pod pojem obchodní korporace zákon o obchodních korporacích zahrnuje všechny formy obchodních společností (spol. s ručením omezeným, akciovou spol., komanditní spol., veřejnou obchodní spol., evropskou spol. a evropské hospodářské zájmové sdružení) i družstev (tedy družstvo v užším smyslu, bytové družstvo, sociální družstvo a evropské družstvo).
+Zákon o obchodních korporacích upravuje základní podmínky fungování obch. korporací - od jejich založení, přes rozložení vnitřní struktury orgánů, odpovědnosti členů těchto orgánů, činnosti v rámci koncernů až po jejich zrušení. 
+
+
+*
+=== SLIDE 16 ===
+ZÁKON O OBCHODNÍCH KORPORACÍCH
+Zákon o obchodních korporacích nabyl platnosti pod č. 90/2012 Sb., a nabude platnosti 1. 1. 2014. 
+Oproti stávající úpravě se podrobněji věnuje výkonu funkce, otázkám odměňování, kontrole procesu rozhodování manažerů a jejich odpovědnosti za škodu, stejně jako otázkám družstev. 
+Právní úprava je rozdělena do několika úrovní podle míry své obecnosti. Na vrcholu hierarchie stojí obecná ustanovení občanského zákoníku o právnických osobách (§§ 118 - 209) a korporacích (§§ 210 - 213), následuje obecná úprava obchodních korporací (§§ 1 - 94) a jejich konkrétních forem (např. s.r.o. - §§ 132 - 242) v ZOK. 
+
+
+*
+=== SLIDE 17 ===
+Obecná ustanovení o kapitálových a obchodních společnostech
+V současné době jsou obchodní společnosti (založené za účelem podnikání) upraveny zákonem č. 90/2012 Sb., zákon o obchodních korporacích:
+veřejnou obchodní společnost
+komanditní společnost
+společnost s ručením omezeným
+akciovou společnost 
+dále rozeznáváme právnické osoby:
+Evropské hospodářská zájmové sdružení (zákon č. 360/2004 Sb., o Evropském hospodářském zájmovém  sdružení), 
+Evropskou společnost (zákon č. 627/2004 Sb., o evropské společnosti  v novelizovaných zněních),
+
+=== SLIDE 18 ===
+Obecná ustanovení o kapitálových a obchodních společnostech
+družstvo
+Dělení obchodní společností:
+Obchodní společnosti kapitálové jsou založeny na kapitálové účasti společníků a za závazky společnosti společníci zásadně neručí (akciová společnost, společnost s ručeným omezeným).
+Obchodní společnosti osobní jsou založeny na osobní účasti společníků při podnikání, společníci nemají ze zákona vkladovou povinnost a ručí za závazky společnosti společně a nerozdílně celým svým majetkem (veřejná obchodní společnost, komanditní společnost).
+Obchodní společnosti jsou organizačně i právně samostatnými subjekty a jsou jedním ze základních organizačně právních forem provozování podnikatelské činnosti a sdružování osob ke společnému provozování podnikatelské činnosti.
+
+=== SLIDE 19 ===
+Obecná ustanovení o kapitálových a obchodních společnostech
+Založení a vznik obchodních společností
+Založení obchodní společnosti spočívá v uzavření společenské smlouvy či zakladatelské listiny, které probíhá podle obecných pravidel uzavírání smluv (předpokladem uzavření je konsensus všech společníků). Pravost podpisů musí být úředně ověřena. V případě společenské smlouvy společnosti s ručeným omezeným a zakladatelská smlouva akciové společnosti musí mít formu notářského zápisu. 
+Je nutné však rozlišovat mezi pojmy založení obchodní společnosti a jejím vznikem. Společnost vzniká zápisem do obchodního rejstříku. Před vznikem společnost, tedy před zápisem společnosti do obchodního rejstříku je založená společnost smluvním závazkovým vztahem, která v souladu s principy obecného obligačního práva působí zásadně jenom mezi svými stranami a nemá žádné právní účinky vůči třetím osobám.
+
+
+=== SLIDE 20 ===
+Obecná ustanovení o kapitálových a obchodních společnostech
+Vznik obchodní společnosti:
+vzniká dnem, ke kterému byla zapsána do obchodního rejstříku. 
+Není-li návrh podán ve stanovené lhůtě, nelze již na základě průkazu podnikatelského oprávnění podat návrh na zápis do obchodního rejstříku. 
+Právní úkony týkající se založení, vzniku, změny, zrušení nebo zániku společnosti musí mít písemnou formu s úředně ověřenými podpisy, zákon stanoví, pro které úkony se vyžaduje forma notářského zápisu. 
+Pokud stanoví zákon formu notářského zápisu pro právní úkon, kterým se zakládá společnost, vyžaduje se forma notářského zápisu i pro změny jeho obsahu.
+
+
+
+
+
+=== SLIDE 21 ===
+Obecná ustanovení o kapitálových a obchodních společnostech
+Zrušení a zánik společnosti:
+z pohledu Obchodního zákoníku je opět nutné rozlišovat pojmy zrušení a zánik společnosti, 
+právnická osoba se zrušuje na základě určité skutečnosti, kterou může být dohoda společníků, uplynutí doby, na kterou byla založena, splněním účelu pro který byla zřízena apod.
+zrušení tedy vede k zániku tzv. „ právní osobnosti společnosti“, společnost zaniká ke dni výmazu z obchodního rejstříku, zde již hovoříme o úplném zániku společnosti. 
+zániku společnosti však předchází její zrušení s likvidací nebo bez likvidace, přechází – li jmění na právního nástupce. 
+
+
+
+
+© JUDr. Eva Daniela Růžičková
+
+=== SLIDE 22 ===
+Důležité pojmy
+Základní kapitál
+základní kapitál společnosti je peněžní vyjádření souhrnu peněžitých i nepeněžitých vkladů všech společníků do základního kapitálu společnosti (dále jen vklad), 
+musí být vyjádřen v jednotkách české měny. Společník se účastní na základním kapitálu vkladem. Základní kapitál je součástí vlastního kapitálu, 
+základní kapitál se vytváří povinně v komanditní společnosti, ve společnosti s ručením omezeným a v akciové společnosti. Jeho výše se zapisuje do obchodního rejstříku, pokud tak stanoví zákon,
+Vlastní kapitál 
+tvoří vlastní zdroje financování obchodního majetku podnikatele a v rozvaze se vykazuje na straně pasiv. 
+jsou to ty zdroje financování, které obchodní společnost získává svou vlastní činností (čistý zisk) a dále zdroje pocházející od společníků (peněžité i nepeněžité vklady), event. další zvláštní příspěvky, za něž společnost neposkytuje protiplnění, 
+do vlastního kapitálu řadíme: základní kapitál, rezervní fond, fondy ze zisku, zisk a ztrátu,
+
+
+
+=== SLIDE 23 ===
+Důležité pojmy
+Vklady
+plnění, které je započítáváno do základního kapitálu společnosti a které se zpravidla stává základem pro stanovení podílu společníka na společnosti. 
+	Rozlišujeme: 
+Peněžité vklady - tvoří je peněžitá částka, kterou společník dává k dispozici společnosti, lze je poskytnout v korunách i v zahraniční měně (je-li poskytnuta v zahraniční měně, musí být stanoven i korunový ekvivalent dané částky). 
+Oceňování peněžitých vkladů nečiní potíže, protože je dán nominální výší částky, kterou se společník zavazuje společnosti splatit. Pozor na správné rozlišování peněžitých a nepeněžitých vkladů: např. vklady dluhopisů či směnek nebo vklady pohledávek oceněných jejich nominální hodnotou nejsou peněžitými vklady, ačkoli představují titul pro peněžité plnění.
+Nepeněžité vklady  - mezi nepeněžité vklady řádíme např. vklady spočívající v činnosti, vklady spočívající v převedení vlastnického práva k věci, vklady práva užívat věc, vklady nehmotných statků, vklady know – how. 
+
+=== SLIDE 24 ===
+Důležité pojmy
+Podíl v obchodní společnosti
+představuje míru účasti společníka v obchodní společnosti a z ní plynoucí práva a povinnosti
+Podíl má kvalitativní a kvantitativní stránku. 
+	Kvalitativní stránka podílu je dána souhrnem práv a povinností plynoucích z účasti společníka ve společnosti (zahrnuje např. míru, v níž je možné s podílem disponovat). Kvantitativní stránka podílu zahrnuje výši (velikost) podílu, která určuje rozsah, v němž společník vykonává svoje práva a je povinen plnit svoje povinnosti společníka (např. hlasovací právo) a hodnotu podílu, která se mění podle výsledků hospodaření společnosti a je závislá na rozsahu práv a povinností společníka na hodnotě čistého obchodního majetku společnosti.
+Rezervní fond 
+	povinně se zřizuje u kapitálových obchodních společností a pro jeho režim platí určité zásady – lze jej použít ke krytí ztrát společnosti, tvoří se ze zisku běžného účetního období po zdanění nebo z jiných vlastních fondů mimo čistý zisk, pokud to zákon nevylučuje.  
+
+
+=== SLIDE 25 ===
+Vymezení základních pojmů
+
+Společenská smlouva:
+Společenská smlouva je smlouva, jíž alespoň dva společníci zakládají obchodní korporaci. 
+Pokud je zakladatel pouze jeden, jedná se o zakladatelskou listinu. 
+Společenská smlouva je upravena v zákoně č. 90/2012 Sb., o obchodních korporacích (v minulosti v zákoně č. 513/1991 Sb., obchodním zákoníku). Každá společenská smlouva musí být písemná a s úředně ověřenými podpisy všech zakladatelů dané korporace. 
+U kapitálové společnosti musí mít formu veřejné listiny, v případě družstva se přijímá na jeho ustavující schůzí. 
+Součástí společenské smlouvy musí být u akciové společnosti také stanovy společnosti. 
+*
+=== SLIDE 26 ===
+Vymezení základních pojmů
+Zakladatelská listina:
+zakladatelská listina je právní dokument mající formu notářského zápisu, kterým samostatná osoba zakládá obchodní společnost. 
+Je-li zakladatelů více, pak se společnost zakládá společenskou smlouvou. 
+Zakladatelská listina obsahuje stejné podstatné části jako společenská smlouva. 
+V praxi se využívá u společnosti s ručením omezeným, akciové společnosti, veřejné obchodní společnosti či u družstva.
+Náležitosti zakladatelské listiny jsou dány zejména zákonem o obchodních korporacích a částečně i občanským zákoníkem a případně dalšími právními předpisy. 
+
+*
+=== SLIDE 27 ===
+Vymezení základních pojmů
+Založení obchodní korporace: 
+Obchodní korporace se zakládá společenskou smlouvou. 
+Společenská smlouva, kterou se zakládá kapitálová společnost, vyžaduje formu veřejné listiny. 
+Společenská smlouva, kterou se zakládá družstvo podle tohoto zákona, se uzavírá přijetím ustavující schůzí.
+Není-li návrh na zápis společnosti do obchodního rejstříku podán do 6 měsíců ode dne jejího založení, platí, že nastávají tytéž účinky jako při odstoupení od smlouvy. 
+
+*
+=== SLIDE 28 ===
+Vymezení základních pojmů
+FUNKCE O CHRANA ZK
+ZK má být primárně určen k ochraně věřitelů společnosti. ZK by měl pro věřitele představovat určitou garanci, že společnost disponuje minimálně takovým majetkem, jehož výše je zachycena v položce základního kapitálu (de facto ale příliš nefunguje – aktuální majetková situace spol. se nepromítá „online“ pro věřitele do ZK; neexistuje povinnost udržovat hodnotu ZK na nějakém účtu atd. => ZK je tak víceméně pouhou účetní položkou).
+Výše uvedené je důsledkem aplikace zásady zachování základního kapitálu,
+ta se projevuje např.: 
+povinností určitých subjektů vytvářet základní kapitál ex lege a v určité minimální výši (v nové právní úpravě pouze a.s.!)
+vkladovou povinností a dalšími zákonnými povinnostmi týkajícími se vkladů (např. zákaz žádat vydání vkladu za trvání spol., pravidla pro splácení atd.)
+zákazem vyplácet podíly na zisku, pokud by jejich výplata šla na úkor ZK
+povinností dodržovat při zvyšování / snižování ZK zákonné postupy
+
+*
+=== SLIDE 29 ===
+Vymezení základních pojmů
+Další funkce ZK: 
+ukazatel míry kapitálové účasti společníků na celkovém majetku společnosti (informační hodnota pro věřitele – je možné určit, nakolik je majetek spol. tvořen vklady společníků a nakolik např. bankovními úvěry)
+funkce měřítka zisku a ztráty
+jedná se o určité „startovné“ 
+ZK V JEDNOTLIVÁCH OBCHODNÍCH SPOLEČNOSTECH V ZOK
+VOS -ze zákona ZK nevytváří 
+KS - ZK tvořen v důsledku vkladové povinnosti komanditistů 
+SRO- minimální vklad společníka 1 Kč, min. výše ZK neuveden
+Nově zakládaná spol. může ZK vytvořit ve smluvně stanovené výši dobrovolně. 
+Účinnost zvýšení ZK úpisem nových vkladů je vázána na den určený valnou hromadou/ne zápis OR. Účinnost snížení základního kapitálu je však i nadále vázána na zápis v obchodním rejstříku
+
+*
+=== SLIDE 30 ===
+Vymezení základních pojmů
+Vklad:
+Vklad jako takový je upraven obecně v hlavě I. díle 4 v §15 až §29 včetně ZOK, bližší specifika pro jednotlivé typy korporací jsou pak uvedeny u jednotlivých korporací (s.r.o. §142-145 včetně + §468-473, v.o.s. §100-103 vč., a.s. §344-347 vč.
+Pojetí vkladu se nezměnilo, jenom je přeformulováno s ohledem na novou klasifikaci předmětu právních vztahů (věci v právním slova smyslu, hmotné a nehmotné) a nově je sjednocen pro družstva i společnosti, čistě terminologicky není již vklad společníka, ale vklad do společnosti, novinkou v právní úpravě  je to, že společník v širším slova smyslu (tedy včetně akcionáře a člena družstva)  nemůže po společnosti (družstvu) po dobu její existence žádat vklad zpět ani z něho dostat úroky (§16 ZOK), vkladová povinnost vzniká ve dvou případech:
+Pokud se společnost zapisuje do OR při vzniku společnost
+V okamžiku zvyšování ZK
+Pojem a funkce vkladu:
+§15 odst. 1.– vklad je peněžní vyjádření předmětu vkladu  do základního kapitálu obchodní korporace
+
+*
+=== SLIDE 31 ===
+Vymezení základních pojmů
+Druhy vkladů - peněžité a nepeněžité vklady (hmotné, nehmotné vklady)
+peněžité- peněžitá částka, kterou vkladatel dává společnosti k dispozici (česká i zahr. měna, pokud v zahr. měně, musí být uveden i korunový ekvivalent dané částky - §13 zákona o ČNB)
+oceňování nečiní potíže, neboť vklad je dán nominální výší částky, kterou se společník zavazuje korporaci plnit, zůstává úprava, kdy byl vklad splácen na vázaný účet v bance, se kterým se nesmělo disponovat do okamžiku přechodu vlastnictví na společnost, nově však neplatí toto pravidlo v případě zvyšování ZK
+nepeněžité	- vklady spočívající v převedení vlast.práva k věci, práva užívat věc, nehmotných statků, know-how – vkladem nesmí být práce nebo služba(§17 odst.3 , snaha bránit fiktivním vkladům, u nichž by byla těžká objektivizace jejich plnění), kromě v.o.s., tam to může být práce či služba, ale pouze v případě, že to uvádí společenská smlouva a že s tím souhlasí všichni společníci
+musí to být vyjádřitelné v Kč
+
+*
+=== SLIDE 32 ===
+Vymezení základních pojmů
+Splácení:
+Povinnost splatit nepeněžité vklady před zápisem údaje do OR trvá jenom u kapitálových společností
+I nadále existuje doba mezi splacením vkladu a okamžikem, kdy na společnost přejde vlastnické právo. 
+To na společnost může přejít až v okamžiku, kdy společnost vznikne. (§25 odst. 1 ZOK)
+Nezměnilo se ani pojetí, kdy vlastnické právo k nemovitosti zapsané do katastru nemovitostí přechází až okamžikem přechodu tohoto práva v KN, což se zapíše na základě prohlášení (§25 odst. 2)
+Ani ZOK se nevypořádal s diskutovaným problémem – co když se vklad stane nemožným v důsledku zničení předmětu vkladu –je to znovu tedy řešeno tak, že dle §26 odst. 1 pokud nepřejde vlastnické právo vkladu na korporaci, uhradí vkladatel jeho cenu v penězích dle ocenění uvedeného ve spol. smlouvě a korporace vrátí předmět vkladu
+
+*
+=== SLIDE 33 ===
+Vymezení základních pojmů
+Nemovitosti se splácí tak,že vkladatel předá správci vkladu (viz níže) nemovitou věc a písemné prohlášení s úředně ověřeným podpisem, výjimka je pokud je nemovitost součástí vkládaného závodu, pak se postupuje dle ustanovení o prodeji závodu
+movité věci se splácí předáním správci vkladu, pokud jde o něco nehmotného, tak se to předává v dokumentaci, na nosiči atd.
+Správce vkladu §§18-24 včetně 
+Před vznikem korporace přijímá a spravuje vklady, je pověřený společenskou smlouvou, novinkou je to, že to nemusí být jenom jeden ze zakladatelů a banka či bankovní ústav, ale nově to může být i jiná osoba, která má předpoklad odborné způsobilosti ke správě vkladu (advokát, notář, realitní kancelář atd.), svou činnost vykonává na základě písemné smlouvy mezi ním a zakladateli a to podle ustanovení o příkazu dle NOZ, koná to zejména za úplatu, má povinnost péče řádného hospodáře a musí dodržovat mlčenlivost o relevantních informacích, tuto odpovědnost NELZE nijak omezit,
+ 
+
+*
+=== SLIDE 34 ===
+Vymezení základních pojmů
+Vklad u společnosti s ručením omezeným
+minimální výše vkladu je nově 1 Kč (§142 odst. 1 ZOK), což je změna oproti původním 200 000 Kč, reaguje to tak na problematiku fiktivního ZK u ready made společností
+Pro jednotlivé podíly může být vklad rozdílný (to zůstává)
+Nepeněžitý vklad ocení znalec vybraný ze seznamu znalců,  náklady na znalce hradí společnost, kromě odměny má právo na náhradu účelně vynaložených nákladů, pokud společnost nevznikne, tak náklady hradí společně a nerozdílně zakladatelé, znalce vybírají zakladatelé, jinak jednatel (např. při zvyšování), posudek obsahuje popis nepeněžitého vkladu, použité metody ocenění, částku a odůvodnění, jak k této částce došel znalec, existují výjimky z povinnosti oceňovat nepeněžitý vklad znalcem při zvyšování ZK – pokud je tím nepeněžitým vkladem investiční cenný papír nebo nástroj peněžního trhu (více §468 ZOK)
+
+*
+=== SLIDE 35 ===
+Vymezení základních pojmů
+Vnik právnické osoby: 
+Právnickou osobu lze ustavit zakladatelským právním jednáním, zákonem, rozhodnutím orgánu veřejné moci, popřípadě jiným způsobem, který stanoví jiný právní předpis.
+Zakladatelské právní jednání určí alespoň název, sídlo právnické osoby, předmět činnosti, jaký má právnická osoba statutární orgán a jak se vytváří, nestanoví-li to zákon přímo. Určí též, kdo jsou první členové statutárního orgánu. Pro zakladatelské právní jednání se vyžaduje písemná forma.
+Více zakladatelů zakládá právnickou osobu přijetím stanov nebo uzavřením jiné smlouvy.
+Právnická osoba vzniká dnem zápisu do veřejného rejstříku.
+Zákon stanoví, ve kterých dalších případech není zápis do veřejného rejstříku potřebný ke vzniku právnické osoby. 
+Zákon stanoví, ve kterých případech je k založení nebo ke vzniku právnické osoby potřebné rozhodnutí orgánu veřejné moci.
+
+*
+=== SLIDE 36 ===
+Vymezení základních pojmů
+Stanovy:
+Stanovy jsou vnitřními předpisy obchodních společností, které se jinak označují také jako statut nebo organizační řád. 
+V praxi se s nimi nejčastěji setkáváme u společností s ručením omezeným, u akciových společnosti a také u občanských sdružení a politických stran. Stanovy jsou často nepovinným dokumentem, kterým si však spolu se společenskou smlouvou můžete pečlivě ošetřit vnitřní poměry ve vaší společnosti.
+Účel stanov ve společnosti
+Stanovy jsou vnitřním předpisem, který upravuje organizaci firmy a často podrobněji rozvádí informace uvedené ve společenské smlouvě. 
+Jestliže jsou v některých částech v rozporu se společenskou smlouvou, měl by se dát důraz na informace uvedené ve smlouvě, nikoliv ve stanovách. 
+U s.r.o. by mělo být vydání stanov zachyceno ve společenské smlouvě. Jinak není možné. 
+Vydání se dále ještě schvaluje na valné hromadě a rozhodnutí stanovy vyhotovit je vhodné ošetřit notářským zápisem. 
+
+*
+=== SLIDE 37 ===
+Odpovědnost v obchodních korporacích
+Upravuje zákon o obchodních korporacích – zákon č. 90/2012 Sb.
+Dává-li tento zákon společníkovi obchodní korporace možnost domáhat se za ni nebo proti ní nějakého práva, nese povinná osoba důkazní břemeno o tom, že se protiprávního jednání nedopustila, ledaže soud rozhodne, že to po ní nelze spravedlivě požadovat.
+platí obdobně, dovolává-li se společník nebo bývalý společník po jiném společníkovi dorovnání, obdobného plnění nebo úhrady újmy tehdy, došlo-li k ukončení jeho postavení v obchodní korporaci nebo mu byla způsobena újma v souvislosti s jeho postavením v obchodní korporaci za podmínek stanovených tímto zákonem nebo jiným právním předpisem.
+Úprava § 32 - Je-li podíl v obchodní společnosti ve spoluvlastnictví, jsou spoluvlastníci společným společníkem a podíl spravuje vůči obchodní společnosti jen správce společné věci.
+*
+=== SLIDE 38 ===
+Odpovědnost v obchodních korporacích
+Smlouva o výkonu funkce
+smlouva o výkonu funkce se v kapitálové společnosti sjednává písemně a schvaluje ji, včetně jejích změn, nejvyšší orgán společnosti.
+Není-li odměňování ve smlouvě o výkonu funkce sjednáno v souladu s tímto zákonem, platí, že výkon funkce je bezplatný.
+Budou-li sjednaná smlouva o výkonu funkce nebo v ní obsažené ujednání o odměně neplatné z důvodu na straně obchodní korporace nebo nebude-li smlouva o výkonu funkce z důvodu překážek na straně obchodní korporace odměna se určuje jako odměna obvyklá v době uzavření smlouvy 
+Člen orgánu obchodní korporace může ze své funkce odstoupit. 
+Nesmí tak však učinit v době, která je pro obchodní korporaci nevhodná.
+Neurčuje-li společenská smlouva nebo smlouva o výkonu funkce jinak, oznámí odstupující člen své odstoupení orgánu, který jej zvolil, a jeho funkce končí uplynutím jednoho měsíce od doručení tohoto oznámení, neschválí-li příslušný orgán obchodní korporace na žádost odstupujícího jiný okamžik zániku funkce
+*
+=== SLIDE 39 ===
+Odpovědnost v obchodních korporacích
+Smlouva o výkonu funkce v kapitálové společnosti obsahuje také tyto údaje o odměňovánía) vymezení všech složek odměn, které náleží nebo mohou náležet členovi orgánu, včetně případného věcného plnění, úhrad do systému penzijního připojištění nebo dalšího plnění,b) určení výše odměny nebo způsobu jejího výpočtu a její podoby,c) určení pravidel pro výplatu zvláštních odměn a podílu na zisku pro člena orgánu, pokud mohou být přiznány, ad) údaje o výhodách nebo odměnách člena orgánu spočívajících v převodu účastnických cenných papírů nebo v umožnění jejich nabytí členem orgánu a osobou jemu blízkou, má-li být odměna poskytnuta v této podobě.
+
+
+*
+=== SLIDE 40 ===
+Odpovědnost v obchodních korporacích
+Bylo-li v insolvenčním řízení zahájeném na návrh jiné osoby než dlužníka podle jiného právního předpisu soudem rozhodnuto, že obchodní korporace je v úpadku, vydají členové jejích orgánů, vyzve-li je k tomu insolvenční správce, prospěch získaný ze smlouvy o výkonu funkce, jakož i případný jiný prospěch, který od obchodní korporace obdrželi, a to za období 2 let zpět před právní mocí rozhodnutí o úpadku, pokud věděli nebo měli a mohli vědět, že je obchodní korporace v hrozícím úpadku podle jiného právního předpisu, a v rozporu s péčí řádného hospodáře neučinili za účelem jeho odvrácení vše potřebné a rozumně předpokládatelné.
+*
+=== SLIDE 41 ===
+Odpovědnost v obchodních korporacích
+Pravidla jednání členů orgánu
+Pečlivě a s potřebnými znalostmi jedná ten, kdo mohl při podnikatelském rozhodování v dobré víře rozumně předpokládat, že jedná informovaně a v obhajitelném zájmu obchodní korporace
+Člen statutárního orgánu kapitálové společnosti může požádat nejvyšší orgán obchodní korporace o udělení pokynu týkajícího se obchodního vedení
+Při posouzení, zda člen orgánu jednal s péčí řádného hospodáře, se vždy přihlédne k péči, kterou by v obdobné situaci vynaložila jiná rozumně pečlivá osoba, byla-li by v postavení člena obdobného orgánu obchodní korporace.
+Je-li v řízení před soudem posuzováno, zda člen orgánu obchodní korporace jednal s péčí řádného hospodáře, nese důkazní břemeno tento člen, ledaže soud rozhodne, že to po něm nelze spravedlivě požadovat.
+*
+=== SLIDE 42 ===
+Odpovědnost v obchodních korporacích
+Osoba, která porušila povinnost péče řádného hospodáře, vydá obchodní korporaci prospěch, který v souvislosti s takovým svým jednáním získala.
+Není-li vydání prospěchu možné, nahradí ho povinná osoba obchodní korporaci v penězích.
+Vznikla-li porušením péče řádného hospodáře obchodní korporaci újma, může ji obchodní korporace vypořádat podle smlouvy uzavřené s povinnou osobou – možná dohoda
+Prohlásí-li soud za neplatné usnesení nejvyššího orgánu obchodní korporace schvalující smlouvu o vypořádání újmy, hledí se na ni jako na neplatnou; ode dne právní moci rozhodnutí o neplatnosti usnesení běží pro uplatnění práva domáhat se újmy nová promlčecí lhůta.
+*
+=== SLIDE 43 ===
+Odpovědnost v obchodních korporacích
+Pravidla o střetu zájmů
+Dozví-li se člen orgánu obchodní korporace, že může při výkonu jeho funkce dojít ke střetu jeho zájmu se zájmem obchodní korporace, informuje o tom bez zbytečného odkladu ostatní členy orgánu, jehož je členem, a kontrolní orgán, byl-li zřízen, jinak nejvyšší orgán. 
+To platí obdobně pro možný střet zájmů osob členovi orgánu obchodní korporace blízkých nebo osob jím ovlivněných nebo ovládaných.
+Člen orgánu splní povinnosti i tím, že informuje nejvyšší orgán, ledaže sám jako jediný společník vykonává jeho působnost.
+Hodlá-li člen orgánu obchodní korporace uzavřít s touto korporací smlouvu, informuje o tom bez zbytečného odkladu orgán, jehož je členem, a kontrolní orgán, byl-li zřízen, jinak nejvyšší orgán. 
+Zároveň uvede, za jakých podmínek má být smlouva uzavřena.
+To platí obdobně pro smlouvy mezi obchodní korporací a osobou členovi jejího orgánu blízkou nebo osobami jím ovlivněnými nebo ovládanými.
+*
+=== SLIDE 44 ===
+Odpovědnost v obchodních korporacích
+Ručení členů orgánu při úpadku obchodní korporace
+Soud může na návrh insolvenčního správce nebo věřitele obchodní korporace rozhodnout, že člen nebo bývalý člen jejího statutárního orgánu ručí za splnění jejích povinností, jestližea)	  bylo rozhodnuto, že obchodní korporace je v úpadku, ab)  člen nebo bývalý člen statutárního orgánu obchodní korporace  
+                  věděli nebo měli a mohli vědět, že je obchodní korporace v hrozícím   
+                  úpadku podle jiného právního předpisu, a v rozporu s péčí řádného  
+	      hospodáře neučinili za účelem jeho odvrácení vše potřebné a 
+                  rozumně předpokladatelné.
+nepoužije se na člena nebo bývalého člena statutárního orgánu obchodní korporace, kteří byli do funkce prokazatelně ustaveni za účelem odvrácení úpadku nebo jiné nepříznivé hospodářské situace obchodní korporace a svou funkci vykonávali s péčí řádného hospodáře.
+*
+=== SLIDE 45 ===
+Děkuji za pozornost …..
+
