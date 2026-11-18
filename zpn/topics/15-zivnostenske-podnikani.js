@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'zivnostenske-podnikani', order: 17, icon: '🏪', title: 'Podnikání a živnostenské právo', src: 'podklady', where: 'IV. seminář – veřejnoprávní úprava podnikání (JUDr. Cvik) + 4. seminární cvičení (Dodamgoda) + seznam oborů volné živnosti + domácí úloha k IV. semináři',
+  id: 'zivnostenske-podnikani', order: 17, sem: [4], icon: '🏪', title: 'Podnikání a živnostenské právo', src: 'podklady', where: 'IV. seminář – veřejnoprávní úprava podnikání (JUDr. Cvik) + 4. seminární cvičení (Dodamgoda) + seznam oborů volné živnosti + domácí úloha k IV. semináři',
   summary: 'Pojmy podnikání, podnikatel, podnik, obchodní firma, živnost; prameny; všeobecné a zvláštní podmínky a překážky provozování živnosti; ohlašovací (řemeslné, vázané, volné) a koncesované živnosti; vznik, rozsah a zánik oprávnění; živnostenská kontrola a přestupky; živnostenské úřady a rejstřík; svobodná povolání a zemědělské podnikání; podnikání × zaměstnání.',
   vocab: [
     { w: 'OZ, ŽZ, ŽÚ, ŽR', x: 'Občanský zákoník (89/2012 Sb.), živnostenský zákon (455/1991 Sb.), živnostenský úřad, živnostenský rejstřík.' },

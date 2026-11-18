@@ -15,6 +15,13 @@ let curG = GROUPS ? store.get(grpKey, GROUPS[0].id) : null;
 if (GROUPS && !GROUPS.some(g => g.id === curG)) curG = GROUPS[0].id;
 const inG = t => !GROUPS || !t.group || t.group === curG;
 const setG = g => { curG = g; store.set(grpKey, g); };
+// filtr podle cvičení (volitelné): SUBJECT.sems = [{ n, h, all? }], téma má t.sem = [n, …]; all: true = cvičení zahrnuje všechna témata s nějakým cvičením (např. závěrečný test)
+const SEMS = SUBJECT.sems, semKey = KEY + '-sem';
+let curS = SEMS ? store.get(semKey, 0) : 0;
+if (curS && !SEMS?.some(x => x.n === curS)) curS = 0;
+const inS = t => { if (!curS) return true; const x = SEMS.find(y => y.n === curS); return (t.sem || []).includes(curS) || !!(x?.all && t.sem?.length); };
+const semPills = t => SEMS ? (t.sem || []).map(n => `<span class="lec sem" title="Cvičení ${n}: ${SEMS.find(x => x.n === n)?.h || ''}">C${n}</span>`).join('') : '';
+const semBar = big => SEMS ? `<div class="sems${big ? ' big' : ''}">${big ? '<span class="lb">Filtr podle cvičení</span>' : ''}<button data-sem="0" class="${curS ? '' : 'on'}">Vše</button>${SEMS.map(x => `<button data-sem="${x.n}" class="${curS === x.n ? 'on' : ''}" title="Cvičení ${x.n}: ${x.h}">${big ? `C${x.n} · ${x.h}` : 'C' + x.n}</button>`).join('')}</div>` : '';
 const gTabs = big => GROUPS ? `<div class="gtabs${big ? ' big' : ''}">${GROUPS.map(g => `<button data-grp="${g.id}" class="${g.id === curG ? 'on' : ''}">${big ? (g.icon || '') + ' ' + g.name : g.short || g.name}${big ? ` <small>${topics.filter(t => !locked(t) && t.group === g.id).length}</small>` : ''}</button>`).join('')}</div>` : '';
 
 const setTheme = t => { document.documentElement.dataset.theme = t; store.set('theme', t); $('#theme').textContent = t === 'dark' ? '☀ Světlý' : '☾ Tmavý' };
@@ -61,7 +68,7 @@ function topicHTML(t, i) {
   return `<article>
   <div class="crumb"><a href="#/">${SUBJECT.name}</a> / ${num(i)}</div>
   <header class="hero"><div class="tile"><span>${t.icon || '§'}</span><i>${num(i)}</i></div><div><h2>${t.title}</h2><p>${t.summary || ''}</p>
-    <div class="meta">${src}${t.where ? `<span class="badge">${t.where}</span>` : ''}<span class="badge">${t.sections.length} sekcí</span><span class="badge">${(t.qa || []).length} otázek</span></div></div></header>
+    <div class="meta">${src}${semPills(t)}${t.where ? `<span class="badge">${t.where}</span>` : ''}<span class="badge">${t.sections.length} sekcí</span><span class="badge">${(t.qa || []).length} otázek</span></div></div></header>
   ${t.vocab?.length ? `<details class="vocab" id="${t.id}-vocab" open><summary>Než začneš: slovníček (${t.vocab.length})</summary><dl>${t.vocab.map(v => `<div><dt>${v.w}</dt><dd>${v.x}</dd></div>`).join('')}</dl></details>` : ''}
   ${t.sections.map((s, k) => `<section id="${sid(t, k)}"><h3><span class="sn">${num(k + 1)}</span>${s.title}</h3>${s.blocks.map(block).join('')}</section>`).join('')}
   ${t.mistakes?.length ? `<div class="mist"><h3>Časté chyby</h3><ul>${t.mistakes.map(m => `<li>${m}</li>`).join('')}</ul></div>` : ''}
@@ -77,14 +84,14 @@ function topicHTML(t, i) {
       <div class="pad"><button id="done" class="${done.has(t.id) ? 'on' : ''}">${done.has(t.id) ? '✔ Naučeno' : 'Označit jako naučené'}</button></div></div>
   </aside>`;
 }
-const lecPills = (t, long) => (t.lec || []).map(n => `<span class="lec" title="Přednáška ${n}" style="--lc:hsl(${n * 137.5 % 360} 65% 55%)">${long ? 'Přednáška ' : 'P'}${n}</span>`).join('');
+const lecPills = (t, long) => semPills(t) + (t.lec || []).map(n => `<span class="lec" title="Přednáška ${n}" style="--lc:hsl(${n * 137.5 % 360} 65% 55%)">${long ? 'Přednáška ' : 'P'}${n}</span>`).join('');
 function home() {
-  const ok = topics.filter(t => !locked(t) && inG(t)), wip = topics.filter(t => locked(t) && inG(t)), cnt = ok.filter(t => !GROUPS || t.group), nd = cnt.filter(t => done.has(t.id)).length;
+  const ok = topics.filter(t => !locked(t) && inG(t) && inS(t)), wip = topics.filter(t => locked(t) && inG(t) && inS(t)), cnt = ok.filter(t => !GROUPS || t.group), nd = cnt.filter(t => done.has(t.id)).length;
   const card = t => { const i = topics.indexOf(t), l = locked(t);
-    return `<${l ? 'div' : 'a href="#/' + t.id + '"'} class="tcard${l ? ' lock' : ''}${done.has(t.id) ? ' done' : ''}"><div class="n">${num(i)}</div>${l || !t.lec ? '' : `<div class="lecs">${lecPills(t, 1)}</div>`}<b>${t.title}</b>
+    return `<${l ? 'div' : 'a href="#/' + t.id + '"'} class="tcard${l ? ' lock' : ''}${done.has(t.id) ? ' done' : ''}"><div class="n">${num(i)}</div>${l || !(t.lec || t.sem) ? '' : `<div class="lecs">${lecPills(t, 1)}</div>`}<b>${t.title}</b>
     <span class="s">${t.summary || ''}</span>${l ? '<span class="wip">Nedodělané – chybí podklady</span>' : `<div class="f"><span>${t.sections.length} sekcí</span><span>${(t.qa || []).length} otázek</span>${done.has(t.id) ? '<span style="color:var(--ok)">✔ naučeno</span>' : ''}</div>`}</${l ? 'div' : 'a'}>`; };
   return `<div class="crumb">${SUBJECT.code || ''}</div><header class="hero"><div><h2>${SUBJECT.name}</h2><p>${SUBJECT.desc || ''}</p></div></header>
-  ${gTabs(1)}
+  ${gTabs(1)}${semBar(1)}${curS ? `<div class="notice">Zobrazena jen témata potřebná na <b>cvičení ${curS}: ${SEMS.find(x => x.n === curS).h}</b>${SEMS.find(x => x.n === curS).all ? ' (všechna témata ze cvičení)' : ''}. Filtr platí i pro menu vlevo; zrušíš ho tlačítkem „Vše“.</div>` : ''}
   <div class="stats"><div><b>${cnt.length}</b><span>témat k učení</span></div><div><b>${cnt.reduce((a, t) => a + (t.qa || []).length, 0)}</b><span>otázek</span></div><div><b>${nd}/${cnt.length}</b><span>naučeno</span></div></div>
   <div class="gh">Hotová témata</div><div class="grid">${ok.map(card).join('')}</div>
   ${wip.length ? `<div class="gh">Nedodělané (${wip.length})</div><div class="notice">K těmto tématům nebyly dodány podklady, proto jsou zatím zamčená. Po dodání materiálů se odemknou.</div><div class="grid" style="margin-top:12px">${wip.map(card).join('')}</div>` : ''}`;
@@ -128,9 +135,9 @@ function search(q) {
 }
 function nav() {
   const nd = topics.filter(t => !locked(t) && inG(t));
-  $('#side').innerHTML = `${gTabs()}<div class="prog"><i style="width:${nd.length ? nd.filter(t => done.has(t.id)).length / nd.length * 100 : 0}%"></i></div>
+  $('#side').innerHTML = `${gTabs()}${semBar()}<div class="prog"><i style="width:${nd.length ? nd.filter(t => done.has(t.id)).length / nd.length * 100 : 0}%"></i></div>
   <a href="#/" class="${!location.hash.slice(2) ? 'cur' : ''}"><span class="n">⌂</span>Přehled</a>${window.WIDGETS?.mapa ? `<a href="#/mapa" class="${location.hash === '#/mapa' ? 'cur' : ''}"><span class="n">🗺</span>Myšlenková mapa</a>` : ''}<div class="grp">Témata</div>
-  ${topics.map((t, i) => !inG(t) ? '' : locked(t) ? `<a class="lock" title="Nedodělané – chybí podklady"><span class="n">${num(i)}</span>${t.title}</a>` : `<a href="#/${t.id}" class="${location.hash === '#/' + t.id ? 'cur' : ''}"><span class="n">${num(i)}</span>${t.title}${lecPills(t)}${done.has(t.id) ? '<span class="ok">✔</span>' : ''}</a>`).join('')}`;
+  ${topics.map((t, i) => !inG(t) || !inS(t) ? '' : locked(t) ? `<a class="lock" title="Nedodělané – chybí podklady"><span class="n">${num(i)}</span>${t.title}</a>` : `<a href="#/${t.id}" class="${location.hash === '#/' + t.id ? 'cur' : ''}"><span class="n">${num(i)}</span>${t.title}${lecPills(t)}${done.has(t.id) ? '<span class="ok">✔</span>' : ''}</a>`).join('')}`;
 }
 // kartičky: náhodné pořadí, sebehodnocení Vím / Nevím, na konci opakování nezvládnutých
 let fc;
@@ -225,6 +232,7 @@ function route() {
 }
 document.addEventListener('click', e => {
   const gt = e.target.closest('[data-grp]'); if (gt) { setG(gt.dataset.grp); const t = topics.find(x => '#/' + x.id === location.hash); if (t?.group && t.group !== curG) location.hash = '#/'; route(); return; }
+  const sb = e.target.closest('[data-sem]'); if (sb) { curS = +sb.dataset.sem; store.set(semKey, curS); route(); return; }
   const g = e.target.closest('[data-go]'), qa = e.target.dataset.qa, f = e.target.dataset.fc;
   const sh = e.target.closest('[data-sec]'); if (sh) window._sec = sh.dataset.sec;
   if (g) { e.preventDefault(); document.getElementById(g.dataset.go)?.scrollIntoView(); }

@@ -247,6 +247,9 @@ nav.side a .lec{margin-left:auto}nav.side a .lec+.lec{margin-left:0}nav.side a .
 .gtabs{display:flex;gap:4px;margin:0 14px 10px}.gtabs button{flex:1;padding:6px 4px;font-size:12.5px;line-height:1.2}
 .gtabs.big{margin:0 0 18px;gap:8px}.gtabs.big button{padding:12px 10px;font-size:15px;font-weight:600}.gtabs small{font:12px var(--mono);opacity:.7;margin-left:4px}
 nav.side .gtabs button{padding:6px 2px}
+.lec.sem{--lc:var(--accent)}.hero .meta .lec.sem{align-self:center}
+.sems{display:flex;gap:4px;margin:0 14px 10px;flex-wrap:wrap}.sems button{flex:1;padding:4px 2px;font:12px var(--mono)}
+.sems.big{margin:0 0 14px;gap:6px;align-items:center}.sems.big button{flex:0 1 auto;padding:7px 12px;font-size:13px;font-family:inherit}.sems .lb{font:11px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:4px;width:100%}
 
 /* sdílené prvky widgetů (assets/wg.js) */
 .qw-in{font:13px var(--mono);padding:4px 8px;border:1px solid var(--line2);background:var(--bg);color:var(--text);max-width:100%}.qw-in:focus{outline:none;border-color:var(--accent)}

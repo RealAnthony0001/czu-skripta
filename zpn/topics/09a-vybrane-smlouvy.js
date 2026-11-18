@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'vybrane-smlouvy', order: 11, icon: '📝', title: 'Vybrané smlouvy: kupní, o dílo, nájem, darování, směna', src: 'podklady', lec: [6], where: 'Cvičení 3 (3. seminář 4. 11. 2024, III. seminář) + přednáška Mgr. Reichert (vlastnictví, smlouvy, katastr) + vzorové smlouvy a formulář návrhu na vklad',
+  id: 'vybrane-smlouvy', order: 11, sem: [3], icon: '📝', title: 'Vybrané smlouvy: kupní, o dílo, nájem, darování, směna', src: 'podklady', lec: [6], where: 'Cvičení 3 (3. seminář 4. 11. 2024, III. seminář) + přednáška Mgr. Reichert (vlastnictví, smlouvy, katastr) + vzorové smlouvy a formulář návrhu na vklad',
   summary: 'Nominátní smlouvy z NOZ: kupní (vady, vedlejší ujednání, koupě nemovitosti a vklad do katastru), o dílo, nájem (obecný, bytu, prostoru sloužícího podnikání), pacht, darování, směna, půjčka a výpůjčka. Doplněno vzorovými smlouvami a návrhem na vklad.',
   vocab: [
     {w:'Prodávající × kupující',x:'Prodávající odevzdá věc a umožní nabýt vlastnictví; kupující věc převezme a zaplatí cenu.'},

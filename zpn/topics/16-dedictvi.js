@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'dedictvi', order: 19, icon: '⚰️', title: 'Dědické právo', src: 'podklady', where: 'Seminář 4 – dědické právo (30. 10. 2024); § 1475 an. OZ',
+  id: 'dedictvi', order: 19, sem: [5], icon: '⚰️', title: 'Dědické právo', src: 'podklady', where: 'Seminář 4 – dědické právo (30. 10. 2024); § 1475 an. OZ',
   summary: 'Pojmy a zásady dědického práva, čtyři předpoklady dědění, dědická nezpůsobilost, dědické tituly (závěť, dědická smlouva, zákon), formy závěti a svědci, šest dědických tříd, vydědění, odmítnutí a odevzdání dědictví a příklady ze semináře.',
   vocab: [
     { w: 'Zůstavitel', x: 'Zemřelý, po kterém se dědí.' },

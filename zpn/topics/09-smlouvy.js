@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'smlouvy', order: 10, icon: '🤝', title: 'Relativní majetková práva: závazky a uzavření smlouvy', src: 'podklady', lec: [6], where: 'Přednáška 6 (Relativní majetkové právo – závazkové vztahy) + Cvičení 3 (Závazky v soukromém právu)',
+  id: 'smlouvy', order: 10, sem: [3], icon: '🤝', title: 'Relativní majetková práva: závazky a uzavření smlouvy', src: 'podklady', lec: [6], where: 'Přednáška 6 (Relativní majetkové právo – závazkové vztahy) + Cvičení 3 (Závazky v soukromém právu)',
   summary: 'Závazkové právo v NOZ: pojem závazku, zásady smluvního práva, uzavření smlouvy (oferta a akceptace, předsmluvní odpovědnost), změny a zánik závazků, prodlení a zajištění × utvrzení dluhu. Jednotlivé smlouvy (kupní, o dílo, nájem, darování…) jsou v navazujícím tématu.',
   vocab: [
     {w:'Závazek (obligace)',x:'Relativní právní vztah, ve kterém má věřitel právo na plnění (pohledávka) a dlužník povinnost plnit (dluh).'},

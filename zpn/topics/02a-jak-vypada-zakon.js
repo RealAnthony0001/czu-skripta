@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'jak-vypada-zakon', order: 3, icon: '📖', title: 'Jak vypadá zákon (stavba a citace)', src: 'podklady', lec: [1], where: 'Cvičení 1 (Sbírka zákonů) + § 605–607 OZ; stavba zákona (doplněno)',
+  id: 'jak-vypada-zakon', order: 3, sem: [1], icon: '📖', title: 'Jak vypadá zákon (stavba a citace)', src: 'podklady', lec: [1], where: 'Cvičení 1 (Sbírka zákonů) + § 605–607 OZ; stavba zákona (doplněno)',
   summary: 'Reálný zákon (občanský zákoník) od hlavičky po účinnost: členění na části, paragrafy, odstavce a písmena, správná citace, závěrečná ustanovení a novela.',
   vocab: [
     { w: 'Sbírka zákonů', x: 'Úřední sbírka, ve které se předpisy vyhlašují; vede se elektronicky (zák. č. 222/2016 Sb.).' },

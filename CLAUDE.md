@@ -75,6 +75,8 @@ registerTopic({
 
 Záložky (volitelné): `window.SUBJECT.groups = [{ id, name, short, icon }]` a v tématu `group: 'id'` rozdělí menu i přehled na záložky; téma bez `group` je vidět ve všech (vzor: `ang`).
 
+Filtr podle cvičení (volitelné): `window.SUBJECT.sems = [{ n, h, all? }]` a v tématu `sem: [n, …]` přidá do přehledu a menu tlačítka „Vše / C1 … Cn“ (pamatuje se v localStorage) a štítky C1… na kartách; `all: true` = cvičení zahrnuje všechna témata s nějakým `sem` (např. zápočtový test). Vzor: `zpn` (cvičení podle sylabu v tématu „O předmětu“).
+
 Texty jsou HTML (`<b>`, `<sub>`, `<sup>`, `<i>`). Bloky v `blocks` (`t` = typ):
 
 | typ | pole | vzhled |

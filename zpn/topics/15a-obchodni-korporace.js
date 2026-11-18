@@ -1,5 +1,5 @@
 registerTopic({
-  id: 'obchodni-korporace', order: 18, icon: '🏢', title: 'Obchodní korporace a formy podnikání', src: 'podklady', where: 'IV. seminář – veřejnoprávní úprava podnikání (JUDr. Cvik) + 4. seminární cvičení (Dodamgoda) + vzor společenské smlouvy s.r.o. + vzor smlouvy o výkonu funkce jednatelky',
+  id: 'obchodni-korporace', order: 18, sem: [4], icon: '🏢', title: 'Obchodní korporace a formy podnikání', src: 'podklady', where: 'IV. seminář – veřejnoprávní úprava podnikání (JUDr. Cvik) + 4. seminární cvičení (Dodamgoda) + vzor společenské smlouvy s.r.o. + vzor smlouvy o výkonu funkce jednatelky',
   summary: 'Právní formy podnikání (OSVČ, v.o.s., k.s., s.r.o., a.s., družstvo) a jejich srovnání; zákon o obchodních korporacích a prameny obchodního práva; osobní × kapitálové společnosti; založení × vznik, zrušení × zánik; základní kapitál, vklady, podíl, rezervní fond; společenská smlouva, zakladatelská listina, stanovy; s.r.o. podle vzorové smlouvy; smlouva o výkonu funkce, péče řádného hospodáře, střet zájmů a ručení členů orgánů.',
   vocab: [
     { w: 'ZOK', x: 'Zákon č. 90/2012 Sb., o obchodních společnostech a družstvech (zákon o obchodních korporacích), účinný od 1. 1. 2014.' },
